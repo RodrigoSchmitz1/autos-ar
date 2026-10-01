@@ -19,6 +19,13 @@ Tres formatos de precio en la misma guia: "24259", "111,660" (miles) y
 "36270,0" (decimal). Si uno no se reconoce, el renglon parece una marca y
 contamina todo lo de abajo: por eso hay controles que hacen fallar la ingesta.
 
+Y dos UNIDADES: casi todo esta en miles de pesos, pero en las marcas de lujo
+(Porsche, Ferrari, Jaguar...) los anios usados vienen en MILLONES para que
+entren en la columna. Un Cayman 2017 figura con 0 km "177,500" ($177,5 M) y
+2025 "141" ($141 M, no $141 mil). Regla: menos de 1.000 = millones. En octubre
+2026 eran 740 precios, todos de marcas de lujo, y no habia ninguno entre 1.000
+y 3.000: la frontera no es ambigua. Queda registrada en `unidad_original`.
+
 Uso: python -m ingesta.cca
 """
 
@@ -42,6 +49,7 @@ MESES = {m: i for i, m in enumerate(
      "septiembre", "octubre", "noviembre", "diciembre"], start=1)}
 PRECIO = re.compile(r"^\d{1,3}(,\d{3})+$|^\d+(,\d{1,2})?$")
 SALTO_DE_MARCA = 18
+UMBRAL_MILLONES = 1000  # un precio menor esta en millones, no en miles (ver arriba)
 
 
 def a_numero(texto):
@@ -108,8 +116,11 @@ def parsear(pdf):
             if abs(x - centro) > 20:
                 sin_anio += 1
                 continue
-            filas.append({"marca": marca, "modelo": modelo, "version": descripcion,
-                          "anio": anio, "precio_miles": a_numero(w["text"])})
+            valor = a_numero(w["text"])
+            en_millones = valor < UMBRAL_MILLONES
+            filas.append({"marca": marca, "modelo": modelo, "version": descripcion, "anio": anio,
+                          "precio_miles": valor * 1000 if en_millones else valor,
+                          "unidad_original": "millones" if en_millones else "miles"})
     return filas, sin_anio, sin_precio
 
 
@@ -123,6 +134,9 @@ def validar(con, sin_anio, sin_precio):
         errores.append(f"{sin_marca} precios sin marca y {sin_modelo} sin modelo")
     if marcas < 50:
         errores.append(f"solo {marcas} marcas (eran 69 en octubre 2026)")
+    ambiguos = con.sql("SELECT count(*) FROM t WHERE precio_miles BETWEEN 1000 AND 3000").fetchone()[0]
+    if ambiguos:
+        errores.append(f"{ambiguos} precios entre 1.000 y 3.000: la regla de millones ya no separa limpio")
     if sin_precio > 50:
         errores.append(f"{sin_precio} versiones sin precio (eran 8): probablemente un formato de precio nuevo")
     if errores:

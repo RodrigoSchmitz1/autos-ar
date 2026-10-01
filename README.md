@@ -63,3 +63,30 @@ Decisiones que importan:
 - **Livianos y pesados se miden por separado.** Las guías de precios no cubren camiones ni remolques; contarlos como "no cruza" bajaba la cobertura sin que fuera un problema del cruce.
 - **La guía CCA se pisa cada mes en la misma URL**: se captura todos los días para no perder ningún mes.
 - **Las tablas de valuación anteriores a 2023 tienen otro formato** y por ahora no se ingieren: la ingesta las rechaza con un error en vez de cargarlas mal.
+
+## Fase 3: marts
+
+| Mart | Grano | Para qué |
+|---|---|---|
+| `mart_mercado_mensual` | mes × provincia × trámite × marca × modelo | qué se patenta, transfiere, prenda y roba, y con qué antigüedad |
+| `mart_depreciacion` | marca × modelo × antigüedad (1-14 años) | cuánto del 0 km conserva un auto, según el fisco y según el mercado |
+| `mart_combustible_mensual` | mes × provincia × producto × bandera | precio mediano, precio ponderado por volumen e impuestos |
+| `mart_combustible_estaciones` | estación × producto (último mes completo) | el mapa de estaciones más baratas |
+
+**Primer hallazgo: la valuación fiscal deprecia menos que el mercado.** Mediana de los modelos con respaldo (al menos 3 versiones de cada lado):
+
+| Antigüedad | Valuación fiscal | Mercado (guía CCA) |
+|---|---|---|
+| 1 año | 84% del 0 km | 68% |
+| 5 años | 63% | 53% |
+| 10 años | 48% | 40% |
+
+Es decir, el fisco considera que un auto usado vale más de lo que vale en el mercado. La patente y los aranceles de transferencia se calculan sobre esa base. La excepción es la Hilux: fiscal y mercado van casi juntos durante cinco años.
+
+Decisiones que importan:
+
+- **Depreciación por índice encadenado.** La CCA le pone el año al nombre de la versión ("TITANIUM 2025"), así que casi ninguna tiene a la vez precio 0 km y de varios años atrás. Se encadenan los saltos de un año (mediana de precio(N) / precio(N-1) de la misma versión): las curvas con respaldo pasaron de 74 a 285 puntos. Se usa el mismo método del lado fiscal para que las curvas sean comparables.
+- **Proporciones, no precios.** El ratio entre el precio de la CCA y el valor fiscal sale bimodal (1,00 en unos modelos, ~0,70 en otros), porque las fuentes miden en fechas y niveles distintos. La proporción dentro de cada fuente elimina ese problema.
+- **La CCA cambia de unidad en el mismo renglón.** En las marcas de lujo, los años usados vienen en millones y el 0 km en miles: un Cayman 2017 figuraba a $87 mil. Menos de 1.000 = millones. Son 740 precios, sin ninguno en la zona ambigua (1.000 a 3.000), y la ingesta falla si aparece alguno.
+- **El mart de mercado no pierde trámites.** Los que no tienen código de modelo (2,4%) entran como `sin_codigo`. Un test verifica que el total coincida con staging.
+- **Combustible: mediana, sin exentos ni valores atípicos** (menos de la mitad o más del doble de la mediana provincial: 0,4% de las filas).
