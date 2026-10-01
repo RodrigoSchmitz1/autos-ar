@@ -34,6 +34,17 @@ Opciones, de más a menos rápida:
 - **BCRA:** algún servidor de www.bcra.gob.ar manda la cadena SSL incompleta. La API (api.bcra.gob.ar) no tuvo el problema. La ingesta tiene que reintentar.
 - Las URLs de descarga de DNRPA cambian con cada publicación: hay que descubrirlas con la API del catálogo (`package_show`), no escribirlas a mano.
 
-## Desde GitHub Actions
+## Desde GitHub Actions (2026-10-01, run #1)
 
-Pendiente: el workflow `.github/workflows/fase0_acceso.yml` está listo, pero falta el repositorio.
+Se repitió la prueba con el workflow `.github/workflows/fase0_acceso.yml` desde una IP de datacenter. Resultados: `resultados_acceso_actions.csv`.
+
+**Ningún portal del Estado bloquea a Actions**: DNRPA, Energía, BCRA y datos.gob.ar responden igual que desde la PC. A diferencia de SEPA, la ingesta puede correr entera en la nube, sin depender de la PC.
+
+Diferencias (2 de 39):
+
+| Fuente | PC | Actions | Lectura |
+|---|---|---|---|
+| acaramotos.org.ar | 200 | timeout (30 s) | Puede ser un bloqueo a IPs de nube o algo pasajero; con una prueba no alcanza. El sitio de autos (acara.org.ar) respondió en los dos lados. Reprobar antes de diseñar su ingesta |
+| CSV de la etiqueta (Wayback) | error SSL | 200 | Confirma que el error era de Python en Windows con la cadena de certificados, no de la red |
+
+La página de la etiqueta vehicular da 403 en los dos lados: Cloudflare frena a los scripts sin importar desde dónde vengan.
