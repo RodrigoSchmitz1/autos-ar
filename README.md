@@ -15,7 +15,7 @@ Cuánto vale, cuánto cuesta tener y qué conviene comprar: autos en Argentina c
 
 Fuentes: DNRPA (inscripciones, transferencias, prendas, robos), Secretaría de Energía (precios en surtidor), BCRA (tasas prendarias), guías de precios ACARA y CCA, y tiendas de repuestos.
 
-## Fase 1: ingesta y staging (en curso)
+## Fase 1: ingesta y staging
 
 ```
 ingesta/           Python: baja las fuentes y guarda un Parquet por mes en datos/raw/
@@ -42,3 +42,24 @@ python -m ingesta.dnrpa
 python -m ingesta.combustible
 dbt build --project-dir transform --profiles-dir transform
 ```
+
+## Fase 2: catálogo canónico de versiones
+
+El centro del modelo es **`dim_version`**: una fila por versión de auto, identificada por el código de DNRPA (origen, marca, tipo, modelo). Cada fuente se cruza contra ese código, y cada cruce dice cómo se hizo.
+
+| Fuente | Cómo cruza | 0 km livianos, último año |
+|---|---|---|
+| Valuación fiscal (DNRPA) | por código, exacto | 97,9% |
+| Guía de precios CCA | por texto, a nivel modelo | 98,5% |
+| Consumo (etiqueta, copia 2022) | por texto, a nivel modelo | 53,0% |
+
+`cobertura_mapeos` publica estas cifras y un test frena el pipeline si caen.
+
+Decisiones que importan:
+
+- **El código es la llave, no el texto.** Los microdatos y la tabla de valuación usan los mismos códigos. Las descripciones no: el mismo código aparece escrito de varias formas en los usados.
+- **~400 códigos nacionales se repiten entre fabricantes** (los microdatos no traen fabricante). Si los valores coinciden da igual cuál se tome. Si no (93 casos, como "Siena EX Fire" y "Duna CSD" con el mismo código), se elige por similitud con la descripción del trámite y queda registrado como `codigo_desempate_texto`.
+- **Cruce por texto con método y alias.** La normalización viene de la Fase 0 y está cubierta por tests (`ingesta/test_texto.py`). Los nombres que la normalización no puede unir ("SW4" contra "HILUX SW4") se resuelven en una tabla de alias editable (`alias_modelos.csv`), no en el código. Los empates quedan marcados como `prefijo_ambiguo` con sus candidatos.
+- **Livianos y pesados se miden por separado.** Las guías de precios no cubren camiones ni remolques; contarlos como "no cruza" bajaba la cobertura sin que fuera un problema del cruce.
+- **La guía CCA se pisa cada mes en la misma URL**: se captura todos los días para no perder ningún mes.
+- **Las tablas de valuación anteriores a 2023 tienen otro formato** y por ahora no se ingieren: la ingesta las rechaza con un error en vez de cargarlas mal.

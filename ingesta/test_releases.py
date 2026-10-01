@@ -17,6 +17,11 @@ CASOS = [
     ("combustible/precios_1104/202412.parquet", "combustible__precios_1104__202412.parquet", "datos-2024"),
     ("combustible/estaciones.parquet", "combustible__estaciones.parquet", GENERAL),
     ("dnrpa/_estado.json", "dnrpa___estado.json", GENERAL),
+    # La valuacion se nombra por vigencia (AAAAMMDD), no por mes: va a general.
+    ("valuacion/20261001.parquet", "valuacion__20261001.parquet", GENERAL),
+    ("cca/202610.parquet", "cca__202610.parquet", "datos-2026"),
+    ("cca/_estado.json", "cca___estado.json", GENERAL),
+    ("consumo/ensayos_20220609.parquet", "consumo__ensayos_20220609.parquet", GENERAL),
 ]
 
 

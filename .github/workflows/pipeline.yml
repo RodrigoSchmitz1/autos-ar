@@ -41,7 +41,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Tests de las utilidades
-        run: python -m ingesta.test_releases
+        run: |
+          python -m ingesta.test_releases
+          python -m ingesta.test_texto
 
       - name: Bajar datos ya publicados
         run: python -m ingesta.releases bajar
@@ -54,6 +56,20 @@ jobs:
       - name: Ingesta combustible
         if: ${{ !cancelled() }}
         run: python -m ingesta.combustible
+
+      - name: Ingesta valuacion fiscal
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.valuacion
+
+      # La guia CCA se pisa cada mes en la misma URL: el mes que no se captura
+      # se pierde. Por eso corre todos los dias, aunque cambie una vez por mes.
+      - name: Ingesta guia CCA
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.cca
+
+      - name: Ingesta consumo (fuente congelada, solo la primera vez)
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.consumo
 
       - name: Publicar datos nuevos o modificados
         if: ${{ !cancelled() }}

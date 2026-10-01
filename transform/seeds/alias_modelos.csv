@@ -1,0 +1,8 @@
+fuente,marca,modelo_dnrpa,modelo_fuente,motivo
+cca,TOYOTA,SW4,HILUX SW4,La CCA lo lista como variante de la Hilux
+cca,CITROEN,AIRCROSS,C 3 AIRCROSS,DNRPA omite el C3 en el Aircross 2026
+cca,RENAULT,STEPWAY,SANDERO STEPWAY,DNRPA omite Sandero
+cca,RENAULT,OROCH,DUSTER OROCH PICK - UP,DNRPA omite Duster
+cca,NISSAN,X-TRAIL,XTRAIL,Guion entre letras
+cca,MG,MG3,3 HYBRID,La CCA no repite la marca en el modelo
+cca,BAIC,X55,X55 CROSSOVER,La CCA agrega Crossover

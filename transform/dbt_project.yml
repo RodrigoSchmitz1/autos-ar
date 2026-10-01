@@ -19,6 +19,10 @@ models:
   autos_ar:
     staging:
       +materialized: view
+    intermedios:
+      +materialized: table
+    marts:
+      +materialized: table
 
 seeds:
   autos_ar:
@@ -29,6 +33,17 @@ seeds:
     provincias_variantes:
       +column_types:
         provincia_id: varchar
+    # Correcciones a mano de los cruces por texto. Arranca vacia: se carga
+    # cuando una revision encuentra un cruce mal hecho.
+    revisiones_mapeo:
+      +column_types:
+        fuente: varchar
+        origen_codigo: varchar
+        marca_codigo: varchar
+        tipo_codigo: varchar
+        modelo_codigo: varchar
+        modelo_asignado: varchar
+        motivo: varchar
 
 flags:
   send_anonymous_usage_stats: false

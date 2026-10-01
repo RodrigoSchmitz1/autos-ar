@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: dim_version
+    description: >
+      Catalogo canonico de versiones (codigo DNRPA) con sus cruces a la
+      valuacion fiscal, la guia CCA y el consumo, y el metodo de cada cruce.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [origen_codigo, marca_codigo, tipo_codigo, modelo_codigo]
+    columns:
+      - name: cca_metodo
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["alias", "prefijo", "prefijo_ambiguo", "revision_manual"]
+
+  - name: cobertura_mapeos
+    description: Porcentaje del mercado que cruza con cada fuente (por versiones, tramites y 0 km).
+    columns:
+      - name: fuente
+        data_tests: [unique, not_null]
