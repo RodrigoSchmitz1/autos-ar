@@ -19,9 +19,11 @@ Fuentes: DNRPA (inscripciones, transferencias, prendas, robos), Secretaría de E
 
 ```
 ingesta/           Python: baja las fuentes y guarda un Parquet por mes en datos/raw/
+  releases.py      publica y recupera datos/raw en GitHub Releases
   dnrpa.py         inscripciones, transferencias, prendas y robos (2018 en adelante)
   combustible.py   precios y volúmenes por estación (Res. 1104) + coordenadas (Res. 314)
 transform/         dbt + DuckDB: staging con tests
+.github/workflows/pipeline.yml   corre todos los días a las 07:23 (hora argentina)
 ```
 
 Decisiones que importan:
@@ -29,11 +31,13 @@ Decisiones que importan:
 - **Privacidad por lista blanca.** De DNRPA se guarda solo lo del trámite y el auto, y del titular únicamente si es persona física o jurídica. Una columna nueva que publique DNRPA queda afuera sola.
 - **DNRPA revisa años cerrados** (el ZIP de 2025 cambió en agosto de 2026). La ingesta guarda la fecha de modificación de cada archivo y reprocesa el año entero si cambia. Rehacer un mes pisa su archivo: correr dos veces da lo mismo.
 - **Combustible: Res. 1104, no Res. 314.** La 314 dejó de ser obligatoria en junio de 2025. En la 1104 el grano incluye si la venta es exenta de impuestos; sin eso aparecían 958 falsos duplicados.
+- **Los datos viven en GitHub Releases** (`datos-2018` … `datos-2026` y `datos-general`), no en el repo ni en una PC. Cada corrida de Actions baja lo publicado, ingiere lo nuevo y sube solo los archivos cuya huella (SHA-256) cambió. Son públicos y se pueden bajar sin cuenta.
 - **Tests de frescura contra la fecha de hoy**, no contra otra tabla: un pipeline que se mide contra sí mismo no ve su propio atraso.
 
 Cómo correrlo:
 
 ```bash
+python -m ingesta.releases bajar   # opcional: trae lo ya publicado en vez de rehacerlo
 python -m ingesta.dnrpa
 python -m ingesta.combustible
 dbt build --project-dir transform --profiles-dir transform

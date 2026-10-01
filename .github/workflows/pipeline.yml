@@ -1,0 +1,73 @@
+# Pipeline diario: baja lo ya publicado, ingiere lo nuevo de cada fuente, lo
+# publica y recien despues transforma y testea.
+#
+# Corre todos los dias aunque las fuentes sean mensuales: casi siempre no hay
+# nada nuevo y termina rapido, pero los tests de frescura (contra la fecha de
+# hoy) tienen que correr igual para avisar si una fuente se atrasa. El repo es
+# publico, asi que los minutos de Actions no tienen costo.
+name: Pipeline
+
+on:
+  schedule:
+    # 10:23 UTC = 07:23 en Argentina. No en punto: GitHub demora los cron de
+    # las horas redondas, que son los mas cargados.
+    - cron: "23 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # crear releases y subirles archivos
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false # nunca cortar una corrida a mitad de una subida
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Tests de las utilidades
+        run: python -m ingesta.test_releases
+
+      - name: Bajar datos ya publicados
+        run: python -m ingesta.releases bajar
+
+      - name: Ingesta DNRPA
+        run: python -m ingesta.dnrpa
+
+      # Las ingestas son independientes: si una falla, la otra corre igual y lo
+      # que se haya ingerido se publica. El job queda en rojo de todos modos.
+      - name: Ingesta combustible
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.combustible
+
+      - name: Publicar datos nuevos o modificados
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.releases subir
+
+      - name: dbt deps y seed
+        run: |
+          dbt deps --project-dir transform --profiles-dir transform
+          dbt seed --project-dir transform --profiles-dir transform
+
+      # run y test por separado, como en SEPA: un test que falla no debe
+      # impedir que se construyan los modelos de abajo.
+      - name: dbt run
+        run: dbt run --project-dir transform --profiles-dir transform
+
+      - name: dbt test
+        run: dbt test --project-dir transform --profiles-dir transform
