@@ -1,0 +1,29 @@
+# Fase 0.2: el mismo chequeo de acceso que se corrio desde la PC, pero desde
+# una IP de datacenter. En SEPA, datos.produccion.gob.ar respondia 200 desde
+# casa y 403 desde Actions: si algun portal hace lo mismo, su ingesta tiene que
+# correr en la PC. Se dispara a mano; no tiene cron.
+name: Fase 0 - acceso a fuentes
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      # Misma version que en la PC: Python 3.13+ valida los certificados en
+      # modo estricto, y con otra version los errores SSL no serian comparables.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - name: Probar acceso
+        run: python fase0/probar_acceso.py --origen actions
+      - uses: actions/upload-artifact@v4
+        with:
+          name: resultados_acceso_actions
+          path: fase0/resultados_acceso_actions.csv

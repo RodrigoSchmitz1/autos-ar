@@ -1,0 +1,19 @@
+# Datos: se regeneran desde las fuentes, nunca se versionan
+datos/
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.zip
+
+# Credenciales y configuracion local
+.env
+credenciales*.json
+*.key
+
+# Python
+__pycache__/
+venv/
+.venv/
+
+# Notas de trabajo personales (no van al repo publico)
+CONTEXTO.md
