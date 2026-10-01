@@ -103,5 +103,13 @@ Decisiones que importan:
 | Provincia | Estado | Notas |
 |---|---|---|
 | Buenos Aires | cargada (Ley 15.558) | La base oficial son los valores de ACARA × 0,95; se aproxima con la valuación de DNRPA × 0,95. Las cuotas se ajustan por IPC. Los modelos 1990-2015 pagan al municipio |
-| CABA | pendiente | En 2026 pasó a base ACARA, y AGIP topeó el aumento en 31,8% sobre lo pagado en 2025: la patente real depende del año anterior. El texto oficial de la ley no se puede bajar del Boletín Oficial porteño |
+| CABA | cargada (Ley 6927 art. 50, fe de erratas) | Siete tramos de 1,6% a 8%; las pick-ups pagan 2,3% fijo; tope del 6% de la valuación, mínimo de $13.300 y recargo del 10% para el Fondo Subte. En 2026 la base pasó a ACARA, y AGIP topeó el aumento en 31,8% sobre 2025: la patente real puede ser menor que la estimada |
+| Córdoba | cargada (Ley 11.090 arts. 55-60) | **Usa la valuación de DNRPA como base oficial**: es la única de las tres donde la estimación no es una aproximación. Cuatro tramos de 0,85% a 2,10%. Modelos 2016 y anteriores exentos, salvo los 2009-2016 que valen $19,4 millones o más |
 | Resto | pendiente | |
+
+Mismo auto, distinta provincia (Polo Track 0 km, valuación fiscal $37,6 millones):
+
+| | Buenos Aires | CABA | Córdoba |
+|---|---|---|---|
+| Patente anual estimada | $838.565 | $1.697.451 | $518.254 |
+| Tasa efectiva | 2,2% | 4,5% | 1,4% |

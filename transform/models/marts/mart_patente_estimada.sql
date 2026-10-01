@@ -2,52 +2,79 @@
   Patente anual ESTIMADA por provincia, version y anio modelo.
 
   Es una estimacion y se publica como tal. Cada provincia fija su impuesto en su
-  ley impositiva anual (escala, base, coeficiente, que modelos alcanza) y esos
-  datos se curan a mano en dos seeds, con el articulo de ley de cada uno:
-    patente_reglas   base oficial, coeficiente, ajustes, que queda afuera
-    patente_escalas  tramos: cuota fija + alicuota sobre el excedente
+  ley impositiva anual y esos datos se curan a mano en dos seeds, con el
+  articulo de ley de cada uno:
+    patente_reglas   base oficial, coeficiente, tope, recargo, ajustes
+    patente_escalas  tramos por categoria (auto / pick-up): cuota fija +
+                     alicuota sobre el excedente, minimo anual, y una
+                     valuacion minima opcional (Cordoba: los modelos 2009-2016
+                     solo pagan si valen $19,4 M o mas)
 
-  Por que estimada: la base oficial casi nunca es la valuacion de DNRPA. En
-  Buenos Aires son los valores de ACARA x 0,95 (Ley 15.558 art. 35), y ACARA no
-  es publica. Se usa la valuacion fiscal de DNRPA, que se arma con precios de
-  ACARA y CCA, como aproximacion; `base_usada` lo dice en cada fila.
-  Ademas, cada cuota se ajusta por inflacion durante el anio (art. 167): esto es
-  el impuesto de la escala, sin ajustes.
+  Por que estimada: la base oficial casi nunca es la valuacion de DNRPA (Buenos
+  Aires y CABA usan ACARA, que no es publica). Se usa la valuacion fiscal de
+  DNRPA, que se arma con precios de ACARA y CCA, como aproximacion;
+  `base_usada` lo dice en cada fila. Tampoco incluye los ajustes durante el anio
+  (IPC en Buenos Aires) ni topes sobre lo pagado el anio anterior (CABA): estan
+  descriptos en `patente_reglas.ajustes`.
+
+  Categoria: las pick-ups tienen escala propia en algunas jurisdicciones (CABA:
+  2,3% fijo). Se toma de la carroceria de DNRPA.
+
+  Orden del calculo: escala -> tope de tasa efectiva -> minimo -> recargo.
 
   Grano: provincia x version x anio modelo. Solo livianos, solo provincias con
-  reglas cargadas y solo los modelos que alcanza la escala.
+  reglas cargadas y solo los modelos que alcanza cada escala.
 #}
 
 with valuacion as (
     -- anio 0 de la tabla es el 0 km: el modelo del anio de la vigencia
-    select v.*, case when v.anio = 0 then year(v.vigencia) else v.anio end as anio_modelo
+    select v.*,
+           case when v.anio = 0 then year(v.vigencia) else v.anio end as anio_modelo,
+           case when d.tipo like 'PICK-UP%' then 'pickup' else 'auto' end as categoria
     from {{ ref('int_valuacion_version') }} v
     join {{ ref('dim_version') }} d using (origen_codigo, marca_codigo, tipo_codigo, modelo_codigo)
     where d.segmento = 'liviano'
 ),
 
-base as (
+escala as (
     select r.provincia_id, r.anio_fiscal, r.precision, r.base_usada,
-           v.origen_codigo, v.marca_codigo, v.tipo_codigo, v.modelo_codigo, v.anio_modelo,
+           r.tope_tasa_efectiva_pct, e.minimo_anual, coalesce(r.recargo_pct, 0) as recargo_pct,
+           v.origen_codigo, v.marca_codigo, v.tipo_codigo, v.modelo_codigo, v.anio_modelo, v.categoria,
            v.valor_fiscal,
-           v.valor_fiscal * r.coeficiente_base as base_imponible
+           v.valor_fiscal * r.coeficiente_base as base_imponible,
+           e.cuota_fija + (v.valor_fiscal * r.coeficiente_base - e.base_desde) * e.alicuota_pct / 100 as segun_escala,
+           e.alicuota_pct,
+           e.fuente
     from valuacion v
-    cross join {{ ref('patente_reglas') }} r
+    join {{ ref('patente_reglas') }} r on true
+    join {{ ref('patente_escalas') }} e
+      on e.provincia_id = r.provincia_id and e.anio_fiscal = r.anio_fiscal and e.categoria = v.categoria
+     and v.anio_modelo between e.modelo_desde and e.modelo_hasta
+     and (e.valuacion_minima is null or v.valor_fiscal >= e.valuacion_minima)
+     and v.valor_fiscal * r.coeficiente_base > e.base_desde
+     and (e.base_hasta is null or v.valor_fiscal * r.coeficiente_base <= e.base_hasta)
+),
+
+con_topes as (
+    select *,
+        greatest(
+            case when tope_tasa_efectiva_pct is not null
+                 then least(segun_escala, valor_fiscal * tope_tasa_efectiva_pct / 100)
+                 else segun_escala end,
+            coalesce(minimo_anual, 0)
+        ) as antes_de_recargo
+    from escala
 )
 
 select
-    b.provincia_id, b.anio_fiscal,
-    b.origen_codigo, b.marca_codigo, b.tipo_codigo, b.modelo_codigo, b.anio_modelo,
-    b.valor_fiscal,
-    round(b.base_imponible) as base_imponible,
-    round(e.cuota_fija + (b.base_imponible - e.base_desde) * e.alicuota_pct / 100) as patente_anual,
-    e.alicuota_pct as alicuota_marginal_pct,
-    b.precision,
-    b.base_usada,
-    e.fuente
-from base b
-join {{ ref('patente_escalas') }} e
-  on e.provincia_id = b.provincia_id and e.anio_fiscal = b.anio_fiscal and e.categoria = 'auto'
- and b.anio_modelo between e.modelo_desde and e.modelo_hasta
- and b.base_imponible > e.base_desde
- and (e.base_hasta is null or b.base_imponible <= e.base_hasta)
+    provincia_id, anio_fiscal,
+    origen_codigo, marca_codigo, tipo_codigo, modelo_codigo, anio_modelo, categoria,
+    valor_fiscal,
+    round(base_imponible) as base_imponible,
+    round(antes_de_recargo * (1 + recargo_pct / 100)) as patente_anual,
+    alicuota_pct as alicuota_marginal_pct,
+    round(segun_escala) <> round(antes_de_recargo) as aplico_tope_o_minimo,
+    precision,
+    base_usada,
+    fuente
+from con_topes

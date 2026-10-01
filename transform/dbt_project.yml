@@ -41,10 +41,14 @@ seeds:
         base_hasta: double
         cuota_fija: double
         alicuota_pct: double
+        valuacion_minima: double
+        minimo_anual: double
     patente_reglas:
       +column_types:
         provincia_id: varchar
         coeficiente_base: double
+        tope_tasa_efectiva_pct: double
+        recargo_pct: double
     banderas:
       +column_types:
         bandera_fuente: varchar

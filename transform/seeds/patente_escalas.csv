@@ -1,6 +1,33 @@
-provincia_id,anio_fiscal,categoria,modelo_desde,modelo_hasta,base_desde,base_hasta,cuota_fija,alicuota_pct,fuente
-06,2026,auto,2016,2026,0,14100000,0,1.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
-06,2026,auto,2016,2026,14100000,18700000,141000,2.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
-06,2026,auto,2016,2026,18700000,26100000,233000,3.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
-06,2026,auto,2016,2026,26100000,53900000,455000,4.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
-06,2026,auto,2016,2026,53900000,,1567000,4.50,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+provincia_id,anio_fiscal,categoria,modelo_desde,modelo_hasta,valuacion_minima,base_desde,base_hasta,cuota_fija,alicuota_pct,minimo_anual,fuente
+06,2026,auto,2016,2026,,0,14100000,0,1.00,,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,,14100000,18700000,141000,2.00,,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,,18700000,26100000,233000,3.00,,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,,26100000,53900000,455000,4.00,,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,,53900000,,1567000,4.50,,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,pickup,2016,2026,,0,14100000,0,1.00,,Ley 15.558 art. 33 inc. A: pick-ups no afectadas a actividad economica usan la escala de autos
+06,2026,pickup,2016,2026,,14100000,18700000,141000,2.00,,Ley 15.558 art. 33 inc. A: pick-ups no afectadas a actividad economica usan la escala de autos
+06,2026,pickup,2016,2026,,18700000,26100000,233000,3.00,,Ley 15.558 art. 33 inc. A: pick-ups no afectadas a actividad economica usan la escala de autos
+06,2026,pickup,2016,2026,,26100000,53900000,455000,4.00,,Ley 15.558 art. 33 inc. A: pick-ups no afectadas a actividad economica usan la escala de autos
+06,2026,pickup,2016,2026,,53900000,,1567000,4.50,,Ley 15.558 art. 33 inc. A: pick-ups no afectadas a actividad economica usan la escala de autos
+02,2026,auto,1900,2026,,0,7460000,0,1.60,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,auto,1900,2026,,7460000,17155000,119350,4.00,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,auto,1900,2026,,17155000,26850000,507150,4.50,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,auto,1900,2026,,26850000,36550000,943500,5.50,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,auto,1900,2026,,36550000,50350000,1477000,6.50,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,auto,1900,2026,,50350000,73100000,2374000,7.00,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,auto,1900,2026,,73100000,,3965000,8.00,13300,Ley 6927 art. 50 inc. a (fe de erratas del anexo)
+02,2026,pickup,1900,2026,,0,,0,2.30,13300,Ley 6927 art. 50 inc. b (camionetas y pick-up)
+14,2026,auto,2017,2026,,0,15785242,0,0.85,11500,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,auto,2017,2026,,15785242,24354374,134174.56,1.49,11500,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,auto,2017,2026,,24354374,32784734,261854.62,1.85,11500,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,auto,2017,2026,,32784734,,417816.28,2.10,11500,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,auto,2009,2016,19400000,15785242,24354374,134174.56,1.49,11500,Ley 11.090 arts. 55-57: modelos 2009-2016 exentos salvo valuacion >= $19.400.000
+14,2026,auto,2009,2016,19400000,24354374,32784734,261854.62,1.85,11500,Ley 11.090 arts. 55-57: modelos 2009-2016 exentos salvo valuacion >= $19.400.000
+14,2026,auto,2009,2016,19400000,32784734,,417816.28,2.10,11500,Ley 11.090 arts. 55-57: modelos 2009-2016 exentos salvo valuacion >= $19.400.000
+14,2026,pickup,2017,2026,,0,15785242,0,0.85,15000,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,pickup,2017,2026,,15785242,24354374,134174.56,1.49,15000,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,pickup,2017,2026,,24354374,32784734,261854.62,1.85,15000,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,pickup,2017,2026,,32784734,,417816.28,2.10,15000,Ley 11.090 arts. 55 y 56 (Cordoba)
+14,2026,pickup,2009,2016,19400000,15785242,24354374,134174.56,1.49,15000,Ley 11.090 arts. 55-57: modelos 2009-2016 exentos salvo valuacion >= $19.400.000
+14,2026,pickup,2009,2016,19400000,24354374,32784734,261854.62,1.85,15000,Ley 11.090 arts. 55-57: modelos 2009-2016 exentos salvo valuacion >= $19.400.000
+14,2026,pickup,2009,2016,19400000,32784734,,417816.28,2.10,15000,Ley 11.090 arts. 55-57: modelos 2009-2016 exentos salvo valuacion >= $19.400.000
