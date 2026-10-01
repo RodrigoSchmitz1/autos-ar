@@ -80,3 +80,20 @@ models:
         data_tests: [not_null]
       - name: longitud
         data_tests: [not_null]
+
+  - name: mart_patente_estimada
+    description: >
+      Patente anual estimada por provincia, version y anio modelo, desde la
+      escala de cada ley impositiva (seeds patente_reglas y patente_escalas).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [provincia_id, anio_fiscal, origen_codigo, marca_codigo, tipo_codigo, modelo_codigo, anio_modelo]
+    columns:
+      - name: patente_anual
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: false

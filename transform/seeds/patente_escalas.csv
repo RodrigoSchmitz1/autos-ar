@@ -1,0 +1,6 @@
+provincia_id,anio_fiscal,categoria,modelo_desde,modelo_hasta,base_desde,base_hasta,cuota_fija,alicuota_pct,fuente
+06,2026,auto,2016,2026,0,14100000,0,1.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,14100000,18700000,141000,2.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,18700000,26100000,233000,3.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,26100000,53900000,455000,4.00,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)
+06,2026,auto,2016,2026,53900000,,1567000,4.50,Ley 15.558 art. 33 inc. A (BO PBA 15-12-2025)

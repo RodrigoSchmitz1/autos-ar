@@ -1,0 +1,2 @@
+provincia_id,anio_fiscal,base_oficial,coeficiente_base,base_usada,precision,ajustes,fuera_de_escala,fuente
+06,2026,Valores ACARA x 0.95 (usados),0.95,Valuacion fiscal DNRPA x 0.95,estimado,Cada cuota se actualiza por IPC GBA (art. 167),"Modelos 1990-2015 pagan al municipio (art. 34); pick-ups y furgones afectados a actividad economica: 1,5% (art. 33 inc. B)",Ley 15.558 arts. 33-35 y 167 (BO PBA 15-12-2025) https://www.arba.gov.ar/archivos/Publicaciones/leyimpositiva2026.pdf

@@ -33,6 +33,21 @@ seeds:
     provincias_variantes:
       +column_types:
         provincia_id: varchar
+    # Patente: curada a mano desde cada ley impositiva, con el articulo de cada dato.
+    patente_escalas:
+      +column_types:
+        provincia_id: varchar
+        base_desde: double
+        base_hasta: double
+        cuota_fija: double
+        alicuota_pct: double
+    patente_reglas:
+      +column_types:
+        provincia_id: varchar
+        coeficiente_base: double
+    banderas:
+      +column_types:
+        bandera_fuente: varchar
     # Correcciones a mano de los cruces por texto. Arranca vacia: se carga
     # cuando una revision encuentra un cruce mal hecho.
     revisiones_mapeo:

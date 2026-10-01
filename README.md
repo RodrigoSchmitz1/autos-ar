@@ -90,3 +90,18 @@ Decisiones que importan:
 - **La CCA cambia de unidad en el mismo renglón.** En las marcas de lujo, los años usados vienen en millones y el 0 km en miles: un Cayman 2017 figuraba a $87 mil. Menos de 1.000 = millones. Son 740 precios, sin ninguno en la zona ambigua (1.000 a 3.000), y la ingesta falla si aparece alguno.
 - **El mart de mercado no pierde trámites.** Los que no tienen código de modelo (2,4%) entran como `sin_codigo`. Un test verifica que el total coincida con staging.
 - **Combustible: mediana, sin exentos ni valores atípicos** (menos de la mitad o más del doble de la mediana provincial: 0,4% de las filas).
+
+## Fase 4: patente y service (en curso)
+
+**Patente.** No hay un dataset: cada provincia fija el impuesto en su ley impositiva anual. Se cura a mano en dos tablas, con el artículo de ley de cada dato:
+
+- `patente_reglas`: qué base usa, con qué coeficiente, qué modelos alcanza la escala y qué ajustes se aplican durante el año.
+- `patente_escalas`: los tramos (cuota fija + alícuota sobre el excedente). Un test verifica que cada cuota fija sea lo acumulado por los tramos anteriores, así un error de tipeo al copiar una ley salta solo.
+
+`mart_patente_estimada` calcula la patente anual por versión y año modelo. **Es una estimación, y lo dice en cada fila.** La base oficial casi nunca es la valuación de DNRPA:
+
+| Provincia | Estado | Notas |
+|---|---|---|
+| Buenos Aires | cargada (Ley 15.558) | La base oficial son los valores de ACARA × 0,95; se aproxima con la valuación de DNRPA × 0,95. Las cuotas se ajustan por IPC. Los modelos 1990-2015 pagan al municipio |
+| CABA | pendiente | En 2026 pasó a base ACARA, y AGIP topeó el aumento en 31,8% sobre lo pagado en 2025: la patente real depende del año anterior. El texto oficial de la ley no se puede bajar del Boletín Oficial porteño |
+| Resto | pendiente | |
