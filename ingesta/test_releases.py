@@ -22,6 +22,9 @@ CASOS = [
     ("cca/202610.parquet", "cca__202610.parquet", "datos-2026"),
     ("cca/_estado.json", "cca___estado.json", GENERAL),
     ("consumo/ensayos_20220609.parquet", "consumo__ensayos_20220609.parquet", GENERAL),
+    # Service: fotos por fecha de captura (AAAAMMDD), pocas por anio: van a general.
+    ("service/fiat/20261001.parquet", "service__fiat__20261001.parquet", GENERAL),
+    ("service/_estado.json", "service___estado.json", GENERAL),
 ]
 
 

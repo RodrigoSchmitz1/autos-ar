@@ -71,6 +71,12 @@ jobs:
         if: ${{ !cancelled() }}
         run: python -m ingesta.consumo
 
+      # Precios oficiales de service (por ahora Fiat y Jeep). Se guarda una foto
+      # solo cuando la fuente cambia.
+      - name: Ingesta service programado
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.service
+
       - name: Publicar datos nuevos o modificados
         if: ${{ !cancelled() }}
         run: python -m ingesta.releases subir

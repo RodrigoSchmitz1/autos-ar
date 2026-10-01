@@ -6,3 +6,5 @@ cca,RENAULT,OROCH,DUSTER OROCH PICK - UP,DNRPA omite Duster
 cca,NISSAN,X-TRAIL,XTRAIL,Guion entre letras
 cca,MG,MG3,3 HYBRID,La CCA no repite la marca en el modelo
 cca,BAIC,X55,X55 CROSSOVER,La CCA agrega Crossover
+cca,JEEP,GRAND CHEROKEE,CHEROKEE GRAND,La CCA invierte el orden de las palabras
+service,JEEP,GRAND CHEROKEE,CHEROKEE GRAND,La CCA invierte el orden de las palabras

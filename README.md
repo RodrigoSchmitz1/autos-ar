@@ -117,3 +117,17 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 |---|---|---|---|---|---|
 | Polo Track ($37,6 M) | $838.565 (2,2%) | $1.697.451 (4,5%) | $518.254 (1,4%) | $864.053 (2,3%) | $751.350 (2,0%) |
 | Hilux SRX ($84,3 M) | $2.747.420 (3,3%) | $2.134.030 (2,5%) | $1.500.666 (1,8%) | $1.686.980 (2,0%) | $2.108.725 (2,5%) |
+
+**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar).
+
+`mart_service` calcula el **costo de service por kilómetro**: todo el plan publicado dividido por los kilómetros que cubre. Es la única forma de comparar marcas que cobran un precio parejo (Fiat: $434.000 cada service del Cronos) con marcas que cobran distinto en cada intervalo, y con intervalos distintos (Fiat cada 10.000 km, Jeep cada 12.000).
+
+| Modelo | Service | Costo por km |
+|---|---|---|
+| Fiat Mobi | $420.000 cada 10.000 km | $42,0 |
+| Fiat Cronos | $434.000 cada 10.000 km | $43,4 |
+| Jeep Renegade | $575.000 cada 12.000 km | $47,9 |
+| Fiat Toro Diesel | $730.000 cada 10.000 km | $73,0 |
+| Jeep Grand Cherokee SRT | $1.050.000 cada 12.000 km (uno a $1.167.200) | $89,7 |
+
+Dos detalles de la fuente: tiene precios con un cero de más ("$ 434.0000"), que se corrigen solo si coinciden con el precio habitual del modelo y quedan marcados; y los Jeep diésel tienen un service más caro a los 60.000 km.

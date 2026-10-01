@@ -97,3 +97,18 @@ models:
               arguments:
                 min_value: 0
                 inclusive: false
+
+  - name: mart_service
+    description: Costo del service oficial por modelo (lista vigente) y costo por km del plan completo.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [marca, modelo_fuente]
+    columns:
+      - name: costo_por_km
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                max_value: 200

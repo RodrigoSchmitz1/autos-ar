@@ -71,3 +71,13 @@ models:
         data_tests: [not_null]
       - name: longitud
         data_tests: [not_null]
+
+  - name: stg_service__precios
+    description: Precios oficiales de service programado; una foto por cada cambio de la fuente.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [marca, modelo_fuente, km, capturado]
+    columns:
+      - name: precio
+        data_tests: [not_null]
