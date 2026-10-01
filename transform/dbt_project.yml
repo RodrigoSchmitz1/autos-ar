@@ -1,0 +1,34 @@
+name: autos_ar
+version: "0.1.0"
+config-version: 2
+profile: autos_ar
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+# Las rutas a datos/raw son relativas a la raiz del repo: dbt se corre siempre
+# desde ahi, con --project-dir transform.
+vars:
+  raw: "datos/raw"
+
+models:
+  autos_ar:
+    staging:
+      +materialized: view
+
+seeds:
+  autos_ar:
+    # Los codigos con cero adelante ("02", "06") son texto, no numeros.
+    provincias:
+      +column_types:
+        provincia_id: varchar
+    provincias_variantes:
+      +column_types:
+        provincia_id: varchar
+
+flags:
+  send_anonymous_usage_stats: false

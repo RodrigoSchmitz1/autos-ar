@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: stg_dnrpa__tramites
+    description: >
+      Inscripciones iniciales, transferencias, prendas y robos/recuperos de
+      autos (DNRPA), un tramite por fila. Sin datos del titular salvo el tipo
+      de persona.
+    columns:
+      - name: tramite
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["inscripcion", "transferencia", "prenda", "robo_recupero"]
+      - name: tramite_fecha
+        data_tests: [not_null]
+      - name: provincia_id
+        description: Codigo INDEC de la provincia del registro seccional.
+        data_tests:
+          - not_null:
+              config:
+                # 5.072 tramites de 21,9 M (0,02%) vienen sin provincia o con el texto "NULL".
+                warn_if: ">0"
+                error_if: ">10000"
+          - relationships:
+              arguments:
+                to: ref('provincias')
+                field: provincia_id
+      - name: origen
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["nacional", "importado", "protocolo_21"]
+
+  - name: stg_combustible__precios
+    description: Precio, volumen e impuestos por estacion, producto, canal y mes (Res. 1104/2004).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [periodo, nro_inscripcion, producto, canal, exentos]
+          config:
+            where: "not declaracion_duplicada"
+    columns:
+      - name: periodo
+        data_tests: [not_null]
+      - name: nro_inscripcion
+        data_tests: [not_null]
+      - name: provincia_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('provincias')
+                field: provincia_id
+
+  - name: stg_combustible__estaciones
+    description: Estaciones con coordenadas (Res. 314), una por numero de estacion.
+    columns:
+      - name: nro_inscripcion
+        data_tests: [unique, not_null]
+      - name: provincia_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('provincias')
+                field: provincia_id
+      - name: latitud
+        data_tests: [not_null]
+      - name: longitud
+        data_tests: [not_null]

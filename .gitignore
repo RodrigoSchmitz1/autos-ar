@@ -17,3 +17,10 @@ venv/
 
 # Notas de trabajo personales (no van al repo publico)
 CONTEXTO.md
+
+# dbt: artefactos que se regeneran
+transform/target/
+transform/dbt_packages/
+transform/logs/
+logs/
+transform/.user.yml

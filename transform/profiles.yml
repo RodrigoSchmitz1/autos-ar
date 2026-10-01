@@ -1,0 +1,10 @@
+# Sin secretos: DuckDB es un archivo local. Se versiona a proposito para que
+# `dbt run --project-dir transform --profiles-dir transform` funcione igual en
+# la PC y en GitHub Actions.
+autos_ar:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: datos/autos.duckdb
+      threads: 4
