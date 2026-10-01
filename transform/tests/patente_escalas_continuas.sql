@@ -8,6 +8,8 @@
 with e as (
     select *, lag(cuota_fija) over w as cuota_ant, lag(base_desde) over w as desde_ant, lag(alicuota_pct) over w as alic_ant
     from {{ ref('patente_escalas') }}
+    -- Solo escalas marginales: en las de categoria (Mendoza) los saltos son ley.
+    where tipo_escala = 'marginal'
     window w as (partition by provincia_id, anio_fiscal, categoria, modelo_desde, modelo_hasta, valuacion_minima order by base_desde)
 )
 select provincia_id, anio_fiscal, base_desde, cuota_fija,

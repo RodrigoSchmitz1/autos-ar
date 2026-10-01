@@ -96,7 +96,7 @@ Decisiones que importan:
 **Patente.** No hay un dataset: cada provincia fija el impuesto en su ley impositiva anual. Se cura a mano en dos tablas, con el artículo de ley de cada dato:
 
 - `patente_reglas`: qué base usa, con qué coeficiente, qué modelos alcanza la escala y qué ajustes se aplican durante el año.
-- `patente_escalas`: los tramos (cuota fija + alícuota sobre el excedente). Un test verifica que cada cuota fija sea lo acumulado por los tramos anteriores, así un error de tipeo al copiar una ley salta solo.
+- `patente_escalas`: los tramos (cuota fija + alícuota sobre el excedente) por categoría (auto o pick-up), con mínimo anual y una valuación mínima opcional. Las escalas "por categoría" (alícuota sobre el valor total, como en Mendoza) se cargan con la misma fórmula, con cuota fija = base × alícuota. Un test verifica que en las escalas marginales cada cuota fija sea lo acumulado por los tramos anteriores (con tolerancia para los redondeos de la propia ley), así un error de tipeo al copiar una ley salta solo.
 
 `mart_patente_estimada` calcula la patente anual por versión y año modelo. **Es una estimación, y lo dice en cada fila.** La base oficial casi nunca es la valuación de DNRPA:
 
@@ -105,11 +105,15 @@ Decisiones que importan:
 | Buenos Aires | cargada (Ley 15.558) | La base oficial son los valores de ACARA × 0,95; se aproxima con la valuación de DNRPA × 0,95. Las cuotas se ajustan por IPC. Los modelos 1990-2015 pagan al municipio |
 | CABA | cargada (Ley 6927 art. 50, fe de erratas) | Siete tramos de 1,6% a 8%; las pick-ups pagan 2,3% fijo; tope del 6% de la valuación, mínimo de $13.300 y recargo del 10% para el Fondo Subte. En 2026 la base pasó a ACARA, y AGIP topeó el aumento en 31,8% sobre 2025: la patente real puede ser menor que la estimada |
 | Córdoba | cargada (Ley 11.090 arts. 55-60) | **Usa la valuación de DNRPA como base oficial**: es la única de las tres donde la estimación no es una aproximación. Cuatro tramos de 0,85% a 2,10%. Modelos 2016 y anteriores exentos, salvo los 2009-2016 que valen $19,4 millones o más |
+| Santa Fe | cargada (API, alícuotas 2026) | Sin tramos: alícuota única según el año del modelo (2,3%, 2,0%, 1,8%); pick-ups 2%. Tabla de valuación propia de API. Tope de aumento del 30% sobre 2025 para modelos 2022 y anteriores (no aplicado) |
+| Mendoza | cargada (Ley 9680 art. 9) | Ocho categorías y **la alícuota se aplica sobre el valor completo**, no sobre el excedente: hay saltos entre categorías. Base ACARA |
 | Resto | pendiente | |
 
-Mismo auto, distinta provincia (Polo Track 0 km, valuación fiscal $37,6 millones):
+Las cinco cargadas reúnen el 72% de los trámites de autos livianos del último año.
 
-| | Buenos Aires | CABA | Córdoba |
-|---|---|---|---|
-| Patente anual estimada | $838.565 | $1.697.451 | $518.254 |
-| Tasa efectiva | 2,2% | 4,5% | 1,4% |
+Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
+
+| | Buenos Aires | CABA | Córdoba | Santa Fe | Mendoza |
+|---|---|---|---|---|---|
+| Polo Track ($37,6 M) | $838.565 (2,2%) | $1.697.451 (4,5%) | $518.254 (1,4%) | $864.053 (2,3%) | $751.350 (2,0%) |
+| Hilux SRX ($84,3 M) | $2.747.420 (3,3%) | $2.134.030 (2,5%) | $1.500.666 (1,8%) | $1.686.980 (2,0%) | $2.108.725 (2,5%) |
