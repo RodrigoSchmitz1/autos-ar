@@ -29,6 +29,8 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
+import urllib.error
 import urllib.request
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "RodrigoSchmitz1/autos-ar")
@@ -93,6 +95,20 @@ def assets_publicados():
         pagina += 1
 
 
+def descargar(url, reintentos=4):
+    """Descarga un asset. Reintenta: GitHub devuelve 500 de vez en cuando (paso
+    en la primera verificacion) y sin reintento se caeria el pipeline del dia."""
+    for intento in range(1, reintentos + 1):
+        try:
+            pedido = urllib.request.Request(url, headers={"User-Agent": "autos-ar"})
+            with urllib.request.urlopen(pedido, timeout=600) as r:
+                return r.read()
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if intento == reintentos or (isinstance(e, urllib.error.HTTPError) and e.code < 500):
+                raise
+            time.sleep(5 * intento)
+
+
 def bajar():
     assets = assets_publicados()
     if not assets:
@@ -101,9 +117,9 @@ def bajar():
     for nombre, url in sorted(assets.items()):
         destino = MANIFIESTO_LOCAL if nombre == MANIFIESTO else ruta_de_asset(nombre)
         os.makedirs(os.path.dirname(destino) or ".", exist_ok=True)
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "autos-ar"}), timeout=600) as r:
-            with open(destino, "wb") as f:
-                f.write(r.read())
+        contenido = descargar(url)
+        with open(destino, "wb") as f:
+            f.write(contenido)
     print(f"Bajados {len(assets)} archivos de los releases.")
 
 
