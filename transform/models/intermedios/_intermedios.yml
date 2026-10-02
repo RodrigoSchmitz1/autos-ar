@@ -43,9 +43,9 @@ models:
         data_tests:
           - accepted_values:
               arguments:
-                values: ["alias", "prefijo", "prefijo_ambiguo"]
+                values: ["alias", "prefijo", "prefijo_ambiguo", "excluido"]
       - name: consumo_metodo
         data_tests:
           - accepted_values:
               arguments:
-                values: ["alias", "prefijo", "prefijo_ambiguo"]
+                values: ["alias", "prefijo", "prefijo_ambiguo", "excluido"]

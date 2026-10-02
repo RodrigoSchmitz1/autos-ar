@@ -7,8 +7,14 @@ Las listas de service nombran por familia y a veces por motor ("Nueva Strada
 UP", "TORO PICK UP"). Se usa la misma normalizacion y prefijo que el catalogo
 (ingesta/texto.py) y la misma tabla de alias (fuente = 'service').
 
+Un alias con modelo_fuente "(sin familia)" impide el cruce: el prefijo uniria
+"Mustang Mach-E" (SUV electrico) con "MUSTANG" (el deportivo V8), y la CCA no
+tiene el Mach-E.
+
 Grano: marca x modelo de la fuente.
 """
+
+SIN_FAMILIA = "(sin familia)"
 
 import os
 import sys
@@ -41,12 +47,18 @@ def model(dbt, session):
         marca_cca, candidatos_marca = modelos.get(clave_marca(s.marca), (None, set()))
         palabras = sin_marca(s.modelo_fuente, s.marca).split()
         por_alias = next((m for p, m in alias.get(clave_marca(s.marca), []) if palabras[:len(p)] == p), None)
-        candidatos = [por_alias] if por_alias in candidatos_marca else candidatos_por_prefijo(s.modelo_fuente, s.marca, candidatos_marca)
+        if por_alias == SIN_FAMILIA:
+            candidatos = []
+        elif por_alias in candidatos_marca:
+            candidatos = [por_alias]
+        else:
+            candidatos = candidatos_por_prefijo(s.modelo_fuente, s.marca, candidatos_marca)
         filas.append({
             "marca": s.marca, "modelo_fuente": s.modelo_fuente,
             "cca_marca": marca_cca if candidatos else None,
             "familia": candidatos[0] if candidatos else None,
-            "metodo": (None if not candidatos else "alias" if por_alias in candidatos_marca
+            "metodo": ("excluido" if por_alias == SIN_FAMILIA else None if not candidatos
+                       else "alias" if por_alias in candidatos_marca
                        else "prefijo" if len(candidatos) == 1 else "prefijo_ambiguo"),
         })
     return pd.DataFrame(filas)

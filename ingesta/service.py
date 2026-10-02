@@ -438,6 +438,90 @@ def byd():
     return json.dumps(filas, sort_keys=True, default=str).encode(), filas
 
 
+# ---------- Ford: pagina oficial por version, lista nacional sugerida ----------
+ETIQUETAS_FORD = {"Precio Fidelidad Ford", "Precio Ford Protect Mantenimiento Prepago"}
+MAX_PAGINAS_FORD = 150
+
+
+def nombre_ford(ruta):
+    """Nombre de la version a partir de la URL: los titulos de las paginas no
+    sirven (las E-Transit dicen "Bronco sport", una Ranger diesel dice "2.5L
+    Nafta"). ".../territory/territory-1-5-l.html" -> "territory 1.5L"; si la
+    carpeta agrega el modelo ("transit-chasis/chasis-2-0-l-panther"), se le
+    antepone ("transit chasis 2.0L panther").
+    """
+    partes = ruta.split("/mantenimiento-garantia/")[1][:-5].split("/")
+    nombre = re.sub(r"^nuev[oa]-", "", partes[-1].lower())  # "nuevo-fiesta" -> "fiesta"
+    if len(partes) > 1:
+        modelo = partes[-2].replace("-picker", "").replace("nueva-", "").replace("nuevo-", "")
+        if not nombre.replace("-", "").startswith(modelo.split("-")[0]):  # "s-max" en "smax"
+            nombre = modelo.split("-")[0] + "-" + nombre
+    nombre = nombre.replace("-", " ")
+    nombre = re.sub(r"\b(\d) (\d) l\b", r"\1.\2L", nombre)  # "1 5 l" -> "1.5L"
+    return re.sub(r"\b(\d) l\b", r"\1L", nombre)  # "2 l" -> "2L"
+
+
+def ford():
+    """Plan de mantenimiento de ford.com.ar: una pagina por version, con una
+    solapa por service (10 mil km, 20 mil km...). Se recorren los enlaces desde
+    /posventa/mantenimientos/ (tope de paginas por si el sitio cambia).
+
+    De cada solapa se toma el "Precio Fidelidad Ford": su nota legal ("Posventa
+    mantenimiento") dice que es el precio sugerido por Ford a toda la red, con
+    IVA y de contado, con vigencia mensual. El "Ford Protect" es prepago y
+    queda afuera. Si aparece otra etiqueta de precio, falla: puede ser un
+    precio con descuento (Ford tiene uno, "Con vos", en otras paginas).
+    """
+    import html as html_lib
+    base = "https://www.ford.com.ar"
+    inicio = pedir(base + "/posventa/mantenimientos/").decode("utf-8", "replace")
+    cola = sorted(set(re.findall(r'href="(/posventa/mantenimiento-garantia/[^"#?]+\.html)"', inicio)))
+    vistos, filas = set(), []
+    while cola:
+        ruta = cola.pop(0)
+        if ruta in vistos or ruta.endswith("/iolm.html"):
+            continue
+        if len(vistos) >= MAX_PAGINAS_FORD:
+            raise RuntimeError(f"ford: mas de {MAX_PAGINAS_FORD} paginas, el sitio cambio de estructura")
+        vistos.add(ruta)
+        pagina = pedir(base + ruta).decode("utf-8", "replace")
+        cola += sorted(set(re.findall(r'href="(' + re.escape(ruta[:-5]) + r'/[^"#?]+\.html)"', pagina)))
+        if "Precio Fidelidad Ford" not in pagina:
+            continue
+        etiquetas = set(re.findall(r"<strong>(Precio [^<]+?)<sup", pagina))
+        if etiquetas - ETIQUETAS_FORD:
+            raise ValueError(f"ford {ruta}: etiquetas de precio nuevas {etiquetas - ETIQUETAS_FORD}")
+        notas = {d["name"]: d["text"] for raw in re.findall(r'data-disclosures-json="([^"]*)"', pagina)
+                 for d in json.loads(html_lib.unescape(raw))}
+        nota = html_lib.unescape(re.sub(r"<[^>]+>", " ", notas.get("Posventa mantenimiento", "")))
+        vig = re.search(r"DESDE EL\s*(\d{2})/(\d{2})/(\d{4}) AL (\d{2})/(\d{2})/(\d{4})", nota)
+        if not vig:
+            raise ValueError(f"ford {ruta}: sin vigencia en la nota legal")
+        d = [int(x) for x in vig.groups()]
+        desde, hasta = date(d[2], d[1], d[0]), date(d[5], d[4], d[3])
+        # El id de la solapa a veces viene con mayuscula ("60K"): sin el [kK]
+        # esa solapa se pegaba a la anterior.
+        bloques = re.split(r'<a href="#tabs-\d+" id="(\d+)[kK]" class="mob-accordion-tab"', pagina)
+        solapas = len(re.findall(r'<div id="tabs-\d+" class="tabs-content"', pagina))
+        if len(bloques) // 2 != solapas:
+            raise ValueError(f"ford {ruta}: {len(bloques) // 2} solapas leidas de {solapas}")
+        for km, bloque in zip(bloques[1::2], bloques[2::2]):
+            precios = re.findall(r"Precio Fidelidad Ford.*?\$\s*([\d.]+)", bloque, re.S)
+            sin_iva = re.search(r"Sin IVA \$\s*([\d.]+)", bloque)
+            # Cada solapa trae el precio dos veces (version escritorio y celular).
+            if not precios or len(set(precios)) != 1:
+                raise ValueError(f"ford {ruta} {km}k: precio ausente o distinto entre versiones {precios}")
+            filas.append({
+                "marca": "Ford", "modelo_fuente": nombre_ford(ruta), "km": int(km) * 1000,
+                "precio": a_pesos(precios[0]), "tipo_precio": "lista",
+                "mano_obra_bonificada": False, "incluye_iva": True, "items_cambio": None,
+                "precio_texto": f"$ {precios[0]} (sin IVA $ {sin_iva[1] if sin_iva else '?'})",
+                "precio_corregido": False, "fuente_url": base + ruta,
+                "vigencia_desde": desde, "vigencia_hasta": hasta,
+            })
+    return json.dumps(filas, sort_keys=True, default=str).encode(), filas
+
+
 RECOLECTORES = {
     "fiat": lambda: mopar("fiat"),
     "jeep": lambda: mopar("jeep"),
@@ -447,12 +531,14 @@ RECOLECTORES = {
     "toyota": toyota,
     "renault": renault,
     "byd": byd,
+    "ford": ford,
 }
 
-# Las tiendas cuestan ~180 pedidos por marca (~8 minutos con la pausa de
+# Las tiendas de Peugeot y Citroen cuestan ~180 pedidos por marca, y Ford ~65
+# paginas de ~400 KB (~8 y ~4 minutos con la pausa de
 # cortesia). Los precios cambian una vez por mes: consultarlas todos los dias
 # seria abusar del sitio. Se consultan como maximo una vez cada 7 dias.
-DIAS_ENTRE_CONSULTAS = {"peugeot": 7, "citroen": 7}
+DIAS_ENTRE_CONSULTAS = {"peugeot": 7, "citroen": 7, "ford": 7}
 
 
 def validar(marca, filas):

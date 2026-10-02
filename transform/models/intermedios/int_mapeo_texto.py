@@ -11,6 +11,8 @@ Metodo por cruce:
   'prefijo'          un solo modelo encaja
   'prefijo_ambiguo'  varios empatan ("HB 20" -> "HB20" y "HB20 SEDAN"); se
                      elige el nombre mas corto y se guardan los candidatos
+  'excluido'         la tabla de alias dice "(sin familia)": el prefijo cruzaria
+                     con otro auto ("MUSTANG MACH-E" con el Mustang V8)
   null               no cruza
 
 Grano: una fila por version (llave DNRPA).
@@ -57,10 +59,16 @@ def model(dbt, session):
         for fuente, indice in indices.items():
             marca_fuente, modelos = indice.get(clave_marca(v.marca), (None, set()))
             por_nombre = por_alias(fuente, v.modelo, v.marca)
-            candidatos = [por_nombre] if por_nombre in modelos else candidatos_por_prefijo(v.modelo, v.marca, modelos)
+            if por_nombre == "(sin familia)":
+                candidatos = []
+            elif por_nombre in modelos:
+                candidatos = [por_nombre]
+            else:
+                candidatos = candidatos_por_prefijo(v.modelo, v.marca, modelos)
             fila[f"{fuente}_marca"] = marca_fuente if candidatos else None
             fila[f"{fuente}_modelo"] = candidatos[0] if candidatos else None
-            fila[f"{fuente}_metodo"] = (None if not candidatos else
+            fila[f"{fuente}_metodo"] = ("excluido" if por_nombre == "(sin familia)" else
+                                        None if not candidatos else
                                         "alias" if por_nombre in modelos else
                                         "prefijo" if len(candidatos) == 1 else "prefijo_ambiguo")
             fila[f"{fuente}_candidatos"] = " | ".join(candidatos) if len(candidatos) > 1 else None

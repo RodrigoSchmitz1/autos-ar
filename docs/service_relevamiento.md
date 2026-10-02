@@ -10,7 +10,7 @@ Qué publica cada marca, en qué formato y si un script lo puede leer. Medido an
 | Citroën | `citroenstore.com.ar/mantenimientos-programados` | Formulario con AJAX | Sí (mismo sistema que Peugeot) | No (el texto legal es de 2018) | Versión |
 | Volkswagen | PDF de la lista nacional publicado por un concesionario (Alperovich) | PDF con texto | Sí | **"3º trimestre, julio a septiembre 2026"** | Grupo de modelos, cada 15.000 km hasta 105.000 |
 | Toyota | toyota.com.ar (app que carga los precios por una API que robots.txt prohíbe); un concesionario publica la tabla en HTML | HTML | Solo el concesionario | No | Modelo, de 10.000 a 200.000 km |
-| Ford | ford.com.ar, página por modelo y motor | HTML | **No**: Akamai devuelve 403 a scripts, solo abre en un navegador real | No | Modelo y motor, con y sin IVA y precio prepago |
+| Ford | ford.com.ar, página por modelo y motor | HTML | Sí. En el relevamiento devolvió 403 a scripts; el 2026-10-02 respondió normal al User-Agent del proyecto, sin navegador. Si vuelve el bloqueo, no se esquiva | **Sí, mensual** (nota legal "Posventa mantenimiento") | Modelo y motor, con y sin IVA y precio prepago |
 | Renault | Planilla "Precios Todo Incluido" del concesionario Pourtau (región A); hay otra versión de sep-2025 con adicionales "+ $" | PDF | Sí, con extracción de tablas | No (el PDF se regenera a diario) | Código de motor, precios por región |
 | BYD | `byd.com/ar/service-guide` | HTML con JSON embebido | Sí | "1/05 al 30/06/2026": **vencida** | Modelo, cada 20.000 km (eléctricos) o 12.000 km (híbridos), **en dólares**: se convierte con el minorista del BCRA |
 | Chevrolet | Sin fuente oficial: solo kits de repuestos | — | — | — | — |
@@ -30,5 +30,5 @@ Qué publica cada marca, en qué formato y si un script lo puede leer. Medido an
 3. **Volkswagen:** la única lista con vigencia explícita por intervalo.
 4. **Toyota:** tabla HTML de un concesionario, sin fecha.
 5. **Renault y BYD:** PDF regional sin fecha, y una lista en dólares que está vencida.
-6. **Ford:** los mejores datos, pero necesita un navegador automatizado. Antes hay que probar si funciona desde GitHub Actions.
+6. **Ford:** los mejores datos. Se pensó que necesitaba un navegador automatizado, pero al volver a probar el sitio respondió a pedidos simples. Usar un navegador para pasar un bloqueo anti-bots sería esquivarlo: si el 403 vuelve, Ford queda afuera.
 7. **Chevrolet:** sin fuente oficial. Se deja afuera o se marca como dato secundario.

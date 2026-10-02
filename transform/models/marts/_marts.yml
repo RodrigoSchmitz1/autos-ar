@@ -14,7 +14,7 @@ models:
         data_tests:
           - accepted_values:
               arguments:
-                values: ["alias", "prefijo", "prefijo_ambiguo", "revision_manual"]
+                values: ["alias", "prefijo", "prefijo_ambiguo", "revision_manual", "excluido"]
 
   - name: cobertura_mapeos
     description: Porcentaje del mercado que cruza con cada fuente (por versiones, tramites y 0 km).
