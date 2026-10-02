@@ -53,3 +53,30 @@ provincia_id,anio_fiscal,categoria,modelo_desde,modelo_hasta,valuacion_minima,ba
 50,2026,pickup,2000,2026,,47300000,59100000,1064250,2.25,,por_categoria,"Ley 9680 art. 9 inc. a (Mendoza). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada); pick-ups hasta 4.000 kg, inc. b.1"
 50,2026,pickup,2000,2026,,59100000,87500000,1477500,2.50,,por_categoria,"Ley 9680 art. 9 inc. a (Mendoza). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada); pick-ups hasta 4.000 kg, inc. b.1"
 50,2026,pickup,2000,2026,,87500000,,2625000,3.00,,por_categoria,"Ley 9680 art. 9 inc. a (Mendoza). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada); pick-ups hasta 4.000 kg, inc. b.1"
+90,2026,auto,2011,2026,,0,,0,2.00,,marginal,Ley 8467 art. 17 y CTP art. 300 (Tucuman): autos 2%
+90,2026,auto,2000,2010,15594761,0,,0,2.00,,marginal,Ley 8467 art. 17 y CTP art. 307 inc. 13 (Tucuman): mas de 15 anios exentos salvo valor > $15.594.760
+90,2026,pickup,1996,2026,,0,,0,1.50,,marginal,"Ley 8467 art. 17 y CTP art. 301 (Tucuman): pick-ups y camionetas 1,5%; exentas con mas de 30 anios"
+10,2026,auto,2006,2026,,0,,0,2.00,17224,marginal,"Ley 5927 arts. 10-11 (Catamarca): cat. A 2%, minimo automoviles"
+10,2026,pickup,2006,2026,,0,,0,2.00,43394,marginal,"Ley 5927 arts. 10-11 (Catamarca): cat. A 2%, minimo camionetas"
+74,2026,auto,2011,2026,,0,10000000,0,2.50,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,10000000,20000000,275000,2.75,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,20000000,30000000,600000,3.00,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,30000000,40000000,1050000,3.50,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,40000000,50000000,1500000,3.75,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,50000000,60000000,2000000,4.00,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,60000000,70000000,2700000,4.50,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,70000000,80000000,3325000,4.75,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,auto,2011,2026,,80000000,,4000000,5.00,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,0,10000000,0,2.50,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,10000000,20000000,275000,2.75,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,20000000,30000000,600000,3.00,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,30000000,40000000,1050000,3.50,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,40000000,50000000,1500000,3.75,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,50000000,60000000,2000000,4.00,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,60000000,70000000,2700000,4.50,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,70000000,80000000,3325000,4.75,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+74,2026,pickup,2011,2026,,80000000,,4000000,5.00,10920,por_categoria,Ley VIII-0254-2025 art. 40 inc. 1.1 (San Luis). Alicuota sobre el valor total: cuota_fija = base_desde x alicuota (derivada)
+46,2026,auto,2011,2026,,0,,0,2.50,,marginal,Ley Impositiva 2026 art. 6 (La Rioja): cat. A 25 por mil
+62,2026,auto,2007,2026,,0,,0,3.50,,marginal,Ley 5837 art. 24 (Rio Negro): grupo A-1 autos
+46,2026,pickup,2011,2026,,0,,0,2.50,,marginal,Ley Impositiva 2026 art. 6 (La Rioja): cat. A 25 por mil
+62,2026,pickup,2007,2026,,0,,0,3.50,,marginal,Ley 5837 art. 24 (Rio Negro): grupo B-1 pick-ups

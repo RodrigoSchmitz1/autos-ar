@@ -42,6 +42,14 @@ Se usa la ordenanza de la ciudad con más parque como aproximación. El peso de 
 | Tierra del Fuego | 0,7% | **Río Grande** (53%) / Ushuaia (47%) | — | Ushuaia: Ordenanza Tarifaria 5069, base valuación DNRPA | No | La capital pesa menos que Río Grande |
 | Formosa | 0,6% | Formosa | 73% | Ordenanza de Formosa capital | No | — |
 
+## Avance
+
+- **Paso 1, cargado (2026-10-02):** Tucumán, Río Negro, San Luis, Catamarca y La Rioja, todas verificadas en su ley. La cobertura sube del 72% al 78,6% de los trámites. Lo que se aprendió al leer las leyes, y que corrige la tabla de arriba:
+  - **Tucumán:** autos 2% y pick-ups 1,5% (Código Tributario arts. 300 y 301). El monto de la exención para autos de más de 15 años ($15.594.760) sale de la Guía de Trámites oficial del gobierno de Tucumán.
+  - **Río Negro:** quedan exentos los modelos 2006 y anteriores (Ley 1284 art. 16 inc. j, con el año que fija la Ley 5837 art. 27).
+  - **San Luis:** nueve categorías de 2,5% a 5% sobre el valor completo, no 3,5% plano como decía la prensa.
+  - **La Rioja:** base oficial DNRPA, 2,5%; pagan solo los modelos 2011 en adelante.
+
 ## Propuesta de orden
 
 1. **Provincias con fuente primaria a mano:** Tucumán (verificada), Catamarca, San Luis y La Rioja (PDF oficial ubicado, falta leerlo), y Río Negro (ley ubicada). Suman el 6,5% de los trámites.

@@ -107,16 +107,29 @@ Decisiones que importan:
 | Córdoba | cargada (Ley 11.090 arts. 55-60) | **Usa la valuación de DNRPA como base oficial**: es la única de las tres donde la estimación no es una aproximación. Cuatro tramos de 0,85% a 2,10%. Modelos 2016 y anteriores exentos, salvo los 2009-2016 que valen $19,4 millones o más |
 | Santa Fe | cargada (API, alícuotas 2026) | Sin tramos: alícuota única según el año del modelo (2,3%, 2,0%, 1,8%); pick-ups 2%. Tabla de valuación propia de API. Tope de aumento del 30% sobre 2025 para modelos 2022 y anteriores (no aplicado) |
 | Mendoza | cargada (Ley 9680 art. 9) | Ocho categorías y **la alícuota se aplica sobre el valor completo**, no sobre el excedente: hay saltos entre categorías. Base ACARA |
-| Resto | pendiente | |
+| Tucumán | cargada (Ley 8467, Código Tributario arts. 300-307) | 2% plano los autos y 1,5% las pick-ups. Base ACARA. Autos de más de 15 años exentos si valen hasta $15,6 millones |
+| Río Negro | cargada (Ley 5837 art. 24) | 3,5% plano. Tope de aumento del 25% sobre 2025 (no aplicado): la patente real puede ser menor. Exentos los modelos 2006 y anteriores |
+| San Luis | cargada (Ley VIII-0254-2025 art. 40) | Nueve categorías de 2,5% a 5% **sobre el valor completo**, como Mendoza. Exentos los modelos 2010 y anteriores |
+| Catamarca | cargada (Ley 5927 arts. 6-11) | **Base oficial DNRPA**. 2% plano; las cabina simple pagan 1,5%, pero DNRPA casi nunca dice la cabina. Exentos 20 años o más |
+| La Rioja | cargada (Ley impositiva 2026 arts. 6-8) | **Base oficial DNRPA**. 2,5% plano. Pagan solo los modelos 2011 en adelante |
+| Resto | relevadas, pendientes | Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md): en 10 provincias la patente es municipal, y la escala 2026 de Entre Ríos no está publicada |
 
-Las cinco cargadas reúnen el 72% de los trámites de autos livianos del último año.
+Las diez cargadas reúnen el 78,6% de los trámites de autos livianos del último año.
 
 Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 
-| | Buenos Aires | CABA | Córdoba | Santa Fe | Mendoza |
-|---|---|---|---|---|---|
-| Polo Track ($37,6 M) | $838.565 (2,2%) | $1.697.451 (4,5%) | $518.254 (1,4%) | $864.053 (2,3%) | $751.350 (2,0%) |
-| Hilux SRX ($84,3 M) | $2.747.420 (3,3%) | $2.134.030 (2,5%) | $1.500.666 (1,8%) | $1.686.980 (2,0%) | $2.108.725 (2,5%) |
+| Provincia | Polo Track ($37,6 M) | Hilux SRX 4x4 ($84,3 M) |
+|---|---|---|
+| Córdoba | $518.254 (1,4%) | $1.500.666 (1,8%) |
+| Catamarca | $751.350 (2,0%) | $1.686.980 (2,0%) |
+| Mendoza | $751.350 (2,0%) | $2.108.725 (2,5%) |
+| Tucumán | $751.350 (2,0%) | $1.265.235 (1,5%) |
+| Buenos Aires | $838.565 (2,2%) | $2.747.420 (3,3%) |
+| Santa Fe | $864.053 (2,3%) | $1.686.980 (2,0%) |
+| La Rioja | $939.188 (2,5%) | $2.108.725 (2,5%) |
+| Río Negro | $1.314.863 (3,5%) | $2.952.215 (3,5%) |
+| San Luis | $1.314.863 (3,5%) | $4.217.450 (5,0%) |
+| CABA | $1.697.451 (4,5%) | $2.134.030 (2,5%) |
 
 **Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) Peugeot y Citroën (sus tiendas online de service) Volkswagen (la lista nacional trimestral) Toyota (la tabla que publica un concesionario) Renault (la planilla de un concesionario) BYD (su guía oficial, en dólares) y Ford (su página oficial, por versión).
 
