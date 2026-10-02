@@ -17,6 +17,9 @@
   3ro) ENTRAN al costo con su precio publicado, que es lo que se paga si se
   respetan los plazos; excluirlos sumaria menos services sobre los mismos km y
   subestimaria el costo. `services_bonificados` avisa cuantos hay.
+
+  VW publica por grupo de modelos ("Polo / Tera / Virtus ..."): la ingesta
+  abre cada grupo en una fila por modelo, con el mismo plan de precios.
 #}
 
 with vigente as (
@@ -41,6 +44,9 @@ select
     max(v.capturado) as capturado,
     max(v.vigencia_desde) as vigencia_desde,
     max(v.vigencia_hasta) as vigencia_hasta,
+    -- Solo VW publica vigencia; el concesionario puede tardar en subir la
+    -- lista nueva y la ultima captura queda vencida. Se muestra igual, avisando.
+    coalesce(max(v.vigencia_hasta) < current_date, false) as lista_vencida,
     any_value(v.fuente_url) as fuente_url
 from vigente v
 left join {{ ref('int_service_familia') }} f using (marca, modelo_fuente)

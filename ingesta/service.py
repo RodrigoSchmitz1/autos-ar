@@ -200,11 +200,76 @@ def tienda_stellantis(marca, base):
     return contenido, filas
 
 
+# ---------- Volkswagen: lista nacional en PDF, publicada por un concesionario ----------
+MESES = {m: i for i, m in enumerate(
+    ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+     "septiembre", "octubre", "noviembre", "diciembre"], start=1)}
+
+# Encabezados con una barra de menos en el PDF: "Scirocco" y "Sharan" quedan
+# en lineas distintas sin "/" entre ellos. No se puede partir por salto de
+# linea en general porque otros nombres ocupan dos lineas ("The / Beetle").
+SEPARAR_VW = {"Scirocco Sharan": ["Scirocco", "Sharan"]}
+
+
+def volkswagen():
+    """Lista trimestral de VW (solo nafta) en el PDF de Alperovich, que la
+    copia de la lista nacional. La grilla del PDF tiene rectangulos, asi que
+    pdfplumber arma la tabla: una columna por grupo de modelos y una fila por
+    service (cada 15.000 km). El titulo trae la vigencia ("Q3 - Julio a
+    Septiembre 2026"). Cada grupo se abre en una fila por modelo: el cruce con
+    el catalogo es por modelo, y el grupo queda en `grupo_fuente`.
+    """
+    import calendar
+    import io
+
+    import pdfplumber
+    url = "https://www.alperovichsa.com.ar/assets/precios-servicios-mantenimiento.pdf"
+    contenido = pedir(url)
+    tablas = pdfplumber.open(io.BytesIO(contenido)).pages[0].extract_tables()
+    tabla = [[(c or "").replace("\n", " ").strip() for c in fila] for fila in max(tablas, key=len)]
+
+    vig = re.search(r"Q[1-4] - (\w+) a (\w+) (\d{4})", tabla[0][0])
+    if not vig:
+        raise ValueError(f"volkswagen: titulo sin vigencia {tabla[0][0]!r}")
+    anio, mes_desde, mes_hasta = int(vig[3]), MESES[vig[1].lower()], MESES[vig[2].lower()]
+    desde = date(anio, mes_desde, 1)
+    hasta = date(anio, mes_hasta, calendar.monthrange(anio, mes_hasta)[1])
+
+    encabezado = next(f for f in tabla if f[0].upper().startswith("MOTOR"))
+    if "NAFTA" not in encabezado[0].upper():
+        raise ValueError(f"volkswagen: se esperaba la lista de nafta, vino {encabezado[0]!r}")
+    filas = []
+    for fila in tabla:
+        servicio = re.match(r"\d+\w+\. Servicio ([\d.]+) km", fila[0])
+        if not servicio:
+            continue
+        km = a_pesos(servicio[1])
+        for grupo, celda in zip(encabezado[1:], fila[1:]):
+            precio = PRECIO_ESTRICTO.search(celda)
+            if not precio:
+                raise ValueError(f"volkswagen {grupo} {km} km: precio ilegible {celda!r}")
+            modelos = []
+            for parte in (p.strip() for p in grupo.split("/")):
+                modelos += SEPARAR_VW.get(parte, [parte] if parte else [])
+            for modelo in modelos:
+                filas.append({
+                    "marca": "Volkswagen", "modelo_fuente": modelo, "km": km,
+                    "precio": a_pesos(precio[1]), "tipo_precio": "lista",
+                    "mano_obra_bonificada": "BONIFICADA" in fila[0].upper(),
+                    "incluye_iva": None, "items_cambio": None, "precio_texto": celda,
+                    "precio_corregido": False, "fuente_url": url,
+                    "vigencia_desde": desde, "vigencia_hasta": hasta,
+                    "grupo_fuente": grupo,
+                })
+    return contenido, filas
+
+
 RECOLECTORES = {
     "fiat": lambda: mopar("fiat"),
     "jeep": lambda: mopar("jeep"),
     "peugeot": lambda: tienda_stellantis("peugeot", "https://www.peugeotstore.com.ar"),
     "citroen": lambda: tienda_stellantis("citroen", "https://www.citroenstore.com.ar"),
+    "volkswagen": volkswagen,
 }
 
 # Las tiendas cuestan ~180 pedidos por marca (~8 minutos con la pausa de

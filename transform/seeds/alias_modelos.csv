@@ -8,3 +8,11 @@ cca,MG,MG3,3 HYBRID,La CCA no repite la marca en el modelo
 cca,BAIC,X55,X55 CROSSOVER,La CCA agrega Crossover
 cca,JEEP,GRAND CHEROKEE,CHEROKEE GRAND,La CCA invierte el orden de las palabras
 service,JEEP,GRAND CHEROKEE,CHEROKEE GRAND,La CCA invierte el orden de las palabras
+service,VOLKSWAGEN,CC,PASSAT CC,VW publica "CC" y la CCA lo lista como Passat CC
+cca,VOLKSWAGEN,TAKE UP,UP!,DNRPA antepone la version al nombre ("TAKE UP! 1.0")
+cca,VOLKSWAGEN,HIGH UP,UP!,DNRPA antepone la version al nombre ("HIGH UP! 1.0")
+cca,VOLKSWAGEN,MOVE UP,UP!,DNRPA antepone la version al nombre ("MOVE UP! 1.0")
+cca,VOLKSWAGEN,PEPPER UP,UP!,DNRPA antepone la version al nombre ("PEPPER UP! 1.0")
+cca,VOLKSWAGEN,CROSS UP,UP!,DNRPA antepone la version al nombre ("CROSS UP! 1.0")
+cca,VOLKSWAGEN,WHITE UP,UP!,DNRPA antepone la version al nombre ("WHITE UP! 1.0")
+cca,VOLKSWAGEN,BLACK UP,UP!,DNRPA antepone la version al nombre ("BLACK UP! 1.0")

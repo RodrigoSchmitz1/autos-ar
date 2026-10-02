@@ -23,6 +23,9 @@ NORM = {
     "FURGÓN": "",                             # tilde fuera y palabra de carroceria descartada
     "RAV - 4": "RAV4",                        # guion suelto entre espacios
     "RAV4 HEV 2.5": "RAV4 HEV 2,5",
+    "UP!": "UP",                              # el Up! no es ruido de "PICK UP"
+    "SAVEIRO PICK - UP CROSS": "SAVEIRO CROSS",
+    "HILUX PICK-UP 4X4": "HILUX 4X4",
 }
 
 PREFIJO = [

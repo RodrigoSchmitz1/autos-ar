@@ -118,7 +118,7 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Polo Track ($37,6 M) | $838.565 (2,2%) | $1.697.451 (4,5%) | $518.254 (1,4%) | $864.053 (2,3%) | $751.350 (2,0%) |
 | Hilux SRX ($84,3 M) | $2.747.420 (3,3%) | $2.134.030 (2,5%) | $1.500.666 (1,8%) | $1.686.980 (2,0%) | $2.108.725 (2,5%) |
 
-**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) y Peugeot y Citroën (sus tiendas online de service).
+**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) Peugeot y Citroën (sus tiendas online de service) y Volkswagen (la lista nacional trimestral).
 
 `mart_service` calcula el **costo de service por kilómetro**: todo el plan publicado dividido por los kilómetros que cubre. Es la única forma de comparar marcas que cobran un precio parejo (Fiat: $434.000 cada service del Cronos) con marcas que cobran distinto en cada intervalo, y con intervalos distintos (Fiat cada 10.000 km, Jeep cada 12.000).
 
@@ -140,3 +140,14 @@ Peugeot y Citroën publican el precio en un formulario (modelo, versión, servic
 | Peugeot 208 1.6 | $460.000 cada 10.000 km | $46,0 |
 | Peugeot 2008 T200 | $569.000 cada 10.000 km | $56,9 |
 | Citroën C4 híbrido | $617.000 cada 10.000 km | $61,7 |
+
+Volkswagen es la única marca que publica la **vigencia** ("Q3 - Julio a Septiembre 2026") y un precio distinto en cada service, cada 15.000 km. La lista nacional es un PDF por grupos de modelos ("Polo / Tera / Virtus / T-Cross / ..."), que un concesionario publica completa; se abre en una fila por modelo para cruzarla con el catálogo. El 2º y el 3º service tienen la mano de obra bonificada y entran al costo con ese precio, que es lo que se paga si se respetan los plazos. El concesionario puede tardar en subir la lista nueva: `lista_vencida` avisa cuando la última captura ya no está vigente. La lista es solo de nafta: la Amarok diésel queda afuera.
+
+| Modelo VW | 1er service (15.000 km) | Costo por km |
+|---|---|---|
+| Up! | $354.910 | $19,2 |
+| Polo, Virtus, T-Cross, Nivus, Tera | $492.760 | $26,9 |
+| Vento | $627.650 | $38,8 |
+| Touareg | $1.276.850 | $77,6 |
+
+Integrar VW destapó dos problemas del catálogo: la normalización borraba "UP" (lo trataba como parte de "PICK - UP") y el Up! no cruzaba con ninguna fuente; y DNRPA antepone la versión al nombre ("TAKE UP! 1.0"). Con el arreglo y siete alias, la cobertura de la guía CCA sobre las unidades subió de 91,5% a 91,8%. También apareció que el catálogo no era reproducible: `mode()` elige cualquiera de dos descripciones empatadas, y ~160 códigos cambiaban de modelo entre corridas. Ahora se desempata por orden alfabético, y dos corridas seguidas dan el mismo resultado fila por fila.

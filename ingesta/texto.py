@@ -12,13 +12,15 @@ import re
 import unicodedata
 
 # Palabras que una fuente pone y la otra no, y que no distinguen modelos.
-RUIDO = {"SEDAN", "PUERTAS", "PUERTA", "PTAS", "RURAL", "FURGON", "FURGONETA", "PICK", "UP",
+# "UP" no va suelto: es el modelo VW Up!. "PICK UP" se borra como frase en `norm`.
+RUIDO = {"SEDAN", "PUERTAS", "PUERTA", "PTAS", "RURAL", "FURGON", "FURGONETA", "PICK",
          "PICKUP", "CABINA", "TODO", "TERRENO", "COUPE", "HATCHBACK", "NUEVO", "NUEVA"}
 
 
 def norm(texto):
     """Mayusculas, sin tildes, 1.5L -> 1,5, F-100 -> F100, HB 20 -> HB20, + -> PLUS."""
     t = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode().upper()
+    t = re.sub(r"\bPICK\s*-?\s*UP\b", " ", t)  # "PICK - UP", "PICK-UP", "PICK UP"
     t = t.replace("+", " PLUS ")  # "KA +" es otro auto que "KA": no borrar el +
     # Guion suelto entre espacios ("RAV - 4", "PICK - UP"): se borra antes de
     # pegar letras y numeros, si no "RAV - 4" queda "RAV 4" y no cruza con "RAV4".
