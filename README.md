@@ -116,9 +116,13 @@ Decisiones que importan:
 | Salta | **aproximación municipal**: ordenanza de la Ciudad de Salta (77% del parque) | 2% de la valuación. Más de 20 años: otra tasa (5 UT por mes). Transición que limita el impuesto al 40% del de 2024 (no aplicada) |
 | Formosa | **aproximación municipal**: Código Tarifario de la Ciudad de Formosa (73%) | 2% del valor ACARA, sin exención por antigüedad |
 | Chubut | **aproximación municipal**: ordenanza de Comodoro Rivadavia (42%) | Valuaciones provinciales (Res. 74/25) pero alícuota de cada municipio: Comodoro 2,7% con mínimo de ~$180.000 por año; Puerto Madryn 2,5% |
-| Resto | relevadas, pendientes | Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md): en 10 provincias la patente es municipal, y la escala 2026 de Entre Ríos no está publicada |
+| Neuquén | **aproximación municipal**: Ordenanza 15065 de Neuquén capital (44%) | 2,5% con mínimo de $156.000; exentos los modelos 2005 y anteriores. Tabla de valuación propia |
+| Corrientes | **aproximación municipal**: Ordenanza 7706 de Corrientes capital (34%) | 2,5% más 6% de recargo (Fondo de Mejora del Transporte); base DNRPA |
+| Misiones | cargada (Ley XXII-25 art. 65): impuesto provincial que cobran los municipios | Autos 2%, **pick-ups 0,8%** (son "tipo 2", vehículos de carga). Hasta 16 años; los más viejos pagan montos fijos (no cargados) |
+| Tierra del Fuego | **aproximación municipal**: Ordenanza 5069 de Ushuaia (47%; Río Grande no publica la suya) | Escala de 2% a 4% sobre el valor completo; desde $17,5 M paga 4%. La tabla municipal descontaría el IVA (la isla está exenta): la estimación puede quedar alta |
+| Resto | relevadas, pendientes | Entre Ríos, Jujuy, San Juan, Santiago del Estero y Santa Cruz: la norma 2026 no está publicada o no se puede leer. Chaco: Resistencia cobra por peso del vehículo, que DNRPA no publica. Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md) |
 
-Las catorce cargadas reúnen el 83,9% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila.
+Las dieciocho cargadas reúnen el 90,8% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila.
 
 Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 
@@ -136,6 +140,10 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | CABA | $1.697.451 (4,5%) | $2.134.030 (2,5%) |
 | La Pampa | $1.127.025 (3,0%) | $2.530.470 (3,0%) |
 | Salta (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
+| Neuquén (capital) | $939.188 (2,5%) | $2.108.725 (2,5%) |
+| Corrientes (capital) | $995.539 (2,7%) | $2.235.249 (2,7%) |
+| Misiones | $751.350 (2,0%) | $674.792 (0,8%) |
+| Tierra del Fuego (Ushuaia) | $1.502.700 (4,0%) | $3.373.960 (4,0%) |
 | Formosa (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
 | Chubut (Comodoro) | $1.014.323 (2,7%) | $2.277.423 (2,7%) |
 

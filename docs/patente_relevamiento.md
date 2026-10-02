@@ -31,7 +31,7 @@ Se usa la ordenanza de la ciudad con más parque como aproximación. El peso de 
 
 | Provincia | % trámites | Ciudad de referencia | Peso de la ciudad | Norma | Verificado | Lo que se sabe |
 |---|---|---|---|---|---|---|
-| Neuquén | 2,9% | Neuquén | 44% | Ordenanza tarifaria de Neuquén capital (economianqn.gob.ar) | No (falta leerla) | La Ley impositiva provincial 3541 no tiene impuesto automotor (verificado) |
+| Neuquén | 2,9% | Neuquén | 44% | Ordenanza 15065 (Tarifaria 2026 de Neuquén capital). **Corrección:** el PDF de economianqn.gob.ar que se había anotado era de la Municipalidad de Aluminé | Sí | La Ley impositiva provincial 3541 no tiene impuesto automotor (verificado) |
 | Corrientes | 1,9% | Corrientes | 34% | Ordenanza tarifaria 2026 de Corrientes | No | Prensa: 1% del valor ACARA, hasta 20 años. Ojo: el dato puede venir de otra ciudad |
 | Chubut | 1,8% | **Armonizado**: Res. 74/25 del Consejo de Responsabilidad Fiscal | Comodoro 42%, Trelew 17%, Madryn 14%, Rawson 9% | Ord. 14.576 de Puerto Madryn, que aplica la Res. 74/25 | Sí (Madryn) | 2,5% autos y 2% utilitarios, sobre las valuaciones de la Res. 74/25; mínimos por valuación. Falta confirmar que Comodoro aplique lo mismo |
 | Chaco | 1,7% | Resistencia | 45% | Ordenanza tributaria 2026 de Resistencia | No (solo prensa) | 1% o 1,5% según valor y antigüedad; base: valuación DNRPA |
@@ -60,6 +60,14 @@ Se usa la ordenanza de la ciudad con más parque como aproximación. El peso de 
   - **La Pampa:** Ley 3636, publicada solo como escaneo (135 páginas sin texto); se leyó como imagen. El art. 8 aplica escalas por categoría **sobre valuaciones propias** (anexos A, B1, B2...): autos 2% a 3% (Anexo A), station wagon y todo terreno 2,3% a 3% (B1), camionetas y pick-ups 2,1% a 3% (B2). Exentos los modelos **2013** y anteriores (art. 9; la prensa decía 2014, pero las tablas empiezan en 2014). Sin mínimo.
   - **San Juan, pendiente:** la ley impositiva 2025 (2730-I) no trae el impuesto automotor (solo sellos, tasas e Ingresos Brutos), y la 2026 (2803-I) está en el sitio del Poder Judicial, que responde 418 a los scripts. La base sí está confirmada por prensa: 95% de ACARA (Res. DGR 333/2026). Falta la alícuota en una fuente primaria.
   - **Santiago del Estero, pendiente:** la sección "Leyes impositivas" de Rentas solo publica moratorias (Leyes 7393 y 7411). El Código Fiscal (Ley 6792, art. 337) remite a la ley impositiva, que no se encontró.
+
+- **Paso 4 (2026-10-02):** Neuquén, Corrientes, Misiones y Tierra del Fuego cargadas; Chaco y Santa Cruz no. Cobertura: 90,8% (9,4% con aproximación municipal).
+  - **Neuquén capital:** Ordenanza 15065 (escaneo de 582 páginas, leído como imagen), arts. 241-258: livianos (incluye camionetas) 2,5%, mínimo $156.000, exentos los modelos 2005 y anteriores.
+  - **Corrientes capital:** Ordenanza 7706 (escaneo), arts. 12-14: categoría A (autos, rurales, todo terreno, pick-ups) 2,5% más 6% del Fondo de Mejora del Transporte. El "2% para camionetas" de la búsqueda era de una versión anterior.
+  - **Misiones:** no hace falta aproximar con una ciudad. El impuesto es provincial (Ley XXII-25 art. 65) y lo cobran los municipios: tipo 1 (autos) 2%, tipo 2 (camionetas, pick-ups, jeeps; Código Fiscal art. 235) 0,8%, hasta 16 años.
+  - **Tierra del Fuego:** Río Grande no publica su ordenanza; se usa Ushuaia (Ordenanza 5069, Anexo VII): 2% a 4% sobre el valor completo según tramos en UVF.
+  - **Chaco, no modelable:** Resistencia (Ordenanza 15495, Anexo I) cobra montos fijos por año de modelo y **peso** del vehículo, y DNRPA no publica el peso.
+  - **Santa Cruz, pendiente:** Río Gallegos no publica su ordenanza tarifaria.
 
 ## Propuesta de orden
 
