@@ -124,3 +124,20 @@ models:
               arguments:
                 min_value: 1
                 max_value: 200
+
+  - name: mart_repuestos
+    description: Precio mediano de repuestos de desgaste por familia y tipo de pieza, original contra alternativo.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [cca_marca, familia, tipo_pieza]
+
+  - name: mart_repuestos_comparables
+    description: La misma pieza (codigo base del SKU) en calidad original y alternativa.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [sku_base, tipo_pieza]
+    columns:
+      - name: veces_mas_caro_original
+        data_tests: [not_null]

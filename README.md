@@ -2,7 +2,7 @@
 
 Cuánto vale, cuánto cuesta tener y qué conviene comprar: autos en Argentina con datos públicos.
 
-**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service). Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
+**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service); **Fase 5 (repuestos) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
 
 | Paso | Resultado |
 |---|---|
@@ -209,3 +209,16 @@ BYD publica en **dólares con IVA** ("USD 92 (IVA Incluido)"). La ingesta guarda
 Ford publica la mejor fuente: una página por versión (41, incluidas las de años anteriores) con el precio de cada service, con y sin IVA, y una nota legal con la **vigencia mensual** ("precios sugeridos al público vigentes desde el 01/10/2026 al 31/10/2026") y aclarando que es el precio que Ford sugiere a toda la red. Se toma ese precio; el "Ford Protect" es prepago y queda afuera. El recolector recorre los enlaces desde la página de mantenimientos (~65 páginas, como máximo una vez por semana) y saca el nombre de la versión de la URL, porque los títulos de las páginas están mal (las E-Transit dicen "Bronco sport"). En el relevamiento el sitio había devuelto 403 a los scripts; al volver a probar respondió normal al User-Agent del proyecto. Si el bloqueo vuelve, Ford queda afuera: usar un navegador automatizado para pasarlo sería esquivarlo. Un control evitó guardar un precio mal leído: algunas solapas tienen el id en mayúscula ("60K") y su contenido quedaba pegado a la anterior; ahora la cantidad de solapas leídas tiene que coincidir con las de la página.
 
 La tabla de alias ahora también puede **impedir** un cruce (`(sin familia)`): el prefijo unía el Mustang Mach-E, un SUV eléctrico que la CCA no tiene, con el Mustang V8. Aplica a los service y a los patentamientos.
+
+## Fase 5: repuestos (en curso)
+
+**Fuente.** Repuestos Express, la tienda relevada en la Fase 0. `ingesta/repuestos.py` baja solo las piezas que se cambian en el mantenimiento (filtros, pastillas, discos y campanas de freno, bujías, distribución, correas, amortiguadores y embragues): **5.368 productos**, exactamente los que el sitio dice tener en esas categorías. Scraping responsable: solo `/buscar`, que `robots.txt` permite; el listado trae 24 productos por página con los mismos datos que la ficha (~230 pedidos en vez de 5.368); un pedido cada 2,5 s; como máximo una consulta por semana, y falla si una página trae 0 productos (cambió el HTML).
+
+**Tipo de pieza.** La subcategoría del sitio no alcanza: "Pastillas de Freno" trae pastillas para regular válvulas, y "Filtros" mezcla el elemento con su carcasa y soporte, que cuestan 10 a 50 veces más. `stg_repuestos__productos` clasifica por el **título** en 18 tipos de pieza de mantenimiento (filtro de aceite, kit de distribución, amortiguador delantero...); conjuntos, soportes, bulones, cables y bombas quedan como `otro`. Clasifica el 71% de los productos, con 39 aciertos en una muestra de 40.
+
+**Cruce con los modelos.** `int_repuesto_modelos` busca en el título las familias de la guía CCA (las mismas con las que cruzan patentamientos y service). Un repuesto puede ser compatible con varias ("Hilux/Corolla/Yaris"): una fila por familia. Cruza el **65%** de los repuestos de mantenimiento (80% de los que traen la marca del auto), sin errores en las muestras revisadas. Dos ajustes salieron de mirar los casos fallidos: en los títulos la barra y el guion separan modelos ("Vento/passat/tiguan" era una sola palabra para la normalización), y sin marca del auto no se aceptan nombres tipo código ("D-20" cruzaba con BAIC D20, "juego X2" con BMW X2). Lo que queda afuera son abreviaturas ("Xsa", "berl", "Hil") y modelos que la guía ya no lista (R19, Escort, Duna).
+
+**Original contra alternativo.** El SKU es código de la pieza + sufijo del proveedor; la base agrupa la misma pieza en distintas calidades (`mart_repuestos_comparables`). En 108 piezas comparables, **la original cuesta en mediana 2,3 veces** la alternativa más barata; los extremos: filtro de combustible de la Hilux 11,3x, filtro de aire del Polo 9,9x. Otras 16 quedan marcadas con `revisar`: la original sale más barata, casi seguro porque el código base une dos piezas distintas (un kit de distribución con bomba de agua contra uno sin).
+
+`mart_repuestos` resume por familia y tipo de pieza el precio mediano original y alternativo (1.074 combinaciones de 147 familias). Ejemplo, pastillas de freno: Peugeot 208 $287.525 original contra $57.125 alternativa; Toyota Corolla $531.540 contra $75.905.
+

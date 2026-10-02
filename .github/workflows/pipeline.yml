@@ -83,6 +83,12 @@ jobs:
         if: ${{ !cancelled() }}
         run: python -m ingesta.service
 
+      # Repuestos de desgaste (Repuestos Express): ~230 paginas, como maximo una
+      # vez por semana; el resto de los dias termina enseguida.
+      - name: Ingesta repuestos
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.repuestos
+
       - name: Publicar datos nuevos o modificados
         if: ${{ !cancelled() }}
         run: python -m ingesta.releases subir
