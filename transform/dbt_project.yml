@@ -49,6 +49,7 @@ seeds:
         coeficiente_base: double
         tope_tasa_efectiva_pct: double
         recargo_pct: double
+        ciudad_referencia: varchar
     banderas:
       +column_types:
         bandera_fuente: varchar

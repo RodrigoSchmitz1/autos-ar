@@ -80,3 +80,11 @@ provincia_id,anio_fiscal,categoria,modelo_desde,modelo_hasta,valuacion_minima,ba
 62,2026,auto,2007,2026,,0,,0,3.50,,marginal,Ley 5837 art. 24 (Rio Negro): grupo A-1 autos
 46,2026,pickup,2011,2026,,0,,0,2.50,,marginal,Ley Impositiva 2026 art. 6 (La Rioja): cat. A 25 por mil
 62,2026,pickup,2007,2026,,0,,0,3.50,,marginal,Ley 5837 art. 24 (Rio Negro): grupo B-1 pick-ups
+66,2026,auto,2006,2026,,0,,0,2.00,,marginal,Ordenanza Tributaria Anual 2026 de Salta art. 10 inc. a: 2% (hasta 20 anios)
+34,2026,auto,1990,2026,,0,,0,2.00,,marginal,Codigo Tarifario 2026 de Formosa art. 10: 2% del valor ACARA
+26,2026,auto,2006,2026,,0,,0,2.70,179999,marginal,"OTA 2026 de Comodoro Rivadavia art. 19: 2,7%; minimo 5.102 modulos x $2,94 x 12 (hasta 20 anios)"
+26,2026,auto,1990,2005,,0,,0,2.70,,marginal,"OTA 2026 de Comodoro Rivadavia art. 19: 2,7%; sin minimo para mas de 20 anios"
+66,2026,pickup,2006,2026,,0,,0,2.00,,marginal,Ordenanza Tributaria Anual 2026 de Salta art. 10 inc. a: 2% (hasta 20 anios)
+34,2026,pickup,1990,2026,,0,,0,2.00,,marginal,Codigo Tarifario 2026 de Formosa art. 10: 2% del valor ACARA
+26,2026,pickup,2006,2026,,0,,0,2.70,179999,marginal,"OTA 2026 de Comodoro Rivadavia art. 19: 2,7%; minimo 5.102 modulos x $2,94 x 12 (hasta 20 anios)"
+26,2026,pickup,1990,2005,,0,,0,2.70,,marginal,"OTA 2026 de Comodoro Rivadavia art. 19: 2,7%; sin minimo para mas de 20 anios"

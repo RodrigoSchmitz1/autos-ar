@@ -22,6 +22,11 @@
 
   Orden del calculo: escala -> tope de tasa efectiva -> minimo -> recargo.
 
+  Provincias donde la patente es municipal (Salta, Formosa, Chubut...): se usa
+  la ordenanza de la ciudad con mas parque como aproximacion para toda la
+  provincia; `precision` = 'aproximacion_municipal' y `ciudad_referencia` dice
+  cual y cuanto pesa. Ver docs/patente_relevamiento.md.
+
   Grano: provincia x version x anio modelo. Solo livianos, solo provincias con
   reglas cargadas y solo los modelos que alcanza cada escala.
 #}
@@ -37,7 +42,7 @@ with valuacion as (
 ),
 
 escala as (
-    select r.provincia_id, r.anio_fiscal, r.precision, r.base_usada,
+    select r.provincia_id, r.anio_fiscal, r.precision, r.ciudad_referencia, r.base_usada,
            r.tope_tasa_efectiva_pct, e.minimo_anual, coalesce(r.recargo_pct, 0) as recargo_pct,
            v.origen_codigo, v.marca_codigo, v.tipo_codigo, v.modelo_codigo, v.anio_modelo, v.categoria,
            v.valor_fiscal,
@@ -75,6 +80,7 @@ select
     alicuota_pct as alicuota_marginal_pct,
     round(segun_escala) <> round(antes_de_recargo) as aplico_tope_o_minimo,
     precision,
+    ciudad_referencia,
     base_usada,
     fuente
 from con_topes

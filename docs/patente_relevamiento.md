@@ -50,6 +50,12 @@ Se usa la ordenanza de la ciudad con más parque como aproximación. El peso de 
   - **San Luis:** nueve categorías de 2,5% a 5% sobre el valor completo, no 3,5% plano como decía la prensa.
   - **La Rioja:** base oficial DNRPA, 2,5%; pagan solo los modelos 2011 en adelante.
 
+- **Paso 2, cargado (2026-10-02):** Salta, Formosa y Chubut. La cobertura sube al 82,5% (3,9% de los trámites con aproximación municipal).
+  - **Salta (capital):** 2% de la valuación (Ordenanza Tributaria Anual 2026, art. 10, BO Municipal 2.753). Los vehículos de más de 20 años pagan otra tasa (art. 90).
+  - **Formosa (capital):** 2% del valor ACARA (Código Tarifario 2026, art. 10), sin exención por antigüedad.
+  - **Chubut:** la Res. 74/25 armoniza solo las **valuaciones**; la alícuota es de cada municipio. Comodoro Rivadavia (42% del parque, BO 184/2025, art. 19): 2,7% con mínimo de 5.102 módulos por mes. Puerto Madryn: 2,5%. Se usa Comodoro.
+  - **Jujuy, bloqueada:** la ordenanza impositiva 2026 de San Salvador de Jujuy (Ord. 8239/2025) no está publicada; la de 2025 es un escaneo con OCR ilegible.
+
 ## Propuesta de orden
 
 1. **Provincias con fuente primaria a mano:** Tucumán (verificada), Catamarca, San Luis y La Rioja (PDF oficial ubicado, falta leerlo), y Río Negro (ley ubicada). Suman el 6,5% de los trámites.

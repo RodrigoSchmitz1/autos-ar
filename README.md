@@ -112,9 +112,12 @@ Decisiones que importan:
 | San Luis | cargada (Ley VIII-0254-2025 art. 40) | Nueve categorías de 2,5% a 5% **sobre el valor completo**, como Mendoza. Exentos los modelos 2010 y anteriores |
 | Catamarca | cargada (Ley 5927 arts. 6-11) | **Base oficial DNRPA**. 2% plano; las cabina simple pagan 1,5%, pero DNRPA casi nunca dice la cabina. Exentos 20 años o más |
 | La Rioja | cargada (Ley impositiva 2026 arts. 6-8) | **Base oficial DNRPA**. 2,5% plano. Pagan solo los modelos 2011 en adelante |
+| Salta | **aproximación municipal**: ordenanza de la Ciudad de Salta (77% del parque) | 2% de la valuación. Más de 20 años: otra tasa (5 UT por mes). Transición que limita el impuesto al 40% del de 2024 (no aplicada) |
+| Formosa | **aproximación municipal**: Código Tarifario de la Ciudad de Formosa (73%) | 2% del valor ACARA, sin exención por antigüedad |
+| Chubut | **aproximación municipal**: ordenanza de Comodoro Rivadavia (42%) | Valuaciones provinciales (Res. 74/25) pero alícuota de cada municipio: Comodoro 2,7% con mínimo de ~$180.000 por año; Puerto Madryn 2,5% |
 | Resto | relevadas, pendientes | Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md): en 10 provincias la patente es municipal, y la escala 2026 de Entre Ríos no está publicada |
 
-Las diez cargadas reúnen el 78,6% de los trámites de autos livianos del último año.
+Las trece cargadas reúnen el 82,5% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila.
 
 Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 
@@ -130,6 +133,9 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Río Negro | $1.314.863 (3,5%) | $2.952.215 (3,5%) |
 | San Luis | $1.314.863 (3,5%) | $4.217.450 (5,0%) |
 | CABA | $1.697.451 (4,5%) | $2.134.030 (2,5%) |
+| Salta (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
+| Formosa (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
+| Chubut (Comodoro) | $1.014.323 (2,7%) | $2.277.423 (2,7%) |
 
 **Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) Peugeot y Citroën (sus tiendas online de service) Volkswagen (la lista nacional trimestral) Toyota (la tabla que publica un concesionario) Renault (la planilla de un concesionario) BYD (su guía oficial, en dólares) y Ford (su página oficial, por versión).
 

@@ -97,6 +97,18 @@ models:
               arguments:
                 min_value: 0
                 inclusive: false
+      - name: precision
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["base_oficial", "estimado", "aproximacion_municipal"]
+      - name: ciudad_referencia
+        description: Ciudad cuya ordenanza se usa cuando la patente es municipal.
+        data_tests:
+          - not_null:
+              config:
+                where: "precision = 'aproximacion_municipal'"
 
   - name: mart_service
     description: Costo del service oficial por modelo (lista vigente) y costo por km del plan completo.
