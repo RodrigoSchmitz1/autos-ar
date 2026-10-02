@@ -264,12 +264,61 @@ def volkswagen():
     return contenido, filas
 
 
+# ---------- Toyota: tabla HTML de un concesionario ----------
+def toyota():
+    """Plan de mantenimiento en la pagina de Toyota Federico (concesionario).
+
+    toyota.com.ar carga los precios desde una API que su robots.txt prohibe;
+    Federico publica la misma lista en HTML y su robots.txt permite todo. Que
+    es la lista nacional y no precios propios se verifico el 2026-10-02: otro
+    concesionario (Panamericana) publica exactamente los mismos montos.
+
+    Por modelo, dos tablas: 10k-100k y "(desde 110.000 km)" 110k-200k. El
+    titulo trae el modelo en <b>; "Corolla / Corolla Cross" se abre en dos.
+    Sin fecha ni mencion del IVA: queda la fecha de captura.
+    """
+    import html as html_lib
+    url = "https://www.toyotafederico.com/plan-mantenimiento.php"
+    pagina = pedir(url).decode("utf-8", "replace")
+
+    def celdas(fila):
+        return [html_lib.unescape(re.sub(r"<[^>]+>", "", c)).strip()
+                for c in re.findall(r"(?s)<td[^>]*>(.*?)</td>", fila)]
+
+    filas = []
+    for tabla in re.findall(r"(?s)<table.*?</table>", pagina):
+        titulo = re.search(r"Precios de mantenimiento\s*<b>([^<]+)</b>", tabla)
+        if not titulo:
+            continue
+        renglones = re.findall(r"(?s)<tr.*?</tr>", tabla)
+        kms, precios = celdas(renglones[1]), celdas(renglones[2])
+        if len(kms) != len(precios) or not all(re.fullmatch(r"\d+k", k) for k in kms):
+            raise ValueError(f"toyota {titulo[1]}: tabla con otro formato {kms} {precios}")
+        for k, celda in zip(kms, precios):
+            precio = re.fullmatch(r"\$\s*(\d{1,3}(?:\.\d{3})+)", celda)
+            if not precio:
+                raise ValueError(f"toyota {titulo[1]} {k}: precio ilegible {celda!r}")
+            for modelo in (m.strip() for m in titulo[1].split("/")):
+                filas.append({
+                    "marca": "Toyota", "modelo_fuente": modelo, "km": int(k[:-1]) * 1000,
+                    "precio": a_pesos(precio[1]), "tipo_precio": "lista",
+                    "mano_obra_bonificada": False, "incluye_iva": None, "items_cambio": None,
+                    "precio_texto": celda, "precio_corregido": False, "fuente_url": url,
+                    "vigencia_desde": None, "vigencia_hasta": None,
+                    "grupo_fuente": titulo[1].strip(),
+                })
+    # La huella es de las filas, no de la pagina: el HTML trae los precios de
+    # los 0 km del menu, que cambian seguido sin que cambie el service.
+    return json.dumps(filas, sort_keys=True).encode(), filas
+
+
 RECOLECTORES = {
     "fiat": lambda: mopar("fiat"),
     "jeep": lambda: mopar("jeep"),
     "peugeot": lambda: tienda_stellantis("peugeot", "https://www.peugeotstore.com.ar"),
     "citroen": lambda: tienda_stellantis("citroen", "https://www.citroenstore.com.ar"),
     "volkswagen": volkswagen,
+    "toyota": toyota,
 }
 
 # Las tiendas cuestan ~180 pedidos por marca (~8 minutos con la pausa de

@@ -16,3 +16,5 @@ cca,VOLKSWAGEN,PEPPER UP,UP!,DNRPA antepone la version al nombre ("PEPPER UP! 1.
 cca,VOLKSWAGEN,CROSS UP,UP!,DNRPA antepone la version al nombre ("CROSS UP! 1.0")
 cca,VOLKSWAGEN,WHITE UP,UP!,DNRPA antepone la version al nombre ("WHITE UP! 1.0")
 cca,VOLKSWAGEN,BLACK UP,UP!,DNRPA antepone la version al nombre ("BLACK UP! 1.0")
+service,TOYOTA,SW4,HILUX SW4,La CCA lo lista como variante de la Hilux
+service,TOYOTA,CH-R,C - HR,La CCA lo escribe "C - HR"
