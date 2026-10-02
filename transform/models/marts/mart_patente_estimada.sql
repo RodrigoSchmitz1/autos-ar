@@ -27,6 +27,10 @@
   provincia; `precision` = 'aproximacion_municipal' y `ciudad_referencia` dice
   cual y cuanto pesa. Ver docs/patente_relevamiento.md.
 
+  Provincias sin norma 2026 accesible (Entre Rios, San Juan, Jujuy): tasa de un
+  estudio publicado (Ineco-UADE), con `precision` = 'fuente_secundaria'. En Entre
+  Rios es una tasa efectiva promedio, no la escala de la ley.
+
   Grano: provincia x version x anio modelo. Solo livianos, solo provincias con
   reglas cargadas y solo los modelos que alcanza cada escala.
 #}

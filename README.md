@@ -2,7 +2,7 @@
 
 Cuánto vale, cuánto cuesta tener y qué conviene comprar: autos en Argentina con datos públicos.
 
-**Estado: Fase 0 (factibilidad) completa.** Antes de diseñar pipelines se mide cada fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
+**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service). Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
 
 | Paso | Resultado |
 |---|---|
@@ -91,7 +91,7 @@ Decisiones que importan:
 - **El mart de mercado no pierde trámites.** Los que no tienen código de modelo (2,4%) entran como `sin_codigo`. Un test verifica que el total coincida con staging.
 - **Combustible: mediana, sin exentos ni valores atípicos** (menos de la mitad o más del doble de la mediana provincial: 0,4% de las filas).
 
-## Fase 4: patente y service (en curso)
+## Fase 4: patente y service
 
 **Patente.** No hay un dataset: cada provincia fija el impuesto en su ley impositiva anual. Se cura a mano en dos tablas, con el artículo de ley de cada dato:
 
@@ -120,9 +120,12 @@ Decisiones que importan:
 | Corrientes | **aproximación municipal**: Ordenanza 7706 de Corrientes capital (34%) | 2,5% más 6% de recargo (Fondo de Mejora del Transporte); base DNRPA |
 | Misiones | cargada (Ley XXII-25 art. 65): impuesto provincial que cobran los municipios | Autos 2%, **pick-ups 0,8%** (son "tipo 2", vehículos de carga). Hasta 16 años; los más viejos pagan montos fijos (no cargados) |
 | Tierra del Fuego | **aproximación municipal**: Ordenanza 5069 de Ushuaia (47%; Río Grande no publica la suya) | Escala de 2% a 4% sobre el valor completo; desde $17,5 M paga 4%. La tabla municipal descontaría el IVA (la isla está exenta): la estimación puede quedar alta |
-| Resto | relevadas, pendientes | Entre Ríos, Jujuy, San Juan, Santiago del Estero y Santa Cruz: la norma 2026 no está publicada o no se puede leer. Chaco: Resistencia cobra por peso del vehículo, que DNRPA no publica. Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md) |
+| Entre Ríos | **fuente secundaria**: tasa efectiva promedio del informe de Ineco-UADE (mayo 2026) | 3,33%. La ley combina cuota fija y alícuota progresiva, pero el decreto 2026 con los tramos no está publicado: una tasa plana sobreestima los autos baratos y subestima los caros |
+| San Juan | **fuente secundaria**: Ineco-UADE | Alícuota única del 2%. La Ley 2803-I está en un sitio que rechaza los scripts |
+| Jujuy | **fuente secundaria**: Ineco-UADE | Patente municipal; alícuota única del 2%. La ordenanza 2026 de San Salvador no está publicada |
+| Sin cargar | Santiago del Estero, Santa Cruz y Chaco | Sin norma ni dato confiable publicado (las calculadoras se contradicen), y Resistencia (Chaco) cobra por peso, que DNRPA no publica. Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md) |
 
-Las dieciocho cargadas reúnen el 90,8% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila.
+Las veintiuna cargadas reúnen el 96,5% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila. Donde no hay norma 2026 accesible se usa la tasa del informe de Ineco-UADE (`precision = 'fuente_secundaria'`); sus valores coinciden con los de las leyes verificadas (Catamarca, Salta y Tucumán 2%; La Rioja y Corrientes 2,5%), lo que le da credibilidad. Para Tierra del Fuego el informe dice 2,5% y la ordenanza de Ushuaia da hasta 4%: probablemente el informe usó Río Grande.
 
 Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 
@@ -144,6 +147,8 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Corrientes (capital) | $995.539 (2,7%) | $2.235.249 (2,7%) |
 | Misiones | $751.350 (2,0%) | $674.792 (0,8%) |
 | Tierra del Fuego (Ushuaia) | $1.502.700 (4,0%) | $3.373.960 (4,0%) |
+| Entre Ríos (tasa efectiva) | $1.250.998 (3,3%) | $2.808.822 (3,3%) |
+| San Juan, Jujuy | $751.350 (2,0%) | $1.686.980 (2,0%) |
 | Formosa (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
 | Chubut (Comodoro) | $1.014.323 (2,7%) | $2.277.423 (2,7%) |
 

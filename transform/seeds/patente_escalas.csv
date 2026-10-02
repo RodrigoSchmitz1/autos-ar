@@ -114,3 +114,9 @@ provincia_id,anio_fiscal,categoria,modelo_desde,modelo_hasta,valuacion_minima,ba
 94,2026,pickup,1990,2026,,7946825,11125555,198671,2.50,,por_categoria,"Ordenanza Tarifaria 5069 de Ushuaia, Anexo VII art. 1 inc. a: 2.5% sobre el valor total; tramos en UVF x $3.178,73"
 94,2026,pickup,1990,2026,,11125555,17483015,389394,3.50,,por_categoria,"Ordenanza Tarifaria 5069 de Ushuaia, Anexo VII art. 1 inc. a: 3.5% sobre el valor total; tramos en UVF x $3.178,73"
 94,2026,pickup,1990,2026,,17483015,,699321,4.00,,por_categoria,"Ordenanza Tarifaria 5069 de Ushuaia, Anexo VII art. 1 inc. a: 4.0% sobre el valor total; tramos en UVF x $3.178,73"
+30,2026,auto,1990,2026,,0,,0,3.33,,marginal,"Entre Rios: tasa efectiva promedio 3,33% (Ineco-UADE), no la escala de ley"
+30,2026,pickup,1990,2026,,0,,0,3.33,,marginal,"Entre Rios: tasa efectiva promedio 3,33% (Ineco-UADE), no la escala de ley"
+70,2026,auto,1990,2026,,0,,0,2.00,,marginal,San Juan: alicuota unica 2% (Ineco-UADE)
+70,2026,pickup,1990,2026,,0,,0,2.00,,marginal,San Juan: alicuota unica 2% (Ineco-UADE)
+38,2026,auto,2001,2026,,0,,0,2.00,,marginal,Jujuy: alicuota unica 2% (Ineco-UADE); exentos mas de 25 anios
+38,2026,pickup,2001,2026,,0,,0,2.00,,marginal,Jujuy: alicuota unica 2% (Ineco-UADE); exentos mas de 25 anios

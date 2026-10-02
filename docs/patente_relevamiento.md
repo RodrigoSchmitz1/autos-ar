@@ -69,6 +69,13 @@ Se usa la ordenanza de la ciudad con más parque como aproximación. El peso de 
   - **Chaco, no modelable:** Resistencia (Ordenanza 15495, Anexo I) cobra montos fijos por año de modelo y **peso** del vehículo, y DNRPA no publica el peso.
   - **Santa Cruz, pendiente:** Río Gallegos no publica su ordenanza tarifaria.
 
+- **Cierre con fuentes secundarias (2026-10-02):** el usuario decidió no pedir textos a los organismos y usar lo publicado en internet. Cobertura: 96,5% (5,7% de fuente secundaria).
+  - Fuente: el informe de patentes 2026 del Instituto de Economía de UADE (Ineco), difundido en mayo de 2026 (Infobae, La Nación, diarios provinciales). Se validó contra las leyes ya verificadas: coincide en Catamarca, Salta y Tucumán (2%), y en La Rioja y Corrientes (2,5%). Difiere en Tierra del Fuego (2,5% contra el 4% de Ushuaia; probablemente usó Río Grande).
+  - **Entre Ríos:** 3,33% de tasa efectiva promedio, cargada como tasa plana. Las calculadoras que dicen "1,8% plano" contradicen al estudio y a la estructura de la ley (cuota fija más alícuota progresiva hasta 3%).
+  - **San Juan y Jujuy:** alícuota única del 2% según el estudio.
+  - **No cargadas:** Santiago del Estero (calculadoras contradictorias: 1,3% y 2,3%), Santa Cruz (sin dato publicado) y Chaco (cobra por peso). Suman el 3,4% de los trámites.
+  - Se descartó calculadorapatentes.ar: asigna 3% a todas estas provincias y dice que en Chaco el impuesto es provincial.
+
 ## Propuesta de orden
 
 1. **Provincias con fuente primaria a mano:** Tucumán (verificada), Catamarca, San Luis y La Rioja (PDF oficial ubicado, falta leerlo), y Río Negro (ley ubicada). Suman el 6,5% de los trámites.
