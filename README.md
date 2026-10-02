@@ -118,7 +118,7 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Polo Track ($37,6 M) | $838.565 (2,2%) | $1.697.451 (4,5%) | $518.254 (1,4%) | $864.053 (2,3%) | $751.350 (2,0%) |
 | Hilux SRX ($84,3 M) | $2.747.420 (3,3%) | $2.134.030 (2,5%) | $1.500.666 (1,8%) | $1.686.980 (2,0%) | $2.108.725 (2,5%) |
 
-**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar).
+**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) y Peugeot y Citroën (sus tiendas online de service).
 
 `mart_service` calcula el **costo de service por kilómetro**: todo el plan publicado dividido por los kilómetros que cubre. Es la única forma de comparar marcas que cobran un precio parejo (Fiat: $434.000 cada service del Cronos) con marcas que cobran distinto en cada intervalo, y con intervalos distintos (Fiat cada 10.000 km, Jeep cada 12.000).
 
@@ -131,3 +131,12 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Jeep Grand Cherokee SRT | $1.050.000 cada 12.000 km (uno a $1.167.200) | $89,7 |
 
 Dos detalles de la fuente: tiene precios con un cero de más ("$ 434.0000"), que se corrigen solo si coinciden con el precio habitual del modelo y quedan marcados; y los Jeep diésel tienen un service más caro a los 60.000 km.
+
+Peugeot y Citroën publican el precio en un formulario (modelo, versión, service y concesionario) que se llena por pedidos AJAX: unos 180 pedidos por marca. Por eso se consultan **como máximo una vez cada 7 días** (las listas cambian una vez por mes) y con la pausa de cortesía de 2,5 s. El precio es el mismo en toda la red: cada corrida lo compara contra otros dos concesionarios y falla si difiere. La tienda tiene services cargados dos veces (el 208 1.6 N a 50.000 km): si tienen el mismo precio queda uno solo, y si difieren el pipeline falla. Como comparten plataforma, los utilitarios gemelos cuestan lo mismo en las dos marcas (Partner y Berlingo, Expert y Jumpy, Boxer y Jumper).
+
+| Modelo | Service | Costo por km |
+|---|---|---|
+| Citroën C3 1.6 | $439.000 cada 10.000 km | $43,9 |
+| Peugeot 208 1.6 | $460.000 cada 10.000 km | $46,0 |
+| Peugeot 2008 T200 | $569.000 cada 10.000 km | $56,9 |
+| Citroën C4 híbrido | $617.000 cada 10.000 km | $61,7 |
