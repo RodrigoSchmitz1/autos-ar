@@ -56,6 +56,11 @@ Se usa la ordenanza de la ciudad con más parque como aproximación. El peso de 
   - **Chubut:** la Res. 74/25 armoniza solo las **valuaciones**; la alícuota es de cada municipio. Comodoro Rivadavia (42% del parque, BO 184/2025, art. 19): 2,7% con mínimo de 5.102 módulos por mes. Puerto Madryn: 2,5%. Se usa Comodoro.
   - **Jujuy, bloqueada:** la ordenanza impositiva 2026 de San Salvador de Jujuy (Ord. 8239/2025) no está publicada; la de 2025 es un escaneo con OCR ilegible.
 
+- **Paso 3 (2026-10-02):** La Pampa cargada; San Juan y Santiago del Estero, pendientes. Cobertura: 83,9%.
+  - **La Pampa:** Ley 3636, publicada solo como escaneo (135 páginas sin texto); se leyó como imagen. El art. 8 aplica escalas por categoría **sobre valuaciones propias** (anexos A, B1, B2...): autos 2% a 3% (Anexo A), station wagon y todo terreno 2,3% a 3% (B1), camionetas y pick-ups 2,1% a 3% (B2). Exentos los modelos **2013** y anteriores (art. 9; la prensa decía 2014, pero las tablas empiezan en 2014). Sin mínimo.
+  - **San Juan, pendiente:** la ley impositiva 2025 (2730-I) no trae el impuesto automotor (solo sellos, tasas e Ingresos Brutos), y la 2026 (2803-I) está en el sitio del Poder Judicial, que responde 418 a los scripts. La base sí está confirmada por prensa: 95% de ACARA (Res. DGR 333/2026). Falta la alícuota en una fuente primaria.
+  - **Santiago del Estero, pendiente:** la sección "Leyes impositivas" de Rentas solo publica moratorias (Leyes 7393 y 7411). El Código Fiscal (Ley 6792, art. 337) remite a la ley impositiva, que no se encontró.
+
 ## Propuesta de orden
 
 1. **Provincias con fuente primaria a mano:** Tucumán (verificada), Catamarca, San Luis y La Rioja (PDF oficial ubicado, falta leerlo), y Río Negro (ley ubicada). Suman el 6,5% de los trámites.

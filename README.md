@@ -112,12 +112,13 @@ Decisiones que importan:
 | San Luis | cargada (Ley VIII-0254-2025 art. 40) | Nueve categorías de 2,5% a 5% **sobre el valor completo**, como Mendoza. Exentos los modelos 2010 y anteriores |
 | Catamarca | cargada (Ley 5927 arts. 6-11) | **Base oficial DNRPA**. 2% plano; las cabina simple pagan 1,5%, pero DNRPA casi nunca dice la cabina. Exentos 20 años o más |
 | La Rioja | cargada (Ley impositiva 2026 arts. 6-8) | **Base oficial DNRPA**. 2,5% plano. Pagan solo los modelos 2011 en adelante |
+| La Pampa | cargada (Ley 3636 arts. 8-9, texto escaneado) | Escalas por categoría **sobre el valor completo**: autos 2% a 3%, pick-ups 2,1% a 3%. Valuaciones propias de la ley; los tramos están calibrados sobre ellas, así que con la valuación DNRPA la estimación puede quedar alta. Exentos los modelos 2013 y anteriores |
 | Salta | **aproximación municipal**: ordenanza de la Ciudad de Salta (77% del parque) | 2% de la valuación. Más de 20 años: otra tasa (5 UT por mes). Transición que limita el impuesto al 40% del de 2024 (no aplicada) |
 | Formosa | **aproximación municipal**: Código Tarifario de la Ciudad de Formosa (73%) | 2% del valor ACARA, sin exención por antigüedad |
 | Chubut | **aproximación municipal**: ordenanza de Comodoro Rivadavia (42%) | Valuaciones provinciales (Res. 74/25) pero alícuota de cada municipio: Comodoro 2,7% con mínimo de ~$180.000 por año; Puerto Madryn 2,5% |
 | Resto | relevadas, pendientes | Ver [docs/patente_relevamiento.md](docs/patente_relevamiento.md): en 10 provincias la patente es municipal, y la escala 2026 de Entre Ríos no está publicada |
 
-Las trece cargadas reúnen el 82,5% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila.
+Las catorce cargadas reúnen el 83,9% de los trámites de autos livianos del último año. Donde la patente es municipal se usa la ordenanza de la ciudad con más parque: `precision = 'aproximacion_municipal'` y `ciudad_referencia` lo dicen en cada fila.
 
 Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 
@@ -133,6 +134,7 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Río Negro | $1.314.863 (3,5%) | $2.952.215 (3,5%) |
 | San Luis | $1.314.863 (3,5%) | $4.217.450 (5,0%) |
 | CABA | $1.697.451 (4,5%) | $2.134.030 (2,5%) |
+| La Pampa | $1.127.025 (3,0%) | $2.530.470 (3,0%) |
 | Salta (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
 | Formosa (capital) | $751.350 (2,0%) | $1.686.980 (2,0%) |
 | Chubut (Comodoro) | $1.014.323 (2,7%) | $2.277.423 (2,7%) |
