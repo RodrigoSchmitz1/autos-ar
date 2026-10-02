@@ -20,6 +20,9 @@
 
   VW publica por grupo de modelos ("Polo / Tera / Virtus ..."): la ingesta
   abre cada grupo en una fila por modelo, con el mismo plan de precios.
+
+  Todo en pesos: BYD publica en dolares y staging lo convierte con el tipo de
+  cambio minorista del BCRA (`tipo_cambio`, `moneda_original`).
 #}
 
 with vigente as (
@@ -47,6 +50,10 @@ select
     -- Solo VW publica vigencia; el concesionario puede tardar en subir la
     -- lista nueva y la ultima captura queda vencida. Se muestra igual, avisando.
     coalesce(max(v.vigencia_hasta) < current_date, false) as lista_vencida,
+    any_value(v.moneda) as moneda_original,
+    -- Para las listas en dolares: el costo en pesos se mueve con el dolar.
+    max(v.tipo_cambio) as tipo_cambio,
+    max(v.tipo_cambio_fecha) as tipo_cambio_fecha,
     any_value(v.fuente_url) as fuente_url
 from vigente v
 left join {{ ref('int_service_familia') }} f using (marca, modelo_fuente)

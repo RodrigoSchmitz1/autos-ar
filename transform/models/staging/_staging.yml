@@ -81,3 +81,22 @@ models:
     columns:
       - name: precio
         data_tests: [not_null]
+      - name: moneda
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["ARS", "USD"]
+      - name: tipo_cambio
+        description: Pesos por dolar usados para convertir; solo en precios publicados en dolares.
+        data_tests:
+          - not_null:
+              config:
+                where: "moneda = 'USD'"
+
+  - name: stg_cambio__usd_minorista
+    description: Tipo de cambio minorista del BCRA (promedio vendedor), pesos por dolar.
+    columns:
+      - name: fecha
+        data_tests: [unique, not_null]
+      - name: pesos_por_dolar
+        data_tests: [not_null]

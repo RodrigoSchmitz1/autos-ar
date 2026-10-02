@@ -71,8 +71,14 @@ jobs:
         if: ${{ !cancelled() }}
         run: python -m ingesta.consumo
 
-      # Precios oficiales de service (por ahora Fiat y Jeep). Se guarda una foto
-      # solo cuando la fuente cambia.
+      # Tipo de cambio minorista del BCRA, para pasar a pesos las fuentes en
+      # dolares (service de BYD).
+      - name: Ingesta tipo de cambio
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.cambio
+
+      # Precios oficiales de service (Fiat, Jeep, Peugeot, Citroen, VW, Toyota,
+      # Renault, BYD). Se guarda una foto solo cuando la fuente cambia.
       - name: Ingesta service programado
         if: ${{ !cancelled() }}
         run: python -m ingesta.service

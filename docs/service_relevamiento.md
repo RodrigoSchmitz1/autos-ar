@@ -12,7 +12,7 @@ Qué publica cada marca, en qué formato y si un script lo puede leer. Medido an
 | Toyota | toyota.com.ar (app que carga los precios por una API que robots.txt prohíbe); un concesionario publica la tabla en HTML | HTML | Solo el concesionario | No | Modelo, de 10.000 a 200.000 km |
 | Ford | ford.com.ar, página por modelo y motor | HTML | **No**: Akamai devuelve 403 a scripts, solo abre en un navegador real | No | Modelo y motor, con y sin IVA y precio prepago |
 | Renault | Planilla "Precios Todo Incluido" del concesionario Pourtau (región A); hay otra versión de sep-2025 con adicionales "+ $" | PDF | Sí, con extracción de tablas | No (el PDF se regenera a diario) | Código de motor, precios por región |
-| BYD | `byd.com/ar/service-guide` | HTML con JSON embebido | Sí | "1/05 al 30/06/2026": **vencida** | Modelo, cada 20.000 km, **en dólares** |
+| BYD | `byd.com/ar/service-guide` | HTML con JSON embebido | Sí | "1/05 al 30/06/2026": **vencida** | Modelo, cada 20.000 km (eléctricos) o 12.000 km (híbridos), **en dólares**: se convierte con el minorista del BCRA |
 | Chevrolet | Sin fuente oficial: solo kits de repuestos | — | — | — | — |
 
 ## Lo que cambia el diseño

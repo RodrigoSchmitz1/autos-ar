@@ -395,6 +395,49 @@ def renault():
     return json.dumps(filas, sort_keys=True).encode(), filas
 
 
+# ---------- BYD: guia de servicio oficial, JSON dentro de la pagina, en dolares ----------
+def byd():
+    """Guia de servicio de byd.com/ar: los datos vienen en un JSON dentro del
+    atributo `:app-property` de la pagina (modelo -> km/meses -> precio).
+
+    Precios en dolares con IVA ("USD 92 (IVA Incluido)"): se guardan en
+    dolares (`moneda` = 'USD') y se pasan a pesos en dbt con el tipo de cambio
+    minorista del BCRA (ingesta/cambio.py). La vigencia sale del texto legal
+    ("valido desde el 01/05/2026 hasta el 30/06/2026").
+    """
+    import html as html_lib
+    url = "https://www.byd.com/ar/service-guide"
+    pagina = pedir(url).decode("utf-8", "replace")
+    datos = re.search(r':app-property="([^"]*packageList[^"]*)"', pagina)
+    if not datos:
+        raise ValueError("byd: la pagina no trae el JSON de la guia de servicio")
+    guia = json.loads(html_lib.unescape(datos[1]))
+    texto = re.sub(r"<[^>]+>", " ", html_lib.unescape(pagina))
+    vig = re.search(r"desde el (\d{2})/(\d{2})/(\d{4}) hasta el (\d{2})/(\d{2})/(\d{4})", texto)
+    if not vig:
+        raise ValueError("byd: no se encontro la vigencia en el texto legal")
+    d = [int(x) for x in vig.groups()]
+    desde, hasta = date(d[2], d[1], d[0]), date(d[5], d[4], d[3])
+    filas = []
+    for modelo in guia["packageList"]:
+        for s in modelo["category"]:
+            km = re.match(r"\s*([\d.]+)\s*K", s["name"], re.I)
+            precio = re.fullmatch(r"USD\s*(\d+)\s*\(IVA Incluido\)", s["price"].strip())
+            if not (km and precio):
+                raise ValueError(f"byd {modelo['name']}: service ilegible {s['name']!r} {s['price']!r}")
+            items = [html_lib.unescape(re.sub(r"<[^>]+>", "", i)).strip()
+                     for i in re.findall(r"(?s)<li[^>]*>(.*?)</li>", s.get("service") or "")]
+            filas.append({
+                "marca": "BYD", "modelo_fuente": re.sub(r"^BYD\s+", "", modelo["name"].strip()),
+                "km": a_pesos(km[1]), "precio": int(precio[1]), "moneda": "USD",
+                "tipo_precio": "lista", "mano_obra_bonificada": False, "incluye_iva": True,
+                "items_cambio": " | ".join(i for i in items if i), "precio_texto": s["price"].strip(),
+                "precio_corregido": False, "fuente_url": url,
+                "vigencia_desde": desde, "vigencia_hasta": hasta,
+            })
+    return json.dumps(filas, sort_keys=True, default=str).encode(), filas
+
+
 RECOLECTORES = {
     "fiat": lambda: mopar("fiat"),
     "jeep": lambda: mopar("jeep"),
@@ -403,6 +446,7 @@ RECOLECTORES = {
     "volkswagen": volkswagen,
     "toyota": toyota,
     "renault": renault,
+    "byd": byd,
 }
 
 # Las tiendas cuestan ~180 pedidos por marca (~8 minutos con la pausa de
@@ -416,9 +460,11 @@ def validar(marca, filas):
     errores = []
     if len(filas) < 20:
         errores.append(f"solo {len(filas)} filas")
-    fuera = [f for f in filas if not 100_000 <= f["precio"] <= 5_000_000]
+    rango = {"ARS": (100_000, 5_000_000), "USD": (30, 5_000)}
+    fuera = [f for f in filas if not rango[f.get("moneda", "ARS")][0] <= f["precio"] <= rango[f.get("moneda", "ARS")][1]]
     if fuera:
-        errores.append(f"{len(fuera)} precios fuera de $100.000-$5.000.000 (ej.: {fuera[0]['modelo_fuente']} {fuera[0]['km']} km ${fuera[0]['precio']:,})")
+        f = fuera[0]
+        errores.append(f"{len(fuera)} precios fuera de rango (ej.: {f['modelo_fuente']} {f['km']} km {f.get('moneda', 'ARS')} {f['precio']:,})")
     if len({(f["modelo_fuente"], f["km"]) for f in filas}) != len(filas):
         errores.append("modelo y km repetidos")
     if errores:
