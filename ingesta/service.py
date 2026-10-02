@@ -312,6 +312,89 @@ def toyota():
     return json.dumps(filas, sort_keys=True).encode(), filas
 
 
+# ---------- Renault: planilla del concesionario Pourtau, en PDF ----------
+PRECIO_RENAULT = re.compile(r"(\+\s?)?\$\s?(\d{1,3}(?:\.\d{3})+|\d+)")
+# Que columna de precio va a cada km. El precio base (segun el aceite del
+# motor) vale en los km que no tienen pack; las columnas de packs son el
+# precio total de ese service: en todos los motores "20K" = base + ~$27.740.
+KM_RENAULT = {10: 0, 20: 1, 30: 0, 40: 2, 50: 0, 60: 3, 70: 0, 80: 4,
+              90: 0, 100: 1, 110: 0, 120: 5}
+# Electricos (E-TECH): base cada 10.000 km mas un adicional explicito ("+ $18210")
+# segun el km. Columnas de la tabla: 20/40/100, 30/90, 60/120 mil km.
+ADICIONAL_ETECH = {20: 0, 40: 0, 100: 0, 30: 1, 90: 1, 60: 2, 120: 2}
+# Renglones que valen para dos modelos. Lista explicita y no una regla: en
+# "Megane III/ RS" y "Fluence Gt / Sport" la barra no separa modelos.
+GRUPOS_RENAULT = {"Fluence/Megane III": ["Fluence", "Megane III"],
+                  "Nuevo Logan-Sandero": ["Nuevo Logan", "Nuevo Sandero"],
+                  "Logan-Sandero PH2": ["Logan PH2", "Sandero PH2"]}
+
+
+def renault():
+    """Programa de mantenimiento Renault, planilla de Excel exportada a PDF que
+    publica el concesionario Pourtau. Se regenera todos los dias (la fecha de
+    creacion del PDF cambia), asi que la huella es de las filas extraidas.
+
+    Una fila por motor ("Duster K4M - 1,6l 16v"): el motor cambia el precio.
+    Los nombres salen de la grilla de la tabla; los precios, del texto de cada
+    renglon, porque la tabla junta celdas en algunos renglones y pierde un
+    precio (Boreal). Un renglon trae 6 precios (base, 20K/100K, 40K, 60K, 80K,
+    120K) o 7 si el base se repite en dos columnas de aceite.
+    """
+    import io
+
+    import pdfplumber
+    url = "https://premiumconsulting.com.ar/pourtau/quiter/ldp/Lista%20de%20precios.pdf"
+    pagina = pdfplumber.open(io.BytesIO(pedir(url))).pages[0]
+    tablas = pagina.extract_tables()
+    nombres = {}
+    for tabla in tablas:
+        for fila in tabla:
+            modelo, motor = ((c or "").replace("\n", " ").strip() for c in fila[:2])
+            con_precio = any("$" in (c or "") for c in fila[2:])
+            if modelo and motor and con_precio and "$" not in modelo + motor:
+                nombres[f"{modelo} {motor}"] = (modelo.lstrip("*").strip(), motor)
+
+    filas = []
+
+    def agregar(grupo, motor, km, precio, texto):
+        for modelo in GRUPOS_RENAULT.get(grupo, [grupo]):
+            filas.append({
+                "marca": "Renault", "modelo_fuente": f"{modelo} {motor}", "km": km * 1000,
+                "precio": precio, "tipo_precio": "lista", "mano_obra_bonificada": False,
+                "incluye_iva": None, "items_cambio": None, "precio_texto": texto,
+                "precio_corregido": False, "fuente_url": url,
+                "vigencia_desde": None, "vigencia_hasta": None, "grupo_fuente": grupo,
+            })
+
+    vistos = set()
+    for renglon in pagina.extract_text().splitlines():
+        inicio = PRECIO_RENAULT.search(renglon)
+        clave = renglon[:inicio.start()].strip() if inicio else None
+        if clave not in nombres:
+            continue
+        vistos.add(clave)
+        modelo, motor = nombres[clave]
+        tokens = PRECIO_RENAULT.findall(renglon)
+        precios = [a_pesos(p) for _, p in tokens]
+        if "E-TECH" in modelo.upper():
+            if len(precios) != 4 or not all(mas for mas, _ in tokens[1:]):
+                raise ValueError(f"renault {clave}: renglon E-TECH inesperado {renglon!r}")
+            for km in range(10, 130, 10):
+                extra = precios[1 + ADICIONAL_ETECH[km]] if km in ADICIONAL_ETECH else 0
+                agregar(modelo, motor, km, precios[0] + extra, renglon)
+            continue
+        if len(precios) == 7 and precios[0] == precios[1]:
+            precios = precios[1:]
+        if len(precios) != 6:
+            raise ValueError(f"renault {clave}: {len(precios)} precios en {renglon!r}")
+        for km, col in KM_RENAULT.items():
+            agregar(modelo, motor, km, precios[col], renglon)
+    faltan = set(nombres) - vistos
+    if faltan:
+        raise ValueError(f"renault: modelos de la tabla sin renglon de precios: {sorted(faltan)}")
+    return json.dumps(filas, sort_keys=True).encode(), filas
+
+
 RECOLECTORES = {
     "fiat": lambda: mopar("fiat"),
     "jeep": lambda: mopar("jeep"),
@@ -319,6 +402,7 @@ RECOLECTORES = {
     "citroen": lambda: tienda_stellantis("citroen", "https://www.citroenstore.com.ar"),
     "volkswagen": volkswagen,
     "toyota": toyota,
+    "renault": renault,
 }
 
 # Las tiendas cuestan ~180 pedidos por marca (~8 minutos con la pausa de

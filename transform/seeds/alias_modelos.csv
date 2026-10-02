@@ -18,3 +18,5 @@ cca,VOLKSWAGEN,WHITE UP,UP!,DNRPA antepone la version al nombre ("WHITE UP! 1.0"
 cca,VOLKSWAGEN,BLACK UP,UP!,DNRPA antepone la version al nombre ("BLACK UP! 1.0")
 service,TOYOTA,SW4,HILUX SW4,La CCA lo lista como variante de la Hilux
 service,TOYOTA,CH-R,C - HR,La CCA lo escribe "C - HR"
+service,RENAULT,OROCH,DUSTER OROCH PICK - UP,La CCA lo lista como variante de la Duster
+service,RENAULT,MEGANE III/ RS,MEGANE III,"La barra pegada (""III/"") no cruza por prefijo"

@@ -11,7 +11,7 @@ Qué publica cada marca, en qué formato y si un script lo puede leer. Medido an
 | Volkswagen | PDF de la lista nacional publicado por un concesionario (Alperovich) | PDF con texto | Sí | **"3º trimestre, julio a septiembre 2026"** | Grupo de modelos, cada 15.000 km hasta 105.000 |
 | Toyota | toyota.com.ar (app que carga los precios por una API que robots.txt prohíbe); un concesionario publica la tabla en HTML | HTML | Solo el concesionario | No | Modelo, de 10.000 a 200.000 km |
 | Ford | ford.com.ar, página por modelo y motor | HTML | **No**: Akamai devuelve 403 a scripts, solo abre en un navegador real | No | Modelo y motor, con y sin IVA y precio prepago |
-| Renault | Lista nacional en el sitio de un concesionario | PDF | Sí, con extracción de tablas | No (el archivo es del 1-sep-2026) | Código de motor, precios por región |
+| Renault | Planilla "Precios Todo Incluido" del concesionario Pourtau (región A); hay otra versión de sep-2025 con adicionales "+ $" | PDF | Sí, con extracción de tablas | No (el PDF se regenera a diario) | Código de motor, precios por región |
 | BYD | `byd.com/ar/service-guide` | HTML con JSON embebido | Sí | "1/05 al 30/06/2026": **vencida** | Modelo, cada 20.000 km, **en dólares** |
 | Chevrolet | Sin fuente oficial: solo kits de repuestos | — | — | — | — |
 

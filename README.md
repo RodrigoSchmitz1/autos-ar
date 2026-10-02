@@ -118,7 +118,7 @@ Mismo auto, distinta provincia (estimación 2026, modelo 0 km):
 | Polo Track ($37,6 M) | $838.565 (2,2%) | $1.697.451 (4,5%) | $518.254 (1,4%) | $864.053 (2,3%) | $751.350 (2,0%) |
 | Hilux SRX ($84,3 M) | $2.747.420 (3,3%) | $2.134.030 (2,5%) | $1.500.666 (1,8%) | $1.686.980 (2,0%) | $2.108.725 (2,5%) |
 
-**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) Peugeot y Citroën (sus tiendas online de service) Volkswagen (la lista nacional trimestral) y Toyota (la tabla que publica un concesionario).
+**Service programado.** Cada marca publica distinto: el relevamiento está en [docs/service_relevamiento.md](docs/service_relevamiento.md). `ingesta/service.py` guarda una foto de la lista de cada marca **solo cuando cambia** (fecha de captura), porque casi ninguna fuente dice desde cuándo rige el precio. Por ahora cubre Fiat y Jeep (la lista oficial de Mopar) Peugeot y Citroën (sus tiendas online de service) Volkswagen (la lista nacional trimestral) Toyota (la tabla que publica un concesionario) y Renault (la planilla de un concesionario).
 
 `mart_service` calcula el **costo de service por kilómetro**: todo el plan publicado dividido por los kilómetros que cubre. Es la única forma de comparar marcas que cobran un precio parejo (Fiat: $434.000 cada service del Cronos) con marcas que cobran distinto en cada intervalo, y con intervalos distintos (Fiat cada 10.000 km, Jeep cada 12.000).
 
@@ -164,3 +164,6 @@ Costo de service por km, mediana de los modelos de cada marca:
 | Citroën | 15 | $50,1 | cada 10.000 km (utilitarios, cada 20.000) |
 | Fiat | 15 | $51,3 | cada 10.000 km |
 | Peugeot | 15 | $52,9 | cada 10.000 km (utilitarios, cada 20.000) |
+| Renault | 41 | $55,2 | cada 10.000 km hasta 120.000 |
+
+Renault no publica una lista por service sino un precio base que depende del aceite del motor, más "packs" a los 20.000/100.000, 40.000, 60.000, 80.000 y 120.000 km. La fuente es la planilla "Precios Todo Incluido" del concesionario Pourtau (región A de precios Renault, AMBA), un PDF que se regenera todos los días: la huella es de los precios extraídos. Que las columnas de packs son el precio total y no un adicional se confirmó con la versión anterior del mismo archivo, que los publicaba como "+ $". Los precios salen del texto de cada renglón y los nombres de la grilla, porque la grilla junta celdas y perdía un precio (Boreal). No se encontró otro concesionario con la misma planilla para compararla, y un dato es sospechoso: el Grand Koleos nafta cuesta menos a los 120.000 km que a los 60.000, al revés que todos los demás motores. Los eléctricos son los más baratos de todo el relevamiento: Kwid E-TECH $19,8 por km, contra $38,8 del Kwid nafta.
