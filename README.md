@@ -253,3 +253,11 @@ Los más vendidos en Buenos Aires (15.000 km por año, 5 años):
 
 **La depreciación es entre el 42% y el 56% del costo** en todos los modelos: es lo que más pesa, y por eso un Yaris XS cuesta $100 menos por km que un Cronos Drive de precio parecido. Y la provincia importa: el mismo Cronos Drive cuesta $613.000 por mes en Córdoba y $705.000 en CABA (patente y combustible).
 
+**Comparador.** El mart usa un perfil fijo; el comparador usa el del usuario: km por año, años de tenencia, provincia, seguro mensual (el único componente sin fuente pública) y repuestos originales o alternativos. El cálculo vive en `costo/calculo.py`, código puro sin base de datos, que después usan el sitio y el asistente: la IA interpreta lo que pide el usuario, el código cuenta. Para plazos distintos de 1, 5 y 10 años la curva de depreciación se interpola en línea recta.
+
+```bash
+python -m costo.comparador --provincia 06 --km 20000 --anios 3 --seguro 60000 "cronos drive 1.3 gse bz" "yaris xs" "polo track"
+```
+
+`costo/test_calculo.py` tiene casos armados a mano (manejar el doble duplica combustible, service y repuestos, pero no patente ni depreciación) y además compara el cálculo de Python con `mart_costo_total` en 200 versiones al azar: las dos implementaciones tienen que dar lo mismo, y el test corre en el pipeline después de dbt. Las versiones sin algún componente (los eléctricos, sin dato de combustible) aparecen como incompletas en vez de con un número inventado.
+

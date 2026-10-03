@@ -105,3 +105,9 @@ jobs:
 
       - name: dbt test
         run: dbt test --project-dir transform --profiles-dir transform
+
+      # El calculo del comparador (Python) tiene que dar lo mismo que
+      # mart_costo_total (dbt): si una formula cambia de un solo lado, falla.
+      - name: Test del calculo de costo
+        if: ${{ !cancelled() }}
+        run: python -m costo.test_calculo
