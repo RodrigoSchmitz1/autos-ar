@@ -141,3 +141,30 @@ models:
     columns:
       - name: veces_mas_caro_original
         data_tests: [not_null]
+
+  - name: mart_costo_componentes
+    description: Costos unitarios de tener cada auto 0 km (combustible, service, repuestos, patente, depreciacion), por version y provincia.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [origen_codigo, marca_codigo, tipo_codigo, modelo_codigo, provincia_id]
+
+  - name: mart_costo_total
+    description: Costo total mensual y por km de cada auto 0 km para un perfil de uso (km por anio y anios de tenencia).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [origen_codigo, marca_codigo, tipo_codigo, modelo_codigo, provincia_id]
+    columns:
+      - name: costo_por_km
+        data_tests:
+          - not_null:
+              config:
+                where: "completo"
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: false
+              config:
+                where: "completo"
+

@@ -2,7 +2,7 @@
 
 Cuánto vale, cuánto cuesta tener y qué conviene comprar: autos en Argentina con datos públicos.
 
-**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service); **Fase 5 (repuestos) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
+**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service), repuestos (Fase 5); **Fase 6 (costo total por km) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
 
 | Paso | Resultado |
 |---|---|
@@ -210,7 +210,7 @@ Ford publica la mejor fuente: una página por versión (41, incluidas las de añ
 
 La tabla de alias ahora también puede **impedir** un cruce (`(sin familia)`): el prefijo unía el Mustang Mach-E, un SUV eléctrico que la CCA no tiene, con el Mustang V8. Aplica a los service y a los patentamientos.
 
-## Fase 5: repuestos (en curso)
+## Fase 5: repuestos
 
 **Fuente.** Repuestos Express, la tienda relevada en la Fase 0. `ingesta/repuestos.py` baja solo las piezas que se cambian en el mantenimiento (filtros, pastillas, discos y campanas de freno, bujías, distribución, correas, amortiguadores y embragues): **5.368 productos**, exactamente los que el sitio dice tener en esas categorías. Scraping responsable: solo `/buscar`, que `robots.txt` permite; el listado trae 24 productos por página con los mismos datos que la ficha (~230 pedidos en vez de 5.368); un pedido cada 2,5 s; como máximo una consulta por semana, y falla si una página trae 0 productos (cambió el HTML).
 
@@ -221,4 +221,35 @@ La tabla de alias ahora también puede **impedir** un cruce (`(sin familia)`): e
 **Original contra alternativo.** El SKU es código de la pieza + sufijo del proveedor; la base agrupa la misma pieza en distintas calidades (`mart_repuestos_comparables`). En 108 piezas comparables, **la original cuesta en mediana 2,3 veces** la alternativa más barata; los extremos: filtro de combustible de la Hilux 11,3x, filtro de aire del Polo 9,9x. Otras 16 quedan marcadas con `revisar`: la original sale más barata, casi seguro porque el código base une dos piezas distintas (un kit de distribución con bomba de agua contra uno sin).
 
 `mart_repuestos` resume por familia y tipo de pieza el precio mediano original y alternativo (1.345 combinaciones de 195 familias). Ejemplo, pastillas de freno: Peugeot 208 $287.525 original contra $57.125 alternativa; Toyota Corolla $531.540 contra $75.905.
+
+## Fase 6: costo total por km (en curso)
+
+La métrica estrella: **cuánto cuesta tener cada auto 0 km por mes y por km**, por provincia. `mart_costo_componentes` junta los costos unitarios con el origen de cada uno y `mart_costo_total` los suma para un perfil de uso (variables de dbt: 15.000 km por año y 5 años de tenencia por defecto):
+
+| Componente | De dónde sale |
+|---|---|
+| Combustible | Consumo de etiqueta × precio por litro de la provincia (último mes completo, ponderado por volumen) |
+| Service | Costo por km del plan oficial de la familia (Fase 4) |
+| Repuestos | Frenos, amortiguadores, distribución y embrague (solo cajas manuales) con intervalos **supuestos** y explícitos en `costo_repuestos_intervalos`; filtros y bujías no, porque ya están en el service |
+| Patente | La estimada de la provincia para el 0 km (Fase 4) |
+| Depreciación | Proporción del valor que conserva la familia a los 5 años (curva de mercado de la Fase 3) |
+
+Seguro, cochera y peajes quedan afuera: no hay fuente pública.
+
+**Consumo, el componente más incompleto.** La etiqueta oficial es una copia de 2022: no cruzaba versión por versión ("Cronos Like" no, "Cronos Drive" sí; ninguna de las 34 versiones de la Strada) y no tiene los modelos posteriores. `int_consumo_version` lo resuelve con una cascada marcada en cada fila: la versión; la mediana de la misma familia, combustible y cilindrada; la de la familia; o la de todos los ensayos de esa cilindrada. El combustible y la cilindrada salen del nombre ("2.8 TDI", "1.8L", "HEV") o de códigos de motor conocidos ("170 TSI" = 1.0 turbo, "T270" = 1.3). Cubre el 83% de los patentamientos; faltan eléctricos, híbridos sin ensayos y versiones sin cilindrada.
+
+**Respaldos marcados.** Si a una familia le falta service (Chevrolet no publica precios), repuestos o curva de depreciación (modelos nuevos), se usa la mediana de la marca o la general, y la fila lo dice (`*_fuente`, `componentes_con_respaldo`). El total se publica solo si no falta ningún componente: así cubre el **83% de los patentamientos** de Buenos Aires (41% con todo de su propia familia).
+
+Los más vendidos en Buenos Aires (15.000 km por año, 5 años):
+
+| Versión | Precio 0 km | Costo mensual | Por km |
+|---|---|---|---|
+| Renault Kwid Iconic 1.0 | $26,5 M | $451.108 | $361 |
+| Toyota Yaris XS 1.5 CVT | $34,3 M | $516.699 | $413 |
+| Fiat Cronos Drive 1.3 | $37,8 M | $638.442 | $511 |
+| VW Polo Track MSI | $37,6 M | $648.011 | $518 |
+| Peugeot 208 Allure MT | $36,9 M | $661.486 | $529 |
+| Toyota Hilux SRX 2.8 AT | $84,3 M | $1.006.637 | $805 |
+
+**La depreciación es entre el 42% y el 56% del costo** en todos los modelos: es lo que más pesa, y por eso un Yaris XS cuesta $100 menos por km que un Cronos Drive de precio parecido. Y la provincia importa: el mismo Cronos Drive cuesta $613.000 por mes en Córdoba y $705.000 en CABA (patente y combustible).
 

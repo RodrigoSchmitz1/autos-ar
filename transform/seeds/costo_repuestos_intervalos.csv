@@ -1,0 +1,7 @@
+tipo_pieza,unidades,intervalo_km,solo_manual,fuente
+pastillas_freno,1,40000,false,"Supuesto: un juego de pastillas delanteras cada 40.000 km (rango habitual de los manuales: 30.000 a 50.000 km, segun uso)"
+disco_freno,2,80000,false,"Supuesto: dos discos delanteros cada 80.000 km (uno de cada dos cambios de pastillas)"
+amortiguador_delantero,2,80000,false,"Supuesto: el par delantero cada 80.000 km"
+amortiguador_trasero,2,80000,false,"Supuesto: el par trasero cada 80.000 km"
+kit_distribucion,1,60000,false,"Supuesto: kit de distribucion cada 60.000 km. Solo cuenta si la familia tiene kits a la venta: los motores con cadena no los tienen"
+kit_embrague,1,120000,true,"Supuesto: kit de embrague cada 120.000 km, solo cajas manuales (las automaticas y CVT no tienen)"
