@@ -6,7 +6,8 @@ Tests del calculo de costo total.
 3. Coherencia con dbt: con el perfil por defecto (15.000 km, 5 anios), el
    calculo en Python tiene que dar lo mismo que mart_costo_total para las
    versiones completas. Si alguien cambia una formula de un lado y no del
-   otro, falla. Se saltea si no existe datos/autos.duckdb.
+   otro, falla. Local se saltea si no existe datos/autos.duckdb; en GitHub
+   Actions (CI=true) la base tiene que existir: si dbt no corrio, falla.
 
 Uso: python -m costo.test_calculo
 """
@@ -78,6 +79,8 @@ if proporcion_conservada({}, 5) is not None:
 
 # 3. Coherencia con mart_costo_total.
 casos_dbt = 0
+if os.environ.get("CI") == "true" and not os.path.exists(os.path.join("datos", "autos.duckdb")):
+    errores.append("no existe datos/autos.duckdb: dbt no corrio")
 if os.path.exists(os.path.join("datos", "autos.duckdb")):
     import duckdb
     con = duckdb.connect(os.path.join("datos", "autos.duckdb"), read_only=True)

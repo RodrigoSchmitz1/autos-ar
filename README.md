@@ -275,7 +275,7 @@ python -m costo.comparador --provincia 06 --km 20000 --anios 3 --seguro 60000 "c
 
 **Un solo cálculo en dos lenguajes.** El comparador calcula en el navegador, así que `costo/calculo.py` tiene una copia en `sitio/js/costo.js`. Para que no diverjan, las dos se prueban contra los mismos casos (`costo/casos_prueba.json`: casos a mano y 30 versiones reales con perfiles distintos): Python verifica que el archivo siga dando lo mismo que su cálculo y Node que JavaScript dé lo mismo que el archivo. Si se cambia una fórmula de un solo lado, el pipeline falla.
 
-**Publicación.** El sitio está en https://rodrigoschmitz1.github.io/autos-ar/. El job `publicar` lo sube a GitHub Pages en cada corrida del pipeline, solo si pasaron todos los tests: si algo falla, queda en línea la versión anterior. Para verlo local:
+**Publicación.** El sitio está en https://rodrigoschmitz1.github.io/autos-ar/. El job `publicar` lo sube a GitHub Pages en cada corrida del pipeline si los datos pasan todos los controles (tests de dbt, del cálculo y la exportación); si alguno falla, queda en línea la versión anterior. Si lo que falla es una fuente, dbt corre igual con lo ya publicado de esa fuente y el sitio se actualiza con el resto: la corrida queda en rojo para avisar, pero un sitio caído o con formato nuevo no frena todo. Para verlo local:
 
 ```bash
 python -m exportar.sitio

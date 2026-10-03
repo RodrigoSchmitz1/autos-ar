@@ -557,6 +557,36 @@ def validar(marca, filas):
         raise RuntimeError(f"service {marca}: " + "; ".join(errores))
 
 
+def procesar(marca, estado, consultado, hoy):
+    """Consulta, valida y guarda una marca; actualiza el estado (huella y fecha)."""
+    espera = DIAS_ENTRE_CONSULTAS.get(marca)
+    if espera and marca in consultado and (hoy - date.fromisoformat(consultado[marca])).days < espera:
+        print(f"service {marca}: consultado el {consultado[marca]}, se vuelve a consultar cada {espera} dias")
+        return
+    contenido, filas = RECOLECTORES[marca]()
+    huella = hashlib.sha256(contenido).hexdigest()
+    validar(marca, filas)
+    # La fecha se registra solo si la consulta y los controles terminaron
+    # bien: si algo fallo, se reintenta al dia siguiente.
+    if espera:
+        consultado[marca] = hoy.isoformat()
+        json.dump(estado, open(ESTADO, "w", encoding="utf-8"), indent=2, sort_keys=True)
+    if estado.get(marca) == huella:
+        print(f"service {marca}: sin cambios")
+        return
+    destino = os.path.join(RAIZ, marca)
+    os.makedirs(destino, exist_ok=True)
+    con = duckdb.connect()
+    con.register("t", pd.DataFrame(filas))
+    con.sql(f"""COPY (SELECT *, DATE '{hoy.isoformat()}' AS capturado FROM t)
+                TO '{os.path.join(destino, hoy.strftime('%Y%m%d') + '.parquet')}' (FORMAT parquet)""")
+    estado[marca] = huella
+    json.dump(estado, open(ESTADO, "w", encoding="utf-8"), indent=2, sort_keys=True)
+    corregidos = sum(f["precio_corregido"] for f in filas)
+    print(f"service {marca}: {len(filas)} services de {len({f['modelo_fuente'] for f in filas})} modelos"
+          + (f" ({corregidos} precios con un cero de mas, corregidos)" if corregidos else ""))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--marcas", default=",".join(RECOLECTORES))
@@ -565,33 +595,20 @@ def main():
     estado = json.load(open(ESTADO, encoding="utf-8")) if os.path.exists(ESTADO) else {}
     hoy = date.today()
     consultado = estado.setdefault("consultado", {})
+    fallas = {}
     for marca in args.marcas.split(","):
-        espera = DIAS_ENTRE_CONSULTAS.get(marca)
-        if espera and marca in consultado and (hoy - date.fromisoformat(consultado[marca])).days < espera:
-            print(f"service {marca}: consultado el {consultado[marca]}, se vuelve a consultar cada {espera} dias")
-            continue
-        contenido, filas = RECOLECTORES[marca]()
-        huella = hashlib.sha256(contenido).hexdigest()
-        validar(marca, filas)
-        # La fecha se registra solo si la consulta y los controles terminaron
-        # bien: si algo fallo, se reintenta al dia siguiente.
-        if espera:
-            consultado[marca] = hoy.isoformat()
-            json.dump(estado, open(ESTADO, "w", encoding="utf-8"), indent=2, sort_keys=True)
-        if estado.get(marca) == huella:
-            print(f"service {marca}: sin cambios")
-            continue
-        destino = os.path.join(RAIZ, marca)
-        os.makedirs(destino, exist_ok=True)
-        con = duckdb.connect()
-        con.register("t", pd.DataFrame(filas))
-        con.sql(f"""COPY (SELECT *, DATE '{hoy.isoformat()}' AS capturado FROM t)
-                    TO '{os.path.join(destino, hoy.strftime('%Y%m%d') + '.parquet')}' (FORMAT parquet)""")
-        estado[marca] = huella
-        json.dump(estado, open(ESTADO, "w", encoding="utf-8"), indent=2, sort_keys=True)
-        corregidos = sum(f["precio_corregido"] for f in filas)
-        print(f"service {marca}: {len(filas)} services de {len({f['modelo_fuente'] for f in filas})} modelos"
-              + (f" ({corregidos} precios con un cero de mas, corregidos)" if corregidos else ""))
+        # Cada marca es una fuente distinta: si una falla (sitio caido, formato
+        # nuevo), las demas se procesan igual y la falla se informa al final.
+        try:
+            procesar(marca, estado, consultado, hoy)
+        except Exception as e:
+            fallas[marca] = f"{type(e).__name__}: {e}"
+            print(f"service {marca}: FALLA {fallas[marca]}")
+            if os.environ.get("GITHUB_ACTIONS"):
+                # Anotacion: se ve en el resumen de la corrida sin abrir el log.
+                print(f"::error title=service {marca}::{fallas[marca][:500]}")
+    if fallas:
+        raise SystemExit(f"service: fallaron {len(fallas)} marcas: {', '.join(fallas)}")
 
 
 if __name__ == "__main__":
