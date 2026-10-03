@@ -23,3 +23,17 @@ service,RENAULT,MEGANE III/ RS,MEGANE III,"La barra pegada (""III/"") no cruza p
 service,BYD,SHARK,SHARK DMO,La CCA agrega el tipo de motor (DMO)
 service,FORD,MUSTANG MACH E,(sin familia),"SUV electrico; la CCA no lo tiene y el prefijo lo unia al Mustang V8"
 cca,FORD,MUSTANG MACH E,(sin familia),"SUV electrico; la CCA no lo tiene y el prefijo lo unia al Mustang V8"
+repuestos,TOYOTA,HIL,HILUX PICK - UP,Abreviatura en titulos de repuestos
+repuestos,RENAULT,LOG,LOGAN,Abreviatura en titulos de repuestos
+repuestos,RENAULT,MEG,MEGANE,Abreviatura en titulos de repuestos
+repuestos,RENAULT,CLIOII,CLIO,Clio II escrito pegado
+repuestos,RENAULT,R19,19,DNRPA lo nombra '19'; el numero solo no se busca en titulos
+repuestos,RENAULT,R9,9,DNRPA lo nombra '9'; el numero solo no se busca en titulos
+repuestos,RENAULT,R12,12,DNRPA lo nombra '12'; el numero solo no se busca en titulos
+repuestos,RENAULT,R21,21,DNRPA lo nombra '21'; el numero solo no se busca en titulos
+repuestos,RENAULT,R18,18,DNRPA lo nombra '18'; el numero solo no se busca en titulos
+repuestos,CITROEN,BERL,BERLINGO,Abreviatura en titulos de repuestos
+repuestos,CITROEN,XSA,XSARA,Abreviatura en titulos de repuestos
+repuestos,PEUGEOT,PART,PARTNER,Abreviatura en titulos de repuestos
+repuestos,FORD,ECOSP,ECOSPORT,Abreviatura en titulos de repuestos
+repuestos,FORD,FIES,FIESTA,Abreviatura en titulos de repuestos

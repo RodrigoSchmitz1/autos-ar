@@ -1,27 +1,35 @@
 """
-Cruce de cada repuesto con las familias de modelo de la guia CCA (las mismas
-con las que cruzan patentamientos y service), leyendo el TITULO.
+Cruce de cada repuesto con las familias de modelo, leyendo el TITULO.
 
 Los titulos nombran la compatibilidad en texto libre y suelen listar varios
-modelos ("Filtro Habitaculo Hilux/corolla/yaris", "Kit Lara Filtros
-Pal/siena 1.0/1.3"): sale una fila por cada familia encontrada.
+modelos ("Filtro Habitaculo Hilux/corolla/yaris"): sale una fila por familia.
 
-Reglas (medidas en la Fase 0, fase0/06_repuestos.md):
-  - Una familia se encuentra si TODAS sus palabras aparecen seguidas en el
-    titulo (con barra y guion como separadores), con la normalizacion de ingesta/texto.py ("C 3" y "C3" cruzan).
-    Si una familia esta contenida en otra en el mismo lugar ("GOL" dentro de
-    "GOL TREND"), queda solo la mas larga.
-  - Si el producto trae la marca del auto (78%), se busca solo entre sus
-    familias ('marca_auto'). Si no la trae, se acepta una familia solo cuando su
-    nombre existe en una unica marca ('sin_marca'): "Corsa" es Chevrolet, pero
-    "Sport" o "Classic" podrian ser de varias. Ademas, sin marca la familia
-    tiene que tener una palabra de 4 letras o mas: "D20" o "X 30" cruzaban con
-    medidas y codigos de pieza.
-  - Palabras que en un repuesto significan otra cosa ("PLUS", "SPORT",
-    "ORIGINAL"...) no cuentan como familia de una sola palabra.
+Catalogo de nombres por marca (columna `origen`):
+  'cca'    familias de la guia CCA, las mismas con las que cruzan
+           patentamientos y service;
+  'dnrpa'  raices de modelo de DNRPA con 1.000 tramites o mas que la guia ya no
+           lista o lista solo "con apellido" (Corsa, Duna, Escort; "Megane"
+           a secas, porque la CCA solo tiene "MEGANE III"). Solo raices con 3
+           letras o mas: "19" o "12" (Renault) cruzarian con cualquier numero;
+  'alias'  abreviaturas de los titulos (seed alias_modelos, fuente
+           'repuestos'): "Hil" = Hilux, "Xsa" = Xsara, "R19" = 19.
 
-Lo que no resuelve (abreviaturas "Hil", "Meg", palabras pegadas "Vwpolo") queda
-para el paso con IA. Grano: sku x familia, solo productos de mantenimiento.
+Reglas (medidas en la Fase 0 y en los casos fallidos, ver README):
+  - Una familia se encuentra si todas sus palabras aparecen seguidas en el
+    titulo, con barra y guion como separadores ("Vento/passat/tiguan") y la
+    normalizacion de ingesta/texto.py ("C 3" y "C3" cruzan). Si una esta
+    contenida en otra en el mismo tramo ("GOL" en "GOL TREND"), queda la mas
+    larga.
+  - Con marca del auto (78% de los productos) se busca entre sus nombres
+    ('marca_auto'). Si no aparece nada, o el producto no trae marca, se acepta
+    un nombre solo si existe en una unica marca ('sin_marca'), no es una
+    palabra que en un repuesto significa otra cosa ("PLUS", "SPORT") y tiene
+    una palabra con 3 letras o mas y largo 4 o mas: "D20", "X 30" o "118"
+    cruzaban con medidas y codigos de pieza; "RAV4" si pasa. El caso
+    "con marca y sin cruce" existe: hay productos con la marca mal cargada
+    ("Corolla" etiquetado como Peugeot).
+
+Grano: sku x familia, solo productos de mantenimiento de la foto vigente.
 """
 
 import os
@@ -33,7 +41,12 @@ import pandas as pd
 NO_SON_MODELO = {"PLUS", "SPORT", "FULL", "PACK", "SERIE", "SE", "S", "GL", "GLS", "XL", "LX", "EX", "SR",
                  "CARGO", "VAN", "D", "TD", "TDI", "HDI", "DIESEL", "NAFTA", "MAX", "PRO", "CITY", "TOP",
                  "AT", "MT", "CVT", "4X4", "4X2", "BASE", "ORIGINAL", "ACTIVE", "TREND", "SPORTLINE",
-                 "KIT", "CLASSIC", "UP"}
+                 "KIT", "CLASSIC", "UP", "SUPER", "ULTRA", "MOTOR", "FIRE"}
+MIN_TRAMITES_DNRPA = 1000
+
+
+def letras(palabra):
+    return sum(ch.isalpha() for ch in palabra)
 
 
 def model(dbt, session):
@@ -45,50 +58,66 @@ def model(dbt, session):
     productos = productos[productos["es_vigente"] & (productos["tipo_pieza"] != "otro")]
     cca = dbt.ref("stg_cca__precios").df()
     cca = cca[cca["periodo"] == cca["periodo"].max()]
+    versiones = dbt.ref("int_versiones").df()
+    alias = dbt.ref("alias_modelos").df()
 
-    # familia -> palabras normalizadas, por marca
-    familias = {}
+    # catalogo[clave_marca] = (marca_mostrada, {palabras: (familia, origen)})
+    catalogo = {}
+
+    def agregar(marca, palabras, familia, origen):
+        nombres = catalogo.setdefault(clave_marca(marca), (marca, {}))[1]
+        nombres.setdefault(palabras, (familia, origen))
+
     for marca, modelo in cca[["marca", "modelo"]].drop_duplicates().itertuples(index=False):
         palabras = tuple(sin_marca(modelo, marca).split())
-        if not palabras or (len(palabras) == 1 and (palabras[0] in NO_SON_MODELO or len(palabras[0]) < 2)):
-            continue
-        familias.setdefault(clave_marca(marca), (marca, {}))[1][palabras] = modelo
-    marcas_por_familia = {}
-    for clave, (_, fams) in familias.items():
-        for palabras in fams:
-            marcas_por_familia.setdefault(palabras, set()).add(clave)
+        if palabras and not (len(palabras) == 1 and len(palabras[0]) < 2):
+            agregar(marca, palabras, modelo, "cca")
+    for a in alias[alias["fuente"] == "repuestos"].itertuples(index=False):
+        agregar(a.marca, tuple(norm(a.modelo_dnrpa).split()), a.modelo_fuente, "alias")
+    raices = (versiones[versiones["segmento"] == "liviano"]
+              .assign(raiz=lambda d: [(sin_marca(m or "", ma or "").split() or [""])[0]
+                                      for m, ma in zip(d["modelo"], d["marca"])])
+              .groupby(["marca", "raiz"], as_index=False)["tramites"].sum())
+    for r in raices[raices["tramites"] >= MIN_TRAMITES_DNRPA].itertuples(index=False):
+        if letras(r.raiz) >= 3 and r.raiz not in NO_SON_MODELO:
+            # Se muestra con la marca de la CCA si existe, para agrupar bien.
+            marca = catalogo.get(clave_marca(r.marca), (r.marca, {}))[0]
+            agregar(marca, (r.raiz,), r.raiz, "dnrpa")
 
-    def buscar(titulo_palabras, fams):
-        """(posicion, largo, palabras) de cada familia presente en el titulo."""
+    # Nombres que existen en una sola marca y no parecen codigos: los unicos que
+    # se aceptan sin marca del auto.
+    marcas_por_nombre = {}
+    for clave, (_, nombres) in catalogo.items():
+        for palabras in nombres:
+            marcas_por_nombre.setdefault(palabras, set()).add(clave)
+    sin_marca_ok = {p: next(iter(m)) for p, m in marcas_por_nombre.items()
+                    if len(m) == 1 and not (len(p) == 1 and p[0] in NO_SON_MODELO)
+                    and any(letras(w) >= 3 and len(w) >= 4 for w in p)}
+
+    def buscar(titulo, nombres):
         hallazgos = []
-        n = len(titulo_palabras)
-        for palabras in fams:
+        n = len(titulo)
+        for palabras in nombres:
             k = len(palabras)
             for i in range(n - k + 1):
-                if tuple(titulo_palabras[i:i + k]) == palabras:
+                if tuple(titulo[i:i + k]) == palabras:
                     hallazgos.append((i, k, palabras))
-        # Quitar las contenidas en otra mas larga en el mismo tramo.
         return [h for h in hallazgos
                 if not any(o[0] <= h[0] and h[0] + h[1] <= o[0] + o[1] and o[1] > h[1] for o in hallazgos)]
 
     filas = []
     for p in productos.itertuples(index=False):
-        # En los titulos la barra y el guion separan modelos ("Vento/passat", "C3-c4");
-        # norm() conserva la barra, asi que se pasan a espacio antes.
-        palabras = norm(re.sub(r"[/\-+*=]", " ", p.titulo)).split()
-        if isinstance(p.marca_auto, str) and clave_marca(p.marca_auto) in familias:
-            marca, fams = familias[clave_marca(p.marca_auto)]
-            for _, _, f in buscar(palabras, fams):
-                filas.append({"sku": p.sku, "cca_marca": marca, "familia": fams[f], "metodo": "marca_auto"})
-        elif not isinstance(p.marca_auto, str):
-            # Sin marca, los nombres tipo codigo ("D20", "X 30", "118", "X2") cruzan con
-            # medidas y codigos de pieza: se exige una palabra de 4 letras o mas.
-            unicas = {f: next(iter(m)) for f, m in marcas_por_familia.items()
-                      if len(m) == 1 and any(w.isalpha() and len(w) >= 4 for w in f)}
-            vistos = set()
-            for _, _, f in buscar(palabras, unicas):
-                marca, fams = familias[unicas[f]]
-                if (marca, fams[f]) not in vistos:
-                    vistos.add((marca, fams[f]))
-                    filas.append({"sku": p.sku, "cca_marca": marca, "familia": fams[f], "metodo": "sin_marca"})
-    return pd.DataFrame(filas, columns=["sku", "cca_marca", "familia", "metodo"]).drop_duplicates()
+        # norm() conserva la barra: en los titulos separa modelos, se pasa a espacio.
+        titulo = norm(re.sub(r"[/\-+*=]", " ", p.titulo)).split()
+        encontrados = []
+        if isinstance(p.marca_auto, str) and clave_marca(p.marca_auto) in catalogo:
+            marca, nombres = catalogo[clave_marca(p.marca_auto)]
+            encontrados = [(marca, *nombres[f], "marca_auto") for _, _, f in buscar(titulo, nombres)]
+        if not encontrados:
+            for _, _, f in buscar(titulo, sin_marca_ok):
+                marca, nombres = catalogo[sin_marca_ok[f]]
+                encontrados.append((marca, *nombres[f], "sin_marca"))
+        for marca, familia, origen, metodo in encontrados:
+            filas.append({"sku": p.sku, "cca_marca": marca, "familia": familia, "origen": origen, "metodo": metodo})
+    return (pd.DataFrame(filas, columns=["sku", "cca_marca", "familia", "origen", "metodo"])
+            .drop_duplicates(["sku", "cca_marca", "familia"]))
