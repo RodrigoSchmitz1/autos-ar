@@ -13,13 +13,17 @@ on:
     # las horas redondas, que son los mas cargados.
     - cron: "23 10 * * *"
   workflow_dispatch:
-  # Un cambio en el sitio (o en lo que lo genera) se publica al pushear, sin
-  # esperar a la corrida del dia siguiente.
+  # Un cambio de codigo (sitio, exportacion, ingestas, dbt, calculo) se prueba
+  # y publica al pushear, sin esperar a la corrida del dia siguiente.
   push:
     branches: [main]
     paths:
       - "sitio/**"
       - "exportar/**"
+      - "ingesta/**"
+      - "transform/**"
+      - "costo/**"
+      - "requirements.txt"
       - ".github/workflows/pipeline.yml"
 
 permissions:

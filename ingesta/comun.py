@@ -1,6 +1,9 @@
 """Utilidades compartidas por las ingestas: HTTP responsable y catalogos CKAN."""
 
+import glob
 import json
+import os
+import ssl
 import time
 import urllib.error
 import urllib.request
@@ -10,6 +13,14 @@ PAUSA_SEGUNDOS = 2.5
 REINTENTOS = 3
 
 _ultimo_pedido = 0.0
+
+# Algunos servidores mandan mal la cadena de certificados (falta o sobra un
+# intermedio). Windows busca el que falta solo; Linux (GitHub Actions) no, y
+# falla. Los intermedios publicos que faltan se guardan en ingesta/certificados/
+# y se suman a los del sistema: la verificacion sigue completa, nunca se apaga.
+_SSL = ssl.create_default_context()
+for _pem in glob.glob(os.path.join(os.path.dirname(__file__), "certificados", "*.pem")):
+    _SSL.load_verify_locations(_pem)
 
 
 def pedir(url, timeout=300):
@@ -26,7 +37,7 @@ def pedir(url, timeout=300):
         _ultimo_pedido = time.monotonic()
         try:
             pedido = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(pedido, timeout=timeout) as r:
+            with urllib.request.urlopen(pedido, timeout=timeout, context=_SSL) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code < 500 or intento == REINTENTOS:
