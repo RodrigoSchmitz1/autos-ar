@@ -7,6 +7,9 @@ datos/
 
 # Credenciales y configuracion local
 .env
+.env.*
+# Cache y temporales de wrangler (Cloudflare): datos de la cuenta
+.wrangler/
 credenciales*.json
 *.key
 
