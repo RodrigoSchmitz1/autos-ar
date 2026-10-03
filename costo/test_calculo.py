@@ -94,9 +94,24 @@ if os.path.exists(os.path.join("datos", "autos.duckdb")):
         # El mart redondea cada componente al peso: tolerancia de unos pesos.
         igual(f"dbt {c['modelo']} {c['provincia_id']}", calcular(c, Perfil()).anual, c["mart_costo_anual"], 5)
 
+# 4. El archivo de casos compartido con JavaScript sigue coincidiendo con Python.
+import json
+from costo.generar_casos import RUTA, resultado
+casos_js = json.load(open(RUTA, encoding="utf-8")) if os.path.exists(RUTA) else []
+if not casos_js:
+    errores.append(f"falta {RUTA}: correr python -m costo.generar_casos")
+for caso in casos_js:
+    actual = resultado(caso["componentes"], caso["perfil"])
+    for campo, esperado in caso["esperado"].items():
+        if campo == "faltantes":
+            if actual[campo] != esperado:
+                errores.append(f"casos_prueba {caso['nombre']} faltantes: {actual[campo]} en vez de {esperado}")
+        elif abs(actual[campo] - esperado) > 1e-6 * max(1, abs(esperado)):
+            errores.append(f"casos_prueba {caso['nombre']} {campo}: cambio la formula, regenerar con python -m costo.generar_casos")
+
 if errores:
     print(f"{len(errores)} casos fallaron")
     for e in errores[:20]:
         print("MAL", e)
     raise SystemExit(1)
-print(f"OK: casos a mano y {casos_dbt} versiones contra mart_costo_total")
+print(f"OK: casos a mano, {casos_dbt} versiones contra mart_costo_total y {len(casos_js)} casos compartidos con JavaScript")

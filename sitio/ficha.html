@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ficha de modelo</title>
+  <meta name="description" content="Por modelo: cuánto valor conserva con los años, el service oficial, los repuestos y cuántos se patentan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header><nav>
+    <a class="marca" href="index.html">Autos<span>AR</span></a>
+    <a href="index.html">Inicio</a>
+    <a href="comparador.html">Comparador</a>
+    <a href="ficha.html" aria-current="page">Modelos</a>
+  </nav></header>
+  <main>
+    <div class="ficha-cabecera"><div id="foto"></div><h1 id="titulo">Ficha de modelo</h1></div>
+    <div class="tarjeta">
+      <label for="buscar">Buscar modelo</label>
+      <input id="buscar" type="search" placeholder="Ej.: cronos, hilux, 208" autocomplete="off">
+      <ul id="sugerencias" class="sugerencias" role="listbox" hidden></ul>
+    </div>
+    <div id="contenido"></div>
+    <p class="estado" id="estado">Cargando…</p>
+  </main>
+  <footer></footer>
+  <script type="module" src="js/ficha.js"></script>
+</body>
+</html>

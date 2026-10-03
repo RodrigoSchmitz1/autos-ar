@@ -24,3 +24,9 @@ transform/dbt_packages/
 transform/logs/
 logs/
 transform/.user.yml
+
+# Sitio: los datos se exportan desde los marts en cada corrida
+sitio/datos/
+
+# Configuracion local de la vista previa del sitio
+.claude/

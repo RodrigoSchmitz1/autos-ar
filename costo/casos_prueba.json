@@ -1,0 +1,1076 @@
+[
+ {
+  "nombre": "a mano",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": 0.8,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": 0.3
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 6600000.0,
+   "combustible_anual": 2250000,
+   "service_anual": 600000,
+   "repuestos_anual": 150000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 3000000.0,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "a mano",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": 0.8,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": 0.3
+  },
+  "perfil": {
+   "km_anio": 20000,
+   "anios": 3,
+   "seguro_mensual": 60000
+  },
+  "esperado": {
+   "anual": 8820000.0,
+   "combustible_anual": 3000000,
+   "service_anual": 800000,
+   "repuestos_anual": 200000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 3500000.0,
+   "seguro_anual": 720000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "a mano",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": 0.8,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": 0.3
+  },
+  "perfil": {
+   "km_anio": 8000,
+   "anios": 10
+  },
+  "esperado": {
+   "anual": 4300000.0,
+   "combustible_anual": 1200000,
+   "service_anual": 320000,
+   "repuestos_anual": 80000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 2100000.0,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "a mano",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": 0.8,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": 0.3
+  },
+  "perfil": {
+   "km_anio": 30000,
+   "anios": 0.5,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 13050000.0,
+   "combustible_anual": 4500000,
+   "service_anual": 1200000,
+   "repuestos_anual": 750000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 5999999.999999999,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "a mano",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": 0.8,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": 0.3
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 5120000.0,
+   "combustible_anual": 1800000,
+   "service_anual": 480000,
+   "repuestos_anual": 300000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 1400000.0,
+   "seguro_anual": 540000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "a mano sin service",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": null,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": 0.8,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": 0.3
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 6000000.0,
+   "combustible_anual": 2250000,
+   "service_anual": 0.0,
+   "repuestos_anual": 150000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 3000000.0,
+   "seguro_anual": 0,
+   "faltantes": [
+    "service"
+   ]
+  }
+ },
+ {
+  "nombre": "a mano sin curva",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": null,
+   "proporcion_conservada_5": null,
+   "proporcion_conservada_10": null
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 3600000.0,
+   "combustible_anual": 2250000,
+   "service_anual": 600000,
+   "repuestos_anual": 150000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 0.0,
+   "seguro_anual": 0,
+   "faltantes": [
+    "depreciacion"
+   ]
+  }
+ },
+ {
+  "nombre": "a mano solo curva a 5",
+  "componentes": {
+   "valor_0km": 30000000,
+   "combustible_por_km": 150,
+   "service_por_km": 40,
+   "repuestos_por_km": 10,
+   "repuestos_por_km_original": 25,
+   "patente_anual": 600000,
+   "proporcion_conservada_1": null,
+   "proporcion_conservada_5": 0.5,
+   "proporcion_conservada_10": null
+  },
+  "perfil": {
+   "anios": 8
+  },
+  "esperado": {
+   "anual": 5475000.0,
+   "combustible_anual": 2250000,
+   "service_anual": 600000,
+   "repuestos_anual": 150000,
+   "patente_anual": 600000,
+   "depreciacion_anual": 1875000.0,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "208 ACTIVE MT AM25.5 (38)",
+  "componentes": {
+   "valor_0km": 31460000,
+   "combustible_por_km": 163.66,
+   "service_por_km": 49.45,
+   "repuestos_por_km": 18.20716666666667,
+   "repuestos_por_km_original": 45.008250000000004,
+   "patente_anual": 629200.0,
+   "proporcion_conservada_1": 0.573,
+   "proporcion_conservada_5": 0.495,
+   "proporcion_conservada_10": 0.359
+  },
+  "perfil": {
+   "km_anio": 8000,
+   "anios": 10
+  },
+  "esperado": {
+   "anual": 4496323.333333333,
+   "combustible_anual": 1309280.0,
+   "service_anual": 395600.0,
+   "repuestos_anual": 145657.33333333334,
+   "patente_anual": 629200.0,
+   "depreciacion_anual": 2016586.0,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "911 CARRERA 4S (54)",
+  "componentes": {
+   "valor_0km": 479050000,
+   "combustible_por_km": 246.3,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 9581000.0,
+   "proporcion_conservada_1": 0.877,
+   "proporcion_conservada_5": 0.7,
+   "proporcion_conservada_10": 0.541
+  },
+  "perfil": {
+   "km_anio": 20000,
+   "anios": 3,
+   "seguro_mensual": 60000
+  },
+  "esperado": {
+   "anual": 50198315.00000001,
+   "combustible_anual": 4926000.0,
+   "service_anual": 945200.0000000001,
+   "repuestos_anual": 253090.0,
+   "patente_anual": 9581000.0,
+   "depreciacion_anual": 33773025.00000001,
+   "seguro_anual": 720000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "X4 30I X DRIVE (38)",
+  "componentes": {
+   "valor_0km": 123123000,
+   "combustible_por_km": 171.58,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 2462460.0,
+   "proporcion_conservada_1": 1.099,
+   "proporcion_conservada_5": 0.697,
+   "proporcion_conservada_10": 0.431
+  },
+  "perfil": {
+   "km_anio": 30000,
+   "anios": 0.5,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": -2781882.000000024,
+   "combustible_anual": 5147400.0,
+   "service_anual": 1417800.0000000002,
+   "repuestos_anual": 379635.0,
+   "patente_anual": 2462460.0,
+   "depreciacion_anual": -12189177.000000024,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "SAVEIRO COMFORTLINE CD MSI MT G3 (50)",
+  "componentes": {
+   "valor_0km": 34741900,
+   "combustible_por_km": 142.38,
+   "service_por_km": 24.805,
+   "repuestos_por_km": 10.868,
+   "repuestos_por_km_original": 10.868,
+   "patente_anual": 625354.0,
+   "proporcion_conservada_1": 0.671,
+   "proporcion_conservada_5": 0.54,
+   "proporcion_conservada_10": 0.404
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 6492403.8,
+   "combustible_anual": 2135700.0,
+   "service_anual": 372075.0,
+   "repuestos_anual": 163020.0,
+   "patente_anual": 625354.0,
+   "depreciacion_anual": 3196254.8,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "ALASKAN CONFORT 2.3 DCI 160 4WD (26)",
+  "componentes": {
+   "valor_0km": 59800000,
+   "combustible_por_km": 159.33,
+   "service_por_km": 101.25,
+   "repuestos_por_km": 24.2815,
+   "repuestos_por_km_original": 36.01075,
+   "patente_anual": 1614600.0,
+   "proporcion_conservada_1": 0.821,
+   "proporcion_conservada_5": 0.497,
+   "proporcion_conservada_10": 0.407
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 11903402.5,
+   "combustible_anual": 2389950.0,
+   "service_anual": 1518750.0,
+   "repuestos_anual": 364222.5,
+   "patente_anual": 1614600.0,
+   "depreciacion_anual": 6015880.0,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "X6 XDRIVE40I M SPORT MHEV (82)",
+  "componentes": {
+   "valor_0km": 242957000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 5588011.0,
+   "proporcion_conservada_1": 1.102,
+   "proporcion_conservada_5": 0.811,
+   "proporcion_conservada_10": 0.4345
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 16006463.9,
+   "combustible_anual": 0.0,
+   "service_anual": 567120.0000000001,
+   "repuestos_anual": 151854.0,
+   "patente_anual": 5588011.0,
+   "depreciacion_anual": 9159478.9,
+   "seguro_anual": 540000,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "TIGGO 4 HYBRID 1.5L HEV PREMIUM (34)",
+  "componentes": {
+   "valor_0km": 46475000,
+   "combustible_por_km": 166.87,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 929500.0,
+   "proporcion_conservada_1": 1.025,
+   "proporcion_conservada_5": 0.697,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 7147652.5,
+   "combustible_anual": 2503050.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 189817.5,
+   "patente_anual": 929500.0,
+   "depreciacion_anual": 2816385.0000000005,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "NX 350H LUXURY ML (26)",
+  "componentes": {
+   "valor_0km": 126900000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 3426300.0,
+   "proporcion_conservada_1": 1.106,
+   "proporcion_conservada_5": 0.558,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {
+   "km_anio": 8000,
+   "anios": 10
+  },
+  "esperado": {
+   "anual": 11189676.000000002,
+   "combustible_anual": 0.0,
+   "service_anual": 378080.00000000006,
+   "repuestos_anual": 101236.0,
+   "patente_anual": 3426300.0,
+   "depreciacion_anual": 7284060.000000002,
+   "seguro_anual": 0,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "KANGOO II STEPWAY 1.6 SCE (46)",
+  "componentes": {
+   "valor_0km": 43050000,
+   "combustible_por_km": 167.08,
+   "service_por_km": 50.980000000000004,
+   "repuestos_por_km": 18.268833333333333,
+   "repuestos_por_km_original": 29.54358333333333,
+   "patente_anual": 1076250.0,
+   "proporcion_conservada_1": 0.823,
+   "proporcion_conservada_5": 0.568,
+   "proporcion_conservada_10": 0.412
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 6275053.0,
+   "combustible_anual": 2004960.0000000002,
+   "service_anual": 611760.0,
+   "repuestos_anual": 354522.99999999994,
+   "patente_anual": 1076250.0,
+   "depreciacion_anual": 1687560.0000000002,
+   "seguro_anual": 540000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "2008 ALLURE T200 AM24 (02)",
+  "componentes": {
+   "valor_0km": 49260000,
+   "combustible_por_km": 158.82,
+   "service_por_km": 51.3,
+   "repuestos_por_km": 15.593,
+   "repuestos_por_km_original": 15.593,
+   "patente_anual": 2533465.0,
+   "proporcion_conservada_1": 0.854,
+   "proporcion_conservada_5": 0.569,
+   "proporcion_conservada_10": 0.403
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 10165372.0,
+   "combustible_anual": 2382300.0,
+   "service_anual": 769500.0,
+   "repuestos_anual": 233895.0,
+   "patente_anual": 2533465.0,
+   "depreciacion_anual": 4246212.000000001,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "RENEGADE SERIE-S T270 AT6 FWD (62)",
+  "componentes": {
+   "valor_0km": 52060000,
+   "combustible_por_km": 151.92,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 5.0285,
+   "repuestos_por_km_original": 5.0285,
+   "patente_anual": 1822100.0,
+   "proporcion_conservada_1": 0.815,
+   "proporcion_conservada_5": 0.661,
+   "proporcion_conservada_10": 0.539
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 6412579.333333333,
+   "combustible_anual": 1823039.9999999998,
+   "service_anual": 567120.0000000001,
+   "repuestos_anual": 60342.0,
+   "patente_anual": 1822100.0,
+   "depreciacion_anual": 1599977.3333333333,
+   "seguro_anual": 540000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "COROLLA HEV 1.8 SEG SAFETY ECVT (90)",
+  "componentes": {
+   "valor_0km": 50764000,
+   "combustible_por_km": 118.67,
+   "service_por_km": 49.21,
+   "repuestos_por_km": 17.207124999999998,
+   "repuestos_por_km_original": 54.546875,
+   "patente_anual": 1015280.0,
+   "proporcion_conservada_1": 0.698,
+   "proporcion_conservada_5": 0.579,
+   "proporcion_conservada_10": 0.436
+  },
+  "perfil": {
+   "km_anio": 20000,
+   "anios": 3,
+   "seguro_mensual": 60000
+  },
+  "esperado": {
+   "anual": 11554084.5,
+   "combustible_anual": 2373400.0,
+   "service_anual": 984200.0,
+   "repuestos_anual": 344142.49999999994,
+   "patente_anual": 1015280.0,
+   "depreciacion_anual": 6117062.000000001,
+   "seguro_anual": 720000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "GR 86 MT (74)",
+  "componentes": {
+   "valor_0km": 87087000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 4354350.0,
+   "proporcion_conservada_1": 0.8414999999999999,
+   "proporcion_conservada_5": 0.636,
+   "proporcion_conservada_10": 0.5255000000000001
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 11593001.1,
+   "combustible_anual": 0.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 189817.5,
+   "patente_anual": 4354350.0,
+   "depreciacion_anual": 6339933.6,
+   "seguro_anual": 0,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "MERCEDES-AMG CLE 53 4MATIC COUPE (MHEV) (46)",
+  "componentes": {
+   "valor_0km": 242671000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 6066775.0,
+   "proporcion_conservada_1": 1.095,
+   "proporcion_conservada_5": 0.902,
+   "proporcion_conservada_10": 0.545
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 11721844.099999998,
+   "combustible_anual": 0.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 189817.5,
+   "patente_anual": 6066775.0,
+   "depreciacion_anual": 4756351.599999999,
+   "seguro_anual": 0,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "C3 AIRCROSS VTI FEEL PK MY25 (14)",
+  "componentes": {
+   "valor_0km": 40940000,
+   "combustible_por_km": 169.04,
+   "service_por_km": 51.45,
+   "repuestos_por_km": 6.015,
+   "repuestos_por_km_original": 6.015,
+   "patente_anual": 589077.0,
+   "proporcion_conservada_1": 0.566,
+   "proporcion_conservada_5": 0.5585,
+   "proporcion_conservada_10": 0.392
+  },
+  "perfil": {
+   "km_anio": 30000,
+   "anios": 0.5,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 25152187.000000007,
+   "combustible_anual": 5071200.0,
+   "service_anual": 1543500.0,
+   "repuestos_anual": 180450.0,
+   "patente_anual": 589077.0,
+   "depreciacion_anual": 17767960.000000007,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "STEPWAY INTENS 1.6 CVT (02)",
+  "componentes": {
+   "valor_0km": 36900000,
+   "combustible_por_km": 144.38,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 7.994,
+   "repuestos_por_km_original": 11.51525,
+   "patente_anual": 1649725.0,
+   "proporcion_conservada_1": 0.755,
+   "proporcion_conservada_5": 0.538,
+   "proporcion_conservada_10": 0.374
+  },
+  "perfil": {
+   "km_anio": 30000,
+   "anios": 0.5,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 16784882.500000004,
+   "combustible_anual": 4331400.0,
+   "service_anual": 1417800.0000000002,
+   "repuestos_anual": 345457.5,
+   "patente_anual": 1649725.0,
+   "depreciacion_anual": 9040500.000000004,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "DS 3 ETOILE HYBRID MY 25.5 (30)",
+  "componentes": {
+   "valor_0km": 66495000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 2214284.0,
+   "proporcion_conservada_1": 0.948,
+   "proporcion_conservada_5": 0.614,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 8246415.5,
+   "combustible_anual": 0.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 189817.5,
+   "patente_anual": 2214284.0,
+   "depreciacion_anual": 5133414.0,
+   "seguro_anual": 0,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "RZR XP 4 1000 (46)",
+  "componentes": {
+   "valor_0km": 68068000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1701700.0,
+   "proporcion_conservada_1": 0.948,
+   "proporcion_conservada_5": 0.614,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {
+   "km_anio": 20000,
+   "anios": 3,
+   "seguro_mensual": 60000
+  },
+  "esperado": {
+   "anual": 8588954.000000002,
+   "combustible_anual": 0.0,
+   "service_anual": 945200.0000000001,
+   "repuestos_anual": 253090.0,
+   "patente_anual": 1701700.0,
+   "depreciacion_anual": 4968964.000000002,
+   "seguro_anual": 720000,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "KICKS ADVANCE DCT 1.0T (54)",
+  "componentes": {
+   "valor_0km": 57990000,
+   "combustible_por_km": 144.69,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 6.37725,
+   "repuestos_por_km_original": 6.37725,
+   "patente_anual": 1159800.0,
+   "proporcion_conservada_1": 0.842,
+   "proporcion_conservada_5": 0.657,
+   "proporcion_conservada_10": 0.4085
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 8112822.75,
+   "combustible_anual": 2170350.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 95658.75,
+   "patente_anual": 1159800.0,
+   "depreciacion_anual": 3978114.0,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "KICKS EXCLUSIVE DCT 1.0T (90)",
+  "componentes": {
+   "valor_0km": 59990000,
+   "combustible_por_km": 151.81,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 6.37725,
+   "repuestos_por_km_original": 6.37725,
+   "patente_anual": 1199800.0,
+   "proporcion_conservada_1": 0.842,
+   "proporcion_conservada_5": 0.657,
+   "proporcion_conservada_10": 0.4085
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 6570772.666666666,
+   "combustible_anual": 1821720.0,
+   "service_anual": 567120.0000000001,
+   "repuestos_anual": 76527.0,
+   "patente_anual": 1199800.0,
+   "depreciacion_anual": 2365605.6666666665,
+   "seguro_anual": 540000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "MONTANA 1.2T RS AT (54)",
+  "componentes": {
+   "valor_0km": 45697900,
+   "combustible_por_km": 185.55,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 4.99125,
+   "repuestos_por_km_original": 4.99125,
+   "patente_anual": 365583.0,
+   "proporcion_conservada_1": 0.572,
+   "proporcion_conservada_5": 0.562,
+   "proporcion_conservada_10": 0.4
+  },
+  "perfil": {
+   "km_anio": 30000,
+   "anios": 0.5,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 27058321.699999996,
+   "combustible_anual": 5566500.0,
+   "service_anual": 1417800.0000000002,
+   "repuestos_anual": 149737.5,
+   "patente_anual": 365583.0,
+   "depreciacion_anual": 19558701.199999996,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "MONTANA 1.2T LTZ AT (02)",
+  "componentes": {
+   "valor_0km": 41903900,
+   "combustible_por_km": 173.26,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 4.99125,
+   "repuestos_por_km_original": 4.99125,
+   "patente_anual": 1060169.0,
+   "proporcion_conservada_1": 0.572,
+   "proporcion_conservada_5": 0.562,
+   "proporcion_conservada_10": 0.4
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 8113619.39,
+   "combustible_anual": 2598900.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 74868.75,
+   "patente_anual": 1060169.0,
+   "depreciacion_anual": 3670781.6399999997,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "TERA TREND MSI MT (18)",
+  "componentes": {
+   "valor_0km": 36755250,
+   "combustible_por_km": 150.53,
+   "service_por_km": 26.9,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 974014.0,
+   "proporcion_conservada_1": 0.671,
+   "proporcion_conservada_5": 0.525,
+   "proporcion_conservada_10": 0.3955
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 5276264.575,
+   "combustible_anual": 1806360.0,
+   "service_anual": 322800.0,
+   "repuestos_anual": 151854.0,
+   "patente_anual": 974014.0,
+   "depreciacion_anual": 1481236.575,
+   "seguro_anual": 540000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "TITANO FREEDOM MT 4WD (06)",
+  "componentes": {
+   "valor_0km": 58540000,
+   "combustible_por_km": null,
+   "service_por_km": 66.4,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1644085.0,
+   "proporcion_conservada_1": 0.585,
+   "proporcion_conservada_5": 0.497,
+   "proporcion_conservada_10": 0.37
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 8719026.5,
+   "combustible_anual": 0.0,
+   "service_anual": 996000.0000000001,
+   "repuestos_anual": 189817.5,
+   "patente_anual": 1644085.0,
+   "depreciacion_anual": 5889124.0,
+   "seguro_anual": 0,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "PULSE AUDACE 1.0T CVT (14)",
+  "componentes": {
+   "valor_0km": 41240000,
+   "combustible_por_km": 136.14,
+   "service_por_km": 51.3,
+   "repuestos_por_km": 10.054666666666668,
+   "repuestos_por_km_original": null,
+   "patente_anual": 595377.0,
+   "proporcion_conservada_1": 0.59,
+   "proporcion_conservada_5": 0.497,
+   "proporcion_conservada_10": 0.37
+  },
+  "perfil": {
+   "km_anio": 20000,
+   "anios": 3,
+   "seguro_mensual": 60000
+  },
+  "esperado": {
+   "anual": 11540623.666666666,
+   "combustible_anual": 2722799.9999999995,
+   "service_anual": 1026000.0,
+   "repuestos_anual": 201093.33333333334,
+   "patente_anual": 595377.0,
+   "depreciacion_anual": 6275353.333333333,
+   "seguro_anual": 720000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "H6 HEV SUPREME (62)",
+  "componentes": {
+   "valor_0km": 47905000,
+   "combustible_por_km": 141.11,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1676675.0,
+   "proporcion_conservada_1": 0.952,
+   "proporcion_conservada_5": 0.758,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 6462133.666666668,
+   "combustible_anual": 1693320.0000000002,
+   "service_anual": 567120.0000000001,
+   "repuestos_anual": 151854.0,
+   "patente_anual": 1676675.0,
+   "depreciacion_anual": 1833164.666666667,
+   "seguro_anual": 540000,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "ALL NEW FORESTER 2.5 AWD CVT LIMITED ES (14)",
+  "componentes": {
+   "valor_0km": 77220000,
+   "combustible_por_km": 172.05,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 10.054666666666668,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1350957.0,
+   "proporcion_conservada_1": 1.093,
+   "proporcion_conservada_5": 0.7295,
+   "proporcion_conservada_10": 0.538
+  },
+  "perfil": {},
+  "esperado": {
+   "anual": 8969029.0,
+   "combustible_anual": 2580750.0,
+   "service_anual": 708900.0000000001,
+   "repuestos_anual": 150820.00000000003,
+   "patente_anual": 1350957.0,
+   "depreciacion_anual": 4177601.999999999,
+   "seguro_anual": 0,
+   "faltantes": []
+  }
+ },
+ {
+  "nombre": "SONG PRO DM-I GS (82)",
+  "componentes": {
+   "valor_0km": 57185700,
+   "combustible_por_km": null,
+   "service_por_km": 38.95,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1315271.0,
+   "proporcion_conservada_1": 1.101,
+   "proporcion_conservada_5": 0.614,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 4662831.12,
+   "combustible_anual": 0.0,
+   "service_anual": 467400.00000000006,
+   "repuestos_anual": 151854.0,
+   "patente_anual": 1315271.0,
+   "depreciacion_anual": 2188306.12,
+   "seguro_anual": 540000,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "JOLION PRO HEV SUPREME (26)",
+  "componentes": {
+   "valor_0km": 47175700,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1273744.0,
+   "proporcion_conservada_1": 1.102,
+   "proporcion_conservada_5": 0.758,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {
+   "km_anio": 12000,
+   "anios": 15,
+   "seguro_mensual": 45000,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 4337974.786666667,
+   "combustible_anual": 0.0,
+   "service_anual": 567120.0000000001,
+   "repuestos_anual": 151854.0,
+   "patente_anual": 1273744.0,
+   "depreciacion_anual": 1805256.7866666669,
+   "seguro_anual": 540000,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ },
+ {
+  "nombre": "T1 (38)",
+  "componentes": {
+   "valor_0km": 74217000,
+   "combustible_por_km": null,
+   "service_por_km": 47.260000000000005,
+   "repuestos_por_km": 12.6545,
+   "repuestos_por_km_original": null,
+   "patente_anual": 1484340.0,
+   "proporcion_conservada_1": 1.014,
+   "proporcion_conservada_5": 0.848,
+   "proporcion_conservada_10": 0.426
+  },
+  "perfil": {
+   "km_anio": 30000,
+   "anios": 0.5,
+   "repuestos_originales": true
+  },
+  "esperado": {
+   "anual": 2242736.999999983,
+   "combustible_anual": 0.0,
+   "service_anual": 1417800.0000000002,
+   "repuestos_anual": 379635.0,
+   "patente_anual": 1484340.0,
+   "depreciacion_anual": -1039038.0000000173,
+   "seguro_anual": 0,
+   "faltantes": [
+    "combustible"
+   ]
+  }
+ }
+]

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autos AR</title>
+  <meta name="description" content="Cuánto cuesta tener un auto en Argentina: los 0 km más vendidos, los usados que mejor conservan su valor y los más baratos de mantener.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="marca" href="index.html">Autos<span>AR</span></a>
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="comparador.html">Comparador</a>
+      <a href="ficha.html">Modelos</a>
+    </nav>
+    <div class="portada">
+      <div>
+        <h1>¿Cuánto cuesta tener un auto en Argentina?</h1>
+        <p>Combustible, service oficial, repuestos, patente y cuánto valor pierde con los años: modelo por modelo y provincia por provincia, con datos públicos que se actualizan solos.</p>
+        <a class="boton" href="comparador.html">Comparar autos →</a>
+      </div>
+      <div class="autos" id="autos-portada" aria-hidden="true"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="seccion" aria-labelledby="t-vendidos">
+      <div class="seccion-titulo">
+        <div class="icono" style="background:var(--s-vendidos)">1</div>
+        <div>
+          <h2 id="t-vendidos">Los 0 km más vendidos</h2>
+          <p class="bajada" id="b-vendidos">Patentamientos de los últimos 12 meses en todo el país.</p>
+        </div>
+      </div>
+      <div class="ranking" id="vendidos"></div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-conservan">
+      <div class="seccion-titulo">
+        <div class="icono" style="background:var(--s-conservan)">2</div>
+        <div>
+          <h2 id="t-conservan">Los usados que mejor conservan su valor</h2>
+          <p class="bajada">Qué parte del precio de un 0 km vale el mismo modelo con 5 años, según la guía de precios de usados. Solo modelos con más de 5.000 ventas de usados por año.</p>
+        </div>
+      </div>
+      <div class="ranking" id="conservan"></div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-mantener">
+      <div class="seccion-titulo">
+        <div class="icono" style="background:var(--s-mantener)">3</div>
+        <div>
+          <h2 id="t-mantener">Los usados más baratos de mantener</h2>
+          <p class="bajada">Un usado de 5 años en Buenos Aires con 15.000 km por año: combustible, service oficial, repuestos de desgaste y patente, por mes.</p>
+        </div>
+      </div>
+      <div class="ranking" id="mantener"></div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-combustible">
+      <div class="seccion-titulo">
+        <div class="icono" style="background:var(--s-combustible)">4</div>
+        <div>
+          <h2 id="t-combustible">La nafta, provincia por provincia</h2>
+          <p class="bajada" id="b-combustible">Precio promedio de la nafta súper por litro, ponderado por lo que vende cada estación.</p>
+        </div>
+      </div>
+      <div class="tarjeta"><div class="barras" id="combustible"></div></div>
+    </section>
+    <p class="estado" id="estado"></p>
+  </main>
+  <footer></footer>
+  <script type="module" src="js/inicio.js"></script>
+</body>
+</html>

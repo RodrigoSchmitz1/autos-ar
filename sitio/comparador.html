@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparador de costo</title>
+  <meta name="description" content="Cuánto cuesta por mes y por km tener cada auto 0 km, según tus km por año, tu provincia y cuántos años lo vas a tener.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header><nav>
+    <a class="marca" href="index.html">Autos<span>AR</span></a>
+    <a href="index.html">Inicio</a>
+    <a href="comparador.html" aria-current="page">Comparador</a>
+    <a href="ficha.html">Modelos</a>
+  </nav></header>
+  <main>
+    <h1>Comparador de costo total</h1>
+    <p class="bajada">Cuánto cuesta tener cada auto 0 km por mes y por km. Elegí los modelos y contá cómo lo vas a usar.</p>
+
+    <div class="tarjeta">
+      <div class="controles">
+        <div class="ancho">
+          <label for="buscar">Agregar modelo</label>
+          <input id="buscar" type="search" placeholder="Ej.: cronos drive, yaris xs, hilux srx" autocomplete="off" aria-controls="sugerencias">
+          <ul id="sugerencias" class="sugerencias" role="listbox" hidden></ul>
+        </div>
+        <div>
+          <label for="provincia">Provincia</label>
+          <select id="provincia"></select>
+        </div>
+        <div>
+          <label for="km">Km por año</label>
+          <input id="km" type="number" min="1000" step="1000" value="15000">
+        </div>
+        <div>
+          <label for="anios">Años que lo vas a tener</label>
+          <input id="anios" type="number" min="1" max="15" step="1" value="5">
+        </div>
+        <div>
+          <label for="seguro">Seguro por mes ($)</label>
+          <input id="seguro" type="number" min="0" step="1000" value="0">
+        </div>
+        <div class="casilla">
+          <input id="originales" type="checkbox">
+          <label for="originales" style="margin:0">Repuestos originales</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="leyenda" id="leyenda"></div>
+    <div class="tabla-scroll"><table id="resultado"></table></div>
+    <p class="estado" id="estado">Cargando datos…</p>
+    <p class="nota">Patente: la estimada para el 0 km en cada año (cota alta: la valuación baja con la edad). Repuestos: frenos, amortiguadores, distribución y embrague con intervalos supuestos; filtros y bujías están en el service. Las etiquetas avisan cuando un componente sale de una mediana más general que el modelo.</p>
+  </main>
+  <footer></footer>
+  <script type="module" src="js/comparador.js"></script>
+</body>
+</html>

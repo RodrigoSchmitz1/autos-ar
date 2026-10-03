@@ -2,7 +2,7 @@
 
 Cuánto vale, cuánto cuesta tener y qué conviene comprar: autos en Argentina con datos públicos.
 
-**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service), repuestos (Fase 5); **Fase 6 (costo total por km) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
+**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service), repuestos (Fase 5), costo total por km (Fase 6); **Fase 7 (sitio) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
 
 | Paso | Resultado |
 |---|---|
@@ -71,7 +71,7 @@ Decisiones que importan:
 | `mart_mercado_mensual` | mes × provincia × trámite × marca × modelo | qué se patenta, transfiere, prenda y roba, y con qué antigüedad |
 | `mart_depreciacion` | marca × modelo × antigüedad (1-14 años) | cuánto del 0 km conserva un auto, según el fisco y según el mercado |
 | `mart_combustible_mensual` | mes × provincia × producto × bandera | precio mediano, precio ponderado por volumen e impuestos |
-| `mart_combustible_estaciones` | estación × producto (último mes completo) | el mapa de estaciones más baratas |
+| `mart_combustible_estaciones` | estación × producto (último mes completo) | las estaciones más baratas de cada zona (para el asistente de la Fase 8) |
 
 **Primer hallazgo: la valuación fiscal deprecia menos que el mercado.** Mediana de los modelos con respaldo (al menos 3 versiones de cada lado):
 
@@ -222,7 +222,7 @@ La tabla de alias ahora también puede **impedir** un cruce (`(sin familia)`): e
 
 `mart_repuestos` resume por familia y tipo de pieza el precio mediano original y alternativo (1.345 combinaciones de 195 familias). Ejemplo, pastillas de freno: Peugeot 208 $287.525 original contra $57.125 alternativa; Toyota Corolla $531.540 contra $75.905.
 
-## Fase 6: costo total por km (en curso)
+## Fase 6: costo total por km
 
 La métrica estrella: **cuánto cuesta tener cada auto 0 km por mes y por km**, por provincia. `mart_costo_componentes` junta los costos unitarios con el origen de cada uno y `mart_costo_total` los suma para un perfil de uso (variables de dbt: 15.000 km por año y 5 años de tenencia por defecto):
 
@@ -260,4 +260,25 @@ python -m costo.comparador --provincia 06 --km 20000 --anios 3 --seguro 60000 "c
 ```
 
 `costo/test_calculo.py` tiene casos armados a mano (manejar el doble duplica combustible, service y repuestos, pero no patente ni depreciación) y además compara el cálculo de Python con `mart_costo_total` en 200 versiones al azar: las dos implementaciones tienen que dar lo mismo, y el test corre en el pipeline después de dbt. Las versiones sin algún componente (los eléctricos, sin dato de combustible) aparecen como incompletas en vez de con un número inventado.
+
+## Fase 7: sitio (en curso)
+
+**Sin servidor y sin costo.** El sitio es estático: HTML, CSS y JavaScript sin herramientas de build, servido por GitHub Pages (gratis para repos públicos). La "API" son archivos JSON que `exportar/sitio.py` genera desde los marts después de dbt, en el mismo pipeline diario: si la PC está apagada, el sitio igual se actualiza. Los cuatro archivos pesan 640 KB (~150 KB comprimidos), así que se cargan enteros, también en el celular.
+
+| Página | Qué hace |
+|---|---|
+| Inicio | Rankings con la foto de cada auto: los 0 km más vendidos de los últimos 12 meses, los usados que mejor conservan su valor a los 5 años (solo modelos con más de 5.000 transferencias por año, para no premiar rarezas) y los usados más baratos de mantener (un 2021 en Buenos Aires, sin depreciación); y el precio de la nafta por provincia en barras |
+| Comparador | El costo total por mes y por km de los modelos elegidos, con los km por año, años de tenencia, provincia, seguro y repuestos del usuario; la URL guarda la comparación para compartirla |
+| Modelos | Por familia: curva de depreciación (mercado y fiscal), service oficial, repuestos y patentamientos |
+
+**Las fotos.** Las de las automotrices tienen derechos; las de los modelos son de Wikimedia Commons, con licencia libre (CC BY y CC BY-SA), y el sitio cita autor y licencia de cada una en una página de créditos. No se usa la foto principal de Wikipedia: suele ser el modelo europeo o de otra generación (el Yaris europeo, la Amarok nueva basada en la Ranger, la Fiorino italiana). Las 45 fotos de los modelos más vendidos se eligieron a mano, cruzando cada una con las versiones que figuran en los datos (`exportar/fotos_modelos.csv`), y `exportar/fotos.py` las baja una vez, las recorta parejas y guarda los créditos. Quedan en el repo (1,4 MB): el pipeline diario no depende de Commons. Los modelos sin foto muestran una tarjeta con la marca.
+
+**Un solo cálculo en dos lenguajes.** El comparador calcula en el navegador, así que `costo/calculo.py` tiene una copia en `sitio/js/costo.js`. Para que no diverjan, las dos se prueban contra los mismos casos (`costo/casos_prueba.json`: casos a mano y 30 versiones reales con perfiles distintos): Python verifica que el archivo siga dando lo mismo que su cálculo y Node que JavaScript dé lo mismo que el archivo. Si se cambia una fórmula de un solo lado, el pipeline falla.
+
+**Publicación.** El sitio está en https://rodrigoschmitz1.github.io/autos-ar/. El job `publicar` lo sube a GitHub Pages en cada corrida del pipeline, solo si pasaron todos los tests: si algo falla, queda en línea la versión anterior. Para verlo local:
+
+```bash
+python -m exportar.sitio
+python -m http.server 8765 --directory sitio
+```
 

@@ -111,3 +111,36 @@ jobs:
       - name: Test del calculo de costo
         if: ${{ !cancelled() }}
         run: python -m costo.test_calculo
+
+      # El calculo en JavaScript (el del comparador del sitio) tiene que dar lo
+      # mismo que Python con los casos compartidos de costo/casos_prueba.json.
+      - name: Test del calculo en JavaScript
+        if: ${{ !cancelled() }}
+        run: node sitio/js/test_costo.mjs
+
+      # Los marts pasan a JSON estaticos: la "API" del sitio son estos archivos.
+      - name: Exportar datos del sitio
+        if: ${{ !cancelled() }}
+        run: python -m exportar.sitio
+
+      - name: Empaquetar el sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio
+
+  # GitHub Pages (Settings -> Pages -> Source: GitHub Actions): el sitio es
+  # estatico y gratis para repos publicos, y se actualiza solo con cada
+  # corrida. Publica solo si todo el pipeline paso: si un test falla, queda en
+  # linea la version anterior en vez de una con datos dudosos.
+  publicar:
+    needs: pipeline
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
