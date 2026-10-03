@@ -1,0 +1,10 @@
+# Cloudflare Worker del asistente (plan gratis). La clave de Gemini NO va aca:
+# se carga como secreto con `npx wrangler secret put GEMINI_API_KEY`.
+name = "autos-ar-asistente"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Verificar que el alias exista antes de desplegar (en SEPA funciono este).
+GEMINI_MODELO = "gemini-flash-lite-latest"
+ORIGENES = "https://rodrigoschmitz1.github.io,http://localhost:8765,http://127.0.0.1:8765"

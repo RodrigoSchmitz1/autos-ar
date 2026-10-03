@@ -14,6 +14,7 @@
     <nav>
       <a class="marca" href="index.html">Autos<span>AR</span></a>
       <a href="index.html" aria-current="page">Inicio</a>
+      <a href="asistente.html">Asistente</a>
       <a href="comparador.html">Comparador</a>
       <a href="ficha.html">Modelos</a>
     </nav>
@@ -21,7 +22,11 @@
       <div>
         <h1>¿Cuánto cuesta tener un auto en Argentina?</h1>
         <p>Combustible, service oficial, repuestos, patente y cuánto valor pierde con los años: modelo por modelo y provincia por provincia, con datos públicos que se actualizan solos.</p>
-        <a class="boton" href="comparador.html">Comparar autos →</a>
+        <form class="pregunta-portada" action="asistente.html" method="get">
+          <input name="q" type="text" maxlength="300" placeholder="Preguntá: ¿cronos o polo? hago 15.000 km por año en Córdoba" aria-label="Preguntale al asistente">
+          <button type="submit" class="boton">Preguntar</button>
+        </form>
+        <a class="enlace-claro" href="comparador.html">O compará modelos a mano →</a>
       </div>
       <div class="autos" id="autos-portada" aria-hidden="true"></div>
     </div>

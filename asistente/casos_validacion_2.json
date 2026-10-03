@@ -1,0 +1,30 @@
+{
+  "descripcion": "Segundo set de validacion. El primero (casos_validacion.json) se uso para mejorar reglas generales y dejo de servir para medir; este se escribio despues y no se usa para ajustar.",
+  "casos": [
+    {"texto": "Quiero comparar la Toyota Hilux con la Nissan Frontier", "esperado": {"modelos": ["TOYOTA|HILUX PICK - UP", "NISSAN|FRONTIER PICK - UP"]}},
+    {"texto": "hago 25.000 kilómetros por año en Bahía Blanca", "esperado": {"km_anio": 25000, "provincia_id": "06"}},
+    {"texto": "tengo u$s 30.000 para un 0km", "esperado": {}},
+    {"texto": "seguro de 85 lucas, onix plus", "esperado": {"seguro_mensual": 85000, "modelos": ["CHEVROLET|ONIX"]}},
+    {"texto": "un 4 puertas automatico para la familia", "esperado": {"carroceria": ["sedan"], "automatica": true}},
+    {"texto": "trackker o renegade", "esperado": {"modelos": ["CHEVROLET|TRACKER", "JEEP|RENEGADE"]}},
+    {"texto": "manejo 500 km por semana, Neuquen capital", "esperado": {"km_anio": 26000, "provincia_id": "58"}},
+    {"texto": "pulse o kardian o basalt? lo tengo 7 años", "esperado": {"modelos": ["FIAT|PULSE", "RENAULT|KARDIAN", "CITROEN|BASALT"], "anios": 7}},
+    {"texto": "una pickup economica para el campo en Corrientes, gasolera", "esperado": {"carroceria": ["pickup"], "combustible": ["diesel"], "provincia_id": "18"}},
+    {"texto": "hasta 22 palos, lo que sea pero que gaste poco", "esperado": {"presupuesto_max": 22000000}},
+    {"texto": "fiorino vs berlingo vs kangoo para fletes", "esperado": {"modelos": ["FIAT|FIORINO", "CITROEN|BERLINGO", "RENAULT|KANGOO"]}},
+    {"texto": "Comparame el Peugeot 208 con el Fiat Argo en la Ciudad de Buenos Aires", "esperado": {"modelos": ["PEUGEOT|208", "FIAT|ARGO"], "provincia_id": "02"}},
+    {"texto": "voy a hacer como 1000 km por mes, vivo en Posadas", "esperado": {"km_anio": 12000, "provincia_id": "54"}},
+    {"texto": "atto 2 o dolphin mini, electricos", "esperado": {"modelos": ["BYD|ATTO 2", "BYD|DOLPHIN MINI"], "combustible": ["electrico"]}},
+    {"texto": "con 60 millones que camioneta diesel automatica me compro", "esperado": {"presupuesto_max": 60000000, "carroceria": ["pickup"], "combustible": ["diesel"], "automatica": true}},
+    {"texto": "el yaris hatch o el yaris sedan", "esperado": {"modelos": ["TOYOTA|YARIS"]}},
+    {"texto": "Taos o Tiguan, 4 años, Mendoza, 18000km", "esperado": {"modelos": ["VOLKSWAGEN|TAOS", "VOLKSWAGEN|TIGUAN"], "anios": 4, "provincia_id": "50"}},
+    {"texto": "mantener una amarok v6 cuanto sale por mes", "esperado": {"modelos": ["VOLKSWAGEN|AMAROK PICK - UP"]}},
+    {"texto": "auto barato para Salta capital", "esperado": {"provincia_id": "66"}},
+    {"texto": "sienta o spin para 7, somos muchos", "esperado": {"modelos": ["CHEVROLET|SPIN"]}},
+    {"texto": "hb 20 o kwid, uso diario 30 km", "esperado": {"modelos": ["HYUNDAI|HB20", "RENAULT|KWID"], "km_anio": 10950}},
+    {"texto": "presupuesto: $ 38.500.000", "esperado": {"presupuesto_max": 38500000}},
+    {"texto": "Rampage o Maverick o Toro, Tierra del Fuego", "esperado": {"modelos": ["RAM|RAMPAGE PICK -UP", "FORD|MAVERICK PICK - UP", "FIAT|TORO PICK UP"], "provincia_id": "94"}},
+    {"texto": "kicks play, cuanto pierde de valor en 5 años?", "esperado": {"modelos": ["NISSAN|KICKS PLAY"], "anios": 5}},
+    {"texto": "hibrido automatico, sedan o suv, hasta 55 M", "esperado": {"combustible": ["hibrido"], "automatica": true, "carroceria": ["sedan", "suv"], "presupuesto_max": 55000000}}
+  ]
+}

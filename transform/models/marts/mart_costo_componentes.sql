@@ -98,8 +98,11 @@ curva as (
     from {{ ref('mart_depreciacion') }}
 ),
 
+-- La mediana de una marca solo con 3 familias o mas: con 1 o 2 no es "la marca"
+-- sino esos modelos (Kia salia 92% a 5 anios con 2 familias).
 curva_marca as (
-    select marca, antiguedad, median(proporcion) as proporcion from curva group by all
+    select marca, antiguedad, median(proporcion) as proporcion from curva
+    group by all having count(proporcion) >= 3
 ),
 
 curva_general as (

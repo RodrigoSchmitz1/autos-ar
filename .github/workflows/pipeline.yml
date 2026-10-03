@@ -150,11 +150,19 @@ jobs:
 
       # El sitio se publica si los datos pasaron todos los controles, aunque
       # una ingesta haya fallado: muestra datos validos, apenas menos frescos.
+      # El interprete del asistente (reglas, sin IA) tiene que entender exactos
+      # los pedidos de prueba con el catalogo recien exportado.
+      - name: Test del interprete del asistente
+        id: interprete
+        if: ${{ !cancelled() && steps.exportar.outcome == 'success' }}
+        run: node sitio/js/test_interprete.mjs asistente/casos_interprete.json --estricto
+
       - name: Empaquetar el sitio
         id: empaquetar
         if: >-
           ${{ !cancelled() && steps.test.outcome == 'success' && steps.costo.outcome == 'success'
-          && steps.js.outcome == 'success' && steps.exportar.outcome == 'success' }}
+          && steps.js.outcome == 'success' && steps.exportar.outcome == 'success'
+          && steps.interprete.outcome == 'success' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: sitio

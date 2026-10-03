@@ -136,3 +136,21 @@ td.num, th.num { text-align: right; white-space: nowrap; }
 footer { max-width: 1160px; margin: 0 auto; padding: 0 16px 32px; color: var(--suave); font-size: 0.85rem; }
 footer a { color: var(--suave); }
 svg text { fill: var(--suave); font-size: 11px; }
+
+/* ---------- Asistente ---------- */
+.pregunta { margin-bottom: 18px; }
+.fila-pregunta { display: flex; gap: 10px; flex-wrap: wrap; }
+.fila-pregunta input { flex: 1 1 260px; font-size: 1.05rem; padding: 12px 14px; }
+.fila-pregunta .boton { border: none; cursor: pointer; }
+.alternar { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip-alternar { width: auto; font-size: 0.85rem; padding: 6px 12px; border-radius: 999px; background: var(--superficie); border: 1px solid var(--borde); color: var(--texto); cursor: pointer; }
+.chip-alternar:hover { border-color: var(--acento); }
+.chip-alternar.activo { background: var(--acento); border-color: var(--acento); color: #fff; }
+.entendido { margin-bottom: 18px; display: grid; gap: 12px; }
+.entendido h2 { margin: 0; }
+.entendido .nota { margin: -8px 0 0; }
+.respuesta-texto { font-size: 1.1rem; line-height: 1.55; background: var(--acento-suave); border-radius: var(--radio); padding: 14px 16px; margin: 0 0 12px; }
+.pregunta-portada { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; max-width: 560px; }
+.pregunta-portada input { flex: 1 1 240px; border: none; padding: 12px 14px; border-radius: 999px; }
+.pregunta-portada .boton { border: none; cursor: pointer; }
+.enlace-claro { color: rgba(255, 255, 255, 0.85); font-size: 0.95rem; }

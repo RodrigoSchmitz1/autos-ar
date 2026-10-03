@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asistente</title>
+  <meta name="description" content="Contale cómo vas a usar el auto y te dice cuánto cuesta tener cada uno, con datos públicos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header><nav>
+    <a class="marca" href="index.html">Autos<span>AR</span></a>
+    <a href="index.html">Inicio</a>
+    <a href="asistente.html" aria-current="page">Asistente</a>
+    <a href="comparador.html">Comparador</a>
+    <a href="ficha.html">Modelos</a>
+  </nav></header>
+  <main>
+    <h1>Asistente</h1>
+    <p class="bajada">Contá qué autos estás mirando o cómo lo vas a usar, como se lo dirías a alguien. Las cuentas las hace el mismo cálculo del comparador.</p>
+    <form id="formulario" class="tarjeta pregunta">
+      <label for="pregunta">Tu pregunta</label>
+      <div class="fila-pregunta">
+        <input id="pregunta" type="text" maxlength="300" autocomplete="off" placeholder="Ej.: cronos o polo? hago 15000 km por año en Córdoba">
+        <button type="submit" class="boton">Preguntar</button>
+      </div>
+      <div class="alternar" id="ejemplos"></div>
+    </form>
+    <section id="entendido" class="tarjeta entendido" hidden></section>
+    <section id="respuesta" hidden>
+      <p class="respuesta-texto" id="texto-respuesta"></p>
+      <button type="button" id="con-ia" class="chip-alternar" hidden>¿No entendió bien? Probá con IA</button>
+      <div class="leyenda" id="leyenda"></div>
+      <div class="ranking" id="tarjetas"></div>
+      <p><a id="al-comparador" href="comparador.html">Abrir en el comparador →</a></p>
+      <p class="nota">Si no nombrás modelos, recomiendo entre los 0 km con más de 100 ventas en el año y con curva de depreciación propia o de su marca; si no pedís otra carrocería, solo autos (hatch, sedán, SUV). El costo incluye lo que pierde de valor en los años que lo tenés.</p>
+    </section>
+    <p class="estado" id="estado">Cargando…</p>
+  </main>
+  <footer></footer>
+  <script type="module" src="js/asistente.js"></script>
+</body>
+</html>

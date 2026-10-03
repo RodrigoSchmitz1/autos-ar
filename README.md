@@ -2,7 +2,7 @@
 
 Cuánto vale, cuánto cuesta tener y qué conviene comprar: autos en Argentina con datos públicos.
 
-**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service), repuestos (Fase 5), costo total por km (Fase 6); **Fase 7 (sitio) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
+**Estado: Fases 0 a 4 completas** (factibilidad, ingesta, catálogo canónico, marts, patente y service), repuestos (Fase 5), costo total por km (Fase 6) y sitio publicado (Fase 7); **Fase 8 (asistente) en curso**. Antes de diseñar cada pipeline se mide la fuente: si se puede acceder, cuánto pesa y si los modelos se pueden cruzar entre fuentes.
 
 | Paso | Resultado |
 |---|---|
@@ -261,7 +261,7 @@ python -m costo.comparador --provincia 06 --km 20000 --anios 3 --seguro 60000 "c
 
 `costo/test_calculo.py` tiene casos armados a mano (manejar el doble duplica combustible, service y repuestos, pero no patente ni depreciación) y además compara el cálculo de Python con `mart_costo_total` en 200 versiones al azar: las dos implementaciones tienen que dar lo mismo, y el test corre en el pipeline después de dbt. Las versiones sin algún componente (los eléctricos, sin dato de combustible) aparecen como incompletas en vez de con un número inventado.
 
-## Fase 7: sitio (en curso)
+## Fase 7: sitio
 
 **Sin servidor y sin costo.** El sitio es estático: HTML, CSS y JavaScript sin herramientas de build, servido por GitHub Pages (gratis para repos públicos). La "API" son archivos JSON que `exportar/sitio.py` genera desde los marts después de dbt, en el mismo pipeline diario: si la PC está apagada, el sitio igual se actualiza. Los cuatro archivos pesan 640 KB (~150 KB comprimidos), así que se cargan enteros, también en el celular.
 
@@ -281,4 +281,30 @@ python -m costo.comparador --provincia 06 --km 20000 --anios 3 --seguro 60000 "c
 python -m exportar.sitio
 python -m http.server 8765 --directory sitio
 ```
+
+## Fase 8: asistente (en curso)
+
+"Manejo 20 km por día, somos 4, ¿qué me conviene?". Mismo principio que en SEPA: **la IA interpreta el texto, el código cuenta**. El asistente saca del pedido parámetros (modelos, km por año, provincia, años, presupuesto, carrocería, combustible, caja) y la respuesta la calcula `sitio/js/costo.js`, el mismo cálculo probado del comparador. El texto de la respuesta también lo arma el código con esos números.
+
+**Primero sin IA.** `sitio/js/interprete.js` interpreta con reglas y con el catálogo de modelos, en el navegador: sin servidor y sin costo. Busca los modelos del nombre más largo al más corto ("corolla cross" antes que "corolla"), tolera una letra de diferencia en nombres de 5 letras o más ("hillux", "amarock"; en nombres cortos "solo" sería Polo), y lo que no reconoce lo deja afuera en vez de adivinar. La página muestra "Entendí esto" con cada parámetro editable: si algo no es lo que la persona quiso decir, lo corrige y la respuesta se recalcula.
+
+**Medido con pedidos que no vio.** Los pedidos de `asistente/casos_interprete.json` se escribieron junto con las reglas: que salgan 40 de 40 no prueba nada (el pipeline los exige como test de regresión). Para medir de verdad hay dos sets escritos aparte, con errores de tipeo, jerga ("30 palos", "85 lucas", "gasolera") y formas de decir lo mismo:
+
+| Set | Pedidos | Exactos la primera vez | Después de mejorar reglas generales |
+|---|---|---|---|
+| `casos_validacion.json` | 30 | 23 (77%) | 29 (ya no mide: se usó para mejorar) |
+| `casos_validacion_2.json` | 25 | 20 (80%) | 24 (ya no mide) |
+
+Cuando falla, casi siempre es porque no entendió algo (un modelo con error de tipeo, km dichos de otra forma). Valores equivocados hubo dos en 55 pedidos: un seguro de "85 lucas" leído como $85, y en "yaris hatch o yaris sedán" las dos carrocerías además del modelo. Lo que las reglas no van a entender son las paráfrasis ("voy y vuelvo al laburo, son 40 km en total"): para eso está Gemini.
+
+**Gemini de respaldo, sin exponer la clave.** El sitio es estático, así que la clave no puede estar en el navegador. Un Cloudflare Worker (`asistente/worker/`, plan gratis: 100.000 pedidos por día) la guarda como secreto, acepta pedidos solo desde el sitio y de hasta 300 caracteres, y devuelve los mismos parámetros. Gemini responde con un formato fijo (`responseSchema`) y los modelos que nombra se validan contra el catálogo: no puede inventar un auto. Costo cero por construcción: la clave es de un proyecto de AI Studio sin facturación, así que al agotar la cuota gratis Gemini contesta "volvé mañana" en vez de cobrar. Las instrucciones viven en un solo archivo que usan el Worker y `asistente/medir_gemini.mjs`, que lo mide contra los mismos pedidos que las reglas (`gemini-flash-lite-latest`, free tier):
+
+| Pedidos no vistos (55) | Exactos la primera vez |
+|---|---|
+| Reglas | 43 (78%) |
+| Gemini | 50 (91%) |
+
+Gemini entiende más (paráfrasis, "auto chico"), pero sus errores enseñaron dos cosas. Cambiaba modelos que no conoce por otros que sí: "Tera" (lanzado en 2025) le salía Taos, el error más peligroso porque la respuesta sería sobre otro auto. Y completaba la carrocería sin que nadie la pidiera ("pick-up" para una SW4, que es SUV). Se corrigió con dos reglas generales en las instrucciones (copiar los modelos tal cual, el catálogo del sitio ya tolera errores de tipeo; no deducir la carrocería) y dejó de inventar modelos (esa segunda medición ya no cuenta como "no vista"). El sitio usa las reglas primero, al instante y sin gastar cuota; a Gemini lo llama solo si las reglas no entendieron nada o si la persona aprieta "Probá con IA".
+
+**Qué recomienda.** Si el pedido nombra modelos, compara la versión más vendida de cada uno entre las que cumplen lo pedido. Si no, recomienda las 5 familias más baratas de tener entre los 0 km con más de 100 ventas en el año y, si no se pidió otra carrocería, solo autos (hatch, sedán, SUV). Solo entran versiones con curva de depreciación propia o de su marca: con la mediana general el costo es una adivinanza, y el recomendador premiaría justo a los modelos de los que menos se sabe. Armándolo apareció un problema en el costo: la "mediana de la marca" de Kia (92% del valor a 5 años) salía de 2 modelos. Desde entonces una marca necesita al menos 3 familias con curva para tener mediana propia (`mart_costo_componentes`); con esa regla el recomendador cubre el 90% de las ventas.
 

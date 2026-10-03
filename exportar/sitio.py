@@ -92,7 +92,7 @@ def main():
         select origen_codigo || marca_codigo || '-' || tipo_codigo || '-' || modelo_codigo as id,
                any_value(marca) as marca, any_value(modelo) as modelo, any_value(cca_modelo) as familia, any_value(carroceria) as carroceria,
                any_value(inscripciones_12m) as inscripciones_12m, any_value(valor_0km) as valor_0km,
-               any_value(combustible) as combustible, any_value(consumo_l100km) as consumo_l100km,
+               any_value(combustible) as combustible, any_value(automatica) as automatica, any_value(consumo_l100km) as consumo_l100km,
                any_value(consumo_estimacion) as consumo_estimacion,
                any_value(service_por_km) as service_por_km, any_value(service_fuente) as service_fuente,
                any_value(repuestos_por_km) as repuestos_por_km, any_value(repuestos_por_km_original) as repuestos_por_km_original,
