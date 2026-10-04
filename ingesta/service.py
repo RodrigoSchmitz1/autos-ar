@@ -39,6 +39,15 @@ PRECIO_ESTRICTO = re.compile(r"\$\s*(\d{1,3}(?:\.\d{3})+)\s*$")
 PRECIO_CON_CERO_DE_MAS = re.compile(r"\$\s*(\d{1,3}(?:\.\d{3})*\.\d{3})0\s*$")
 
 
+
+def es_pdf(contenido, url):
+    """El contenido tiene que ser un PDF; si no (pagina de bloqueo o de error), un mensaje claro."""
+    if not contenido.startswith(b"%PDF"):
+        inicio = " ".join(contenido[:120].decode("utf-8", "ignore").split())
+        raise ValueError(f"{url} no devolvio un PDF (posible bloqueo o pagina de error): {inicio!r}")
+    return contenido
+
+
 def a_pesos(texto):
     return int(texto.replace(".", ""))
 
@@ -225,7 +234,7 @@ def volkswagen():
     import pdfplumber
     url = "https://www.alperovichsa.com.ar/assets/precios-servicios-mantenimiento.pdf"
     contenido = pedir(url)
-    tablas = pdfplumber.open(io.BytesIO(contenido)).pages[0].extract_tables()
+    tablas = pdfplumber.open(io.BytesIO(es_pdf(contenido, url))).pages[0].extract_tables()
     tabla = [[(c or "").replace("\n", " ").strip() for c in fila] for fila in max(tablas, key=len)]
 
     vig = re.search(r"Q[1-4] - (\w+) a (\w+) (\d{4})", tabla[0][0])
@@ -344,7 +353,7 @@ def renault():
 
     import pdfplumber
     url = "https://premiumconsulting.com.ar/pourtau/quiter/ldp/Lista%20de%20precios.pdf"
-    pagina = pdfplumber.open(io.BytesIO(pedir(url))).pages[0]
+    pagina = pdfplumber.open(io.BytesIO(es_pdf(pedir(url), url))).pages[0]
     tablas = pagina.extract_tables()
     nombres = {}
     for tabla in tablas:
@@ -539,6 +548,10 @@ RECOLECTORES = {
 # cortesia). Los precios cambian una vez por mes: consultarlas todos los dias
 # seria abusar del sitio. Se consultan como maximo una vez cada 7 dias.
 DIAS_ENTRE_CONSULTAS = {"peugeot": 7, "citroen": 7, "ford": 7}
+# Las demas, como maximo una vez por dia: el pipeline tambien corre con cada
+# push, y varias consultas el mismo dia a un concesionario no aportan nada (las
+# listas cambian cada meses) y pueden hacer que bloquee a GitHub.
+DIAS_MINIMO = 1
 
 
 def validar(marca, filas):
@@ -559,7 +572,7 @@ def validar(marca, filas):
 
 def procesar(marca, estado, consultado, hoy):
     """Consulta, valida y guarda una marca; actualiza el estado (huella y fecha)."""
-    espera = DIAS_ENTRE_CONSULTAS.get(marca)
+    espera = DIAS_ENTRE_CONSULTAS.get(marca, DIAS_MINIMO)
     if espera and marca in consultado and (hoy - date.fromisoformat(consultado[marca])).days < espera:
         print(f"service {marca}: consultado el {consultado[marca]}, se vuelve a consultar cada {espera} dias")
         return

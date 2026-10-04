@@ -8,9 +8,9 @@ responde 401 si no se puede). El reproductor muestra el canal del autor.
 
 La lista (exportar/videos_modelos.csv) se eligio a mano: el canal oficial de
 la marca en Argentina cuando tiene un video del modelo actual; si no, una
-resena argentina del modelo que se vende aca. "Hilux 2026" en YouTube es la
-generacion nueva de Tailandia, no la de Zarate: sin video antes que uno
-equivocado.
+resena argentina del modelo que se vende aca (TN Autos, Argentina Motor,
+Autocosmos...). Ojo con los "Hilux 2026" de YouTube: son la generacion nueva
+de Tailandia, no la de Zarate.
 
 Se corre a mano cuando cambia la lista, como exportar/fotos.py:
 

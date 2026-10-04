@@ -1,8 +1,62 @@
 {
+ "BAIC|BJ30": {
+  "canal": "MatiasAntico",
+  "id": "ZO2Jk1L3Peg",
+  "titulo": "BAIC BJ30 4x4 - El SUV chino \"más gustado\" - TEST - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "CHEVROLET|MONTANA PICK - UP": {
+  "canal": "Autocosmos Argentina",
+  "id": "hYbqeyz0rOI",
+  "titulo": "Test Chevrolet Montana Manual | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "CHEVROLET|ONIX": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "cXrPmsighI8",
+  "titulo": "Nuevo Chevrolet Onix 2026 | Todos los cambios, motor, equipamiento, versiones y características",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "CHEVROLET|S-10 PICK - UP": {
+  "canal": "Autocosmos Argentina",
+  "id": "cW5apC2hV1E",
+  "titulo": "Test nueva Chevrolet S10 2025 | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
  "CHEVROLET|TRACKER": {
   "canal": "Argentina Motor (Motorizando)",
   "id": "88RGBJENPVA",
   "titulo": "Nueva Chevrolet Tracker 2026 | Todos los cambios, características, versiones y motor.",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "CITROEN|BASALT": {
+  "canal": "MatiasAntico",
+  "id": "f5Z1YQ3me0s",
+  "titulo": "Citroën BASALT - El \"fastback\" low cost - TEST - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "CITROEN|BERLINGO": {
+  "canal": "Eduardo Smok",
+  "id": "XZ9nzJb0Zy0",
+  "titulo": "CITROËN BERLINGO: ACTUALIDAD, NOVEDADES Y  FUTURO DEL AUTO MÁS ANTIGUO A LA VENTA EN ARGENTINA.",
+  "url_canal": "https://www.youtube.com/@eduardosmok4286"
+ },
+ "CITROEN|C 3": {
+  "canal": "AUTOMAS ARGENTINA OFICIAL",
+  "id": "u7dGWivEx48",
+  "titulo": "C3 YOU | Test | Guillermina Fossati",
+  "url_canal": "https://www.youtube.com/@Automasargentinaoficial"
+ },
+ "CITROEN|C 3 AIRCROSS": {
+  "canal": "VisionMotor - Andres Perez Loizeau",
+  "id": "0MrOvZLk9d4",
+  "titulo": "Nuevo Citroen C3 Aircross, el SUV de 5 o 7 asientos que busca competir por precio y equipamiento",
+  "url_canal": "https://www.youtube.com/@visionmotor"
+ },
+ "FIAT|ARGO": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "I1o0thEmlWY",
+  "titulo": "Nuevo Fiat Argo 2025 | Precio, versiones, motor, equipamiento y todas las características.",
   "url_canal": "https://www.youtube.com/@ArgentinaMotor"
  },
  "FIAT|CRONOS": {
@@ -10,6 +64,54 @@
   "id": "37uDhRRY_gI",
   "titulo": "Fiat Cronos, el auto de los argentinos.",
   "url_canal": "https://www.youtube.com/@FiatAutoArgentina"
+ },
+ "FIAT|FASTBACK": {
+  "canal": "Moving",
+  "id": "C-goceuKRh4",
+  "titulo": "MOVING TEST: FIAT FASTBACK - Prueba de manejo y análisis",
+  "url_canal": "https://www.youtube.com/@mdm_moving"
+ },
+ "FIAT|FIORINO": {
+  "canal": "Fiat Belgrano Alsina",
+  "id": "dFfUursaWLY",
+  "titulo": "    La utilitaria que sigue peleando precios: Fiat Fiorino 2026 - GIAMA",
+  "url_canal": "https://www.youtube.com/@FiatBelgranoAlsina"
+ },
+ "FIAT|MOBI": {
+  "canal": "Autosdeprimera",
+  "id": "LwtFyw4TcYU",
+  "titulo": "Fiat Mobi Like 🔥 ¿El mejor City Car actualmente? 🔥 Prueba - Reseña (4K)",
+  "url_canal": "https://www.youtube.com/@AutosdeprimeraYT"
+ },
+ "FIAT|PULSE": {
+  "canal": "auto test",
+  "id": "YB19c3qZNBE",
+  "titulo": "Fiat Pulse Impetus - Test Drive",
+  "url_canal": "https://www.youtube.com/@AutoTestArg"
+ },
+ "FIAT|STRADA PICK - UP": {
+  "canal": "MatiasAntico",
+  "id": "R9QbNa1AHiU",
+  "titulo": "Fiat Strada Ultra 1.0 Turbo - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "FIAT|TITANO PICK UP": {
+  "canal": "MatiasAntico",
+  "id": "w-r8QNe24b4",
+  "titulo": "FIAT TITANO • Test de la pick up argentina • Matías Antico • TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "FIAT|TORO PICK UP": {
+  "canal": "MatiasAntico",
+  "id": "PZrjYFbzwiU",
+  "titulo": "Fiat Toro 2 2 TD 4x4 (200 CV) - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "FORD|MAVERICK PICK - UP": {
+  "canal": "MatiasAntico",
+  "id": "QfzSj79AdCI",
+  "titulo": "Ford Maverick Lariat FX4 - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
  "FORD|RANGER PICK - UP": {
   "canal": "Mundo Motor",
@@ -23,6 +125,36 @@
   "titulo": "Nueva Ford Territory",
   "url_canal": "https://www.youtube.com/@fordargentina"
  },
+ "HYUNDAI|HB20": {
+  "canal": "Autocosmos Argentina",
+  "id": "nTOTzQtD5Qc",
+  "titulo": "Test Drive Hyundai HB20 | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "JEEP|COMPASS": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "OtovGPc8B_Y",
+  "titulo": "Nuevo Jeep Compass 2025 | PRECIOS, versiones, equipamiento y mecánica. ¿Qué perdió?",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "JEEP|RENEGADE": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "nQ_Vd7731_c",
+  "titulo": "Nuevo Jeep Renegade Sport TURBO T270 2025 | Precio, motor, equipamiento y todas las características",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "MERCEDES BENZ|SPRINTER": {
+  "canal": "MatiasAntico",
+  "id": "0kNAt0uwjEY",
+  "titulo": "Mercedes-Benz Sprinter 316 4+1 - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "NISSAN|FRONTIER PICK - UP": {
+  "canal": "MatiasAntico",
+  "id": "rLAuL9W0xBo",
+  "titulo": "Nissan Frontier X-Gear 7AT - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
  "PEUGEOT|2008": {
   "canal": "VisionMotor - Andres Perez Loizeau",
   "id": "kNPfYefSHQ8",
@@ -35,6 +167,18 @@
   "titulo": "Nuevo Peugeot 208 2025: versiones, equipamiento y precios",
   "url_canal": "https://www.youtube.com/@mausorio"
  },
+ "PEUGEOT|PARTNER": {
+  "canal": "MatiasAntico",
+  "id": "6tFxqJe06-Y",
+  "titulo": "Peugeot Partner Patagónica HDI - Test - Matías Antico",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "RENAULT|KANGOO": {
+  "canal": "Autocosmos Argentina",
+  "id": "0GkcqERiQps",
+  "titulo": "Test Drive Renault Kangoo Express made in Argentina | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
  "RENAULT|KARDIAN": {
   "canal": "Renault Argentina",
   "id": "iHUglQ9O87U",
@@ -46,6 +190,30 @@
   "id": "JPBdHZWvL88",
   "titulo": "Renault Kwid (re) lanzamiento en Argentina (casi) en Vivo",
   "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "TOYOTA|COROLLA": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "8kTl6_XBu6M",
+  "titulo": "Nuevo Toyota Corolla 2025 | ¿Qué cambió? | Precio, versiones, equipamiento y características.",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "TOYOTA|COROLLA CROSS": {
+  "canal": "Autocosmos Argentina",
+  "id": "j1SS2HB-BJg",
+  "titulo": "Toyota Corolla Cross 2025 Lanzamiento en Argentina | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "TOYOTA|HILUX PICK - UP": {
+  "canal": "MatiasAntico",
+  "id": "80eyq7Icnrw",
+  "titulo": "Toyota Hilux SRX 4x4 (con trochas anchas) - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "TOYOTA|HILUX SW4": {
+  "canal": "MatiasAntico",
+  "id": "wNfSWDcGCeQ",
+  "titulo": "Toyota SW4 Diamond - Minitest - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
  "TOYOTA|YARIS": {
   "canal": "Argentina Motor (Motorizando)",
@@ -65,11 +233,29 @@
   "titulo": "¡Ahora TODAS son V6! - Lanzamiento VW Amarok ",
   "url_canal": "https://www.youtube.com/@alvolantechile"
  },
+ "VOLKSWAGEN|NIVUS": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "PNX3fh6lgwg",
+  "titulo": "Nuevo Volkswagen Nivus 2025 | Todo lo que cambió, motores, equipamiento, más ADAS y GTS 250 TSI",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
  "VOLKSWAGEN|POLO": {
   "canal": "Argentina Motor (Motorizando)",
   "id": "WKBdCJRpHxw",
   "titulo": "Nuevos Volkswagen Polo Robust y Track 2026 | ¿Qué cambian? | Precio, motor y equipamiento",
   "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "VOLKSWAGEN|SAVEIRO PICK - UP": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "ZLYI_quMguU",
+  "titulo": "Nueva Volkswagen Saveiro 2024 | Precios, versiones, equipamientos, motor y todos los cambios.",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "VOLKSWAGEN|T-CROSS": {
+  "canal": "volkswagenargoficial",
+  "id": "oXtuDqETsiE",
+  "titulo": "Mucho gusto, llegó el Nuevo T-Cross || Volkswagen Argentina",
+  "url_canal": "https://www.youtube.com/@volkswagenargoficial"
  },
  "VOLKSWAGEN|TAOS": {
   "canal": "Argentina Motor (Motorizando)",
