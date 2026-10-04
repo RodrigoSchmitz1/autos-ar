@@ -177,3 +177,22 @@ models:
               arguments:
                 values: [agrega, mejora, quita]
 
+  - name: mart_equipamiento_comparable
+    description: Equipamiento de cada version con las caracteristicas comunes entre marcas (clasificacion por reglas, Gemini y a mano).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [marca, familia, version_fuente, caracteristica]
+    columns:
+      - name: tiene
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['si', 'no', 'opcional']  # sin comillas, YAML lee "no" como falso
+      - name: pulgadas
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 3
+                max_value: 30
+

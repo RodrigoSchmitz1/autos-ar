@@ -202,3 +202,17 @@ svg text { fill: var(--suave); font-size: 11px; }
 .lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(10, 12, 18, 0.88); display: grid; place-items: center; padding: 16px; cursor: zoom-out; }
 .lightbox img { max-width: min(1000px, 100%); max-height: 80vh; border-radius: 12px; }
 .lightbox-credito { color: #ddd; font-size: 0.85rem; margin: 8px 0 0; text-align: center; }
+
+/* ---------- Equipamiento lado a lado ---------- */
+.seccion-equipamiento { margin-top: 32px; }
+.tabla-equipamiento td.si { color: var(--bien); font-weight: 800; }
+.tabla-equipamiento td.no { color: var(--suave); }
+.tabla-equipamiento td.opc { color: var(--aviso); font-weight: 600; }
+.tabla-equipamiento td.sd { color: var(--borde); font-size: 0.8rem; }
+.tabla-equipamiento tr.difiere td:first-child { box-shadow: inset 4px 0 0 var(--acento); font-weight: 600; }
+.tabla-equipamiento tr.difiere { background: color-mix(in srgb, var(--acento-suave) 55%, transparent); }
+.tabla-equipamiento.solo-diferencias tr.igual { display: none; }
+.tabla-equipamiento .fila-seccion td { font-weight: 800; background: var(--acento-suave); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em; }
+.eq-cabeza { display: grid; justify-items: center; gap: 2px; text-transform: none; letter-spacing: 0; color: var(--texto); font-size: 0.9rem; min-width: 130px; }
+.eq-cabeza .foto-auto.mini { width: 110px; }
+.eq-resumen { font-size: 0.72rem; color: var(--suave); font-weight: 500; }

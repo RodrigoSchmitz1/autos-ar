@@ -121,3 +121,11 @@ def permitido_por_robots(url, texto_robots=None):
                 mejor = (largo, allow)
     return True if mejor is None else mejor[1]
 
+
+def pedir_json_post(url, cuerpo, encabezados=None, timeout=120):
+    """POST con cuerpo JSON (APIs como Gemini); devuelve la respuesta JSON."""
+    pedido = urllib.request.Request(url, data=json.dumps(cuerpo).encode("utf-8"), method="POST",
+                                    headers={"User-Agent": USER_AGENT, "Content-Type": "application/json", **(encabezados or {})})
+    with urllib.request.urlopen(pedido, timeout=timeout, context=_SSL) as r:
+        return json.loads(r.read())
+

@@ -1,0 +1,357 @@
+{
+ "descripcion": "Validacion: 60 items al azar (otra semilla, sin los 80 del primer set), etiquetados a mano antes de correr las reglas. No se usa para ajustar. Criterios nuevos: 'entrada remota sin llave' es el control remoto de puertas (no llave de presencia); un display chico dentro de un tablero analogico no es tablero_digital; 'proyeccion inalambrica' es carplay_inalambrico.",
+ "casos": [
+  {
+   "marca": "CHEVROLET",
+   "item": "Manijas externas color carrocería con detalles cromados",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Faros Traseros LED",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Climatizador automático 1 zona",
+   "esperado": {
+    "climatizador_automatico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Tablero digital 8\" | VW Digital Cockpit",
+   "esperado": {
+    "tablero_digital": 8
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Proyeccón inalámbrica",
+   "esperado": {
+    "carplay_inalambrico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Torque máximo (Nm/rpm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Cargador inalámbrico",
+   "esperado": {
+    "cargador_inalambrico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Volante revestido en cuero con levas de cambio",
+   "esperado": {
+    "volante_cuero": null,
+    "levas": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Cierre con cerradura en portón de caja",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Volante multifunción de 3 rayos",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Capacidad de batería iones de litio (kWh)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Encendido remoto programado",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Asistente de descenso en pendiente (HDC)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Asiento conductor c/ajuste eléctrico en 8 direcciones",
+   "esperado": {
+    "asiento_electrico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "2 tomas USB Tipo C traseras",
+   "esperado": {
+    "usb_traseros": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Batería",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Capacidad de inmersión a 7 km/h (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Espejos exteriores con regulación eléctrica",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Toma corriente de 12V en la consola central",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Apoyacabezas central traseros ajustable en altura",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Tablero 100% digital 10,25\" | Active Info Display",
+   "esperado": {
+    "tablero_digital": 10.25
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Testigo de pérdida de presión de neumáticos",
+   "esperado": {
+    "presion_neumaticos": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Iluminación de caja de carga",
+   "esperado": {}
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Alarma Antirrobo Perimetral",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Ancho total con espejos / sin espejos (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Sistema de gestión de terrenos (3 modos)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Parrilla delantera cromada",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Largo (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Entrada remota sin llave",
+   "esperado": {}
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Frenos a discos en las 4 ruedas",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Levantacristales eléctricos delanteros",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Inmovilizador electrónico",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Sistema de anclajes ISOFIX",
+   "esperado": {
+    "isofix": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Neumáticos",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "4 parlantes delanteros y 2 traseros",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Panel de instrumentos 3,5\" digital",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Asientos delanteros con apoyacabeza integrado",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Control de velocidad crucero",
+   "esperado": {
+    "crucero": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Airbag para conductor y acompañante",
+   "esperado": {
+    "airbags_frontales": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Cinturones de seguridad delanteros ajustables en altura",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Faros delanteros con tecnología IQ Light con luz de curva dinámica",
+   "esperado": {
+    "faros_led": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Apertura y cierre centralizado de puertas con comando a distancia",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Tipo de dirección",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Sistema de asistencia para luz de carretera | Light Assist",
+   "esperado": {
+    "luces_altas_automaticas": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Rueda de auxilio temporal, de espacio reducido",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Volante multifunción revestido en cuero",
+   "esperado": {
+    "volante_cuero": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Altura, inlcuyendo barras de techo (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Espejos exteriores c/comando eléctrico y c/luz de giro",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Llave con sensor de aproximación",
+   "esperado": {
+    "llave_presencia": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Llantas de acero High Vent 15\"",
+   "esperado": {
+    "llantas": 15
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Asiento del conductor con regulación eléctrica de 10 posiciones incluyendo ajuste lumbar",
+   "esperado": {
+    "asiento_electrico": null
+   }
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Sensores de estacionamiento traseros",
+   "esperado": {
+    "sensores_traseros": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Sistema de apertura y encendido sin llave - KESSY",
+   "esperado": {
+    "llave_presencia": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Asistente de pre-colisión con frenado autónomo de emergencia",
+   "esperado": {
+    "frenado_autonomo": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Parrilla con barra transversal cromada",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Sistema de Información de punto ciego (BLIS) con alerta de tráfico cruzado",
+   "esperado": {
+    "punto_ciego": null,
+    "trafico_cruzado": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Asistente de partida en pendiente",
+   "esperado": {
+    "arranque_pendiente": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Espejo retrovisor fotocromático",
+   "esperado": {
+    "espejo_electrocromico": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Luz trasera con tecnología LED",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Control de estabilidad (ESC)",
+   "esperado": {
+    "control_estabilidad": null
+   }
+  }
+ ]
+}

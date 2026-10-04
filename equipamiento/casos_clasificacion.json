@@ -1,0 +1,477 @@
+{
+ "descripcion": "80 items de las fichas sacados al azar (orden por hash con semilla fija) y etiquetados a mano ANTES de escribir las reglas: la vara para medir el clasificador (reglas y Gemini). esperado: caracteristica -> valor (null si es si/no). Vacio: el item no es ninguna caracteristica del catalogo (datos tecnicos, Wi-Fi, ABS, molduras...). Criterios: 'arranque sin llave' es arranque_boton; 'apertura y encendido sin llave' es llave_presencia; climatizador no marca aire_acondicionado (se deduce en el mart).",
+ "casos": [
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Llantas de aleación de 16'' diamantadas | Neumáticos 205/60",
+   "esperado": {
+    "llantas_aleacion": null,
+    "llantas": 16
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Wi-Fi Nativo",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Espejos laterales con luz de giro integrada",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Volante multifunción con comandos de audio, computadora de abordo y teléfono",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "ABS, EBD (electronic brake distribution) y EBA",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Cámara de estacionamiento 360°",
+   "esperado": {
+    "camara_360": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Aplique Platinum en portón trasero y capot",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Traseros",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Torque máximo motor electrico (Nm / rpm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Moldura vidrios laterales cromada",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Volante multifunción revestido en cuero sintético con levas al volante",
+   "esperado": {
+    "volante_cuero": null,
+    "levas": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Capacidad de carga sobre barra de techo (kg)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Rack de Techo en color negro",
+   "esperado": {
+    "barras_techo": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Parasol para conductor y acompañante con espejo",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Cargador inalámbrico",
+   "esperado": {
+    "cargador_inalambrico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Alfombras de tela",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Respaldo asiento trasero plegable (1/3 - 2/3) con apoyabrazos central",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Sync 4 con pantalla multitáctil de 12\" compatible con Android Auto® y Apple Car Play® inalámbrico",
+   "esperado": {
+    "pantalla_multimedia": 12,
+    "carplay_android": null,
+    "carplay_inalambrico": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Altura (mm",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Aviso sonoro de cinturón de seguridad para asentos delanteros y traseros",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Cargador de celular inalámbrico",
+   "esperado": {
+    "cargador_inalambrico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Ancho con espejos (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Espejos retrovisores externos eléctricos color Carrocería",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Luz de cortesía en baúl",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Estribos color negro",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Apertura & cierre de portón trasero eléctrico con función manos libres",
+   "esperado": {
+    "porton_electrico": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Torque máximo motor de combustión interna (Nm / rpm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "4 parlantes",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Ancho total (con espejos) (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Sensor de estacionamiento delantero, lateral y trasero",
+   "esperado": {
+    "sensores_traseros": null,
+    "sensores_delanteros": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Tapizado de asientos parcialmente en cuero",
+   "esperado": {
+    "asientos_cuero": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Llantas de aleación de 17'' diamantadas | Neumáticos 205/55",
+   "esperado": {
+    "llantas_aleacion": null,
+    "llantas": 17
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Tanque de combustible (litros)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "-Ancho entre buches (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Espejos exteriores color gris oscuro, parrilla y manijas de puerta color carroceria y manija de portón color negro",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Tecnología arranque sin llave \"Ford Power\"",
+   "esperado": {
+    "arranque_boton": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Cámara de estacionamiento con visión trasera",
+   "esperado": {
+    "camara_trasera": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Control electrónico de descenso (HDC)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "- Alto (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Faros antiniebla LED",
+   "esperado": {
+    "faros_antiniebla": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Cargador inductivo de celular",
+   "esperado": {
+    "cargador_inalambrico": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Peso en orden de marcha (Kg)",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Airbag para conductor y acompañante con desactivación del acompañante",
+   "esperado": {
+    "airbags_frontales": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Sistema antibloqueo de frenos (ABS)",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Cámara de visión trasera",
+   "esperado": {
+    "camara_trasera": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Limpiaparabrisas con Sensor de lluvia, con ajuste automático de intensidad",
+   "esperado": {
+    "sensor_lluvia": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Cierre/apertura global remoto de puertas",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Faros delanteros LED",
+   "esperado": {
+    "faros_led": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Insignia Chevrolet en Negro exclusivo RS",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Sistema multimedia SYNC Touch con pantalla Multi-Táctil de 12,3\", control por voz, Bluetooth y puertos USB",
+   "esperado": {
+    "pantalla_multimedia": 12.3
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Traba de seguridad en puertas traseras",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Barra portaequipajes en techo",
+   "esperado": {
+    "barras_techo": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Palanca de cambios revestida en cuero",
+   "esperado": {}
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Asiento conductor con regulación en altura",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Sistema de apertura y encendido sin llave | Keyless Access",
+   "esperado": {
+    "llave_presencia": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Indicador de punto ciego",
+   "esperado": {
+    "punto_ciego": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Tapizado en cuero sintético",
+   "esperado": {
+    "asientos_cuero": null
+   }
+  },
+  {
+   "marca": "FORD",
+   "item": "Capacidad de Tanque de Combustible (L)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Tapizado de cuero Jet Black",
+   "esperado": {
+    "asientos_cuero": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Potencia Máxima",
+   "esperado": {}
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Levas al volante",
+   "esperado": {
+    "levas": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Espejos exteriores color negro",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Tercera luz de stop",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Climatizador táctil automático 1 zona",
+   "esperado": {
+    "climatizador_automatico": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Válvulas por cilindro",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Faros traseros halógenos",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Asientos con tapizado de tela",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Potencia máxima del motor de combustión interna (CV / rpm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Carga útil, con 5 pasajeros mas equipaje (Kg)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Distancia entre ejes (mm)",
+   "esperado": {}
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Display 8\"",
+   "esperado": {
+    "pantalla_multimedia": 8
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Parasol para conductor y pasajero con espejo",
+   "esperado": {}
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Sistema Multimedia VW Play Connect de 10\" Semiflotante",
+   "esperado": {
+    "pantalla_multimedia": 10
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "ISOFIX",
+   "esperado": {
+    "isofix": null
+   }
+  },
+  {
+   "marca": "PEUGEOT",
+   "item": "Climatizador automático",
+   "esperado": {
+    "climatizador_automatico": null
+   }
+  },
+  {
+   "marca": "CHEVROLET",
+   "item": "Válvulas, total",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Intersección de asistencia previa a la colisión",
+   "esperado": {
+    "frenado_autonomo": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Faros principales VW LED",
+   "esperado": {
+    "faros_led": null
+   }
+  },
+  {
+   "marca": "VOLKSWAGEN",
+   "item": "Faros traseros LED",
+   "esperado": {}
+  },
+  {
+   "marca": "FORD",
+   "item": "Bloqueo y desbloqueo remoto de puertas",
+   "esperado": {}
+  }
+ ]
+}

@@ -233,7 +233,17 @@ def main():
         sumas = equipamiento[f"{m}|{f}"].setdefault("suma", {})
         sumas.setdefault(str(orden), {"agrega": [], "mejora": [], "quita": []})[cambio].append(
             item if cambio != "mejora" else [item, antes, despues])
-    tamanios["equipamiento.json"] = escribir("equipamiento.json", equipamiento)
+    # Caracteristicas comunes entre marcas (para comparar modelos lado a lado):
+    # en cada version, id -> 'si' / 'no' / 'opcional' o las pulgadas.
+    for m, f, v, car, tiene, pulg in con.sql("""
+            select marca, familia, version_fuente, caracteristica, tiene, pulgadas
+            from mart_equipamiento_comparable""").fetchall():
+        for ver in equipamiento.get(f"{m}|{f}", {}).get("versiones", []):
+            if ver["nombre"] == v:
+                ver.setdefault("comparable", {})[car] = limpio(pulg) if pulg is not None else tiene
+    caracteristicas = [{"id": i, "nombre": n, "grupo": g, "tipo": t} for i, n, g, t in con.sql(
+        "select id, nombre, grupo, tipo from equipamiento_caracteristicas order by orden").fetchall()]
+    tamanios["equipamiento.json"] = escribir("equipamiento.json", {"caracteristicas": caracteristicas, "familias": equipamiento})
 
     # ---------- oficiales.json ----------
     # Pagina oficial de cada modelo (o de la marca, si su sitio no deja

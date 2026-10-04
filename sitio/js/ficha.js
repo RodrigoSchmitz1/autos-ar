@@ -100,7 +100,8 @@ function sugerir() {
 async function iniciar() {
   let datos;
   let oficiales;
-  [datos, equipamiento, oficiales] = await Promise.all([cargar("fichas.json"), cargar("equipamiento.json").catch(() => ({})),
+  [datos, equipamiento, oficiales] = await Promise.all([cargar("fichas.json"),
+    cargar("equipamiento.json").then((e) => e.familias || {}).catch(() => ({})),
     cargar("oficiales.json").catch(() => ({})), cargarFotos()]);
   await cargarMedios(oficiales);
   fichas = datos.fichas;

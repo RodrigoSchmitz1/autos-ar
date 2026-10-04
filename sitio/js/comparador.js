@@ -1,6 +1,7 @@
 import { calcular, componentes } from "./costo.js";
 import { cargar, objetos, pesos, millones, decimal, el, coincide, pie } from "./comun.js";
 import { cargarFotos, foto } from "./autos.js";
+import { seccionEquipamiento } from "./equipamiento.js";
 
 const COMPONENTES = [
   ["combustible_anual", "Combustible", "--c-combustible"],
@@ -16,7 +17,7 @@ const ESTIMACION = {
 };
 
 const $ = (id) => document.getElementById(id);
-let datos, versiones, elegidas = [];
+let datos, versiones, equipamiento = {}, elegidas = [];
 
 function leerPerfil() {
   return {
@@ -76,6 +77,7 @@ function dibujar() {
       el("td", { class: "num", text: pesos(k.por_km) }), el("td", {}, barra), el("td", {}, quitar)));
   }
   tabla.append(cuerpo);
+  $("equipamiento").replaceChildren(...seccionEquipamiento(filas.map((f) => f.v), equipamiento));
   guardarEnUrl();
 }
 
@@ -100,7 +102,7 @@ function sugerir() {
 }
 
 async function iniciar() {
-  [datos] = await Promise.all([cargar("costo.json"), cargarFotos()]);
+  [datos, equipamiento] = await Promise.all([cargar("costo.json"), cargar("equipamiento.json").catch(() => ({})), cargarFotos()]);
   versiones = objetos(datos.columnas, datos.versiones);
   const sel = $("provincia");
   for (const [id, nombre] of Object.entries(datos.provincias).sort((a, b) => a[1].localeCompare(b[1], "es"))) {

@@ -23,7 +23,9 @@ Dos formatos:
           se lee el texto renglon por renglon ("Control de estabilidad SI SI").
 
 Una fila que no cierra (marcas sueltas que no coinciden con las versiones) se
-descarta y se cuenta, en vez de adivinar a que version va.
+descarta y se cuenta, en vez de adivinar a que version va. Si solo le falta
+alguna celda ("- - X [vacio]"), se guardan las marcas conocidas y la vacia
+queda sin dato.
 
 Salida: datos/raw/equipamiento/<AAAAMMDD>.parquet, con una fila por marca,
 familia, version e item; se escribe solo si el contenido cambio (huella, como
@@ -171,6 +173,10 @@ def expandir(etiqueta, celdas, marcas):
     # Celda combinada: un solo valor en la primera columna vale para todas.
     if len(llenas) == 1 and vals[0] is not None:
         return [(limpio(etiqueta), [vals[0]] * len(vals))], True
+    # Marcas con alguna celda vacia ("- - X [vacio]"): se guardan las marcas conocidas y
+    # el vacio queda sin dato para esa version, en vez de perder la fila entera.
+    if len(llenas) >= 2 and all(es_marca(c, marcas) for c in celdas if limpio(c)):
+        return [(limpio(etiqueta), vals)], True
     # Datos de texto (motor, potencia) con celdas combinadas sobre varias versiones:
     # el vacio vale lo de su izquierda ("2.0L Turbo" para las 4 primeras). Con marcas
     # (X / -) el vacio es ambiguo y la fila se descarta.

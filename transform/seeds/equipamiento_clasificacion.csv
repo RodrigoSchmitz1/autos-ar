@@ -1,0 +1,831 @@
+marca,item,caracteristica,valor_item,metodo
+CHEVROLET,4 parlantes,,,ninguna
+CHEVROLET,"6 Airbags (dos frontales, dos laterales y dos de cortina)",airbags_frontales,,reglas
+CHEVROLET,"6 Airbags (dos frontales, dos laterales y dos de cortina)",airbags_laterales,,reglas
+CHEVROLET,"6 Airbags (dos frontales, dos laterales y dos de cortina)",airbags_cortina,,reglas
+CHEVROLET,"6 airbags (Frontales, laterales y de cortina)",airbags_frontales,,reglas
+CHEVROLET,"6 airbags (Frontales, laterales y de cortina)",airbags_laterales,,reglas
+CHEVROLET,"6 airbags (Frontales, laterales y de cortina)",airbags_cortina,,reglas
+CHEVROLET,6 parlantes,,,ninguna
+CHEVROLET,Aire acondicionado Digital,aire_acondicionado,,reglas
+CHEVROLET,Aire acondicionado digital automático,climatizador_automatico,,reglas
+CHEVROLET,Aire acondicionado manual,aire_acondicionado,,reglas
+CHEVROLET,Alarma Antirrobo,,,ninguna
+CHEVROLET,Alarma antirrobo,,,ninguna
+CHEVROLET,Alerta de Colisión Frontal,,,ninguna
+CHEVROLET,Alerta de Punto Ciego,punto_ciego,,reglas
+CHEVROLET,Alerta de cinturón de seguridad,,,ninguna
+CHEVROLET,Alerón trasero,,,ninguna
+CHEVROLET,"Altura, inlcuyendo barras de techo (mm)",,,ninguna
+CHEVROLET,Ancho - carrocería (mm),,,ninguna
+CHEVROLET,Ancho Total - espejo a espejo (mm),,,ninguna
+CHEVROLET,Antena de techo,,,ninguna
+CHEVROLET,Apoya brazos central,,,ninguna
+CHEVROLET,Apoyacabezas delanteros con ajuste de altura,,,ninguna
+CHEVROLET,Apoyacabezas trasero para 3 pasajeros con ajuste de altura,,,ninguna
+CHEVROLET,"Arranque ""Key less"" sin llave",llave_presencia,,gemini
+CHEVROLET,Asiento de conductor con regulación en altura,,,ninguna
+CHEVROLET,Asiento del conductor regulable en altura (6 dir.),,,ninguna
+CHEVROLET,Asientos traseros bipartido y rebatible,,,ninguna
+CHEVROLET,Asistente de partida en pendiente,arranque_pendiente,,gemini
+CHEVROLET,Asistente de salida en pendiente,arranque_pendiente,,gemini
+CHEVROLET,Aviso sonoro de cinturón de seguridad para asentos delanteros y traseros,,,ninguna
+CHEVROLET,"Azul - ""Some Kinda Blue""",,,ninguna
+CHEVROLET,Batería,,,ninguna
+CHEVROLET,Baúl (litros),,,ninguna
+CHEVROLET,Baúl con compartimento en rueda de auxilio,,,ninguna
+CHEVROLET,"Blanco - ""Summit White""",,,ninguna
+CHEVROLET,Camara de visión trasera HD,camara_trasera,,reglas
+CHEVROLET,"Carga útil, con 5 pasajeros mas equipaje (Kg)",,,ninguna
+CHEVROLET,Cargador Inalámbrico,cargador_inalambrico,,reglas
+CHEVROLET,Cargador inalámbrico,cargador_inalambrico,,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 11"", integración con smartphones a través de Android Auto y Apple CarPlay, Radio AM/FM, función Audio Streaming, Bluetooth para hasta 2 celulares simultaneamente y entrada USB",carplay_android,,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 11"", integración con smartphones a través de Android Auto y Apple CarPlay, Radio AM/FM, función Audio Streaming, Bluetooth para hasta 2 celulares simultaneamente y entrada USB",pantalla_multimedia,11,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 11"", integración con smartphones, BT, Apple CarPlay y Android Auto, Radio AM/FM, Función Audio Streaming",carplay_android,,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 11"", integración con smartphones, BT, Apple CarPlay y Android Auto, Radio AM/FM, Función Audio Streaming",pantalla_multimedia,11,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones a través de Android Auto y Apple CarPlay, Radio AM/FM, función Audio Streaming, Bluetooth para hasta 2 celulares simultaneamente y entrada USB",carplay_android,,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones a través de Android Auto y Apple CarPlay, Radio AM/FM, función Audio Streaming, Bluetooth para hasta 2 celulares simultaneamente y entrada USB",pantalla_multimedia,8,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones, BT, Apple CarPlay y Android Auto, Radio AM/FM, Función Audio Streaming",carplay_android,,reglas
+CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones, BT, Apple CarPlay y Android Auto, Radio AM/FM, Función Audio Streaming",pantalla_multimedia,8,reglas
+CHEVROLET,Cinturón de seguridad de 3 puntos,,,ninguna
+CHEVROLET,Cinturón de seguridad de conductor con ajuste de altura,,,ninguna
+CHEVROLET,Cinturón de seguridad traseros laterales y central de 3 puntos,,,ninguna
+CHEVROLET,Cobertor de baúl,,,ninguna
+CHEVROLET,Coeficiente de penetración aerodinámica (Cx),,,ninguna
+CHEVROLET,Columna de dirección ajustable en altura y profundidad,,,ninguna
+CHEVROLET,Columna de dirección regulable en altura y profundidad,,,ninguna
+CHEVROLET,Computadora de a bordo,,,ninguna
+CHEVROLET,Con 2ª fila de asientos rebatida (litros),,,ninguna
+CHEVROLET,Control Crucero,crucero,,reglas
+CHEVROLET,Control de Estabilidad Eléctirco (ESC),control_estabilidad,,reglas
+CHEVROLET,Control de velocidad crucero,crucero,,reglas
+CHEVROLET,Control electrónico de estabilidad y tracción (ESC),control_estabilidad,,reglas
+CHEVROLET,Cámara de visión trasera HD,camara_trasera,,reglas
+CHEVROLET,DRL Halógeno,luces_diurnas,,reglas
+CHEVROLET,DRL LED,luces_diurnas,,reglas
+CHEVROLET,Desempañador vidrio trasero,,,ninguna
+CHEVROLET,Dirección progresiva eléctrica,,,ninguna
+CHEVROLET,"Display 3,5""",pantalla_multimedia,3.5,reglas
+CHEVROLET,"Display 8""",pantalla_multimedia,8,reglas
+CHEVROLET,Distancia entre ejes (mm),,,ninguna
+CHEVROLET,Easy Entry - Apertura de puertas con sistema de aproximación de llave,llave_presencia,,gemini
+CHEVROLET,Easy Entry - Apertura de puertas y alarma antirobo a través de sensor de presencia,llave_presencia,,gemini
+CHEVROLET,Easy Park - Sistema de Estacionamento Semi-Automático,estacionamiento_asistido,,gemini
+CHEVROLET,Easy Park - Sistema de Estacionamiento Semi-Automático,estacionamiento_asistido,,gemini
+CHEVROLET,Easy Start - Arranque por botón,arranque_boton,,reglas
+CHEVROLET,Encendido automático de faros con sensor crepuscular,luces_automaticas,,reglas
+CHEVROLET,Encendido de luces automático con sensor crepuscular,luces_automaticas,,reglas
+CHEVROLET,Encendido remoto a través de app My Chevrolet,conectividad_remota,,reglas
+CHEVROLET,Encendido remoto a través de la app MyChevrolet,conectividad_remota,,reglas
+CHEVROLET,Entrada USB Tipo A y C,,,ninguna
+CHEVROLET,Espejo retrovisor interno fotocromatico,espejo_electrocromico,,reglas
+CHEVROLET,Espejos externos color carroceria electricos rebatibles manualmente,espejos_rebatibles,,reglas
+CHEVROLET,Espejos retrovisores externos eléctricos color Carrocería,,,ninguna
+CHEVROLET,Espejos retrovisores externos eléctricos color Carrocería con luz de giro,,,ninguna
+CHEVROLET,Faros Traseros Halógenos,,,ninguna
+CHEVROLET,Faros Traseros LED,,,ninguna
+CHEVROLET,Faros con regulación en altura manual,,,ninguna
+CHEVROLET,Faros delanteros Anti-Niebla,faros_antiniebla,,gemini
+CHEVROLET,Faros delanteros LED,faros_led,,reglas
+CHEVROLET,Faros delanteros LED + DRL LED,faros_led,,reglas
+CHEVROLET,Faros delanteros LED + DRL LED,luces_diurnas,,reglas
+CHEVROLET,Faros delanteros de halógeno,,,ninguna
+CHEVROLET,Follow Me Home,,,ninguna
+CHEVROLET,Frenado autónomo de emergencia a bajas vel.,frenado_autonomo,,reglas
+CHEVROLET,Freno de mano cromado,,,ninguna
+CHEVROLET,"Frenos ABS, sistema de distribución de frenado (""EBD"")",,,ninguna
+CHEVROLET,Frenos delanteros,,,ninguna
+CHEVROLET,Frenos traseros,,,ninguna
+CHEVROLET,"Gris - ""Rush Met""",,,ninguna
+CHEVROLET,ISOFIX,isofix,,reglas
+CHEVROLET,Indicador de distancia de vehículo de frente,,,ninguna
+CHEVROLET,Indicador de nivel de vida de aceite,,,ninguna
+CHEVROLET,Indicador de presión de neumáticos,presion_neumaticos,,reglas
+CHEVROLET,Indicador de punto ciego,punto_ciego,,reglas
+CHEVROLET,Indicador del nivel de aceite,,,ninguna
+CHEVROLET,Injeccion eletronica de combustible,,,ninguna
+CHEVROLET,Insignia Chevrolet en Negro exclusivo RS,,,ninguna
+CHEVROLET,Inyección eléctrica de combustible,,,ninguna
+CHEVROLET,Lampara interior de baúl,,,ninguna
+CHEVROLET,Lampara interior delantera de techo,,,ninguna
+CHEVROLET,Lampara interior delantera de techo dual,,,ninguna
+CHEVROLET,Limitador de Velocidad,limitador_velocidad,,reglas
+CHEVROLET,Limitador de velocidad,limitador_velocidad,,reglas
+CHEVROLET,"Limpiaparabrisas con Sensor de lluvia, con ajuste automático de intensidad",sensor_lluvia,,reglas
+CHEVROLET,"Llantas de acero High Vent 15""",llantas,15,reglas
+CHEVROLET,"Llantas de acero High Vent 17""",llantas,17,reglas
+CHEVROLET,"Llantas de aleación 16""",llantas_aleacion,,reglas
+CHEVROLET,"Llantas de aleación 16""",llantas,16,reglas
+CHEVROLET,"Llantas de aleación 16"" exclusivas RS",llantas_aleacion,,reglas
+CHEVROLET,"Llantas de aleación 16"" exclusivas RS",llantas,16,reglas
+CHEVROLET,"Llantas de aluminio 17""",llantas,17,reglas
+CHEVROLET,"Llantas de aluminio 17"" diseño exclusivo RS",llantas,17,reglas
+CHEVROLET,"Llantas de aluminio 17"" oscurecidas",llantas,17,reglas
+CHEVROLET,Llave con sensor de aproximación,llave_presencia,,gemini
+CHEVROLET,Longitud Total (mm),,,ninguna
+CHEVROLET,Luces de Freno,,,ninguna
+CHEVROLET,Luces traseras LED,,,ninguna
+CHEVROLET,Luz de cortesía en baúl,,,ninguna
+CHEVROLET,Luz de stop,,,ninguna
+CHEVROLET,Luz interior de techo trasera,,,ninguna
+CHEVROLET,Luz interna de techo delantera,,,ninguna
+CHEVROLET,Manijas externas color carroceria,,,ninguna
+CHEVROLET,Manijas externas color carroceria con detalle cromado,,,ninguna
+CHEVROLET,Manijas externas color carrocería,,,ninguna
+CHEVROLET,Manijas externas color carrocería con detalles cromados,,,ninguna
+CHEVROLET,Manijas interiores delanteras,,,ninguna
+CHEVROLET,Manijas interiores traseras,,,ninguna
+CHEVROLET,Moldura vidrios laterales cromada,,,ninguna
+CHEVROLET,"Negro - ""Black Meet Kettle""",,,ninguna
+CHEVROLET,Neumáticos,,,ninguna
+CHEVROLET,Número de cilindros,,,ninguna
+CHEVROLET,OnStar,conectividad_remota,,reglas
+CHEVROLET,Onstar + wifi,conectividad_remota,,reglas
+CHEVROLET,"Panel de instrumentos 3,5"" digital",,,ninguna
+CHEVROLET,"Panel de instrumentos 8"" digital",tablero_digital,8,reglas
+CHEVROLET,Paragolpes color carrocería,,,ninguna
+CHEVROLET,Parasol para conductor y acompañante con espejo,,,ninguna
+CHEVROLET,"Parasol para conductor y acompañante con espejo, con iluminación",,,ninguna
+CHEVROLET,Parasol para conductor y pasajero con espejo,,,ninguna
+CHEVROLET,Parrilla cromada,,,ninguna
+CHEVROLET,Parrilla delantera cromada,,,ninguna
+CHEVROLET,Parrilla delantera negro cromado Black Chrome exclusivo RS,,,ninguna
+CHEVROLET,Parrilla negra oscurecida Black High Gloss exclusivo RS,,,ninguna
+CHEVROLET,Peso en orden de marcha (Kg),,,ninguna
+CHEVROLET,"Plata - ""Sharkskin""",,,ninguna
+CHEVROLET,Porta revistas en parte trasera de asiento de acompañante,,,ninguna
+CHEVROLET,Portarevistas en asiento del pasajero,,,ninguna
+CHEVROLET,Potencia Máxima,,,ninguna
+CHEVROLET,Potencia Máxima Líquida (ABNT NBR 5484/ISO 1585 Líquida o SAE bruta),,,ninguna
+CHEVROLET,Proyección Inalámbrica,carplay_inalambrico,,gemini
+CHEVROLET,Proyeccón inalámbrica,carplay_inalambrico,,gemini
+CHEVROLET,Puerto de carga USB Tipo A y C Traseros,usb_traseros,,reglas
+CHEVROLET,Rack de Techo en color negro,barras_techo,,reglas
+CHEVROLET,Rack de Techo en color plata,barras_techo,,reglas
+CHEVROLET,"Rojo - ""Jinx""",,,ninguna
+CHEVROLET,"Sensor de estacionamiento delantero, lateral y trasero",sensores_traseros,,reglas
+CHEVROLET,"Sensor de estacionamiento delantero, lateral y trasero",sensores_delanteros,,reglas
+CHEVROLET,Sensor de estacionamiento trasero,sensores_traseros,,reglas
+CHEVROLET,Sensor de estacionamiento trasero & delantero,sensores_traseros,,reglas
+CHEVROLET,Sensor de estacionamiento trasero & delantero,sensores_delanteros,,reglas
+CHEVROLET,Sistema de Frenos,,,ninguna
+CHEVROLET,Sistema de audio de 4 parlantes,,,ninguna
+CHEVROLET,Sistema de audio de 6 parlantes,,,ninguna
+CHEVROLET,Sistema de frenos,,,ninguna
+CHEVROLET,"Sistema de frenos ABS y distribución de frenado electrónica (""EBD"")",,,ninguna
+CHEVROLET,Suspensión delantera,,,ninguna
+CHEVROLET,Suspensión trasera,,,ninguna
+CHEVROLET,Tanque de combustible (litros),,,ninguna
+CHEVROLET,Tapizado de cuero Jet Black,asientos_cuero,,reglas
+CHEVROLET,Tapizado de cuero en color negro combinado con rojo exclusivo RS,asientos_cuero,,reglas
+CHEVROLET,"Tapizado de cuero en colores Negro ""Jet Black"" y Marrón ""Dark Cocoa""",asientos_cuero,,reglas
+CHEVROLET,Tapizado de tela Jet Black,,,ninguna
+CHEVROLET,Tapizado en cuero bitono Jet Black/Dark Adriatic,asientos_cuero,,reglas
+CHEVROLET,Tapizado en cuero bitono Jet Black/Dark Adriatic,techo_bitono,,reglas
+CHEVROLET,Tapizado en tela color Jet Black,,,ninguna
+CHEVROLET,"Tapizado hibrido, tela y cuero exclusivo RS",asientos_cuero,,reglas
+CHEVROLET,Tapizado híbrido tela y cuero,asientos_cuero,,reglas
+CHEVROLET,Tasa de compresion,,,ninguna
+CHEVROLET,Tasa de compresión,,,ninguna
+CHEVROLET,Techo solar eléctrico panorámico,techo_solar,,reglas
+CHEVROLET,Tipo,,,ninguna
+CHEVROLET,Tipo de dirección,,,ninguna
+CHEVROLET,Tipo de transmisión,,,ninguna
+CHEVROLET,Toma corriente de 12V en la consola central,,,ninguna
+CHEVROLET,Torque Máximo,,,ninguna
+CHEVROLET,Torque Máximo Líquido (ABNT NBR 5484/ISO 1585 Líquida o SAE bruta),,,ninguna
+CHEVROLET,Traba de seguridad en puertas traseras,,,ninguna
+CHEVROLET,Traba eléctrica de tapa de combustible,,,ninguna
+CHEVROLET,Transmisión,,,ninguna
+CHEVROLET,"Transmisión automática de seis velocidades con opción de cambio manual de marchas ""Active Select""",,,ninguna
+CHEVROLET,"Vidrio eléctrico en puertas delanteras y traseras con acción ""One Touch"", y cierre/apertura automático con llave",pantalla_multimedia,,reglas
+CHEVROLET,Volante de 3 rayos,,,ninguna
+CHEVROLET,Volante deportivo de ecocuero de 3 rayos,volante_cuero,,reglas
+CHEVROLET,Volante multifunción,,,ninguna
+CHEVROLET,Volante multifunción de 3 rayos,,,ninguna
+CHEVROLET,Volante multifunción de 3 rayos deportivo de ecocuero,volante_cuero,,reglas
+CHEVROLET,"Válvulas, total",,,ninguna
+CHEVROLET,Wi-Fi Nativo,,,ninguna
+FORD,- Alto (mm),,,ninguna
+FORD,- Volumen (m3),,,ninguna
+FORD,-Ancho (mm),,,ninguna
+FORD,-Ancho entre buches (mm),,,ninguna
+FORD,1 fila de entrada USB (tipo A + tipo C),,,ninguna
+FORD,2 filas de entradas USB (2 tipo A + 2 tipo C),usb_traseros,,gemini
+FORD,"7 Airbags (frontales (conductor y acompañante), rodilla conductor, laterales tórax y cortina)",airbags_frontales,,reglas
+FORD,"7 Airbags (frontales (conductor y acompañante), rodilla conductor, laterales tórax y cortina)",airbags_laterales,,reglas
+FORD,"7 Airbags (frontales (conductor y acompañante), rodilla conductor, laterales tórax y cortina)",airbags_cortina,,reglas
+FORD,"7 Airbags (frontales (conductor y acompañante), rodilla conductor, laterales tórax y cortina)",airbag_rodilla,,reglas
+FORD,ABS y EBD en las 4 ruedas,,,ninguna
+FORD,"ABS, EBD (electronic brake distribution) y EBA",,,ninguna
+FORD,Advertencia de salida de puertas,,,ninguna
+FORD,Airbags delanteros para conductor y acompañante,airbags_frontales,,reglas
+FORD,Airbags laterales de tórax en asientos delanteros,airbags_laterales,,reglas
+FORD,Airbags laterales tipo cortina,airbags_cortina,,reglas
+FORD,Aire acondicionado digital,aire_acondicionado,,reglas
+FORD,Alarma perimetral,,,ninguna
+FORD,Alarma volumétrica,,,ninguna
+FORD,Alerta de bocina & luces,,,ninguna
+FORD,Alerta de bocina y luces,,,ninguna
+FORD,Alerta de cinturón de seguridad visual y sonora (conductor y acompañante),,,ninguna
+FORD,Alerta de pre-colisión frontal,frenado_autonomo,,reglas
+FORD,Alerta de pre-colisión trasera,frenado_autonomo,,reglas
+FORD,Alto (descargado - sin barras portaequipajes),,,ninguna
+FORD,Altura (mm,,,ninguna
+FORD,Ancho total (con espejos) (mm),,,ninguna
+FORD,Ancho total (sin espejos) (mm),,,ninguna
+FORD,Ancho total con espejos / sin espejos (mm),,,ninguna
+FORD,Anclajes para sillas de bebé ISOFIX® en asientos traseros,isofix,,reglas
+FORD,Apertura & cierre de portón trasero eléctrico con función manos libres,porton_electrico,,reglas
+FORD,"Apertura de puertas ""sin llave""",llave_presencia,,reglas
+FORD,Apertura y cierre centralizado de puertas con comando a distancia,,,ninguna
+FORD,Aplique Platinum en portón trasero y capot,,,ninguna
+FORD,Aplique Titanium en portón trasero,,,ninguna
+FORD,Apoyabrazos central trasero,,,ninguna
+FORD,Apoyabrazos delantero frontal con guarda objetos,,,ninguna
+FORD,Apoyabrazos trasero con posa vasos,,,ninguna
+FORD,Apoyacabezas regulables en altura,,,ninguna
+FORD,Asiento conductor c/ajuste eléctrico en 8 direcciones,asiento_electrico,,reglas
+FORD,Asiento conductor c/ajuste manual en 6 direcciones,,,ninguna
+FORD,Asiento del acompañante con regulación eléctrica de 4 posiciones,asiento_electrico,,reglas
+FORD,Asiento del acompañante con regulación manual de 4 posiciones,,,ninguna
+FORD,Asiento del conductor con regulación eléctrica de 10 posiciones incluyendo ajuste lumbar,asiento_electrico,,reglas
+FORD,Asiento del conductor con regulación eléctrica de 6 posiciones,asiento_electrico,,reglas
+FORD,Asiento del conductor con regulación manual de 6 posiciones,,,ninguna
+FORD,Asientos con tapizado combinado de tela y cuero ecologico,asientos_cuero,,reglas
+FORD,Asientos con tapizado de cuero ecológico,asientos_cuero,,reglas
+FORD,Asientos con tapizado de tela,,,ninguna
+FORD,Asientos traseros rebatibles 60/40,,,ninguna
+FORD,Asistencia electrónica al frenado de emergencia (EBA),,,ninguna
+FORD,Asistente al arranque en pendiente (HLA),arranque_pendiente,,reglas
+FORD,Asistente de descenso en pendiente (HDC),,,ninguna
+FORD,Asistente de dirección evasiva,,,ninguna
+FORD,Asistente de frenado en reversa,,,ninguna
+FORD,Asistente de partida en pendientes (HLA),arranque_pendiente,,reglas
+FORD,Asistente de pre-colisión con detección de peatones y vehículos,frenado_autonomo,,reglas
+FORD,Asistente de pre-colisión con frenado autónomo de emergencia,frenado_autonomo,,reglas
+FORD,Asistente y luces de frenada de emergencia (EBA) (EBL),,,ninguna
+FORD,Aviso de cinturones de seguridad delanteros y traseros desconectados,,,ninguna
+FORD,Barra Deportiva San Antonio gris oscuro,,,ninguna
+FORD,Barra central de parrilla iluminada LED,,,ninguna
+FORD,"Barra de remolque, con kit eléctrico",,,ninguna
+FORD,Barra deportiva San Antonio,,,ninguna
+FORD,Barra portaequipajes en techo,barras_techo,,reglas
+FORD,Barra portaequipajes laterales en caja,,,ninguna
+FORD,Barras de techo longitudinales de color gris satinado,barras_techo,,reglas
+FORD,Barras de techo longitudinales de color negro,barras_techo,,reglas
+FORD,Bloqueo y desbloqueo remoto de puertas,,,ninguna
+FORD,Caja de carga: -Largo (mm),,,ninguna
+FORD,Capacidad de Tanque de Combustible (L),,,ninguna
+FORD,Capacidad de batería iones de litio (kWh),,,ninguna
+FORD,Capacidad de baúl (L),,,ninguna
+FORD,Capacidad de carga (Kg),,,ninguna
+FORD,Capacidad de carga en techo (dinámico) (Kg),,,ninguna
+FORD,Capacidad de carga en techo (estático) (Kg),,,ninguna
+FORD,Capacidad de inmersión a 7 km/h (mm),,,ninguna
+FORD,Capacidad de trailer (Kg),,,ninguna
+FORD,Capacidad tanque de combustible (L),,,ninguna
+FORD,Cargador inalámbrico,cargador_inalambrico,,reglas
+FORD,Cargador inalámbrico de smartphone,cargador_inalambrico,,reglas
+FORD,Cierre centralizado en portón de caja,,,ninguna
+FORD,Cierre con cerradura en portón de caja,,,ninguna
+FORD,Cierre/apertura global remoto de puertas,,,ninguna
+FORD,Cilindros,,,ninguna
+FORD,"Cinturones de seguridad delanteros ajust. en altura, incerciales de 3 puntos con pretensores",,,ninguna
+FORD,Cinturones de seguridad traseros (3) inerciales de 3 puntos,,,ninguna
+FORD,Climatizador automático bi-zona con salida de aire para plazas traseras,climatizador_bizona,,reglas
+FORD,Climatizador automático bi-zona con salida de aire para plazas traseras,salidas_aire_traseras,,reglas
+FORD,Climatizador automático digital bi-zona con salida en plazas traseras,climatizador_automatico,,reglas
+FORD,Climatizador automático digital bi-zona con salida en plazas traseras,climatizador_bizona,,reglas
+FORD,Climatizador automático digital bi-zona con salida en plazas traseras,salidas_aire_traseras,,reglas
+FORD,Climatizador con salida de aire para plazas traseras,salidas_aire_traseras,,reglas
+FORD,Cobertor de caja,,,ninguna
+FORD,Columna de dirección ajustable en altura y profundidad,,,ninguna
+FORD,Columna de dirección colapsable y barras de protección contra impactos en puertas,,,ninguna
+FORD,Combustible,,,ninguna
+FORD,"Conexión auxiliar para equipos portátiles MP3, Bluetooth® y USB",,,ninguna
+FORD,Conexión inalámbrica compatible con Android Auto y Apple CarPlay,carplay_android,,reglas
+FORD,Conexión inalámbrica compatible con Android Auto y Apple CarPlay,carplay_inalambrico,,reglas
+FORD,Configuración,,,ninguna
+FORD,Consola de techo con luces interiores,,,ninguna
+FORD,Control automático de luces altas,luces_altas_automaticas,,gemini
+FORD,Control de balanceo de trailer (TSM) y control de carga adaptativo (LAC),,,ninguna
+FORD,"Control de estabilidad (ESP), control de tracción (TCS) y control anti-vuelco (ROM)",control_estabilidad,,reglas
+FORD,Control de tracción (TCS),,,ninguna
+FORD,Control de velocidad crucero,crucero,,reglas
+FORD,Control de velocidad crucero adaptativo (ACC) con Stop & Go y centrado de carril,crucero_adaptativo,,reglas
+FORD,Control de velocidad crucero adaptativo (ACC) con Stop & Go y centrado de carril,mantenimiento_carril,,reglas
+FORD,"Control de velocidad crucero adaptativo con sistema ""Stop & Go""",crucero_adaptativo,,reglas
+FORD,Control de velocidad crucero con comandos en el volante,crucero,,reglas
+FORD,Control electrónico de descenso (HDC),,,ninguna
+FORD,Control electrónico de estabilidad (ESP),control_estabilidad,,reglas
+FORD,Control electrónico de estabilidad (ESP) con control de Tracción (TCS),control_estabilidad,,reglas
+FORD,Control por voz para dispositivos,,,ninguna
+FORD,Controles de audio y teléfono en el volante,,,ninguna
+FORD,Cubre cárter,,,ninguna
+FORD,Cámara de estacionamiento 360°,camara_360,,reglas
+FORD,Cámara de estacionamiento trasera,camara_trasera,,reglas
+FORD,Delanteros,,,ninguna
+FORD,Desempañador trasero,,,ninguna
+FORD,Despeje mínimo del suelo (mm),,,ninguna
+FORD,Dirección asistida electrónica (EPAS),,,ninguna
+FORD,Dirección asistida eléctrica (EPAS),,,ninguna
+FORD,Distancia entre ejes (mm),,,ninguna
+FORD,Distribución electrónica de frenado (EBD),,,ninguna
+FORD,Doble gancho de rescate delantero,,,ninguna
+FORD,Encendido automático de luces,luces_automaticas,,reglas
+FORD,Encendido de motor remoto,conectividad_remota,,gemini
+FORD,Encendido remoto,conectividad_remota,,gemini
+FORD,Encendido remoto programado,conectividad_remota,,gemini
+FORD,Entrada remota sin llave,,,ninguna
+FORD,Entradas USB Tipo A y Tipo C,,,ninguna
+FORD,Escalón lateral en caja de carga,,,ninguna
+FORD,Espejo retrovisor fotocromático,espejo_electrocromico,,reglas
+FORD,Espejo retrovisor interior fotocromático,espejo_electrocromico,,reglas
+FORD,Espejos exteriores c/comando eléctrico y c/luz de giro,,,ninguna
+FORD,"Espejos exteriores color carrocería, con luz de giro incorporada",,,ninguna
+FORD,"Espejos exteriores color gris oscuro, parrilla y manijas de puerta color carroceria y manija de portón color negro",,,ninguna
+FORD,"Espejos exteriores eléctricos, color carrocería, con luz de giro incorporada, rebatibles eléctricamente y luz de charco",espejos_rebatibles,,reglas
+FORD,"Espejos exteriores eléctricos, color negro, con luz de giro incorporada, rebatibles eléctricamente y luz de charco",espejos_rebatibles,,reglas
+FORD,Espejos exteriores plegables electricos,espejos_rebatibles,,reglas
+FORD,"Espejos exteriores, parrilla y manijas de puerta color carrocería, manija de portón color negro",,,ninguna
+FORD,"Espejos exteriores, parrilla y manijas de puerta cromados, manija de portón color negro",,,ninguna
+FORD,"Espejos exteriores, parrilla, manijas de puerta y portón color negro",,,ninguna
+FORD,Estado general del vehículo con alertas,,,ninguna
+FORD,Estribos color negro,,,ninguna
+FORD,Faros antiniebla LED,faros_antiniebla,,reglas
+FORD,Faros antiniebla halógenos,faros_antiniebla,,reglas
+FORD,Faros delanteros LED,faros_led,,reglas
+FORD,Faros delanteros con tecnología full LED y nivelación de altura,faros_led,,reglas
+FORD,Faros delanteros halógenos,,,ninguna
+FORD,Faros traseros LED,,,manual
+FORD,Faros traseros halógenos,,,ninguna
+FORD,"Freno de mano eléctrico con función ""Auto-Hold""",freno_mano_electrico,,reglas
+FORD,Frenos a disco en las cuatro ruedas (Delanteros ventilados / Traseros sólidos),,,ninguna
+FORD,Gancho delantero de rescate,,,ninguna
+FORD,Ganchos para sujeción de carga (interior),,,ninguna
+FORD,Iluminación de caja de carga,,,ninguna
+FORD,"Información de autonomía, odómetro y localizacion en tiempo real",conectividad_remota,,gemini
+FORD,"Información de autonomía, odómetro y localización en tiempo real",conectividad_remota,,gemini
+FORD,Inmovilizador de motor,,,ninguna
+FORD,Interior Black,,,ninguna
+FORD,Intersección de asistencia previa a la colisión,frenado_autonomo,,reglas
+FORD,Inyección de Combustible,,,ninguna
+FORD,Largo (mm),,,ninguna
+FORD,Largo total (mm),,,ninguna
+FORD,"Levantacristales eléctricos con sistema ""One Touch"" para conductor y pasajeros",pantalla_multimedia,,reglas
+FORD,"Levantavidrios eléctricos ""un toque"" delanteros y traseros",,,ninguna
+FORD,Limitador de velocidad,limitador_velocidad,,reglas
+FORD,Limpiaparabrisas con sensor de lluvia,sensor_lluvia,,reglas
+FORD,"Llantas de acero de 16""",llantas,16,reglas
+FORD,"Llantas de aleación de 17""",llantas_aleacion,,reglas
+FORD,"Llantas de aleación de 17""",llantas,17,reglas
+FORD,"Llantas de aleación de 18""",llantas_aleacion,,reglas
+FORD,"Llantas de aleación de 18""",llantas,18,reglas
+FORD,"Llantas de aleación de 19""",llantas_aleacion,,reglas
+FORD,"Llantas de aleación de 19""",llantas,19,reglas
+FORD,"Llantas de aleación de 20""",llantas_aleacion,,reglas
+FORD,"Llantas de aleación de 20""",llantas,20,reglas
+FORD,Luces altas automáticas,luces_altas_automaticas,,reglas
+FORD,Luces diurnas con tecnología LED,luces_diurnas,,reglas
+FORD,Luces diurnas de LED (DTRL),luces_diurnas,,reglas
+FORD,Luces diurnas halógenas,luces_diurnas,,reglas
+FORD,Luz de ambiente interior LED de color seleccionable,,,ninguna
+FORD,Luz trasera con tecnología LED,,,ninguna
+FORD,Manijas de puertas color carrocería,,,ninguna
+FORD,Manijas de puertas cromadas,,,ninguna
+FORD,Marca / Modelo,,,ninguna
+FORD,Modelo,,,ninguna
+FORD,Modos de dirección seleccionables,,,ninguna
+FORD,Modos de manejo seleccionables,,,ninguna
+FORD,Motor,,,ninguna
+FORD,Neumáticos,,,ninguna
+FORD,Nivelación de faros manual desde el interior,,,ninguna
+FORD,"Panel de instrumentos digital color de 8""",tablero_digital,8,reglas
+FORD,Panel de instrumentos digital full LED,tablero_digital,,reglas
+FORD,Pantalla todoterreno,pantalla_multimedia,,reglas
+FORD,Paragolpe trasero color gris oscuro,,,ninguna
+FORD,Paragolpe trasero color gris satinado,,,ninguna
+FORD,Paragolpe trasero color negro,,,ninguna
+FORD,Paragolpe trasero cromado,,,ninguna
+FORD,Paragolpes frontal color carrocería,,,ninguna
+FORD,Paragolpes trasero color carrocería,,,ninguna
+FORD,Parrilla con barra transversal color gris oscuro,,,ninguna
+FORD,Parrilla con barra transversal color gris satinado,,,ninguna
+FORD,Parrilla con barra transversal color negro,,,ninguna
+FORD,Parrilla con barra transversal cromada,,,ninguna
+FORD,Peso Bruto Total (Kg),,,ninguna
+FORD,Peso bruto total (Kg),,,ninguna
+FORD,Peso en orden de marcha (Kg),,,ninguna
+FORD,Peso en orden de marcha (kg),,,ninguna
+FORD,Plazas delanteras calefaccionadas y refrigeradas,asientos_calefaccionados,,gemini
+FORD,Portón de caja con asistencia,,,ninguna
+FORD,Potencia máxima combinada (CV / rpm),,,ninguna
+FORD,Potencia máxima del motor de combustión interna (CV / rpm),,,ninguna
+FORD,Potencia máxima del motor electrico (CV / rpm),,,ninguna
+FORD,Protector de la caja de transferencia,,,ninguna
+FORD,Protector del tanque de combustible,,,ninguna
+FORD,Puntos de anclaje en el portón trasero,,,ninguna
+FORD,Relación de compresión,,,ninguna
+FORD,Reserva de turnos de servicios en línea con Pickup & Delivery,,,ninguna
+FORD,Reserva de turnos de servicios en línea con Pickup and Delivery,,,ninguna
+FORD,Rueda de auxilio temporal,,,ninguna
+FORD,"Selector de transmisión ""E-Shifter""",,,ninguna
+FORD,"Selector de transmisión ""Rotary Shifter""",,,ninguna
+FORD,Sensores de estacionamiento delanteros,sensores_delanteros,,reglas
+FORD,Sensores de estacionamiento traseros,sensores_traseros,,reglas
+FORD,Sistema antibloqueo de frenos (ABS),,,ninguna
+FORD,Sistema de Información de punto ciego (BLIS) con alerta de tráfico cruzado,punto_ciego,,reglas
+FORD,Sistema de Información de punto ciego (BLIS) con alerta de tráfico cruzado,trafico_cruzado,,reglas
+FORD,Sistema de anclajes ISOFIX,isofix,,reglas
+FORD,Sistema de audio con 4 parlantes,,,ninguna
+FORD,Sistema de audio con 6 parlantes,,,ninguna
+FORD,Sistema de audio con controles al volante y 6 parlantes,,,ninguna
+FORD,Sistema de audio con controles al volante y 8 parlantes,,,ninguna
+FORD,Sistema de audio premium con controles al volante y 10 parlantes con subwoofer,audio_premium,,reglas
+FORD,Sistema de centrado de carril,mantenimiento_carril,,reglas
+FORD,Sistema de control de estabilidad al rolido (RSC),control_estabilidad,,reglas
+FORD,Sistema de gestión de terrenos (3 modos),,,ninguna
+FORD,Sistema de gestión de terrenos (4 modos),,,ninguna
+FORD,Sistema de gestión de terrenos (6 modos),,,ninguna
+FORD,Sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado,punto_ciego,,reglas
+FORD,Sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado,trafico_cruzado,,reglas
+FORD,"Sistema de luces de acompañamiento ""Follow me Home""",,,ninguna
+FORD,Sistema de mantenimiento de carril,mantenimiento_carril,,reglas
+FORD,Sistema de mantenimiento de carril (Lane Keeping Aid),mantenimiento_carril,,reglas
+FORD,Sistema de monitoreo de presión de neumáticos,presion_neumaticos,,reglas
+FORD,"Sistema multimedia SYNC Touch con pantalla Multi-Táctil de 12,3"", control por voz, Bluetooth y puertos USB",pantalla_multimedia,12.3,reglas
+FORD,"Sync 4 con pantalla multitáctil de 10"" compatible con Android Auto® y Apple Car Play® inalámbrico",carplay_android,,reglas
+FORD,"Sync 4 con pantalla multitáctil de 10"" compatible con Android Auto® y Apple Car Play® inalámbrico",carplay_inalambrico,,reglas
+FORD,"Sync 4 con pantalla multitáctil de 10"" compatible con Android Auto® y Apple Car Play® inalámbrico",pantalla_multimedia,10,reglas
+FORD,"Sync 4 con pantalla multitáctil de 12"" compatible con Android Auto® y Apple Car Play® inalámbrico",carplay_android,,reglas
+FORD,"Sync 4 con pantalla multitáctil de 12"" compatible con Android Auto® y Apple Car Play® inalámbrico",carplay_inalambrico,,reglas
+FORD,"Sync 4 con pantalla multitáctil de 12"" compatible con Android Auto® y Apple Car Play® inalámbrico",pantalla_multimedia,12,reglas
+FORD,Tapizado de asientos de eco-cuero,asientos_cuero,,reglas
+FORD,Tapizado de asientos en cuero micro-perforado de diseño exclusivo Platinum en tono claro,asientos_cuero,,reglas
+FORD,Tapizado de asientos en cuero micro-perforado en tono oscuro,asientos_cuero,,reglas
+FORD,Tapizado de asientos en tela,,,ninguna
+FORD,Techo pintado en negro (bi-tono),techo_bitono,,reglas
+FORD,Techo solar panorámico con apertura y cierre eléctrico,techo_solar,,reglas
+FORD,Tecnología Auto Start/Stop,,,ninguna
+FORD,"Tecnología arranque sin llave ""Ford Power""",arranque_boton,,reglas
+FORD,Tercer cinturón inercial trasero,,,ninguna
+FORD,Tipo / Velocidades,,,ninguna
+FORD,Torque (Nm / rpm),,,ninguna
+FORD,Torque maximo combinado (Nm / rpm),,,ninguna
+FORD,Torque máximo motor de combustión interna (Nm / rpm),,,ninguna
+FORD,Torque máximo motor electrico (Nm / rpm),,,ninguna
+FORD,Tracción,traccion_4x4,,reglas
+FORD,Transmisión,,,ninguna
+FORD,Trasera,,,ninguna
+FORD,Traseros,,,ninguna
+FORD,Versión,,,ninguna
+FORD,Volante forrado en cuero,volante_cuero,,reglas
+FORD,"Volante multifunción con comandos de audio, computadora de abordo y teléfono",,,ninguna
+FORD,"Volante multifunción forrado en cuero equipado con comandos de audio, computadora de abordo y teléfono",volante_cuero,,reglas
+FORD,Volante multifunción regulable en altura y profundidad,,,ninguna
+FORD,Válvulas,,,ninguna
+FORD,Zocalo interior con logo Platinum,,,ninguna
+FORD,Ángulo de ataque,,,ninguna
+FORD,Ángulo de salida,,,ninguna
+FORD,Ángulo ventral,,,ninguna
+PEUGEOT,Airbags de cortina,airbags_cortina,,reglas
+PEUGEOT,Airbags frontales conductor y pasajero,airbags_frontales,,reglas
+PEUGEOT,Airbags laterales delanteros,airbags_laterales,,reglas
+PEUGEOT,Alarma Antirrobo Perimetral,,,ninguna
+PEUGEOT,Alerta de cambio de carril (LKA),mantenimiento_carril,,gemini
+PEUGEOT,Alerta de riesgo de colisión,,,ninguna
+PEUGEOT,Alerta de subinflado de neumatico iTPMS,presion_neumaticos,,gemini
+PEUGEOT,Alerón en portón trasero,,,ninguna
+PEUGEOT,Asiento conductor con regulación en altura,,,ninguna
+PEUGEOT,Asistencia al mantenimiento de carril,mantenimiento_carril,,reglas
+PEUGEOT,Ayuda al arranque en pendiente,arranque_pendiente,,reglas
+PEUGEOT,Barras de techo longitudinales,barras_techo,,reglas
+PEUGEOT,Cargador inductivo de smartphones,cargador_inalambrico,,reglas
+PEUGEOT,Climatizador automático,climatizador_automatico,,reglas
+PEUGEOT,Columna de dirección regulable en altura y profundidad,,,ninguna
+PEUGEOT,Control de Estabilidad (ESP) y de Tracción (ASR),control_estabilidad,,reglas
+PEUGEOT,Control de crucero y limitador de velocidad,crucero,,reglas
+PEUGEOT,Control de crucero y limitador de velocidad,limitador_velocidad,,reglas
+PEUGEOT,Costuras de interior en Verde GT,,,ninguna
+PEUGEOT,Dirección Asistida Eléctrica Variable,,,ninguna
+PEUGEOT,Encendido de luces automático,luces_automaticas,,reglas
+PEUGEOT,Espejos exteriores con plegado eléctrico,espejos_rebatibles,,gemini
+PEUGEOT,Espejos exteriores con regulación eléctrica,,,ninguna
+PEUGEOT,Faro antiniebla trasero,faros_antiniebla,,reglas
+PEUGEOT,Faros LED traseros,,,ninguna
+PEUGEOT,Faros colmillos DRL LED,luces_diurnas,,reglas
+PEUGEOT,Faros colmillos DRL Tri-LED,luces_diurnas,,reglas
+PEUGEOT,Fijaciones de Asientos ISOFIX y TOP TETHER,isofix,,reglas
+PEUGEOT,Frenado automático de emergencia,frenado_autonomo,,reglas
+PEUGEOT,Frenado automático de emergencia (AEB),frenado_autonomo,,reglas
+PEUGEOT,Freno de mano eléctrico,freno_mano_electrico,,reglas
+PEUGEOT,Frenos ABS con Repartidor Electrónico de Frenado,,,ninguna
+PEUGEOT,Frenos a discos en las 4 ruedas,,,ninguna
+PEUGEOT,Indicador de descanso recomendado,alerta_fatiga,,gemini
+PEUGEOT,Indicador de descanso recomendado (DAA3),alerta_fatiga,,gemini
+PEUGEOT,Lectura de señales e indicador de límite de velocidad (ETSR),,,ninguna
+PEUGEOT,Lectura e indicador de límite de velocidad,,,ninguna
+PEUGEOT,Levas al volante,levas,,reglas
+PEUGEOT,Limpiaparabrisas automático,sensor_lluvia,,gemini
+PEUGEOT,Limpiaparabrisas automático (Sensor de lluvia),sensor_lluvia,,reglas
+PEUGEOT,Luces altas automáticas,luces_altas_automaticas,,reglas
+PEUGEOT,Luces altas automáticas (HBA),luces_altas_automaticas,,reglas
+PEUGEOT,Mirror Screen (Apple CarPlay / Android Auto),carplay_android,,reglas
+PEUGEOT,Mirror Screen inalámbrico (Apple CarPlay / Android Auto),carplay_android,,reglas
+PEUGEOT,Mirror Screen inalámbrico (Apple CarPlay / Android Auto),carplay_inalambrico,,reglas
+PEUGEOT,"Pantalla multimedia táctil de 10""",pantalla_multimedia,10,reglas
+PEUGEOT,"Rueda de auxilio de 15"" (125/80 R15)",,,ninguna
+PEUGEOT,Rueda de auxilo (125/85 R16),,,ninguna
+PEUGEOT,Sensores de estacionamiento traseros,sensores_traseros,,reglas
+PEUGEOT,Servicios Conectados,,,ninguna
+PEUGEOT,Sistema de acceso y arranque manos libres (ADML),llave_presencia,,gemini
+PEUGEOT,Sistema de acceso y arranque manos libres (ADML),arranque_boton,,gemini
+PEUGEOT,Techo panorámico,techo_solar,,reglas
+PEUGEOT,Techo panorámico con apertura,techo_solar,,reglas
+PEUGEOT,Vigilancia lateral ángulo muerto y alerta de tráfico trasero cruzado (RCTA),punto_ciego,,reglas
+PEUGEOT,Volante multifunción,,,ninguna
+VOLKSWAGEN,1 luz de lectura delantera y dos traseras,,,ninguna
+VOLKSWAGEN,2 luces de lectura delantera,,,ninguna
+VOLKSWAGEN,2 parlantes delanteros y 2 traseros,,,ninguna
+VOLKSWAGEN,2 tomas USB Tipo C en consola central,,,ninguna
+VOLKSWAGEN,2 tomas USB Tipo C traseras,usb_traseros,,reglas
+VOLKSWAGEN,"2 tomas de USB ""C"" delanteras y 2 tomas USB ""C"" traseras",usb_traseros,,reglas
+VOLKSWAGEN,2 tweeters,,,ninguna
+VOLKSWAGEN,3 apoyacabezas traseros ajustable en altura,,,ninguna
+VOLKSWAGEN,4 parlantes,,,ninguna
+VOLKSWAGEN,4 parlantes delanteros y 2 traseros,,,ninguna
+VOLKSWAGEN,6 Altavoces,,,ninguna
+VOLKSWAGEN,6 Altavoces + 1 subwoofer,,,ninguna
+VOLKSWAGEN,6 parlantes,,,ninguna
+VOLKSWAGEN,"Activación automática de luces de marcha, con luz de marcha diurna",luces_diurnas,,reglas
+VOLKSWAGEN,Active Info Display,pantalla_multimedia,,reglas
+VOLKSWAGEN,Active Info Display,tablero_digital,,reglas
+VOLKSWAGEN,Airbag para conductor y acompañante,airbags_frontales,,reglas
+VOLKSWAGEN,Airbag para conductor y acompañante con desactivación del acompañante,airbags_frontales,,reglas
+VOLKSWAGEN,Airbags de cortina (2),airbags_cortina,,reglas
+VOLKSWAGEN,Airbags de cortina (2) y Airbags laterales (2),airbags_laterales,,reglas
+VOLKSWAGEN,Airbags de cortina (2) y Airbags laterales (2),airbags_cortina,,reglas
+VOLKSWAGEN,Airbags laterales (2),airbags_laterales,,reglas
+VOLKSWAGEN,Airbags laterales delanteros con protección de tórax y cabeza,airbags_laterales,,reglas
+VOLKSWAGEN,Aire Acondicionado,aire_acondicionado,,reglas
+VOLKSWAGEN,Aire acondicionado,aire_acondicionado,,reglas
+VOLKSWAGEN,Alarma antirrobo con monitoreo de habitáculo e Inmovilizador electrónico,,,ninguna
+VOLKSWAGEN,Alarma e Inmovilizador electrónico,,,ninguna
+VOLKSWAGEN,Alfombras de tela,,,ninguna
+VOLKSWAGEN,Alfombras en tela,,,ninguna
+VOLKSWAGEN,Alto (mm),,,ninguna
+VOLKSWAGEN,Ancho (mm),,,ninguna
+VOLKSWAGEN,Ancho con espejos (mm),,,ninguna
+VOLKSWAGEN,Anclajes ISOFIX en las plazas traseras,isofix,,reglas
+VOLKSWAGEN,Apliques en aluminio en zócalo de ingreso habitáculo (conductor / acompañante),,,ninguna
+VOLKSWAGEN,Apoyabrazos delantero,,,ninguna
+VOLKSWAGEN,Apoyabrazos delantero central,,,ninguna
+VOLKSWAGEN,Apoyabrazos delantero central con espacio de guardado,,,ninguna
+VOLKSWAGEN,Apoyabrazos delantero central con salida de aire traseras,salidas_aire_traseras,,reglas
+VOLKSWAGEN,Apoyabrazos delantero central corredizo y con espacio de guardado,,,ninguna
+VOLKSWAGEN,Apoyacabezas central traseros ajustable en altura,,,ninguna
+VOLKSWAGEN,Apoyacabezas delanteros activos,,,ninguna
+VOLKSWAGEN,Asiento del conductor con ajuste de altura,,,ninguna
+VOLKSWAGEN,"Asiento del conductor con ajuste eléctrico, asiento pasajero con ajuste de altura manual",asiento_electrico,,reglas
+VOLKSWAGEN,Asiento del conductor con ajuste manual de altura,,,ninguna
+VOLKSWAGEN,Asiento del conductor con regulación lumbar,,,ninguna
+VOLKSWAGEN,Asiento trasero plegable (una pieza),,,ninguna
+VOLKSWAGEN,"Asientos delanteros con ajuste lumbar, asiento conductor con ajuste lumbar eléctrico",asiento_electrico,,reglas
+VOLKSWAGEN,Asientos delanteros con apoyacabeza integrado,,,ninguna
+VOLKSWAGEN,Asistente de conducción en viaje con función stop & go | Travel Assist,,,ninguna
+VOLKSWAGEN,Asistente de conducción en viaje | Travel Assist,,,ninguna
+VOLKSWAGEN,Asistente de frenado de emergencia post colisión,,,ninguna
+VOLKSWAGEN,Asistente de mantenimiento de carril,mantenimiento_carril,,reglas
+VOLKSWAGEN,Asistente de mantenimiento de carril con asistente en tráfico,mantenimiento_carril,,reglas
+VOLKSWAGEN,Asistente de mantenimiento de carril | Lane Assist,mantenimiento_carril,,reglas
+VOLKSWAGEN,Asistente para emergencias | Emergency Assist,,,ninguna
+VOLKSWAGEN,Aviso cinturón de seguridad desabrochado (asientos delanteros y traseros),,,ninguna
+VOLKSWAGEN,Aviso cinturón de seguridad desabrochado (delanteros y traseros),,,ninguna
+VOLKSWAGEN,Aviso cinturón de seguridad desabrochado (plazas delanteras y traseras),,,ninguna
+VOLKSWAGEN,Barra de luz trasera en led integrada | Light Strip,,,ninguna
+VOLKSWAGEN,Barras de techo color en plata anodizado,barras_techo,,reglas
+VOLKSWAGEN,Barras de techo en color negro,barras_techo,,reglas
+VOLKSWAGEN,Barras de techo plateadas,barras_techo,,reglas
+VOLKSWAGEN,Barras de techo silver,barras_techo,,reglas
+VOLKSWAGEN,Bluetooth para telefonía y audio,,,ninguna
+VOLKSWAGEN,Caja de cambios,,,ninguna
+VOLKSWAGEN,Cantidad de puertas,,,ninguna
+VOLKSWAGEN,Capacidad de carga sobre barra de techo (kg),,,ninguna
+VOLKSWAGEN,Capacidad de tanque de combustible (l),,,ninguna
+VOLKSWAGEN,Cargador Inalámbrico,cargador_inalambrico,,reglas
+VOLKSWAGEN,Cargador de celular inalámbrico,cargador_inalambrico,,reglas
+VOLKSWAGEN,Cargador inalámbrico,cargador_inalambrico,,reglas
+VOLKSWAGEN,Cargador inductivo de celular,cargador_inalambrico,,reglas
+VOLKSWAGEN,Cierre central con comando a distancia,,,ninguna
+VOLKSWAGEN,Cilindrada (cm³),,,ninguna
+VOLKSWAGEN,Cilindros,,,ninguna
+VOLKSWAGEN,Cinturones de seguridad delanteros ajustables en altura,,,ninguna
+VOLKSWAGEN,Cinturones de seguridad delanteros sin ajuste en altura,,,ninguna
+VOLKSWAGEN,Cinturones de seguridad traseros de tres puntos para ocupantes asientos traseros (x3),,,ninguna
+VOLKSWAGEN,Cinturones de seguridad traseros de tres puntos retractables (3),,,ninguna
+VOLKSWAGEN,Cinturón de seguridad del conductor ajustable en altura,,,ninguna
+VOLKSWAGEN,"Climatizador automático ""Climatronic"" de 2 zonas con comando táctil",climatizador_automatico,,reglas
+VOLKSWAGEN,"Climatizador automático ""Climatronic"" de 2 zonas con comando táctil",climatizador_bizona,,reglas
+VOLKSWAGEN,Climatizador automático 1 zona,climatizador_automatico,,reglas
+VOLKSWAGEN,Climatizador automático táctil sin guantera refrigerada,climatizador_automatico,,reglas
+VOLKSWAGEN,Climatizador táctil automático 1 zona,climatizador_automatico,,reglas
+VOLKSWAGEN,Combustible,,,ninguna
+VOLKSWAGEN,Compartimento de carga (l),,,ninguna
+VOLKSWAGEN,Computadora de abordo I-System,,,ninguna
+VOLKSWAGEN,Conectividad Apple Car Play / Android Auto con y sin cable,carplay_android,,reglas
+VOLKSWAGEN,Conectividad Apple Car Play / Android Auto con y sin cable,carplay_inalambrico,,reglas
+VOLKSWAGEN,Control de asistente para arranque en pendientes,arranque_pendiente,,reglas
+VOLKSWAGEN,Control de estabilidad,control_estabilidad,,reglas
+VOLKSWAGEN,Control de estabilidad (ESC),control_estabilidad,,reglas
+VOLKSWAGEN,Control de estabilidad (ESC) y Asistente de arranque en pendiente (HHC),control_estabilidad,,reglas
+VOLKSWAGEN,Control de estabilidad (ESC) y Asistente de arranque en pendiente (HHC),arranque_pendiente,,reglas
+VOLKSWAGEN,Control de estabilidad con sistema de frenado de emergencia post colisión,control_estabilidad,,reglas
+VOLKSWAGEN,Control de velocidad crucero,crucero,,reglas
+VOLKSWAGEN,Control de velocidad crucero adaptativo (ACC),crucero_adaptativo,,reglas
+VOLKSWAGEN,"Control de velocidad crucero adaptativo ACC ""stop & go"" con limitador de velocidad",crucero_adaptativo,,reglas
+VOLKSWAGEN,"Control de velocidad crucero adaptativo ACC ""stop & go"" con limitador de velocidad",limitador_velocidad,,reglas
+VOLKSWAGEN,Cámara de estacionamiento con visión trasera,camara_trasera,,reglas
+VOLKSWAGEN,Cámara de estacionamiento trasera,camara_trasera,,reglas
+VOLKSWAGEN,Cámara de visión trasera,camara_trasera,,reglas
+VOLKSWAGEN,DRL Halógenos,luces_diurnas,,reglas
+VOLKSWAGEN,DRL LED,luces_diurnas,,reglas
+VOLKSWAGEN,Desactivación Airbag (pasajero delantero),,,ninguna
+VOLKSWAGEN,Desempeñador de luneta,,,ninguna
+VOLKSWAGEN,Detector de fatiga,alerta_fatiga,,reglas
+VOLKSWAGEN,Detector de punto ciego con asistente trasero de tráfico cruzado,punto_ciego,,reglas
+VOLKSWAGEN,Detector de punto ciego con asistente trasero de tráfico cruzado,trafico_cruzado,,reglas
+VOLKSWAGEN,Difusores de aire traseros,salidas_aire_traseras,,gemini
+VOLKSWAGEN,Dirección asistida eléctrica,,,ninguna
+VOLKSWAGEN,"Display multifuncional ""VW Digital Cockpit""",pantalla_multimedia,,reglas
+VOLKSWAGEN,"Display multifuncional ""VW Digital Cockpit""",tablero_digital,,reglas
+VOLKSWAGEN,Distancia entre ejes (mm),,,ninguna
+VOLKSWAGEN,Emisión de gases,,,ninguna
+VOLKSWAGEN,Espejo interior con anti-encandilamiento automático,espejo_electrocromico,,reglas
+VOLKSWAGEN,Espejos exteriores color carrocería,,,ninguna
+VOLKSWAGEN,Espejos exteriores color negro,,,ninguna
+VOLKSWAGEN,Espejos exteriores color negro brillante,,,ninguna
+VOLKSWAGEN,Espejos exteriores con ajuste eléctrico y función tilt down,,,ninguna
+VOLKSWAGEN,"Espejos exteriores con ajuste eléctrico, calefaccionables y función tilt down",,,ninguna
+VOLKSWAGEN,Espejos exteriores eléctricos con Tilt Down,,,ninguna
+VOLKSWAGEN,Espejos exteriores en color carroceria,,,ninguna
+VOLKSWAGEN,"Espejos exteriores en color negro exclusivo ""Outfit""",,,ninguna
+VOLKSWAGEN,Espejos exteriores pintados en color negro,,,ninguna
+VOLKSWAGEN,Espejos exteriores plegables eléctricamente,espejos_rebatibles,,reglas
+VOLKSWAGEN,Espejos laterales con luz de giro integrada,,,ninguna
+VOLKSWAGEN,Espejos laterales con luz de giro integrada y luz de bienvenida,,,ninguna
+VOLKSWAGEN,Espejos rebatibles en forma eléctrica,espejos_rebatibles,,reglas
+VOLKSWAGEN,Faro antiniebla trasero (izquierdo),faros_antiniebla,,reglas
+VOLKSWAGEN,Faros Halógenos,,,ninguna
+VOLKSWAGEN,Faros VW LED,faros_led,,reglas
+VOLKSWAGEN,Faros delanteros con tecnología IQ Light con luz de curva dinámica,faros_led,,gemini
+VOLKSWAGEN,Faros principales LED con DRL integrada,faros_led,,reglas
+VOLKSWAGEN,Faros principales LED con DRL integrada,luces_diurnas,,reglas
+VOLKSWAGEN,Faros principales VW LED,faros_led,,reglas
+VOLKSWAGEN,Faros principales VW LED y luz de marcha diurna,luces_diurnas,,reglas
+VOLKSWAGEN,Faros traseros Click-Clack LED,,,manual
+VOLKSWAGEN,Faros traseros LED,,,manual
+VOLKSWAGEN,Frenado asistido para evitar colisiones múltiples,,,ninguna
+VOLKSWAGEN,Frenado autónomo de emergencia (AEB),frenado_autonomo,,reglas
+VOLKSWAGEN,Freno autónomo de emergencia con detección de peatones,frenado_autonomo,,gemini
+VOLKSWAGEN,Freno autónomo de emergencia con detector de peatones | AEB,frenado_autonomo,,reglas
+VOLKSWAGEN,Freno de estacionamiento eléctrico,freno_mano_electrico,,reglas
+VOLKSWAGEN,Grilla LED frontal iluminada,,,ninguna
+VOLKSWAGEN,Grilla de radiador con detalles cromados,,,ninguna
+VOLKSWAGEN,Grilla de radiador negra,,,ninguna
+VOLKSWAGEN,Grilla frontal con iluminación LED,,,ninguna
+VOLKSWAGEN,Iluminación de cortesía en baúl,,,ninguna
+VOLKSWAGEN,Iluminación de cortesía en la guantera,,,ninguna
+VOLKSWAGEN,Iluminación luz ambiental interior en panel de instrumentos y puertas delanteras,tablero_digital,,reglas
+VOLKSWAGEN,Indicador de presión de neumáticos,presion_neumaticos,,reglas
+VOLKSWAGEN,Indicador para el control de presión de neumáticos,presion_neumaticos,,reglas
+VOLKSWAGEN,Inmovilizador electrónico,,,ninguna
+VOLKSWAGEN,Insignias traseras y laterales en color negro,,,ninguna
+VOLKSWAGEN,Largo (mm),,,ninguna
+VOLKSWAGEN,Levantacristales eléctricos delanteros,,,ninguna
+VOLKSWAGEN,Levantacristales eléctricos delanteros y traseros,,,ninguna
+VOLKSWAGEN,Levantavidrios eléctricos delanteros y traseros,,,ninguna
+VOLKSWAGEN,Levas al volante,levas,,reglas
+VOLKSWAGEN,Limpiaparabrisas automático con sensor de lluvia,sensor_lluvia,,reglas
+VOLKSWAGEN,Limpiaparabrisas con regulador de velocidad,,,ninguna
+VOLKSWAGEN,"Llantas de acero de 15""",llantas,15,reglas
+VOLKSWAGEN,Llantas de acero de 16'',llantas,16,reglas
+VOLKSWAGEN,Llantas de acero de 16'' | Neumáticos 205/60,llantas,16,reglas
+VOLKSWAGEN,"Llantas de aleación de 15""",llantas_aleacion,,reglas
+VOLKSWAGEN,"Llantas de aleación de 15""",llantas,15,reglas
+VOLKSWAGEN,Llantas de aleación de 16'',llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 16'',llantas,16,reglas
+VOLKSWAGEN,Llantas de aleación de 16'' diamantadas | Neumáticos 205/60,llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 16'' diamantadas | Neumáticos 205/60,llantas,16,reglas
+VOLKSWAGEN,Llantas de aleación de 16'' | Neumáticos 205/60,llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 16'' | Neumáticos 205/60,llantas,16,reglas
+VOLKSWAGEN,Llantas de aleación de 17'',llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 17'',llantas,17,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' diamantadas | Neumáticos 205/55,llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' diamantadas | Neumáticos 205/55,llantas,17,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' oscurecidas | Neumáticos 205/55,llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' oscurecidas | Neumáticos 205/55,llantas,17,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' pintadas en color negro,llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' pintadas en color negro,llantas,17,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' | Neumáticos 205/55,llantas_aleacion,,reglas
+VOLKSWAGEN,Llantas de aleación de 17'' | Neumáticos 205/55,llantas,17,reglas
+VOLKSWAGEN,"Llantas de aleación de 17'' | Neumáticos 205/55 Con tecnología ""Seal Inside""",llantas_aleacion,,reglas
+VOLKSWAGEN,"Llantas de aleación de 17'' | Neumáticos 205/55 Con tecnología ""Seal Inside""",llantas,17,reglas
+VOLKSWAGEN,"Llantas de aleación de 18"" Fiji | Neumáticos 215/55 R18",llantas_aleacion,,reglas
+VOLKSWAGEN,"Llantas de aleación de 18"" Fiji | Neumáticos 215/55 R18",llantas,18,reglas
+VOLKSWAGEN,"Llantas de aleación de 19"" Plus | Neumáticos 235/45 R19",llantas_aleacion,,reglas
+VOLKSWAGEN,"Llantas de aleación de 19"" Plus | Neumáticos 235/45 R19",llantas,19,reglas
+VOLKSWAGEN,Logo VW trasero iluminado,,,ninguna
+VOLKSWAGEN,Luces de lectura delanteras y traseras,,,ninguna
+VOLKSWAGEN,Luces traseras en tecnología LED,,,ninguna
+VOLKSWAGEN,"Luz de ambiente LED ""Ambient Light""",,,ninguna
+VOLKSWAGEN,Luz de conducción diurna en LED,luces_diurnas,,reglas
+VOLKSWAGEN,Luz de cortesía (delantera y trasera) con luces de lectura,,,ninguna
+VOLKSWAGEN,Luz de cortesía delantera (2),,,ninguna
+VOLKSWAGEN,Luz de giro en espejos exteriores,,,ninguna
+VOLKSWAGEN,"Línea LED trasera ""Light Strip""",,,ninguna
+VOLKSWAGEN,Manijas de puertas exteriores en color carrocería,,,ninguna
+VOLKSWAGEN,Mi VW Connect,conectividad_remota,,reglas
+VOLKSWAGEN,Mi VW Connect X,conectividad_remota,,reglas
+VOLKSWAGEN,Moldura inferior de ventanas en cromo,,,ninguna
+VOLKSWAGEN,Neumáticos 205/55,,,ninguna
+VOLKSWAGEN,Neumáticos 205/60,,,ninguna
+VOLKSWAGEN,Palanca de cambios forrada en cuero,,,ninguna
+VOLKSWAGEN,Palanca de cambios revestida en cuero,,,ninguna
+VOLKSWAGEN,Parasoles con espejo en acompañante sin iluminación,,,ninguna
+VOLKSWAGEN,Parasoles con espejos con iluminación,,,ninguna
+VOLKSWAGEN,Parasoles con espejos iluminados,,,ninguna
+VOLKSWAGEN,Parasoles con espejos iluminados y porta documentos,,,ninguna
+VOLKSWAGEN,Pedales deportivos en aluminio,,,ninguna
+VOLKSWAGEN,Portavasos en consola central,,,ninguna
+VOLKSWAGEN,Potencia (CV),,,ninguna
+VOLKSWAGEN,Respaldo asiento trasero plegable (1/3 - 2/3),,,ninguna
+VOLKSWAGEN,Respaldo asiento trasero plegable (1/3 - 2/3) con apoyabrazos central,,,ninguna
+VOLKSWAGEN,"Rueda de auxilio temporal, de espacio reducido",,,ninguna
+VOLKSWAGEN,Selector de perfil de conducción,,,ninguna
+VOLKSWAGEN,Sensor crepuscular con activación automática de luces,luces_automaticas,,reglas
+VOLKSWAGEN,Sensor crepuscular con activación automática de luces bajas,luces_automaticas,,reglas
+VOLKSWAGEN,Sensor de estacionamiento delantero,sensores_delanteros,,reglas
+VOLKSWAGEN,Sensor de estacionamiento trasero,sensores_traseros,,reglas
+VOLKSWAGEN,Sensor de lluvia con regulación automática de los limpiaparabrisas,sensor_lluvia,,reglas
+VOLKSWAGEN,Sensores de estacionamiento delanteros y traseros,sensores_traseros,,reglas
+VOLKSWAGEN,Sensores de estacionamiento delanteros y traseros,sensores_delanteros,,reglas
+VOLKSWAGEN,"Sistema ""Coming & Leaving Home""",,,ninguna
+VOLKSWAGEN,"Sistema ""Start/Stop"" con regeneración en frenado",,,ninguna
+VOLKSWAGEN,Sistema Kessy de apertura y arranque sin llave,llave_presencia,,reglas
+VOLKSWAGEN,"Sistema Multimedia VW Play 10"" Conectada con App connect sin cable",carplay_inalambrico,,reglas
+VOLKSWAGEN,"Sistema Multimedia VW Play 10"" Conectada con App connect sin cable",pantalla_multimedia,10,reglas
+VOLKSWAGEN,"Sistema Multimedia VW Play 10"" con App connect sin cable",carplay_inalambrico,,reglas
+VOLKSWAGEN,"Sistema Multimedia VW Play 10"" con App connect sin cable",pantalla_multimedia,10,reglas
+VOLKSWAGEN,Sistema Multimedia VW Play 10'' con Wireless App Connect,carplay_inalambrico,,reglas
+VOLKSWAGEN,Sistema Multimedia VW Play 10'' con Wireless App Connect,pantalla_multimedia,10,reglas
+VOLKSWAGEN,"Sistema Multimedia VW Play Connect de 10"" Semiflotante",pantalla_multimedia,10,reglas
+VOLKSWAGEN,Sistema de apertura y encendido sin llave,llave_presencia,,reglas
+VOLKSWAGEN,Sistema de apertura y encendido sin llave - KESSY,llave_presencia,,reglas
+VOLKSWAGEN,Sistema de apertura y encendido sin llave | Keyless Access,llave_presencia,,reglas
+VOLKSWAGEN,Sistema de asistencia para luz de carretera | Light Assist,luces_altas_automaticas,,gemini
+VOLKSWAGEN,Sistema de detector de fatiga,alerta_fatiga,,reglas
+VOLKSWAGEN,Sistema de estacionamiento automático “Park Assist”,estacionamiento_asistido,,reglas
+VOLKSWAGEN,Sistema de frenado de emergencia post colisión,,,ninguna
+VOLKSWAGEN,Sistema de freno ABS,,,ninguna
+VOLKSWAGEN,Sistema de frenos,,,ninguna
+VOLKSWAGEN,Sistema de frenos ABS,,,ninguna
+VOLKSWAGEN,Sistema de frenos ABS y EBD,,,ninguna
+VOLKSWAGEN,Suspensión delantera,,,ninguna
+VOLKSWAGEN,Suspensión trasera,,,ninguna
+VOLKSWAGEN,"Tablero 100% digital 10,25"" | Active Info Display",tablero_digital,10.25,reglas
+VOLKSWAGEN,"Tablero Digital de 10,25” | Active Info Display X",tablero_digital,,reglas
+VOLKSWAGEN,"Tablero digital 10,25"" | Active Info Display",tablero_digital,10.25,reglas
+VOLKSWAGEN,"Tablero digital 8"" | VW Digital Cockpit",tablero_digital,8,reglas
+VOLKSWAGEN,Tapizado de asientos en vinilo,,,ninguna
+VOLKSWAGEN,Tapizado de asientos parcialmente en cuero,asientos_cuero,,reglas
+VOLKSWAGEN,Tapizado en cuero,asientos_cuero,,reglas
+VOLKSWAGEN,Tapizado en cuero ecológico,asientos_cuero,,reglas
+VOLKSWAGEN,"Tapizado en cuero ecológico ""Outfit""",asientos_cuero,,reglas
+VOLKSWAGEN,"Tapizado en cuero ecológico exclusivo ""Outfit""",asientos_cuero,,reglas
+VOLKSWAGEN,Tapizado en cuero sintético,asientos_cuero,,reglas
+VOLKSWAGEN,Tapizado en tela,,,ninguna
+VOLKSWAGEN,Techo bitono color negro,techo_bitono,,reglas
+VOLKSWAGEN,Techo bitono en color negro,techo_bitono,,reglas
+VOLKSWAGEN,Techo solar panorámico,techo_solar,,reglas
+VOLKSWAGEN,Tercera luz de stop,,,ninguna
+VOLKSWAGEN,Testigo de pérdida de presión de neumáticos,presion_neumaticos,,reglas
+VOLKSWAGEN,Torque máximo (Nm/rpm),,,ninguna
+VOLKSWAGEN,Tracción,traccion_4x4,,reglas
+VOLKSWAGEN,Transmisión,,,ninguna
+VOLKSWAGEN,USB en apoyabrazos para las plazas traseras,usb_traseros,,reglas
+VOLKSWAGEN,USBs Total,,,ninguna
+VOLKSWAGEN,Versión,,,ninguna
+VOLKSWAGEN,Volante multifunción,,,ninguna
+VOLKSWAGEN,Volante multifunción revestido en cuero,volante_cuero,,reglas
+VOLKSWAGEN,Volante multifunción revestido en cuero con levas al volante,volante_cuero,,reglas
+VOLKSWAGEN,Volante multifunción revestido en cuero con levas al volante,levas,,reglas
+VOLKSWAGEN,Volante multifunción revestido en cuero sintético con levas al volante,volante_cuero,,reglas
+VOLKSWAGEN,Volante multifunción revestido en cuero sintético con levas al volante,levas,,reglas
+VOLKSWAGEN,"Volante multifunción revestido en cuero, con levas de cambio",volante_cuero,,reglas
+VOLKSWAGEN,"Volante multifunción revestido en cuero, con levas de cambio",levas,,reglas
+VOLKSWAGEN,Volante regulable en altura y profundidad,,,ninguna
+VOLKSWAGEN,Volante revestido en cuero con levas de cambio,volante_cuero,,reglas
+VOLKSWAGEN,Volante revestido en cuero con levas de cambio,levas,,reglas
+VOLKSWAGEN,Volante revestido en cuero sintético,volante_cuero,,reglas
+VOLKSWAGEN,Válvulas por cilindro,,,ninguna

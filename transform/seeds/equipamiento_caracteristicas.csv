@@ -1,0 +1,59 @@
+id,nombre,grupo,tipo,unidad,orden
+airbags_frontales,Airbags frontales,seguridad,si_no,,10
+airbags_laterales,Airbags laterales delanteros,seguridad,si_no,,11
+airbags_cortina,Airbags de cortina,seguridad,si_no,,12
+airbag_rodilla,Airbag de rodilla del conductor,seguridad,si_no,,13
+airbags_traseros,Airbags laterales traseros,seguridad,si_no,,14
+control_estabilidad,Control de estabilidad,seguridad,si_no,,15
+frenado_autonomo,Frenado autónomo de emergencia,seguridad,si_no,,16
+crucero_adaptativo,Control crucero adaptativo,seguridad,si_no,,17
+mantenimiento_carril,Asistente de mantenimiento de carril,seguridad,si_no,,18
+punto_ciego,Alerta de punto ciego,seguridad,si_no,,19
+trafico_cruzado,Alerta de tráfico cruzado trasero,seguridad,si_no,,20
+luces_altas_automaticas,Luces altas automáticas,seguridad,si_no,,21
+alerta_fatiga,Detector de fatiga del conductor,seguridad,si_no,,22
+presion_neumaticos,Monitoreo de presión de neumáticos,seguridad,si_no,,23
+arranque_pendiente,Asistente de arranque en pendiente,seguridad,si_no,,24
+isofix,Anclajes ISOFIX,seguridad,si_no,,25
+camara_trasera,Cámara de retroceso,seguridad,si_no,,26
+camara_360,Cámara 360°,seguridad,si_no,,27
+sensores_traseros,Sensores de estacionamiento traseros,seguridad,si_no,,28
+sensores_delanteros,Sensores de estacionamiento delanteros,seguridad,si_no,,29
+estacionamiento_asistido,Estacionamiento asistido,seguridad,si_no,,30
+aire_acondicionado,Aire acondicionado,confort,si_no,,40
+climatizador_automatico,Climatizador automático,confort,si_no,,41
+climatizador_bizona,Climatizador de dos zonas,confort,si_no,,42
+salidas_aire_traseras,Salidas de aire traseras,confort,si_no,,43
+llave_presencia,Apertura y arranque sin llave,confort,si_no,,44
+arranque_boton,Arranque por botón,confort,si_no,,45
+crucero,Control crucero,confort,si_no,,46
+limitador_velocidad,Limitador de velocidad,confort,si_no,,47
+sensor_lluvia,Sensor de lluvia,confort,si_no,,48
+luces_automaticas,Encendido automático de luces,confort,si_no,,49
+espejo_electrocromico,Espejo interior antiencandilamiento automático,confort,si_no,,50
+espejos_rebatibles,Espejos exteriores rebatibles eléctricamente,confort,si_no,,51
+volante_cuero,Volante revestido en cuero,confort,si_no,,52
+levas,Levas de cambio al volante,confort,si_no,,53
+asientos_cuero,Tapizado de cuero o símil cuero,confort,si_no,,54
+asiento_electrico,Asiento del conductor con ajuste eléctrico,confort,si_no,,55
+asientos_calefaccionados,Asientos calefaccionados,confort,si_no,,56
+freno_mano_electrico,Freno de mano eléctrico,confort,si_no,,57
+techo_solar,Techo solar o panorámico,confort,si_no,,58
+porton_electrico,Portón trasero eléctrico,confort,si_no,,59
+pantalla_multimedia,Pantalla multimedia,tecnologia,numero,pulgadas,70
+carplay_android,Apple CarPlay y Android Auto,tecnologia,si_no,,71
+carplay_inalambrico,CarPlay y Android Auto inalámbricos,tecnologia,si_no,,72
+tablero_digital,Tablero de instrumentos digital,tecnologia,numero,pulgadas,73
+cargador_inalambrico,Cargador inalámbrico de celular,tecnologia,si_no,,74
+usb_traseros,Tomas USB traseras,tecnologia,si_no,,75
+conectividad_remota,Conectividad remota con app,tecnologia,si_no,,76
+audio_premium,Sistema de audio premium,tecnologia,si_no,,77
+navegador,Navegador GPS integrado,tecnologia,si_no,,78
+llantas_aleacion,Llantas de aleación,exterior,si_no,,90
+llantas,Rodado de las llantas,exterior,numero,pulgadas,91
+faros_led,Faros principales LED,exterior,si_no,,92
+luces_diurnas,Luces diurnas,exterior,si_no,,93
+faros_antiniebla,Faros antiniebla,exterior,si_no,,94
+barras_techo,Barras de techo,exterior,si_no,,95
+techo_bitono,Techo bitono,exterior,si_no,,96
+traccion_4x4,Tracción 4x4,exterior,si_no,,97
