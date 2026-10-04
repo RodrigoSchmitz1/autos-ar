@@ -5,6 +5,48 @@
   "titulo": "BAIC BJ30 4x4 - El SUV chino \"más gustado\" - TEST - Matías Antico - TN Autos",
   "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
+ "BAIC|X55 CROSSOVER": {
+  "canal": "MatiasAntico",
+  "id": "fH-mdXuW7Gk",
+  "titulo": "BAIC X55 II: ¿El mejor SUV mediano chino?  - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "BYD|ATTO 2": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "CE4VeXMxob0",
+  "titulo": "BYD Atto 2, ¿el auto del momento en Argentina?",
+  "url_canal": "https://www.youtube.com/@mausorio"
+ },
+ "BYD|DOLPHIN MINI": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "4KEQCspWAXY",
+  "titulo": "Nuevos BYD Dolphin Mini, Yuan Pro y Song Pro en Argentina | Todas las características de cada uno",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "BYD|SONG PRO DM-i": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "3k7TLgduwZo",
+  "titulo": "Así es el nuevo BYD Song Pro híbrido enchufable",
+  "url_canal": "https://www.youtube.com/@mausorio"
+ },
+ "BYD|YUAN PRO": {
+  "canal": "Pablo Epifanio",
+  "id": "qn5D_kYFBYc",
+  "titulo": "Test Yuan Pro: probamos el 100% eléctrico de BYD",
+  "url_canal": "https://www.youtube.com/@PablitoEpifanio"
+ },
+ "CHANGAN|CS55": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "29ZB8sDtBA4",
+  "titulo": "Changan CS55 Plus PHEV, ¿mejor precio/producto 2025? 🇨🇳🇦🇷",
+  "url_canal": "https://www.youtube.com/@mausorio"
+ },
+ "CHERY|TIGGO 7": {
+  "canal": "Autocosmos Argentina",
+  "id": "Hg-nWNcI_Xc",
+  "titulo": "Test Chery Tiggo7 MHEV ¿Vale la pena el precio?",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
  "CHEVROLET|MONTANA PICK - UP": {
   "canal": "Autocosmos Argentina",
   "id": "hYbqeyz0rOI",
@@ -22,6 +64,12 @@
   "id": "cW5apC2hV1E",
   "titulo": "Test nueva Chevrolet S10 2025 | Autocosmos",
   "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "CHEVROLET|SPIN": {
+  "canal": "MatiasAntico",
+  "id": "U_z4segeKos",
+  "titulo": "Chevrolet Spin Premier 2025: 7 asientos y muchos cambios - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
  "CHEVROLET|TRACKER": {
   "canal": "Argentina Motor (Motorizando)",
@@ -52,6 +100,12 @@
   "id": "0MrOvZLk9d4",
   "titulo": "Nuevo Citroen C3 Aircross, el SUV de 5 o 7 asientos que busca competir por precio y equipamiento",
   "url_canal": "https://www.youtube.com/@visionmotor"
+ },
+ "FIAT|600": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "twCzClqLUTw",
+  "titulo": "Review: nuevo Fiat 600 híbrido",
+  "url_canal": "https://www.youtube.com/@mausorio"
  },
  "FIAT|ARGO": {
   "canal": "Argentina Motor (Motorizando)",
@@ -107,6 +161,24 @@
   "titulo": "Fiat Toro 2 2 TD 4x4 (200 CV) - Test - Matías Antico - TN Autos",
   "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
+ "FORD|BRONCO SPORT": {
+  "canal": "Autocosmos Argentina",
+  "id": "mJRvkK7Evy8",
+  "titulo": "Lanzamiento Ford Bronco Sport 2025 | Argentina",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "FORD|EVEREST": {
+  "canal": "VisionMotor - Andres Perez Loizeau",
+  "id": "thTTzNTB4fs",
+  "titulo": "Ford Everest, los detalles del nuevo SUV con motor de 300 CV y la robustez de la pickup Ranger",
+  "url_canal": "https://www.youtube.com/@visionmotor"
+ },
+ "FORD|F-150 PICK - UP": {
+  "canal": "MatiasAntico",
+  "id": "SdqBdlUiVzU",
+  "titulo": "Ford F-150 Híbrida - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
  "FORD|MAVERICK PICK - UP": {
   "canal": "MatiasAntico",
   "id": "QfzSj79AdCI",
@@ -125,11 +197,53 @@
   "titulo": "Nueva Ford Territory",
   "url_canal": "https://www.youtube.com/@fordargentina"
  },
+ "FORD|TRANSIT": {
+  "canal": "VisionMotor - Andres Perez Loizeau",
+  "id": "Vc23lfLSKYs",
+  "titulo": "Ford Argentina presentó a la Nueva Transit",
+  "url_canal": "https://www.youtube.com/@visionmotor"
+ },
+ "HAVAL|H 6": {
+  "canal": "Autocosmos Argentina",
+  "id": "Fo-AuGUQ1l8",
+  "titulo": "Test Haval H6 HEV | ¿Vale la pena su precio?",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "HAVAL|JOLION": {
+  "canal": "MatiasAntico",
+  "id": "1Z6AVR5nxFQ",
+  "titulo": "Haval Jolion Pro HEV - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "HONDA|HR-V": {
+  "canal": "Autocosmos Argentina",
+  "id": "A9KDRAxOr9w",
+  "titulo": "Test nueva Honda HR-V | ¿La tercera es la vencida?",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "HONDA|WR-V": {
+  "canal": "MatiasAntico",
+  "id": "OzhSM7skj98",
+  "titulo": "Honda WR-V - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "HYUNDAI|CRETA": {
+  "canal": "Autocosmos Argentina",
+  "id": "jkMJoUr5w00",
+  "titulo": "Test Hyundai Creta | ¿Tiene la suficiente potencia para nuestro país?",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
  "HYUNDAI|HB20": {
   "canal": "Autocosmos Argentina",
   "id": "nTOTzQtD5Qc",
   "titulo": "Test Drive Hyundai HB20 | Autocosmos",
   "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "JEEP|COMMANDER": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "_1lTu8OPEIM",
+  "titulo": "Nueva Jeep Commander 2026 | Precios, versiones, motores, equipamiento y todas las características",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
  },
  "JEEP|COMPASS": {
   "canal": "Argentina Motor (Motorizando)",
@@ -143,17 +257,59 @@
   "titulo": "Nuevo Jeep Renegade Sport TURBO T270 2025 | Precio, motor, equipamiento y todas las características",
   "url_canal": "https://www.youtube.com/@ArgentinaMotor"
  },
+ "KIA|K3": {
+  "canal": "Pablo Epifanio",
+  "id": "SDuKMgaIt4I",
+  "titulo": "Kia K3 Cross GT-Line: prueba de manejo",
+  "url_canal": "https://www.youtube.com/@PablitoEpifanio"
+ },
  "MERCEDES BENZ|SPRINTER": {
   "canal": "MatiasAntico",
   "id": "0kNAt0uwjEY",
   "titulo": "Mercedes-Benz Sprinter 316 4+1 - Test - Matías Antico - TN Autos",
   "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
+ "MG|3 HYBRID": {
+  "canal": "ExoticosUY",
+  "id": "vNBtC76Cs58",
+  "titulo": "Review: MG 3 Hybrid+",
+  "url_canal": "https://www.youtube.com/@ExoticosUY"
+ },
+ "MG|ZS": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "4nS6je5jmts",
+  "titulo": "MG ZS, ¿candidato a auto del año?",
+  "url_canal": "https://www.youtube.com/@mausorio"
+ },
  "NISSAN|FRONTIER PICK - UP": {
   "canal": "MatiasAntico",
   "id": "rLAuL9W0xBo",
   "titulo": "Nissan Frontier X-Gear 7AT - Test - Matías Antico - TN Autos",
   "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "NISSAN|KICKS": {
+  "canal": "Motorizando Garage",
+  "id": "IydyEoC8EZw",
+  "titulo": "Nissan Kicks Exclusive 2026 | Es más que una cara bonita | Test Drive",
+  "url_canal": "https://www.youtube.com/@Motorizandoarg"
+ },
+ "NISSAN|KICKS PLAY": {
+  "canal": "Autocosmos Argentina",
+  "id": "HIwKwNxcXt4",
+  "titulo": "Test Nissan Kicks 2021 Renovación que suma carisma | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "NISSAN|VERSA": {
+  "canal": "MatiasAntico",
+  "id": "R4TJSno42D4",
+  "titulo": "Nissan Versa Exclusive - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "NISSAN|XTRAIL": {
+  "canal": "Autocosmos Argentina",
+  "id": "GDh7RwO8jBk",
+  "titulo": "Test Drive Nissan X-Trail e-Power | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
  },
  "PEUGEOT|2008": {
   "canal": "VisionMotor - Andres Perez Loizeau",
@@ -167,13 +323,55 @@
   "titulo": "Nuevo Peugeot 208 2025: versiones, equipamiento y precios",
   "url_canal": "https://www.youtube.com/@mausorio"
  },
+ "PEUGEOT|3008": {
+  "canal": "Pablo Epifanio",
+  "id": "_HjIILcnogI",
+  "titulo": "Nuevo Peugeot 3008: Prueba de manejo",
+  "url_canal": "https://www.youtube.com/@PablitoEpifanio"
+ },
  "PEUGEOT|PARTNER": {
   "canal": "MatiasAntico",
   "id": "6tFxqJe06-Y",
   "titulo": "Peugeot Partner Patagónica HDI - Test - Matías Antico",
   "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
+ "RAM|DAKOTA PICK - UP": {
+  "canal": "Autocosmos Argentina",
+  "id": "7VGjeUjz1EY",
+  "titulo": "Test RAM Dakota ¿Más que una Titano, Landtrek, 1200 y...?",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "RAM|RAMPAGE PICK -UP": {
+  "canal": "MatiasAntico",
+  "id": "Pf_ixrNL8u0",
+  "titulo": "RAM Rampage Rebel y R/T - Contacto - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "RENAULT|ARKANA E-TECH": {
+  "canal": "LA NACION",
+  "id": "-paq3kKq61o",
+  "titulo": "El SUV con espíritu de Fórmula 1 que se vende en la Argentina - Test Drive Renault Arkana",
+  "url_canal": "https://www.youtube.com/@lanacion"
+ },
+ "RENAULT|DUSTER": {
+  "canal": "MatiasAntico",
+  "id": "giXzoCjaqLI",
+  "titulo": "Renault Duster 1.3 Turbo CVT (4x2) - Test - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "RENAULT|DUSTER OROCH PICK - UP": {
+  "canal": "Automóviles Colombia",
+  "id": "AwleFDQ_ZBs",
+  "titulo": "Renault Oroch Turbo 2024 - Prueba & Análisis en Detalle",
+  "url_canal": "https://www.youtube.com/@automovilcol"
+ },
  "RENAULT|KANGOO": {
+  "canal": "Autocosmos Argentina",
+  "id": "0GkcqERiQps",
+  "titulo": "Test Drive Renault Kangoo Express made in Argentina | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "RENAULT|KANGOO II EXPRESS": {
   "canal": "Autocosmos Argentina",
   "id": "0GkcqERiQps",
   "titulo": "Test Drive Renault Kangoo Express made in Argentina | Autocosmos",
@@ -191,6 +389,18 @@
   "titulo": "Renault Kwid (re) lanzamiento en Argentina (casi) en Vivo",
   "url_canal": "https://www.youtube.com/@autocosmos-ar"
  },
+ "RENAULT|SANDERO": {
+  "canal": "Autocosmos Argentina",
+  "id": "h2AH_Bqc32o",
+  "titulo": "Test Renault Sandero CVT  | Autocosmos",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "RENAULT|SANDERO STEPWAY": {
+  "canal": "auto test",
+  "id": "6YnIti-r7_Y",
+  "titulo": "Renault Stepway 2024: lo que tenés que saber",
+  "url_canal": "https://www.youtube.com/@AutoTestArg"
+ },
  "TOYOTA|COROLLA": {
   "canal": "Argentina Motor (Motorizando)",
   "id": "8kTl6_XBu6M",
@@ -203,6 +413,12 @@
   "titulo": "Toyota Corolla Cross 2025 Lanzamiento en Argentina | Autocosmos",
   "url_canal": "https://www.youtube.com/@autocosmos-ar"
  },
+ "TOYOTA|HIACE": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "ZRMdNt3hgUE",
+  "titulo": "Cómo es Hiace, el nuevo utilitario de Toyota que se hará en Argentina",
+  "url_canal": "https://www.youtube.com/@mausorio"
+ },
  "TOYOTA|HILUX PICK - UP": {
   "canal": "MatiasAntico",
   "id": "80eyq7Icnrw",
@@ -213,6 +429,12 @@
   "canal": "MatiasAntico",
   "id": "wNfSWDcGCeQ",
   "titulo": "Toyota SW4 Diamond - Minitest - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
+ },
+ "TOYOTA|RAV - 4": {
+  "canal": "MatiasAntico",
+  "id": "REO1LTa-M5E",
+  "titulo": "Toyota Rav4 Hybrid Limited 2WD - Test - Matías Antico - TN Autos",
   "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  },
  "TOYOTA|YARIS": {
@@ -268,5 +490,11 @@
   "id": "U_NrfdvORRA",
   "titulo": "Preventa del nuevo ícono: Volkswagen Tera || Volkswagen Argentina",
   "url_canal": "https://www.youtube.com/@volkswagenargoficial"
+ },
+ "VOLKSWAGEN|VIRTUS": {
+  "canal": "MatiasAntico",
+  "id": "vScBcOT4IjA",
+  "titulo": "Volkswagen Virtus 1.6 AT - Minitest - Matías Antico - TN Autos",
+  "url_canal": "https://www.youtube.com/@MatiasAnticoTV"
  }
 }
