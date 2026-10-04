@@ -23,4 +23,5 @@ npx wrangler secret put GEMINI_API_KEY
 npx wrangler deploy
 ```
 
-4. Poner la URL que devuelve `deploy` (https://autos-ar-asistente.<cuenta>.workers.dev) en `IA_URL` de `sitio/js/asistente.js`.
+4. La primera vez `deploy` pide registrar un subdominio de workers.dev: correrlo en una terminal propia para poder responder (en una no interactiva toma "no"). El certificado del subdominio nuevo tarda unos minutos.
+5. Poner la URL que devuelve `deploy` (https://autos-ar-asistente.<cuenta>.workers.dev) en `IA_URL` de `sitio/js/asistente.js`.

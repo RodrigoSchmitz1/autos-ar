@@ -181,3 +181,24 @@ svg text { fill: var(--suave); font-size: 11px; }
 .ficha-completa td.si { color: var(--bien); font-weight: 700; }
 .ficha-completa td.no { color: var(--suave); }
 .ficha-completa .fila-seccion td { font-weight: 700; background: var(--acento-suave); }
+
+/* ---------- Galeria ---------- */
+.galeria { display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px; margin: 8px 0 28px; align-items: start; }
+@media (max-width: 760px) { .galeria { grid-template-columns: 1fr; } }
+.galeria-video iframe, .video-portada { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: var(--radio); display: block; }
+.video-portada { position: relative; padding: 0; overflow: hidden; cursor: pointer; background: var(--color, #222); box-shadow: var(--sombra); }
+.video-portada img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.video-play { position: absolute; inset: 0; margin: auto; width: 72px; height: 72px; border-radius: 50%; display: grid; place-items: center; background: rgba(0, 0, 0, 0.6); color: #fff; font-size: 1.8rem; transition: transform 0.15s ease; }
+.video-portada:hover .video-play { transform: scale(1.08); background: #e63946; }
+.galeria-video .nota { margin: 6px 2px 0; }
+.galeria-lateral { display: grid; gap: 12px; }
+.galeria-fotos { display: grid; gap: 10px; }
+.galeria-foto { position: relative; padding: 0; border: none; border-radius: 12px; overflow: hidden; cursor: zoom-in; background: var(--borde); box-shadow: var(--sombra); }
+.galeria-foto img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; display: block; transition: transform 0.2s ease; }
+.galeria-foto:hover img { transform: scale(1.04); }
+.galeria-etiqueta { position: absolute; left: 8px; bottom: 8px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; background: rgba(0, 0, 0, 0.6); color: #fff; padding: 2px 8px; border-radius: 999px; }
+.boton-oficial { display: block; text-align: center; padding: 12px 16px; border-radius: 999px; font-weight: 700; text-decoration: none; color: #fff; background: linear-gradient(120deg, #1d2b64, #3a5bdc 60%, #8338ec); }
+.boton-oficial:hover { filter: brightness(1.08); }
+.lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(10, 12, 18, 0.88); display: grid; place-items: center; padding: 16px; cursor: zoom-out; }
+.lightbox img { max-width: min(1000px, 100%); max-height: 80vh; border-radius: 12px; }
+.lightbox-credito { color: #ddd; font-size: 0.85rem; margin: 8px 0 0; text-align: center; }

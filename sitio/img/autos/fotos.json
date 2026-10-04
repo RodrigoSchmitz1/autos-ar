@@ -11,6 +11,14 @@
   "archivo": "2023 Chevrolet Montana Premier (Brazil) front view 01.jpg",
   "autor": "Autosdeprimera",
   "imagen": "chevrolet-montana-pick-up.webp",
+  "interior": {
+   "archivo": "2024 Chevrolet Montana Premier (Colombia) interior.png",
+   "autor": "Autosdeprimera",
+   "imagen": "chevrolet-montana-pick-up-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Montana_Premier_(Colombia)_interior.png",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chevrolet_Montana_Premier_(Brazil)_front_view_01.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
@@ -27,6 +35,14 @@
   "archivo": "2025 Chevrolet S-10 2.8 Duramax LTZ 4x4.jpg",
   "autor": "Just a Man",
   "imagen": "chevrolet-s-10-pick-up.webp",
+  "interior": {
+   "archivo": "Chevrolet S10 LTZ 2026 Interior.jpg",
+   "autor": "NeroRezend",
+   "imagen": "chevrolet-s-10-pick-up-interior.webp",
+   "licencia": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_S10_LTZ_2026_Interior.jpg",
+   "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_S-10_2.8_Duramax_LTZ_4x4.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
@@ -75,6 +91,14 @@
   "archivo": "2023 Fiat Argo 1.3 Drive (facelift, Brazil).jpg",
   "autor": "Maxi-Napo-99",
   "imagen": "fiat-argo.webp",
+  "interior": {
+   "archivo": "Interior Fiat Argo 1.0 2022.jpg",
+   "autor": "Arthur RPereira",
+   "imagen": "fiat-argo-interior.webp",
+   "licencia": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Interior_Fiat_Argo_1.0_2022.jpg",
+   "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Argo_1.3_Drive_(facelift,_Brazil).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
@@ -83,6 +107,14 @@
   "archivo": "2024 Fiat Cronos 1.3 GSE Precision.jpg",
   "autor": "Just a Man",
   "imagen": "fiat-cronos.webp",
+  "interior": {
+   "archivo": "2025 Fiat Cronos interior.jpg",
+   "autor": "Just a Man",
+   "imagen": "fiat-cronos-interior.webp",
+   "licencia": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Fiat_Cronos_interior.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+  },
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Cronos_1.3_GSE_Precision.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
@@ -91,6 +123,14 @@
   "archivo": "2023 Fiat Fastback (Colombia) front view.png",
   "autor": "Autosdeprimera",
   "imagen": "fiat-fastback.webp",
+  "interior": {
+   "archivo": "2023 Fiat Fastback (Colombia) interior.png",
+   "autor": "Autosdeprimera",
+   "imagen": "fiat-fastback-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fastback_(Colombia)_interior.png",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fastback_(Colombia)_front_view.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
@@ -107,6 +147,14 @@
   "archivo": "Fiat Mobi Trekking 1.0 2021 in Montevideo (front) (cropped).jpg",
   "autor": "NaBUru38",
   "imagen": "fiat-mobi.webp",
+  "interior": {
+   "archivo": "Fiat Mobi 1.0 Like interior.jpg",
+   "autor": "Heduardo55",
+   "imagen": "fiat-mobi-interior.webp",
+   "licencia": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_1.0_Like_interior.jpg",
+   "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_Trekking_1.0_2021_in_Montevideo_(front)_(cropped).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -115,6 +163,14 @@
   "archivo": "2023 Fiat Pulse Impetus (Colombia) front view 01.jpg",
   "autor": "Autosdeprimera",
   "imagen": "fiat-pulse.webp",
+  "interior": {
+   "archivo": "2023 Fiat Pulse Impetus (Colombia) interior.jpg",
+   "autor": "Autosdeprimera",
+   "imagen": "fiat-pulse-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Pulse_Impetus_(Colombia)_interior.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Pulse_Impetus_(Colombia)_front_view_01.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
@@ -147,6 +203,14 @@
   "archivo": "2022 Ford Maverick XLT AWD, Front Right, 10-10-2021.jpg",
   "autor": "Elise240SX",
   "imagen": "ford-maverick-pick-up.webp",
+  "interior": {
+   "archivo": "2022 Ford Maverick interior.jpg",
+   "autor": "deathpallie325",
+   "imagen": "ford-maverick-pick-up-interior.webp",
+   "licencia": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_interior.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_AWD,_Front_Right,_10-10-2021.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -163,6 +227,14 @@
   "archivo": "2023 Ford Territory KIMLIN88 front.jpg",
   "autor": "LuvsMG481",
   "imagen": "ford-territory.webp",
+  "interior": {
+   "archivo": "Ford Territory (Equator Sport) Titanium 2023 interior.jpg",
+   "autor": "Ethan Llamas",
+   "imagen": "ford-territory-interior.webp",
+   "licencia": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Territory_(Equator_Sport)_Titanium_2023_interior.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Territory_KIMLIN88_front.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -171,6 +243,14 @@
   "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) front view.png",
   "autor": "Autosdeprimera",
   "imagen": "hyundai-hb20.webp",
+  "interior": {
+   "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) interior 01.png",
+   "autor": "Autosdeprimera",
+   "imagen": "hyundai-hb20-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_interior_01.png",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_front_view.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
@@ -179,6 +259,14 @@
   "archivo": "Jeep Compass (MP) PHEV Facelift 1X7A0140.jpg",
   "autor": "Alexander Migl",
   "imagen": "jeep-compass.webp",
+  "interior": {
+   "archivo": "2022 Jeep Compass interior.jpg",
+   "autor": "deathpallie325",
+   "imagen": "jeep-compass-interior.webp",
+   "licencia": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Jeep_Compass_interior.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_(MP)_PHEV_Facelift_1X7A0140.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -187,6 +275,14 @@
   "archivo": "Jeep Renegade 4xe 1X7A6025.jpg",
   "autor": "Alexander Migl",
   "imagen": "jeep-renegade.webp",
+  "interior": {
+   "archivo": "\" 15 - ITALY - Jeep (Fiat) showroom in Milan 02.jpg",
+   "autor": "Pava from Italy",
+   "imagen": "jeep-renegade-interior.webp",
+   "licencia": "CC BY-SA 3.0 it",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22_15_-_ITALY_-_Jeep_(Fiat)_showroom_in_Milan_02.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/it/deed.en"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_4xe_1X7A6025.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -219,6 +315,14 @@
   "archivo": "Peugeot 208 PureTech 130 EAT8 Allure GT-Line (II) – f 17102021.jpg",
   "autor": "© M 93",
   "imagen": "peugeot-208.webp",
+  "interior": {
+   "archivo": "2020 Peugeot 208 1.6 Feline interior.png",
+   "autor": "Garagem do Jabulas",
+   "imagen": "peugeot-208-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2020_Peugeot_208_1.6_Feline_interior.png",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY-SA 3.0 de",
   "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_(II)_%E2%80%93_f_17102021.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
@@ -267,6 +371,14 @@
   "archivo": "2022 Toyota Corolla Cross L FWD, Front Left, 11-21-2021.jpg",
   "autor": "Elise240SX",
   "imagen": "toyota-corolla-cross.webp",
+  "interior": {
+   "archivo": "Toyota Corolla Cross 2026 interior.jpg",
+   "autor": "Nissangeniss",
+   "imagen": "toyota-corolla-cross-interior.webp",
+   "licencia": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_2026_interior.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Corolla_Cross_L_FWD,_Front_Left,_11-21-2021.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -299,6 +411,14 @@
   "archivo": "Toyota Yaris Cross S HEV GR (2024-02-21).jpg",
   "autor": "Nathanferdinand",
   "imagen": "toyota-yaris-cross.webp",
+  "interior": {
+   "archivo": "2024 Toyota Yaris Cross 1.5 S HEV dashboard, 06-27-2024.jpg",
+   "autor": "Ethan Llamas",
+   "imagen": "toyota-yaris-cross-interior.webp",
+   "licencia": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Yaris_Cross_1.5_S_HEV_dashboard,_06-27-2024.jpg",
+   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_S_HEV_GR_(2024-02-21).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -315,6 +435,14 @@
   "archivo": "2021 Volkswagen Nivus 200 TSi Comfortline.jpg",
   "autor": "RL GNZLZ",
   "imagen": "volkswagen-nivus.webp",
+  "interior": {
+   "archivo": "Volkswagen Nivus Highline (Brazil) interior.png",
+   "autor": "Garagem do Jabulas",
+   "imagen": "volkswagen-nivus-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Nivus_Highline_(Brazil)_interior.png",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY-SA 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2021_Volkswagen_Nivus_200_TSi_Comfortline.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
@@ -355,6 +483,14 @@
   "archivo": "2025 Volkswagen Tera 1.0 High (Colombia) front view.png",
   "autor": "Autosdeprimera",
   "imagen": "volkswagen-tera.webp",
+  "interior": {
+   "archivo": "2025 Volkswagen Tera 1.0 High (Colombia) interior 01.png",
+   "autor": "Autosdeprimera",
+   "imagen": "volkswagen-tera-interior.webp",
+   "licencia": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Tera_1.0_High_(Colombia)_interior_01.png",
+   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+  },
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Tera_1.0_High_(Colombia)_front_view.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"

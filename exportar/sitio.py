@@ -10,6 +10,7 @@ que el pipeline regenera cada dia despues de dbt. La "API" son los archivos.
                    y gasoil por provincia
   costo.json       componentes del costo de cada version 0 km (comparador)
   fichas.json      por familia: depreciacion, service, repuestos, mercado
+  oficiales.json   pagina oficial de cada modelo (enlace al 360 y configurador)
   equipamiento.json  por familia con ficha oficial: versiones en orden (con
                    precio 0 km), tabla de equipamiento y que suma cada version
 
@@ -233,6 +234,15 @@ def main():
         sumas.setdefault(str(orden), {"agrega": [], "mejora": [], "quita": []})[cambio].append(
             item if cambio != "mejora" else [item, antes, despues])
     tamanios["equipamiento.json"] = escribir("equipamiento.json", equipamiento)
+
+    # ---------- oficiales.json ----------
+    # Pagina oficial de cada modelo (o de la marca, si su sitio no deja
+    # verificar las de modelo): el sitio enlaza ahi para el 360 y el
+    # configurador, que tienen derechos y no se copian.
+    import csv
+    with open(os.path.join("exportar", "sitios_oficiales.csv"), encoding="utf-8") as f:
+        oficiales = {f"{r['marca']}|{r['familia']}": {"alcance": r["alcance"], "url": r["url"]} for r in csv.DictReader(f)}
+    tamanios["oficiales.json"] = escribir("oficiales.json", oficiales)
 
     # ---------- meta.json ----------
     meta = {

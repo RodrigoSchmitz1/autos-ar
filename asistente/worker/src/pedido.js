@@ -61,7 +61,11 @@ export async function interpretarConGemini(texto, clave, modelo, fetchFn = fetch
     }),
   });
   if (!r.ok) {
-    const error = new Error(`Gemini respondio ${r.status}`);
+    // El mensaje de Gemini ("API key not valid", cuota, etc.) sirve para diagnosticar; nunca incluye la clave.
+    const crudo = await r.text().catch(() => "");
+    let detalle;
+    try { detalle = JSON.parse(crudo).error?.message; } catch { detalle = crudo.replace(/\s+/g, " ").trim(); }
+    const error = new Error(`Gemini respondio ${r.status}${detalle ? `: ${detalle.slice(0, 200)}` : ""}`);
     error.status = r.status;
     throw error;
   }

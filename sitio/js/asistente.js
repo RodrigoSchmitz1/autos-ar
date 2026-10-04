@@ -5,7 +5,7 @@ import { responder, explicar, nombreFamilia, POR_DEFECTO } from "./respuesta.js"
 
 // Intermediario de Gemini (Cloudflare Worker, ver asistente/worker/). Vacio: sin
 // IA, el asistente funciona solo con reglas y el boton no aparece.
-const IA_URL = "";
+const IA_URL = "https://autos-ar-asistente.rodri-schmitz-7e9.workers.dev";
 
 const COMPONENTES = [
   ["combustible_anual", "Combustible", "--c-combustible"], ["service_anual", "Service", "--c-service"],

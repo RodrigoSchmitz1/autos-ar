@@ -1,6 +1,7 @@
 import { cargar, pesos, numero, decimal, el, coincide, pie } from "./comun.js";
 import { cargarFotos, foto } from "./autos.js";
 import { seccionVersiones } from "./versiones.js";
+import { cargarMedios, seccionGaleria } from "./galeria.js";
 
 const $ = (id) => document.getElementById(id);
 const SVG = "http://www.w3.org/2000/svg";
@@ -47,7 +48,7 @@ function mostrar(f) {
   $("titulo").textContent = `${f.marca} ${f.familia}`;
   $("foto").replaceChildren(foto(f.marca, f.familia, "grande"));
   history.replaceState(null, "", `?m=${encodeURIComponent(`${f.marca}|${f.familia}`)}`);
-  const partes = [...seccionVersiones(equipamiento[`${f.marca}|${f.familia}`])];
+  const partes = [...seccionGaleria(f.marca, f.familia), ...seccionVersiones(equipamiento[`${f.marca}|${f.familia}`])];
   if (f.depreciacion) {
     const a5 = f.depreciacion.find((p) => p[0] === 5);
     partes.push(el("h2", { text: "Cuánto valor conserva" }),
@@ -98,7 +99,10 @@ function sugerir() {
 
 async function iniciar() {
   let datos;
-  [datos, equipamiento] = await Promise.all([cargar("fichas.json"), cargar("equipamiento.json").catch(() => ({})), cargarFotos()]);
+  let oficiales;
+  [datos, equipamiento, oficiales] = await Promise.all([cargar("fichas.json"), cargar("equipamiento.json").catch(() => ({})),
+    cargar("oficiales.json").catch(() => ({})), cargarFotos()]);
+  await cargarMedios(oficiales);
   fichas = datos.fichas;
   // Primero las que tienen mas datos y mas ventas.
   fichas.sort((a, b) => (b.mercado || []).reduce((s, m) => s + (m[1] || 0), 0) - (a.mercado || []).reduce((s, m) => s + (m[1] || 0), 0));

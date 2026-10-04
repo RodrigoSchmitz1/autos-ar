@@ -1,0 +1,86 @@
+{
+ "CHEVROLET|TRACKER": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "88RGBJENPVA",
+  "titulo": "Nueva Chevrolet Tracker 2026 | Todos los cambios, características, versiones y motor.",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "FIAT|CRONOS": {
+  "canal": "FIAT Argentina",
+  "id": "37uDhRRY_gI",
+  "titulo": "Fiat Cronos, el auto de los argentinos.",
+  "url_canal": "https://www.youtube.com/@FiatAutoArgentina"
+ },
+ "FORD|RANGER PICK - UP": {
+  "canal": "Mundo Motor",
+  "id": "IA31LnsgxoI",
+  "titulo": "FORD RANGER 2024 LLEGA A ARGENTINA VERSIONES Y NOVEDADES",
+  "url_canal": "https://www.youtube.com/@mundomotor6193"
+ },
+ "FORD|TERRITORY": {
+  "canal": "Ford Argentina",
+  "id": "GwMNii2AtHQ",
+  "titulo": "Nueva Ford Territory",
+  "url_canal": "https://www.youtube.com/@fordargentina"
+ },
+ "PEUGEOT|2008": {
+  "canal": "VisionMotor - Andres Perez Loizeau",
+  "id": "kNPfYefSHQ8",
+  "titulo": "Nuevo Peugeot 2008, los detalles de la nueva generación del SUV que ya está en los concesionarios",
+  "url_canal": "https://www.youtube.com/@visionmotor"
+ },
+ "PEUGEOT|208": {
+  "canal": "Mauro Osorio // Autos",
+  "id": "UoAfNW0IEpA",
+  "titulo": "Nuevo Peugeot 208 2025: versiones, equipamiento y precios",
+  "url_canal": "https://www.youtube.com/@mausorio"
+ },
+ "RENAULT|KARDIAN": {
+  "canal": "Renault Argentina",
+  "id": "iHUglQ9O87U",
+  "titulo": "Renault Kardian: montañas argentinas",
+  "url_canal": "https://www.youtube.com/@RenaultArg"
+ },
+ "RENAULT|KWID": {
+  "canal": "Autocosmos Argentina",
+  "id": "JPBdHZWvL88",
+  "titulo": "Renault Kwid (re) lanzamiento en Argentina (casi) en Vivo",
+  "url_canal": "https://www.youtube.com/@autocosmos-ar"
+ },
+ "TOYOTA|YARIS": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "o-dTBEqeM-Q",
+  "titulo": "Nuevo Toyota Yaris (2025) | Precios, versiones, equipamiento, motor y características.",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "TOYOTA|YARIS CROSS": {
+  "canal": "VisionMotor - Andres Perez Loizeau",
+  "id": "G5CObiBYXIw",
+  "titulo": "Toyota Yaris Cross: Llega con variantes nafteras o híbridas y con ADAS en TODAS las versiones",
+  "url_canal": "https://www.youtube.com/@visionmotor"
+ },
+ "VOLKSWAGEN|AMAROK PICK - UP": {
+  "canal": "Al Volante CL",
+  "id": "8IOjKoZ3f5s",
+  "titulo": "¡Ahora TODAS son V6! - Lanzamiento VW Amarok ",
+  "url_canal": "https://www.youtube.com/@alvolantechile"
+ },
+ "VOLKSWAGEN|POLO": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "WKBdCJRpHxw",
+  "titulo": "Nuevos Volkswagen Polo Robust y Track 2026 | ¿Qué cambian? | Precio, motor y equipamiento",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "VOLKSWAGEN|TAOS": {
+  "canal": "Argentina Motor (Motorizando)",
+  "id": "_W9m-ZcqnSA",
+  "titulo": "Nueva Volkswagen Taos 2026 | Precios, versiones, motores y equipamiento.",
+  "url_canal": "https://www.youtube.com/@ArgentinaMotor"
+ },
+ "VOLKSWAGEN|TERA": {
+  "canal": "volkswagenargoficial",
+  "id": "U_NrfdvORRA",
+  "titulo": "Preventa del nuevo ícono: Volkswagen Tera || Volkswagen Argentina",
+  "url_canal": "https://www.youtube.com/@volkswagenargoficial"
+ }
+}

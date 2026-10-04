@@ -3,6 +3,10 @@
 name = "autos-ar-asistente"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
+# Solo la direccion de workers.dev (https://autos-ar-asistente.rodri-schmitz-7e9.workers.dev),
+# sin direcciones extra por version.
+workers_dev = true
+preview_urls = false
 
 [vars]
 # Verificar que el alias exista antes de desplegar (en SEPA funciono este).

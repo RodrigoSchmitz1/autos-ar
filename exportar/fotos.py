@@ -11,6 +11,8 @@ Se corre a mano cuando cambia la lista, no en el pipeline: las fotos quedan en
 el repo (sitio/img/autos/) y el sitio no depende de Commons para mostrarlas.
 
   sitio/img/autos/<marca>-<familia>.webp   480x320, recortada al centro (3:2)
+  sitio/img/autos/<marca>-<familia>-interior.webp   idem, el interior
+                                           (exportar/fotos_interior.csv)
   sitio/img/autos/fotos.json               "MARCA|FAMILIA" -> archivo, autor,
                                            licencia y pagina de la foto
 
@@ -30,6 +32,7 @@ from PIL import Image
 from ingesta.comun import pedir
 
 LISTA = os.path.join("exportar", "fotos_modelos.csv")
+LISTA_INTERIOR = os.path.join("exportar", "fotos_interior.csv")
 DESTINO = os.path.join("sitio", "img", "autos")
 API = "https://commons.wikimedia.org/w/api.php"
 ANCHO, ALTO = 480, 320
@@ -92,15 +95,12 @@ def recortar(contenido):
     return salida.getvalue()
 
 
-def main():
-    with open(LISTA, encoding="utf-8") as f:
-        lista = list(csv.DictReader(f))
-    os.makedirs(DESTINO, exist_ok=True)
-    meta = metadatos([fila["archivo_commons"] for fila in lista])
+def procesar(lista, meta, sufijo=""):
+    """Baja (si falta) y recorta cada foto; devuelve "MARCA|FAMILIA" -> datos y credito."""
     fotos = {}
     for fila in lista:
         m = meta[fila["archivo_commons"]]
-        nombre = f"{slug(fila['marca'])}-{slug(fila['familia'])}.webp"
+        nombre = f"{slug(fila['marca'])}-{slug(fila['familia'])}{sufijo}.webp"
         ruta = os.path.join(DESTINO, nombre)
         if not os.path.exists(ruta):
             with open(ruta, "wb") as f:
@@ -113,11 +113,27 @@ def main():
     sin_licencia = [k for k, v in fotos.items() if not v["licencia"]]
     if sin_licencia:
         raise ValueError(f"fotos sin licencia en Commons: {sin_licencia}")
+    return fotos
+
+
+def main():
+    listas = {}
+    for nombre, ruta in (("exterior", LISTA), ("interior", LISTA_INTERIOR)):
+        with open(ruta, encoding="utf-8") as f:
+            listas[nombre] = list(csv.DictReader(f))
+    os.makedirs(DESTINO, exist_ok=True)
+    meta = metadatos([fila["archivo_commons"] for lista in listas.values() for fila in lista])
+    fotos = procesar(listas["exterior"], meta)
+    # El interior va dentro de la entrada del modelo; un modelo sin foto de
+    # exterior no tiene ficha visual, asi que su interior no se usa.
+    for clave, interior in procesar(listas["interior"], meta, "-interior").items():
+        if clave in fotos:
+            fotos[clave]["interior"] = interior
     with open(os.path.join(DESTINO, "fotos.json"), "w", encoding="utf-8") as f:
         json.dump(fotos, f, ensure_ascii=False, indent=1, sort_keys=True)
-    peso = sum(os.path.getsize(os.path.join(DESTINO, v["imagen"])) for v in fotos.values())
-    print(f"{len(fotos)} fotos, {peso / 1024:.0f} KiB en {DESTINO}")
-
+    imagenes = [v["imagen"] for v in fotos.values()] + [v["interior"]["imagen"] for v in fotos.values() if "interior" in v]
+    peso = sum(os.path.getsize(os.path.join(DESTINO, n)) for n in imagenes)
+    print(f"{len(fotos)} modelos, {len(imagenes)} fotos, {peso / 1024:.0f} KiB en {DESTINO}")
 
 if __name__ == "__main__":
     main()
