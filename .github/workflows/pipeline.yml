@@ -58,6 +58,7 @@ jobs:
         run: |
           python -m ingesta.test_releases
           python -m ingesta.test_texto
+          python -m ingesta.test_robots
 
       - name: Bajar datos ya publicados
         run: python -m ingesta.releases bajar
@@ -102,6 +103,12 @@ jobs:
       - name: Ingesta repuestos
         if: ${{ !cancelled() }}
         run: python -m ingesta.repuestos
+
+      # Equipamiento por version (fichas tecnicas oficiales): como maximo una
+      # consulta por semana; robots.txt se verifica en cada ficha.
+      - name: Ingesta equipamiento
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.equipamiento
 
       - name: Publicar datos nuevos o modificados
         if: ${{ !cancelled() }}

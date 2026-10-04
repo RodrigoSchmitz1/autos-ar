@@ -10,6 +10,8 @@ que el pipeline regenera cada dia despues de dbt. La "API" son los archivos.
                    y gasoil por provincia
   costo.json       componentes del costo de cada version 0 km (comparador)
   fichas.json      por familia: depreciacion, service, repuestos, mercado
+  equipamiento.json  por familia con ficha oficial: versiones en orden (con
+                   precio 0 km), tabla de equipamiento y que suma cada version
 
 Cada familia lleva su carroceria (hatch, sedan, suv, pickup, utilitario), el
 tipo mas frecuente en DNRPA. Las fotos de los modelos van aparte: exportar/fotos.py.
@@ -202,6 +204,35 @@ def main():
     for f in fichas.values():
         f["carroceria"] = carro.get((f["marca"], f["familia"]), "hatch")
     tamanios["fichas.json"] = escribir("fichas.json", {"fichas": list(fichas.values())})
+
+    # ---------- equipamiento.json ----------
+    # Versiones de cada ficha, con la version DNRPA que les corresponde (id del
+    # comparador y precio 0 km, si DNRPA ya la registro).
+    versiones_eq = {}
+    for m, f, v, orden, vid, valor in con.sql("""
+            select e.marca, e.familia, e.version_fuente, e.orden_version,
+                   e.origen_codigo || e.marca_codigo || '-' || e.tipo_codigo || '-' || e.modelo_codigo,
+                   (select any_value(valor_0km) from mart_costo_componentes c
+                     where (c.origen_codigo, c.marca_codigo, c.tipo_codigo, c.modelo_codigo)
+                         = (e.origen_codigo, e.marca_codigo, e.tipo_codigo, e.modelo_codigo))
+            from int_equipamiento_version e order by e.marca, e.familia, e.orden_version""").fetchall():
+        versiones_eq.setdefault((m, f), []).append({"nombre": v, "id": vid, "valor_0km": limpio(valor)})
+    equipamiento = {}
+    for m, f, seccion, item, valores, fuente in con.sql("""
+            select marca, familia, seccion, item, list(valor order by orden_version), any_value(fuente_url)
+            from stg_equipamiento__items group by marca, familia, seccion, item
+            order by marca, familia, min(orden_item)""").fetchall():
+        e = equipamiento.setdefault(f"{m}|{f}", {"fuente": fuente, "versiones": versiones_eq.get((m, f), []), "secciones": []})
+        if not e["secciones"] or e["secciones"][-1]["nombre"] != seccion:
+            e["secciones"].append({"nombre": seccion, "items": []})
+        e["secciones"][-1]["items"].append([item, valores])
+    for m, f, orden, cambio, item, antes, despues in con.sql("""
+            select marca, familia, orden_version, cambio, item, valor_anterior, valor
+            from mart_equipamiento_suma order by marca, familia, orden_version, cambio, item""").fetchall():
+        sumas = equipamiento[f"{m}|{f}"].setdefault("suma", {})
+        sumas.setdefault(str(orden), {"agrega": [], "mejora": [], "quita": []})[cambio].append(
+            item if cambio != "mejora" else [item, antes, despues])
+    tamanios["equipamiento.json"] = escribir("equipamiento.json", equipamiento)
 
     # ---------- meta.json ----------
     meta = {

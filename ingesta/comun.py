@@ -1,9 +1,11 @@
-"""Utilidades compartidas por las ingestas: HTTP responsable y catalogos CKAN."""
+"""Utilidades compartidas por las ingestas: HTTP responsable, robots.txt y catalogos CKAN."""
 
 import glob
 import json
 import os
+import re
 import ssl
+import urllib.parse
 import time
 import urllib.error
 import urllib.request
@@ -55,3 +57,67 @@ def recursos_ckan(base, dataset):
         "id": r["id"], "nombre": r["name"].strip(), "formato": (r.get("format") or "").upper(),
         "url": r["url"], "modificado": r.get("last_modified") or r.get("created") or "",
     } for r in paquete["resources"]]
+
+
+# ---------- robots.txt ----------
+# urllib.robotparser no entiende comodines: lee "Disallow: /content/*" como el
+# texto literal "/content/*" y deja pasar /content/dam/ficha.pdf. Esta version
+# sigue el estandar (RFC 9309, como Google): "*" y "$", y si una regla Allow y
+# una Disallow coinciden, gana la mas larga (con empate, Allow).
+_robots = {}
+
+
+def _reglas_robots(texto, agente="autos-ar"):
+    """Reglas del grupo que aplica al agente (o al de "*"), como (allow, patron)."""
+    grupos, actual, en_reglas = [], None, False
+    for linea in texto.splitlines():
+        linea = linea.split("#", 1)[0].strip()
+        if ":" not in linea:
+            continue
+        campo, valor = (x.strip() for x in linea.split(":", 1))
+        campo = campo.lower()
+        if campo == "user-agent":
+            if actual is None or en_reglas:
+                actual = {"agentes": [], "reglas": []}
+                grupos.append(actual)
+                en_reglas = False
+            actual["agentes"].append(valor.lower())
+        elif campo in ("allow", "disallow") and actual is not None:
+            en_reglas = True
+            if valor:
+                actual["reglas"].append((campo == "allow", valor))
+    propio = [g for g in grupos if any(a != "*" and a in agente.lower() for a in g["agentes"])]
+    elegidos = propio or [g for g in grupos if "*" in g["agentes"]]
+    return [r for g in elegidos for r in g["reglas"]]
+
+
+def _coincide(patron, ruta):
+    regex = "".join(".*" if c == "*" else ("$" if c == "$" and i == len(patron) - 1 else re.escape(c))
+                    for i, c in enumerate(patron))
+    return re.match(regex, ruta) is not None
+
+
+def permitido_por_robots(url, texto_robots=None):
+    """True si robots.txt del sitio permite pedir esa URL a este proyecto."""
+    partes = urllib.parse.urlsplit(url)
+    if texto_robots is None:
+        base = f"{partes.scheme}://{partes.netloc}"
+        if base not in _robots:
+            try:
+                _robots[base] = pedir(base + "/robots.txt").decode("utf-8", "ignore")
+            except urllib.error.HTTPError as e:
+                # Sin robots.txt (404) todo esta permitido. Si el sitio nos rechaza
+                # (401/403, nos bloquea entero) o falla (5xx): nada.
+                _robots[base] = "" if e.code in (404, 410) else "User-agent: *\nDisallow: /"
+            except urllib.error.URLError:
+                return False  # no se pudo leer (red, dominio): ante la duda, no
+        texto_robots = _robots[base]
+    ruta = urllib.parse.unquote(partes.path or "/") + (f"?{partes.query}" if partes.query else "")
+    mejor = None
+    for allow, patron in _reglas_robots(texto_robots):
+        if _coincide(urllib.parse.unquote(patron), ruta):
+            largo = len(patron)
+            if mejor is None or largo > mejor[0] or (largo == mejor[0] and allow):
+                mejor = (largo, allow)
+    return True if mejor is None else mejor[1]
+

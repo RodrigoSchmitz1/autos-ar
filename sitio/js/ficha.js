@@ -1,5 +1,6 @@
 import { cargar, pesos, numero, decimal, el, coincide, pie } from "./comun.js";
 import { cargarFotos, foto } from "./autos.js";
+import { seccionVersiones } from "./versiones.js";
 
 const $ = (id) => document.getElementById(id);
 const SVG = "http://www.w3.org/2000/svg";
@@ -12,7 +13,7 @@ const PIEZAS = {
   correa_accesorios: "Correa de accesorios", amortiguador_delantero: "Amortiguador delantero",
   amortiguador_trasero: "Amortiguador trasero", amortiguador: "Amortiguador", kit_embrague: "Kit de embrague",
 };
-let fichas;
+let fichas, equipamiento = {};
 
 function svg(tag, atributos) {
   const e = document.createElementNS(SVG, tag);
@@ -46,7 +47,7 @@ function mostrar(f) {
   $("titulo").textContent = `${f.marca} ${f.familia}`;
   $("foto").replaceChildren(foto(f.marca, f.familia, "grande"));
   history.replaceState(null, "", `?m=${encodeURIComponent(`${f.marca}|${f.familia}`)}`);
-  const partes = [];
+  const partes = [...seccionVersiones(equipamiento[`${f.marca}|${f.familia}`])];
   if (f.depreciacion) {
     const a5 = f.depreciacion.find((p) => p[0] === 5);
     partes.push(el("h2", { text: "Cuánto valor conserva" }),
@@ -96,7 +97,9 @@ function sugerir() {
 }
 
 async function iniciar() {
-  fichas = (await Promise.all([cargar("fichas.json"), cargarFotos()]))[0].fichas;
+  let datos;
+  [datos, equipamiento] = await Promise.all([cargar("fichas.json"), cargar("equipamiento.json").catch(() => ({})), cargarFotos()]);
+  fichas = datos.fichas;
   // Primero las que tienen mas datos y mas ventas.
   fichas.sort((a, b) => (b.mercado || []).reduce((s, m) => s + (m[1] || 0), 0) - (a.mercado || []).reduce((s, m) => s + (m[1] || 0), 0));
   $("buscar").addEventListener("input", sugerir);

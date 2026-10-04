@@ -168,3 +168,12 @@ models:
               config:
                 where: "completo"
 
+  - name: mart_equipamiento_suma
+    description: Que suma cada version 0 km sobre la anterior de su familia (de las fichas tecnicas oficiales).
+    columns:
+      - name: cambio
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [agrega, mejora, quita]
+

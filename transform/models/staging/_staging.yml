@@ -117,3 +117,16 @@ models:
                 inclusive: false
       - name: tipo_pieza
         data_tests: [not_null]
+
+  - name: stg_equipamiento__items
+    description: Equipamiento por version de los 0 km (fichas tecnicas oficiales), ultima foto.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [marca, familia, version_fuente, item]
+    columns:
+      - name: item
+        data_tests: [not_null]
+      - name: orden_version
+        data_tests: [not_null]
+

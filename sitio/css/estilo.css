@@ -154,3 +154,30 @@ svg text { fill: var(--suave); font-size: 11px; }
 .pregunta-portada input { flex: 1 1 240px; border: none; padding: 12px 14px; border-radius: 999px; }
 .pregunta-portada .boton { border: none; cursor: pointer; }
 .enlace-claro { color: rgba(255, 255, 255, 0.85); font-size: 0.95rem; }
+
+/* ---------- Que suma cada version ---------- */
+.escalera { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); align-items: start; margin: 12px 0 16px; }
+.escalon { background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio); box-shadow: var(--sombra); overflow: hidden; }
+.escalon-cabeza { padding: 14px 14px 12px; color: #fff; background: linear-gradient(135deg, color-mix(in srgb, #3a86ff calc((1 - var(--paso)) * 100%), #8338ec), color-mix(in srgb, #00b4d8 calc((1 - var(--paso)) * 100%), #ef476f)); }
+.escalon-nombre { font-weight: 800; font-size: 1.05rem; letter-spacing: -0.01em; }
+.escalon-precio { font-size: 1.5rem; font-weight: 800; }
+.escalon-salto { font-size: 0.82rem; opacity: 0.92; }
+.escalon-cuerpo { padding: 10px 14px 14px; }
+.suma { list-style: none; margin: 0 0 6px; padding: 0; font-size: 0.86rem; display: grid; gap: 4px; }
+.suma li { padding-left: 22px; position: relative; line-height: 1.35; }
+.suma li::before { position: absolute; left: 0; top: 0; font-weight: 800; }
+.suma.agrega li::before { content: "✓"; color: var(--bien); }
+.suma.mejora li::before { content: "↑"; color: var(--acento); }
+.suma.quita li { color: var(--suave); text-decoration: line-through; text-decoration-color: rgba(0, 0, 0, 0.25); }
+.suma.quita li::before { content: "–"; color: var(--suave); }
+.ver-mas { border: none; background: none; color: var(--acento); padding: 0; font-size: 0.85rem; cursor: pointer; }
+.leyenda-suma { display: flex; gap: 14px; font-size: 0.82rem; color: var(--suave); }
+.leyenda-suma span::before { font-weight: 800; margin-right: 4px; }
+.leyenda-suma .agrega::before { content: "✓"; color: var(--bien); }
+.leyenda-suma .mejora::before { content: "↑"; color: var(--acento); }
+.leyenda-suma .quita::before { content: "–"; }
+.ficha-completa { margin: 8px 0 24px; }
+.ficha-completa summary { cursor: pointer; color: var(--acento); font-weight: 600; margin-bottom: 8px; }
+.ficha-completa td.si { color: var(--bien); font-weight: 700; }
+.ficha-completa td.no { color: var(--suave); }
+.ficha-completa .fila-seccion td { font-weight: 700; background: var(--acento-suave); }
