@@ -1,5 +1,5 @@
 import { cargar, pesos, numero, millones, fecha, el, pie } from "./comun.js";
-import { cargarFotos, foto } from "./autos.js";
+import { cargarFotos, foto, recorte, colorDe } from "./autos.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -9,20 +9,48 @@ function nombreCorto(familia) {
 }
 const marcaLinda = (m) => m.charAt(0) + m.slice(1).toLowerCase();
 
+// El auto recortado sobre un fondo claro de estudio; sin recorte, la foto comun.
+function fotoTarjeta(marca, familia) {
+  const r = recorte(marca, familia);
+  return r ? el("div", { class: "auto-estudio" }, r) : foto(marca, familia);
+}
+
 function tarjeta(item, puesto, cuerpo) {
   const t = el("a", { class: "auto-tarjeta", href: `ficha.html?m=${encodeURIComponent(`${item.marca}|${item.familia}`)}` },
-    el("div", { class: "auto-foto" }, foto(item.marca, item.familia), el("div", { class: "puesto", text: puesto })),
+    el("div", { class: "auto-foto" }, fotoTarjeta(item.marca, item.familia), el("div", { class: "puesto", text: puesto })),
     el("div", { class: "auto-cuerpo" },
       el("div", { class: "marca-auto", text: marcaLinda(item.marca) }),
       el("p", { class: "nombre", text: nombreCorto(item.familia) }), cuerpo));
   return t;
 }
 
+// Portada: los mas vendidos con recorte, uno por vez, grandes, con su nombre.
+function portada(vendidos) {
+  const autos = vendidos.map((v, i) => ({ ...v, puesto: i + 1, img: recorte(v.marca, v.familia, "portada-recorte") })).filter((v) => v.img).slice(0, 5);
+  const caja = $("autos-portada");
+  if (!autos.length) { caja.replaceChildren(...vendidos.slice(0, 4).map((v) => foto(v.marca, v.familia))); return; }
+  const nombre = el("a", { class: "portada-nombre" });
+  const brillo = el("div", { class: "portada-brillo" });
+  caja.classList.add("portada-autos");
+  caja.replaceChildren(brillo, ...autos.map((a) => a.img), el("div", { class: "hero-sombra" }), nombre);
+  let i = 0;
+  const mostrar = () => {
+    autos.forEach((a, k) => a.img.classList.toggle("activa", k === i));
+    const a = autos[i];
+    brillo.style.setProperty("--marca", colorDe(a.marca));
+    nombre.href = `ficha.html?m=${encodeURIComponent(`${a.marca}|${a.familia}`)}`;
+    nombre.replaceChildren(el("span", { text: `N.º ${a.puesto} en ventas` }), el("strong", { text: `${marcaLinda(a.marca)} ${nombreCorto(a.familia)}` }));
+  };
+  mostrar();
+  if (autos.length > 1 && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    setInterval(() => { i = (i + 1) % autos.length; mostrar(); }, 4500);
+  }
+}
+
 async function iniciar() {
   const [home, meta] = await Promise.all([cargar("home.json"), cargar("meta.json"), cargarFotos()]);
 
-  // Portada: los cuatro mas vendidos.
-  $("autos-portada").replaceChildren(...home.vendidos.slice(0, 4).map((v) => foto(v.marca, v.familia)));
+  portada(home.vendidos);
 
   $("b-vendidos").textContent = `Patentamientos de los últimos 12 meses en todo el país (hasta ${fecha(meta.periodos.mercado.slice(0, 7))}).`;
   const maxVendidos = home.vendidos[0].unidades;

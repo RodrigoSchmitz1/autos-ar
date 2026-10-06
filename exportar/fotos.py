@@ -13,6 +13,10 @@ el repo (sitio/img/autos/) y el sitio no depende de Commons para mostrarlas.
   sitio/img/autos/<marca>-<familia>.webp   480x320, recortada al centro (3:2)
   sitio/img/autos/<marca>-<familia>-interior.webp   idem, el interior
                                            (exportar/fotos_interior.csv)
+  sitio/img/autos/<marca>-<familia>-g<n>.webp   mas fotos del modelo (frente,
+                                           cola, perfil, tablero...) para la
+                                           galeria de la ficha, sin recortar,
+                                           960 de ancho (exportar/fotos_galeria.csv)
   sitio/img/autos/fotos.json               "MARCA|FAMILIA" -> archivo, autor,
                                            licencia y pagina de la foto
 
@@ -25,20 +29,36 @@ import json
 import os
 import re
 import unicodedata
+import time
+import urllib.error
 import urllib.parse
 
 from PIL import Image
 
-from ingesta.comun import pedir
+from ingesta.comun import pedir as _pedir
 
 LISTA = os.path.join("exportar", "fotos_modelos.csv")
 LISTA_INTERIOR = os.path.join("exportar", "fotos_interior.csv")
+LISTA_GALERIA = os.path.join("exportar", "fotos_galeria.csv")
 DESTINO = os.path.join("sitio", "img", "autos")
 API = "https://commons.wikimedia.org/w/api.php"
 ANCHO, ALTO = 480, 320
 # Commons genera miniaturas en anchos fijos; pedir uno de esos evita que tenga
 # que crear una nueva para nosotros.
 ANCHO_PEDIDO = 960
+
+
+def pedir(url):
+    """pedir, pero ante un 429 de Commons (pide bajar el ritmo) espera y reintenta."""
+    for espera in (60, 180, 600):
+        try:
+            return _pedir(url)
+        except urllib.error.HTTPError as e:
+            if e.code != 429:
+                raise
+            print(f"  Commons pide esperar (429): {espera} s", flush=True)
+            time.sleep(espera)
+    return _pedir(url)
 
 
 def slug(texto):
@@ -50,15 +70,31 @@ def sin_html(texto):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", texto or "")).strip()
 
 
+def miniatura(info, ancho=ANCHO_PEDIDO):
+    """URL de la miniatura de `ancho` (uno estandar de Wikimedia) de un archivo, armada a partir de su URL.
+
+    Pedirle a la API la miniatura (iiurlwidth) le hace generarla en el momento,
+    y en tandas Commons responde 429; la URL de una miniatura en un ancho
+    estandar se puede armar (es la misma que devuelve la API).
+    """
+    original = info["url"].split("?")[0]
+    if info["width"] <= ancho:
+        return original
+    carpeta, nombre = original.rsplit("/", 1)
+    carpeta = carpeta.replace("upload.wikimedia.org/wikipedia/commons/", "thumb.wikimedia.org/wikipedia/commons/thumb/")
+    extra = ".jpg" if nombre.lower().endswith((".tif", ".tiff")) else ""
+    return f"{carpeta}/{nombre}/{ancho}px-{nombre}{extra}"
+
+
 def metadatos(archivos):
-    """URL de la miniatura, autor y licencia de cada archivo (hasta 50 por pedido)."""
+    """URL de la miniatura, autor y licencia de cada archivo (de a 20 por pedido)."""
     datos = {}
-    for i in range(0, len(archivos), 50):
+    for i in range(0, len(archivos), 20):
         parametros = urllib.parse.urlencode({
             "action": "query", "format": "json", "prop": "imageinfo",
-            "iiprop": "url|extmetadata", "iiurlwidth": ANCHO_PEDIDO,
+            "iiprop": "url|size|extmetadata",
             "iiextmetadatafilter": "Artist|LicenseShortName|LicenseUrl",
-            "titles": "|".join("File:" + a for a in archivos[i:i + 50]),
+            "titles": "|".join("File:" + a for a in archivos[i:i + 20]),
         })
         respuesta = json.loads(pedir(f"{API}?{parametros}"))["query"]
         # La API normaliza los titulos (espacios, mayusculas): hay que volver al nombre pedido.
@@ -70,7 +106,7 @@ def metadatos(archivos):
             info = pagina["imageinfo"][0]
             meta = info.get("extmetadata", {})
             datos[titulo[len("File:"):]] = {
-                "miniatura": info["thumburl"],
+                "miniatura": miniatura(info),
                 "pagina": info["descriptionurl"],
                 "autor": sin_html(meta.get("Artist", {}).get("value")) or "autor desconocido",
                 "licencia": meta.get("LicenseShortName", {}).get("value", ""),
@@ -93,6 +129,38 @@ def recortar(contenido):
     salida = io.BytesIO()
     imagen.resize((ANCHO, ALTO), Image.LANCZOS).save(salida, "WEBP", quality=78)
     return salida.getvalue()
+
+
+def achicar(contenido):
+    """Para la galeria: sin recortar (cada foto con su encuadre), a lo sumo ANCHO_PEDIDO de ancho."""
+    imagen = Image.open(io.BytesIO(contenido)).convert("RGB")
+    imagen.thumbnail((ANCHO_PEDIDO, ANCHO_PEDIDO))
+    salida = io.BytesIO()
+    imagen.save(salida, "WEBP", quality=80)
+    return salida.getvalue()
+
+
+def procesar_galeria(lista, meta):
+    """Fotos extra de cada modelo, en el orden de la lista: "MARCA|FAMILIA" -> [foto, ...]."""
+    galeria = {}
+    for fila in lista:
+        clave = f"{fila['marca']}|{fila['familia']}"
+        m = meta[fila["archivo_commons"]]
+        if not m["licencia"]:
+            raise ValueError(f"foto sin licencia en Commons: {fila['archivo_commons']}")
+        fotos = galeria.setdefault(clave, [])
+        nombre = f"{slug(fila['marca'])}-{slug(fila['familia'])}-g{len(fotos) + 1}.webp"
+        ruta = os.path.join(DESTINO, nombre)
+        if not os.path.exists(ruta):
+            with open(ruta, "wb") as f:
+                f.write(achicar(pedir(m["miniatura"])))
+            print(f"  {nombre}")
+        with Image.open(ruta) as im:
+            ancho, alto = im.size
+        fotos.append({"imagen": nombre, "vista": fila["vista"], "ancho": ancho, "alto": alto,
+                      "archivo": fila["archivo_commons"], "pagina": m["pagina"], "autor": m["autor"],
+                      "licencia": m["licencia"], "url_licencia": m["url_licencia"]})
+    return galeria
 
 
 def procesar(lista, meta, sufijo=""):
@@ -118,7 +186,7 @@ def procesar(lista, meta, sufijo=""):
 
 def main():
     listas = {}
-    for nombre, ruta in (("exterior", LISTA), ("interior", LISTA_INTERIOR)):
+    for nombre, ruta in (("exterior", LISTA), ("interior", LISTA_INTERIOR), ("galeria", LISTA_GALERIA)):
         with open(ruta, encoding="utf-8") as f:
             listas[nombre] = list(csv.DictReader(f))
     os.makedirs(DESTINO, exist_ok=True)
@@ -129,9 +197,13 @@ def main():
     for clave, interior in procesar(listas["interior"], meta, "-interior").items():
         if clave in fotos:
             fotos[clave]["interior"] = interior
+    for clave, galeria in procesar_galeria(listas["galeria"], meta).items():
+        if clave in fotos:
+            fotos[clave]["galeria"] = galeria
     with open(os.path.join(DESTINO, "fotos.json"), "w", encoding="utf-8") as f:
         json.dump(fotos, f, ensure_ascii=False, indent=1, sort_keys=True)
-    imagenes = [v["imagen"] for v in fotos.values()] + [v["interior"]["imagen"] for v in fotos.values() if "interior" in v]
+    imagenes = ([v["imagen"] for v in fotos.values()] + [v["interior"]["imagen"] for v in fotos.values() if "interior" in v]
+                + [g["imagen"] for v in fotos.values() for g in v.get("galeria", [])])
     peso = sum(os.path.getsize(os.path.join(DESTINO, n)) for n in imagenes)
     print(f"{len(fotos)} modelos, {len(imagenes)} fotos, {peso / 1024:.0f} KiB en {DESTINO}")
 

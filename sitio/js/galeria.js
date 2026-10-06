@@ -16,56 +16,102 @@ export async function cargarMedios(oficiales) {
   medios = { fotos, videos, oficiales: oficiales || {} };
 }
 
-function ampliar(src, alt, credito) {
-  const fondo = el("div", { class: "lightbox", role: "dialog", "aria-label": alt },
-    el("img", { src, alt }), el("p", { class: "lightbox-credito", text: credito }));
+const credito = (f) => `Foto: ${f.autor} · ${f.licencia} · Wikimedia Commons`;
+
+// Pantalla completa con flechas (y teclado: izquierda, derecha, Escape).
+function ampliar(fotos, inicial, alt) {
+  let i = inicial;
+  const img = el("img", { alt });
+  const pie = el("p", { class: "lightbox-credito" });
+  const mostrarFoto = () => { img.src = `img/autos/${fotos[i].imagen}`; pie.textContent = `${credito(fotos[i])} · ${i + 1} / ${fotos.length}`; };
+  const mover = (d) => { i = (i + d + fotos.length) % fotos.length; mostrarFoto(); };
+  const flecha = (d, t) => el("button", { type: "button", class: `lightbox-flecha ${d < 0 ? "izq" : "der"}`, "aria-label": d < 0 ? "Anterior" : "Siguiente", text: t,
+    onclick: (e) => { e.stopPropagation(); mover(d); } });
+  const fondo = el("div", { class: "lightbox", role: "dialog", "aria-label": alt }, img, pie,
+    fotos.length > 1 ? flecha(-1, "‹") : null, fotos.length > 1 ? flecha(1, "›") : null);
   const cerrar = () => { fondo.remove(); document.removeEventListener("keydown", tecla); };
-  const tecla = (e) => { if (e.key === "Escape") cerrar(); };
+  const tecla = (e) => { if (e.key === "Escape") cerrar(); else if (e.key === "ArrowLeft") mover(-1); else if (e.key === "ArrowRight") mover(1); };
   fondo.addEventListener("click", cerrar);
+  img.addEventListener("click", (e) => { e.stopPropagation(); mover(1); });
   document.addEventListener("keydown", tecla);
+  mostrarFoto();
   document.body.append(fondo);
 }
 
-function miniFoto(f, vista, marca, familia) {
-  const alt = `${marca} ${familia} (${vista})`.toLowerCase();
-  const credito = `Foto: ${f.autor} · ${f.licencia} · Wikimedia Commons`;
-  const b = el("button", { type: "button", class: "galeria-foto", title: credito, "aria-label": `Ampliar ${vista}` },
-    el("img", { src: `img/autos/${f.imagen}`, alt, loading: "lazy", width: 480, height: 320 }),
-    el("span", { class: "galeria-etiqueta", text: vista }));
-  b.addEventListener("click", () => ampliar(`img/autos/${f.imagen}`, alt, credito));
-  return b;
+// Visor de fotos: una grande con flechas y la tira de miniaturas abajo.
+function visor(fotos, marca, familia) {
+  const alt = `${marca} ${familia}`.toLowerCase();
+  let actual = 0;
+  const grande = el("img", { alt, width: 960, height: 640 });
+  const contador = el("span", { class: "visor-contador" });
+  const pie = el("span", { class: "visor-credito" });
+  const miniaturas = fotos.map((f, n) => el("button", { type: "button", class: "tira-foto", "aria-label": `Ver la foto ${n + 1}`, onclick: () => ir(n) },
+    el("img", { src: `img/autos/${f.imagen}`, alt: "", loading: "lazy" })));
+  function ir(n) {
+    actual = (n + fotos.length) % fotos.length;
+    const f = fotos[actual];
+    grande.src = `img/autos/${f.imagen}`;
+    grande.alt = `${alt} (${f.vista})`;
+    contador.textContent = `${actual + 1} / ${fotos.length}`;
+    pie.textContent = credito(f);
+    miniaturas.forEach((m, k) => m.classList.toggle("activa", k === actual));
+  }
+  const flecha = (d, t) => el("button", { type: "button", class: `visor-flecha ${d < 0 ? "izq" : "der"}`, "aria-label": d < 0 ? "Foto anterior" : "Foto siguiente", text: t,
+    onclick: (e) => { e.stopPropagation(); ir(actual + d); } });
+  const marco = el("div", { class: "visor-marco", title: "Ampliar", onclick: () => ampliar(fotos, actual, alt) },
+    grande, contador, fotos.length > 1 ? flecha(-1, "‹") : null, fotos.length > 1 ? flecha(1, "›") : null);
+  ir(0);
+  return el("div", { class: "visor" }, marco, pie, fotos.length > 1 ? el("div", { class: "tira" }, miniaturas) : null);
 }
 
 function video(v, marca) {
-  const caja = el("div", { class: "galeria-video" });
+  const caja = el("div", { class: "mosaico-pieza galeria-video" });
   const portada = el("button", { type: "button", class: "video-portada", "aria-label": `Reproducir: ${v.titulo}`,
     style: `--color:${colorDe(marca)}` },
     el("img", { src: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`, alt: "", loading: "lazy" }),
-    el("span", { class: "video-play", text: "▶" }));
+    el("span", { class: "video-play", text: "▶" }),
+    el("span", { class: "video-titulo" }, el("strong", { text: v.titulo }), el("span", { text: `${v.canal} · YouTube` })));
   portada.addEventListener("click", () => {
     portada.replaceWith(el("iframe", {
       src: `https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0`, title: v.titulo,
       allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen", allowfullscreen: "",
     }));
   });
-  caja.append(portada, el("p", { class: "nota" }, el("strong", { text: v.titulo }), " · ",
-    el("a", { href: v.url_canal, text: v.canal }), " (YouTube)"));
+  caja.append(portada);
   return caja;
+}
+
+// El enlace al sitio oficial del modelo (360 y configurador) o, si no hay
+// pagina del modelo, a la gama de la marca.
+export function enlaceOficial(marca, familia) {
+  const o = medios.oficiales[`${marca}|${familia}`];
+  if (!o) return null;
+  const marcaLinda = marca.charAt(0) + marca.slice(1).toLowerCase();
+  return { url: o.url, modelo: o.alcance === "modelo",
+    texto: o.alcance === "modelo" ? "360° en el sitio oficial ↗" : `Gama en el sitio de ${marcaLinda} ↗` };
 }
 
 export function seccionGaleria(marca, familia) {
   const clave = `${marca}|${familia}`;
-  const f = medios.fotos[clave], v = medios.videos[clave], o = medios.oficiales[clave];
-  // El exterior ya esta grande en la cabecera de la ficha: aca va el interior.
-  const fotos = f?.interior ? [miniFoto(f.interior, "interior", marca, familia)] : [];
-  if (!fotos.length && !v && !o) return [];
-  const marcaLinda = marca.charAt(0) + marca.slice(1).toLowerCase();
-  const boton = o && el("a", { class: "boton-oficial", href: o.url, target: "_blank", rel: "noopener" },
-    o.alcance === "modelo" ? "Ver en 360° y configurador en el sitio oficial ↗" : `Ver la gama en el sitio oficial de ${marcaLinda} ↗`);
-  return [el("section", { class: "galeria" },
-    v ? video(v, marca) : null,
-    el("div", { class: "galeria-lateral" },
-      fotos.length ? el("div", { class: "galeria-fotos" }, fotos) : null,
-      boton,
-      el("p", { class: "nota", text: "Las fotos, videos y vistas 360° de las marcas tienen derechos: el video se ve con el reproductor de YouTube y el 360°, en el sitio oficial." })))];
+  const f = medios.fotos[clave], v = medios.videos[clave];
+  const o = enlaceOficial(marca, familia);
+  if (!f && !v && !o) return [];
+  const dominio = o ? new URL(o.url).hostname.replace(/^www\./, "") : "";
+  const tarjetaOficial = o && el("a", { class: "mosaico-pieza mosaico-oficial", href: o.url, target: "_blank", rel: "noopener",
+      style: `--marca:${colorDe(marca)}` },
+    el("span", { class: "oficial-icono", text: o.modelo ? "360°" : "↗", "aria-hidden": "true" }),
+    el("strong", { text: o.modelo ? "Vista 360°, colores y configurador" : "La gama en el sitio de la marca" }),
+    el("span", { text: `en ${dominio} ↗` }));
+  // Las fotos de la galeria (en alta) y el interior; sin galeria, la foto de exterior.
+  // Sin repetir: el interior de fotos_interior.csv puede estar tambien en la galeria.
+  const fotos = [
+    ...(f?.galeria?.length ? f.galeria : f ? [{ ...f, vista: "exterior" }] : []),
+    ...(f?.interior && !f.galeria?.some((g) => g.archivo === f.interior.archivo) ? [{ ...f.interior, vista: "interior" }] : []),
+  ];
+  return [
+    el("div", { class: "galeria-grilla" },
+      fotos.length ? visor(fotos, marca, familia) : null,
+      el("div", { class: "galeria-costado" }, v ? video(v, marca) : null, tarjetaOficial)),
+    el("p", { class: "nota", text: "Fotos de Wikimedia Commons con licencia libre. Los videos, fotos y vistas 360° de las marcas tienen derechos: el video se ve con el reproductor de YouTube y el 360°, en el sitio oficial." }),
+  ];
 }

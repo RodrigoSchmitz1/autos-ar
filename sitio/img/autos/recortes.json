@@ -1,0 +1,1962 @@
+{
+ "BAIC|BJ30": {
+  "alto": 961,
+  "ancho": 1400,
+  "imagen": "recortes/baic-bj30.webp",
+  "variantes": [
+   {
+    "alto": 576,
+    "ancho": 890,
+    "archivo": "Beijing BJ30 001.jpg",
+    "imagen": "recortes/baic-bj30-v1.webp"
+   }
+  ]
+ },
+ "BAIC|X55 CROSSOVER": {
+  "alto": 770,
+  "ancho": 1400,
+  "imagen": "recortes/baic-x55-crossover.webp",
+  "variantes": [
+   {
+    "alto": 471,
+    "ancho": 604,
+    "archivo": "BAIC (Beijing) X55 162315.jpg",
+    "imagen": "recortes/baic-x55-crossover-v1.webp"
+   },
+   {
+    "alto": 501,
+    "ancho": 885,
+    "archivo": "Miri 25 November 2023 30.jpg",
+    "imagen": "recortes/baic-x55-crossover-v2.webp"
+   },
+   {
+    "alto": 501,
+    "ancho": 895,
+    "archivo": "BAIC X55 (3rd generation) DSC 8882.jpg",
+    "imagen": "recortes/baic-x55-crossover-v3.webp"
+   }
+  ]
+ },
+ "BYD|ATTO 2": {
+  "alto": 826,
+  "ancho": 1400,
+  "imagen": "recortes/byd-atto-2.webp",
+  "variantes": [
+   {
+    "alto": 579,
+    "ancho": 866,
+    "archivo": "2026 BYD Atto 2 Premium.jpg",
+    "imagen": "recortes/byd-atto-2-v1.webp"
+   },
+   {
+    "alto": 462,
+    "ancho": 911,
+    "archivo": "BYD Atto 2 MYLE Festival 2025 DSC 9417.jpg",
+    "imagen": "recortes/byd-atto-2-v2.webp"
+   },
+   {
+    "alto": 528,
+    "ancho": 910,
+    "archivo": "BYD Atto 2 IAA 2025 DSC 2247.jpg",
+    "imagen": "recortes/byd-atto-2-v3.webp"
+   },
+   {
+    "alto": 459,
+    "ancho": 719,
+    "archivo": "2026 BYD Atto 2 with South Australia license plate (55531691944).jpg",
+    "imagen": "recortes/byd-atto-2-v4.webp"
+   }
+  ]
+ },
+ "BYD|DOLPHIN MINI": {
+  "alto": 914,
+  "ancho": 1400,
+  "imagen": "recortes/byd-dolphin-mini.webp",
+  "variantes": [
+   {
+    "alto": 551,
+    "ancho": 920,
+    "archivo": "2023 BYD Seagull (front).jpg",
+    "imagen": "recortes/byd-dolphin-mini-v1.webp"
+   },
+   {
+    "alto": 614,
+    "ancho": 777,
+    "archivo": "2025 BYD Seagull EV in Sprout Green, front left.jpg",
+    "imagen": "recortes/byd-dolphin-mini-v2.webp"
+   },
+   {
+    "alto": 567,
+    "ancho": 770,
+    "archivo": "BYD Seagull EV 2025 (10).jpg",
+    "imagen": "recortes/byd-dolphin-mini-v3.webp"
+   }
+  ]
+ },
+ "BYD|SONG PRO DM-i": {
+  "alto": 343,
+  "ancho": 512,
+  "imagen": "recortes/byd-song-pro-dm-i.webp",
+  "variantes": [
+   {
+    "alto": 422,
+    "ancho": 907,
+    "archivo": "BYD Song Pro DM-i 2023 facelift 001 (cropped).jpg",
+    "imagen": "recortes/byd-song-pro-dm-i-v1.webp"
+   },
+   {
+    "alto": 514,
+    "ancho": 949,
+    "archivo": "BYD Song Pro DM-i facelift 004 (cropped).jpg",
+    "imagen": "recortes/byd-song-pro-dm-i-v2.webp"
+   },
+   {
+    "alto": 674,
+    "ancho": 859,
+    "archivo": "BYD Song Pro i.jPG",
+    "imagen": "recortes/byd-song-pro-dm-i-v3.webp"
+   }
+  ]
+ },
+ "BYD|YUAN PRO": {
+  "alto": 1029,
+  "ancho": 1400,
+  "imagen": "recortes/byd-yuan-pro.webp",
+  "variantes": [
+   {
+    "alto": 581,
+    "ancho": 875,
+    "archivo": "2021 BYD Yuan Pro (facelift, front).jpg",
+    "imagen": "recortes/byd-yuan-pro-v1.webp"
+   },
+   {
+    "alto": 572,
+    "ancho": 846,
+    "archivo": "BYD Yuan Pro IMG001.jpg",
+    "imagen": "recortes/byd-yuan-pro-v2.webp"
+   }
+  ]
+ },
+ "CHANGAN|CS55": {
+  "alto": 932,
+  "ancho": 1400,
+  "imagen": "recortes/changan-cs55.webp",
+  "variantes": [
+   {
+    "alto": 468,
+    "ancho": 773,
+    "archivo": "Changan CS55 Plus Luxury 2024.jpg",
+    "imagen": "recortes/changan-cs55-v1.webp"
+   },
+   {
+    "alto": 597,
+    "ancho": 905,
+    "archivo": "Changan CS55 Plus II 003.jpg",
+    "imagen": "recortes/changan-cs55-v2.webp"
+   },
+   {
+    "alto": 498,
+    "ancho": 900,
+    "archivo": "2021 Chang'an CS55 Plus (front).jpg",
+    "imagen": "recortes/changan-cs55-v3.webp"
+   },
+   {
+    "alto": 511,
+    "ancho": 850,
+    "archivo": "Changan CS55 Plus II 001.jpg",
+    "imagen": "recortes/changan-cs55-v4.webp"
+   }
+  ]
+ },
+ "CHERY|TIGGO 7": {
+  "alto": 1065,
+  "ancho": 1400,
+  "imagen": "recortes/chery-tiggo-7.webp",
+  "variantes": [
+   {
+    "alto": 569,
+    "ancho": 895,
+    "archivo": "2024 Chery Tiggo 7 Pro 1.5 Premium in Ruby Red.jpg",
+    "imagen": "recortes/chery-tiggo-7-v1.webp"
+   },
+   {
+    "alto": 626,
+    "ancho": 897,
+    "archivo": "2024 Chery Tiggo7 Pro Max white front.jpg",
+    "imagen": "recortes/chery-tiggo-7-v2.webp"
+   },
+   {
+    "alto": 526,
+    "ancho": 916,
+    "archivo": "2023 Chery Tiggo7 Pro Max grey front.jpg",
+    "imagen": "recortes/chery-tiggo-7-v3.webp"
+   },
+   {
+    "alto": 390,
+    "ancho": 891,
+    "archivo": "Chery Tiggo7 Pro 1.5T GLX 2024 (54149643181).jpg",
+    "imagen": "recortes/chery-tiggo-7-v4.webp"
+   }
+  ]
+ },
+ "CHEVROLET|MONTANA PICK - UP": {
+  "alto": 843,
+  "ancho": 1400,
+  "imagen": "recortes/chevrolet-montana-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 500,
+    "ancho": 846,
+    "archivo": "2023 Chevrolet Montana Premier (Brazil) front view 02.jpg",
+    "imagen": "recortes/chevrolet-montana-pick-up-v1.webp"
+   },
+   {
+    "alto": 567,
+    "ancho": 933,
+    "archivo": "Chevrolet Montana Mk3 LS 2023 in Maldonado 01.jpg",
+    "imagen": "recortes/chevrolet-montana-pick-up-v2.webp"
+   },
+   {
+    "alto": 464,
+    "ancho": 856,
+    "archivo": "2023 Chevrolet Montana LTZ front.jpg",
+    "imagen": "recortes/chevrolet-montana-pick-up-v3.webp"
+   },
+   {
+    "alto": 561,
+    "ancho": 929,
+    "archivo": "Chevrolet Montana Turbo RS 2024 (53354238079).jpg",
+    "imagen": "recortes/chevrolet-montana-pick-up-v4.webp"
+   }
+  ]
+ },
+ "CHEVROLET|ONIX": {
+  "alto": 631,
+  "ancho": 1400,
+  "imagen": "recortes/chevrolet-onix.webp",
+  "variantes": [
+   {
+    "alto": 515,
+    "ancho": 900,
+    "archivo": "Chevrolet Onix Turbo RS 2024.jpg",
+    "imagen": "recortes/chevrolet-onix-v1.webp"
+   },
+   {
+    "alto": 376,
+    "ancho": 684,
+    "archivo": "At São Paulo 2023 092.jpg",
+    "imagen": "recortes/chevrolet-onix-v2.webp"
+   }
+  ]
+ },
+ "CHEVROLET|SPIN": {
+  "alto": 900,
+  "ancho": 1400,
+  "imagen": "recortes/chevrolet-spin.webp",
+  "variantes": [
+   {
+    "alto": 552,
+    "ancho": 812,
+    "archivo": "2025 Chevrolet Spin 1.8 LT.jpg",
+    "imagen": "recortes/chevrolet-spin-v1.webp"
+   },
+   {
+    "alto": 604,
+    "ancho": 834,
+    "archivo": "Chevrolet Spin 1.8 Premier 2022.jpg",
+    "imagen": "recortes/chevrolet-spin-v2.webp"
+   },
+   {
+    "alto": 502,
+    "ancho": 848,
+    "archivo": "2019 Chevrolet Spin 1.8 LTZ (facelift), front view.jpg",
+    "imagen": "recortes/chevrolet-spin-v3.webp"
+   }
+  ]
+ },
+ "CHEVROLET|TRACKER": {
+  "alto": 949,
+  "ancho": 1400,
+  "imagen": "recortes/chevrolet-tracker.webp",
+  "variantes": [
+   {
+    "alto": 415,
+    "ancho": 765,
+    "archivo": "2022 Chevrolet Tracker 1.2 Turbo LTZ, front (Argentina).jpg",
+    "imagen": "recortes/chevrolet-tracker-v1.webp"
+   },
+   {
+    "alto": 508,
+    "ancho": 754,
+    "archivo": "2023 Chevrolet Tracker 1.2 Premier.jpg",
+    "imagen": "recortes/chevrolet-tracker-v2.webp"
+   },
+   {
+    "alto": 439,
+    "ancho": 911,
+    "archivo": "Chevrolet Tracker 2021 (front).png",
+    "imagen": "recortes/chevrolet-tracker-v3.webp"
+   },
+   {
+    "alto": 581,
+    "ancho": 864,
+    "archivo": "Chevrolet Tracker Turbo RS 2024 (53354360975).jpg",
+    "imagen": "recortes/chevrolet-tracker-v4.webp"
+   }
+  ]
+ },
+ "CITROEN|BASALT": {
+  "alto": 934,
+  "ancho": 1400,
+  "imagen": "recortes/citroen-basalt.webp",
+  "variantes": []
+ },
+ "CITROEN|BERLINGO": {
+  "alto": 775,
+  "ancho": 1400,
+  "imagen": "recortes/citroen-berlingo.webp",
+  "variantes": [
+   {
+    "alto": 496,
+    "ancho": 891,
+    "archivo": "2005 Citroën Berlingo (M59 Series II) van (22257630722) (cropped).jpg",
+    "imagen": "recortes/citroen-berlingo-v1.webp"
+   },
+   {
+    "alto": 606,
+    "ancho": 885,
+    "archivo": "2002 Citroen Berlingo Multispace Forte - 1587cc 1.6 (110PS) Petrol - Blue - 12-2023, Front.jpg",
+    "imagen": "recortes/citroen-berlingo-v2.webp"
+   },
+   {
+    "alto": 574,
+    "ancho": 913,
+    "archivo": "2003 Citroen Berlingo Spacelight 1,6 16V.jpg",
+    "imagen": "recortes/citroen-berlingo-v3.webp"
+   }
+  ]
+ },
+ "CITROEN|C 3": {
+  "alto": 684,
+  "ancho": 1400,
+  "imagen": "recortes/citroen-c-3.webp",
+  "variantes": [
+   {
+    "alto": 486,
+    "ancho": 886,
+    "archivo": "Citroën C3 2022 Feel Pack Spring Blue in Uruguay - front.jpg",
+    "imagen": "recortes/citroen-c-3-v1.webp"
+   },
+   {
+    "alto": 392,
+    "ancho": 810,
+    "archivo": "Citroën C3 2022 Feel Pack Artense Grey in Uruguay - front.jpg",
+    "imagen": "recortes/citroen-c-3-v2.webp"
+   }
+  ]
+ },
+ "CITROEN|C 3 AIRCROSS": {
+  "alto": 792,
+  "ancho": 1400,
+  "imagen": "recortes/citroen-c-3-aircross.webp",
+  "variantes": [
+   {
+    "alto": 360,
+    "ancho": 875,
+    "archivo": "Citroen C3 Aircross Turbo Shine 2026.jpg",
+    "imagen": "recortes/citroen-c-3-aircross-v1.webp"
+   },
+   {
+    "alto": 483,
+    "ancho": 853,
+    "archivo": "2023 Citroën C3 Aircross 1.2 CC24 (Indonesia) front view.jpg",
+    "imagen": "recortes/citroen-c-3-aircross-v2.webp"
+   },
+   {
+    "alto": 479,
+    "ancho": 867,
+    "archivo": "2025 Citroën C3 Aircross 1.0 Feel Pack.jpg",
+    "imagen": "recortes/citroen-c-3-aircross-v3.webp"
+   }
+  ]
+ },
+ "FIAT|600": {
+  "alto": 706,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-600.webp",
+  "variantes": [
+   {
+    "alto": 536,
+    "ancho": 803,
+    "archivo": "2025 Fiat 600 La Prima MHEV Auto.jpg",
+    "imagen": "recortes/fiat-600-v1.webp"
+   },
+   {
+    "alto": 475,
+    "ancho": 910,
+    "archivo": "Fiat 600 (2023) DSC 0738.jpg",
+    "imagen": "recortes/fiat-600-v2.webp"
+   },
+   {
+    "alto": 450,
+    "ancho": 891,
+    "archivo": "Fiat 600 (2023) IMG 7904.jpg",
+    "imagen": "recortes/fiat-600-v3.webp"
+   },
+   {
+    "alto": 495,
+    "ancho": 889,
+    "archivo": "Fiat 600 (2023) IMG 2357.jpg",
+    "imagen": "recortes/fiat-600-v4.webp"
+   }
+  ]
+ },
+ "FIAT|ARGO": {
+  "alto": 768,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-argo.webp",
+  "variantes": [
+   {
+    "alto": 455,
+    "ancho": 889,
+    "archivo": "Fiat Argo 2017b (cropped).jpg",
+    "imagen": "recortes/fiat-argo-v1.webp"
+   },
+   {
+    "alto": 302,
+    "ancho": 670,
+    "archivo": "2019 Fiat Argo 1.8 Precision (Brazil) seen in Buenos Aires, Argentina.jpg",
+    "imagen": "recortes/fiat-argo-v2.webp"
+   },
+   {
+    "alto": 526,
+    "ancho": 844,
+    "archivo": "2025 Fiat Argo 1.3 Drive.jpg",
+    "imagen": "recortes/fiat-argo-v3.webp"
+   },
+   {
+    "alto": 569,
+    "ancho": 920,
+    "archivo": "2017 Fiat Argo 1.3 GSE Drive.jpg",
+    "imagen": "recortes/fiat-argo-v4.webp"
+   }
+  ]
+ },
+ "FIAT|CRONOS": {
+  "alto": 841,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-cronos.webp",
+  "variantes": [
+   {
+    "alto": 484,
+    "ancho": 922,
+    "archivo": "2025 Fiat Cronos 1.3 GSE Precision, facelift - 01.jpg",
+    "imagen": "recortes/fiat-cronos-v1.webp"
+   },
+   {
+    "alto": 491,
+    "ancho": 868,
+    "archivo": "2024 Fiat Cronos 1.3 S-Design.jpg",
+    "imagen": "recortes/fiat-cronos-v2.webp"
+   },
+   {
+    "alto": 512,
+    "ancho": 870,
+    "archivo": "Fiat Cronos 1.8 E.torQ Precision 2021.jpg",
+    "imagen": "recortes/fiat-cronos-v3.webp"
+   }
+  ]
+ },
+ "FIAT|FASTBACK": {
+  "alto": 735,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-fastback.webp",
+  "variantes": [
+   {
+    "alto": 445,
+    "ancho": 862,
+    "archivo": "Fiat Fastback 2023 Impetus Turbo 200 in Montevideo.jpg",
+    "imagen": "recortes/fiat-fastback-v1.webp"
+   },
+   {
+    "alto": 557,
+    "ancho": 911,
+    "archivo": "2024 Fiat Fastback 1.3 GSE Turbo 270 (front).jpg",
+    "imagen": "recortes/fiat-fastback-v2.webp"
+   },
+   {
+    "alto": 532,
+    "ancho": 927,
+    "archivo": "Fiat Fastback Turbo 200 Audace 2023 (53098276048).jpg",
+    "imagen": "recortes/fiat-fastback-v3.webp"
+   }
+  ]
+ },
+ "FIAT|FIORINO": {
+  "alto": 955,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-fiorino.webp",
+  "variantes": [
+   {
+    "alto": 498,
+    "ancho": 859,
+    "archivo": "Fiat Fiorino XMF 2650 in Punta del Este 2015.JPG",
+    "imagen": "recortes/fiat-fiorino-v1.webp"
+   },
+   {
+    "alto": 330,
+    "ancho": 719,
+    "archivo": "Fiat Fiorino de Andreani en Monte Castro.jpg",
+    "imagen": "recortes/fiat-fiorino-v2.webp"
+   }
+  ]
+ },
+ "FIAT|MOBI": {
+  "alto": 670,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-mobi.webp",
+  "variantes": [
+   {
+    "alto": 387,
+    "ancho": 811,
+    "archivo": "Fiat Mobi Trekking 1.0 2021 in Montevideo (front).jpg",
+    "imagen": "recortes/fiat-mobi-v1.webp"
+   },
+   {
+    "alto": 404,
+    "ancho": 863,
+    "archivo": "Fiat Mobi Way 1.0 2017.jpg",
+    "imagen": "recortes/fiat-mobi-v2.webp"
+   },
+   {
+    "alto": 472,
+    "ancho": 922,
+    "archivo": "2022 Fiat Mobi 1.0 Trekking.jpg",
+    "imagen": "recortes/fiat-mobi-v3.webp"
+   },
+   {
+    "alto": 557,
+    "ancho": 832,
+    "archivo": "Fiat Mobi.jpg",
+    "imagen": "recortes/fiat-mobi-v4.webp"
+   }
+  ]
+ },
+ "FIAT|PULSE": {
+  "alto": 686,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-pulse.webp",
+  "variantes": [
+   {
+    "alto": 467,
+    "ancho": 825,
+    "archivo": "Fiat Pulse 2023 Impetus 1.3 Turbo 200 red in Montevideo in 2024 (front).jpg",
+    "imagen": "recortes/fiat-pulse-v1.webp"
+   },
+   {
+    "alto": 480,
+    "ancho": 859,
+    "archivo": "2023 Fiat Pulse Impetus (Colombia) front view 02.jpg",
+    "imagen": "recortes/fiat-pulse-v2.webp"
+   },
+   {
+    "alto": 495,
+    "ancho": 930,
+    "archivo": "Fiat Pulse Drive 1.3 CVT 2022 in Montevideo (front).jpg",
+    "imagen": "recortes/fiat-pulse-v3.webp"
+   },
+   {
+    "alto": 423,
+    "ancho": 835,
+    "archivo": "Fiat Pulse Drive 1.3 2022 in Montevideo (front).jpg",
+    "imagen": "recortes/fiat-pulse-v4.webp"
+   }
+  ]
+ },
+ "FIAT|STRADA PICK - UP": {
+  "alto": 675,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-strada-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 436,
+    "ancho": 921,
+    "archivo": "Fiat Strada 2020 Volcano in Montevideo (front) (cropped).jpg",
+    "imagen": "recortes/fiat-strada-pick-up-v1.webp"
+   },
+   {
+    "alto": 458,
+    "ancho": 803,
+    "archivo": "Fiat Strada Mk6 Volcano in Uruguay - front.jpg",
+    "imagen": "recortes/fiat-strada-pick-up-v2.webp"
+   },
+   {
+    "alto": 494,
+    "ancho": 864,
+    "archivo": "Fiat Strada Mk6 Freedom in Montevideo (front).jpg",
+    "imagen": "recortes/fiat-strada-pick-up-v3.webp"
+   },
+   {
+    "alto": 517,
+    "ancho": 863,
+    "archivo": "2025 Fiat Strada Ultra 1.0 T200 CVT.jpg",
+    "imagen": "recortes/fiat-strada-pick-up-v4.webp"
+   }
+  ]
+ },
+ "FIAT|TITANO PICK UP": {
+  "alto": 700,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-titano-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 391,
+    "ancho": 552,
+    "archivo": "Fiat Titano Ranch.jpg",
+    "imagen": "recortes/fiat-titano-pick-up-v1.webp"
+   },
+   {
+    "alto": 608,
+    "ancho": 777,
+    "archivo": "Fiat Titano.jpg",
+    "imagen": "recortes/fiat-titano-pick-up-v2.webp"
+   }
+  ]
+ },
+ "FIAT|TORO PICK UP": {
+  "alto": 711,
+  "ancho": 1400,
+  "imagen": "recortes/fiat-toro-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 447,
+    "ancho": 864,
+    "archivo": "Fiat Toro 2024 Volcano in Montevideo, Uruguay (front).jpg",
+    "imagen": "recortes/fiat-toro-pick-up-v1.webp"
+   },
+   {
+    "alto": 363,
+    "ancho": 886,
+    "archivo": "2024 Fiat Toro 2.0 Volcano 4x4.jpg",
+    "imagen": "recortes/fiat-toro-pick-up-v2.webp"
+   }
+  ]
+ },
+ "FORD|BRONCO SPORT": {
+  "alto": 912,
+  "ancho": 1400,
+  "imagen": "recortes/ford-bronco-sport.webp",
+  "variantes": [
+   {
+    "alto": 442,
+    "ancho": 814,
+    "archivo": "Ford Bronco Sport Big Bend in Uruguay - front.jpg",
+    "imagen": "recortes/ford-bronco-sport-v1.webp"
+   },
+   {
+    "alto": 525,
+    "ancho": 945,
+    "archivo": "2022 Ford Bronco Sport Big Bend, front left, 09-03-2022.jpg",
+    "imagen": "recortes/ford-bronco-sport-v2.webp"
+   },
+   {
+    "alto": 486,
+    "ancho": 923,
+    "archivo": "2021 Ford Bronco Sport Big Bend in Oxford White, front left, 2025-04-25.jpg",
+    "imagen": "recortes/ford-bronco-sport-v3.webp"
+   },
+   {
+    "alto": 470,
+    "ancho": 935,
+    "archivo": "2023 Ford Bronco Sport Heritage in Robin's Egg Blue, Front Left, 04-05-2023.jpg",
+    "imagen": "recortes/ford-bronco-sport-v4.webp"
+   }
+  ]
+ },
+ "FORD|EVEREST": {
+  "alto": 655,
+  "ancho": 1364,
+  "imagen": "recortes/ford-everest.webp",
+  "variantes": [
+   {
+    "alto": 477,
+    "ancho": 830,
+    "archivo": "2022 Ford Everest Sport 2.0L Turbo 4x2.jpg",
+    "imagen": "recortes/ford-everest-v1.webp"
+   },
+   {
+    "alto": 483,
+    "ancho": 843,
+    "archivo": "2022 Ford Everest Titanium+ 2.0L Bi-Turbo 4x4.jpg",
+    "imagen": "recortes/ford-everest-v2.webp"
+   },
+   {
+    "alto": 622,
+    "ancho": 828,
+    "archivo": "2023 Ford Everest 2.0 Bi-Turbo Titanium+ in Arctic White, front right, 05-11-2024.jpg",
+    "imagen": "recortes/ford-everest-v3.webp"
+   },
+   {
+    "alto": 641,
+    "ancho": 824,
+    "archivo": "2024 Ford Everest 2.0 Trend Turbo in Aluminum Metallic, front right.jpg",
+    "imagen": "recortes/ford-everest-v4.webp"
+   }
+  ]
+ },
+ "FORD|F-150 PICK - UP": {
+  "alto": 742,
+  "ancho": 1400,
+  "imagen": "recortes/ford-f-150-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 434,
+    "ancho": 906,
+    "archivo": "2021 Ford F-150 (fourteenth generation) front view 02.png",
+    "imagen": "recortes/ford-f-150-pick-up-v1.webp"
+   },
+   {
+    "alto": 622,
+    "ancho": 875,
+    "archivo": "'21 Ford F-150 XLT Crew Cab.jpg",
+    "imagen": "recortes/ford-f-150-pick-up-v2.webp"
+   },
+   {
+    "alto": 678,
+    "ancho": 883,
+    "archivo": "2021 Ford F150 Supercrew, Front Right, 03-09-2021.jpg",
+    "imagen": "recortes/ford-f-150-pick-up-v3.webp"
+   },
+   {
+    "alto": 498,
+    "ancho": 823,
+    "archivo": "2023 Ford F-150 SuperCrew Pick-Up (52810350195).jpg",
+    "imagen": "recortes/ford-f-150-pick-up-v4.webp"
+   }
+  ]
+ },
+ "FORD|MAVERICK PICK - UP": {
+  "alto": 685,
+  "ancho": 1400,
+  "imagen": "recortes/ford-maverick-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 594,
+    "ancho": 888,
+    "archivo": "2025 Ford Maverick XLT FX4, front 4.15.25.jpg",
+    "imagen": "recortes/ford-maverick-pick-up-v1.webp"
+   },
+   {
+    "alto": 618,
+    "ancho": 874,
+    "archivo": "2025 Ford Maverick au SIAM 2025.jpg",
+    "imagen": "recortes/ford-maverick-pick-up-v2.webp"
+   },
+   {
+    "alto": 439,
+    "ancho": 934,
+    "archivo": "2022 Ford Maverick XLT with FX4 Off-Road Package in Area 51, Front Right, 01-16-2023.jpg",
+    "imagen": "recortes/ford-maverick-pick-up-v3.webp"
+   },
+   {
+    "alto": 410,
+    "ancho": 933,
+    "archivo": "2022 Ford Maverick XLT AWD with FX4 Off-Road Package.jpg",
+    "imagen": "recortes/ford-maverick-pick-up-v4.webp"
+   }
+  ]
+ },
+ "FORD|RANGER PICK - UP": {
+  "alto": 704,
+  "ancho": 1400,
+  "imagen": "recortes/ford-ranger-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 511,
+    "ancho": 878,
+    "archivo": "2024 Ford Ranger V6 Limited (Argentina), front side.jpg",
+    "imagen": "recortes/ford-ranger-pick-up-v1.webp"
+   },
+   {
+    "alto": 396,
+    "ancho": 900,
+    "archivo": "2025 Ford Ranger XLT in Argentina.jpg",
+    "imagen": "recortes/ford-ranger-pick-up-v2.webp"
+   },
+   {
+    "alto": 565,
+    "ancho": 934,
+    "archivo": "2022 Ford Ranger XLT Double-Cab 2.0L Turbo Hi-Rider.jpg",
+    "imagen": "recortes/ford-ranger-pick-up-v3.webp"
+   },
+   {
+    "alto": 508,
+    "ancho": 861,
+    "archivo": "2023 Ford Ranger Wildtrak EcoBlue 4x4 Auto.jpg",
+    "imagen": "recortes/ford-ranger-pick-up-v4.webp"
+   }
+  ]
+ },
+ "FORD|TERRITORY": {
+  "alto": 681,
+  "ancho": 1400,
+  "imagen": "recortes/ford-territory.webp",
+  "variantes": [
+   {
+    "alto": 393,
+    "ancho": 928,
+    "archivo": "2026 Ford Territory Titanium (facelift) in Argentina.jpg",
+    "imagen": "recortes/ford-territory-v1.webp"
+   },
+   {
+    "alto": 467,
+    "ancho": 882,
+    "archivo": "2023 Ford Territory (China), front 8.3.23.jpg",
+    "imagen": "recortes/ford-territory-v2.webp"
+   },
+   {
+    "alto": 595,
+    "ancho": 827,
+    "archivo": "Ford Territory 005.jpg",
+    "imagen": "recortes/ford-territory-v3.webp"
+   },
+   {
+    "alto": 628,
+    "ancho": 822,
+    "archivo": "Ford Territory 1.5 Titanium 2023 (10).jpg",
+    "imagen": "recortes/ford-territory-v4.webp"
+   }
+  ]
+ },
+ "FORD|TRANSIT": {
+  "alto": 1044,
+  "ancho": 1400,
+  "imagen": "recortes/ford-transit.webp",
+  "variantes": [
+   {
+    "alto": 583,
+    "ancho": 905,
+    "archivo": "2020 Ford Transit 350 Limited EcoBlue Auto.jpg",
+    "imagen": "recortes/ford-transit-v1.webp"
+   },
+   {
+    "alto": 620,
+    "ancho": 896,
+    "archivo": "2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Front.jpg",
+    "imagen": "recortes/ford-transit-v2.webp"
+   }
+  ]
+ },
+ "HAVAL|H 6": {
+  "alto": 827,
+  "ancho": 1400,
+  "imagen": "recortes/haval-h-6.webp",
+  "variantes": []
+ },
+ "HAVAL|JOLION": {
+  "alto": 733,
+  "ancho": 1400,
+  "imagen": "recortes/haval-jolion.webp",
+  "variantes": [
+   {
+    "alto": 343,
+    "ancho": 861,
+    "archivo": "Great Wall Jolion Elite 2025.jpg",
+    "imagen": "recortes/haval-jolion-v1.webp"
+   },
+   {
+    "alto": 504,
+    "ancho": 875,
+    "archivo": "Haval Jolion in Tomsk 03 (cropped).jpg",
+    "imagen": "recortes/haval-jolion-v2.webp"
+   }
+  ]
+ },
+ "HONDA|HR-V": {
+  "alto": 696,
+  "ancho": 1400,
+  "imagen": "recortes/honda-hr-v.webp",
+  "variantes": [
+   {
+    "alto": 517,
+    "ancho": 827,
+    "archivo": "2021 Honda HR-V e-HEV RS.jpg",
+    "imagen": "recortes/honda-hr-v-v1.webp"
+   },
+   {
+    "alto": 529,
+    "ancho": 841,
+    "archivo": "2022 Honda HR-V Elegance I-MMD CVT.jpg",
+    "imagen": "recortes/honda-hr-v-v2.webp"
+   },
+   {
+    "alto": 510,
+    "ancho": 878,
+    "archivo": "2024 Honda HR-V e-HEV RS.jpg",
+    "imagen": "recortes/honda-hr-v-v3.webp"
+   },
+   {
+    "alto": 415,
+    "ancho": 896,
+    "archivo": "Honda HR-V e-HEV RS (III) – f 13032025.jpg",
+    "imagen": "recortes/honda-hr-v-v4.webp"
+   }
+  ]
+ },
+ "HONDA|WR-V": {
+  "alto": 798,
+  "ancho": 1400,
+  "imagen": "recortes/honda-wr-v.webp",
+  "variantes": [
+   {
+    "alto": 501,
+    "ancho": 921,
+    "archivo": "Honda WR-V Z+ (5BA-DG5) (cropped).jpg",
+    "imagen": "recortes/honda-wr-v-v1.webp"
+   }
+  ]
+ },
+ "HYUNDAI|CRETA": {
+  "alto": 1044,
+  "ancho": 1400,
+  "imagen": "recortes/hyundai-creta.webp",
+  "variantes": [
+   {
+    "alto": 504,
+    "ancho": 858,
+    "archivo": "2021 Hyundai Creta 2.0 Ultimate (Brazil) front view.png",
+    "imagen": "recortes/hyundai-creta-v1.webp"
+   },
+   {
+    "alto": 554,
+    "ancho": 864,
+    "archivo": "2021 Hyundai Creta 2.0 HTRAC Prestige (Russia; SU2r) front view.jpg",
+    "imagen": "recortes/hyundai-creta-v2.webp"
+   },
+   {
+    "alto": 460,
+    "ancho": 883,
+    "archivo": "2022 Hyundai Creta 1.6 Plus (Chile) front view.jpg",
+    "imagen": "recortes/hyundai-creta-v3.webp"
+   }
+  ]
+ },
+ "HYUNDAI|HB20": {
+  "alto": 729,
+  "ancho": 1400,
+  "imagen": "recortes/hyundai-hb20.webp",
+  "variantes": [
+   {
+    "alto": 350,
+    "ancho": 822,
+    "archivo": "Hyundai HB20 Platinum 2025.jpg",
+    "imagen": "recortes/hyundai-hb20-v1.webp"
+   },
+   {
+    "alto": 446,
+    "ancho": 879,
+    "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) front view 02.png",
+    "imagen": "recortes/hyundai-hb20-v2.webp"
+   }
+  ]
+ },
+ "JEEP|COMMANDER": {
+  "alto": 754,
+  "ancho": 1400,
+  "imagen": "recortes/jeep-commander.webp",
+  "variantes": [
+   {
+    "alto": 480,
+    "ancho": 857,
+    "archivo": "2021 Jeep Commander Limited (Brazil) front view.png",
+    "imagen": "recortes/jeep-commander-v1.webp"
+   },
+   {
+    "alto": 703,
+    "ancho": 864,
+    "archivo": "Jeep Commander Limited (front view).jpg",
+    "imagen": "recortes/jeep-commander-v2.webp"
+   },
+   {
+    "alto": 480,
+    "ancho": 865,
+    "archivo": "Jeep Commander (1).jpg",
+    "imagen": "recortes/jeep-commander-v3.webp"
+   }
+  ]
+ },
+ "JEEP|COMPASS": {
+  "alto": 760,
+  "ancho": 1400,
+  "imagen": "recortes/jeep-compass.webp",
+  "variantes": [
+   {
+    "alto": 601,
+    "ancho": 894,
+    "archivo": "Jeep Compass (MP) PHEV Facelift IMG 4979.jpg",
+    "imagen": "recortes/jeep-compass-v1.webp"
+   },
+   {
+    "alto": 374,
+    "ancho": 941,
+    "archivo": "Jeep Compass PHEV Genf 2019 1Y7A5371.jpg",
+    "imagen": "recortes/jeep-compass-v2.webp"
+   }
+  ]
+ },
+ "JEEP|RENEGADE": {
+  "alto": 784,
+  "ancho": 1400,
+  "imagen": "recortes/jeep-renegade.webp",
+  "variantes": [
+   {
+    "alto": 523,
+    "ancho": 879,
+    "archivo": "Jeep Renegade 4xe 1X7A6026.jpg",
+    "imagen": "recortes/jeep-renegade-v1.webp"
+   },
+   {
+    "alto": 485,
+    "ancho": 882,
+    "archivo": "Jeep Renegade 1.3 T4 PHEV 4xe High Upland (Facelift) – f 15062025.jpg",
+    "imagen": "recortes/jeep-renegade-v2.webp"
+   }
+  ]
+ },
+ "KIA|K3": {
+  "alto": 657,
+  "ancho": 1400,
+  "imagen": "recortes/kia-k3.webp",
+  "variantes": [
+   {
+    "alto": 413,
+    "ancho": 892,
+    "archivo": "2024 Kia K3 Sedan GT Line (Colombia) front view.jpg",
+    "imagen": "recortes/kia-k3-v1.webp"
+   },
+   {
+    "alto": 491,
+    "ancho": 740,
+    "archivo": "Kia K3 LX sedan in Steel Gray 01.jpg",
+    "imagen": "recortes/kia-k3-v2.webp"
+   },
+   {
+    "alto": 437,
+    "ancho": 879,
+    "archivo": "Kia K3 1.4 LX 2026.jpg",
+    "imagen": "recortes/kia-k3-v3.webp"
+   }
+  ]
+ },
+ "MERCEDES BENZ|SPRINTER": {
+  "alto": 963,
+  "ancho": 1400,
+  "imagen": "recortes/mercedes-benz-sprinter.webp",
+  "variantes": [
+   {
+    "alto": 611,
+    "ancho": 918,
+    "archivo": "2015 Mercedes-Benz Sprinter (W 906) 313 CDI MWB van (2015-08-29).jpg",
+    "imagen": "recortes/mercedes-benz-sprinter-v1.webp"
+   },
+   {
+    "alto": 520,
+    "ancho": 794,
+    "archivo": "2014 Mercedes-Benz Sprinter (short panel model) - fl.jpg",
+    "imagen": "recortes/mercedes-benz-sprinter-v2.webp"
+   },
+   {
+    "alto": 536,
+    "ancho": 888,
+    "archivo": "2016 Mercedes-Benz Sprinter Super High Minibus, front right.jpg",
+    "imagen": "recortes/mercedes-benz-sprinter-v3.webp"
+   }
+  ]
+ },
+ "MG|3 HYBRID": {
+  "alto": 634,
+  "ancho": 1400,
+  "imagen": "recortes/mg-3-hybrid.webp",
+  "variantes": []
+ },
+ "MG|ZS": {
+  "alto": 739,
+  "ancho": 1400,
+  "imagen": "recortes/mg-zs.webp",
+  "variantes": [
+   {
+    "alto": 457,
+    "ancho": 917,
+    "archivo": "2022 MG ZS Exclusive T-GDi 1.0 Front.jpg",
+    "imagen": "recortes/mg-zs-v1.webp"
+   },
+   {
+    "alto": 468,
+    "ancho": 913,
+    "archivo": "2022 MG ZS Excite Front.jpg",
+    "imagen": "recortes/mg-zs-v2.webp"
+   },
+   {
+    "alto": 444,
+    "ancho": 893,
+    "archivo": "2021 MG ZS Exclusive T-GDi Automatic 1.0 Front.jpg",
+    "imagen": "recortes/mg-zs-v3.webp"
+   }
+  ]
+ },
+ "NISSAN|FRONTIER PICK - UP": {
+  "alto": 825,
+  "ancho": 1400,
+  "imagen": "recortes/nissan-frontier-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 536,
+    "ancho": 856,
+    "archivo": "2021 Nissan Frontier Pro 4X (Colombia; facelift) front view 01.png",
+    "imagen": "recortes/nissan-frontier-pick-up-v1.webp"
+   },
+   {
+    "alto": 538,
+    "ancho": 848,
+    "archivo": "Salão Internacional do Automóvel 2018.jpg",
+    "imagen": "recortes/nissan-frontier-pick-up-v2.webp"
+   },
+   {
+    "alto": 366,
+    "ancho": 679,
+    "archivo": "NissanFrontierXE.jpg",
+    "imagen": "recortes/nissan-frontier-pick-up-v3.webp"
+   }
+  ]
+ },
+ "NISSAN|KICKS": {
+  "alto": 862,
+  "ancho": 1400,
+  "imagen": "recortes/nissan-kicks.webp",
+  "variantes": [
+   {
+    "alto": 434,
+    "ancho": 816,
+    "archivo": "Nissan Kicks second generation Brazil.jpg",
+    "imagen": "recortes/nissan-kicks-v1.webp"
+   },
+   {
+    "alto": 586,
+    "ancho": 823,
+    "archivo": "2025 Nissan Kicks au salon international de l'auto de Montréal 2025.jpg",
+    "imagen": "recortes/nissan-kicks-v2.webp"
+   },
+   {
+    "alto": 473,
+    "ancho": 924,
+    "archivo": "2025 Nissan Kicks SV AWD in Deep Blue Pearl, front right, 2024-10-06.jpg",
+    "imagen": "recortes/nissan-kicks-v3.webp"
+   },
+   {
+    "alto": 568,
+    "ancho": 795,
+    "archivo": "2025 Nissan Kicks au SIAM 2025.jpg",
+    "imagen": "recortes/nissan-kicks-v4.webp"
+   }
+  ]
+ },
+ "NISSAN|KICKS PLAY": {
+  "alto": 926,
+  "ancho": 1400,
+  "imagen": "recortes/nissan-kicks-play.webp",
+  "variantes": [
+   {
+    "alto": 513,
+    "ancho": 911,
+    "archivo": "2021 Nissan Kicks (Colombia) front view 01.png",
+    "imagen": "recortes/nissan-kicks-play-v1.webp"
+   },
+   {
+    "alto": 482,
+    "ancho": 930,
+    "archivo": "2020 Nissan Kicks SR, front right, 09-09-2023.jpg",
+    "imagen": "recortes/nissan-kicks-play-v2.webp"
+   },
+   {
+    "alto": 535,
+    "ancho": 844,
+    "archivo": "2021 Nissan Kicks SV (facelift), front 11.6.21.jpg",
+    "imagen": "recortes/nissan-kicks-play-v3.webp"
+   }
+  ]
+ },
+ "NISSAN|VERSA": {
+  "alto": 693,
+  "ancho": 1400,
+  "imagen": "recortes/nissan-versa.webp",
+  "variantes": [
+   {
+    "alto": 389,
+    "ancho": 605,
+    "archivo": "Nissan Versa SR (4th Gen) Brazil.jpg",
+    "imagen": "recortes/nissan-versa-v1.webp"
+   },
+   {
+    "alto": 529,
+    "ancho": 902,
+    "archivo": "2020 Nissan Versa SR front NYIAS 2019.jpg",
+    "imagen": "recortes/nissan-versa-v2.webp"
+   },
+   {
+    "alto": 529,
+    "ancho": 886,
+    "archivo": "2021 Nissan Versa S, Front Left, 04-11-2021.jpg",
+    "imagen": "recortes/nissan-versa-v3.webp"
+   },
+   {
+    "alto": 454,
+    "ancho": 886,
+    "archivo": "2021 Nissan Versa SR (United States) front view.png",
+    "imagen": "recortes/nissan-versa-v4.webp"
+   }
+  ]
+ },
+ "NISSAN|XTRAIL": {
+  "alto": 677,
+  "ancho": 1400,
+  "imagen": "recortes/nissan-xtrail.webp",
+  "variantes": [
+   {
+    "alto": 486,
+    "ancho": 912,
+    "archivo": "2023 Nissan X-Trail Acenta Premium DIG-T - 1497cc 1.5 (163PS) Petrol - Gun Metallic - 02-2024, Front.jpg",
+    "imagen": "recortes/nissan-xtrail-v1.webp"
+   },
+   {
+    "alto": 457,
+    "ancho": 865,
+    "archivo": "Nissan X-Trail (left-front), Nissan Gallery Global HQ, 2021.jpg",
+    "imagen": "recortes/nissan-xtrail-v2.webp"
+   },
+   {
+    "alto": 397,
+    "ancho": 665,
+    "archivo": "Nissan X-Trail 184202.jpg",
+    "imagen": "recortes/nissan-xtrail-v3.webp"
+   },
+   {
+    "alto": 568,
+    "ancho": 896,
+    "archivo": "Nissan X-Trail (T33) 1X7A7199.jpg",
+    "imagen": "recortes/nissan-xtrail-v4.webp"
+   }
+  ]
+ },
+ "PEUGEOT|2008": {
+  "alto": 805,
+  "ancho": 1400,
+  "imagen": "recortes/peugeot-2008.webp",
+  "variantes": [
+   {
+    "alto": 478,
+    "ancho": 899,
+    "archivo": "2025 Peugeot 2008 Active 1.0 T200.jpg",
+    "imagen": "recortes/peugeot-2008-v1.webp"
+   },
+   {
+    "alto": 518,
+    "ancho": 898,
+    "archivo": "Peugeot 2008 B Facelift IMG 1185 (cropped).jpg",
+    "imagen": "recortes/peugeot-2008-v2.webp"
+   },
+   {
+    "alto": 662,
+    "ancho": 904,
+    "archivo": "The frontview of Peugeot 2008 GT (5BA-P24HN05).jpg",
+    "imagen": "recortes/peugeot-2008-v3.webp"
+   },
+   {
+    "alto": 389,
+    "ancho": 883,
+    "archivo": "2025 Peugeot 2008 1.0 Active, test drive.jpg",
+    "imagen": "recortes/peugeot-2008-v4.webp"
+   }
+  ]
+ },
+ "PEUGEOT|208": {
+  "alto": 666,
+  "ancho": 1400,
+  "imagen": "recortes/peugeot-208.webp",
+  "variantes": [
+   {
+    "alto": 521,
+    "ancho": 917,
+    "archivo": "2025 Peugeot 208 1.0 T200 GT (Argentina).jpg",
+    "imagen": "recortes/peugeot-208-v1.webp"
+   },
+   {
+    "alto": 456,
+    "ancho": 817,
+    "archivo": "2022 Peugeot 208 1.6 Active Pack, front (Argentina).jpg",
+    "imagen": "recortes/peugeot-208-v2.webp"
+   },
+   {
+    "alto": 452,
+    "ancho": 782,
+    "archivo": "2022 Peugeot 208 1.6 VTi Feline, front (Argentina).jpg",
+    "imagen": "recortes/peugeot-208-v3.webp"
+   },
+   {
+    "alto": 543,
+    "ancho": 876,
+    "archivo": "2020 Peugeot 208 Active Premium Puretech.jpg",
+    "imagen": "recortes/peugeot-208-v4.webp"
+   }
+  ]
+ },
+ "PEUGEOT|3008": {
+  "alto": 800,
+  "ancho": 1400,
+  "imagen": "recortes/peugeot-3008.webp",
+  "variantes": [
+   {
+    "alto": 470,
+    "ancho": 891,
+    "archivo": "2024 Peugeot e-3008 Allure EV - 73kWh (210PS) Electric - Obsession Blue - 06-2024, Front.jpg",
+    "imagen": "recortes/peugeot-3008-v1.webp"
+   },
+   {
+    "alto": 492,
+    "ancho": 897,
+    "archivo": "Peugeot e-3008 Automesse Ludwigsburg 2024 IMG 1360.jpg",
+    "imagen": "recortes/peugeot-3008-v2.webp"
+   }
+  ]
+ },
+ "RAM|DAKOTA PICK - UP": {
+  "alto": 712,
+  "ancho": 1174,
+  "imagen": "recortes/ram-dakota-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 417,
+    "ancho": 800,
+    "archivo": "Ram Dakota South America front right - Autosdeprimera (cropped).jpg",
+    "imagen": "recortes/ram-dakota-pick-up-v1.webp"
+   }
+  ]
+ },
+ "RAM|RAMPAGE PICK -UP": {
+  "alto": 746,
+  "ancho": 1400,
+  "imagen": "recortes/ram-rampage-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 338,
+    "ancho": 936,
+    "archivo": "2023 Ram Rampage Turbo 170 Laramie 4x4.jpg",
+    "imagen": "recortes/ram-rampage-pick-up-v1.webp"
+   },
+   {
+    "alto": 362,
+    "ancho": 902,
+    "archivo": "2025 Ram Rampage RT.jpg",
+    "imagen": "recortes/ram-rampage-pick-up-v2.webp"
+   },
+   {
+    "alto": 546,
+    "ancho": 909,
+    "archivo": "Ram Rampage 2024 Laramie in Punta del Este 02.jpg",
+    "imagen": "recortes/ram-rampage-pick-up-v3.webp"
+   }
+  ]
+ },
+ "RENAULT|ARKANA E-TECH": {
+  "alto": 896,
+  "ancho": 1400,
+  "imagen": "recortes/renault-arkana-e-tech.webp",
+  "variantes": [
+   {
+    "alto": 606,
+    "ancho": 878,
+    "archivo": "2022 Renault Arkana RS Line E-Tech HEV Auto.jpg",
+    "imagen": "recortes/renault-arkana-e-tech-v1.webp"
+   },
+   {
+    "alto": 537,
+    "ancho": 946,
+    "archivo": "2022 Renault ArkanaRenault Arkana Iconic E-Tech HEV Auto.jpg",
+    "imagen": "recortes/renault-arkana-e-tech-v2.webp"
+   },
+   {
+    "alto": 415,
+    "ancho": 737,
+    "archivo": "Blue Renault Arkana in Dijon - 2022.jpg",
+    "imagen": "recortes/renault-arkana-e-tech-v3.webp"
+   },
+   {
+    "alto": 423,
+    "ancho": 888,
+    "archivo": "Renault Arkana (CMF-B) IMG 5628.jpg",
+    "imagen": "recortes/renault-arkana-e-tech-v4.webp"
+   }
+  ]
+ },
+ "RENAULT|DUSTER": {
+  "alto": 895,
+  "ancho": 1400,
+  "imagen": "recortes/renault-duster.webp",
+  "variantes": [
+   {
+    "alto": 562,
+    "ancho": 901,
+    "archivo": "2022 Renault Duster Intens 4x2 1.3 Turbo (Colombia) front view.png",
+    "imagen": "recortes/renault-duster-v1.webp"
+   },
+   {
+    "alto": 498,
+    "ancho": 814,
+    "archivo": "Renault Duster II base in Montevideo.jpg",
+    "imagen": "recortes/renault-duster-v2.webp"
+   },
+   {
+    "alto": 544,
+    "ancho": 847,
+    "archivo": "Renault Duster 2020 (Russia) (cropped).jpg",
+    "imagen": "recortes/renault-duster-v3.webp"
+   },
+   {
+    "alto": 520,
+    "ancho": 870,
+    "archivo": "2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) front view 01.png",
+    "imagen": "recortes/renault-duster-v4.webp"
+   }
+  ]
+ },
+ "RENAULT|DUSTER OROCH PICK - UP": {
+  "alto": 644,
+  "ancho": 1400,
+  "imagen": "recortes/renault-duster-oroch-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 498,
+    "ancho": 904,
+    "archivo": "Renault Duster Oroch 2016 in Punta del Este 01.JPG",
+    "imagen": "recortes/renault-duster-oroch-pick-up-v1.webp"
+   },
+   {
+    "alto": 512,
+    "ancho": 925,
+    "archivo": "Renault Duster Oroch 1.6 Zen 2018 (39788485004).jpg",
+    "imagen": "recortes/renault-duster-oroch-pick-up-v2.webp"
+   },
+   {
+    "alto": 336,
+    "ancho": 886,
+    "archivo": "Renault Duster Oroch 2.0 Intens 2018 (32431308657).jpg",
+    "imagen": "recortes/renault-duster-oroch-pick-up-v3.webp"
+   }
+  ]
+ },
+ "RENAULT|KANGOO": {
+  "alto": 739,
+  "ancho": 1400,
+  "imagen": "recortes/renault-kangoo.webp",
+  "variantes": [
+   {
+    "alto": 460,
+    "ancho": 747,
+    "archivo": "2022 Renault Kangoo 1.6 SCe Zen (Argentina).jpg",
+    "imagen": "recortes/renault-kangoo-v1.webp"
+   },
+   {
+    "alto": 584,
+    "ancho": 917,
+    "archivo": "Renault Nueva Kangoo 2018 (Colombia).jpg",
+    "imagen": "recortes/renault-kangoo-v2.webp"
+   },
+   {
+    "alto": 416,
+    "ancho": 450,
+    "archivo": "Nuevo Renault Kangoo.jpg",
+    "imagen": "recortes/renault-kangoo-v3.webp"
+   }
+  ]
+ },
+ "RENAULT|KANGOO II EXPRESS": {
+  "alto": 1075,
+  "ancho": 1400,
+  "imagen": "recortes/renault-kangoo-ii-express.webp",
+  "variantes": [
+   {
+    "alto": 584,
+    "ancho": 917,
+    "archivo": "Renault Nueva Kangoo 2018 (Colombia).jpg",
+    "imagen": "recortes/renault-kangoo-ii-express-v1.webp"
+   },
+   {
+    "alto": 432,
+    "ancho": 649,
+    "archivo": "Renault Kangoo de Andreani en Floresta.jpg",
+    "imagen": "recortes/renault-kangoo-ii-express-v2.webp"
+   }
+  ]
+ },
+ "RENAULT|KARDIAN": {
+  "alto": 989,
+  "ancho": 1400,
+  "imagen": "recortes/renault-kardian.webp",
+  "variantes": [
+   {
+    "alto": 503,
+    "ancho": 801,
+    "archivo": "2024 Renault Kardian 1.0 200 EDC Premiere Edition, front.jpg",
+    "imagen": "recortes/renault-kardian-v1.webp"
+   },
+   {
+    "alto": 581,
+    "ancho": 877,
+    "archivo": "2025 Renault Kardian Evolution.jpg",
+    "imagen": "recortes/renault-kardian-v2.webp"
+   }
+  ]
+ },
+ "RENAULT|KWID": {
+  "alto": 828,
+  "ancho": 1400,
+  "imagen": "recortes/renault-kwid.webp",
+  "variantes": [
+   {
+    "alto": 474,
+    "ancho": 856,
+    "archivo": "2023 Renault Kwid Iconic (Colombia) front view 01.png",
+    "imagen": "recortes/renault-kwid-v1.webp"
+   },
+   {
+    "alto": 605,
+    "ancho": 943,
+    "archivo": "Renault Kwid - Facelift (2026).png",
+    "imagen": "recortes/renault-kwid-v2.webp"
+   }
+  ]
+ },
+ "RENAULT|SANDERO STEPWAY": {
+  "alto": 826,
+  "ancho": 1400,
+  "imagen": "recortes/renault-sandero-stepway.webp",
+  "variantes": [
+   {
+    "alto": 476,
+    "ancho": 908,
+    "archivo": "2020 Renault Stepway 2020 (Colombia) front view.png",
+    "imagen": "recortes/renault-sandero-stepway-v1.webp"
+   },
+   {
+    "alto": 536,
+    "ancho": 804,
+    "archivo": "Renault-Sandero Stepway Brazil-2017.jpg",
+    "imagen": "recortes/renault-sandero-stepway-v2.webp"
+   }
+  ]
+ },
+ "TOYOTA|COROLLA": {
+  "alto": 619,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-corolla.webp",
+  "variantes": [
+   {
+    "alto": 484,
+    "ancho": 898,
+    "archivo": "2019 Toyota Corolla Hybrid Saloon.jpg",
+    "imagen": "recortes/toyota-corolla-v1.webp"
+   },
+   {
+    "alto": 361,
+    "ancho": 779,
+    "archivo": "Toyota Corolla 1.8 Hybrid Sedan.jpg",
+    "imagen": "recortes/toyota-corolla-v2.webp"
+   },
+   {
+    "alto": 486,
+    "ancho": 855,
+    "archivo": "Toyota Corolla Limousine Monrepos 2019 IMG 1908.jpg",
+    "imagen": "recortes/toyota-corolla-v3.webp"
+   }
+  ]
+ },
+ "TOYOTA|COROLLA CROSS": {
+  "alto": 761,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-corolla-cross.webp",
+  "variantes": [
+   {
+    "alto": 477,
+    "ancho": 879,
+    "archivo": "2021 Toyota Corolla Cross Hybrid SEG (Colombia) front view 01.png",
+    "imagen": "recortes/toyota-corolla-cross-v1.webp"
+   },
+   {
+    "alto": 674,
+    "ancho": 925,
+    "archivo": "2020 Toyota Corolla Cross 1.8 ZSG10R (20201113) 01.jpg",
+    "imagen": "recortes/toyota-corolla-cross-v2.webp"
+   },
+   {
+    "alto": 594,
+    "ancho": 951,
+    "archivo": "2020 Toyota Corolla Cross 1.8 Sport.jpg",
+    "imagen": "recortes/toyota-corolla-cross-v3.webp"
+   },
+   {
+    "alto": 546,
+    "ancho": 890,
+    "archivo": "2021 Toyota Corolla Cross 1.8AT Standard graphite front view in Brunei.jpg",
+    "imagen": "recortes/toyota-corolla-cross-v4.webp"
+   }
+  ]
+ },
+ "TOYOTA|HIACE": {
+  "alto": 949,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-hiace.webp",
+  "variantes": [
+   {
+    "alto": 558,
+    "ancho": 905,
+    "archivo": "Toyota Hiace GDH303L 2.8 GL Grandia Silver Mica Metallic 01.jpg",
+    "imagen": "recortes/toyota-hiace-v1.webp"
+   },
+   {
+    "alto": 599,
+    "ancho": 702,
+    "archivo": "Toyota Hiace GL Grandia 2020 (1).jpg",
+    "imagen": "recortes/toyota-hiace-v2.webp"
+   },
+   {
+    "alto": 607,
+    "ancho": 871,
+    "archivo": "Toyota Hiace GDH322 2.8 GL Grandia Tourer Beige Metallic.jpg",
+    "imagen": "recortes/toyota-hiace-v3.webp"
+   },
+   {
+    "alto": 452,
+    "ancho": 658,
+    "archivo": "Toyota Hiace GL Grandia (White Pearl 2-Tone, P4-K329).jpg",
+    "imagen": "recortes/toyota-hiace-v4.webp"
+   }
+  ]
+ },
+ "TOYOTA|HILUX PICK - UP": {
+  "alto": 926,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-hilux-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 548,
+    "ancho": 879,
+    "archivo": "2021 Toyota Hilux Invincible D-4D 4WD 2.4.jpg",
+    "imagen": "recortes/toyota-hilux-pick-up-v1.webp"
+   },
+   {
+    "alto": 376,
+    "ancho": 896,
+    "archivo": "2022 Toyota HiLux 2.4 V front.jpg",
+    "imagen": "recortes/toyota-hilux-pick-up-v2.webp"
+   },
+   {
+    "alto": 620,
+    "ancho": 904,
+    "archivo": "2020 Toyota HiLux G (parked) in Jalan Kolonel Abundjani - Danau Sipin, Jambi City, JA.jpg",
+    "imagen": "recortes/toyota-hilux-pick-up-v3.webp"
+   }
+  ]
+ },
+ "TOYOTA|HILUX SW4": {
+  "alto": 770,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-hilux-sw4.webp",
+  "variantes": []
+ },
+ "TOYOTA|RAV - 4": {
+  "alto": 752,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-rav-4.webp",
+  "variantes": [
+   {
+    "alto": 455,
+    "ancho": 740,
+    "archivo": "Toyota RAV4 5th gen Brazil.jpg",
+    "imagen": "recortes/toyota-rav-4-v1.webp"
+   },
+   {
+    "alto": 418,
+    "ancho": 913,
+    "archivo": "2019 Toyota RAV4 Excel HEV CVT 2.5 Front.jpg",
+    "imagen": "recortes/toyota-rav-4-v2.webp"
+   },
+   {
+    "alto": 444,
+    "ancho": 913,
+    "archivo": "2019 Toyota RAV4 Excel Hybrid CVT 2.5 Front.jpg",
+    "imagen": "recortes/toyota-rav-4-v3.webp"
+   },
+   {
+    "alto": 474,
+    "ancho": 827,
+    "archivo": "21 Toyota RAV4 Hybrid LE.jpg",
+    "imagen": "recortes/toyota-rav-4-v4.webp"
+   }
+  ]
+ },
+ "TOYOTA|YARIS": {
+  "alto": 605,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-yaris.webp",
+  "variantes": [
+   {
+    "alto": 504,
+    "ancho": 871,
+    "archivo": "Toyota Yaris S XP150 front view (Colombia).png",
+    "imagen": "recortes/toyota-yaris-v1.webp"
+   },
+   {
+    "alto": 482,
+    "ancho": 876,
+    "archivo": "Toyota Yaris XP150 front view (Colombia) 1.png",
+    "imagen": "recortes/toyota-yaris-v2.webp"
+   }
+  ]
+ },
+ "TOYOTA|YARIS CROSS": {
+  "alto": 751,
+  "ancho": 1400,
+  "imagen": "recortes/toyota-yaris-cross.webp",
+  "variantes": [
+   {
+    "alto": 572,
+    "ancho": 797,
+    "archivo": "Toyota Yaris Cross (AC200) 1.5 S HEV 2023 (1).jpg",
+    "imagen": "recortes/toyota-yaris-cross-v1.webp"
+   },
+   {
+    "alto": 642,
+    "ancho": 862,
+    "archivo": "2024 Toyota Yaris Cross 1.5 S HEV in Scarlet SE, front right, 06-27-2024.jpg",
+    "imagen": "recortes/toyota-yaris-cross-v2.webp"
+   },
+   {
+    "alto": 492,
+    "ancho": 855,
+    "archivo": "2023 Toyota Yaris Cross HEV Premium.jpg",
+    "imagen": "recortes/toyota-yaris-cross-v3.webp"
+   },
+   {
+    "alto": 527,
+    "ancho": 856,
+    "archivo": "2025 Toyota Yaris Cross HEV Nightshade.jpg",
+    "imagen": "recortes/toyota-yaris-cross-v4.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|AMAROK PICK - UP": {
+  "alto": 811,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-amarok-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 497,
+    "ancho": 658,
+    "archivo": "2024 Volkswagen Amarok Highline 3.0 V6 (facelift, Argentina) (3-3).jpg",
+    "imagen": "recortes/volkswagen-amarok-pick-up-v1.webp"
+   },
+   {
+    "alto": 503,
+    "ancho": 877,
+    "archivo": "2024 Volkswagen Amarok Highline V6 4x4 (Argentina).jpg",
+    "imagen": "recortes/volkswagen-amarok-pick-up-v2.webp"
+   },
+   {
+    "alto": 461,
+    "ancho": 885,
+    "archivo": "2019 Volkswagen Amarok Extreme 3.0 V6 4x4.jpg",
+    "imagen": "recortes/volkswagen-amarok-pick-up-v3.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|NIVUS": {
+  "alto": 681,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-nivus.webp",
+  "variantes": [
+   {
+    "alto": 494,
+    "ancho": 912,
+    "archivo": "2025 Volkswagen Nivus 1.0 TSi 200 Comfortline (facelift).jpg",
+    "imagen": "recortes/volkswagen-nivus-v1.webp"
+   },
+   {
+    "alto": 368,
+    "ancho": 834,
+    "archivo": "2025 Volkswagen Nivus 1.0 TSi 200 Trendline.jpg",
+    "imagen": "recortes/volkswagen-nivus-v2.webp"
+   },
+   {
+    "alto": 462,
+    "ancho": 804,
+    "archivo": "Volkswagen Nivus TSi 170 Comfortline 2025 (facelift).jpg",
+    "imagen": "recortes/volkswagen-nivus-v3.webp"
+   },
+   {
+    "alto": 512,
+    "ancho": 849,
+    "archivo": "2021 Volkswagen Nivus Highline front view (Colombia) 01.png",
+    "imagen": "recortes/volkswagen-nivus-v4.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|POLO": {
+  "alto": 588,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-polo.webp",
+  "variantes": [
+   {
+    "alto": 442,
+    "ancho": 878,
+    "archivo": "2023 Volkswagen Polo Track (Colombia) front view.png",
+    "imagen": "recortes/volkswagen-polo-v1.webp"
+   },
+   {
+    "alto": 423,
+    "ancho": 717,
+    "archivo": "2023 Volkswagen Polo 1.6 Track, 1st edition.jpg",
+    "imagen": "recortes/volkswagen-polo-v2.webp"
+   },
+   {
+    "alto": 437,
+    "ancho": 811,
+    "archivo": "2024 Volkswagen Polo Track 1.6 MSi.jpg",
+    "imagen": "recortes/volkswagen-polo-v3.webp"
+   },
+   {
+    "alto": 503,
+    "ancho": 872,
+    "archivo": "Volkswagen Polo Track 1.6 2024 - (1).jpg",
+    "imagen": "recortes/volkswagen-polo-v4.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|SAVEIRO PICK - UP": {
+  "alto": 762,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-saveiro-pick-up.webp",
+  "variantes": [
+   {
+    "alto": 478,
+    "ancho": 801,
+    "archivo": "Volkswagen Saveiro Cab 2026.jpg",
+    "imagen": "recortes/volkswagen-saveiro-pick-up-v1.webp"
+   },
+   {
+    "alto": 524,
+    "ancho": 923,
+    "archivo": "Volkswagen Saveiro Mk8 Double Cab base black in Maldonado - front.jpg",
+    "imagen": "recortes/volkswagen-saveiro-pick-up-v2.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|T-CROSS": {
+  "alto": 760,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-t-cross.webp",
+  "variantes": [
+   {
+    "alto": 432,
+    "ancho": 841,
+    "archivo": "Volkswagen T-Cross 200 TSi Comfortline 2025.jpg",
+    "imagen": "recortes/volkswagen-t-cross-v1.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|TAOS": {
+  "alto": 781,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-taos.webp",
+  "variantes": [
+   {
+    "alto": 472,
+    "ancho": 726,
+    "archivo": "2022 Volkswagen Taos 1.4 250 TSI Comfortline (Argentina).jpg",
+    "imagen": "recortes/volkswagen-taos-v1.webp"
+   },
+   {
+    "alto": 448,
+    "ancho": 928,
+    "archivo": "2022 Volkswagen Taos S in Pure White, front left.jpg",
+    "imagen": "recortes/volkswagen-taos-v2.webp"
+   },
+   {
+    "alto": 469,
+    "ancho": 917,
+    "archivo": "2022 Volkswagen Taos 1.5T SE in Cornflower Blue, front left.jpg",
+    "imagen": "recortes/volkswagen-taos-v3.webp"
+   },
+   {
+    "alto": 525,
+    "ancho": 892,
+    "archivo": "2022 Volkswagen Taos SE (United States) front view 01.png",
+    "imagen": "recortes/volkswagen-taos-v4.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|TERA": {
+  "alto": 781,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-tera.webp",
+  "variantes": [
+   {
+    "alto": 540,
+    "ancho": 855,
+    "archivo": "2025 Volkswagen Tera 1.0T Outfit.jpg",
+    "imagen": "recortes/volkswagen-tera-v1.webp"
+   },
+   {
+    "alto": 537,
+    "ancho": 895,
+    "archivo": "2026 Volkswagen Tera 1.6 MSi Trend.jpg",
+    "imagen": "recortes/volkswagen-tera-v2.webp"
+   },
+   {
+    "alto": 453,
+    "ancho": 849,
+    "archivo": "Volkswagen Tera 170 TSi Comfort 2026 Front.jpg",
+    "imagen": "recortes/volkswagen-tera-v3.webp"
+   },
+   {
+    "alto": 450,
+    "ancho": 904,
+    "archivo": "2026 Volkswagen Tera 170 TSi Outfit.jpg",
+    "imagen": "recortes/volkswagen-tera-v4.webp"
+   }
+  ]
+ },
+ "VOLKSWAGEN|VIRTUS": {
+  "alto": 806,
+  "ancho": 1400,
+  "imagen": "recortes/volkswagen-virtus.webp",
+  "variantes": [
+   {
+    "alto": 484,
+    "ancho": 889,
+    "archivo": "2024 Volkswagen Virtus 1.6 MSi Trendline (facelift).jpg",
+    "imagen": "recortes/volkswagen-virtus-v1.webp"
+   },
+   {
+    "alto": 458,
+    "ancho": 862,
+    "archivo": "2018 Volkswagen Virtus 1.6 MSi Highline AT.jpg",
+    "imagen": "recortes/volkswagen-virtus-v2.webp"
+   },
+   {
+    "alto": 340,
+    "ancho": 928,
+    "archivo": "Volkswagen Virtus 1.6 MSi Trendline 2023.jpg",
+    "imagen": "recortes/volkswagen-virtus-v3.webp"
+   }
+  ]
+ }
+}

@@ -2,6 +2,41 @@
  "BAIC|BJ30": {
   "archivo": "Beijing BJ30, front 1.jpg",
   "autor": "Nortoncc1",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Beijing BJ30 001.jpg",
+    "autor": "JustAnotherCarDesigner",
+    "imagen": "baic-bj30-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Beijing_BJ30_001.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 714,
+    "ancho": 960,
+    "archivo": "Beijing BJ30, rear 1.jpg",
+    "autor": "Nortoncc1",
+    "imagen": "baic-bj30-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Beijing_BJ30,_rear_1.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 642,
+    "ancho": 960,
+    "archivo": "Beijing BJ30, interior 1.jpg",
+    "autor": "Nortoncc1",
+    "imagen": "baic-bj30-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Beijing_BJ30,_interior_1.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "baic-bj30.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Beijing_BJ30,_front_1.jpg",
@@ -10,6 +45,63 @@
  "BAIC|X55 CROSSOVER": {
   "archivo": "Baic X55 Automesse Ludwigsburg 2023 1X7A0062.jpg",
   "autor": "Alexander-93",
+  "galeria": [
+   {
+    "alto": 767,
+    "ancho": 960,
+    "archivo": "BAIC (Beijing) X55 162315.jpg",
+    "autor": "Trop86",
+    "imagen": "baic-x55-crossover-g1.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BAIC_(Beijing)_X55_162315.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 586,
+    "ancho": 960,
+    "archivo": "Miri 25 November 2023 30.jpg",
+    "autor": "Pangalau",
+    "imagen": "baic-x55-crossover-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Miri_25_November_2023_30.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 642,
+    "ancho": 960,
+    "archivo": "BAIC X55 (3rd generation) DSC 8882.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "baic-x55-crossover-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BAIC_X55_(3rd_generation)_DSC_8882.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 535,
+    "ancho": 960,
+    "archivo": "Baic X55 Automesse Ludwigsburg 2023 1X7A0064.jpg",
+    "autor": "Alexander-93",
+    "imagen": "baic-x55-crossover-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Baic_X55_Automesse_Ludwigsburg_2023_1X7A0064.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 641,
+    "ancho": 960,
+    "archivo": "Baic X55 Automesse Ludwigsburg 2023 1X7A0077.jpg",
+    "autor": "Alexander-93",
+    "imagen": "baic-x55-crossover-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Baic_X55_Automesse_Ludwigsburg_2023_1X7A0077.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "baic-x55-crossover.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Baic_X55_Automesse_Ludwigsburg_2023_1X7A0062.jpg",
@@ -18,6 +110,74 @@
  "BYD|ATTO 2": {
   "archivo": "BYD Atto 2 DSC 8763.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2026 BYD Atto 2 Premium.jpg",
+    "autor": "Chanokchon",
+    "imagen": "byd-atto-2-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_BYD_Atto_2_Premium.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 550,
+    "ancho": 960,
+    "archivo": "BYD Atto 2 MYLE Festival 2025 DSC 9417.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "byd-atto-2-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Atto_2_MYLE_Festival_2025_DSC_9417.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 642,
+    "ancho": 960,
+    "archivo": "BYD Atto 2 IAA 2025 DSC 2247.jpg",
+    "autor": "Alexander-93",
+    "imagen": "byd-atto-2-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Atto_2_IAA_2025_DSC_2247.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 624,
+    "ancho": 960,
+    "archivo": "2026 BYD Atto 2 with South Australia license plate (55531691944).jpg",
+    "autor": "Peugeot 206",
+    "imagen": "byd-atto-2-g4.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_BYD_Atto_2_with_South_Australia_license_plate_(55531691944).jpg",
+    "url_licencia": "",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "BYD Atto 2 EV Premium 2026 (4).jpg",
+    "autor": "Captainmorlypogi1959",
+    "imagen": "byd-atto-2-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Atto_2_EV_Premium_2026_(4).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 738,
+    "ancho": 960,
+    "archivo": "BYD Atto 2 (cropped).jpg",
+    "autor": "Alexander Migl",
+    "imagen": "byd-atto-2-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Atto_2_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "byd-atto-2.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Atto_2_DSC_8763.jpg",
@@ -26,6 +186,63 @@
  "BYD|DOLPHIN MINI": {
   "archivo": "BYD DOLPHIN MINI (BRAZIL) BYD SEAGULL.jpg",
   "autor": "Mateusmatsuda",
+  "galeria": [
+   {
+    "alto": 602,
+    "ancho": 960,
+    "archivo": "2023 BYD Seagull (front).jpg",
+    "autor": "User3204",
+    "imagen": "byd-dolphin-mini-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_BYD_Seagull_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2025 BYD Seagull EV in Sprout Green, front left.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "byd-dolphin-mini-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_BYD_Seagull_EV_in_Sprout_Green,_front_left.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "BYD Seagull EV 2025 (10).jpg",
+    "autor": "Captainmorlypogi1959",
+    "imagen": "byd-dolphin-mini-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Seagull_EV_2025_(10).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 584,
+    "ancho": 960,
+    "archivo": "2023 BYD Seagull (rear).jpg",
+    "autor": "User3204",
+    "imagen": "byd-dolphin-mini-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_BYD_Seagull_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "BYD Seagull EV - interior view.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "byd-dolphin-mini-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Seagull_EV_-_interior_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "byd-dolphin-mini.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:BYD_DOLPHIN_MINI_(BRAZIL)_BYD_SEAGULL.jpg",
@@ -34,6 +251,52 @@
  "BYD|SONG PRO DM-i": {
   "archivo": "BYD Song Pro DM-i facelift img1.jpg",
   "autor": "Dgfg5085",
+  "galeria": [
+   {
+    "alto": 508,
+    "ancho": 960,
+    "archivo": "BYD Song Pro DM-i 2023 facelift 001 (cropped).jpg",
+    "autor": "Quzhouliulian",
+    "imagen": "byd-song-pro-dm-i-g1.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Song_Pro_DM-i_2023_facelift_001_(cropped).jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "BYD Song Pro DM-i facelift 004 (cropped).jpg",
+    "autor": "JustAnotherCarDesigner",
+    "imagen": "byd-song-pro-dm-i-g2.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Song_Pro_DM-i_facelift_004_(cropped).jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 813,
+    "ancho": 960,
+    "archivo": "BYD Song Pro i.jPG",
+    "autor": "Bull-Doser",
+    "imagen": "byd-song-pro-dm-i-g3.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Song_Pro_i.jPG",
+    "url_licencia": "",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "BYD Song Pro DM-I facelift 001.jpg",
+    "autor": "JustAnotherCarDesigner",
+    "imagen": "byd-song-pro-dm-i-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Song_Pro_DM-I_facelift_001.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "byd-song-pro-dm-i.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Song_Pro_DM-i_facelift_img1.jpg",
@@ -42,6 +305,41 @@
  "BYD|YUAN PRO": {
   "archivo": "BYD Yuan Pro IMG003.jpg",
   "autor": "Anonymousfox36",
+  "galeria": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2021 BYD Yuan Pro (facelift, front).jpg",
+    "autor": "User3204",
+    "imagen": "byd-yuan-pro-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_BYD_Yuan_Pro_(facelift,_front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 722,
+    "ancho": 960,
+    "archivo": "BYD Yuan Pro IMG001.jpg",
+    "autor": "Zotyefan",
+    "imagen": "byd-yuan-pro-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Yuan_Pro_IMG001.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 561,
+    "ancho": 960,
+    "archivo": "2021 BYD Yuan Pro (facelift, rear).jpg",
+    "autor": "User3204",
+    "imagen": "byd-yuan-pro-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_BYD_Yuan_Pro_(facelift,_rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "byd-yuan-pro.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:BYD_Yuan_Pro_IMG003.jpg",
@@ -50,6 +348,63 @@
  "CHANGAN|CS55": {
   "archivo": "Changan CS55 Plus II 009.jpg",
   "autor": "SAIC GM sucks",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Changan CS55 Plus Luxury 2024.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "changan-cs55-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_Luxury_2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Changan CS55 Plus II 003.jpg",
+    "autor": "JustAnotherCarDesigner",
+    "imagen": "changan-cs55-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_II_003.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 541,
+    "ancho": 960,
+    "archivo": "2021 Chang'an CS55 Plus (front).jpg",
+    "autor": "User3204",
+    "imagen": "changan-cs55-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Chang%27an_CS55_Plus_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Changan CS55 Plus II 001.jpg",
+    "autor": "JustAnotherCarDesigner",
+    "imagen": "changan-cs55-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_II_001.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 572,
+    "ancho": 960,
+    "archivo": "2021 Chang'an CS55 Plus (rear).jpg",
+    "autor": "User3204",
+    "imagen": "changan-cs55-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Chang%27an_CS55_Plus_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "changan-cs55.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_II_009.jpg",
@@ -58,6 +413,63 @@
  "CHERY|TIGGO 7": {
   "archivo": "Chery Tiggo 7 Pro Hybrid 2025.jpg",
   "autor": "Captainmorlypogi1959",
+  "galeria": [
+   {
+    "alto": 960,
+    "ancho": 960,
+    "archivo": "2024 Chery Tiggo 7 Pro 1.5 Premium in Ruby Red.jpg",
+    "autor": "MoCars",
+    "imagen": "chery-tiggo-7-g1.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Chery_Tiggo_7_Pro_1.5_Premium_in_Ruby_Red.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 668,
+    "ancho": 960,
+    "archivo": "2024 Chery Tiggo7 Pro Max white front.jpg",
+    "autor": "Throwawayacc222",
+    "imagen": "chery-tiggo-7-g2.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Chery_Tiggo7_Pro_Max_white_front.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 579,
+    "ancho": 960,
+    "archivo": "2023 Chery Tiggo7 Pro Max grey front.jpg",
+    "autor": "Throwawayacc222",
+    "imagen": "chery-tiggo-7-g3.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chery_Tiggo7_Pro_Max_grey_front.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 529,
+    "ancho": 960,
+    "archivo": "Chery Tiggo7 Pro 1.5T GLX 2024 (54149643181).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "imagen": "chery-tiggo-7-g4.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chery_Tiggo7_Pro_1.5T_GLX_2024_(54149643181).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 632,
+    "ancho": 960,
+    "archivo": "2023 Chery Tiggo7 Pro Max grey rear.jpg",
+    "autor": "Throwawayacc222",
+    "imagen": "chery-tiggo-7-g5.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chery_Tiggo7_Pro_Max_grey_rear.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "cola"
+   }
+  ],
   "imagen": "chery-tiggo-7.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Chery_Tiggo_7_Pro_Hybrid_2025.jpg",
@@ -66,6 +478,63 @@
  "CHEVROLET|MONTANA PICK - UP": {
   "archivo": "2023 Chevrolet Montana Premier (Brazil) front view 01.jpg",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Chevrolet Montana Premier (Brazil) front view 02.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "chevrolet-montana-pick-up-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chevrolet_Montana_Premier_(Brazil)_front_view_02.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 624,
+    "ancho": 960,
+    "archivo": "Chevrolet Montana Mk3 LS 2023 in Maldonado 01.jpg",
+    "autor": "NaBUru38",
+    "imagen": "chevrolet-montana-pick-up-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Montana_Mk3_LS_2023_in_Maldonado_01.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 582,
+    "ancho": 960,
+    "archivo": "2023 Chevrolet Montana LTZ front.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "chevrolet-montana-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chevrolet_Montana_LTZ_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 599,
+    "ancho": 960,
+    "archivo": "Chevrolet Montana Turbo RS 2024 (53354238079).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "imagen": "chevrolet-montana-pick-up-g4.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Montana_Turbo_RS_2024_(53354238079).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Chevrolet Montana Premier (Brazil) rear view.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "chevrolet-montana-pick-up-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chevrolet_Montana_Premier_(Brazil)_rear_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "chevrolet-montana-pick-up.webp",
   "interior": {
    "archivo": "2024 Chevrolet Montana Premier (Colombia) interior.png",
@@ -82,6 +551,63 @@
  "CHEVROLET|ONIX": {
   "archivo": "Chevrolet Onix Mk2 RS 2020 in Maldonado - front.jpg",
   "autor": "NaBUru38",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Chevrolet Onix Turbo RS 2024.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "chevrolet-onix-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_Turbo_RS_2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "At São Paulo 2023 092.jpg",
+    "autor": "Photograph by Mike Peel (www.mikepeel.net).",
+    "imagen": "chevrolet-onix-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:At_S%C3%A3o_Paulo_2023_092.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "At São Paulo 2023 089.jpg",
+    "autor": "Photograph by Mike Peel (www.mikepeel.net).",
+    "imagen": "chevrolet-onix-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:At_S%C3%A3o_Paulo_2023_089.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "At São Paulo 2023 006.jpg",
+    "autor": "Photograph by Mike Peel (www.mikepeel.net).",
+    "imagen": "chevrolet-onix-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:At_S%C3%A3o_Paulo_2023_006.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "perfil"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "At São Paulo 2023 007.jpg",
+    "autor": "Photograph by Mike Peel (www.mikepeel.net).",
+    "imagen": "chevrolet-onix-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:At_S%C3%A3o_Paulo_2023_007.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "tablero"
+   }
+  ],
   "imagen": "chevrolet-onix.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_Mk2_RS_2020_in_Maldonado_-_front.jpg",
@@ -106,6 +632,52 @@
  "CHEVROLET|SPIN": {
   "archivo": "2025 Chevrolet Spin 1.8 LT (front).jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2025 Chevrolet Spin 1.8 LT.jpg",
+    "autor": "Just a Man",
+    "imagen": "chevrolet-spin-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Spin_1.8_LT.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 608,
+    "ancho": 960,
+    "archivo": "Chevrolet Spin 1.8 Premier 2022.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "chevrolet-spin-g2.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Spin_1.8_Premier_2022.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 639,
+    "ancho": 960,
+    "archivo": "2019 Chevrolet Spin 1.8 LTZ (facelift), front view.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "chevrolet-spin-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Spin_1.8_LTZ_(facelift),_front_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 687,
+    "ancho": 960,
+    "archivo": "2019 Chevrolet Spin 1.8 LTZ (facelift), rear view.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "chevrolet-spin-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Spin_1.8_LTZ_(facelift),_rear_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "chevrolet-spin.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Spin_1.8_LT_(front).jpg",
@@ -114,6 +686,74 @@
  "CHEVROLET|TRACKER": {
   "archivo": "2026 Chevrolet Tracker 1.2 LT (facelift).jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 588,
+    "ancho": 960,
+    "archivo": "2022 Chevrolet Tracker 1.2 Turbo LTZ, front (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "chevrolet-tracker-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Tracker_1.2_Turbo_LTZ,_front_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 612,
+    "ancho": 960,
+    "archivo": "2023 Chevrolet Tracker 1.2 Premier.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "chevrolet-tracker-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Chevrolet_Tracker_1.2_Premier.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 550,
+    "ancho": 960,
+    "archivo": "Chevrolet Tracker 2021 (front).png",
+    "autor": "Autosdeprimera",
+    "imagen": "chevrolet-tracker-g3.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Tracker_2021_(front).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 624,
+    "ancho": 960,
+    "archivo": "Chevrolet Tracker Turbo RS 2024 (53354360975).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "imagen": "chevrolet-tracker-g4.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Tracker_Turbo_RS_2024_(53354360975).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 669,
+    "ancho": 960,
+    "archivo": "2022 Chevrolet Tracker 1.2 Turbo LTZ, rear (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "chevrolet-tracker-g5.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Tracker_1.2_Turbo_LTZ,_rear_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 550,
+    "ancho": 960,
+    "archivo": "Chevrolet Tracker 2021 (interior).png",
+    "autor": "Autosdeprimera",
+    "imagen": "chevrolet-tracker-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Tracker_2021_(interior).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "chevrolet-tracker.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2026_Chevrolet_Tracker_1.2_LT_(facelift).jpg",
@@ -122,6 +762,19 @@
  "CITROEN|BASALT": {
   "archivo": "Citroen Basalt Turbo 200 Shine 2025.jpg",
   "autor": "RL GNZLZ",
+  "galeria": [
+   {
+    "alto": 721,
+    "ancho": 960,
+    "archivo": "CitroenBasaltCC26PuretechGIIAS25RR.jpg",
+    "autor": "Celica21gtfour",
+    "imagen": "citroen-basalt-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:CitroenBasaltCC26PuretechGIIAS25RR.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "citroen-basalt.webp",
   "licencia": "CC BY-SA 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Citroen_Basalt_Turbo_200_Shine_2025.jpg",
@@ -130,6 +783,52 @@
  "CITROEN|BERLINGO": {
   "archivo": "2005 Citroën Berlingo (M59 Series II) van (22082762158).jpg",
   "autor": "Jeremy from Sydney, Australia",
+  "galeria": [
+   {
+    "alto": 577,
+    "ancho": 960,
+    "archivo": "2005 Citroën Berlingo (M59 Series II) van (22257630722) (cropped).jpg",
+    "autor": "Jeremy from Sydney, Australia",
+    "imagen": "citroen-berlingo-g1.webp",
+    "licencia": "CC BY 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2005_Citro%C3%ABn_Berlingo_(M59_Series_II)_van_(22257630722)_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 678,
+    "ancho": 960,
+    "archivo": "2002 Citroen Berlingo Multispace Forte - 1587cc 1.6 (110PS) Petrol - Blue - 12-2023, Front.jpg",
+    "autor": "Harvey Bold",
+    "imagen": "citroen-berlingo-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2002_Citroen_Berlingo_Multispace_Forte_-_1587cc_1.6_(110PS)_Petrol_-_Blue_-_12-2023,_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 641,
+    "ancho": 960,
+    "archivo": "2003 Citroen Berlingo Spacelight 1,6 16V.jpg",
+    "autor": "Thilo Parg",
+    "imagen": "citroen-berlingo-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2003_Citroen_Berlingo_Spacelight_1,6_16V.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2007 Citroën Berlingo Multispace 1.9 (rear).jpg",
+    "autor": "Just a Man",
+    "imagen": "citroen-berlingo-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2007_Citro%C3%ABn_Berlingo_Multispace_1.9_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "citroen-berlingo.webp",
   "licencia": "CC BY 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2005_Citro%C3%ABn_Berlingo_(M59_Series_II)_van_(22082762158).jpg",
@@ -138,6 +837,41 @@
  "CITROEN|C 3": {
   "archivo": "Citroen C3 CC21 front 20230524 (cropped).jpg",
   "autor": "Dairokkan9",
+  "galeria": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Citroën C3 2022 Feel Pack Spring Blue in Uruguay - front.jpg",
+    "autor": "NaBUru38",
+    "imagen": "citroen-c-3-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_2022_Feel_Pack_Spring_Blue_in_Uruguay_-_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Citroën C3 2022 Feel Pack Artense Grey in Uruguay - front.jpg",
+    "autor": "NaBUru38",
+    "imagen": "citroen-c-3-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_2022_Feel_Pack_Artense_Grey_in_Uruguay_-_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Citroën C3 2022 Feel Pack Spring Blue in Uruguay - rear.jpg",
+    "autor": "NaBUru38",
+    "imagen": "citroen-c-3-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_2022_Feel_Pack_Spring_Blue_in_Uruguay_-_rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "citroen-c-3.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Citroen_C3_CC21_front_20230524_(cropped).jpg",
@@ -146,6 +880,52 @@
  "CITROEN|C 3 AIRCROSS": {
   "archivo": "Citroën C3 Aircross 2024 Shine 1.0 Turbo 200 in Montevideo (front).jpg",
   "autor": "NaBUru38",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Citroen C3 Aircross Turbo Shine 2026.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "citroen-c-3-aircross-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citroen_C3_Aircross_Turbo_Shine_2026.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Citroën C3 Aircross 1.2 CC24 (Indonesia) front view.jpg",
+    "autor": "Andra Febrian",
+    "imagen": "citroen-c-3-aircross-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Citro%C3%ABn_C3_Aircross_1.2_CC24_(Indonesia)_front_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 505,
+    "ancho": 960,
+    "archivo": "2025 Citroën C3 Aircross 1.0 Feel Pack.jpg",
+    "autor": "Just a Man",
+    "imagen": "citroen-c-3-aircross-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Citro%C3%ABn_C3_Aircross_1.0_Feel_Pack.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 622,
+    "ancho": 960,
+    "archivo": "Citroën C3 Aircross 2024 Shine 1.0 Turbo 200 in Montevideo (rear).jpg",
+    "autor": "NaBUru38",
+    "imagen": "citroen-c-3-aircross-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Aircross_2024_Shine_1.0_Turbo_200_in_Montevideo_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "citroen-c-3-aircross.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Aircross_2024_Shine_1.0_Turbo_200_in_Montevideo_(front).jpg",
@@ -154,6 +934,63 @@
  "FIAT|600": {
   "archivo": "Fiat 600 (2023) Hybrid.jpg",
   "autor": "Alexander-93",
+  "galeria": [
+   {
+    "alto": 670,
+    "ancho": 960,
+    "archivo": "2025 Fiat 600 La Prima MHEV Auto.jpg",
+    "autor": "Calreyn88",
+    "imagen": "fiat-600-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Fiat_600_La_Prima_MHEV_Auto.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 578,
+    "ancho": 960,
+    "archivo": "Fiat 600 (2023) DSC 0738.jpg",
+    "autor": "Alexander-93",
+    "imagen": "fiat-600-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_600_(2023)_DSC_0738.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 531,
+    "ancho": 960,
+    "archivo": "Fiat 600 (2023) IMG 7904.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "fiat-600-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_600_(2023)_IMG_7904.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 639,
+    "ancho": 960,
+    "archivo": "Fiat 600 (2023) IMG 2357.jpg",
+    "autor": "Alexander-93",
+    "imagen": "fiat-600-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_600_(2023)_IMG_2357.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 535,
+    "ancho": 960,
+    "archivo": "Fiat 600 (2023) IMG 7909.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "fiat-600-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_600_(2023)_IMG_7909.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "fiat-600.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_600_(2023)_Hybrid.jpg",
@@ -162,6 +999,85 @@
  "FIAT|ARGO": {
   "archivo": "2023 Fiat Argo 1.3 Drive (facelift, Brazil).jpg",
   "autor": "Maxi-Napo-99",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Fiat Argo 2017b (cropped).jpg",
+    "autor": "JasonVogel",
+    "imagen": "fiat-argo-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Argo_2017b_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2019 Fiat Argo 1.8 Precision (Brazil) seen in Buenos Aires, Argentina.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "fiat-argo-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Fiat_Argo_1.8_Precision_(Brazil)_seen_in_Buenos_Aires,_Argentina.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 611,
+    "ancho": 960,
+    "archivo": "2025 Fiat Argo 1.3 Drive.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-argo-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Fiat_Argo_1.3_Drive.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 633,
+    "ancho": 960,
+    "archivo": "2017 Fiat Argo 1.3 GSE Drive.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-argo-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2017_Fiat_Argo_1.3_GSE_Drive.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Fiat Argo 2017a (cropped).jpg",
+    "autor": "JasonVogel",
+    "imagen": "fiat-argo-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Argo_2017a_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Interior Fiat Argo 1.0 2022.jpg",
+    "autor": "Arthur RPereira",
+    "imagen": "fiat-argo-g6.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Interior_Fiat_Argo_1.0_2022.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "interior"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Argo UConnect interior.jpg",
+    "autor": "Heduardo55",
+    "imagen": "fiat-argo-g7.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Argo_UConnect_interior.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "interior"
+   }
+  ],
   "imagen": "fiat-argo.webp",
   "interior": {
    "archivo": "Interior Fiat Argo 1.0 2022.jpg",
@@ -178,6 +1094,96 @@
  "FIAT|CRONOS": {
   "archivo": "2024 Fiat Cronos 1.3 GSE Precision.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 532,
+    "ancho": 960,
+    "archivo": "2025 Fiat Cronos 1.3 GSE Precision, facelift - 01.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Fiat_Cronos_1.3_GSE_Precision,_facelift_-_01.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Fiat Cronos 1.3 S-Design.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Cronos_1.3_S-Design.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 656,
+    "ancho": 960,
+    "archivo": "Fiat Cronos 1.8 E.torQ Precision 2021.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "fiat-cronos-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Cronos_1.8_E.torQ_Precision_2021.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 634,
+    "ancho": 960,
+    "archivo": "Fiat Cronos 1.8 Precision 2022 (trasera).jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Cronos_1.8_Precision_2022_(trasera).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2022 Fiat Cronos 1.3 Drive GSE (side view).jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g5.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Fiat_Cronos_1.3_Drive_GSE_(side_view).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "perfil"
+   },
+   {
+    "alto": 642,
+    "ancho": 960,
+    "archivo": "2025 Fiat Cronos interior.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g6.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Fiat_Cronos_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Fiat Cronos Precision interior.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g7.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Cronos_Precision_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Fiat Cronos 1.3 GSE S-Design (trunk).jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-cronos-g8.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Cronos_1.3_GSE_S-Design_(trunk).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "baul"
+   }
+  ],
   "imagen": "fiat-cronos.webp",
   "interior": {
    "archivo": "2025 Fiat Cronos interior.jpg",
@@ -194,6 +1200,74 @@
  "FIAT|FASTBACK": {
   "archivo": "2023 Fiat Fastback (Colombia) front view.png",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "Fiat Fastback 2023 Impetus Turbo 200 in Montevideo.jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-fastback-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fastback_2023_Impetus_Turbo_200_in_Montevideo.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 660,
+    "ancho": 960,
+    "archivo": "2024 Fiat Fastback 1.3 GSE Turbo 270 (front).jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-fastback-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Fastback_1.3_GSE_Turbo_270_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 582,
+    "ancho": 960,
+    "archivo": "Fiat Fastback Turbo 200 Audace 2023 (53098276048).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "imagen": "fiat-fastback-g3.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fastback_Turbo_200_Audace_2023_(53098276048).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Fiat Fastback (Colombia) rear view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "fiat-fastback-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fastback_(Colombia)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Fiat Fastback (Colombia) interior.png",
+    "autor": "Autosdeprimera",
+    "imagen": "fiat-fastback-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fastback_(Colombia)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Fiat Fastback interior.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-fastback-g6.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Fastback_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "fiat-fastback.webp",
   "interior": {
    "archivo": "2023 Fiat Fastback (Colombia) interior.png",
@@ -210,6 +1284,41 @@
  "FIAT|FIORINO": {
   "archivo": "2023 Fiat Fiorino Endurance 1.4 Fire Evo (facelift).jpg",
   "autor": "Maxi-Napo-99",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "Fiat Fiorino XMF 2650 in Punta del Este 2015.JPG",
+    "autor": "NaBUru38",
+    "imagen": "fiat-fiorino-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fiorino_XMF_2650_in_Punta_del_Este_2015.JPG",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 555,
+    "ancho": 960,
+    "archivo": "Fiat Fiorino de Andreani en Monte Castro.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-fiorino-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fiorino_de_Andreani_en_Monte_Castro.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Fiorino, La Boca.jpg",
+    "autor": "Raf24~commonswiki",
+    "imagen": "fiat-fiorino-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fiorino,_La_Boca.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "fiat-fiorino.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fiorino_Endurance_1.4_Fire_Evo_(facelift).jpg",
@@ -218,6 +1327,63 @@
  "FIAT|MOBI": {
   "archivo": "Fiat Mobi Trekking 1.0 2021 in Montevideo (front) (cropped).jpg",
   "autor": "NaBUru38",
+  "galeria": [
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "Fiat Mobi Trekking 1.0 2021 in Montevideo (front).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-mobi-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_Trekking_1.0_2021_in_Montevideo_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 516,
+    "ancho": 960,
+    "archivo": "Fiat Mobi Way 1.0 2017.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-mobi-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_Way_1.0_2017.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Fiat Mobi 1.0 Trekking.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "fiat-mobi-g3.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Fiat_Mobi_1.0_Trekking.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Mobi.jpg",
+    "autor": "Diego HC (talk) 21:59, 19 February 2017 (UTC)",
+    "imagen": "fiat-mobi-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "Fiat Mobi Trekking 1.0 2021 in Montevideo (back).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-mobi-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_Trekking_1.0_2021_in_Montevideo_(back).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "fiat-mobi.webp",
   "interior": {
    "archivo": "Fiat Mobi 1.0 Like interior.jpg",
@@ -234,6 +1400,85 @@
  "FIAT|PULSE": {
   "archivo": "2023 Fiat Pulse Impetus (Colombia) front view 01.jpg",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 591,
+    "ancho": 960,
+    "archivo": "Fiat Pulse 2023 Impetus 1.3 Turbo 200 red in Montevideo in 2024 (front).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-pulse-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Pulse_2023_Impetus_1.3_Turbo_200_red_in_Montevideo_in_2024_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Fiat Pulse Impetus (Colombia) front view 02.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "fiat-pulse-g2.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Pulse_Impetus_(Colombia)_front_view_02.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "Fiat Pulse Drive 1.3 CVT 2022 in Montevideo (front).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-pulse-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Pulse_Drive_1.3_CVT_2022_in_Montevideo_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 668,
+    "ancho": 960,
+    "archivo": "Fiat Pulse Drive 1.3 2022 in Montevideo (front).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-pulse-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Pulse_Drive_1.3_2022_in_Montevideo_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 630,
+    "ancho": 960,
+    "archivo": "Fiat Pulse 2023 Impetus 1.3 Turbo 200 red in Montevideo in 2024 (rear).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-pulse-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Pulse_2023_Impetus_1.3_Turbo_200_red_in_Montevideo_in_2024_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Fiat Pulse Impetus (Colombia) interior.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "fiat-pulse-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Pulse_Impetus_(Colombia)_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Fiat Pulse Impetus T200 (Brazil) interior.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "fiat-pulse-g7.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Fiat_Pulse_Impetus_T200_(Brazil)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "fiat-pulse.webp",
   "interior": {
    "archivo": "2023 Fiat Pulse Impetus (Colombia) interior.jpg",
@@ -250,6 +1495,63 @@
  "FIAT|STRADA PICK - UP": {
   "archivo": "Fiat Strada 2020 Volcano in Montevideo (front).jpg",
   "autor": "NaBUru38",
+  "galeria": [
+   {
+    "alto": 518,
+    "ancho": 960,
+    "archivo": "Fiat Strada 2020 Volcano in Montevideo (front) (cropped).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-strada-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Strada_2020_Volcano_in_Montevideo_(front)_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Strada Mk6 Volcano in Uruguay - front.jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-strada-pick-up-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Strada_Mk6_Volcano_in_Uruguay_-_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 553,
+    "ancho": 960,
+    "archivo": "Fiat Strada Mk6 Freedom in Montevideo (front).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-strada-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Strada_Mk6_Freedom_in_Montevideo_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 588,
+    "ancho": 960,
+    "archivo": "2025 Fiat Strada Ultra 1.0 T200 CVT.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-strada-pick-up-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Fiat_Strada_Ultra_1.0_T200_CVT.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Strada Mk6 Volcano in Uruguay - rear.jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-strada-pick-up-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Strada_Mk6_Volcano_in_Uruguay_-_rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "fiat-strada-pick-up.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Strada_2020_Volcano_in_Montevideo_(front).jpg",
@@ -258,6 +1560,41 @@
  "FIAT|TITANO PICK UP": {
   "archivo": "2026 Fiat Titano Ranch in Argentina.jpg",
   "autor": "Elcondelvp",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Fiat Titano Ranch.jpg",
+    "autor": "FANDESANTIMOTORIZADO",
+    "imagen": "fiat-titano-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Titano_Ranch.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Titano.jpg",
+    "autor": "Valenz2006",
+    "imagen": "fiat-titano-pick-up-g2.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Titano.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "22.1.2026 - Entrega de veículos adquiridos por meio de convênio federal para reforçar ações de defesa agropecuária - 55055732023.jpg",
+    "autor": "Governo RS",
+    "imagen": "fiat-titano-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:22.1.2026_-_Entrega_de_ve%C3%ADculos_adquiridos_por_meio_de_conv%C3%AAnio_federal_para_refor%C3%A7ar_a%C3%A7%C3%B5es_de_defesa_agropecu%C3%A1ria_-_55055732023.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "fiat-titano-pick-up.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2026_Fiat_Titano_Ranch_in_Argentina.jpg",
@@ -266,6 +1603,52 @@
  "FIAT|TORO PICK UP": {
   "archivo": "Fiat Toro 2022 1.8 Freedom in Punta del Este (front).jpg",
   "autor": "NaBUru38",
+  "galeria": [
+   {
+    "alto": 533,
+    "ancho": 960,
+    "archivo": "Fiat Toro 2024 Volcano in Montevideo, Uruguay (front).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-toro-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_2024_Volcano_in_Montevideo,_Uruguay_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 452,
+    "ancho": 960,
+    "archivo": "2024 Fiat Toro 2.0 Volcano 4x4.jpg",
+    "autor": "Just a Man",
+    "imagen": "fiat-toro-pick-up-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Toro_2.0_Volcano_4x4.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Toro Volcano front.jpg",
+    "autor": "Diego HC (talk) 22:29, 19 February 2017 (UTC)",
+    "imagen": "fiat-toro-pick-up-g3.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_Volcano_front.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 533,
+    "ancho": 960,
+    "archivo": "Fiat Toro 2024 Volcano in Montevideo, Uruguay (rear).jpg",
+    "autor": "NaBUru38",
+    "imagen": "fiat-toro-pick-up-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_2024_Volcano_in_Montevideo,_Uruguay_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "fiat-toro-pick-up.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_2022_1.8_Freedom_in_Punta_del_Este_(front).jpg",
@@ -274,6 +1657,74 @@
  "FORD|BRONCO SPORT": {
   "archivo": "Ford Bronco Sport Badlands 1X7A0384.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ford Bronco Sport Big Bend in Uruguay - front.jpg",
+    "autor": "NaBUru38",
+    "imagen": "ford-bronco-sport-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_Sport_Big_Bend_in_Uruguay_-_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 629,
+    "ancho": 960,
+    "archivo": "2022 Ford Bronco Sport Big Bend, front left, 09-03-2022.jpg",
+    "autor": "MercurySable99",
+    "imagen": "ford-bronco-sport-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Bronco_Sport_Big_Bend,_front_left,_09-03-2022.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 606,
+    "ancho": 960,
+    "archivo": "2021 Ford Bronco Sport Big Bend in Oxford White, front left, 2025-04-25.jpg",
+    "autor": "Elise240SX",
+    "imagen": "ford-bronco-sport-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Big_Bend_in_Oxford_White,_front_left,_2025-04-25.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 573,
+    "ancho": 960,
+    "archivo": "2023 Ford Bronco Sport Heritage in Robin's Egg Blue, Front Left, 04-05-2023.jpg",
+    "autor": "Elise240SX",
+    "imagen": "ford-bronco-sport-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Bronco_Sport_Heritage_in_Robin%27s_Egg_Blue,_Front_Left,_04-05-2023.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ford Bronco Sport Big Bend in Uruguay - rear.jpg",
+    "autor": "NaBUru38",
+    "imagen": "ford-bronco-sport-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_Sport_Big_Bend_in_Uruguay_-_rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Ford Bronco Sport interior.jpg",
+    "autor": "deathpallie325",
+    "imagen": "ford-bronco-sport-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Bronco_Sport_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "ford-bronco-sport.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_Sport_Badlands_1X7A0384.jpg",
@@ -282,6 +1733,63 @@
  "FORD|EVEREST": {
   "archivo": "Ford Everest Limited 2023 Aluminum Metallic.jpg",
   "autor": "Josh Zafra",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Ford Everest Sport 2.0L Turbo 4x2.jpg",
+    "autor": "Chanokchon",
+    "imagen": "ford-everest-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Everest_Sport_2.0L_Turbo_4x2.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Ford Everest Titanium+ 2.0L Bi-Turbo 4x4.jpg",
+    "autor": "Chanokchon",
+    "imagen": "ford-everest-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Everest_Titanium%2B_2.0L_Bi-Turbo_4x4.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2023 Ford Everest 2.0 Bi-Turbo Titanium+ in Arctic White, front right, 05-11-2024.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "ford-everest-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_in_Arctic_White,_front_right,_05-11-2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Ford Everest 2.0 Trend Turbo in Aluminum Metallic, front right.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "ford-everest-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ford_Everest_2.0_Trend_Turbo_in_Aluminum_Metallic,_front_right.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2023 Ford Everest 2.0 Bi-Turbo Titanium+ in Arctic White, rear right, 05-11-2024.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "ford-everest-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Everest_2.0_Bi-Turbo_Titanium%2B_in_Arctic_White,_rear_right,_05-11-2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "ford-everest.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Everest_Limited_2023_Aluminum_Metallic.jpg",
@@ -290,6 +1798,74 @@
  "FORD|F-150 PICK - UP": {
   "archivo": "2021 Ford F-150 (fourteenth generation) front view 01.png",
   "autor": "Gold Pony",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Ford F-150 (fourteenth generation) front view 02.png",
+    "autor": "Gold Pony",
+    "imagen": "ford-f-150-pick-up-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_(fourteenth_generation)_front_view_02.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 701,
+    "ancho": 960,
+    "archivo": "'21 Ford F-150 XLT Crew Cab.jpg",
+    "autor": "Bull-Doser",
+    "imagen": "ford-f-150-pick-up-g2.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:%2721_Ford_F-150_XLT_Crew_Cab.jpg",
+    "url_licencia": "",
+    "vista": "frente"
+   },
+   {
+    "alto": 737,
+    "ancho": 960,
+    "archivo": "2021 Ford F150 Supercrew, Front Right, 03-09-2021.jpg",
+    "autor": "SsmIntrigue",
+    "imagen": "ford-f-150-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_F150_Supercrew,_Front_Right,_03-09-2021.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Ford F-150 SuperCrew Pick-Up (52810350195).jpg",
+    "autor": "Greg Gjerdingen from Willmar, USA",
+    "imagen": "ford-f-150-pick-up-g4.webp",
+    "licencia": "CC BY 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_F-150_SuperCrew_Pick-Up_(52810350195).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 564,
+    "ancho": 960,
+    "archivo": "2021 Ford F-150 SuperCrew, rear 4.28.21.jpg",
+    "autor": "Kevauto",
+    "imagen": "ford-f-150-pick-up-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_SuperCrew,_rear_4.28.21.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Ford F-150 interior.jpg",
+    "autor": "deathpallie325",
+    "imagen": "ford-f-150-pick-up-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_F-150_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "ford-f-150-pick-up.webp",
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_(fourteenth_generation)_front_view_01.png",
@@ -298,6 +1874,63 @@
  "FORD|MAVERICK PICK - UP": {
   "archivo": "2022 Ford Maverick XLT AWD, Front Right, 10-10-2021.jpg",
   "autor": "Elise240SX",
+  "galeria": [
+   {
+    "alto": 676,
+    "ancho": 960,
+    "archivo": "2025 Ford Maverick XLT FX4, front 4.15.25.jpg",
+    "autor": "Kevauto",
+    "imagen": "ford-maverick-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Ford_Maverick_XLT_FX4,_front_4.15.25.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 666,
+    "ancho": 960,
+    "archivo": "2025 Ford Maverick au SIAM 2025.jpg",
+    "autor": "Bull-Doser",
+    "imagen": "ford-maverick-pick-up-g2.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Ford_Maverick_au_SIAM_2025.jpg",
+    "url_licencia": "",
+    "vista": "frente"
+   },
+   {
+    "alto": 518,
+    "ancho": 960,
+    "archivo": "2022 Ford Maverick XLT with FX4 Off-Road Package in Area 51, Front Right, 01-16-2023.jpg",
+    "autor": "Elise240SX",
+    "imagen": "ford-maverick-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_with_FX4_Off-Road_Package_in_Area_51,_Front_Right,_01-16-2023.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 484,
+    "ancho": 960,
+    "archivo": "2022 Ford Maverick XLT AWD with FX4 Off-Road Package.jpg",
+    "autor": "MercurySable99",
+    "imagen": "ford-maverick-pick-up-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_AWD_with_FX4_Off-Road_Package.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 556,
+    "ancho": 960,
+    "archivo": "2022 Ford Maverick XLT AWD, rear 4.23.22.jpg",
+    "autor": "Kevauto",
+    "imagen": "ford-maverick-pick-up-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_AWD,_rear_4.23.22.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "ford-maverick-pick-up.webp",
   "interior": {
    "archivo": "2022 Ford Maverick interior.jpg",
@@ -314,6 +1947,85 @@
  "FORD|RANGER PICK - UP": {
   "archivo": "Ford Ranger (T6, P703) Wildtrak IMG 7320.jpg",
   "autor": "Alexander-93",
+  "galeria": [
+   {
+    "alto": 580,
+    "ancho": 960,
+    "archivo": "2024 Ford Ranger V6 Limited (Argentina), front side.jpg",
+    "autor": "Just a Man",
+    "imagen": "ford-ranger-pick-up-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ford_Ranger_V6_Limited_(Argentina),_front_side.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2025 Ford Ranger XLT in Argentina.jpg",
+    "autor": "Elcondelvp",
+    "imagen": "ford-ranger-pick-up-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Ford_Ranger_XLT_in_Argentina.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 626,
+    "ancho": 960,
+    "archivo": "2022 Ford Ranger XLT Double-Cab 2.0L Turbo Hi-Rider.jpg",
+    "autor": "Chanokchon",
+    "imagen": "ford-ranger-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Ranger_XLT_Double-Cab_2.0L_Turbo_Hi-Rider.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 574,
+    "ancho": 960,
+    "archivo": "2023 Ford Ranger Wildtrak EcoBlue 4x4 Auto.jpg",
+    "autor": "Calreyn88",
+    "imagen": "ford-ranger-pick-up-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Ranger_Wildtrak_EcoBlue_4x4_Auto.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 560,
+    "ancho": 960,
+    "archivo": "2024 Ford Ranger V6 Limited (Argentina), rear side.jpg",
+    "autor": "Just a Man",
+    "imagen": "ford-ranger-pick-up-g5.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ford_Ranger_V6_Limited_(Argentina),_rear_side.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 480,
+    "ancho": 960,
+    "archivo": "2024 Ford Ranger V6 Limited (Argentina), side.jpg",
+    "autor": "Just a Man",
+    "imagen": "ford-ranger-pick-up-g6.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ford_Ranger_V6_Limited_(Argentina),_side.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "perfil"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Ford Ranger interior.jpg",
+    "autor": "Deathpallie325",
+    "imagen": "ford-ranger-pick-up-g7.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ford_Ranger_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "ford-ranger-pick-up.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Ranger_(T6,_P703)_Wildtrak_IMG_7320.jpg",
@@ -322,6 +2034,74 @@
  "FORD|TERRITORY": {
   "archivo": "2023 Ford Territory KIMLIN88 front.jpg",
   "autor": "LuvsMG481",
+  "galeria": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2026 Ford Territory Titanium (facelift) in Argentina.jpg",
+    "autor": "Elcondelvp",
+    "imagen": "ford-territory-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_Ford_Territory_Titanium_(facelift)_in_Argentina.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 546,
+    "ancho": 960,
+    "archivo": "2023 Ford Territory (China), front 8.3.23.jpg",
+    "autor": "Kevauto",
+    "imagen": "ford-territory-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Territory_(China),_front_8.3.23.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 810,
+    "ancho": 960,
+    "archivo": "Ford Territory 005.jpg",
+    "autor": "DestinationFearFan",
+    "imagen": "ford-territory-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Territory_005.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ford Territory 1.5 Titanium 2023 (10).jpg",
+    "autor": "Captainmorlypogi1959",
+    "imagen": "ford-territory-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Territory_1.5_Titanium_2023_(10).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 571,
+    "ancho": 960,
+    "archivo": "2023 Ford Territory KIMLIN88 rear.jpg",
+    "autor": "LuvsMG481",
+    "imagen": "ford-territory-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ford_Territory_KIMLIN88_rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ford Territory (Equator Sport) Titanium 2023 interior.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "ford-territory-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Territory_(Equator_Sport)_Titanium_2023_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "ford-territory.webp",
   "interior": {
    "archivo": "Ford Territory (Equator Sport) Titanium 2023 interior.jpg",
@@ -338,6 +2118,41 @@
  "FORD|TRANSIT": {
   "archivo": "Ford Transit 2.2 TDCi 2020.jpg",
   "autor": "Ethan Llamas",
+  "galeria": [
+   {
+    "alto": 619,
+    "ancho": 960,
+    "archivo": "2020 Ford Transit 350 Limited EcoBlue Auto.jpg",
+    "autor": "Calreyn88",
+    "imagen": "ford-transit-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Ford_Transit_350_Limited_EcoBlue_Auto.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 694,
+    "ancho": 960,
+    "archivo": "2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Front.jpg",
+    "autor": "Vauxford",
+    "imagen": "ford-transit-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Ford_Transit_350_Leader_EcoBlue_2.0_facelift_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 724,
+    "ancho": 960,
+    "archivo": "2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Rear.jpg",
+    "autor": "Vauxford",
+    "imagen": "ford-transit-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Ford_Transit_350_Leader_EcoBlue_2.0_facelift_Rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "ford-transit.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Transit_2.2_TDCi_2020.jpg",
@@ -354,6 +2169,41 @@
  "HAVAL|JOLION": {
   "archivo": "2025 Haval Jolion white front.jpg",
   "autor": "Throwawayacc222",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Great Wall Jolion Elite 2025.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "haval-jolion-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Great_Wall_Jolion_Elite_2025.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Haval Jolion in Tomsk 03 (cropped).jpg",
+    "autor": "Ilya Plekhanov",
+    "imagen": "haval-jolion-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Haval_Jolion_in_Tomsk_03_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2025 Haval Jolion white rear.jpg",
+    "autor": "Throwawayacc222",
+    "imagen": "haval-jolion-g3.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Haval_Jolion_white_rear.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "cola"
+   }
+  ],
   "imagen": "haval-jolion.webp",
   "licencia": "CC0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Haval_Jolion_white_front.jpg",
@@ -362,6 +2212,63 @@
  "HONDA|HR-V": {
   "archivo": "Honda HR-V Hybrid 1X7A0388.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Honda HR-V e-HEV RS.jpg",
+    "autor": "Chanokchon",
+    "imagen": "honda-hr-v-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Honda_HR-V_e-HEV_RS.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 667,
+    "ancho": 960,
+    "archivo": "2022 Honda HR-V Elegance I-MMD CVT.jpg",
+    "autor": "Calreyn88",
+    "imagen": "honda-hr-v-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Honda_HR-V_Elegance_I-MMD_CVT.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Honda HR-V e-HEV RS.jpg",
+    "autor": "Chanokchon",
+    "imagen": "honda-hr-v-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Honda_HR-V_e-HEV_RS.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 484,
+    "ancho": 960,
+    "archivo": "Honda HR-V e-HEV RS (III) – f 13032025.jpg",
+    "autor": "© M 93",
+    "imagen": "honda-hr-v-g4.webp",
+    "licencia": "CC BY-SA 3.0 de",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Honda_HR-V_e-HEV_RS_(III)_%E2%80%93_f_13032025.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 738,
+    "ancho": 960,
+    "archivo": "2025 Honda HR-V Hybrid DSC 7912.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "honda-hr-v-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Honda_HR-V_Hybrid_DSC_7912.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "honda-hr-v.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Honda_HR-V_Hybrid_1X7A0388.jpg",
@@ -370,6 +2277,52 @@
  "HONDA|WR-V": {
   "archivo": "2026 Honda WR-V Prestige (Colombia) front view.jpg",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 537,
+    "ancho": 960,
+    "archivo": "Honda WR-V Z+ (5BA-DG5) (cropped).jpg",
+    "autor": "Tokumeigakarinoaoshima",
+    "imagen": "honda-wr-v-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Honda_WR-V_Z%2B_(5BA-DG5)_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Honda WR-V Z+ (5BA-DG5) front.jpg",
+    "autor": "Tokumeigakarinoaoshima",
+    "imagen": "honda-wr-v-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Honda_WR-V_Z%2B_(5BA-DG5)_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2026 Honda WR-V Prestige (Colombia) rear view.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "honda-wr-v-g3.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_WR-V_Prestige_(Colombia)_rear_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2026 Honda WR-V Prestige (Colombia) interior.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "honda-wr-v-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_WR-V_Prestige_(Colombia)_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "honda-wr-v.webp",
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_WR-V_Prestige_(Colombia)_front_view.jpg",
@@ -378,6 +2331,63 @@
  "HYUNDAI|CRETA": {
   "archivo": "2023 Hyundai Creta Smart.jpg",
   "autor": "Chanokchon",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2021 Hyundai Creta 2.0 Ultimate (Brazil) front view.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "hyundai-creta-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Creta_2.0_Ultimate_(Brazil)_front_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2021 Hyundai Creta 2.0 HTRAC Prestige (Russia; SU2r) front view.jpg",
+    "autor": "Авто Плюс Новости",
+    "imagen": "hyundai-creta-g2.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Creta_2.0_HTRAC_Prestige_(Russia;_SU2r)_front_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 562,
+    "ancho": 960,
+    "archivo": "2022 Hyundai Creta 1.6 Plus (Chile) front view.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "hyundai-creta-g3.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Hyundai_Creta_1.6_Plus_(Chile)_front_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2021 Hyundai Creta 2.0 Ultimate (Brazil) rear view.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "hyundai-creta-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Creta_2.0_Ultimate_(Brazil)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 455,
+    "ancho": 960,
+    "archivo": "2021 Hyundai Creta 2.0 HTRAC Prestige (Russia; SU2r) interior.png",
+    "autor": "Авто Плюс Новости",
+    "imagen": "hyundai-creta-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Creta_2.0_HTRAC_Prestige_(Russia;_SU2r)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "hyundai-creta.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_Creta_Smart.jpg",
@@ -386,6 +2396,52 @@
  "HYUNDAI|HB20": {
   "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) front view.png",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 539,
+    "ancho": 960,
+    "archivo": "Hyundai HB20 Platinum 2025.jpg",
+    "autor": "Just a Man",
+    "imagen": "hyundai-hb20-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hyundai_HB20_Platinum_2025.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) front view 02.png",
+    "autor": "Autosdeprimera",
+    "imagen": "hyundai-hb20-g2.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_front_view_02.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) rear view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "hyundai-hb20-g3.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 443,
+    "ancho": 960,
+    "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) interior 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "hyundai-hb20-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_interior_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "hyundai-hb20.webp",
   "interior": {
    "archivo": "2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) interior 01.png",
@@ -402,6 +2458,63 @@
  "JEEP|COMMANDER": {
   "archivo": "2023 Jeep Commander Overland T270 (Colombia) front view.jpg",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Jeep Commander Limited (Brazil) front view.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "jeep-commander-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Jeep_Commander_Limited_(Brazil)_front_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 940,
+    "ancho": 960,
+    "archivo": "Jeep Commander Limited (front view).jpg",
+    "autor": "Mateusmatsuda",
+    "imagen": "jeep-commander-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Commander_Limited_(front_view).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Jeep Commander (1).jpg",
+    "autor": "Mateusmatsuda",
+    "imagen": "jeep-commander-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Commander_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Jeep Commander Limited (Brazil) rear view.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "jeep-commander-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Jeep_Commander_Limited_(Brazil)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 713,
+    "ancho": 960,
+    "archivo": "Jeep Commander (right side).jpg",
+    "autor": "Mateusmatsuda",
+    "imagen": "jeep-commander-g5.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Commander_(right_side).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "perfil"
+   }
+  ],
   "imagen": "jeep-commander.webp",
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Jeep_Commander_Overland_T270_(Colombia)_front_view.jpg",
@@ -410,6 +2523,41 @@
  "JEEP|COMPASS": {
   "archivo": "Jeep Compass (MP) PHEV Facelift 1X7A0140.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 660,
+    "ancho": 960,
+    "archivo": "Jeep Compass (MP) PHEV Facelift IMG 4979.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "jeep-compass-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_(MP)_PHEV_Facelift_IMG_4979.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 494,
+    "ancho": 960,
+    "archivo": "Jeep Compass PHEV Genf 2019 1Y7A5371.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "jeep-compass-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_PHEV_Genf_2019_1Y7A5371.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 586,
+    "ancho": 960,
+    "archivo": "Jeep Compass (MP) PHEV Facelift 1X7A0139.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "jeep-compass-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_(MP)_PHEV_Facelift_1X7A0139.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "jeep-compass.webp",
   "interior": {
    "archivo": "2022 Jeep Compass interior.jpg",
@@ -426,6 +2574,41 @@
  "JEEP|RENEGADE": {
   "archivo": "Jeep Renegade 4xe 1X7A6025.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Jeep Renegade 4xe 1X7A6026.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "jeep-renegade-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_4xe_1X7A6026.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 548,
+    "ancho": 960,
+    "archivo": "Jeep Renegade 1.3 T4 PHEV 4xe High Upland (Facelift) – f 15062025.jpg",
+    "autor": "© M 93",
+    "imagen": "jeep-renegade-g2.webp",
+    "licencia": "CC BY-SA 3.0 de",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_1.3_T4_PHEV_4xe_High_Upland_(Facelift)_%E2%80%93_f_15062025.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 641,
+    "ancho": 960,
+    "archivo": "Jeep Renegade 4xe 1X7A6028.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "jeep-renegade-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_4xe_1X7A6028.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "jeep-renegade.webp",
   "interior": {
    "archivo": "\" 15 - ITALY - Jeep (Fiat) showroom in Milan 02.jpg",
@@ -442,6 +2625,63 @@
  "KIA|K3": {
   "archivo": "2024 Kia K3 Cross GT Line (Colombia) front view.png",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 480,
+    "ancho": 960,
+    "archivo": "2024 Kia K3 Sedan GT Line (Colombia) front view.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "kia-k3-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Kia_K3_Sedan_GT_Line_(Colombia)_front_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Kia K3 LX sedan in Steel Gray 01.jpg",
+    "autor": "Haysnawri10",
+    "imagen": "kia-k3-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kia_K3_LX_sedan_in_Steel_Gray_01.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 535,
+    "ancho": 960,
+    "archivo": "Kia K3 1.4 LX 2026.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "kia-k3-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kia_K3_1.4_LX_2026.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Kia K3 Sedan GT Line (Colombia) rear view.jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "kia-k3-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Kia_K3_Sedan_GT_Line_(Colombia)_rear_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Kia K3 Sedan GT Line (Colombia) interior.png",
+    "autor": "Autosdeprimera",
+    "imagen": "kia-k3-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Kia_K3_Sedan_GT_Line_(Colombia)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "kia-k3.webp",
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Kia_K3_Cross_GT_Line_(Colombia)_front_view.png",
@@ -450,6 +2690,52 @@
  "MERCEDES BENZ|SPRINTER": {
   "archivo": "2017 Mercedes-Benz Sprinter 513 CDi 2.1 (G4S Van) Front.jpg",
   "autor": "Vauxford",
+  "galeria": [
+   {
+    "alto": 696,
+    "ancho": 960,
+    "archivo": "2015 Mercedes-Benz Sprinter (W 906) 313 CDI MWB van (2015-08-29).jpg",
+    "autor": "EurovisionNim",
+    "imagen": "mercedes-benz-sprinter-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2015_Mercedes-Benz_Sprinter_(W_906)_313_CDI_MWB_van_(2015-08-29).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 722,
+    "ancho": 960,
+    "archivo": "2014 Mercedes-Benz Sprinter (short panel model) - fl.jpg",
+    "autor": "BarnCas",
+    "imagen": "mercedes-benz-sprinter-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Mercedes-Benz_Sprinter_(short_panel_model)_-_fl.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 617,
+    "ancho": 960,
+    "archivo": "2016 Mercedes-Benz Sprinter Super High Minibus, front right.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "mercedes-benz-sprinter-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_Sprinter_Super_High_Minibus,_front_right.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 722,
+    "ancho": 960,
+    "archivo": "2014 Mercedes-Benz Sprinter (short panel model) - rl.jpg",
+    "autor": "BarnCas",
+    "imagen": "mercedes-benz-sprinter-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Mercedes-Benz_Sprinter_(short_panel_model)_-_rl.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "mercedes-benz-sprinter.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2017_Mercedes-Benz_Sprinter_513_CDi_2.1_(G4S_Van)_Front.jpg",
@@ -466,6 +2752,74 @@
  "MG|ZS": {
   "archivo": "MG ZS Facelift 1X7A6412.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 542,
+    "ancho": 960,
+    "archivo": "2022 MG ZS Exclusive T-GDi 1.0 Front.jpg",
+    "autor": "Vauxford",
+    "imagen": "mg-zs-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_MG_ZS_Exclusive_T-GDi_1.0_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 550,
+    "ancho": 960,
+    "archivo": "2022 MG ZS Excite Front.jpg",
+    "autor": "Vauxford",
+    "imagen": "mg-zs-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_MG_ZS_Excite_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 531,
+    "ancho": 960,
+    "archivo": "2021 MG ZS Exclusive T-GDi Automatic 1.0 Front.jpg",
+    "autor": "Vauxford",
+    "imagen": "mg-zs-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_MG_ZS_Exclusive_T-GDi_Automatic_1.0_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 637,
+    "ancho": 960,
+    "archivo": "2021 MG ZS Exclusive VTi Tech.jpg",
+    "autor": "Calreyn88",
+    "imagen": "mg-zs-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_MG_ZS_Exclusive_VTi_Tech.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 583,
+    "ancho": 960,
+    "archivo": "2022 MG ZS Exclusive T-GDi 1.0 Rear.jpg",
+    "autor": "Vauxford",
+    "imagen": "mg-zs-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_MG_ZS_Exclusive_T-GDi_1.0_Rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 MG ZS 1.5 Alpha dashboard, 06-08-2024.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "mg-zs-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_MG_ZS_1.5_Alpha_dashboard,_06-08-2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "mg-zs.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:MG_ZS_Facelift_1X7A6412.jpg",
@@ -474,6 +2828,74 @@
  "NISSAN|FRONTIER PICK - UP": {
   "archivo": "2023 Nissan Frontier 2.3 Pro 4X (Argentina).jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2021 Nissan Frontier Pro 4X (Colombia; facelift) front view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "nissan-frontier-pick-up-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Frontier_Pro_4X_(Colombia;_facelift)_front_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Salão Internacional do Automóvel 2018.jpg",
+    "autor": "Ministério da Indústria, Comércio Exterior e Serviços (MDIC)",
+    "imagen": "nissan-frontier-pick-up-g2.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sal%C3%A3o_Internacional_do_Autom%C3%B3vel_2018.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 435,
+    "ancho": 960,
+    "archivo": "NissanFrontierXE.jpg",
+    "autor": "Ezarate",
+    "imagen": "nissan-frontier-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NissanFrontierXE.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Nissan Frontier Pro 4X (Colombia; facelift) rear view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "nissan-frontier-pick-up-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Frontier_Pro_4X_(Colombia;_facelift)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 412,
+    "ancho": 960,
+    "archivo": "2021 Nissan Frontier Pro 4X (Colombia; facelift) side view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "nissan-frontier-pick-up-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Frontier_Pro_4X_(Colombia;_facelift)_side_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "perfil"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Nissan Frontier Pro 4X (Colombia; facelift) interior.png",
+    "autor": "Autosdeprimera",
+    "imagen": "nissan-frontier-pick-up-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Frontier_Pro_4X_(Colombia;_facelift)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "nissan-frontier-pick-up.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Nissan_Frontier_2.3_Pro_4X_(Argentina).jpg",
@@ -482,6 +2904,74 @@
  "NISSAN|KICKS": {
   "archivo": "Nissan Kicks (P16) DSC 2875.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 960,
+    "ancho": 959,
+    "archivo": "Nissan Kicks second generation Brazil.jpg",
+    "autor": "Mateusmatsuda",
+    "imagen": "nissan-kicks-g1.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Kicks_second_generation_Brazil.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 687,
+    "ancho": 960,
+    "archivo": "2025 Nissan Kicks au salon international de l'auto de Montréal 2025.jpg",
+    "autor": "Bull-Doser",
+    "imagen": "nissan-kicks-g2.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_au_salon_international_de_l%27auto_de_Montr%C3%A9al_2025.jpg",
+    "url_licencia": "",
+    "vista": "frente"
+   },
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "2025 Nissan Kicks SV AWD in Deep Blue Pearl, front right, 2024-10-06.jpg",
+    "autor": "Elise240SX",
+    "imagen": "nissan-kicks-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl,_front_right,_2024-10-06.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 593,
+    "ancho": 960,
+    "archivo": "2025 Nissan Kicks au SIAM 2025.jpg",
+    "autor": "Bull-Doser",
+    "imagen": "nissan-kicks-g4.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_au_SIAM_2025.jpg",
+    "url_licencia": "",
+    "vista": "frente"
+   },
+   {
+    "alto": 575,
+    "ancho": 960,
+    "archivo": "2025 Nissan Kicks SR, rear 11.29.24.jpg",
+    "autor": "Kevauto",
+    "imagen": "nissan-kicks-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_SR,_rear_11.29.24.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2025 Nissan Kicks interior.jpg",
+    "autor": "Deathpallie325",
+    "imagen": "nissan-kicks-g6.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "nissan-kicks.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Kicks_(P16)_DSC_2875.jpg",
@@ -490,6 +2980,52 @@
  "NISSAN|KICKS PLAY": {
   "archivo": "2025 Nissan Kicks Play au SIAM 2025.jpg",
   "autor": "Bull-Doser",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2021 Nissan Kicks (Colombia) front view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "nissan-kicks-play-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Kicks_(Colombia)_front_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 648,
+    "ancho": 960,
+    "archivo": "2020 Nissan Kicks SR, front right, 09-09-2023.jpg",
+    "autor": "MercurySable99",
+    "imagen": "nissan-kicks-play-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Kicks_SR,_front_right,_09-09-2023.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2021 Nissan Kicks SV (facelift), front 11.6.21.jpg",
+    "autor": "Kevauto",
+    "imagen": "nissan-kicks-play-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Kicks_SV_(facelift),_front_11.6.21.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 606,
+    "ancho": 960,
+    "archivo": "2021 Nissan Kicks (Colombia) rear view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "nissan-kicks-play-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Kicks_(Colombia)_rear_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "nissan-kicks-play.webp",
   "licencia": "Public domain",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_Play_au_SIAM_2025.jpg",
@@ -498,6 +3034,74 @@
  "NISSAN|VERSA": {
   "archivo": "Nissan Versa 1.6 Advance 2021.jpg",
   "autor": "RL GNZLZ from Chile",
+  "galeria": [
+   {
+    "alto": 618,
+    "ancho": 960,
+    "archivo": "Nissan Versa SR (4th Gen) Brazil.jpg",
+    "autor": "Mateusmatsuda",
+    "imagen": "nissan-versa-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Versa_SR_(4th_Gen)_Brazil.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 589,
+    "ancho": 960,
+    "archivo": "2020 Nissan Versa SR front NYIAS 2019.jpg",
+    "autor": "Kevauto",
+    "imagen": "nissan-versa-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Versa_SR_front_NYIAS_2019.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 594,
+    "ancho": 960,
+    "archivo": "2021 Nissan Versa S, Front Left, 04-11-2021.jpg",
+    "autor": "SsmIntrigue",
+    "imagen": "nissan-versa-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Versa_S,_Front_Left,_04-11-2021.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Nissan Versa SR (United States) front view.png",
+    "autor": "Gold Pony",
+    "imagen": "nissan-versa-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Versa_SR_(United_States)_front_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 557,
+    "ancho": 960,
+    "archivo": "2020 Nissan Versa SR rear NYIAS 2019.jpg",
+    "autor": "Kevauto",
+    "imagen": "nissan-versa-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Versa_SR_rear_NYIAS_2019.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Nissan Versa interior.jpg",
+    "autor": "Deathpallie325",
+    "imagen": "nissan-versa-g6.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Nissan_Versa_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "nissan-versa.webp",
   "licencia": "CC BY-SA 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Versa_1.6_Advance_2021.jpg",
@@ -506,6 +3110,74 @@
  "NISSAN|XTRAIL": {
   "archivo": "Nissan X-Trail (T33) 1X7A7179.jpg",
   "autor": "Alexander-93",
+  "galeria": [
+   {
+    "alto": 552,
+    "ancho": 960,
+    "archivo": "2023 Nissan X-Trail Acenta Premium DIG-T - 1497cc 1.5 (163PS) Petrol - Gun Metallic - 02-2024, Front.jpg",
+    "autor": "Harvey Bold",
+    "imagen": "nissan-xtrail-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Nissan_X-Trail_Acenta_Premium_DIG-T_-_1497cc_1.5_(163PS)_Petrol_-_Gun_Metallic_-_02-2024,_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 575,
+    "ancho": 960,
+    "archivo": "Nissan X-Trail (left-front), Nissan Gallery Global HQ, 2021.jpg",
+    "autor": "Kazyakuruma",
+    "imagen": "nissan-xtrail-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_(left-front),_Nissan_Gallery_Global_HQ,_2021.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 688,
+    "ancho": 960,
+    "archivo": "Nissan X-Trail 184202.jpg",
+    "autor": "Trop86",
+    "imagen": "nissan-xtrail-g3.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_184202.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 641,
+    "ancho": 960,
+    "archivo": "Nissan X-Trail (T33) 1X7A7199.jpg",
+    "autor": "Alexander-93",
+    "imagen": "nissan-xtrail-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_(T33)_1X7A7199.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 537,
+    "ancho": 960,
+    "archivo": "2023 Nissan X-Trail Ti rear.jpg",
+    "autor": "LuvsMG481",
+    "imagen": "nissan-xtrail-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Nissan_X-Trail_Ti_rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "NISSAN X-TRAIL T33 China (3).jpg",
+    "autor": "Dinkun Chen",
+    "imagen": "nissan-xtrail-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NISSAN_X-TRAIL_T33_China_(3).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "nissan-xtrail.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_(T33)_1X7A7179.jpg",
@@ -514,6 +3186,63 @@
  "PEUGEOT|2008": {
   "archivo": "2024 Peugeot 2008 Active 1.0 T200 (Argentina).jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 518,
+    "ancho": 960,
+    "archivo": "2025 Peugeot 2008 Active 1.0 T200.jpg",
+    "autor": "Just a Man",
+    "imagen": "peugeot-2008-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Peugeot_2008_Active_1.0_T200.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 583,
+    "ancho": 960,
+    "archivo": "Peugeot 2008 B Facelift IMG 1185 (cropped).jpg",
+    "autor": "Alexander-93",
+    "imagen": "peugeot-2008-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_2008_B_Facelift_IMG_1185_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "The frontview of Peugeot 2008 GT (5BA-P24HN05).jpg",
+    "autor": "Tokumeigakarinoaoshima",
+    "imagen": "peugeot-2008-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Peugeot_2008_GT_(5BA-P24HN05).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2025 Peugeot 2008 1.0 Active, test drive.jpg",
+    "autor": "Just a Man",
+    "imagen": "peugeot-2008-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Peugeot_2008_1.0_Active,_test_drive.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 489,
+    "ancho": 960,
+    "archivo": "2024 Peugeot 2008 GT 1.0 T200.jpg",
+    "autor": "Just a Man",
+    "imagen": "peugeot-2008-g5.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Peugeot_2008_GT_1.0_T200.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "peugeot-2008.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Peugeot_2008_Active_1.0_T200_(Argentina).jpg",
@@ -522,6 +3251,85 @@
  "PEUGEOT|208": {
   "archivo": "Peugeot 208 PureTech 130 EAT8 Allure GT-Line (II) – f 17102021.jpg",
   "autor": "© M 93",
+  "galeria": [
+   {
+    "alto": 563,
+    "ancho": 960,
+    "archivo": "2025 Peugeot 208 1.0 T200 GT (Argentina).jpg",
+    "autor": "Just a Man",
+    "imagen": "peugeot-208-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Peugeot_208_1.0_T200_GT_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 613,
+    "ancho": 960,
+    "archivo": "2022 Peugeot 208 1.6 Active Pack, front (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "peugeot-208-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Peugeot_208_1.6_Active_Pack,_front_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 597,
+    "ancho": 960,
+    "archivo": "2022 Peugeot 208 1.6 VTi Feline, front (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "peugeot-208-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Peugeot_208_1.6_VTi_Feline,_front_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 616,
+    "ancho": 960,
+    "archivo": "2020 Peugeot 208 Active Premium Puretech.jpg",
+    "autor": "Calreyn88",
+    "imagen": "peugeot-208-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Peugeot_208_Active_Premium_Puretech.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 599,
+    "ancho": 960,
+    "archivo": "2022 Peugeot 208 1.6 Active Pack, rear (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "peugeot-208-g5.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Peugeot_208_1.6_Active_Pack,_rear_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2025 Peugeot 208 GT interior (Argentina).jpg",
+    "autor": "Just a Man",
+    "imagen": "peugeot-208-g6.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Peugeot_208_GT_interior_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Peugeot 208 Style (produced in Argentina) interior.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "peugeot-208-g7.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Peugeot_208_Style_(produced_in_Argentina)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "peugeot-208.webp",
   "interior": {
    "archivo": "2020 Peugeot 208 1.6 Feline interior.png",
@@ -538,6 +3346,52 @@
  "PEUGEOT|3008": {
   "archivo": "Peugeot e-3008 Automesse Ludwigsburg 2024 IMG 1537.jpg",
   "autor": "Alexander-93",
+  "galeria": [
+   {
+    "alto": 546,
+    "ancho": 960,
+    "archivo": "2024 Peugeot e-3008 Allure EV - 73kWh (210PS) Electric - Obsession Blue - 06-2024, Front.jpg",
+    "autor": "Harvey Bold",
+    "imagen": "peugeot-3008-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Peugeot_e-3008_Allure_EV_-_73kWh_(210PS)_Electric_-_Obsession_Blue_-_06-2024,_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 585,
+    "ancho": 960,
+    "archivo": "Peugeot e-3008 Automesse Ludwigsburg 2024 IMG 1360.jpg",
+    "autor": "Alexander-93",
+    "imagen": "peugeot-3008-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1360.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 639,
+    "ancho": 960,
+    "archivo": "Peugeot e-3008 Automesse Ludwigsburg 2024 IMG 1367.jpg",
+    "autor": "Alexander-93",
+    "imagen": "peugeot-3008-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1367.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 641,
+    "ancho": 960,
+    "archivo": "Peugeot e-3008 Auto Zuerich 2023 1X7A1333.jpg",
+    "autor": "Alexander-93",
+    "imagen": "peugeot-3008-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Auto_Zuerich_2023_1X7A1333.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "peugeot-3008.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg",
@@ -554,6 +3408,41 @@
  "RAM|DAKOTA PICK - UP": {
   "archivo": "Ram Dakota South America front left 1 - Autosdeprimera.jpg",
   "autor": "https://www.youtube.com/@AutosdeprimeraYT",
+  "galeria": [
+   {
+    "alto": 542,
+    "ancho": 960,
+    "archivo": "Ram Dakota South America front right - Autosdeprimera (cropped).jpg",
+    "autor": "https://www.youtube.com/@AutosdeprimeraYT",
+    "imagen": "ram-dakota-pick-up-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Dakota_South_America_front_right_-_Autosdeprimera_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Ram Dakota South America rear right - Autosdeprimera.jpg",
+    "autor": "https://www.youtube.com/@AutosdeprimeraYT",
+    "imagen": "ram-dakota-pick-up-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Dakota_South_America_rear_right_-_Autosdeprimera.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Ram Dakota South America right side - Autosdeprimera.jpg",
+    "autor": "https://www.youtube.com/@AutosdeprimeraYT",
+    "imagen": "ram-dakota-pick-up-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Dakota_South_America_right_side_-_Autosdeprimera.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "perfil"
+   }
+  ],
   "imagen": "ram-dakota-pick-up.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Dakota_South_America_front_left_1_-_Autosdeprimera.jpg",
@@ -562,6 +3451,52 @@
  "RAM|RAMPAGE PICK -UP": {
   "archivo": "2024 Ram Rampage Rebel (Brazil) front view.png",
   "autor": "Garagem do Jabulas",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Ram Rampage Turbo 170 Laramie 4x4.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "ram-rampage-pick-up-g1.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Ram_Rampage_Turbo_170_Laramie_4x4.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 447,
+    "ancho": 960,
+    "archivo": "2025 Ram Rampage RT.jpg",
+    "autor": "Just a Man",
+    "imagen": "ram-rampage-pick-up-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Ram_Rampage_RT.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ram Rampage 2024 Laramie in Punta del Este 02.jpg",
+    "autor": "NaBUru38",
+    "imagen": "ram-rampage-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Rampage_2024_Laramie_in_Punta_del_Este_02.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 642,
+    "ancho": 960,
+    "archivo": "Ram Rampage 2024 Laramie in Punta del Este 03.jpg",
+    "autor": "NaBUru38",
+    "imagen": "ram-rampage-pick-up-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Rampage_2024_Laramie_in_Punta_del_Este_03.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "ram-rampage-pick-up.webp",
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ram_Rampage_Rebel_(Brazil)_front_view.png",
@@ -570,6 +3505,74 @@
  "RENAULT|ARKANA E-TECH": {
   "archivo": "Renault ARKANA E-TECH Engineered (7AA-LJLH4MH).jpg",
   "autor": "Tokumeigakarinoaoshima",
+  "galeria": [
+   {
+    "alto": 688,
+    "ancho": 960,
+    "archivo": "2022 Renault Arkana RS Line E-Tech HEV Auto.jpg",
+    "autor": "Calreyn88",
+    "imagen": "renault-arkana-e-tech-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Arkana_RS_Line_E-Tech_HEV_Auto.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 556,
+    "ancho": 960,
+    "archivo": "2022 Renault ArkanaRenault Arkana Iconic E-Tech HEV Auto.jpg",
+    "autor": "Calreyn88",
+    "imagen": "renault-arkana-e-tech-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_ArkanaRenault_Arkana_Iconic_E-Tech_HEV_Auto.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 541,
+    "ancho": 960,
+    "archivo": "Blue Renault Arkana in Dijon - 2022.jpg",
+    "autor": "Akela NDE",
+    "imagen": "renault-arkana-e-tech-g3.webp",
+    "licencia": "CC BY-SA 2.0 fr",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Blue_Renault_Arkana_in_Dijon_-_2022.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 486,
+    "ancho": 960,
+    "archivo": "Renault Arkana (CMF-B) IMG 5628.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "renault-arkana-e-tech-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Arkana_(CMF-B)_IMG_5628.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 509,
+    "ancho": 960,
+    "archivo": "Renault Arkana (CMF-B) IMG 4295.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "renault-arkana-e-tech-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Arkana_(CMF-B)_IMG_4295.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Renault Arkana (CMF-B) 1X7A7043.jpg",
+    "autor": "Alexander-93",
+    "imagen": "renault-arkana-e-tech-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Arkana_(CMF-B)_1X7A7043.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "renault-arkana-e-tech.webp",
   "licencia": "CC0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Renault_ARKANA_E-TECH_Engineered_(7AA-LJLH4MH).jpg",
@@ -578,6 +3581,74 @@
  "RENAULT|DUSTER": {
   "archivo": "2024 Renault Duster 1.3 TCe Turbo Iconic.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2022 Renault Duster Intens 4x2 1.3 Turbo (Colombia) front view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-duster-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Duster_Intens_4x2_1.3_Turbo_(Colombia)_front_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "Renault Duster II base in Montevideo.jpg",
+    "autor": "NaBUru38",
+    "imagen": "renault-duster-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_II_base_in_Montevideo.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 603,
+    "ancho": 960,
+    "archivo": "Renault Duster 2020 (Russia) (cropped).jpg",
+    "autor": "Milhouse35",
+    "imagen": "renault-duster-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_2020_(Russia)_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) front view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-duster-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Duster_Intens_4x4_1.3_Turbo_(Colombia)_front_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) rear view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-duster-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Duster_Intens_4x4_1.3_Turbo_(Colombia)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) interior.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-duster-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Duster_Intens_4x4_1.3_Turbo_(Colombia)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "renault-duster.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Renault_Duster_1.3_TCe_Turbo_Iconic.jpg",
@@ -586,6 +3657,52 @@
  "RENAULT|DUSTER OROCH PICK - UP": {
   "archivo": "2023 Renault Oroch Outsider 1.3 TCe 4wd.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 611,
+    "ancho": 960,
+    "archivo": "Renault Duster Oroch 2016 in Punta del Este 01.JPG",
+    "autor": "NaBUru38",
+    "imagen": "renault-duster-oroch-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2016_in_Punta_del_Este_01.JPG",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Renault Duster Oroch 1.6 Zen 2018 (39788485004).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "imagen": "renault-duster-oroch-pick-up-g2.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_1.6_Zen_2018_(39788485004).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Renault Duster Oroch 2.0 Intens 2018 (32431308657).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "imagen": "renault-duster-oroch-pick-up-g3.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2.0_Intens_2018_(32431308657).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 611,
+    "ancho": 960,
+    "archivo": "Renault Duster Oroch 2016 in Punta del Este 02.JPG",
+    "autor": "NaBUru38",
+    "imagen": "renault-duster-oroch-pick-up-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2016_in_Punta_del_Este_02.JPG",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "renault-duster-oroch-pick-up.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Oroch_Outsider_1.3_TCe_4wd.jpg",
@@ -594,6 +3711,52 @@
  "RENAULT|KANGOO": {
   "archivo": "2021 Renault Kangoo 1.6 Express Confort.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 749,
+    "ancho": 960,
+    "archivo": "2022 Renault Kangoo 1.6 SCe Zen (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "renault-kangoo-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Kangoo_1.6_SCe_Zen_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 661,
+    "ancho": 960,
+    "archivo": "Renault Nueva Kangoo 2018 (Colombia).jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-kangoo-g2.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Nueva_Kangoo_2018_(Colombia).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Nuevo Renault Kangoo.jpg",
+    "autor": "Paquitogio",
+    "imagen": "renault-kangoo-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nuevo_Renault_Kangoo.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Interior de una Renault Kangoo.jpg",
+    "autor": "Just a Man",
+    "imagen": "renault-kangoo-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Interior_de_una_Renault_Kangoo.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "renault-kangoo.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2021_Renault_Kangoo_1.6_Express_Confort.jpg",
@@ -602,6 +3765,52 @@
  "RENAULT|KANGOO II EXPRESS": {
   "archivo": "2021 Renault Kangoo 1.6 SCe Express.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 661,
+    "ancho": 960,
+    "archivo": "Renault Nueva Kangoo 2018 (Colombia).jpg",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-kangoo-ii-express-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Nueva_Kangoo_2018_(Colombia).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault Kangoo de Andreani en Floresta.jpg",
+    "autor": "Just a Man",
+    "imagen": "renault-kangoo-ii-express-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_de_Andreani_en_Floresta.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 897,
+    "ancho": 960,
+    "archivo": "Kangoo 2019.jpg",
+    "autor": "Pdamico2009",
+    "imagen": "renault-kangoo-ii-express-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kangoo_2019.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Interior de una Renault Kangoo.jpg",
+    "autor": "Just a Man",
+    "imagen": "renault-kangoo-ii-express-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Interior_de_una_Renault_Kangoo.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "renault-kangoo-ii-express.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2021_Renault_Kangoo_1.6_SCe_Express.jpg",
@@ -610,6 +3819,41 @@
  "RENAULT|KARDIAN": {
   "archivo": "Renault Kardian 2024 Evolution 1.0 TCe in Montevideo (front) 01.jpg",
   "autor": "NaBUru38",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Renault Kardian 1.0 200 EDC Premiere Edition, front.jpg",
+    "autor": "Just a Man",
+    "imagen": "renault-kardian-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Renault_Kardian_1.0_200_EDC_Premiere_Edition,_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 704,
+    "ancho": 960,
+    "archivo": "2025 Renault Kardian Evolution.jpg",
+    "autor": "Dxniii",
+    "imagen": "renault-kardian-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Renault_Kardian_Evolution.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Renault Kardian 2024 Evolution 1.0 TCe in Montevideo (rear).jpg",
+    "autor": "NaBUru38",
+    "imagen": "renault-kardian-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_(rear).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "renault-kardian.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_(front)_01.jpg",
@@ -618,6 +3862,52 @@
  "RENAULT|KWID": {
   "archivo": "2023 Renault Kwid Iconic (Colombia) front view 02.png",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Renault Kwid Iconic (Colombia) front view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-kwid-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Kwid_Iconic_(Colombia)_front_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 624,
+    "ancho": 960,
+    "archivo": "Renault Kwid - Facelift (2026).png",
+    "autor": "(G)jabz",
+    "imagen": "renault-kwid-g2.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kwid_-_Facelift_(2026).png",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Renault Kwid 1.0 Outsider 2022.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "renault-kwid-g3.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kwid_1.0_Outsider_2022.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Renault Kwid Iconic (Colombia) rear view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-kwid-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Kwid_Iconic_(Colombia)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "renault-kwid.webp",
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Kwid_Iconic_(Colombia)_front_view_02.png",
@@ -626,6 +3916,52 @@
  "RENAULT|SANDERO": {
   "archivo": "Renault Sandero em Moab.jpg",
   "autor": "Wcs97",
+  "galeria": [
+   {
+    "alto": 514,
+    "ancho": 960,
+    "archivo": "Renault Sandero 2020 front view (Colombia).png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-sandero-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Sandero_2020_front_view_(Colombia).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 489,
+    "ancho": 960,
+    "archivo": "Renault Sandero 1.6 Intens 2020.jpg",
+    "autor": "Just a Man",
+    "imagen": "renault-sandero-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Sandero_1.6_Intens_2020.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault Sandero - 53522415419.jpg",
+    "autor": "Jason Lawrence",
+    "imagen": "renault-sandero-g3.webp",
+    "licencia": "CC BY 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Sandero_-_53522415419.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 555,
+    "ancho": 960,
+    "archivo": "Renault Sandero 2020 rear view (Colombia).png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-sandero-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Sandero_2020_rear_view_(Colombia).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "renault-sandero.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Sandero_em_Moab.jpg",
@@ -634,6 +3970,41 @@
  "RENAULT|SANDERO STEPWAY": {
   "archivo": "2022 Renault Stepway 1.6 Zen.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2020 Renault Stepway 2020 (Colombia) front view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "renault-sandero-stepway-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Renault_Stepway_2020_(Colombia)_front_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 589,
+    "ancho": 960,
+    "archivo": "Renault-Sandero Stepway Brazil-2017.jpg",
+    "autor": "Umehlig",
+    "imagen": "renault-sandero-stepway-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault-Sandero_Stepway_Brazil-2017.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 691,
+    "ancho": 960,
+    "archivo": "Renault Sandero Stepway Mk2 in Uruguay.jpg",
+    "autor": "NaBUru38",
+    "imagen": "renault-sandero-stepway-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Sandero_Stepway_Mk2_in_Uruguay.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "renault-sandero-stepway.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Stepway_1.6_Zen.jpg",
@@ -642,6 +4013,52 @@
  "TOYOTA|COROLLA": {
   "archivo": "Toyota Corolla Hybrid Sedan, GIMS 2019, Le Grand-Saconnex (GIMS1338).jpg",
   "autor": "Matti Blume",
+  "galeria": [
+   {
+    "alto": 557,
+    "ancho": 960,
+    "archivo": "2019 Toyota Corolla Hybrid Saloon.jpg",
+    "autor": "Vauxford",
+    "imagen": "toyota-corolla-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Toyota_Corolla_Hybrid_Saloon.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 715,
+    "ancho": 960,
+    "archivo": "Toyota Corolla 1.8 Hybrid Sedan.jpg",
+    "autor": "Dennis Elzinga",
+    "imagen": "toyota-corolla-g2.webp",
+    "licencia": "CC BY 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_1.8_Hybrid_Sedan.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 586,
+    "ancho": 960,
+    "archivo": "Toyota Corolla Limousine Monrepos 2019 IMG 1908.jpg",
+    "autor": "Alexander Migl",
+    "imagen": "toyota-corolla-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Limousine_Monrepos_2019_IMG_1908.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 502,
+    "ancho": 960,
+    "archivo": "Toyota Corolla Prestige Hybrid IMG 1230.jpg",
+    "autor": "Alexander-93",
+    "imagen": "toyota-corolla-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Prestige_Hybrid_IMG_1230.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "toyota-corolla.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Hybrid_Sedan,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1338).jpg",
@@ -650,6 +4067,74 @@
  "TOYOTA|COROLLA CROSS": {
   "archivo": "2022 Toyota Corolla Cross L FWD, Front Left, 11-21-2021.jpg",
   "autor": "Elise240SX",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2021 Toyota Corolla Cross Hybrid SEG (Colombia) front view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-corolla-cross-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Corolla_Cross_Hybrid_SEG_(Colombia)_front_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 722,
+    "ancho": 960,
+    "archivo": "2020 Toyota Corolla Cross 1.8 ZSG10R (20201113) 01.jpg",
+    "autor": "オーバードライブ83",
+    "imagen": "toyota-corolla-cross-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Toyota_Corolla_Cross_1.8_ZSG10R_(20201113)_01.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 610,
+    "ancho": 960,
+    "archivo": "2020 Toyota Corolla Cross 1.8 Sport.jpg",
+    "autor": "Chanokchon",
+    "imagen": "toyota-corolla-cross-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Toyota_Corolla_Cross_1.8_Sport.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2021 Toyota Corolla Cross 1.8AT Standard graphite front view in Brunei.jpg",
+    "autor": "AIMHO'S REBELLION 8490s",
+    "imagen": "toyota-corolla-cross-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Corolla_Cross_1.8AT_Standard_graphite_front_view_in_Brunei.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2021 Toyota Corolla Cross Hybrid SEG (Colombia) rear view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-corolla-cross-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Corolla_Cross_Hybrid_SEG_(Colombia)_rear_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 480,
+    "ancho": 960,
+    "archivo": "2021 Toyota Corolla Cross Hybrid SEG (Colombia) side view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-corolla-cross-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Corolla_Cross_Hybrid_SEG_(Colombia)_side_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "perfil"
+   }
+  ],
   "imagen": "toyota-corolla-cross.webp",
   "interior": {
    "archivo": "Toyota Corolla Cross 2026 interior.jpg",
@@ -666,6 +4151,74 @@
  "TOYOTA|HIACE": {
   "archivo": "Toyota Hiace GL Grandia 2019.jpg",
   "autor": "Captainmorlypogi1959",
+  "galeria": [
+   {
+    "alto": 617,
+    "ancho": 960,
+    "archivo": "Toyota Hiace GDH303L 2.8 GL Grandia Silver Mica Metallic 01.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-hiace-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GDH303L_2.8_GL_Grandia_Silver_Mica_Metallic_01.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Toyota Hiace GL Grandia 2020 (1).jpg",
+    "autor": "Captainmorlypogi1959",
+    "imagen": "toyota-hiace-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GL_Grandia_2020_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 672,
+    "ancho": 960,
+    "archivo": "Toyota Hiace GDH322 2.8 GL Grandia Tourer Beige Metallic.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-hiace-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GDH322_2.8_GL_Grandia_Tourer_Beige_Metallic.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Toyota Hiace GL Grandia (White Pearl 2-Tone, P4-K329).jpg",
+    "autor": "Captainmorlypogi1959",
+    "imagen": "toyota-hiace-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GL_Grandia_(White_Pearl_2-Tone,_P4-K329).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 617,
+    "ancho": 960,
+    "archivo": "Toyota Hiace GDH303L 2.8 GL Grandia Silver Mica Metallic 02.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-hiace-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GDH303L_2.8_GL_Grandia_Silver_Mica_Metallic_02.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Toyota Hiace GDH301 2.8 GL Grandia interior.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-hiace-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GDH301_2.8_GL_Grandia_interior.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "toyota-hiace.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hiace_GL_Grandia_2019.jpg",
@@ -674,6 +4227,52 @@
  "TOYOTA|HILUX PICK - UP": {
   "archivo": "Toyota Hilux 4x2 E 2021.jpg",
   "autor": "Captainmorlypogi1959",
+  "galeria": [
+   {
+    "alto": 611,
+    "ancho": 960,
+    "archivo": "2021 Toyota Hilux Invincible D-4D 4WD 2.4.jpg",
+    "autor": "Vauxford",
+    "imagen": "toyota-hilux-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Hilux_Invincible_D-4D_4WD_2.4.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 458,
+    "ancho": 960,
+    "archivo": "2022 Toyota HiLux 2.4 V front.jpg",
+    "autor": "LuvsMG481",
+    "imagen": "toyota-hilux-pick-up-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Toyota_HiLux_2.4_V_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 649,
+    "ancho": 960,
+    "archivo": "2020 Toyota HiLux G (parked) in Jalan Kolonel Abundjani - Danau Sipin, Jambi City, JA.jpg",
+    "autor": "Firzafp",
+    "imagen": "toyota-hilux-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Toyota_HiLux_G_(parked)_in_Jalan_Kolonel_Abundjani_-_Danau_Sipin,_Jambi_City,_JA.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 499,
+    "ancho": 960,
+    "archivo": "2022 Toyota HiLux 2.4 V rear.jpg",
+    "autor": "LuvsMG481",
+    "imagen": "toyota-hilux-pick-up-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Toyota_HiLux_2.4_V_rear.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "toyota-hilux-pick-up.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Hilux_4x2_E_2021.jpg",
@@ -690,6 +4289,74 @@
  "TOYOTA|RAV - 4": {
   "archivo": "2019 Toyota RAV4 Hybrid 01.jpg",
   "autor": "Alexander Migl",
+  "galeria": [
+   {
+    "alto": 660,
+    "ancho": 960,
+    "archivo": "Toyota RAV4 5th gen Brazil.jpg",
+    "autor": "Mateusmatsuda",
+    "imagen": "toyota-rav-4-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_RAV4_5th_gen_Brazil.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 471,
+    "ancho": 960,
+    "archivo": "2019 Toyota RAV4 Excel HEV CVT 2.5 Front.jpg",
+    "autor": "Vauxford",
+    "imagen": "toyota-rav-4-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Toyota_RAV4_Excel_HEV_CVT_2.5_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 494,
+    "ancho": 960,
+    "archivo": "2019 Toyota RAV4 Excel Hybrid CVT 2.5 Front.jpg",
+    "autor": "Vauxford",
+    "imagen": "toyota-rav-4-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Toyota_RAV4_Excel_Hybrid_CVT_2.5_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "21 Toyota RAV4 Hybrid LE.jpg",
+    "autor": "HJUdall",
+    "imagen": "toyota-rav-4-g4.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:21_Toyota_RAV4_Hybrid_LE.jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "vista": "frente"
+   },
+   {
+    "alto": 595,
+    "ancho": 960,
+    "archivo": "2020 Toyota RAV4 Hybrid Limited in Silver Sky Metallic, rear left.jpg",
+    "autor": "Mr.choppers",
+    "imagen": "toyota-rav-4-g5.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Toyota_RAV4_Hybrid_Limited_in_Silver_Sky_Metallic,_rear_left.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "DSC06531-Toyota Rav4 Hybrid.jpg",
+    "autor": "Y.Leclercq",
+    "imagen": "toyota-rav-4-g6.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:DSC06531-Toyota_Rav4_Hybrid.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "toyota-rav-4.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2019_Toyota_RAV4_Hybrid_01.jpg",
@@ -698,6 +4365,52 @@
  "TOYOTA|YARIS": {
   "archivo": "2025 Toyota Yaris XLS+ (2nd facelift) in Argentina.jpg",
   "autor": "Elcondelvp",
+  "galeria": [
+   {
+    "alto": 601,
+    "ancho": 960,
+    "archivo": "Toyota Yaris S XP150 front view (Colombia).png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-yaris-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_S_XP150_front_view_(Colombia).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 591,
+    "ancho": 960,
+    "archivo": "Toyota Yaris XP150 front view (Colombia) 1.png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-yaris-g2.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_XP150_front_view_(Colombia)_1.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 536,
+    "ancho": 960,
+    "archivo": "Toyota Yaris S XP150 rear view (Colombia).png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-yaris-g3.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_S_XP150_rear_view_(Colombia).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 713,
+    "ancho": 960,
+    "archivo": "Toyota Yaris XP150 interior (Colombia).png",
+    "autor": "Autosdeprimera",
+    "imagen": "toyota-yaris-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_XP150_interior_(Colombia).png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "toyota-yaris.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Yaris_XLS%2B_(2nd_facelift)_in_Argentina.jpg",
@@ -706,6 +4419,63 @@
  "TOYOTA|YARIS CROSS": {
   "archivo": "Toyota Yaris Cross S HEV GR (2024-02-21).jpg",
   "autor": "Nathanferdinand",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Toyota Yaris Cross (AC200) 1.5 S HEV 2023 (1).jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-yaris-cross-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Yaris_Cross_(AC200)_1.5_S_HEV_2023_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Toyota Yaris Cross 1.5 S HEV in Scarlet SE, front right, 06-27-2024.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-yaris-cross-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Yaris_Cross_1.5_S_HEV_in_Scarlet_SE,_front_right,_06-27-2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2023 Toyota Yaris Cross HEV Premium.jpg",
+    "autor": "Chanokchon",
+    "imagen": "toyota-yaris-cross-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Yaris_Cross_HEV_Premium.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2025 Toyota Yaris Cross HEV Nightshade.jpg",
+    "autor": "Chanokchon",
+    "imagen": "toyota-yaris-cross-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Yaris_Cross_HEV_Nightshade.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Toyota Yaris Cross 1.5 S HEV in Scarlet SE, rear right, 06-27-2024.jpg",
+    "autor": "Ethan Llamas",
+    "imagen": "toyota-yaris-cross-g5.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Yaris_Cross_1.5_S_HEV_in_Scarlet_SE,_rear_right,_06-27-2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "toyota-yaris-cross.webp",
   "interior": {
    "archivo": "2024 Toyota Yaris Cross 1.5 S HEV dashboard, 06-27-2024.jpg",
@@ -722,6 +4492,52 @@
  "VOLKSWAGEN|AMAROK PICK - UP": {
   "archivo": "2024 Volkswagen Amarok Highline 3.0 V6 (facelift, Argentina) (1-3).jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Volkswagen Amarok Highline 3.0 V6 (facelift, Argentina) (3-3).jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-amarok-pick-up-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Amarok_Highline_3.0_V6_(facelift,_Argentina)_(3-3).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Volkswagen Amarok Highline V6 4x4 (Argentina).jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-amarok-pick-up-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Amarok_Highline_V6_4x4_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 511,
+    "ancho": 960,
+    "archivo": "2019 Volkswagen Amarok Extreme 3.0 V6 4x4.jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-amarok-pick-up-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_Volkswagen_Amarok_Extreme_3.0_V6_4x4.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2024 Volkswagen Amarok Highline 3.0 V6 (facelift, Argentina) (2-3).jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-amarok-pick-up-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Amarok_Highline_3.0_V6_(facelift,_Argentina)_(2-3).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "volkswagen-amarok-pick-up.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Amarok_Highline_3.0_V6_(facelift,_Argentina)_(1-3).jpg",
@@ -730,6 +4546,74 @@
  "VOLKSWAGEN|NIVUS": {
   "archivo": "2021 Volkswagen Nivus 200 TSi Comfortline.jpg",
   "autor": "RL GNZLZ",
+  "galeria": [
+   {
+    "alto": 571,
+    "ancho": 960,
+    "archivo": "2025 Volkswagen Nivus 1.0 TSi 200 Comfortline (facelift).jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-nivus-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Nivus_1.0_TSi_200_Comfortline_(facelift).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 456,
+    "ancho": 960,
+    "archivo": "2025 Volkswagen Nivus 1.0 TSi 200 Trendline.jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-nivus-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Nivus_1.0_TSi_200_Trendline.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 575,
+    "ancho": 960,
+    "archivo": "Volkswagen Nivus TSi 170 Comfortline 2025 (facelift).jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-nivus-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Nivus_TSi_170_Comfortline_2025_(facelift).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 575,
+    "ancho": 960,
+    "archivo": "2021 Volkswagen Nivus Highline front view (Colombia) 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "volkswagen-nivus-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Volkswagen_Nivus_Highline_front_view_(Colombia)_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 508,
+    "ancho": 960,
+    "archivo": "2021 Volkswagen Nivus 200 TSi Comfortline (Chile) rear view.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-nivus-g5.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2021_Volkswagen_Nivus_200_TSi_Comfortline_(Chile)_rear_view.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Volkswagen Nivus Highline (Brazil) interior.png",
+    "autor": "Garagem do Jabulas",
+    "imagen": "volkswagen-nivus-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Nivus_Highline_(Brazil)_interior.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "volkswagen-nivus.webp",
   "interior": {
    "archivo": "Volkswagen Nivus Highline (Brazil) interior.png",
@@ -746,6 +4630,63 @@
  "VOLKSWAGEN|POLO": {
   "archivo": "Volkswagen Polo Track 1.6 MSi 2023.jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Volkswagen Polo Track (Colombia) front view.png",
+    "autor": "Autosdeprimera",
+    "imagen": "volkswagen-polo-g1.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Volkswagen_Polo_Track_(Colombia)_front_view.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2023 Volkswagen Polo 1.6 Track, 1st edition.jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "volkswagen-polo-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Volkswagen_Polo_1.6_Track,_1st_edition.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2024 Volkswagen Polo Track 1.6 MSi.jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-polo-g3.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Polo_Track_1.6_MSi.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 569,
+    "ancho": 960,
+    "archivo": "Volkswagen Polo Track 1.6 2024 - (1).jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-polo-g4.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Polo_Track_1.6_2024_-_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2023 Volkswagen Polo Track (Colombia) rear view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "volkswagen-polo-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Volkswagen_Polo_Track_(Colombia)_rear_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "volkswagen-polo.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Polo_Track_1.6_MSi_2023.jpg",
@@ -754,6 +4695,41 @@
  "VOLKSWAGEN|SAVEIRO PICK - UP": {
   "archivo": "2024 Volkswagen Saveiro 1.6 MSi Trendline (front).jpg",
   "autor": "Just a Man",
+  "galeria": [
+   {
+    "alto": 572,
+    "ancho": 960,
+    "archivo": "Volkswagen Saveiro Cab 2026.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-saveiro-pick-up-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Saveiro_Cab_2026.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "Volkswagen Saveiro Mk8 Double Cab base black in Maldonado - front.jpg",
+    "autor": "NaBUru38",
+    "imagen": "volkswagen-saveiro-pick-up-g2.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Saveiro_Mk8_Double_Cab_base_black_in_Maldonado_-_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "Volkswagen Saveiro Mk8 Double Cab base black in Maldonado - back.jpg",
+    "autor": "NaBUru38",
+    "imagen": "volkswagen-saveiro-pick-up-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Saveiro_Mk8_Double_Cab_base_black_in_Maldonado_-_back.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "volkswagen-saveiro-pick-up.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Saveiro_1.6_MSi_Trendline_(front).jpg",
@@ -762,6 +4738,19 @@
  "VOLKSWAGEN|T-CROSS": {
   "archivo": "Volkswagen T-Cross (2023) 1X7A2499.jpg",
   "autor": "Alexander-93",
+  "galeria": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Volkswagen T-Cross 200 TSi Comfortline 2025.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-t-cross-g1.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_T-Cross_200_TSi_Comfortline_2025.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   }
+  ],
   "imagen": "volkswagen-t-cross.webp",
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_T-Cross_(2023)_1X7A2499.jpg",
@@ -770,6 +4759,63 @@
  "VOLKSWAGEN|TAOS": {
   "archivo": "2026 Volkswagen Taos Highline (facelift) in Argentina.jpg",
   "autor": "Elcondelvp",
+  "galeria": [
+   {
+    "alto": 690,
+    "ancho": 960,
+    "archivo": "2022 Volkswagen Taos 1.4 250 TSI Comfortline (Argentina).jpg",
+    "autor": "Maxi-Napo-99",
+    "imagen": "volkswagen-taos-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Taos_1.4_250_TSI_Comfortline_(Argentina).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 580,
+    "ancho": 960,
+    "archivo": "2022 Volkswagen Taos S in Pure White, front left.jpg",
+    "autor": "Mr.choppers",
+    "imagen": "volkswagen-taos-g2.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Taos_S_in_Pure_White,_front_left.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 614,
+    "ancho": 960,
+    "archivo": "2022 Volkswagen Taos 1.5T SE in Cornflower Blue, front left.jpg",
+    "autor": "Mr.choppers",
+    "imagen": "volkswagen-taos-g3.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Taos_1.5T_SE_in_Cornflower_Blue,_front_left.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 617,
+    "ancho": 960,
+    "archivo": "2022 Volkswagen Taos SE (United States) front view 01.png",
+    "autor": "Gold Pony",
+    "imagen": "volkswagen-taos-g4.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Taos_SE_(United_States)_front_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 616,
+    "ancho": 960,
+    "archivo": "2022 Volkswagen Taos 1.5T SE in Cornflower Blue, rear left.jpg",
+    "autor": "Mr.choppers",
+    "imagen": "volkswagen-taos-g5.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Taos_1.5T_SE_in_Cornflower_Blue,_rear_left.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "volkswagen-taos.webp",
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2026_Volkswagen_Taos_Highline_(facelift)_in_Argentina.jpg",
@@ -778,6 +4824,74 @@
  "VOLKSWAGEN|TERA": {
   "archivo": "2025 Volkswagen Tera 1.0 High (Colombia) front view.png",
   "autor": "Autosdeprimera",
+  "galeria": [
+   {
+    "alto": 611,
+    "ancho": 960,
+    "archivo": "2025 Volkswagen Tera 1.0T Outfit.jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-tera-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Tera_1.0T_Outfit.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 596,
+    "ancho": 960,
+    "archivo": "2026 Volkswagen Tera 1.6 MSi Trend.jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-tera-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_Volkswagen_Tera_1.6_MSi_Trend.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 541,
+    "ancho": 960,
+    "archivo": "Volkswagen Tera 170 TSi Comfort 2026 Front.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-tera-g3.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Tera_170_TSi_Comfort_2026_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 551,
+    "ancho": 960,
+    "archivo": "2026 Volkswagen Tera 170 TSi Outfit.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-tera-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026_Volkswagen_Tera_170_TSi_Outfit.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2025 Volkswagen Tera 1.0 High (Colombia) rear view 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "volkswagen-tera-g5.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Tera_1.0_High_(Colombia)_rear_view_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "cola"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2025 Volkswagen Tera 1.0 High (Colombia) interior 01.png",
+    "autor": "Autosdeprimera",
+    "imagen": "volkswagen-tera-g6.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Tera_1.0_High_(Colombia)_interior_01.png",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+    "vista": "interior"
+   }
+  ],
   "imagen": "volkswagen-tera.webp",
   "interior": {
    "archivo": "2025 Volkswagen Tera 1.0 High (Colombia) interior 01.png",
@@ -794,6 +4908,52 @@
  "VOLKSWAGEN|VIRTUS": {
   "archivo": "Volkswagen Virtus Trendline 2023 (54196184648).jpg",
   "autor": "RL GNZLZ from Chile",
+  "galeria": [
+   {
+    "alto": 558,
+    "ancho": 960,
+    "archivo": "2024 Volkswagen Virtus 1.6 MSi Trendline (facelift).jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-virtus-g1.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Virtus_1.6_MSi_Trendline_(facelift).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 582,
+    "ancho": 960,
+    "archivo": "2018 Volkswagen Virtus 1.6 MSi Highline AT.jpg",
+    "autor": "Just a Man",
+    "imagen": "volkswagen-virtus-g2.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2018_Volkswagen_Virtus_1.6_MSi_Highline_AT.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Volkswagen Virtus 1.6 MSi Trendline 2023.jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-virtus-g3.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Virtus_1.6_MSi_Trendline_2023.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+    "vista": "frente"
+   },
+   {
+    "alto": 541,
+    "ancho": 960,
+    "archivo": "Volkswagen Virtus 1.6 MSi Trendline 2023 (54992007987).jpg",
+    "autor": "RL GNZLZ",
+    "imagen": "volkswagen-virtus-g4.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Virtus_1.6_MSi_Trendline_2023_(54992007987).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+    "vista": "cola"
+   }
+  ],
   "imagen": "volkswagen-virtus.webp",
   "licencia": "CC BY-SA 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Virtus_Trendline_2023_(54196184648).jpg",

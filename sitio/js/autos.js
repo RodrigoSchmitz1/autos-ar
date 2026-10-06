@@ -8,13 +8,35 @@ const PALETA = ["#e63946", "#f4a261", "#2a9d8f", "#3a86ff", "#9b5de5", "#f15bb5"
                 "#00b4d8", "#fb8500", "#06a77d", "#ef476f", "#ffbe0b", "#8338ec"];
 
 let fotos = {};
+let recortes = {};
 
 export async function cargarFotos() {
-  try {
-    const r = await fetch("img/autos/fotos.json");
-    if (r.ok) fotos = await r.json();
-  } catch { /* sin fotos el sitio sigue andando, con las tarjetas de marca */ }
+  const leer = (url) => fetch(url).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  // Sin fotos el sitio sigue andando, con las tarjetas de marca.
+  [fotos, recortes] = await Promise.all([leer("img/autos/fotos.json"), leer("img/autos/recortes.json")]);
   return fotos;
+}
+
+export const tieneRecorte = (marca, familia) => Boolean(recortes[`${marca}|${familia}`]);
+export const datosFoto = (marca, familia) => fotos[`${marca}|${familia}`] || null;
+
+// El auto sin fondo (exportar/recortes.py), para mostrarlo sobre un degradado.
+// variante 0 es la foto principal; las otras, fotos de la galeria en otros
+// colores (para que cada version no muestre el mismo auto). Sin recorte
+// devuelve null y se usa la foto comun.
+export const variantes = (marca, familia) => 1 + (recortes[`${marca}|${familia}`]?.variantes?.length || 0);
+
+export function recorte(marca, familia, clase = "", variante = 0) {
+  const r = recortes[`${marca}|${familia}`];
+  const f = fotos[`${marca}|${familia}`];
+  if (!r || !f) return null;
+  const v = variante % variantes(marca, familia);
+  const img = v ? r.variantes[v - 1] : r;
+  const autor = v ? f.galeria?.find((g) => g.archivo === img.archivo) || f : f;
+  return el("img", {
+    class: `recorte ${clase}`, src: `img/autos/${img.imagen}`, width: img.ancho, height: img.alto, loading: v ? "lazy" : null,
+    alt: `${marca} ${familia}`.toLowerCase(), title: `Foto: ${autor.autor} · ${autor.licencia} · Wikimedia Commons (fondo removido)`,
+  });
 }
 
 // Color fijo por nombre (FNV-1a con mezcla final): la misma marca siempre igual.

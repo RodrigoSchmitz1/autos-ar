@@ -19,13 +19,15 @@ function lista(items, clase, texto) {
   return ul;
 }
 
-function escalon(e, i) {
+function escalon(e, i, imagen) {
   const v = e.versiones[i];
   const suma = e.suma?.[String(i)] || { agrega: [], mejora: [], quita: [] };
   const anterior = e.versiones[i - 1];
   const salto = v.valor_0km && anterior?.valor_0km ? v.valor_0km - anterior.valor_0km : null;
   const incluidos = e.secciones.flatMap((s) => s.items).filter(([, vals]) => vals[i] === "si").length;
+  const foto = imagen?.(i);
   return el("div", { class: "escalon", style: `--paso:${i / Math.max(1, e.versiones.length - 1)}` },
+    foto ? el("div", { class: `escalon-foto${foto.classList.contains("recorte") ? "" : " con-fondo"}` }, foto) : null,
     el("div", { class: "escalon-cabeza" },
       el("div", { class: "escalon-nombre", text: v.nombre }),
       el("div", { class: "escalon-precio", text: v.valor_0km ? millones(v.valor_0km) : "sin precio" }),
@@ -52,7 +54,8 @@ function tabla(e) {
       ])))));
 }
 
-export function seccionVersiones(e) {
+// imagen: funcion que devuelve una foto nueva del modelo para la tarjeta i.
+export function seccionVersiones(e, imagen) {
   if (!e || e.versiones.length < 2) return [];
   return [
     el("h2", { text: "Qué suma cada versión" }),
@@ -60,7 +63,7 @@ export function seccionVersiones(e) {
       el("a", { href: e.fuente, text: "ficha técnica oficial" }), "."),
     el("div", { class: "leyenda-suma" },
       el("span", { class: "agrega", text: "agrega" }), el("span", { class: "mejora", text: "mejora" }), el("span", { class: "quita", text: "deja de tener" })),
-    el("div", { class: "escalera" }, e.versiones.map((_, i) => escalon(e, i))),
+    el("div", { class: "escalera" }, e.versiones.map((_, i) => escalon(e, i, imagen))),
     tabla(e),
   ];
 }

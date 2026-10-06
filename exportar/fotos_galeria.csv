@@ -1,0 +1,365 @@
+marca,familia,vista,archivo_commons
+CHEVROLET,ONIX,frente,Chevrolet Onix Turbo RS 2024.jpg
+CHEVROLET,ONIX,frente,At São Paulo 2023 092.jpg
+CHEVROLET,ONIX,cola,At São Paulo 2023 089.jpg
+CHEVROLET,ONIX,perfil,At São Paulo 2023 006.jpg
+CHEVROLET,ONIX,tablero,At São Paulo 2023 007.jpg
+TOYOTA,HILUX PICK - UP,frente,2021 Toyota Hilux Invincible D-4D 4WD 2.4.jpg
+TOYOTA,HILUX PICK - UP,frente,2022 Toyota HiLux 2.4 V front.jpg
+TOYOTA,HILUX PICK - UP,frente,"2020 Toyota HiLux G (parked) in Jalan Kolonel Abundjani - Danau Sipin, Jambi City, JA.jpg"
+TOYOTA,HILUX PICK - UP,cola,2022 Toyota HiLux 2.4 V rear.jpg
+FIAT,CRONOS,frente,"2025 Fiat Cronos 1.3 GSE Precision, facelift - 01.jpg"
+FIAT,CRONOS,frente,2024 Fiat Cronos 1.3 S-Design.jpg
+FIAT,CRONOS,frente,Fiat Cronos 1.8 E.torQ Precision 2021.jpg
+FIAT,CRONOS,cola,Fiat Cronos 1.8 Precision 2022 (trasera).jpg
+FIAT,CRONOS,perfil,2022 Fiat Cronos 1.3 Drive GSE (side view).jpg
+FIAT,CRONOS,interior,2025 Fiat Cronos interior.jpg
+FIAT,CRONOS,interior,2024 Fiat Cronos Precision interior.jpg
+FIAT,CRONOS,baul,2024 Fiat Cronos 1.3 GSE S-Design (trunk).jpg
+FORD,RANGER PICK - UP,frente,"2024 Ford Ranger V6 Limited (Argentina), front side.jpg"
+FORD,RANGER PICK - UP,frente,2025 Ford Ranger XLT in Argentina.jpg
+FORD,RANGER PICK - UP,frente,2022 Ford Ranger XLT Double-Cab 2.0L Turbo Hi-Rider.jpg
+FORD,RANGER PICK - UP,frente,2023 Ford Ranger Wildtrak EcoBlue 4x4 Auto.jpg
+FORD,RANGER PICK - UP,cola,"2024 Ford Ranger V6 Limited (Argentina), rear side.jpg"
+FORD,RANGER PICK - UP,perfil,"2024 Ford Ranger V6 Limited (Argentina), side.jpg"
+FORD,RANGER PICK - UP,interior,2024 Ford Ranger interior.jpg
+PEUGEOT,208,frente,2025 Peugeot 208 1.0 T200 GT (Argentina).jpg
+PEUGEOT,208,frente,"2022 Peugeot 208 1.6 Active Pack, front (Argentina).jpg"
+PEUGEOT,208,frente,"2022 Peugeot 208 1.6 VTi Feline, front (Argentina).jpg"
+PEUGEOT,208,frente,2020 Peugeot 208 Active Premium Puretech.jpg
+PEUGEOT,208,cola,"2022 Peugeot 208 1.6 Active Pack, rear (Argentina).jpg"
+PEUGEOT,208,interior,2025 Peugeot 208 GT interior (Argentina).jpg
+PEUGEOT,208,interior,2023 Peugeot 208 Style (produced in Argentina) interior.png
+FORD,TERRITORY,frente,2026 Ford Territory Titanium (facelift) in Argentina.jpg
+FORD,TERRITORY,frente,"2023 Ford Territory (China), front 8.3.23.jpg"
+FORD,TERRITORY,frente,Ford Territory 005.jpg
+FORD,TERRITORY,frente,Ford Territory 1.5 Titanium 2023 (10).jpg
+FORD,TERRITORY,cola,2023 Ford Territory KIMLIN88 rear.jpg
+FORD,TERRITORY,interior,Ford Territory (Equator Sport) Titanium 2023 interior.jpg
+VOLKSWAGEN,AMAROK PICK - UP,frente,"2024 Volkswagen Amarok Highline 3.0 V6 (facelift, Argentina) (3-3).jpg"
+VOLKSWAGEN,AMAROK PICK - UP,frente,2024 Volkswagen Amarok Highline V6 4x4 (Argentina).jpg
+VOLKSWAGEN,AMAROK PICK - UP,frente,2019 Volkswagen Amarok Extreme 3.0 V6 4x4.jpg
+VOLKSWAGEN,AMAROK PICK - UP,cola,"2024 Volkswagen Amarok Highline 3.0 V6 (facelift, Argentina) (2-3).jpg"
+TOYOTA,YARIS,frente,Toyota Yaris S XP150 front view (Colombia).png
+TOYOTA,YARIS,frente,Toyota Yaris XP150 front view (Colombia) 1.png
+TOYOTA,YARIS,cola,Toyota Yaris S XP150 rear view (Colombia).png
+TOYOTA,YARIS,interior,Toyota Yaris XP150 interior (Colombia).png
+VOLKSWAGEN,TERA,frente,2025 Volkswagen Tera 1.0T Outfit.jpg
+VOLKSWAGEN,TERA,frente,2026 Volkswagen Tera 1.6 MSi Trend.jpg
+VOLKSWAGEN,TERA,frente,Volkswagen Tera 170 TSi Comfort 2026 Front.jpg
+VOLKSWAGEN,TERA,frente,2026 Volkswagen Tera 170 TSi Outfit.jpg
+VOLKSWAGEN,TERA,cola,2025 Volkswagen Tera 1.0 High (Colombia) rear view 01.png
+VOLKSWAGEN,TERA,interior,2025 Volkswagen Tera 1.0 High (Colombia) interior 01.png
+CHEVROLET,TRACKER,frente,"2022 Chevrolet Tracker 1.2 Turbo LTZ, front (Argentina).jpg"
+CHEVROLET,TRACKER,frente,2023 Chevrolet Tracker 1.2 Premier.jpg
+CHEVROLET,TRACKER,frente,Chevrolet Tracker 2021 (front).png
+CHEVROLET,TRACKER,frente,Chevrolet Tracker Turbo RS 2024 (53354360975).jpg
+CHEVROLET,TRACKER,cola,"2022 Chevrolet Tracker 1.2 Turbo LTZ, rear (Argentina).jpg"
+CHEVROLET,TRACKER,interior,Chevrolet Tracker 2021 (interior).png
+VOLKSWAGEN,POLO,frente,2023 Volkswagen Polo Track (Colombia) front view.png
+VOLKSWAGEN,POLO,frente,"2023 Volkswagen Polo 1.6 Track, 1st edition.jpg"
+VOLKSWAGEN,POLO,frente,2024 Volkswagen Polo Track 1.6 MSi.jpg
+VOLKSWAGEN,POLO,frente,Volkswagen Polo Track 1.6 2024 - (1).jpg
+VOLKSWAGEN,POLO,cola,2023 Volkswagen Polo Track (Colombia) rear view 01.png
+PEUGEOT,2008,frente,2025 Peugeot 2008 Active 1.0 T200.jpg
+PEUGEOT,2008,frente,Peugeot 2008 B Facelift IMG 1185 (cropped).jpg
+PEUGEOT,2008,frente,The frontview of Peugeot 2008 GT (5BA-P24HN05).jpg
+PEUGEOT,2008,frente,"2025 Peugeot 2008 1.0 Active, test drive.jpg"
+PEUGEOT,2008,cola,2024 Peugeot 2008 GT 1.0 T200.jpg
+TOYOTA,COROLLA CROSS,frente,2021 Toyota Corolla Cross Hybrid SEG (Colombia) front view 01.png
+TOYOTA,COROLLA CROSS,frente,2020 Toyota Corolla Cross 1.8 ZSG10R (20201113) 01.jpg
+TOYOTA,COROLLA CROSS,frente,2020 Toyota Corolla Cross 1.8 Sport.jpg
+TOYOTA,COROLLA CROSS,frente,2021 Toyota Corolla Cross 1.8AT Standard graphite front view in Brunei.jpg
+TOYOTA,COROLLA CROSS,cola,2021 Toyota Corolla Cross Hybrid SEG (Colombia) rear view.png
+TOYOTA,COROLLA CROSS,perfil,2021 Toyota Corolla Cross Hybrid SEG (Colombia) side view.png
+VOLKSWAGEN,TAOS,frente,2022 Volkswagen Taos 1.4 250 TSI Comfortline (Argentina).jpg
+VOLKSWAGEN,TAOS,frente,"2022 Volkswagen Taos S in Pure White, front left.jpg"
+VOLKSWAGEN,TAOS,frente,"2022 Volkswagen Taos 1.5T SE in Cornflower Blue, front left.jpg"
+VOLKSWAGEN,TAOS,frente,2022 Volkswagen Taos SE (United States) front view 01.png
+VOLKSWAGEN,TAOS,cola,"2022 Volkswagen Taos 1.5T SE in Cornflower Blue, rear left.jpg"
+RENAULT,KWID,frente,2023 Renault Kwid Iconic (Colombia) front view 01.png
+RENAULT,KWID,frente,Renault Kwid - Facelift (2026).png
+RENAULT,KWID,frente,Renault Kwid 1.0 Outsider 2022.jpg
+RENAULT,KWID,cola,2023 Renault Kwid Iconic (Colombia) rear view.png
+RENAULT,KARDIAN,frente,"2024 Renault Kardian 1.0 200 EDC Premiere Edition, front.jpg"
+RENAULT,KARDIAN,frente,2025 Renault Kardian Evolution.jpg
+RENAULT,KARDIAN,cola,Renault Kardian 2024 Evolution 1.0 TCe in Montevideo (rear).jpg
+JEEP,COMPASS,frente,Jeep Compass (MP) PHEV Facelift IMG 4979.jpg
+JEEP,COMPASS,frente,Jeep Compass PHEV Genf 2019 1Y7A5371.jpg
+JEEP,COMPASS,cola,Jeep Compass (MP) PHEV Facelift 1X7A0139.jpg
+TOYOTA,YARIS CROSS,frente,Toyota Yaris Cross (AC200) 1.5 S HEV 2023 (1).jpg
+TOYOTA,YARIS CROSS,frente,"2024 Toyota Yaris Cross 1.5 S HEV in Scarlet SE, front right, 06-27-2024.jpg"
+TOYOTA,YARIS CROSS,frente,2023 Toyota Yaris Cross HEV Premium.jpg
+TOYOTA,YARIS CROSS,frente,2025 Toyota Yaris Cross HEV Nightshade.jpg
+TOYOTA,YARIS CROSS,cola,"2024 Toyota Yaris Cross 1.5 S HEV in Scarlet SE, rear right, 06-27-2024.jpg"
+VOLKSWAGEN,NIVUS,frente,2025 Volkswagen Nivus 1.0 TSi 200 Comfortline (facelift).jpg
+VOLKSWAGEN,NIVUS,frente,2025 Volkswagen Nivus 1.0 TSi 200 Trendline.jpg
+VOLKSWAGEN,NIVUS,frente,Volkswagen Nivus TSi 170 Comfortline 2025 (facelift).jpg
+VOLKSWAGEN,NIVUS,frente,2021 Volkswagen Nivus Highline front view (Colombia) 01.png
+VOLKSWAGEN,NIVUS,cola,2021 Volkswagen Nivus 200 TSi Comfortline (Chile) rear view.jpg
+VOLKSWAGEN,NIVUS,interior,Volkswagen Nivus Highline (Brazil) interior.png
+BAIC,BJ30,frente,Beijing BJ30 001.jpg
+BAIC,BJ30,cola,"Beijing BJ30, rear 1.jpg"
+BAIC,BJ30,interior,"Beijing BJ30, interior 1.jpg"
+FIAT,STRADA PICK - UP,frente,Fiat Strada 2020 Volcano in Montevideo (front) (cropped).jpg
+FIAT,STRADA PICK - UP,frente,Fiat Strada Mk6 Volcano in Uruguay - front.jpg
+FIAT,STRADA PICK - UP,frente,Fiat Strada Mk6 Freedom in Montevideo (front).jpg
+FIAT,STRADA PICK - UP,frente,2025 Fiat Strada Ultra 1.0 T200 CVT.jpg
+FIAT,STRADA PICK - UP,cola,Fiat Strada Mk6 Volcano in Uruguay - rear.jpg
+RENAULT,KANGOO,frente,2022 Renault Kangoo 1.6 SCe Zen (Argentina).jpg
+RENAULT,KANGOO,frente,Renault Nueva Kangoo 2018 (Colombia).jpg
+RENAULT,KANGOO,frente,Nuevo Renault Kangoo.jpg
+RENAULT,KANGOO,interior,Interior de una Renault Kangoo.jpg
+FIAT,FIORINO,frente,Fiat Fiorino XMF 2650 in Punta del Este 2015.JPG
+FIAT,FIORINO,frente,Fiat Fiorino de Andreani en Monte Castro.jpg
+FIAT,FIORINO,cola,"Fiat Fiorino, La Boca.jpg"
+JEEP,RENEGADE,frente,Jeep Renegade 4xe 1X7A6026.jpg
+JEEP,RENEGADE,frente,Jeep Renegade 1.3 T4 PHEV 4xe High Upland (Facelift) – f 15062025.jpg
+JEEP,RENEGADE,cola,Jeep Renegade 4xe 1X7A6028.jpg
+TOYOTA,COROLLA,frente,2019 Toyota Corolla Hybrid Saloon.jpg
+TOYOTA,COROLLA,frente,Toyota Corolla 1.8 Hybrid Sedan.jpg
+TOYOTA,COROLLA,frente,Toyota Corolla Limousine Monrepos 2019 IMG 1908.jpg
+TOYOTA,COROLLA,cola,Toyota Corolla Prestige Hybrid IMG 1230.jpg
+FIAT,ARGO,frente,Fiat Argo 2017b (cropped).jpg
+FIAT,ARGO,frente,"2019 Fiat Argo 1.8 Precision (Brazil) seen in Buenos Aires, Argentina.jpg"
+FIAT,ARGO,frente,2025 Fiat Argo 1.3 Drive.jpg
+FIAT,ARGO,frente,2017 Fiat Argo 1.3 GSE Drive.jpg
+FIAT,ARGO,cola,Fiat Argo 2017a (cropped).jpg
+FIAT,ARGO,interior,Interior Fiat Argo 1.0 2022.jpg
+FIAT,ARGO,interior,Fiat Argo UConnect interior.jpg
+VOLKSWAGEN,T-CROSS,frente,Volkswagen T-Cross 200 TSi Comfortline 2025.jpg
+CITROEN,BASALT,cola,CitroenBasaltCC26PuretechGIIAS25RR.jpg
+FIAT,TORO PICK UP,frente,"Fiat Toro 2024 Volcano in Montevideo, Uruguay (front).jpg"
+FIAT,TORO PICK UP,frente,2024 Fiat Toro 2.0 Volcano 4x4.jpg
+FIAT,TORO PICK UP,frente,Fiat Toro Volcano front.jpg
+FIAT,TORO PICK UP,cola,"Fiat Toro 2024 Volcano in Montevideo, Uruguay (rear).jpg"
+CITROEN,C 3 AIRCROSS,frente,Citroen C3 Aircross Turbo Shine 2026.jpg
+CITROEN,C 3 AIRCROSS,frente,2023 Citroën C3 Aircross 1.2 CC24 (Indonesia) front view.jpg
+CITROEN,C 3 AIRCROSS,frente,2025 Citroën C3 Aircross 1.0 Feel Pack.jpg
+CITROEN,C 3 AIRCROSS,cola,Citroën C3 Aircross 2024 Shine 1.0 Turbo 200 in Montevideo (rear).jpg
+FIAT,PULSE,frente,Fiat Pulse 2023 Impetus 1.3 Turbo 200 red in Montevideo in 2024 (front).jpg
+FIAT,PULSE,frente,2023 Fiat Pulse Impetus (Colombia) front view 02.jpg
+FIAT,PULSE,frente,Fiat Pulse Drive 1.3 CVT 2022 in Montevideo (front).jpg
+FIAT,PULSE,frente,Fiat Pulse Drive 1.3 2022 in Montevideo (front).jpg
+FIAT,PULSE,cola,Fiat Pulse 2023 Impetus 1.3 Turbo 200 red in Montevideo in 2024 (rear).jpg
+FIAT,PULSE,interior,2023 Fiat Pulse Impetus (Colombia) interior.jpg
+FIAT,PULSE,interior,2022 Fiat Pulse Impetus T200 (Brazil) interior.png
+HYUNDAI,HB20,frente,Hyundai HB20 Platinum 2025.jpg
+HYUNDAI,HB20,frente,2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) front view 02.png
+HYUNDAI,HB20,cola,2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) rear view.png
+HYUNDAI,HB20,interior,2023 Hyundai HB20 1.0 T-GDi Platinum Plus (Brazil) interior 01.png
+FIAT,TITANO PICK UP,frente,Fiat Titano Ranch.jpg
+FIAT,TITANO PICK UP,frente,Fiat Titano.jpg
+FIAT,TITANO PICK UP,cola,22.1.2026 - Entrega de veículos adquiridos por meio de convênio federal para reforçar ações de defesa agropecuária - 55055732023.jpg
+CHEVROLET,MONTANA PICK - UP,frente,2023 Chevrolet Montana Premier (Brazil) front view 02.jpg
+CHEVROLET,MONTANA PICK - UP,frente,Chevrolet Montana Mk3 LS 2023 in Maldonado 01.jpg
+CHEVROLET,MONTANA PICK - UP,frente,2023 Chevrolet Montana LTZ front.jpg
+CHEVROLET,MONTANA PICK - UP,frente,Chevrolet Montana Turbo RS 2024 (53354238079).jpg
+CHEVROLET,MONTANA PICK - UP,cola,2023 Chevrolet Montana Premier (Brazil) rear view.jpg
+MERCEDES BENZ,SPRINTER,frente,2015 Mercedes-Benz Sprinter (W 906) 313 CDI MWB van (2015-08-29).jpg
+MERCEDES BENZ,SPRINTER,frente,2014 Mercedes-Benz Sprinter (short panel model) - fl.jpg
+MERCEDES BENZ,SPRINTER,frente,"2016 Mercedes-Benz Sprinter Super High Minibus, front right.jpg"
+MERCEDES BENZ,SPRINTER,cola,2014 Mercedes-Benz Sprinter (short panel model) - rl.jpg
+FORD,MAVERICK PICK - UP,frente,"2025 Ford Maverick XLT FX4, front 4.15.25.jpg"
+FORD,MAVERICK PICK - UP,frente,2025 Ford Maverick au SIAM 2025.jpg
+FORD,MAVERICK PICK - UP,frente,"2022 Ford Maverick XLT with FX4 Off-Road Package in Area 51, Front Right, 01-16-2023.jpg"
+FORD,MAVERICK PICK - UP,frente,2022 Ford Maverick XLT AWD with FX4 Off-Road Package.jpg
+FORD,MAVERICK PICK - UP,cola,"2022 Ford Maverick XLT AWD, rear 4.23.22.jpg"
+NISSAN,FRONTIER PICK - UP,frente,2021 Nissan Frontier Pro 4X (Colombia; facelift) front view 01.png
+NISSAN,FRONTIER PICK - UP,frente,Salão Internacional do Automóvel 2018.jpg
+NISSAN,FRONTIER PICK - UP,frente,NissanFrontierXE.jpg
+NISSAN,FRONTIER PICK - UP,cola,2021 Nissan Frontier Pro 4X (Colombia; facelift) rear view.png
+NISSAN,FRONTIER PICK - UP,perfil,2021 Nissan Frontier Pro 4X (Colombia; facelift) side view.png
+NISSAN,FRONTIER PICK - UP,interior,2021 Nissan Frontier Pro 4X (Colombia; facelift) interior.png
+CITROEN,BERLINGO,frente,2005 Citroën Berlingo (M59 Series II) van (22257630722) (cropped).jpg
+CITROEN,BERLINGO,frente,"2002 Citroen Berlingo Multispace Forte - 1587cc 1.6 (110PS) Petrol - Blue - 12-2023, Front.jpg"
+CITROEN,BERLINGO,frente,"2003 Citroen Berlingo Spacelight 1,6 16V.jpg"
+CITROEN,BERLINGO,cola,2007 Citroën Berlingo Multispace 1.9 (rear).jpg
+FIAT,FASTBACK,frente,Fiat Fastback 2023 Impetus Turbo 200 in Montevideo.jpg
+FIAT,FASTBACK,frente,2024 Fiat Fastback 1.3 GSE Turbo 270 (front).jpg
+FIAT,FASTBACK,frente,Fiat Fastback Turbo 200 Audace 2023 (53098276048).jpg
+FIAT,FASTBACK,cola,2023 Fiat Fastback (Colombia) rear view.png
+FIAT,FASTBACK,interior,2023 Fiat Fastback (Colombia) interior.png
+FIAT,FASTBACK,interior,2024 Fiat Fastback interior.jpg
+RENAULT,KANGOO II EXPRESS,frente,Renault Nueva Kangoo 2018 (Colombia).jpg
+RENAULT,KANGOO II EXPRESS,frente,Renault Kangoo de Andreani en Floresta.jpg
+RENAULT,KANGOO II EXPRESS,cola,Kangoo 2019.jpg
+RENAULT,KANGOO II EXPRESS,interior,Interior de una Renault Kangoo.jpg
+BYD,SONG PRO DM-i,frente,BYD Song Pro DM-i 2023 facelift 001 (cropped).jpg
+BYD,SONG PRO DM-i,frente,BYD Song Pro DM-i facelift 004 (cropped).jpg
+BYD,SONG PRO DM-i,frente,BYD Song Pro i.jPG
+BYD,SONG PRO DM-i,cola,BYD Song Pro DM-I facelift 001.jpg
+NISSAN,KICKS PLAY,frente,2021 Nissan Kicks (Colombia) front view 01.png
+NISSAN,KICKS PLAY,frente,"2020 Nissan Kicks SR, front right, 09-09-2023.jpg"
+NISSAN,KICKS PLAY,frente,"2021 Nissan Kicks SV (facelift), front 11.6.21.jpg"
+NISSAN,KICKS PLAY,cola,2021 Nissan Kicks (Colombia) rear view 01.png
+BYD,ATTO 2,frente,2026 BYD Atto 2 Premium.jpg
+BYD,ATTO 2,frente,BYD Atto 2 MYLE Festival 2025 DSC 9417.jpg
+BYD,ATTO 2,frente,BYD Atto 2 IAA 2025 DSC 2247.jpg
+BYD,ATTO 2,frente,2026 BYD Atto 2 with South Australia license plate (55531691944).jpg
+BYD,ATTO 2,cola,BYD Atto 2 EV Premium 2026 (4).jpg
+BYD,ATTO 2,interior,BYD Atto 2 (cropped).jpg
+RAM,RAMPAGE PICK -UP,frente,2023 Ram Rampage Turbo 170 Laramie 4x4.jpg
+RAM,RAMPAGE PICK -UP,frente,2025 Ram Rampage RT.jpg
+RAM,RAMPAGE PICK -UP,frente,Ram Rampage 2024 Laramie in Punta del Este 02.jpg
+RAM,RAMPAGE PICK -UP,cola,Ram Rampage 2024 Laramie in Punta del Este 03.jpg
+FORD,BRONCO SPORT,frente,Ford Bronco Sport Big Bend in Uruguay - front.jpg
+FORD,BRONCO SPORT,frente,"2022 Ford Bronco Sport Big Bend, front left, 09-03-2022.jpg"
+FORD,BRONCO SPORT,frente,"2021 Ford Bronco Sport Big Bend in Oxford White, front left, 2025-04-25.jpg"
+FORD,BRONCO SPORT,frente,"2023 Ford Bronco Sport Heritage in Robin's Egg Blue, Front Left, 04-05-2023.jpg"
+FORD,BRONCO SPORT,cola,Ford Bronco Sport Big Bend in Uruguay - rear.jpg
+FORD,BRONCO SPORT,interior,2022 Ford Bronco Sport interior.jpg
+KIA,K3,frente,2024 Kia K3 Sedan GT Line (Colombia) front view.jpg
+KIA,K3,frente,Kia K3 LX sedan in Steel Gray 01.jpg
+KIA,K3,frente,Kia K3 1.4 LX 2026.jpg
+KIA,K3,cola,2024 Kia K3 Sedan GT Line (Colombia) rear view.jpg
+KIA,K3,interior,2024 Kia K3 Sedan GT Line (Colombia) interior.png
+CHERY,TIGGO 7,frente,2024 Chery Tiggo 7 Pro 1.5 Premium in Ruby Red.jpg
+CHERY,TIGGO 7,frente,2024 Chery Tiggo7 Pro Max white front.jpg
+CHERY,TIGGO 7,frente,2023 Chery Tiggo7 Pro Max grey front.jpg
+CHERY,TIGGO 7,frente,Chery Tiggo7 Pro 1.5T GLX 2024 (54149643181).jpg
+CHERY,TIGGO 7,cola,2023 Chery Tiggo7 Pro Max grey rear.jpg
+RENAULT,DUSTER,frente,2022 Renault Duster Intens 4x2 1.3 Turbo (Colombia) front view.png
+RENAULT,DUSTER,frente,Renault Duster II base in Montevideo.jpg
+RENAULT,DUSTER,frente,Renault Duster 2020 (Russia) (cropped).jpg
+RENAULT,DUSTER,frente,2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) front view 01.png
+RENAULT,DUSTER,cola,2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) rear view.png
+RENAULT,DUSTER,interior,2022 Renault Duster Intens 4x4 1.3 Turbo (Colombia) interior.png
+CHEVROLET,SPIN,frente,2025 Chevrolet Spin 1.8 LT.jpg
+CHEVROLET,SPIN,frente,Chevrolet Spin 1.8 Premier 2022.jpg
+CHEVROLET,SPIN,frente,"2019 Chevrolet Spin 1.8 LTZ (facelift), front view.jpg"
+CHEVROLET,SPIN,cola,"2019 Chevrolet Spin 1.8 LTZ (facelift), rear view.jpg"
+HONDA,HR-V,frente,2021 Honda HR-V e-HEV RS.jpg
+HONDA,HR-V,frente,2022 Honda HR-V Elegance I-MMD CVT.jpg
+HONDA,HR-V,frente,2024 Honda HR-V e-HEV RS.jpg
+HONDA,HR-V,frente,Honda HR-V e-HEV RS (III) – f 13032025.jpg
+HONDA,HR-V,cola,2025 Honda HR-V Hybrid DSC 7912.jpg
+VOLKSWAGEN,VIRTUS,frente,2024 Volkswagen Virtus 1.6 MSi Trendline (facelift).jpg
+VOLKSWAGEN,VIRTUS,frente,2018 Volkswagen Virtus 1.6 MSi Highline AT.jpg
+VOLKSWAGEN,VIRTUS,frente,Volkswagen Virtus 1.6 MSi Trendline 2023.jpg
+VOLKSWAGEN,VIRTUS,cola,Volkswagen Virtus 1.6 MSi Trendline 2023 (54992007987).jpg
+RENAULT,ARKANA E-TECH,frente,2022 Renault Arkana RS Line E-Tech HEV Auto.jpg
+RENAULT,ARKANA E-TECH,frente,2022 Renault ArkanaRenault Arkana Iconic E-Tech HEV Auto.jpg
+RENAULT,ARKANA E-TECH,frente,Blue Renault Arkana in Dijon - 2022.jpg
+RENAULT,ARKANA E-TECH,frente,Renault Arkana (CMF-B) IMG 5628.jpg
+RENAULT,ARKANA E-TECH,cola,Renault Arkana (CMF-B) IMG 4295.jpg
+RENAULT,ARKANA E-TECH,interior,Renault Arkana (CMF-B) 1X7A7043.jpg
+NISSAN,VERSA,frente,Nissan Versa SR (4th Gen) Brazil.jpg
+NISSAN,VERSA,frente,2020 Nissan Versa SR front NYIAS 2019.jpg
+NISSAN,VERSA,frente,"2021 Nissan Versa S, Front Left, 04-11-2021.jpg"
+NISSAN,VERSA,frente,2021 Nissan Versa SR (United States) front view.png
+NISSAN,VERSA,cola,2020 Nissan Versa SR rear NYIAS 2019.jpg
+NISSAN,VERSA,interior,2024 Nissan Versa interior.jpg
+FORD,EVEREST,frente,2022 Ford Everest Sport 2.0L Turbo 4x2.jpg
+FORD,EVEREST,frente,2022 Ford Everest Titanium+ 2.0L Bi-Turbo 4x4.jpg
+FORD,EVEREST,frente,"2023 Ford Everest 2.0 Bi-Turbo Titanium+ in Arctic White, front right, 05-11-2024.jpg"
+FORD,EVEREST,frente,"2024 Ford Everest 2.0 Trend Turbo in Aluminum Metallic, front right.jpg"
+FORD,EVEREST,cola,"2023 Ford Everest 2.0 Bi-Turbo Titanium+ in Arctic White, rear right, 05-11-2024.jpg"
+HONDA,WR-V,frente,Honda WR-V Z+ (5BA-DG5) (cropped).jpg
+HONDA,WR-V,frente,Honda WR-V Z+ (5BA-DG5) front.jpg
+HONDA,WR-V,cola,2026 Honda WR-V Prestige (Colombia) rear view.jpg
+HONDA,WR-V,interior,2026 Honda WR-V Prestige (Colombia) interior.jpg
+MG,ZS,frente,2022 MG ZS Exclusive T-GDi 1.0 Front.jpg
+MG,ZS,frente,2022 MG ZS Excite Front.jpg
+MG,ZS,frente,2021 MG ZS Exclusive T-GDi Automatic 1.0 Front.jpg
+MG,ZS,frente,2021 MG ZS Exclusive VTi Tech.jpg
+MG,ZS,cola,2022 MG ZS Exclusive T-GDi 1.0 Rear.jpg
+MG,ZS,interior,"2024 MG ZS 1.5 Alpha dashboard, 06-08-2024.jpg"
+NISSAN,KICKS,frente,Nissan Kicks second generation Brazil.jpg
+NISSAN,KICKS,frente,2025 Nissan Kicks au salon international de l'auto de Montréal 2025.jpg
+NISSAN,KICKS,frente,"2025 Nissan Kicks SV AWD in Deep Blue Pearl, front right, 2024-10-06.jpg"
+NISSAN,KICKS,frente,2025 Nissan Kicks au SIAM 2025.jpg
+NISSAN,KICKS,cola,"2025 Nissan Kicks SR, rear 11.29.24.jpg"
+NISSAN,KICKS,interior,2025 Nissan Kicks interior.jpg
+VOLKSWAGEN,SAVEIRO PICK - UP,frente,Volkswagen Saveiro Cab 2026.jpg
+VOLKSWAGEN,SAVEIRO PICK - UP,frente,Volkswagen Saveiro Mk8 Double Cab base black in Maldonado - front.jpg
+VOLKSWAGEN,SAVEIRO PICK - UP,cola,Volkswagen Saveiro Mk8 Double Cab base black in Maldonado - back.jpg
+HAVAL,JOLION,frente,Great Wall Jolion Elite 2025.jpg
+HAVAL,JOLION,frente,Haval Jolion in Tomsk 03 (cropped).jpg
+HAVAL,JOLION,cola,2025 Haval Jolion white rear.jpg
+RAM,DAKOTA PICK - UP,frente,Ram Dakota South America front right - Autosdeprimera (cropped).jpg
+RAM,DAKOTA PICK - UP,cola,Ram Dakota South America rear right - Autosdeprimera.jpg
+RAM,DAKOTA PICK - UP,perfil,Ram Dakota South America right side - Autosdeprimera.jpg
+RENAULT,DUSTER OROCH PICK - UP,frente,Renault Duster Oroch 2016 in Punta del Este 01.JPG
+RENAULT,DUSTER OROCH PICK - UP,frente,Renault Duster Oroch 1.6 Zen 2018 (39788485004).jpg
+RENAULT,DUSTER OROCH PICK - UP,frente,Renault Duster Oroch 2.0 Intens 2018 (32431308657).jpg
+RENAULT,DUSTER OROCH PICK - UP,cola,Renault Duster Oroch 2016 in Punta del Este 02.JPG
+NISSAN,XTRAIL,frente,"2023 Nissan X-Trail Acenta Premium DIG-T - 1497cc 1.5 (163PS) Petrol - Gun Metallic - 02-2024, Front.jpg"
+NISSAN,XTRAIL,frente,"Nissan X-Trail (left-front), Nissan Gallery Global HQ, 2021.jpg"
+NISSAN,XTRAIL,frente,Nissan X-Trail 184202.jpg
+NISSAN,XTRAIL,frente,Nissan X-Trail (T33) 1X7A7199.jpg
+NISSAN,XTRAIL,cola,2023 Nissan X-Trail Ti rear.jpg
+NISSAN,XTRAIL,interior,NISSAN X-TRAIL T33 China (3).jpg
+CHANGAN,CS55,frente,Changan CS55 Plus Luxury 2024.jpg
+CHANGAN,CS55,frente,Changan CS55 Plus II 003.jpg
+CHANGAN,CS55,frente,2021 Chang'an CS55 Plus (front).jpg
+CHANGAN,CS55,frente,Changan CS55 Plus II 001.jpg
+CHANGAN,CS55,cola,2021 Chang'an CS55 Plus (rear).jpg
+BAIC,X55 CROSSOVER,frente,BAIC (Beijing) X55 162315.jpg
+BAIC,X55 CROSSOVER,frente,Miri 25 November 2023 30.jpg
+BAIC,X55 CROSSOVER,frente,BAIC X55 (3rd generation) DSC 8882.jpg
+BAIC,X55 CROSSOVER,cola,Baic X55 Automesse Ludwigsburg 2023 1X7A0064.jpg
+BAIC,X55 CROSSOVER,interior,Baic X55 Automesse Ludwigsburg 2023 1X7A0077.jpg
+HYUNDAI,CRETA,frente,2021 Hyundai Creta 2.0 Ultimate (Brazil) front view.png
+HYUNDAI,CRETA,frente,2021 Hyundai Creta 2.0 HTRAC Prestige (Russia; SU2r) front view.jpg
+HYUNDAI,CRETA,frente,2022 Hyundai Creta 1.6 Plus (Chile) front view.jpg
+HYUNDAI,CRETA,cola,2021 Hyundai Creta 2.0 Ultimate (Brazil) rear view.png
+HYUNDAI,CRETA,interior,2021 Hyundai Creta 2.0 HTRAC Prestige (Russia; SU2r) interior.png
+RENAULT,SANDERO STEPWAY,frente,2020 Renault Stepway 2020 (Colombia) front view.png
+RENAULT,SANDERO STEPWAY,frente,Renault-Sandero Stepway Brazil-2017.jpg
+RENAULT,SANDERO STEPWAY,cola,Renault Sandero Stepway Mk2 in Uruguay.jpg
+FORD,F-150 PICK - UP,frente,2021 Ford F-150 (fourteenth generation) front view 02.png
+FORD,F-150 PICK - UP,frente,'21 Ford F-150 XLT Crew Cab.jpg
+FORD,F-150 PICK - UP,frente,"2021 Ford F150 Supercrew, Front Right, 03-09-2021.jpg"
+FORD,F-150 PICK - UP,frente,2023 Ford F-150 SuperCrew Pick-Up (52810350195).jpg
+FORD,F-150 PICK - UP,cola,"2021 Ford F-150 SuperCrew, rear 4.28.21.jpg"
+FORD,F-150 PICK - UP,interior,2022 Ford F-150 interior.jpg
+JEEP,COMMANDER,frente,2021 Jeep Commander Limited (Brazil) front view.png
+JEEP,COMMANDER,frente,Jeep Commander Limited (front view).jpg
+JEEP,COMMANDER,frente,Jeep Commander (1).jpg
+JEEP,COMMANDER,cola,2021 Jeep Commander Limited (Brazil) rear view.png
+JEEP,COMMANDER,perfil,Jeep Commander (right side).jpg
+BYD,YUAN PRO,frente,"2021 BYD Yuan Pro (facelift, front).jpg"
+BYD,YUAN PRO,frente,BYD Yuan Pro IMG001.jpg
+BYD,YUAN PRO,cola,"2021 BYD Yuan Pro (facelift, rear).jpg"
+PEUGEOT,3008,frente,"2024 Peugeot e-3008 Allure EV - 73kWh (210PS) Electric - Obsession Blue - 06-2024, Front.jpg"
+PEUGEOT,3008,frente,Peugeot e-3008 Automesse Ludwigsburg 2024 IMG 1360.jpg
+PEUGEOT,3008,cola,Peugeot e-3008 Automesse Ludwigsburg 2024 IMG 1367.jpg
+PEUGEOT,3008,interior,Peugeot e-3008 Auto Zuerich 2023 1X7A1333.jpg
+TOYOTA,HIACE,frente,Toyota Hiace GDH303L 2.8 GL Grandia Silver Mica Metallic 01.jpg
+TOYOTA,HIACE,frente,Toyota Hiace GL Grandia 2020 (1).jpg
+TOYOTA,HIACE,frente,Toyota Hiace GDH322 2.8 GL Grandia Tourer Beige Metallic.jpg
+TOYOTA,HIACE,frente,"Toyota Hiace GL Grandia (White Pearl 2-Tone, P4-K329).jpg"
+TOYOTA,HIACE,cola,Toyota Hiace GDH303L 2.8 GL Grandia Silver Mica Metallic 02.jpg
+TOYOTA,HIACE,interior,Toyota Hiace GDH301 2.8 GL Grandia interior.jpg
+TOYOTA,RAV - 4,frente,Toyota RAV4 5th gen Brazil.jpg
+TOYOTA,RAV - 4,frente,2019 Toyota RAV4 Excel HEV CVT 2.5 Front.jpg
+TOYOTA,RAV - 4,frente,2019 Toyota RAV4 Excel Hybrid CVT 2.5 Front.jpg
+TOYOTA,RAV - 4,frente,21 Toyota RAV4 Hybrid LE.jpg
+TOYOTA,RAV - 4,cola,"2020 Toyota RAV4 Hybrid Limited in Silver Sky Metallic, rear left.jpg"
+TOYOTA,RAV - 4,interior,DSC06531-Toyota Rav4 Hybrid.jpg
+FIAT,600,frente,2025 Fiat 600 La Prima MHEV Auto.jpg
+FIAT,600,frente,Fiat 600 (2023) DSC 0738.jpg
+FIAT,600,frente,Fiat 600 (2023) IMG 7904.jpg
+FIAT,600,frente,Fiat 600 (2023) IMG 2357.jpg
+FIAT,600,cola,Fiat 600 (2023) IMG 7909.jpg
+FORD,TRANSIT,frente,2020 Ford Transit 350 Limited EcoBlue Auto.jpg
+FORD,TRANSIT,frente,2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Front.jpg
+FORD,TRANSIT,cola,2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Rear.jpg
+FIAT,MOBI,frente,Fiat Mobi Trekking 1.0 2021 in Montevideo (front).jpg
+FIAT,MOBI,frente,Fiat Mobi Way 1.0 2017.jpg
+FIAT,MOBI,frente,2022 Fiat Mobi 1.0 Trekking.jpg
+FIAT,MOBI,frente,Fiat Mobi.jpg
+FIAT,MOBI,cola,Fiat Mobi Trekking 1.0 2021 in Montevideo (back).jpg
+BYD,DOLPHIN MINI,frente,2023 BYD Seagull (front).jpg
+BYD,DOLPHIN MINI,frente,"2025 BYD Seagull EV in Sprout Green, front left.jpg"
+BYD,DOLPHIN MINI,frente,BYD Seagull EV 2025 (10).jpg
+BYD,DOLPHIN MINI,cola,2023 BYD Seagull (rear).jpg
+BYD,DOLPHIN MINI,interior,BYD Seagull EV - interior view.jpg
+CITROEN,C 3,frente,Citroën C3 2022 Feel Pack Spring Blue in Uruguay - front.jpg
+CITROEN,C 3,frente,Citroën C3 2022 Feel Pack Artense Grey in Uruguay - front.jpg
+CITROEN,C 3,cola,Citroën C3 2022 Feel Pack Spring Blue in Uruguay - rear.jpg
+RENAULT,SANDERO,frente,Renault Sandero 2020 front view (Colombia).png
+RENAULT,SANDERO,frente,Renault Sandero 1.6 Intens 2020.jpg
+RENAULT,SANDERO,frente,Renault Sandero - 53522415419.jpg
+RENAULT,SANDERO,cola,Renault Sandero 2020 rear view (Colombia).png

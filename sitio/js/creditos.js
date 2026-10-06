@@ -1,5 +1,5 @@
 import { el, pie } from "./comun.js";
-import { cargarFotos, foto } from "./autos.js";
+import { cargarFotos, foto, tieneRecorte } from "./autos.js";
 
 function fila(marca, familia, vista, f, miniatura) {
   return el("tr", {},
@@ -16,7 +16,13 @@ async function iniciar() {
     el("tbody", {}, claves.flatMap((k) => {
       const [marca, familia] = k.split("|");
       const f = fotos[k];
-      const filas = [fila(marca, familia, "exterior", f, foto(marca, familia, "mini"))];
+      // La foto de exterior tambien se muestra recortada (sin fondo) en la ficha.
+      const filas = [fila(marca, familia, tieneRecorte(marca, familia) ? "exterior; en la ficha, también con el fondo removido" : "exterior",
+        f, foto(marca, familia, "mini"))];
+      for (const g of f.galeria || []) {
+        filas.push(fila(marca, familia, g.vista, g,
+          el("img", { class: "foto-auto mini", src: `img/autos/${g.imagen}`, alt: "", loading: "lazy" })));
+      }
       if (f.interior) {
         filas.push(fila(marca, familia, "interior", f.interior,
           el("img", { class: "foto-auto mini", src: `img/autos/${f.interior.imagen}`, alt: "", loading: "lazy" })));
