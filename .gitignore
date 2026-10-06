@@ -33,3 +33,6 @@ sitio/datos/
 
 # Configuracion local de la vista previa del sitio
 .claude/
+
+# PDF de fichas bajados a mano (Toyota, Fiat, Citroen): se suben solo los datos extraidos
+fichas_manuales/

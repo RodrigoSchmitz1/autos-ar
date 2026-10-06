@@ -7,6 +7,10 @@ CHEVROLET,"6 airbags (Frontales, laterales y de cortina)",airbags_frontales,,reg
 CHEVROLET,"6 airbags (Frontales, laterales y de cortina)",airbags_laterales,,reglas
 CHEVROLET,"6 airbags (Frontales, laterales y de cortina)",airbags_cortina,,reglas
 CHEVROLET,6 parlantes,,,ninguna
+CHEVROLET,"Airbags frontales, latera y de cortina",airbags_frontales,,reglas
+CHEVROLET,"Airbags frontales, latera y de cortina",airbags_cortina,,reglas
+CHEVROLET,Aire Acondicionado Digital,aire_acondicionado,,reglas
+CHEVROLET,Aire Acondicionado Manual,aire_acondicionado,,reglas
 CHEVROLET,Aire acondicionado Digital,aire_acondicionado,,reglas
 CHEVROLET,Aire acondicionado digital automático,climatizador_automatico,,reglas
 CHEVROLET,Aire acondicionado manual,aire_acondicionado,,reglas
@@ -14,28 +18,44 @@ CHEVROLET,Alarma Antirrobo,,,ninguna
 CHEVROLET,Alarma antirrobo,,,ninguna
 CHEVROLET,Alerta de Colisión Frontal,,,ninguna
 CHEVROLET,Alerta de Punto Ciego,punto_ciego,,reglas
+CHEVROLET,Alerta de Tráfico Cruzado Trasero,trafico_cruzado,,reglas
 CHEVROLET,Alerta de cinturón de seguridad,,,ninguna
+CHEVROLET,Alerta de colisión frontal,,,ninguna
 CHEVROLET,Alerón trasero,,,ninguna
+CHEVROLET,Altura (mm),,,ninguna
 CHEVROLET,"Altura, inlcuyendo barras de techo (mm)",,,ninguna
+CHEVROLET,Ancho (sin espejos / con espejos)(mm),,,ninguna
 CHEVROLET,Ancho - carrocería (mm),,,ninguna
 CHEVROLET,Ancho Total - espejo a espejo (mm),,,ninguna
 CHEVROLET,Antena de techo,,,ninguna
+CHEVROLET,Apertura con llave,,,ninguna
 CHEVROLET,Apoya brazos central,,,ninguna
 CHEVROLET,Apoyacabezas delanteros con ajuste de altura,,,ninguna
 CHEVROLET,Apoyacabezas trasero para 3 pasajeros con ajuste de altura,,,ninguna
+CHEVROLET,Apple Carplay & Android Auto,carplay_android,,reglas
 CHEVROLET,"Arranque ""Key less"" sin llave",llave_presencia,,gemini
 CHEVROLET,Asiento de conductor con regulación en altura,,,ninguna
 CHEVROLET,Asiento del conductor regulable en altura (6 dir.),,,ninguna
 CHEVROLET,Asientos traseros bipartido y rebatible,,,ninguna
+CHEVROLET,Asistencia de mantenimiento de carril; con corrección de volante,mantenimiento_carril,,reglas
+CHEVROLET,Asistente de guías de estacionamiento,,,ninguna
 CHEVROLET,Asistente de partida en pendiente,arranque_pendiente,,gemini
 CHEVROLET,Asistente de salida en pendiente,arranque_pendiente,,gemini
 CHEVROLET,Aviso sonoro de cinturón de seguridad para asentos delanteros y traseros,,,ninguna
 CHEVROLET,"Azul - ""Some Kinda Blue""",,,ninguna
+CHEVROLET,Barra Deportiva Z71/Trail Boss,,,ninguna
+CHEVROLET,Barras portaequipaje de aluminio,barras_techo,,gemini
 CHEVROLET,Batería,,,ninguna
 CHEVROLET,Baúl (litros),,,ninguna
 CHEVROLET,Baúl con compartimento en rueda de auxilio,,,ninguna
 CHEVROLET,"Blanco - ""Summit White""",,,ninguna
+CHEVROLET,Blanco SANDS,,,ninguna
+CHEVROLET,Blanco SUMMIT,,,ninguna
+CHEVROLET,COLORES DISPONIBLES,,,ninguna
+CHEVROLET,COMFORT,,,ninguna
 CHEVROLET,Camara de visión trasera HD,camara_trasera,,reglas
+CHEVROLET,Capacidad del tanque de combustible (litros),,,ninguna
+CHEVROLET,Carga Útil (kg),,,ninguna
 CHEVROLET,"Carga útil, con 5 pasajeros mas equipaje (Kg)",,,ninguna
 CHEVROLET,Cargador Inalámbrico,cargador_inalambrico,,reglas
 CHEVROLET,Cargador inalámbrico,cargador_inalambrico,,reglas
@@ -47,6 +67,8 @@ CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integrac
 CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones a través de Android Auto y Apple CarPlay, Radio AM/FM, función Audio Streaming, Bluetooth para hasta 2 celulares simultaneamente y entrada USB",pantalla_multimedia,8,reglas
 CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones, BT, Apple CarPlay y Android Auto, Radio AM/FM, Función Audio Streaming",carplay_android,,reglas
 CHEVROLET,"Chevrolet MyLink, con pantalla LCD sensible al tacto de 8"", integración con smartphones, BT, Apple CarPlay y Android Auto, Radio AM/FM, Función Audio Streaming",pantalla_multimedia,8,reglas
+CHEVROLET,Cierre centralizado de Caja,,,ninguna
+CHEVROLET,Cilindrada (cm3),,,ninguna
 CHEVROLET,Cinturón de seguridad de 3 puntos,,,ninguna
 CHEVROLET,Cinturón de seguridad de conductor con ajuste de altura,,,ninguna
 CHEVROLET,Cinturón de seguridad traseros laterales y central de 3 puntos,,,ninguna
@@ -54,6 +76,7 @@ CHEVROLET,Cobertor de baúl,,,ninguna
 CHEVROLET,Coeficiente de penetración aerodinámica (Cx),,,ninguna
 CHEVROLET,Columna de dirección ajustable en altura y profundidad,,,ninguna
 CHEVROLET,Columna de dirección regulable en altura y profundidad,,,ninguna
+CHEVROLET,Combustible,,,ninguna
 CHEVROLET,Computadora de a bordo,,,ninguna
 CHEVROLET,Con 2ª fila de asientos rebatida (litros),,,ninguna
 CHEVROLET,Control Crucero,crucero,,reglas
@@ -61,27 +84,44 @@ CHEVROLET,Control de Estabilidad Eléctirco (ESC),control_estabilidad,,reglas
 CHEVROLET,Control de velocidad crucero,crucero,,reglas
 CHEVROLET,Control electrónico de estabilidad y tracción (ESC),control_estabilidad,,reglas
 CHEVROLET,Cámara de visión trasera HD,camara_trasera,,reglas
+CHEVROLET,DIMENSIONES,,,ninguna
+CHEVROLET,DRL,luces_diurnas,,reglas
 CHEVROLET,DRL Halógeno,luces_diurnas,,reglas
 CHEVROLET,DRL LED,luces_diurnas,,reglas
+CHEVROLET,Desempañador trasero,,,ninguna
 CHEVROLET,Desempañador vidrio trasero,,,ninguna
+CHEVROLET,Despeje del suelo (mm),,,ninguna
+CHEVROLET,Detector de peatones delantero,,,ninguna
 CHEVROLET,Dirección progresiva eléctrica,,,ninguna
 CHEVROLET,"Display 3,5""",pantalla_multimedia,3.5,reglas
 CHEVROLET,"Display 8""",pantalla_multimedia,8,reglas
+CHEVROLET,Disposición,,,ninguna
 CHEVROLET,Distancia entre ejes (mm),,,ninguna
+CHEVROLET,ECS (Control Electrónico de Estabilidad)+TCM(Control de Tracción)+ HSA (Asistente de Salida en Pendiente)+ HDC(Control de Descenso en Pendiente) + TSC (Control de Estabilidad de Tráiler),arranque_pendiente,,reglas
+CHEVROLET,EXTERIOR,,,ninguna
+CHEVROLET,Easy Entry,,,ninguna
 CHEVROLET,Easy Entry - Apertura de puertas con sistema de aproximación de llave,llave_presencia,,gemini
 CHEVROLET,Easy Entry - Apertura de puertas y alarma antirobo a través de sensor de presencia,llave_presencia,,gemini
 CHEVROLET,Easy Park - Sistema de Estacionamento Semi-Automático,estacionamiento_asistido,,gemini
 CHEVROLET,Easy Park - Sistema de Estacionamiento Semi-Automático,estacionamiento_asistido,,gemini
 CHEVROLET,Easy Start - Arranque por botón,arranque_boton,,reglas
+CHEVROLET,EasyStart - Encendido por botón,arranque_boton,,reglas
 CHEVROLET,Encendido automático de faros con sensor crepuscular,luces_automaticas,,reglas
 CHEVROLET,Encendido de luces automático con sensor crepuscular,luces_automaticas,,reglas
 CHEVROLET,Encendido remoto a través de app My Chevrolet,conectividad_remota,,reglas
 CHEVROLET,Encendido remoto a través de la app MyChevrolet,conectividad_remota,,reglas
+CHEVROLET,Encendido remoto de motor,,,ninguna
 CHEVROLET,Entrada USB Tipo A y C,,,ninguna
+CHEVROLET,Espejo retrovisor interior fotocromático,espejo_electrocromico,,reglas
 CHEVROLET,Espejo retrovisor interno fotocromatico,espejo_electrocromico,,reglas
 CHEVROLET,Espejos externos color carroceria electricos rebatibles manualmente,espejos_rebatibles,,reglas
+CHEVROLET,"Espejos retrovisores exteriores con control eléctrico, rebatible eléctrico, cromados , con indicador de luz de giro",espejos_rebatibles,,reglas
+CHEVROLET,"Espejos retrovisores exteriores con control eléctrico, rebatibles manualmente, color negro High Gloss Z71/Trail Boss, con indicador de luz de giro",espejos_rebatibles,,reglas
+CHEVROLET,"Espejos retrovisores exteriores con control eléctrico, rebatibles manualmente, color negro, con indicador de luz de giro",espejos_rebatibles,,reglas
 CHEVROLET,Espejos retrovisores externos eléctricos color Carrocería,,,ninguna
 CHEVROLET,Espejos retrovisores externos eléctricos color Carrocería con luz de giro,,,ninguna
+CHEVROLET,Estribos Negros,,,ninguna
+CHEVROLET,Estribos Negros Z71/Trail Boss,,,ninguna
 CHEVROLET,Faros Traseros Halógenos,,,ninguna
 CHEVROLET,Faros Traseros LED,,,ninguna
 CHEVROLET,Faros con regulación en altura manual,,,ninguna
@@ -89,29 +129,46 @@ CHEVROLET,Faros delanteros Anti-Niebla,faros_antiniebla,,gemini
 CHEVROLET,Faros delanteros LED,faros_led,,reglas
 CHEVROLET,Faros delanteros LED + DRL LED,faros_led,,reglas
 CHEVROLET,Faros delanteros LED + DRL LED,luces_diurnas,,reglas
+CHEVROLET,Faros delanteros antiniebla,faros_antiniebla,,reglas
 CHEVROLET,Faros delanteros de halógeno,,,ninguna
+CHEVROLET,Faros delanteros halógenos,,,ninguna
 CHEVROLET,Follow Me Home,,,ninguna
+CHEVROLET,Frenado Autónomo de Emergencia a bajas velocidades,frenado_autonomo,,reglas
 CHEVROLET,Frenado autónomo de emergencia a bajas vel.,frenado_autonomo,,reglas
 CHEVROLET,Freno de mano cromado,,,ninguna
+CHEVROLET,Freno de mano negro,,,ninguna
 CHEVROLET,"Frenos ABS, sistema de distribución de frenado (""EBD"")",,,ninguna
 CHEVROLET,Frenos delanteros,,,ninguna
+CHEVROLET,"Frenos delanteros a disco, traseros a tambor, ABS",,,ninguna
 CHEVROLET,Frenos traseros,,,ninguna
+CHEVROLET,Gancho de remolque delantero,,,ninguna
 CHEVROLET,"Gris - ""Rush Met""",,,ninguna
+CHEVROLET,Gris Ambar,,,ninguna
+CHEVROLET,Gris DARK SHADOW,,,ninguna
+CHEVROLET,Gris SHARKSKIN,,,ninguna
+CHEVROLET,INTERIOR,,,ninguna
 CHEVROLET,ISOFIX,isofix,,reglas
+CHEVROLET,Indicador de aceite,,,ninguna
+CHEVROLET,Indicador de cinturón de seguridad en asiento de pasajero,,,ninguna
+CHEVROLET,Indicador de cinturón de seguridad en asientos traseros,,,ninguna
 CHEVROLET,Indicador de distancia de vehículo de frente,,,ninguna
 CHEVROLET,Indicador de nivel de vida de aceite,,,ninguna
 CHEVROLET,Indicador de presión de neumáticos,presion_neumaticos,,reglas
 CHEVROLET,Indicador de punto ciego,punto_ciego,,reglas
 CHEVROLET,Indicador del nivel de aceite,,,ninguna
+CHEVROLET,"Infotainment de 11""",pantalla_multimedia,11,gemini
 CHEVROLET,Injeccion eletronica de combustible,,,ninguna
 CHEVROLET,Insignia Chevrolet en Negro exclusivo RS,,,ninguna
 CHEVROLET,Inyección eléctrica de combustible,,,ninguna
 CHEVROLET,Lampara interior de baúl,,,ninguna
 CHEVROLET,Lampara interior delantera de techo,,,ninguna
 CHEVROLET,Lampara interior delantera de techo dual,,,ninguna
+CHEVROLET,Largo (mm),,,ninguna
 CHEVROLET,Limitador de Velocidad,limitador_velocidad,,reglas
 CHEVROLET,Limitador de velocidad,limitador_velocidad,,reglas
 CHEVROLET,"Limpiaparabrisas con Sensor de lluvia, con ajuste automático de intensidad",sensor_lluvia,,reglas
+CHEVROLET,"Llanta repuesto de acero de 16""",llantas,16,reglas
+CHEVROLET,"Llantas de Acero de 16""",llantas,16,reglas
 CHEVROLET,"Llantas de acero High Vent 15""",llantas,15,reglas
 CHEVROLET,"Llantas de acero High Vent 17""",llantas,17,reglas
 CHEVROLET,"Llantas de aleación 16""",llantas_aleacion,,reglas
@@ -122,28 +179,48 @@ CHEVROLET,"Llantas de aluminio 17""",llantas,17,reglas
 CHEVROLET,"Llantas de aluminio 17"" diseño exclusivo RS",llantas,17,reglas
 CHEVROLET,"Llantas de aluminio 17"" oscurecidas",llantas,17,reglas
 CHEVROLET,Llave con sensor de aproximación,llave_presencia,,gemini
+CHEVROLET,Lona Marítima,,,ninguna
 CHEVROLET,Longitud Total (mm),,,ninguna
+CHEVROLET,Luces Altas Automáticas,luces_altas_automaticas,,reglas
 CHEVROLET,Luces de Freno,,,ninguna
 CHEVROLET,Luces traseras LED,,,ninguna
 CHEVROLET,Luz de cortesía en baúl,,,ninguna
 CHEVROLET,Luz de stop,,,ninguna
 CHEVROLET,Luz interior de techo trasera,,,ninguna
 CHEVROLET,Luz interna de techo delantera,,,ninguna
+CHEVROLET,MULTIMEDIA,pantalla_multimedia,,reglas
+CHEVROLET,Manijas exteriores color carrocería,,,ninguna
+CHEVROLET,Manijas exteriores negras,,,ninguna
+CHEVROLET,Manijas exteriores negro High Gloss Z71 / Trail Boss,,,ninguna
 CHEVROLET,Manijas externas color carroceria,,,ninguna
 CHEVROLET,Manijas externas color carroceria con detalle cromado,,,ninguna
 CHEVROLET,Manijas externas color carrocería,,,ninguna
 CHEVROLET,Manijas externas color carrocería con detalles cromados,,,ninguna
 CHEVROLET,Manijas interiores delanteras,,,ninguna
 CHEVROLET,Manijas interiores traseras,,,ninguna
+CHEVROLET,Moldura lateral negra,,,ninguna
 CHEVROLET,Moldura vidrios laterales cromada,,,ninguna
+CHEVROLET,Motor,,,ninguna
+CHEVROLET,N.º de Cilindros,,,ninguna
+CHEVROLET,N.º de Válvulas,,,ninguna
 CHEVROLET,"Negro - ""Black Meet Kettle""",,,ninguna
+CHEVROLET,Negro BLACK MEET KETTLE,,,ninguna
+CHEVROLET,Neumático Auxilio 245/70 R16,,,manual
 CHEVROLET,Neumáticos,,,ninguna
+CHEVROLET,Neumáticos 245/70 R16,llantas,16,gemini
+CHEVROLET,Neumáticos 265/60 R18,llantas,18,gemini
 CHEVROLET,Número de cilindros,,,ninguna
 CHEVROLET,OnStar,conectividad_remota,,reglas
 CHEVROLET,Onstar + wifi,conectividad_remota,,reglas
+CHEVROLET,"Onstar, conectividad Wi-Fi",conectividad_remota,,reglas
 CHEVROLET,"Panel de instrumentos 3,5"" digital",,,ninguna
 CHEVROLET,"Panel de instrumentos 8"" digital",tablero_digital,8,reglas
 CHEVROLET,Paragolpes color carrocería,,,ninguna
+CHEVROLET,Paragolpes delantero color carrocería,,,ninguna
+CHEVROLET,Paragolpes trasero color carrocería,,,ninguna
+CHEVROLET,Paragolpes trasero cromado,,,ninguna
+CHEVROLET,Paragolpes trasero negro,,,ninguna
+CHEVROLET,Parasol conductor + pasajero con espejo,,,ninguna
 CHEVROLET,Parasol para conductor y acompañante con espejo,,,ninguna
 CHEVROLET,"Parasol para conductor y acompañante con espejo, con iluminación",,,ninguna
 CHEVROLET,Parasol para conductor y pasajero con espejo,,,ninguna
@@ -151,34 +228,56 @@ CHEVROLET,Parrilla cromada,,,ninguna
 CHEVROLET,Parrilla delantera cromada,,,ninguna
 CHEVROLET,Parrilla delantera negro cromado Black Chrome exclusivo RS,,,ninguna
 CHEVROLET,Parrilla negra oscurecida Black High Gloss exclusivo RS,,,ninguna
+CHEVROLET,Peso autorizado para remolque - Remolque con frenos (kg),,,ninguna
+CHEVROLET,Peso bruto combinado (kg),,,ninguna
+CHEVROLET,Peso bruto total combinado (Con remolque con frenos) (kg),,,ninguna
 CHEVROLET,Peso en orden de marcha (Kg),,,ninguna
+CHEVROLET,Peso en orden de marcha (kg),,,ninguna
 CHEVROLET,"Plata - ""Sharkskin""",,,ninguna
 CHEVROLET,Porta revistas en parte trasera de asiento de acompañante,,,ninguna
 CHEVROLET,Portarevistas en asiento del pasajero,,,ninguna
 CHEVROLET,Potencia Máxima,,,ninguna
 CHEVROLET,Potencia Máxima Líquida (ABNT NBR 5484/ISO 1585 Líquida o SAE bruta),,,ninguna
+CHEVROLET,Potencia máxima (cv @ rpm),,,ninguna
 CHEVROLET,Proyección Inalámbrica,carplay_inalambrico,,gemini
+CHEVROLET,Proyección con cable,,,ninguna
 CHEVROLET,Proyeccón inalámbrica,carplay_inalambrico,,gemini
 CHEVROLET,Puerto de carga USB Tipo A y C Traseros,usb_traseros,,reglas
+CHEVROLET,Puerto de carga USB traseros,usb_traseros,,reglas
+CHEVROLET,Puerto de carga e información USB delanteros,,,ninguna
 CHEVROLET,Rack de Techo en color negro,barras_techo,,reglas
 CHEVROLET,Rack de Techo en color plata,barras_techo,,reglas
+CHEVROLET,Regulación de Volante en profundidad y altura,,,ninguna
+CHEVROLET,Regulación de butaca del conductor eléctrica en 6 posiciones,asiento_electrico,,gemini
+CHEVROLET,Regulación de butaca del conductor manual en 6 posiciones,,,ninguna
+CHEVROLET,Regulación de butaca pasajero manual en 4 posiciones,,,ninguna
+CHEVROLET,Regulación manual de altura de faros delanteros,,,ninguna
+CHEVROLET,Relación de compresión (ratio),,,ninguna
 CHEVROLET,"Rojo - ""Jinx""",,,ninguna
+CHEVROLET,Rojo JINX,,,ninguna
+CHEVROLET,SEGURIDAD,,,ninguna
+CHEVROLET,Sensor de estacionamiento delantero y trasero,sensores_traseros,,reglas
+CHEVROLET,Sensor de estacionamiento delantero y trasero,sensores_delanteros,,reglas
 CHEVROLET,"Sensor de estacionamiento delantero, lateral y trasero",sensores_traseros,,reglas
 CHEVROLET,"Sensor de estacionamiento delantero, lateral y trasero",sensores_delanteros,,reglas
 CHEVROLET,Sensor de estacionamiento trasero,sensores_traseros,,reglas
 CHEVROLET,Sensor de estacionamiento trasero & delantero,sensores_traseros,,reglas
 CHEVROLET,Sensor de estacionamiento trasero & delantero,sensores_delanteros,,reglas
+CHEVROLET,Sensor de lluvia,sensor_lluvia,,reglas
 CHEVROLET,Sistema de Frenos,,,ninguna
+CHEVROLET,Sistema de audio de 2 parlantes,,,ninguna
 CHEVROLET,Sistema de audio de 4 parlantes,,,ninguna
 CHEVROLET,Sistema de audio de 6 parlantes,,,ninguna
 CHEVROLET,Sistema de frenos,,,ninguna
 CHEVROLET,"Sistema de frenos ABS y distribución de frenado electrónica (""EBD"")",,,ninguna
 CHEVROLET,Suspensión delantera,,,ninguna
 CHEVROLET,Suspensión trasera,,,ninguna
+CHEVROLET,"Tablero de instrumentos de 8""",tablero_digital,8,reglas
 CHEVROLET,Tanque de combustible (litros),,,ninguna
 CHEVROLET,Tapizado de cuero Jet Black,asientos_cuero,,reglas
 CHEVROLET,Tapizado de cuero en color negro combinado con rojo exclusivo RS,asientos_cuero,,reglas
 CHEVROLET,"Tapizado de cuero en colores Negro ""Jet Black"" y Marrón ""Dark Cocoa""",asientos_cuero,,reglas
+CHEVROLET,Tapizado de tela,,,ninguna
 CHEVROLET,Tapizado de tela Jet Black,,,ninguna
 CHEVROLET,Tapizado en cuero bitono Jet Black/Dark Adriatic,asientos_cuero,,reglas
 CHEVROLET,Tapizado en cuero bitono Jet Black/Dark Adriatic,techo_bitono,,reglas
@@ -194,12 +293,15 @@ CHEVROLET,Tipo de transmisión,,,ninguna
 CHEVROLET,Toma corriente de 12V en la consola central,,,ninguna
 CHEVROLET,Torque Máximo,,,ninguna
 CHEVROLET,Torque Máximo Líquido (ABNT NBR 5484/ISO 1585 Líquida o SAE bruta),,,ninguna
+CHEVROLET,Torque máximo (Nm @ rpm),,,ninguna
 CHEVROLET,Traba de seguridad en puertas traseras,,,ninguna
 CHEVROLET,Traba eléctrica de tapa de combustible,,,ninguna
+CHEVROLET,Tracción,traccion_4x4,,reglas
 CHEVROLET,Transmisión,,,ninguna
 CHEVROLET,"Transmisión automática de seis velocidades con opción de cambio manual de marchas ""Active Select""",,,ninguna
 CHEVROLET,"Vidrio eléctrico en puertas delanteras y traseras con acción ""One Touch"", y cierre/apertura automático con llave",pantalla_multimedia,,reglas
 CHEVROLET,Volante de 3 rayos,,,ninguna
+CHEVROLET,Volante de cuero,volante_cuero,,reglas
 CHEVROLET,Volante deportivo de ecocuero de 3 rayos,volante_cuero,,reglas
 CHEVROLET,Volante multifunción,,,ninguna
 CHEVROLET,Volante multifunción de 3 rayos,,,ninguna
@@ -545,6 +647,85 @@ PEUGEOT,Techo panorámico,techo_solar,,reglas
 PEUGEOT,Techo panorámico con apertura,techo_solar,,reglas
 PEUGEOT,Vigilancia lateral ángulo muerto y alerta de tráfico trasero cruzado (RCTA),punto_ciego,,reglas
 PEUGEOT,Volante multifunción,,,ninguna
+RENAULT,2 asientos Isofix,isofix,,reglas
+RENAULT,4 airbags (2 frontales y 2 laterales),airbags_frontales,,reglas
+RENAULT,4 airbags (2 frontales y 2 laterales),airbags_laterales,,reglas
+RENAULT,4 parlantes,,,ninguna
+RENAULT,Airbags frontales delanteros,airbags_frontales,,reglas
+RENAULT,Aire acondicionado con filtro de polen,aire_acondicionado,,gemini
+RENAULT,Alarma de luces encendidas,,,ninguna
+RENAULT,Alarma de puerta mal cerrada,,,ninguna
+RENAULT,Apoyabrazos central,,,ninguna
+RENAULT,Apoyacabezas traseros (x 3),,,ninguna
+RENAULT,Asiento del conductor regulable en altura,,,ninguna
+RENAULT,Asiento trasero rebatible 1/3 - 2/3,,,ninguna
+RENAULT,Asistencia a Frenado de Urgencia (AFU),,,ninguna
+RENAULT,Asistencia de arranque en pendiente (HSA),arranque_pendiente,,reglas
+RENAULT,Aviso de cinturón de seguridad sin colocar para el conductor,,,ninguna
+RENAULT,Barras de techo longitudinales,barras_techo,,reglas
+RENAULT,Bolsillos portamapas en el respaldo de los asientos delanteros,,,ninguna
+RENAULT,Cierre automático de puertas en rodaje,,,ninguna
+RENAULT,Cierre centralizado de puertas con mando a distancia,,,ninguna
+RENAULT,Cinturones de seguridad delanteros ajustables en altura con limitador de esfuerzo,,,ninguna
+RENAULT,Cinturones de seguridad traseros de 3 puntos (x 3),,,ninguna
+RENAULT,Cobertor de carga,,,ninguna
+RENAULT,Comando satelital,,,ninguna
+RENAULT,Control Electrónico de Estabilidad (ESP),control_estabilidad,,reglas
+RENAULT,Control de Tracción (ASR),,,ninguna
+RENAULT,Control de velocidad crucero y limitador de velocidad,crucero,,reglas
+RENAULT,Control de velocidad crucero y limitador de velocidad,limitador_velocidad,,reglas
+RENAULT,Cámara de estacionamiento trasera,camara_trasera,,reglas
+RENAULT,DRL,luces_diurnas,,reglas
+RENAULT,Desconexión del airbag del pasajero,,,ninguna
+RENAULT,Display de información múltiple,pantalla_multimedia,,reglas
+RENAULT,Espejos retrovisores exteriores con comando eléctrico calefaccionados,,,ninguna
+RENAULT,Fijación de asientos para niños con sistema Isofix (x 3),isofix,,reglas
+RENAULT,Frenos con ABS y Distribución Electrónica de la Fuerza de Frenado (EBD),,,ninguna
+RENAULT,Indicador de temperatura exterior,,,ninguna
+RENAULT,Look Stepway,,,ninguna
+RENAULT,Luces antiniebla (proyectores y faros traseros),faros_antiniebla,,reglas
+RENAULT,Mesita de avión en el respaldo de los asientos delanteros,,,ninguna
+RENAULT,Rack de techo portaobjetos,barras_techo,,reglas
+RENAULT,Sensor de estacionamiento trasero,sensores_traseros,,reglas
+RENAULT,Sistema Media Evolution® con pantalla multitáctil de 7” y compatibilidad,pantalla_multimedia,,reglas
+RENAULT,Sistema de monitoreo de presión de neumáticos (TPMS),presion_neumaticos,,reglas
+RENAULT,Tercera luz de stop,,,ninguna
+RENAULT,USB tipo C,,,ninguna
+RENAULT,Volante ajustable en altura,,,ninguna
+RENAULT,aire acondicionado,aire_acondicionado,,reglas
+RENAULT,ajuste de altura en cinturones de plazas delanteras,,,ninguna
+RENAULT,ajuste eléctrico de espejos,,,ninguna
+RENAULT,alerta de cinturón de seguridad de 5 plazas,,,ninguna
+RENAULT,apoya cabezas trasero con regulación de altura,,,ninguna
+RENAULT,carrocería con acabado bitono,techo_bitono,,reglas
+RENAULT,cierre automático de puertas a los 6 km/h,,,ninguna
+RENAULT,cierre centralizado,,,ninguna
+RENAULT,cinturones de seguridad de 3 puntos en plazas traseras,,,ninguna
+RENAULT,computadora de a bordo,,,ninguna
+RENAULT,consola central con posa vasos,,,ninguna
+RENAULT,control de arranque en pendiente,arranque_pendiente,,reglas
+RENAULT,control de estabilidad,control_estabilidad,,reglas
+RENAULT,cámara de visión trasera,camara_trasera,,reglas
+RENAULT,desempañador de luneta trasera,,,ninguna
+RENAULT,dirección eléctrica,,,ninguna
+RENAULT,doble faro parabólico,,,ninguna
+RENAULT,espejo de lectura en parasoles de plazas delanteras,,,ninguna
+RENAULT,espejo retrovisor con antiencandilamiento,,,ninguna
+RENAULT,espejos negros brillantes con franja amarillo citrón,,,ninguna
+RENAULT,indicador de cambio de marcha,,,ninguna
+RENAULT,indicador de temperatura,,,ninguna
+RENAULT,levantavidrios eléctricos delanteros,,,ninguna
+RENAULT,limpiaparabrisas trasero,,,ninguna
+RENAULT,llantas de aleación de 14”,llantas_aleacion,,reglas
+RENAULT,llantas de aleación de 14”,llantas,,reglas
+RENAULT,llave tipo navaja,,,ninguna
+RENAULT,luces diurnas LED (DRL),luces_diurnas,,reglas
+RENAULT,manijas exteriores color carrocería,,,ninguna
+RENAULT,"paragolpes delantero, trasero y stripping lateral de diseño “outsider”",,,ninguna
+RENAULT,parasol en plazas delanteras,,,ninguna
+RENAULT,parrilla frontal con detalles cromados y badge “iconic”,,,ninguna
+RENAULT,sistema antibloqueo de frenos,,,ninguna
+RENAULT,sistema de monitoreo de presión de neumáticos,presion_neumaticos,,reglas
 VOLKSWAGEN,1 luz de lectura delantera y dos traseras,,,ninguna
 VOLKSWAGEN,2 luces de lectura delantera,,,ninguna
 VOLKSWAGEN,2 parlantes delanteros y 2 traseros,,,ninguna

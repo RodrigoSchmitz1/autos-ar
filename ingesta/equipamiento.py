@@ -15,12 +15,15 @@ Fuera por ahora: Amarok (la tabla sale desalineada, marcas sueltas en 27
 columnas), Partner (una sola version: no hay "que suma cada version") y Jeep
 (las tildes son dibujos, no texto).
 
-Dos formatos:
+Tres formatos:
   matriz  tabla con las versiones como columnas (VW, Chevrolet, Ford). Cada
           marca marca distinto y lo explica en una leyenda del PDF ("X" =
           disponible); si la leyenda cambia, falla en vez de leer mal.
   lineas  el nombre del item queda fuera de la tabla al extraerla (Peugeot):
           se lee el texto renglon por renglon ("Control de estabilidad SI SI").
+  catalogo  catalogo de la marca (Renault), sin encabezado de tabla: las
+          versiones se anotan en la lista (columna versiones, separadas por |)
+          y, si la tabla viene en dos columnas por pagina, columnas = 2.
 
 Una fila que no cierra (marcas sueltas que no coinciden con las versiones) se
 descarta y se cuenta, en vez de adivinar a que version va. Si solo le falta
@@ -29,7 +32,8 @@ queda sin dato.
 
 Salida: datos/raw/equipamiento/<AAAAMMDD>.parquet, con una fila por marca,
 familia, version e item; se escribe solo si el contenido cambio (huella, como
-en ingesta/repuestos.py). Como maximo una consulta cada 7 dias.
+en ingesta/repuestos.py). Como maximo una consulta cada 7 dias, salvo que
+cambie la lista de fichas.
 
 Uso: python -m ingesta.equipamiento [--forzar] [--familia TERA]
 """
@@ -58,9 +62,11 @@ MIN_ITEMS = 25  # menos que esto en una ficha: casi seguro cambio el formato
 # Que significa cada marca, por marca de auto, y la leyenda del PDF que lo dice.
 MARCAS = {
     "VOLKSWAGEN": ({"x": "si", "-": "no", "o": "opcional"}, r'"X" = disponible'),
-    "CHEVROLET": ({"s": "si", "-": "no", "o": "opcional"}, None),  # sin leyenda: S = de serie
+    "CHEVROLET": ({"s": "si", "x": "si", "-": "no", "o": "opcional"}, None),  # sin leyenda: S (o X, en la S10) = de serie
     "FORD": ({"■": "si", "n": "si", "-": "no", "o": "opcional"}, r"(?i)(de serie|disponible de serie)"),
     "PEUGEOT": ({"si": "si", "no": "no", "-": "no", "opc": "opcional", "opcional": "opcional"}, None),
+    # Catalogos de Renault: "X" o vinietas ("••") = de serie, "-" = no tiene.
+    "RENAULT": ({"x": "si", "-": "no", "•": "si", "••": "si"}, None),
 }
 
 
@@ -102,7 +108,8 @@ def distinguir(df):
             vals = df[(df["item"] == item) & df["version_fuente"].isin(grupo)].set_index("version_fuente")["valor"]
             if len(vals) == len(grupo) and vals.notna().all() and vals.nunique() == len(grupo) \
                     and not set(vals) & {"si", "no", "opcional"}:
-                nuevos = {v: f"{base} {vals[v]}" for v in grupo}
+                # Si el dato ya trae el nombre ("WT 4X2 MT (CS)", en la S10), va solo.
+                nuevos = {v: vals[v] if vals[v].startswith(base) else f"{base} {vals[v]}" for v in grupo}
                 break
         df["version_fuente"] = df["version_fuente"].replace(nuevos or {v: v.replace(" #", " (") + ")" for v in grupo})
     return df
@@ -214,14 +221,36 @@ def filas_lineas(pdf, marcas):
     return versiones, salida, 0
 
 
-def leer_ficha(marca, familia, formato, url):
+def filas_catalogo(pdf, marcas, versiones, columnas):
+    """Catalogos (Renault): tabla de equipamiento sin encabezado de tabla y, a veces,
+    dos tablas por pagina lado a lado. Las versiones vienen de la lista de fichas
+    (anotadas a mano mirando el catalogo); cada renglon que termina en una marca por
+    version es un item. Con dos columnas, cada mitad de la pagina se lee aparte."""
+    n, salida = len(versiones), []
+    fichas = "|".join(re.escape(m) for m in sorted(marcas, key=len, reverse=True))
+    renglon = re.compile(rf"^(.*?\S)((?:\s+(?:{fichas}))+)\s*$", re.I)
+    for pagina in pdf.pages:
+        mitades = [pagina] if columnas == 1 else [
+            pagina.crop((0, 0, pagina.width / 2, pagina.height)), pagina.crop((pagina.width / 2, 0, pagina.width, pagina.height))]
+        for parte in mitades:
+            for linea in (parte.extract_text() or "").splitlines():
+                m = renglon.match(linea.strip())
+                if m and len(m.group(2).split()) == n and re.search("[a-z]", m.group(1), re.I):
+                    salida += [("", limpio(m.group(1)), v, marcas[x.lower()]) for v, x in zip(versiones, m.group(2).split())]
+    return versiones, salida, 0
+
+
+def leer_ficha(marca, familia, formato, url, versiones_lista=None, columnas=1):
     marcas, leyenda = MARCAS[marca]
     contenido = pedir(url)
     with pdfplumber.open(io.BytesIO(contenido)) as pdf:
         texto = "\n".join(p.extract_text() or "" for p in pdf.pages)
         if leyenda and not re.search(leyenda, texto):
             raise ValueError("no esta la leyenda de las marcas: puede haber cambiado el formato")
-        versiones, filas, descartadas = (filas_matriz if formato == "matriz" else filas_lineas)(pdf, marcas)
+        if formato == "catalogo":
+            versiones, filas, descartadas = filas_catalogo(pdf, marcas, versiones_lista, columnas)
+        else:
+            versiones, filas, descartadas = (filas_matriz if formato == "matriz" else filas_lineas)(pdf, marcas)
     if not versiones:
         raise ValueError("no se encontro el encabezado con las versiones")
     df = pd.DataFrame(filas, columns=["seccion", "item", "version_fuente", "valor"])
@@ -248,7 +277,9 @@ def main():
     os.makedirs(RAIZ, exist_ok=True)
     estado = json.load(open(ESTADO, encoding="utf-8")) if os.path.exists(ESTADO) else {}
     hoy = date.today()
-    if not args.forzar and not args.familia and "consultado" in estado \
+    # Una ficha agregada o cambiada en la lista se consulta enseguida, sin esperar la semana.
+    lista_hash = hashlib.sha256(open(LISTA, "rb").read()).hexdigest()
+    if not args.forzar and not args.familia and "consultado" in estado and estado.get("lista") == lista_hash \
             and (hoy - date.fromisoformat(estado["consultado"])).days < DIAS_ENTRE_CONSULTAS:
         print(f"equipamiento: consultado el {estado['consultado']}, se vuelve a consultar cada {DIAS_ENTRE_CONSULTAS} dias")
         return
@@ -260,7 +291,9 @@ def main():
         try:
             if not permitido_por_robots(r["url"]):
                 raise PermissionError("robots.txt no lo permite")
-            df, versiones, descartadas = leer_ficha(r["marca"], r["familia"], r["formato"], r["url"])
+            df, versiones, descartadas = leer_ficha(r["marca"], r["familia"], r["formato"], r["url"],
+                                                    [v for v in (r.get("versiones") or "").split("|") if v],
+                                                    int(r.get("columnas") or 1))
             partes.append(df)
             con_marca = df[df["valor"].isin(["si", "no", "opcional"])]["item"].nunique()
             print(f"equipamiento {nombre}: {len(versiones)} versiones, {df['item'].nunique()} items "
@@ -287,6 +320,7 @@ def main():
             print(f"equipamiento: {len(df)} filas de {df.groupby(['marca', 'familia']).ngroups} modelos")
     # La fecha se registra aunque falle alguna ficha: las demas se leyeron bien.
     estado["consultado"] = hoy.isoformat()
+    estado["lista"] = lista_hash
     json.dump(estado, open(ESTADO, "w", encoding="utf-8"), indent=2, sort_keys=True)
     if fallas:
         raise SystemExit(f"equipamiento: fallaron {len(fallas)} fichas: {', '.join(fallas)}")

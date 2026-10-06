@@ -11,7 +11,8 @@ todavia no registro (recien lanzada) queda sin cruce: es la respuesta correcta.
 
 Antes de comparar: numeros y letras separados ("200TSI" = "200 TSI"), sin el
 codigo de anio modelo ("AM27", "MY26", "G1": cambia todos los anios), sin
-lo que esta entre parentesis ni asteriscos (notas al pie), y "LIMITED" = "LTD".
+lo que esta entre parentesis ni asteriscos (notas al pie; salvo la cabina, "(CS)"),
+y "LIMITED" = "LTD".
 Si varias versiones DNRPA cumplen (la ficha no dice la caja y DNRPA tiene MT y
 AT), queda la mas vendida.
 
@@ -29,6 +30,8 @@ SIN_VALOR = re.compile(r"^(AM\d+(\.\d+)?|MY\d+|G\d)$")
 
 def palabras(texto, familia=""):
     t = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode().upper()
+    # La cabina entre parentesis si cuenta: "WT 4X4 MT (CS)" es otra version que la CD.
+    t = t.replace("(CS)", " CS ").replace("(CD)", " CD ")
     t = re.sub(r"\(.*?\)|\*", " ", t)
     t = re.sub(r"(?<=[0-9])(?=[A-Z])|(?<=[A-Z])(?=[0-9])", " ", t)  # 200TSI -> 200 TSI
     t = t.replace("4 X 2", "4X2").replace("4 X 4", "4X4")
