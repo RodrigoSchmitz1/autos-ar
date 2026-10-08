@@ -13,3 +13,40 @@ PEUGEOT,2008,lineas,https://www.peugeot.com.ar/content/dam/peugeot/argentina/b2c
 CHEVROLET,S-10 PICK - UP,matriz,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/pickups-and-trucks/s10-myr-2027/4--versiones/ficha-tecnica-versiones/1-pdf/Ficha%20T%C3%A9cnica%20S10%20MY27%20-%20Argentina.pdf,,
 RENAULT,KWID,catalogo,https://cdn.group.renault.com/ren/ar/legales/catalogos-junio/Catalogo_Renault_Kwid_digital.pdf.asset.pdf/ce44426935.pdf,ICONIC BITONO|ICONIC OUTSIDER,1
 RENAULT,KANGOO,catalogo,https://cdn.group.renault.com/ren/ar/legales/catalogos-junio/Catalogo_Renault_Kangoo_digital.pdf.asset.pdf/60449f4b41.pdf,ZEN|STEPWAY,2
+CHEVROLET,MONTANA PICK - UP,matriz,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/pickups-and-trucks/2023-montana/mov/refresh/pdf/1-images/Ficha%20T%C3%A9cnica%20Montana%20MY26%20-%20Argentina.pdf,,
+CHEVROLET,SPIN,matriz,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/crossover-and-suvs/2021-spin/refresh-sept-26/fichas/Ficha-tecnica-spin-my27-argentina.pdf,,
+CHEVROLET,SONIC,matriz,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/crossover-and-suvs/sonic/ficha-tecnica/ficha-tecnica-sonic-my27-argentina.pdf,,
+CHEVROLET,SILVERADO,matriz,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/crossover-and-suvs/silverado-refresh/ficha-tecnica/1-pdf/Ficha-tecnica-silverado-my26-argentina.pdf,,
+CHEVROLET,TRAILBLAZER,unica,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/shared-assets/Ficha-tecnica-TrailblazerMY26-Argentina.pdf,HC AT,
+CHEVROLET,SPARK EUV,unica,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/electric-vehicles/spark-euv/jul-25/pdf/Ficha-tecnica-Spark-EUVMY26-Argentina.pdf,ACTIV,
+CHEVROLET,CAPTIVA,unica,https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/electric-vehicles/captiva-phev/mov/ficha-tecnica/feb-26/Ficha%20T%C3%A9cnica%20Captiva%20MY26%20-%20Argentina.pdf,PHEV PREMIER,
+FORD,MAVERICK PICK - UP,matriz,https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/maverick/2025/pdf/far-nueva-maverick-ficha-tecnica.pdf,,
+FORD,BRONCO SPORT,matriz,https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/bronco-sport/2025/pdf/far-bronco-sport-ficha-tecnica.pdf,,
+FORD,EVEREST,unica,https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/everest/ficha-tecnica-everest.pdf,TITANIUM,
+FORD,TRANSIT,unica,https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-van-at-expoagro.pdf,LARGA TE AT,
+VOLKSWAGEN,AMAROK PICK - UP,matriz,https://www.volkswagen.com.ar/idhub/content/dam/onehub_pkw/importers/ar/modelos/amarok/2026/Flyer-Amarok2-0-MY26.pdf,,
+VOLKSWAGEN,AMAROK PICK - UP,matriz,https://www.volkswagen.com.ar/idhub/content/dam/onehub_pkw/importers/ar/modelos/amarok/2026/2026_Flyer_AmarokV6_MY26.pdf,,
+VOLKSWAGEN,VIRTUS,matriz,https://www.volkswagen.com.ar/idhub/content/dam/onehub_pkw/importers/ar/modelos/virtus/2026/VW_Flyer_VIRTUSMY26.pdf,,
+VOLKSWAGEN,SAVEIRO PICK - UP,catalogo,https://www.volkswagen.com.ar/idhub/content/dam/onehub_pkw/importers/ar/modelos/saveiro/2026/2026_Flyer_Saveiro_MY26.pdf,TRENDLINE CS|COMFORTLINE CD|EXTREME CD,2
+VOLKSWAGEN,TIGUAN,matriz,https://www.volkswagen.com.ar/idhub/content/dam/onehub_pkw/importers/ar/modelos/tiguan/2026/VW_Flyer_TIGUAN-MY26.pdf,,
+VOLKSWAGEN,VENTO,unica,https://www.volkswagen.com.ar/idhub/content/dam/onehub_pkw/importers/ar/modelos/vento/2026/flyers/Flyer_Vento_GLI_MY26_compressed.pdf,GLI,
+JEEP,COMPASS,dibujo,https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2025/compass/ficha-tecnica/Jeep_Compass_Ficha_Tecnica_11.03.2026.pdf,SPORT|LIMITED|SERIE S|BLACKHAWK,2
+JEEP,RENEGADE,dibujo,https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2025/renegade/Jeep-Renegade_Ficha_Tecnica_Nafta-SIN-LONGITUD-13-08-26.pdf,ALTITUDE|N. EAGLE|SAHARA|WILLYS,2
+JEEP,COMMANDER,dibujo,https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2025/commander/ficha-tecnica/Jeep_Commander_Ficha_Tecnica_20-07-26.pdf,LIMITED|OVERLAND|BLACKHAWK,2
+PEUGEOT,PARTNER,unica,https://www.peugeot.com.ar/content/dam/peugeot/argentina/b2c/our-range/fichas-tecnicas/partner/20260604-ft-partner.pdf,VAN L2 HDI 92,
+PEUGEOT,3008,unica,https://www.peugeot.com.ar/content/dam/peugeot/argentina/b2c/our-range/fichas-tecnicas/3008/20250822_ft_3008.pdf,GT,
+PEUGEOT,EXPERT,unica,https://www.peugeot.com.ar/content/dam/peugeot/argentina/b2c/our-range/fichas-tecnicas/expert/20251008-ft-expert.pdf,L3 HDI 150,
+RENAULT,MASTER,catalogo,https://cdn.group.renault.com/ren/ar/legales/RENAULT_Master_Brochure_06-2026_LOW.pdf.asset.pdf/4e1f7820ca.pdf,FURGON L1H1|FURGON L2H2|FURGON L3H2,2
+RENAULT,KANGOO II EXPRESS,catalogo,https://cdn.group.renault.com/ren/ar/legales/catalogos-junio/Catalogo_Renault_Kangoo_Express_digital.pdf.asset.pdf/82790c5427.pdf,2A|5A,1
+HYUNDAI,HB20,catalogo,https://www.hyundai.com.ar/publicfiles/datasheets/hb20fichatecnica-final_1750163466.pdf,COMFORT PLUS MT|COMFORT PLUS AT|PLATINUM SAFETY AT,1
+HYUNDAI,CRETA,catalogo,https://www.hyundai.com.ar/publicfiles/datasheets/fichatecnicanuevacretasafetyysafetyplus_1765467765.pdf,SAFETY|SAFETY PLUS,1
+HONDA,HR-V,matriz,https://autos.honda.com.ar/uploads/modelos/28/fichas_tecnicas/FICHA%20T%C3%89CNICA%20NEW%20HR-V%202025.pdf,,
+RAM,RAMPAGE PICK -UP,dibujo,https://www.ram.com.ar/rampage/noprecache/ficha-tecnica.pdf,BIGHORN|REBEL|LARAMIE|LARAMIE NIGHT|R/T,2
+KIA,K3,catalogo,https://www.kia.com.ar/kia-k3/assets/Ficha%20te%CC%81cnica%20K3%20Sedan%20EX_GT-BUqW0oNV.pdf,SEDAN EX|SEDAN GT LINE,1
+KIA,K3,catalogo,https://www.kia.com.ar/kia-k3/assets/Ficha%20te%CC%81cnica%20K3%20Cross%20EX_GT-RUQDccyB.pdf,CROSS EX|CROSS GT LINE,1
+BYD,DOLPHIN MINI,catalogo,https://www.byd.com/material/byd-site/ar/flyers_argentina/new/AR-BYD-DOLPHIN-MINI-20250829.pdf,GL|GS,2
+BYD,YUAN PRO,catalogo,https://www.byd.com/material/byd-site/ar/flyers_argentina/new/AR-BYD-YUAN-PRO-GS-20250828.pdf,GS,2
+BYD,SONG PRO DM-i,catalogo,https://www.byd.com/material/byd-site/ar/flyers_argentina/new/AR-BYD-SONG-PRO-20250903.pdf,GL|GS,2
+BYD,ATTO 2,catalogo,https://www.byd.com/material/byd-site/ar/atto-2-dmi/FICHA-TECNICA-ATTO2-DM-i-2026.pdf,GS,2
+HAVAL,JOLION,catalogo,https://gwm.com.ar/FT-Jolion-Pro-HEV-2.pdf,PRO HEV,2
+HAVAL,H 6,catalogo,https://gwm.com.ar/FT-Haval-H6-4WD.pdf,4WD,1

@@ -15,12 +15,17 @@ Fuera por ahora: Amarok (la tabla sale desalineada, marcas sueltas en 27
 columnas), Partner (una sola version: no hay "que suma cada version") y Jeep
 (las tildes son dibujos, no texto).
 
-Tres formatos:
+Cinco formatos:
   matriz  tabla con las versiones como columnas (VW, Chevrolet, Ford). Cada
           marca marca distinto y lo explica en una leyenda del PDF ("X" =
           disponible); si la leyenda cambia, falla en vez de leer mal.
   lineas  el nombre del item queda fuera de la tabla al extraerla (Peugeot):
           se lee el texto renglon por renglon ("Control de estabilidad SI SI").
+  unica     una sola version (nombre en la columna versiones): los renglones
+          con marca o, si la ficha no marca, todo lo que lista.
+  dibujo    la marca es un dibujo (Nissan, Jeep): columnas por la posicion de
+          los nombres de version (columna versiones) y un dibujo chico en el
+          renglon = lo tiene.
   catalogo  catalogo de la marca (Renault), sin encabezado de tabla: las
           versiones se anotan en la lista (columna versiones, separadas por |)
           y, si la tabla viene en dos columnas por pagina, columnas = 2.
@@ -39,12 +44,14 @@ Uso: python -m ingesta.equipamiento [--forzar] [--familia TERA]
 """
 
 import argparse
+import collections
 import csv
 import hashlib
 import io
 import json
 import os
 import re
+import unicodedata
 from datetime import date
 
 import duckdb
@@ -54,10 +61,16 @@ import pdfplumber
 from ingesta.comun import pedir, permitido_por_robots
 
 LISTA = os.path.join("ingesta", "fichas_equipamiento.csv")
+# Fichas de marcas que no dejan consultar su sitio (Toyota, Fiat, Citroen, Nissan...):
+# el PDF lo baja una persona a MANUALES (no se sube al repo) y en la lista va como
+# "local:<archivo>.pdf". Al leerlo se guardan los datos en EXTRAIDAS (si se suben),
+# y el pipeline usa esos datos.
+MANUALES = "fichas_manuales"
+EXTRAIDAS = os.path.join("ingesta", "equipamiento_manual")
 RAIZ = os.path.join("datos", "raw", "equipamiento")
 ESTADO = os.path.join(RAIZ, "_estado.json")
 DIAS_ENTRE_CONSULTAS = 7
-MIN_ITEMS = 25  # menos que esto en una ficha: casi seguro cambio el formato
+MIN_ITEMS = 20  # menos que esto en una ficha: casi seguro cambio el formato
 
 # Que significa cada marca, por marca de auto, y la leyenda del PDF que lo dice.
 MARCAS = {
@@ -67,6 +80,15 @@ MARCAS = {
     "PEUGEOT": ({"si": "si", "no": "no", "-": "no", "opc": "opcional", "opcional": "opcional"}, None),
     # Catalogos de Renault: "X" o vinietas ("••") = de serie, "-" = no tiene.
     "RENAULT": ({"x": "si", "-": "no", "•": "si", "••": "si"}, None),
+    "HYUNDAI": ({"•": "si", "-": "no"}, None),
+    "KIA": ({"s": "si", "-": "no", "o": "opcional"}, None),
+    "HAVAL": ({"●": "si", "•": "si", "-": "no", "—": "no"}, None),
+    "BYD": ({"●": "si", "—": "no", "-": "no", "○": "opcional"}, None),
+    "HONDA": ({"si": "si", "no": "no", "-": "no"}, None),
+    # Marcas dibujadas (formato dibujo): no hay texto que traducir.
+    "RAM": ({}, None),
+    "NISSAN": ({}, None),
+    "JEEP": ({}, None),
 }
 
 
@@ -121,6 +143,9 @@ def bloques(fila, versiones):
     return [i for i in range(len(fila) - n) if [limpio(c) for c in fila[i + 1:i + 1 + n]] == versiones]
 
 
+TILDES = {"✔", "✓", "✔️"}
+
+
 def valor(celda, marcas):
     t = limpio(celda)
     return marcas.get(t.lower(), t) if t else None
@@ -167,7 +192,11 @@ def expandir(etiqueta, celdas, marcas):
     if not any(limpio(c) for c in celdas):
         # Titulo de seccion ("CONFORT", "SEGURIDAD"): en mayusculas y sin valores.
         return ("seccion", True) if limpio(etiqueta).upper() == limpio(etiqueta) else ([], True)
-    lineas = [l for l in etiqueta.split("\n") if l.strip()]
+    # Fichas con tildes ("✔" = tiene, vacio = no tiene): una fila que solo tiene tildes
+    # y vacios no deja dudas. Si hay texto en la fila, el vacio sigue siendo "sin dato".
+    if TILDES & set(marcas) and all(limpio(c) in TILDES or not limpio(c) for c in celdas):
+        return [(limpio(etiqueta), ["si" if limpio(c) else "no" for c in celdas])], True
+    lineas =[l for l in etiqueta.split("\n") if l.strip()]
     partes = [[p for p in (c or "").split("\n") if p.strip()] for c in celdas]
     # Dos items pegados en una celda: "Item A\nItem B" con "X\n-" en cada version.
     if len(lineas) > 1 and all(len(p) in (0, len(lineas)) for p in partes) and any(len(p) == len(lineas) for p in partes) \
@@ -235,20 +264,145 @@ def filas_catalogo(pdf, marcas, versiones, columnas):
         for parte in mitades:
             for linea in (parte.extract_text() or "").splitlines():
                 m = renglon.match(linea.strip())
-                if m and len(m.group(2).split()) == n and re.search("[a-z]", m.group(1), re.I):
-                    salida += [("", limpio(m.group(1)), v, marcas[x.lower()]) for v, x in zip(versiones, m.group(2).split())]
+                if not m or not re.search("[a-z]", m.group(1), re.I):
+                    continue
+                vals = m.group(2).split()
+                # Una sola "X" en una tabla de varias versiones: celda combinada, la tienen todas
+                # (Kangoo Express). Un "-" solo no se interpreta.
+                if len(vals) == 1 and n > 1 and marcas[vals[0].lower()] == "si":
+                    vals = vals * n
+                if len(vals) == n:
+                    item = limpio(m.group(1)).lstrip("•·- ").strip()
+                    salida += [("", item, v, marcas[x.lower()]) for v, x in zip(versiones, vals)]
     return versiones, salida, 0
+
+
+def filas_unica(pdf, marcas, versiones):
+    """Fichas de una sola version (Trailblazer, Spark EUV, Partner): no hay columnas que
+    comparar. Si la ficha marca ("Alerta de punto ciego S"), cuentan los renglones con
+    marca; si solo lista lo que trae, cada renglon es un item que tiene. Los titulos en
+    mayusculas son secciones."""
+    fichas = "|".join(re.escape(m) for m in sorted(marcas, key=len, reverse=True))
+    renglon = re.compile(rf"^(.*?\S)\s+({fichas})\s*$", re.I)
+    lineas = [l.strip() for p in pdf.pages for l in (p.extract_text() or "").splitlines() if l.strip()]
+    con_marca = [renglon.match(l) for l in lineas]
+    marca_items = sum(1 for m in con_marca if m) >= MIN_ITEMS
+    salida, seccion = [], ""
+    for l, m in zip(lineas, con_marca):
+        if l.isupper() and len(l) > 3:
+            seccion = l
+        elif marca_items and m:
+            salida.append((seccion, limpio(m.group(1)), versiones[0], marcas[m.group(2).lower()]))
+        elif not marca_items and re.search("[a-z]", l) and len(l) <= 120:
+            salida.append((seccion, limpio(l), versiones[0], "si"))
+    return versiones, salida, 0
+
+
+def filas_dibujo(pdf, versiones, columnas=1):
+    """Fichas donde la marca es un dibujo (Nissan, Jeep): un circulo o tilde vectorial,
+    no texto. Las columnas salen del encabezado (la palabra de cada version, en la
+    lista de fichas); un renglon tiene el item si hay un dibujo chico a la altura del
+    renglon y cerca de la columna. Sin dibujo en una columna: no lo tiene."""
+    claves = [normalizar_v(v.split()[0]) for v in versiones]
+    salida, seccion, xs = [], "", None
+    mitades = lambda p: [p] if columnas == 1 else [p.crop((0, 0, p.width / 2, p.height)), p.crop((p.width / 2, 0, p.width, p.height))]
+    for pagina in [m for p in pdf.pages for m in mitades(p)]:
+        # Tolerancia chica: en algunas fichas los nombres de version vienen pegados.
+        palabras = pagina.extract_words(keep_blank_chars=False, x_tolerance=1.5)
+        renglones = {}
+        for w in palabras:
+            renglones.setdefault(round(w["top"] / 3), []).append(w)
+        # Columnas: el renglon donde aparecen las palabras de todas las versiones.
+        for ws in renglones.values():
+            textos = [normalizar_v(w["text"]) for w in ws]
+            if all(k in textos for k in claves):
+                # Cada version toma la siguiente palabra con su nombre, de izquierda a
+                # derecha (dos versiones pueden empezar igual: "Laramie", "Laramie Night").
+                libres = sorted(ws, key=lambda w: w["x0"])
+                xs = []
+                for k in claves:
+                    w = next(w for w in libres if normalizar_v(w["text"]) == k)
+                    libres.remove(w)
+                    xs.append((w["x0"] + w["x1"]) / 2)
+                break
+        else:
+            # Encabezado con nombres pegados ("REBELLARAMIELARAMIE", RAM): si esta la primera
+            # version, las columnas son las de la otra mitad corridas lo mismo.
+            if xs and columnas == 2:
+                for ws in renglones.values():
+                    primera = [w for w in ws if normalizar_v(w["text"]) == claves[0]]
+                    if primera and not (pagina.bbox[0] <= xs[0] <= pagina.bbox[2]):
+                        corrimiento = (primera[0]["x0"] + primera[0]["x1"]) / 2 - xs[0]
+                        xs = [x + corrimiento for x in xs]
+                        break
+        if not xs:
+            continue
+        # Con dos tablas por pagina, cada mitad tiene su encabezado: las columnas de esta mitad.
+        if columnas == 2 and not (pagina.bbox[0] <= min(xs) <= pagina.bbox[2]):
+            continue
+        # La marca es una curva rellena (tilde o circulo); el cuadradito vacio de cada
+        # celda (Jeep) es un rectangulo solo con borde y no cuenta.
+        dibujos = [o for o in pagina.curves + pagina.images
+                   if o["width"] <= 14 and o["height"] <= 14 and o["x0"] > min(xs) - 40 and o.get("fill", True)]
+        # Solo los del tamanio de la marca (el mas comun): letras dibujadas como curvas
+        # (textos legales, datos tecnicos) tienen otros tamanios.
+        if dibujos:
+            tam = collections.Counter((round(o["width"]), round(o["height"])) for o in dibujos).most_common(1)[0][0]
+            dibujos = [o for o in dibujos if abs(o["width"] - tam[0]) <= 1.5 and abs(o["height"] - tam[1]) <= 1.5]
+        borde = min(xs) - 30
+        # Renglones con texto a la izquierda de las columnas (los items candidatos).
+        items = []
+        for clave_r in sorted(renglones):
+            ws = sorted(renglones[clave_r], key=lambda w: w["x0"])
+            texto = limpio(" ".join(w["text"] for w in ws if w["x1"] < borde))
+            if texto and re.search("[a-z]", texto, re.I):
+                centro = (min(w["top"] for w in ws) + max(w["bottom"] for w in ws)) / 2
+                items.append([texto, centro, set()])
+        if not items:
+            continue
+        # Cada dibujo va al renglon mas cercano (no a todos los que toca: los renglones
+        # estan pegados) y a la columna mas cercana.
+        for o in dibujos:
+            cy, cx = (o["top"] + o["bottom"]) / 2, (o["x0"] + o["x1"]) / 2
+            fila = min(items, key=lambda it: abs(it[1] - cy))
+            col = min(range(len(xs)), key=lambda k: abs(cx - xs[k]))
+            if abs(fila[1] - cy) <= 6 and abs(cx - xs[col]) < 30:
+                fila[2].add(col)
+        for texto, _, cols in items:
+            if not cols:
+                # Sin ningun dibujo: titulo de seccion, dato de texto o nota; no se usa
+                # (un item que no tiene ninguna version queda "sin dato").
+                if texto.isupper() or len(texto) < 25:
+                    seccion = texto
+                continue
+            salida += [(seccion, texto, v, "si" if k in cols else "no") for k, v in enumerate(versiones)]
+    return versiones, salida, 0
+
+
+def normalizar_v(t):
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower())
 
 
 def leer_ficha(marca, familia, formato, url, versiones_lista=None, columnas=1):
     marcas, leyenda = MARCAS[marca]
-    contenido = pedir(url)
+    if url.startswith("local:"):
+        with open(os.path.join(MANUALES, url[len("local:"):]), "rb") as f:
+            contenido = f.read()
+    else:
+        contenido = pedir(url)
     with pdfplumber.open(io.BytesIO(contenido)) as pdf:
         texto = "\n".join(p.extract_text() or "" for p in pdf.pages)
-        if leyenda and not re.search(leyenda, texto):
+        # En las de una sola version (revisadas a mano al agregarlas) la leyenda puede faltar.
+        if leyenda and formato != "unica" and not re.search(leyenda, texto):
             raise ValueError("no esta la leyenda de las marcas: puede haber cambiado el formato")
+        if TILDES & set(texto):
+            marcas = {**marcas, **{t: "si" for t in TILDES}}
         if formato == "catalogo":
             versiones, filas, descartadas = filas_catalogo(pdf, marcas, versiones_lista, columnas)
+        elif formato == "dibujo":
+            versiones, filas, descartadas = filas_dibujo(pdf, versiones_lista, columnas)
+        elif formato == "unica":
+            versiones, filas, descartadas = filas_unica(pdf, marcas, versiones_lista)
         else:
             versiones, filas, descartadas = (filas_matriz if formato == "matriz" else filas_lineas)(pdf, marcas)
     if not versiones:
@@ -289,11 +443,24 @@ def main():
     for r in lista:
         nombre = f"{r['marca']} {r['familia']}"
         try:
-            if not permitido_por_robots(r["url"]):
-                raise PermissionError("robots.txt no lo permite")
-            df, versiones, descartadas = leer_ficha(r["marca"], r["familia"], r["formato"], r["url"],
-                                                    [v for v in (r.get("versiones") or "").split("|") if v],
-                                                    int(r.get("columnas") or 1))
+            local = r["url"].startswith("local:")
+            extraida = os.path.join(EXTRAIDAS, r["url"][len("local:"):].rsplit(".", 1)[0] + ".csv") if local else None
+            if local and not os.path.exists(os.path.join(MANUALES, r["url"][len("local:"):])):
+                # En el pipeline no estan los PDF bajados a mano: se usan los datos ya extraidos.
+                if not os.path.exists(extraida):
+                    raise FileNotFoundError(f"falta el PDF en {MANUALES}/ y no hay datos extraidos")
+                df = pd.read_csv(extraida, keep_default_na=False, na_values=[""])
+                versiones = list(dict.fromkeys(df.sort_values("orden_version")["version_fuente"]))
+                descartadas = 0
+            else:
+                if not local and not permitido_por_robots(r["url"]):
+                    raise PermissionError("robots.txt no lo permite")
+                df, versiones, descartadas = leer_ficha(r["marca"], r["familia"], r["formato"], r["url"],
+                                                        [v for v in (r.get("versiones") or "").split("|") if v],
+                                                        int(r.get("columnas") or 1))
+                if local:
+                    os.makedirs(EXTRAIDAS, exist_ok=True)
+                    df.to_csv(extraida, index=False)
             partes.append(df)
             con_marca = df[df["valor"].isin(["si", "no", "opcional"])]["item"].nunique()
             print(f"equipamiento {nombre}: {len(versiones)} versiones, {df['item'].nunique()} items "
