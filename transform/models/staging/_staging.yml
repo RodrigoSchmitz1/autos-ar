@@ -1,6 +1,16 @@
 version: 2
 
 models:
+  - name: stg_dnrpa__registros
+    description: >
+      Nombre y provincia de cada registro seccional de DNRPA, tomados de todos
+      los meses (algunos meses los traen vacios).
+    columns:
+      - name: registro_seccional_codigo
+        data_tests: [unique, not_null]
+      - name: provincia_id
+        data_tests: [not_null]
+
   - name: stg_dnrpa__tramites
     description: >
       Inscripciones iniciales, transferencias, prendas y robos/recuperos de

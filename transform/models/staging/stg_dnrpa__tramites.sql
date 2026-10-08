@@ -9,6 +9,8 @@
 
   La provincia es la del REGISTRO. La "del domicilio del titular" replica la del
   registro en el 100% de las filas, asi que no aporta nada y no se ingiere.
+  Nombre y provincia del registro salen de stg_dnrpa__registros (por codigo):
+  algunos meses los traen vacios.
 #}
 
 {# Cada bloque nombra la columna literal: en UNION ALL BY NAME, una columna sin
@@ -31,8 +33,8 @@ select
     fecha_inscripcion_inicial,
 
     registro_seccional_codigo,
-    trim(registro_seccional_descripcion) as registro_seccional,
-    {{ provincia_id('registro_seccional_provincia') }} as provincia_id,
+    coalesce(nullif(trim(registro_seccional_descripcion), 'NULL'), r.descripcion) as registro_seccional,
+    r.provincia_id,
 
     case trim(automotor_origen)
         when 'Nacional' then 'nacional'
@@ -53,3 +55,4 @@ select
         when 'Jurídica' then 'juridica'
     end as titular_tipo_persona
 from fuente
+left join {{ ref('stg_dnrpa__registros') }} r using (registro_seccional_codigo)
