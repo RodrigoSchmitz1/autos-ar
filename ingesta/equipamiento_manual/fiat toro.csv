@@ -1,0 +1,232 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,TORO PICK UP,EXTERIOR,Faros antiniebla delanteros LED (+ cornering),FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,0
+FIAT,TORO PICK UP,EXTERIOR,Faros antiniebla delanteros LED (+ cornering),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,0
+FIAT,TORO PICK UP,EXTERIOR,Faros antiniebla delanteros LED (+ cornering),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,0
+FIAT,TORO PICK UP,EXTERIOR,Faros delanteros full LED + luces diurnas LED (DRL),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,1
+FIAT,TORO PICK UP,EXTERIOR,Faros delanteros full LED + luces diurnas LED (DRL),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,1
+FIAT,TORO PICK UP,EXTERIOR,Faros delanteros full LED + luces diurnas LED (DRL),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,1
+FIAT,TORO PICK UP,EXTERIOR,Faros traseros LED,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,2
+FIAT,TORO PICK UP,EXTERIOR,Faros traseros LED,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,2
+FIAT,TORO PICK UP,EXTERIOR,Faros traseros LED,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,2
+FIAT,TORO PICK UP,EXTERIOR,Sistema de iluminación LED con reflector de luz alta / baja,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,3
+FIAT,TORO PICK UP,EXTERIOR,Sistema de iluminación LED con reflector de luz alta / baja,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,3
+FIAT,TORO PICK UP,EXTERIOR,Sistema de iluminación LED con reflector de luz alta / baja,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,3
+FIAT,TORO PICK UP,EXTERIOR,Sistema automático de luces altas,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,4
+FIAT,TORO PICK UP,EXTERIOR,Sistema automático de luces altas,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,4
+FIAT,TORO PICK UP,EXTERIOR,Sistema automático de luces altas,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,4
+FIAT,TORO PICK UP,EXTERIOR,Llantas de aleación 17'' diamantada,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,5
+FIAT,TORO PICK UP,EXTERIOR,Llantas de aleación 17'' diamantada,VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,5
+FIAT,TORO PICK UP,EXTERIOR,Llantas de aleación 17'' diamantada,VOLCANO 2.2TD 4X4,no,2,local:fiat toro.pdf,5
+FIAT,TORO PICK UP,EXTERIOR,Llantas de aleación 18'' diamantada,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,6
+FIAT,TORO PICK UP,EXTERIOR,Llantas de aleación 18'' diamantada,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,6
+FIAT,TORO PICK UP,EXTERIOR,Llantas de aleación 18'' diamantada,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,6
+FIAT,TORO PICK UP,EXTERIOR,Luz repetidora de giro lateral,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,7
+FIAT,TORO PICK UP,EXTERIOR,Luz repetidora de giro lateral,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,7
+FIAT,TORO PICK UP,EXTERIOR,Luz repetidora de giro lateral,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,7
+FIAT,TORO PICK UP,EXTERIOR,Espejos exteriores color negro brillante,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,8
+FIAT,TORO PICK UP,EXTERIOR,Espejos exteriores color negro brillante,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,8
+FIAT,TORO PICK UP,EXTERIOR,Espejos exteriores color negro brillante,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,8
+FIAT,TORO PICK UP,EXTERIOR,Manijas de puertas color carrocería,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,9
+FIAT,TORO PICK UP,EXTERIOR,Manijas de puertas color carrocería,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,9
+FIAT,TORO PICK UP,EXTERIOR,Manijas de puertas color carrocería,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,9
+FIAT,TORO PICK UP,EXTERIOR,Molduras laterales cromadas,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,10
+FIAT,TORO PICK UP,EXTERIOR,Molduras laterales cromadas,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,10
+FIAT,TORO PICK UP,EXTERIOR,Molduras laterales cromadas,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,10
+FIAT,TORO PICK UP,EXTERIOR,Barras longitudinales portaequipaje,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,11
+FIAT,TORO PICK UP,EXTERIOR,Barras longitudinales portaequipaje,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,11
+FIAT,TORO PICK UP,EXTERIOR,Barras longitudinales portaequipaje,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,11
+FIAT,TORO PICK UP,EXTERIOR,Luneta térmica,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,12
+FIAT,TORO PICK UP,EXTERIOR,Luneta térmica,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,12
+FIAT,TORO PICK UP,EXTERIOR,Luneta térmica,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,12
+FIAT,TORO PICK UP,EXTERIOR,Badge 4WD,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,13
+FIAT,TORO PICK UP,EXTERIOR,Badge 4WD,VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,13
+FIAT,TORO PICK UP,EXTERIOR,Badge 4WD,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,13
+FIAT,TORO PICK UP,EXTERIOR,Iluminación en la caja de carga,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,14
+FIAT,TORO PICK UP,EXTERIOR,Iluminación en la caja de carga,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,14
+FIAT,TORO PICK UP,EXTERIOR,Iluminación en la caja de carga,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,14
+FIAT,TORO PICK UP,EXTERIOR,Lona marítima,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,15
+FIAT,TORO PICK UP,EXTERIOR,Lona marítima,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,15
+FIAT,TORO PICK UP,EXTERIOR,Lona marítima,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,15
+FIAT,TORO PICK UP,EXTERIOR,Tercera luz de stop,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,16
+FIAT,TORO PICK UP,EXTERIOR,Tercera luz de stop,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,16
+FIAT,TORO PICK UP,EXTERIOR,Tercera luz de stop,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,16
+FIAT,TORO PICK UP,TECNOLOGÍA,Computadora a bordo,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,17
+FIAT,TORO PICK UP,TECNOLOGÍA,Computadora a bordo,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,17
+FIAT,TORO PICK UP,TECNOLOGÍA,Computadora a bordo,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,17
+FIAT,TORO PICK UP,TECNOLOGÍA,Display de tablero full digital customizable 7'',FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,18
+FIAT,TORO PICK UP,TECNOLOGÍA,Display de tablero full digital customizable 7'',VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,18
+FIAT,TORO PICK UP,TECNOLOGÍA,Display de tablero full digital customizable 7'',VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,18
+FIAT,TORO PICK UP,TECNOLOGÍA,"Pantalla multimedia touch 8,4'' con Android Auto & Car Play",FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,19
+FIAT,TORO PICK UP,TECNOLOGÍA,"Pantalla multimedia touch 8,4'' con Android Auto & Car Play",VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,19
+FIAT,TORO PICK UP,TECNOLOGÍA,"Pantalla multimedia touch 8,4'' con Android Auto & Car Play",VOLCANO 2.2TD 4X4,no,2,local:fiat toro.pdf,19
+FIAT,TORO PICK UP,TECNOLOGÍA,"Pantalla multimedia touch 10,1'' con Android Auto & Car Play + GPS",FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,20
+FIAT,TORO PICK UP,TECNOLOGÍA,"Pantalla multimedia touch 10,1'' con Android Auto & Car Play + GPS",VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,20
+FIAT,TORO PICK UP,TECNOLOGÍA,"Pantalla multimedia touch 10,1'' con Android Auto & Car Play + GPS",VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,20
+FIAT,TORO PICK UP,TECNOLOGÍA,Comandos de radio / teléfono al volante,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,21
+FIAT,TORO PICK UP,TECNOLOGÍA,Comandos de radio / teléfono al volante,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,21
+FIAT,TORO PICK UP,TECNOLOGÍA,Comandos de radio / teléfono al volante,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,21
+FIAT,TORO PICK UP,TECNOLOGÍA,6 speakers,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,22
+FIAT,TORO PICK UP,TECNOLOGÍA,6 speakers,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,22
+FIAT,TORO PICK UP,TECNOLOGÍA,6 speakers,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,22
+FIAT,TORO PICK UP,TECNOLOGÍA,USB tipo A+C delantero y trasero (solo carga),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,23
+FIAT,TORO PICK UP,TECNOLOGÍA,USB tipo A+C delantero y trasero (solo carga),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,23
+FIAT,TORO PICK UP,TECNOLOGÍA,USB tipo A+C delantero y trasero (solo carga),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,23
+FIAT,TORO PICK UP,TECNOLOGÍA,Cargador inalámbrica,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,24
+FIAT,TORO PICK UP,TECNOLOGÍA,Cargador inalámbrica,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,24
+FIAT,TORO PICK UP,TECNOLOGÍA,Cargador inalámbrica,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,24
+FIAT,TORO PICK UP,TECNOLOGÍA,Selector de tracción 4x2 - 4x4 - 4x4 low,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,25
+FIAT,TORO PICK UP,TECNOLOGÍA,Selector de tracción 4x2 - 4x4 - 4x4 low,VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,25
+FIAT,TORO PICK UP,TECNOLOGÍA,Selector de tracción 4x2 - 4x4 - 4x4 low,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,25
+FIAT,TORO PICK UP,CONFORT,Climatizador automático bi-zona,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,26
+FIAT,TORO PICK UP,CONFORT,Climatizador automático bi-zona,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,26
+FIAT,TORO PICK UP,CONFORT,Climatizador automático bi-zona,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,26
+FIAT,TORO PICK UP,CONFORT,Espejos retrovisores eléctricos,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,27
+FIAT,TORO PICK UP,CONFORT,Espejos retrovisores eléctricos,VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,27
+FIAT,TORO PICK UP,CONFORT,Espejos retrovisores eléctricos,VOLCANO 2.2TD 4X4,no,2,local:fiat toro.pdf,27
+FIAT,TORO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles con luz de acceso,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,28
+FIAT,TORO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles con luz de acceso,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,28
+FIAT,TORO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles con luz de acceso,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,28
+FIAT,TORO PICK UP,CONFORT,Espejo retrovisor interno electrocrómico,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,29
+FIAT,TORO PICK UP,CONFORT,Espejo retrovisor interno electrocrómico,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,29
+FIAT,TORO PICK UP,CONFORT,Espejo retrovisor interno electrocrómico,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,29
+FIAT,TORO PICK UP,CONFORT,Asiento eléctrico del conducto con regulación lumbar,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,30
+FIAT,TORO PICK UP,CONFORT,Asiento eléctrico del conducto con regulación lumbar,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,30
+FIAT,TORO PICK UP,CONFORT,Asiento eléctrico del conducto con regulación lumbar,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,30
+FIAT,TORO PICK UP,CONFORT,Asiento del conductor con ajuste manual en 6 direcciones,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,31
+FIAT,TORO PICK UP,CONFORT,Asiento del conductor con ajuste manual en 6 direcciones,VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,31
+FIAT,TORO PICK UP,CONFORT,Asiento del conductor con ajuste manual en 6 direcciones,VOLCANO 2.2TD 4X4,no,2,local:fiat toro.pdf,31
+FIAT,TORO PICK UP,CONFORT,Asiento del conductor con ajuste eléctrico en 8 direcciones,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,32
+FIAT,TORO PICK UP,CONFORT,Asiento del conductor con ajuste eléctrico en 8 direcciones,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,32
+FIAT,TORO PICK UP,CONFORT,Asiento del conductor con ajuste eléctrico en 8 direcciones,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,32
+FIAT,TORO PICK UP,CONFORT,Asiento del acompañante con ajuste manual en 4 direcciones,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,33
+FIAT,TORO PICK UP,CONFORT,Asiento del acompañante con ajuste manual en 4 direcciones,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,33
+FIAT,TORO PICK UP,CONFORT,Asiento del acompañante con ajuste manual en 4 direcciones,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,33
+FIAT,TORO PICK UP,CONFORT,Cinturones de seguridad delanteros regulables en altura,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,34
+FIAT,TORO PICK UP,CONFORT,Cinturones de seguridad delanteros regulables en altura,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,34
+FIAT,TORO PICK UP,CONFORT,Cinturones de seguridad delanteros regulables en altura,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,34
+FIAT,TORO PICK UP,CONFORT,Cinturones de seguridad posteriores de 3 puntos,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,35
+FIAT,TORO PICK UP,CONFORT,Cinturones de seguridad posteriores de 3 puntos,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,35
+FIAT,TORO PICK UP,CONFORT,Cinturones de seguridad posteriores de 3 puntos,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,35
+FIAT,TORO PICK UP,CONFORT,Apoyacabezas traseros (3),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,36
+FIAT,TORO PICK UP,CONFORT,Apoyacabezas traseros (3),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,36
+FIAT,TORO PICK UP,CONFORT,Apoyacabezas traseros (3),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,36
+FIAT,TORO PICK UP,CONFORT,Apoyabrazos en asiento trasero con portavasos,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,37
+FIAT,TORO PICK UP,CONFORT,Apoyabrazos en asiento trasero con portavasos,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,37
+FIAT,TORO PICK UP,CONFORT,Apoyabrazos en asiento trasero con portavasos,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,37
+FIAT,TORO PICK UP,CONFORT,Apoyavasos delantero,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,38
+FIAT,TORO PICK UP,CONFORT,Apoyavasos delantero,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,38
+FIAT,TORO PICK UP,CONFORT,Apoyavasos delantero,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,38
+FIAT,TORO PICK UP,CONFORT,Tapizado en cuero negro,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,39
+FIAT,TORO PICK UP,CONFORT,Tapizado en cuero negro,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,39
+FIAT,TORO PICK UP,CONFORT,Tapizado en cuero negro,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,39
+FIAT,TORO PICK UP,CONFORT,Cámara de estacionamiento trasera,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,40
+FIAT,TORO PICK UP,CONFORT,Cámara de estacionamiento trasera,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,40
+FIAT,TORO PICK UP,CONFORT,Cámara de estacionamiento trasera,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,40
+FIAT,TORO PICK UP,CONFORT,Sensores de estacionamiento traseros,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,41
+FIAT,TORO PICK UP,CONFORT,Sensores de estacionamiento traseros,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,41
+FIAT,TORO PICK UP,CONFORT,Sensores de estacionamiento traseros,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,41
+FIAT,TORO PICK UP,CONFORT,Sensores de estacionamiento delanteros,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,42
+FIAT,TORO PICK UP,CONFORT,Sensores de estacionamiento delanteros,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,42
+FIAT,TORO PICK UP,CONFORT,Sensores de estacionamiento delanteros,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,42
+FIAT,TORO PICK UP,CONFORT,Sensores de lluvia y crepuscular,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,43
+FIAT,TORO PICK UP,CONFORT,Sensores de lluvia y crepuscular,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,43
+FIAT,TORO PICK UP,CONFORT,Sensores de lluvia y crepuscular,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,43
+FIAT,TORO PICK UP,CONFORT,Apertura y encendido sin llave (Keyless Entry N' Go),FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,44
+FIAT,TORO PICK UP,CONFORT,Apertura y encendido sin llave (Keyless Entry N' Go),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,44
+FIAT,TORO PICK UP,CONFORT,Apertura y encendido sin llave (Keyless Entry N' Go),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,44
+FIAT,TORO PICK UP,CONFORT,Encendido remoto,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,45
+FIAT,TORO PICK UP,CONFORT,Encendido remoto,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,45
+FIAT,TORO PICK UP,CONFORT,Encendido remoto,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,45
+FIAT,TORO PICK UP,CONFORT,Alzacristales eléctricos delanteros y traseros one-touch up/down (4),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,46
+FIAT,TORO PICK UP,CONFORT,Alzacristales eléctricos delanteros y traseros one-touch up/down (4),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,46
+FIAT,TORO PICK UP,CONFORT,Alzacristales eléctricos delanteros y traseros one-touch up/down (4),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,46
+FIAT,TORO PICK UP,CONFORT,Cierre centralizado de puertas + traba automática en movimiento,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,47
+FIAT,TORO PICK UP,CONFORT,Cierre centralizado de puertas + traba automática en movimiento,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,47
+FIAT,TORO PICK UP,CONFORT,Cierre centralizado de puertas + traba automática en movimiento,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,47
+FIAT,TORO PICK UP,CONFORT,Nueva consola central,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,48
+FIAT,TORO PICK UP,CONFORT,Nueva consola central,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,48
+FIAT,TORO PICK UP,CONFORT,Nueva consola central,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,48
+FIAT,TORO PICK UP,CONFORT,Freno de estacionamiento eléctrico + Auto Hold,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,49
+FIAT,TORO PICK UP,CONFORT,Freno de estacionamiento eléctrico + Auto Hold,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,49
+FIAT,TORO PICK UP,CONFORT,Freno de estacionamiento eléctrico + Auto Hold,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,49
+FIAT,TORO PICK UP,CONFORT,Dirección eléctrica asistida,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,50
+FIAT,TORO PICK UP,CONFORT,Dirección eléctrica asistida,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,50
+FIAT,TORO PICK UP,CONFORT,Dirección eléctrica asistida,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,50
+FIAT,TORO PICK UP,CONFORT,Volante tapizado forrado en cuero,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,51
+FIAT,TORO PICK UP,CONFORT,Volante tapizado forrado en cuero,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,51
+FIAT,TORO PICK UP,CONFORT,Volante tapizado forrado en cuero,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,51
+FIAT,TORO PICK UP,CONFORT,Volante regulable en altura y profundidad,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,52
+FIAT,TORO PICK UP,CONFORT,Volante regulable en altura y profundidad,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,52
+FIAT,TORO PICK UP,CONFORT,Volante regulable en altura y profundidad,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,52
+FIAT,TORO PICK UP,CONFORT,Levas al volante,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,53
+FIAT,TORO PICK UP,CONFORT,Levas al volante,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,53
+FIAT,TORO PICK UP,CONFORT,Levas al volante,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,53
+FIAT,TORO PICK UP,CONFORT,Control de velocidad crucero,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,54
+FIAT,TORO PICK UP,CONFORT,Control de velocidad crucero,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,54
+FIAT,TORO PICK UP,CONFORT,Control de velocidad crucero,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,54
+FIAT,TORO PICK UP,CONFORT,Limitador de velocidad,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,55
+FIAT,TORO PICK UP,CONFORT,Limitador de velocidad,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,55
+FIAT,TORO PICK UP,CONFORT,Limitador de velocidad,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,55
+FIAT,TORO PICK UP,CONFORT,Luz trasera de lectrura,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,56
+FIAT,TORO PICK UP,CONFORT,Luz trasera de lectrura,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,56
+FIAT,TORO PICK UP,CONFORT,Luz trasera de lectrura,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,56
+FIAT,TORO PICK UP,CONFORT,Luces ambientales LED,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,57
+FIAT,TORO PICK UP,CONFORT,Luces ambientales LED,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,57
+FIAT,TORO PICK UP,CONFORT,Luces ambientales LED,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,57
+FIAT,TORO PICK UP,CONFORT,Apertura eléctrica de la tapa de combustible,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,58
+FIAT,TORO PICK UP,CONFORT,Apertura eléctrica de la tapa de combustible,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,58
+FIAT,TORO PICK UP,CONFORT,Apertura eléctrica de la tapa de combustible,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,58
+FIAT,TORO PICK UP,CONFORT,Desempañador de luneta trasera,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,59
+FIAT,TORO PICK UP,CONFORT,Desempañador de luneta trasera,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,59
+FIAT,TORO PICK UP,CONFORT,Desempañador de luneta trasera,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,59
+FIAT,TORO PICK UP,SEGURIDAD,"7 Airbags (frontales, laterales, cortina y rodilla conductor)",FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,60
+FIAT,TORO PICK UP,SEGURIDAD,"7 Airbags (frontales, laterales, cortina y rodilla conductor)",VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,60
+FIAT,TORO PICK UP,SEGURIDAD,"7 Airbags (frontales, laterales, cortina y rodilla conductor)",VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,60
+FIAT,TORO PICK UP,SEGURIDAD,Alarma perimetral,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,61
+FIAT,TORO PICK UP,SEGURIDAD,Alarma perimetral,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,61
+FIAT,TORO PICK UP,SEGURIDAD,Alarma perimetral,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,61
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de frenos ABS con EBD,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,62
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de frenos ABS con EBD,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,62
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de frenos ABS con EBD,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,62
+FIAT,TORO PICK UP,SEGURIDAD,Alerta de cinturón de seguridad del conductor y acompañante,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,63
+FIAT,TORO PICK UP,SEGURIDAD,Alerta de cinturón de seguridad del conductor y acompañante,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,63
+FIAT,TORO PICK UP,SEGURIDAD,Alerta de cinturón de seguridad del conductor y acompañante,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,63
+FIAT,TORO PICK UP,SEGURIDAD,Alerta de cinturón de seguridad de pasajeros,FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,64
+FIAT,TORO PICK UP,SEGURIDAD,Alerta de cinturón de seguridad de pasajeros,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,64
+FIAT,TORO PICK UP,SEGURIDAD,Alerta de cinturón de seguridad de pasajeros,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,64
+FIAT,TORO PICK UP,SEGURIDAD,Control electrónico de estabilidad (ESC),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,65
+FIAT,TORO PICK UP,SEGURIDAD,Control electrónico de estabilidad (ESC),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,65
+FIAT,TORO PICK UP,SEGURIDAD,Control electrónico de estabilidad (ESC),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,65
+FIAT,TORO PICK UP,SEGURIDAD,Control de tracción avanzado (TC+),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,66
+FIAT,TORO PICK UP,SEGURIDAD,Control de tracción avanzado (TC+),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,66
+FIAT,TORO PICK UP,SEGURIDAD,Control de tracción avanzado (TC+),VOLCANO 2.2TD 4X4,no,2,local:fiat toro.pdf,66
+FIAT,TORO PICK UP,SEGURIDAD,Señal de frenado de emergicia (ESS),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,67
+FIAT,TORO PICK UP,SEGURIDAD,Señal de frenado de emergicia (ESS),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,67
+FIAT,TORO PICK UP,SEGURIDAD,Señal de frenado de emergicia (ESS),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,67
+FIAT,TORO PICK UP,SEGURIDAD,Sistema Torque Transfer Control (TTC),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,68
+FIAT,TORO PICK UP,SEGURIDAD,Sistema Torque Transfer Control (TTC),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,68
+FIAT,TORO PICK UP,SEGURIDAD,Sistema Torque Transfer Control (TTC),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,68
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,69
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,69
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,69
+FIAT,TORO PICK UP,SEGURIDAD,Control electrónico de descenso (HDC),FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,70
+FIAT,TORO PICK UP,SEGURIDAD,Control electrónico de descenso (HDC),VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,70
+FIAT,TORO PICK UP,SEGURIDAD,Control electrónico de descenso (HDC),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,70
+FIAT,TORO PICK UP,SEGURIDAD,Asistencia de permanencia de carril (LKA),FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,71
+FIAT,TORO PICK UP,SEGURIDAD,Asistencia de permanencia de carril (LKA),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,71
+FIAT,TORO PICK UP,SEGURIDAD,Asistencia de permanencia de carril (LKA),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,71
+FIAT,TORO PICK UP,SEGURIDAD,Asistente de frenado pre-colisión (AEB),FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,72
+FIAT,TORO PICK UP,SEGURIDAD,Asistente de frenado pre-colisión (AEB),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,72
+FIAT,TORO PICK UP,SEGURIDAD,Asistente de frenado pre-colisión (AEB),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,72
+FIAT,TORO PICK UP,SEGURIDAD,Detector de puntos ciegos,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,73
+FIAT,TORO PICK UP,SEGURIDAD,Detector de puntos ciegos,VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,73
+FIAT,TORO PICK UP,SEGURIDAD,Detector de puntos ciegos,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,73
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de Monitoreo de Presión de Neumáticos indirecto (iTPMS),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,74
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de Monitoreo de Presión de Neumáticos indirecto (iTPMS),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,74
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de Monitoreo de Presión de Neumáticos indirecto (iTPMS),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,74
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),FREEDOM 1.3T 4X2,si,0,local:fiat toro.pdf,75
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),VOLCANO 1.3T 4X2,si,1,local:fiat toro.pdf,75
+FIAT,TORO PICK UP,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,75
+FIAT,TORO PICK UP,SEGURIDAD,Protector de carter,FREEDOM 1.3T 4X2,no,0,local:fiat toro.pdf,76
+FIAT,TORO PICK UP,SEGURIDAD,Protector de carter,VOLCANO 1.3T 4X2,no,1,local:fiat toro.pdf,76
+FIAT,TORO PICK UP,SEGURIDAD,Protector de carter,VOLCANO 2.2TD 4X4,si,2,local:fiat toro.pdf,76

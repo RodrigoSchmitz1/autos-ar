@@ -1,0 +1,157 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+NISSAN,SENTRA,MOTOR,Modo de conducción ECO | Modo de manejo Sport,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,0
+NISSAN,SENTRA,MOTOR,Modo de conducción ECO | Modo de manejo Sport,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,0
+NISSAN,SENTRA,MOTOR,Modo de conducción ECO | Modo de manejo Sport,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,0
+NISSAN,SENTRA,COMFORT INTERIOR,Cierre centralizado de puertas,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,1
+NISSAN,SENTRA,COMFORT INTERIOR,Cierre centralizado de puertas,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,1
+NISSAN,SENTRA,COMFORT INTERIOR,Cierre centralizado de puertas,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,1
+NISSAN,SENTRA,COMFORT INTERIOR,Parasoles con espejo incluido para conductor y pasajero y luz,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,2
+NISSAN,SENTRA,COMFORT INTERIOR,Parasoles con espejo incluido para conductor y pasajero y luz,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,2
+NISSAN,SENTRA,COMFORT INTERIOR,Parasoles con espejo incluido para conductor y pasajero y luz,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,2
+NISSAN,SENTRA,COMFORT INTERIOR,Luz de baúl,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,3
+NISSAN,SENTRA,COMFORT INTERIOR,Luz de baúl,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,3
+NISSAN,SENTRA,COMFORT INTERIOR,Luz de baúl,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,3
+NISSAN,SENTRA,COMFORT INTERIOR,Levantavidrios eléctricos con apertura One Touch (conductor),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,4
+NISSAN,SENTRA,COMFORT INTERIOR,Levantavidrios eléctricos con apertura One Touch (conductor),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,4
+NISSAN,SENTRA,COMFORT INTERIOR,Levantavidrios eléctricos con apertura One Touch (conductor),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,4
+NISSAN,SENTRA,COMFORT INTERIOR,Asiento del conductor regulable en 6 posiciones,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,5
+NISSAN,SENTRA,COMFORT INTERIOR,Asiento del conductor regulable en 6 posiciones,SR,no,1,local:260317_sentra_my24_ficha_tecnica.pdf,5
+NISSAN,SENTRA,COMFORT INTERIOR,Asiento del conductor regulable en 6 posiciones,EXCLUSIVE,no,2,local:260317_sentra_my24_ficha_tecnica.pdf,5
+NISSAN,SENTRA,COMFORT INTERIOR,Asiento del conductor regulable en 8 posiciones electricamente,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,6
+NISSAN,SENTRA,COMFORT INTERIOR,Asiento del conductor regulable en 8 posiciones electricamente,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,6
+NISSAN,SENTRA,COMFORT INTERIOR,Asiento del conductor regulable en 8 posiciones electricamente,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,6
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos delanteros calefaccionados,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,7
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos delanteros calefaccionados,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,7
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos delanteros calefaccionados,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,7
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos tapizados en cuero sintético,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,8
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos tapizados en cuero sintético,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,8
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos tapizados en cuero sintético,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,8
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos delanteros y traseros con apoyacabezas regulables,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,9
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos delanteros y traseros con apoyacabezas regulables,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,9
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos delanteros y traseros con apoyacabezas regulables,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,9
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos traseros rebatibles 60:40,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,10
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos traseros rebatibles 60:40,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,10
+NISSAN,SENTRA,COMFORT INTERIOR,Asientos traseros rebatibles 60:40,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,10
+NISSAN,SENTRA,COMFORT INTERIOR,Apoyabrazos delantero para conductor,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,11
+NISSAN,SENTRA,COMFORT INTERIOR,Apoyabrazos delantero para conductor,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,11
+NISSAN,SENTRA,COMFORT INTERIOR,Apoyabrazos delantero para conductor,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,11
+NISSAN,SENTRA,COMFORT INTERIOR,Apoyabrazos central en asiento trasero con portavasos (2),ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,12
+NISSAN,SENTRA,COMFORT INTERIOR,Apoyabrazos central en asiento trasero con portavasos (2),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,12
+NISSAN,SENTRA,COMFORT INTERIOR,Apoyabrazos central en asiento trasero con portavasos (2),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,12
+NISSAN,SENTRA,COMFORT INTERIOR,Aire Acondicionado Automático Bi-zona,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,13
+NISSAN,SENTRA,COMFORT INTERIOR,Aire Acondicionado Automático Bi-zona,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,13
+NISSAN,SENTRA,COMFORT INTERIOR,Aire Acondicionado Automático Bi-zona,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,13
+NISSAN,SENTRA,COMFORT INTERIOR,Volante con ajuste telescopico y de altura,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,14
+NISSAN,SENTRA,COMFORT INTERIOR,Volante con ajuste telescopico y de altura,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,14
+NISSAN,SENTRA,COMFORT INTERIOR,Volante con ajuste telescopico y de altura,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,14
+NISSAN,SENTRA,COMFORT INTERIOR,Volante forrado en cuero,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,15
+NISSAN,SENTRA,COMFORT INTERIOR,Volante forrado en cuero,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,15
+NISSAN,SENTRA,COMFORT INTERIOR,Volante forrado en cuero,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,15
+NISSAN,SENTRA,COMFORT INTERIOR,Volante calefaccionado,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,16
+NISSAN,SENTRA,COMFORT INTERIOR,Volante calefaccionado,SR,no,1,local:260317_sentra_my24_ficha_tecnica.pdf,16
+NISSAN,SENTRA,COMFORT INTERIOR,Volante calefaccionado,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,16
+NISSAN,SENTRA,COMFORT INTERIOR,Levas al volante,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,17
+NISSAN,SENTRA,COMFORT INTERIOR,Levas al volante,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,17
+NISSAN,SENTRA,COMFORT INTERIOR,Levas al volante,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,17
+NISSAN,SENTRA,COMFORT INTERIOR,Freno de estacionamiento en pie,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,18
+NISSAN,SENTRA,COMFORT INTERIOR,Freno de estacionamiento en pie,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,18
+NISSAN,SENTRA,COMFORT INTERIOR,Freno de estacionamiento en pie,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,18
+NISSAN,SENTRA,DISEÑO EXTERIOR,Limpiaparabrisas intermitente con velocidad variable,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,19
+NISSAN,SENTRA,DISEÑO EXTERIOR,Limpiaparabrisas intermitente con velocidad variable,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,19
+NISSAN,SENTRA,DISEÑO EXTERIOR,Limpiaparabrisas intermitente con velocidad variable,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,19
+NISSAN,SENTRA,DISEÑO EXTERIOR,Espejos exteriores rebatibles eléctricamente,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,20
+NISSAN,SENTRA,DISEÑO EXTERIOR,Espejos exteriores rebatibles eléctricamente,SR,no,1,local:260317_sentra_my24_ficha_tecnica.pdf,20
+NISSAN,SENTRA,DISEÑO EXTERIOR,Espejos exteriores rebatibles eléctricamente,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,20
+NISSAN,SENTRA,DISEÑO EXTERIOR,Faros delanteros LED,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,21
+NISSAN,SENTRA,DISEÑO EXTERIOR,Faros delanteros LED,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,21
+NISSAN,SENTRA,DISEÑO EXTERIOR,Faros delanteros LED,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,21
+NISSAN,SENTRA,DISEÑO EXTERIOR,Luces de frenado LED,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,22
+NISSAN,SENTRA,DISEÑO EXTERIOR,Luces de frenado LED,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,22
+NISSAN,SENTRA,DISEÑO EXTERIOR,Luces de frenado LED,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,22
+NISSAN,SENTRA,DISEÑO EXTERIOR,Techo solar panorámico,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,23
+NISSAN,SENTRA,DISEÑO EXTERIOR,Techo solar panorámico,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,23
+NISSAN,SENTRA,DISEÑO EXTERIOR,Techo solar panorámico,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,23
+NISSAN,SENTRA,TECNOLOGÍA,"Llave inteligente iKey: función de apertura y cierre de puertas, y baúl",ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,24
+NISSAN,SENTRA,TECNOLOGÍA,"Llave inteligente iKey: función de apertura y cierre de puertas, y baúl",SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,24
+NISSAN,SENTRA,TECNOLOGÍA,"Llave inteligente iKey: función de apertura y cierre de puertas, y baúl",EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,24
+NISSAN,SENTRA,TECNOLOGÍA,Encendido remoto del motor,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,25
+NISSAN,SENTRA,TECNOLOGÍA,Encendido remoto del motor,SR,no,1,local:260317_sentra_my24_ficha_tecnica.pdf,25
+NISSAN,SENTRA,TECNOLOGÍA,Encendido remoto del motor,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,25
+NISSAN,SENTRA,TECNOLOGÍA,Botón de encendido y apagado de motor,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,26
+NISSAN,SENTRA,TECNOLOGÍA,Botón de encendido y apagado de motor,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,26
+NISSAN,SENTRA,TECNOLOGÍA,Botón de encendido y apagado de motor,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,26
+NISSAN,SENTRA,TECNOLOGÍA,6 altavoces,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,27
+NISSAN,SENTRA,TECNOLOGÍA,6 altavoces,SR,no,1,local:260317_sentra_my24_ficha_tecnica.pdf,27
+NISSAN,SENTRA,TECNOLOGÍA,6 altavoces,EXCLUSIVE,no,2,local:260317_sentra_my24_ficha_tecnica.pdf,27
+NISSAN,SENTRA,TECNOLOGÍA,8 altavoces + Audio Premium Bose ®,ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,28
+NISSAN,SENTRA,TECNOLOGÍA,8 altavoces + Audio Premium Bose ®,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,28
+NISSAN,SENTRA,TECNOLOGÍA,8 altavoces + Audio Premium Bose ®,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,28
+NISSAN,SENTRA,TECNOLOGÍA,USB (1 frontal & 2 consola central & 1 para asientos traseros) & 12V,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,29
+NISSAN,SENTRA,TECNOLOGÍA,USB (1 frontal & 2 consola central & 1 para asientos traseros) & 12V,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,29
+NISSAN,SENTRA,TECNOLOGÍA,USB (1 frontal & 2 consola central & 1 para asientos traseros) & 12V,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,29
+NISSAN,SENTRA,SEGURIDAD,Control de velocidad crucero,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,30
+NISSAN,SENTRA,SEGURIDAD,Control de velocidad crucero,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,30
+NISSAN,SENTRA,SEGURIDAD,Control de velocidad crucero,EXCLUSIVE,no,2,local:260317_sentra_my24_ficha_tecnica.pdf,30
+NISSAN,SENTRA,SEGURIDAD,Control de velocidad crucero inteligente (ICC),ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,31
+NISSAN,SENTRA,SEGURIDAD,Control de velocidad crucero inteligente (ICC),SR,no,1,local:260317_sentra_my24_ficha_tecnica.pdf,31
+NISSAN,SENTRA,SEGURIDAD,Control de velocidad crucero inteligente (ICC),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,31
+NISSAN,SENTRA,SEGURIDAD,Cinturones de seguridad delanteros retráctiles de 3 puntos (ELR),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,32
+NISSAN,SENTRA,SEGURIDAD,Cinturones de seguridad delanteros retráctiles de 3 puntos (ELR),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,32
+NISSAN,SENTRA,SEGURIDAD,Cinturones de seguridad delanteros retráctiles de 3 puntos (ELR),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,32
+NISSAN,SENTRA,SEGURIDAD,Cinturones de seguridad traseros retráctiles de 3 puntos (ELR),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,33
+NISSAN,SENTRA,SEGURIDAD,Cinturones de seguridad traseros retráctiles de 3 puntos (ELR),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,33
+NISSAN,SENTRA,SEGURIDAD,Cinturones de seguridad traseros retráctiles de 3 puntos (ELR),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,33
+NISSAN,SENTRA,SEGURIDAD,Sistema de anclaje para silla de bebé en asiento trasero (ISO-FIX),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,34
+NISSAN,SENTRA,SEGURIDAD,Sistema de anclaje para silla de bebé en asiento trasero (ISO-FIX),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,34
+NISSAN,SENTRA,SEGURIDAD,Sistema de anclaje para silla de bebé en asiento trasero (ISO-FIX),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,34
+NISSAN,SENTRA,SEGURIDAD,Sistema de Frenado Antibloqueo (ABS) con asistencia de frenado (BA),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,35
+NISSAN,SENTRA,SEGURIDAD,Sistema de Frenado Antibloqueo (ABS) con asistencia de frenado (BA),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,35
+NISSAN,SENTRA,SEGURIDAD,Sistema de Frenado Antibloqueo (ABS) con asistencia de frenado (BA),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,35
+NISSAN,SENTRA,SEGURIDAD,Distribución Eléctrica de Frenado (EBD),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,36
+NISSAN,SENTRA,SEGURIDAD,Distribución Eléctrica de Frenado (EBD),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,36
+NISSAN,SENTRA,SEGURIDAD,Distribución Eléctrica de Frenado (EBD),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,36
+NISSAN,SENTRA,SEGURIDAD,"Airbags frontales, laterales y tipo cortina",ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,37
+NISSAN,SENTRA,SEGURIDAD,"Airbags frontales, laterales y tipo cortina",SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,37
+NISSAN,SENTRA,SEGURIDAD,"Airbags frontales, laterales y tipo cortina",EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,37
+NISSAN,SENTRA,SEGURIDAD,Sistema antirrobo con inmobilizador y alarma,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,38
+NISSAN,SENTRA,SEGURIDAD,Sistema antirrobo con inmobilizador y alarma,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,38
+NISSAN,SENTRA,SEGURIDAD,Sistema antirrobo con inmobilizador y alarma,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,38
+NISSAN,SENTRA,SEGURIDAD,Recordatorio de cinturones de seguridad: asientos delanteros y traseros,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,39
+NISSAN,SENTRA,SEGURIDAD,Recordatorio de cinturones de seguridad: asientos delanteros y traseros,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,39
+NISSAN,SENTRA,SEGURIDAD,Recordatorio de cinturones de seguridad: asientos delanteros y traseros,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,39
+NISSAN,SENTRA,SEGURIDAD,Alerta de olvido en asiento trasero,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,40
+NISSAN,SENTRA,SEGURIDAD,Alerta de olvido en asiento trasero,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,40
+NISSAN,SENTRA,SEGURIDAD,Alerta de olvido en asiento trasero,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,40
+NISSAN,SENTRA,SEGURIDAD,Sensores delanteros y sensores de retroceso,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,41
+NISSAN,SENTRA,SEGURIDAD,Sensores delanteros y sensores de retroceso,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,41
+NISSAN,SENTRA,SEGURIDAD,Sensores delanteros y sensores de retroceso,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,41
+NISSAN,SENTRA,SEGURIDAD,Cámara trasera con detección de objetos en movimiento,ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,42
+NISSAN,SENTRA,SEGURIDAD,Cámara trasera con detección de objetos en movimiento,SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,42
+NISSAN,SENTRA,SEGURIDAD,Cámara trasera con detección de objetos en movimiento,EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,42
+NISSAN,SENTRA,SEGURIDAD,Frenado Inteligente de Emergencia (FEB),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,43
+NISSAN,SENTRA,SEGURIDAD,Frenado Inteligente de Emergencia (FEB),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,43
+NISSAN,SENTRA,SEGURIDAD,Frenado Inteligente de Emergencia (FEB),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,43
+NISSAN,SENTRA,SEGURIDAD,Alerta Inteligente de Colisión Frontal (PFCW),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,44
+NISSAN,SENTRA,SEGURIDAD,Alerta Inteligente de Colisión Frontal (PFCW),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,44
+NISSAN,SENTRA,SEGURIDAD,Alerta Inteligente de Colisión Frontal (PFCW),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,44
+NISSAN,SENTRA,SEGURIDAD,Alerta Inteligente de conductor (DAA),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,45
+NISSAN,SENTRA,SEGURIDAD,Alerta Inteligente de conductor (DAA),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,45
+NISSAN,SENTRA,SEGURIDAD,Alerta Inteligente de conductor (DAA),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,45
+NISSAN,SENTRA,SEGURIDAD,Alerta de Punto Ciego (BSW),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,46
+NISSAN,SENTRA,SEGURIDAD,Alerta de Punto Ciego (BSW),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,46
+NISSAN,SENTRA,SEGURIDAD,Alerta de Punto Ciego (BSW),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,46
+NISSAN,SENTRA,SEGURIDAD,Alerta de Tráfico Cruzado (RCTA),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,47
+NISSAN,SENTRA,SEGURIDAD,Alerta de Tráfico Cruzado (RCTA),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,47
+NISSAN,SENTRA,SEGURIDAD,Alerta de Tráfico Cruzado (RCTA),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,47
+NISSAN,SENTRA,SEGURIDAD,Alerta de cambio de carril (LDW),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,48
+NISSAN,SENTRA,SEGURIDAD,Alerta de cambio de carril (LDW),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,48
+NISSAN,SENTRA,SEGURIDAD,Alerta de cambio de carril (LDW),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,48
+NISSAN,SENTRA,SEGURIDAD,Intervención Inteligente de carril (LDP),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,49
+NISSAN,SENTRA,SEGURIDAD,Intervención Inteligente de carril (LDP),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,49
+NISSAN,SENTRA,SEGURIDAD,Intervención Inteligente de carril (LDP),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,49
+NISSAN,SENTRA,SEGURIDAD,Asitencia para luces altas (HBA),ADVANCE,si,0,local:260317_sentra_my24_ficha_tecnica.pdf,50
+NISSAN,SENTRA,SEGURIDAD,Asitencia para luces altas (HBA),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,50
+NISSAN,SENTRA,SEGURIDAD,Asitencia para luces altas (HBA),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,50
+NISSAN,SENTRA,SEGURIDAD,Detección de presión de neumáticos (TPMS),ADVANCE,no,0,local:260317_sentra_my24_ficha_tecnica.pdf,51
+NISSAN,SENTRA,SEGURIDAD,Detección de presión de neumáticos (TPMS),SR,si,1,local:260317_sentra_my24_ficha_tecnica.pdf,51
+NISSAN,SENTRA,SEGURIDAD,Detección de presión de neumáticos (TPMS),EXCLUSIVE,si,2,local:260317_sentra_my24_ficha_tecnica.pdf,51

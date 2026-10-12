@@ -6,7 +6,7 @@
 import { calcular, componentes, proporcionConservada } from "./costo.js";
 import { cargar, objetos, pesos, numero, millones, decimal, el, coincide, normalizar, pie } from "./comun.js";
 import { cargarFotos, foto, recorte } from "./autos.js";
-import { seccionEquipamiento } from "./equipamiento.js";
+import { seccionEquipamiento, fichaDe } from "./equipamiento.js";
 import { nombreFamilia } from "./respuesta.js";
 
 const MAXIMO = 4;
@@ -89,8 +89,10 @@ function tarjetaAgregar() {
     const encontradas = [...familias.values()].filter((f) => !ya.has(f.clave) &&
       (coincide(`${f.marca} ${f.familia}`, q) || f.versiones.some((x) => coincide(`${x.marca} ${x.modelo}`, q)))).slice(0, 8);
     for (const f of encontradas) {
-      // Si lo buscado nombra una version ("cronos drive"), esa; si no, la mas vendida.
-      const v = f.versiones.find((x) => coincide(`${x.marca} ${x.modelo}`, q) && normalizar(q).split(/\s+/).length > 1) || f.versiones[0];
+      // Si lo buscado nombra una version ("cronos drive"), esa; si no, la mas vendida
+      // que figura en la ficha de equipamiento (para poder comparar que trae).
+      const v = f.versiones.find((x) => coincide(`${x.marca} ${x.modelo}`, q) && normalizar(q).split(/\s+/).length > 1)
+        || f.versiones.find((x) => fichaDe(x, equipamiento)) || f.versiones[0];
       lista.append(el("li", { role: "option", onclick: () => { elegidas.push(v); dibujar(); } },
         foto(f.marca, f.familia, "mini"), el("span", { text: nombreFamilia(f.marca, f.familia) })));
     }
@@ -272,9 +274,11 @@ async function iniciar() {
   for (const campo of ["km", "anios", "seguro"]) if (p.get(campo)) $(campo).value = p.get(campo);
   $("originales").checked = p.get("orig") === "1";
   const ids = (p.get("v") || "").split(",").filter(Boolean);
-  // Sin elegidas: los tres mas vendidos que tienen todos los datos.
+  // Sin elegidas: los tres mas vendidos que tienen todos los datos (y ficha de
+  // equipamiento, si alguna version la tiene).
+  const completa = (v) => calcular(componentes(v, "06", datos.precio_litro)).completo;
   elegidas = ids.length ? ids.map((id) => versiones.find((v) => v.id === id)).filter(Boolean)
-    : [...familias.values()].map((f) => f.versiones.find((v) => calcular(componentes(v, "06", datos.precio_litro)).completo))
+    : [...familias.values()].map((f) => f.versiones.find((v) => completa(v) && fichaDe(v, equipamiento)) || f.versiones.find(completa))
       .filter(Boolean).slice(0, 3);
   for (const id of ["provincia", "km", "anios", "seguro", "originales"]) $(id).addEventListener("input", dibujar);
   dibujar();

@@ -1,0 +1,136 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+BYD,SHARK DMO,,Tipo de propulsión Híbrido enchufable,GS,si,0,local:BYD-SHARK-ARG.pdf,0
+BYD,SHARK DMO,,Modo de conducción 4WD inteligente,GS,si,0,local:BYD-SHARK-ARG.pdf,1
+BYD,SHARK DMO,,Capacidad de la batería 29.6 kWh,GS,si,0,local:BYD-SHARK-ARG.pdf,2
+BYD,SHARK DMO,,Enfriamiento directo,GS,si,0,local:BYD-SHARK-ARG.pdf,3
+BYD,SHARK DMO,,Gestión de baterías Calentamiento de membrana,GS,si,0,local:BYD-SHARK-ARG.pdf,4
+BYD,SHARK DMO,,Auto-calentamiento,GS,si,0,local:BYD-SHARK-ARG.pdf,5
+BYD,SHARK DMO,,Estándar de carga CCS2,GS,si,0,local:BYD-SHARK-ARG.pdf,6
+BYD,SHARK DMO,,Conector de carga Cargador portátil AC,GS,si,0,local:BYD-SHARK-ARG.pdf,7
+BYD,SHARK DMO,,Reserva de carga inteligente Carga programable,GS,si,0,local:BYD-SHARK-ARG.pdf,8
+BYD,SHARK DMO,,Estribo lateral exterior,GS,si,0,local:BYD-SHARK-ARG.pdf,9
+BYD,SHARK DMO,,Barras porta equipajes Barras porta equipajes de aluminio,GS,si,0,local:BYD-SHARK-ARG.pdf,10
+BYD,SHARK DMO,,Antena Antena tipo Shark,GS,si,0,local:BYD-SHARK-ARG.pdf,11
+BYD,SHARK DMO,,Apertura de la caja de carga Apertura eléctrica y manual,GS,si,0,local:BYD-SHARK-ARG.pdf,12
+BYD,SHARK DMO,,Neumático de repuesto Neumático de repuesto homogéneo,GS,si,0,local:BYD-SHARK-ARG.pdf,13
+BYD,SHARK DMO,,Ubicación del neumático de repuesto Bajo el chasis externo,GS,si,0,local:BYD-SHARK-ARG.pdf,14
+BYD,SHARK DMO,,Protección del chasis Protector inferior del chasis completo,GS,si,0,local:BYD-SHARK-ARG.pdf,15
+BYD,SHARK DMO,,Estilo del volante Volante de tres radios,GS,si,0,local:BYD-SHARK-ARG.pdf,16
+BYD,SHARK DMO,,Material del volante Simil cuero,GS,si,0,local:BYD-SHARK-ARG.pdf,17
+BYD,SHARK DMO,,Control de crucero adaptativo,GS,si,0,local:BYD-SHARK-ARG.pdf,18
+BYD,SHARK DMO,,Botón de teléfono Bluetooth,GS,si,0,local:BYD-SHARK-ARG.pdf,19
+BYD,SHARK DMO,,Funciones del volante Botón de reconocimiento de voz,GS,si,0,local:BYD-SHARK-ARG.pdf,20
+BYD,SHARK DMO,,Botón de control panel de instrumentos,GS,si,0,local:BYD-SHARK-ARG.pdf,21
+BYD,SHARK DMO,,Botón de imagen panorámica,GS,si,0,local:BYD-SHARK-ARG.pdf,22
+BYD,SHARK DMO,,Cuadro de instrumento Digital de 10.25 pulgadas,GS,si,0,local:BYD-SHARK-ARG.pdf,23
+BYD,SHARK DMO,,Estuche para gafas Estuche para gafas en el techo,GS,si,0,local:BYD-SHARK-ARG.pdf,24
+BYD,SHARK DMO,,Carga inalámbrica de teléfono celular Ultra rápida de 50W,GS,si,0,local:BYD-SHARK-ARG.pdf,25
+BYD,SHARK DMO,,Visera parasol Visera parasol del conductor con espejo de vanidad (iluminado),GS,si,0,local:BYD-SHARK-ARG.pdf,26
+BYD,SHARK DMO,,Visera parasol del pasajero Visera parasol del pasajero con espejo de vanidad (iluminado),GS,si,0,local:BYD-SHARK-ARG.pdf,27
+BYD,SHARK DMO,,Paneles de puerta delanteros con material soft,GS,si,0,local:BYD-SHARK-ARG.pdf,28
+BYD,SHARK DMO,,Apoyabrazos de puerta con revestimiento soft,GS,si,0,local:BYD-SHARK-ARG.pdf,29
+BYD,SHARK DMO,,Apoyabrazos trasero,GS,si,0,local:BYD-SHARK-ARG.pdf,30
+BYD,SHARK DMO,,Tipo de desbloqueo de la guantera Desbloqueo manual,GS,si,0,local:BYD-SHARK-ARG.pdf,31
+BYD,SHARK DMO,,Toma de corriente AC 220V,GS,si,0,local:BYD-SHARK-ARG.pdf,32
+BYD,SHARK DMO,,Toma de corriente 12V,GS,si,0,local:BYD-SHARK-ARG.pdf,33
+BYD,SHARK DMO,,Suspensión delantera Independiente doble horquilla,GS,si,0,local:BYD-SHARK-ARG.pdf,34
+BYD,SHARK DMO,,Suspensión trasera Independiente doble horquilla,GS,si,0,local:BYD-SHARK-ARG.pdf,35
+BYD,SHARK DMO,,Encendido remoto del vehículo con llave,GS,si,0,local:BYD-SHARK-ARG.pdf,36
+BYD,SHARK DMO,,Encendido remoto del aire acondicionado,GS,si,0,local:BYD-SHARK-ARG.pdf,37
+BYD,SHARK DMO,,Función de control remoto Apertura de puertas y ventanillas,GS,si,0,local:BYD-SHARK-ARG.pdf,38
+BYD,SHARK DMO,,Bocina y luces,GS,si,0,local:BYD-SHARK-ARG.pdf,39
+BYD,SHARK DMO,,Geolocalización,GS,si,0,local:BYD-SHARK-ARG.pdf,40
+BYD,SHARK DMO,,Entrada inteligente Entrada sin llave,GS,si,0,local:BYD-SHARK-ARG.pdf,41
+BYD,SHARK DMO,,Inicio inteligente Encendido sin llave por botón,GS,si,0,local:BYD-SHARK-ARG.pdf,42
+BYD,SHARK DMO,,Sistema de dirección Dirección asistida eléctricamente (R-EPS) de cremallera y piñón,GS,si,0,local:BYD-SHARK-ARG.pdf,43
+BYD,SHARK DMO,,Ajuste del volante Ajuste manual de 4 direcciones,GS,si,0,local:BYD-SHARK-ARG.pdf,44
+BYD,SHARK DMO,,"Columna de dirección colapsable Columna de dirección absorbente de energía, colapsable",GS,si,0,local:BYD-SHARK-ARG.pdf,45
+BYD,SHARK DMO,,Modo deportivo,GS,si,0,local:BYD-SHARK-ARG.pdf,46
+BYD,SHARK DMO,,Modo de conducción Modo normal,GS,si,0,local:BYD-SHARK-ARG.pdf,47
+BYD,SHARK DMO,,Modo eco,GS,si,0,local:BYD-SHARK-ARG.pdf,48
+BYD,SHARK DMO,,Modo lodo,GS,si,0,local:BYD-SHARK-ARG.pdf,49
+BYD,SHARK DMO,,Modo montaña,GS,si,0,local:BYD-SHARK-ARG.pdf,50
+BYD,SHARK DMO,,Sistema de recuperación de energía de frenado Sistema inteligente de coordinación de frenado,GS,si,0,local:BYD-SHARK-ARG.pdf,51
+BYD,SHARK DMO,,Airbag frontal conductor,GS,si,0,local:BYD-SHARK-ARG.pdf,52
+BYD,SHARK DMO,,Cortinas de aire integradas delanteras y traseras,GS,si,0,local:BYD-SHARK-ARG.pdf,53
+BYD,SHARK DMO,,Cinturones de seguridad con pretensores y limitación de fuerza,GS,si,0,local:BYD-SHARK-ARG.pdf,54
+BYD,SHARK DMO,,Cinturones de seguridad traseros Cinturones de seguridad tra c s e e n ro t s ra s l in pretensión en el asiento,GS,si,0,local:BYD-SHARK-ARG.pdf,55
+BYD,SHARK DMO,,Alarma de cinturón desabrochado para el conductor,GS,si,0,local:BYD-SHARK-ARG.pdf,56
+BYD,SHARK DMO,,Alarma de cinturón desabrochado Alarma de cinturón desabrochado para el pasajero,GS,si,0,local:BYD-SHARK-ARG.pdf,57
+BYD,SHARK DMO,,Sistema de frenado inteligente,GS,si,0,local:BYD-SHARK-ARG.pdf,58
+BYD,SHARK DMO,,Asistencia de frenado hidráulico (HBA),GS,si,0,local:BYD-SHARK-ARG.pdf,59
+BYD,SHARK DMO,,Control de desaceleración del freno de estacionamiento (CDP),GS,si,0,local:BYD-SHARK-ARG.pdf,60
+BYD,SHARK DMO,,Sistema de control dinámico del vehículo (VDC),GS,si,0,local:BYD-SHARK-ARG.pdf,61
+BYD,SHARK DMO,,Distribución electrónica de la fuerza de frenado (EBD),GS,si,0,local:BYD-SHARK-ARG.pdf,62
+BYD,SHARK DMO,,Sistemas de asistencia de seguridad Sistema de control de arranque en pendiente (HHC),GS,si,0,local:BYD-SHARK-ARG.pdf,63
+BYD,SHARK DMO,,Función de frenado de confort (CST),GS,si,0,local:BYD-SHARK-ARG.pdf,64
+BYD,SHARK DMO,,Sistema de frenado regenerativo coordinado (CRBS),GS,si,0,local:BYD-SHARK-ARG.pdf,65
+BYD,SHARK DMO,,Sistema de prevención de vuelco (RMI),GS,si,0,local:BYD-SHARK-ARG.pdf,66
+BYD,SHARK DMO,,Control de descenso en pendientes (HDC),GS,si,0,local:BYD-SHARK-ARG.pdf,67
+BYD,SHARK DMO,,Sistema de control de tracción distribuida (DTCS),GS,si,0,local:BYD-SHARK-ARG.pdf,68
+BYD,SHARK DMO,,Detector de punto ciego (BSD),GS,si,0,local:BYD-SHARK-ARG.pdf,69
+BYD,SHARK DMO,,Advertencia de puerta abierta (DOW),GS,si,0,local:BYD-SHARK-ARG.pdf,70
+BYD,SHARK DMO,,Control de crucero adaptativo (ACC),GS,si,0,local:BYD-SHARK-ARG.pdf,71
+BYD,SHARK DMO,,Control de crucero inteligente (ICC),GS,si,0,local:BYD-SHARK-ARG.pdf,72
+BYD,SHARK DMO,,Advertencia de colisión frontal (FCW),GS,si,0,local:BYD-SHARK-ARG.pdf,73
+BYD,SHARK DMO,,Advertencia de colisión trasera (RCW),GS,si,0,local:BYD-SHARK-ARG.pdf,74
+BYD,SHARK DMO,,Advertencia de salida de carril (LDW),GS,si,0,local:BYD-SHARK-ARG.pdf,75
+BYD,SHARK DMO,,Advertencia de cambio de carril por punto ciego (LCW),GS,si,0,local:BYD-SHARK-ARG.pdf,76
+BYD,SHARK DMO,,Asistencia de salida de carril de emergencia (ELKA),GS,si,0,local:BYD-SHARK-ARG.pdf,77
+BYD,SHARK DMO,,Control automático de luces altas (IHBC),GS,si,0,local:BYD-SHARK-ARG.pdf,78
+BYD,SHARK DMO,,Frenado de emergencia automático (AEB),GS,si,0,local:BYD-SHARK-ARG.pdf,79
+BYD,SHARK DMO,,Radares de estacionamiento Sensores de estacionamiento delantero (2),GS,si,0,local:BYD-SHARK-ARG.pdf,80
+BYD,SHARK DMO,,Sensores de estacionamiento trasero (4),GS,si,0,local:BYD-SHARK-ARG.pdf,81
+BYD,SHARK DMO,,Sistema de monitoreo de presión de n uemáticos Sistema directo de monitoreo de presión de neumáticos,GS,si,0,local:BYD-SHARK-ARG.pdf,82
+BYD,SHARK DMO,,Bloqueo de seguridad infantil Bloqueo de seguridad infantil mecánico,GS,si,0,local:BYD-SHARK-ARG.pdf,83
+BYD,SHARK DMO,,Clip de extracción de cubierta de tuercas de llantas,GS,si,0,local:BYD-SHARK-ARG.pdf,84
+BYD,SHARK DMO,,Crique mecánico,GS,si,0,local:BYD-SHARK-ARG.pdf,85
+BYD,SHARK DMO,,Material del asiento Simil cuero,GS,si,0,local:BYD-SHARK-ARG.pdf,86
+BYD,SHARK DMO,,Plegado del asiento,GS,si,0,local:BYD-SHARK-ARG.pdf,87
+BYD,SHARK DMO,,Asiento del conductor ajustable eléctricamente en 6 direcciones,GS,si,0,local:BYD-SHARK-ARG.pdf,88
+BYD,SHARK DMO,,Asiento del conductor con calefacción,GS,si,0,local:BYD-SHARK-ARG.pdf,89
+BYD,SHARK DMO,,Soporte lumbar ajustable eléctricamente en 4 direcciones,GS,si,0,local:BYD-SHARK-ARG.pdf,90
+BYD,SHARK DMO,,Asiento del pasajero ajustable eléctricamente en 4 direcciones,GS,si,0,local:BYD-SHARK-ARG.pdf,91
+BYD,SHARK DMO,,Asiento del pasajero Asiento del pasajero con calefacción,GS,si,0,local:BYD-SHARK-ARG.pdf,92
+BYD,SHARK DMO,,Asiento del pasajero con ventilación,GS,si,0,local:BYD-SHARK-ARG.pdf,93
+BYD,SHARK DMO,,Apoyacabezas ajustable en altura para el asiento del pasajero,GS,si,0,local:BYD-SHARK-ARG.pdf,94
+BYD,SHARK DMO,,Apoyacabezas ajustables en altura para los asientos de la segunda fila,GS,si,0,local:BYD-SHARK-ARG.pdf,95
+BYD,SHARK DMO,,Reclinación de hasta 27 grados,GS,si,0,local:BYD-SHARK-ARG.pdf,96
+BYD,SHARK DMO,,Anclajes para sillas de niños Anclajes para sillas de niños ISO-FIX,GS,si,0,local:BYD-SHARK-ARG.pdf,97
+BYD,SHARK DMO,,Sistema de cabina inteligente BYD Sistema de cabina inteligente BYD,GS,si,0,local:BYD-SHARK-ARG.pdf,98
+BYD,SHARK DMO,,"Sistente inteligente de comandos de voz ""Hi BYD"" Interacción de voz de doble zona",GS,si,0,local:BYD-SHARK-ARG.pdf,99
+BYD,SHARK DMO,,Actualización Remota OTA,GS,si,0,local:BYD-SHARK-ARG.pdf,100
+BYD,SHARK DMO,,Servicio en la Nube,GS,si,0,local:BYD-SHARK-ARG.pdf,101
+BYD,SHARK DMO,,Conexión de Red Compatible con Conexión de Red 4G,GS,si,0,local:BYD-SHARK-ARG.pdf,102
+BYD,SHARK DMO,,Altavoces 8 altavoces,GS,si,0,local:BYD-SHARK-ARG.pdf,103
+BYD,SHARK DMO,,Audio Sonido Dirac,GS,si,0,local:BYD-SHARK-ARG.pdf,104
+BYD,SHARK DMO,,Ajuste de faros Ajuste manual de altura de los faros,GS,si,0,local:BYD-SHARK-ARG.pdf,105
+BYD,SHARK DMO,,Luces de giro,GS,si,0,local:BYD-SHARK-ARG.pdf,106
+BYD,SHARK DMO,,Encendido automático de los faros,GS,si,0,local:BYD-SHARK-ARG.pdf,107
+BYD,SHARK DMO,,Asistencia de iluminación Luces de acompañam a i p e a n g to a d fu o n r c e i t ó a n rd d a e d e o ncendido anticipado/,GS,si,0,local:BYD-SHARK-ARG.pdf,108
+BYD,SHARK DMO,,Luces diurnas (LED),GS,si,0,local:BYD-SHARK-ARG.pdf,109
+BYD,SHARK DMO,,Luz de freno elevada (LED) Luz de freno elevada (LED),GS,si,0,local:BYD-SHARK-ARG.pdf,110
+BYD,SHARK DMO,,Luz de puerto de carga (un solo color) Luz de puerto de carga (un solo color),GS,si,0,local:BYD-SHARK-ARG.pdf,111
+BYD,SHARK DMO,,Luz ambiental para los pies del conductor,GS,si,0,local:BYD-SHARK-ARG.pdf,112
+BYD,SHARK DMO,,Iluminación Interior Luz ambiental para los pies del pasajero,GS,si,0,local:BYD-SHARK-ARG.pdf,113
+BYD,SHARK DMO,,Luz de guantera,GS,si,0,local:BYD-SHARK-ARG.pdf,114
+BYD,SHARK DMO,,Luces de la puerta Luces de cortesía en las cuatro puertas (LED),GS,si,0,local:BYD-SHARK-ARG.pdf,115
+BYD,SHARK DMO,,Desempañador y descongelador de Desempañador de parabrisas delantero,GS,si,0,local:BYD-SHARK-ARG.pdf,116
+BYD,SHARK DMO,,parabrisas Desempañador eléctrico y descongelador de cristal trasero,GS,si,0,local:BYD-SHARK-ARG.pdf,117
+BYD,SHARK DMO,,Cristales con función One-touch Levantavidrios de p a u r n a s l o o l s o c t u o a q t u ro e c c r o is n t a fu le n s ción anti pellizco,GS,si,0,local:BYD-SHARK-ARG.pdf,118
+BYD,SHARK DMO,,Espejos exteriores del color de la carrocería,GS,si,0,local:BYD-SHARK-ARG.pdf,119
+BYD,SHARK DMO,,Espejos laterales ajustables eléctricamente,GS,si,0,local:BYD-SHARK-ARG.pdf,120
+BYD,SHARK DMO,,Espejos con calefacción y descongelamiento,GS,si,0,local:BYD-SHARK-ARG.pdf,121
+BYD,SHARK DMO,,Luces indicadoras de giro en espejos exteriores,GS,si,0,local:BYD-SHARK-ARG.pdf,122
+BYD,SHARK DMO,,Luces de espejo exterior,GS,si,0,local:BYD-SHARK-ARG.pdf,123
+BYD,SHARK DMO,,Indicador de punto ciego en espejo retrovisor exterior,GS,si,0,local:BYD-SHARK-ARG.pdf,124
+BYD,SHARK DMO,,Espejo retrovisor interior Anti-deslumbramiento automático,GS,si,0,local:BYD-SHARK-ARG.pdf,125
+BYD,SHARK DMO,,Control de aire acondicionado Aire acondicionado automático,GS,si,0,local:BYD-SHARK-ARG.pdf,126
+BYD,SHARK DMO,,Control de zona de temperatura Control de zona de temperatura dual,GS,si,0,local:BYD-SHARK-ARG.pdf,127
+BYD,SHARK DMO,,Generador de iones negativos,GS,si,0,local:BYD-SHARK-ARG.pdf,128
+BYD,SHARK DMO,,Sistema de calefacción de aire Calefacción eléctrica,GS,si,0,local:BYD-SHARK-ARG.pdf,129
+BYD,SHARK DMO,,acondicionado Calor residual del motor,GS,si,0,local:BYD-SHARK-ARG.pdf,130
+BYD,SHARK DMO,,Conector de energía en la caja de carga,GS,si,0,local:BYD-SHARK-ARG.pdf,131
+BYD,SHARK DMO,,Protector de caja,GS,si,0,local:BYD-SHARK-ARG.pdf,132
+BYD,SHARK DMO,,Portón trasero Escalera retractil para acceso a la caja de carga,GS,si,0,local:BYD-SHARK-ARG.pdf,133
+BYD,SHARK DMO,,Gancho para remolque con conexión eléctrica,GS,si,0,local:BYD-SHARK-ARG.pdf,134

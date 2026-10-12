@@ -1,0 +1,68 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+RENAULT,BOREAL,Especificaciones técnicas,tipo de gas refrigerante 1234YF,EVOLUTION,si,0,local:BOREAL evolution.pdf,0
+RENAULT,BOREAL,Especificaciones técnicas,arquitectura electrónica SWEET400,EVOLUTION,si,0,local:BOREAL evolution.pdf,1
+RENAULT,BOREAL,Especificaciones técnicas,motor 1.3TCe (HR13DDT),EVOLUTION,si,0,local:BOREAL evolution.pdf,2
+RENAULT,BOREAL,Especificaciones técnicas,potencia del motor principal: 115kW / 163CV,EVOLUTION,si,0,local:BOREAL evolution.pdf,3
+RENAULT,BOREAL,Especificaciones técnicas,transmisión de doble embrague húmedo (EDC) de 6,EVOLUTION,si,0,local:BOREAL evolution.pdf,4
+RENAULT,BOREAL,Especificaciones técnicas,velocidades,EVOLUTION,si,0,local:BOREAL evolution.pdf,5
+RENAULT,BOREAL,Confort,"llave tarjeta con apertura de puertas presencial ""keyless""",EVOLUTION,si,0,local:BOREAL evolution.pdf,6
+RENAULT,BOREAL,Confort,freno de estacionamiento eléctrico asistido,EVOLUTION,si,0,local:BOREAL evolution.pdf,7
+RENAULT,BOREAL,Confort,cierre centralizado de las puertas y vidrios con comando a,EVOLUTION,si,0,local:BOREAL evolution.pdf,8
+RENAULT,BOREAL,Confort,regulación de asientos delanteros manual en 6 direcciones,EVOLUTION,si,0,local:BOREAL evolution.pdf,9
+RENAULT,BOREAL,Confort,distancia,EVOLUTION,si,0,local:BOREAL evolution.pdf,10
+RENAULT,BOREAL,Confort,reconocimiento de señales de tránsito (TSR) con alerta de,EVOLUTION,si,0,local:BOREAL evolution.pdf,11
+RENAULT,BOREAL,Confort,baúl con sistema de doble fondo,EVOLUTION,si,0,local:BOREAL evolution.pdf,12
+RENAULT,BOREAL,Confort,exceso de velocidad (OSP),EVOLUTION,si,0,local:BOREAL evolution.pdf,13
+RENAULT,BOREAL,Confort,indicador de cambio de marcha (GSI),EVOLUTION,si,0,local:BOREAL evolution.pdf,14
+RENAULT,BOREAL,Confort,aire acondicionado digital automático bi-zona,EVOLUTION,si,0,local:BOREAL evolution.pdf,15
+RENAULT,BOREAL,Confort,apertura manual del baúl,EVOLUTION,si,0,local:BOREAL evolution.pdf,16
+RENAULT,BOREAL,Confort,espejos retrovisores eléctricos con auto-folding,EVOLUTION,si,0,local:BOREAL evolution.pdf,17
+RENAULT,BOREAL,Confort,levantavidrios traseros eléctricos one-touch con,EVOLUTION,si,0,local:BOREAL evolution.pdf,18
+RENAULT,BOREAL,Confort,sensor de lluvia + sensor crepuscular,EVOLUTION,si,0,local:BOREAL evolution.pdf,19
+RENAULT,BOREAL,Confort,antipinzamiento,EVOLUTION,si,0,local:BOREAL evolution.pdf,20
+RENAULT,BOREAL,Confort,consola central alta con almacenamiento refrigerado bajo el,EVOLUTION,si,0,local:BOREAL evolution.pdf,21
+RENAULT,BOREAL,Confort,levantavidrios delanteros eléctricos one-touch con,EVOLUTION,si,0,local:BOREAL evolution.pdf,22
+RENAULT,BOREAL,Confort,apoyabrazos,EVOLUTION,si,0,local:BOREAL evolution.pdf,23
+RENAULT,BOREAL,Confort,"asientos traseros rebatibles tipo ""60-40"" con sistema ""easy-",EVOLUTION,si,0,local:BOREAL evolution.pdf,24
+RENAULT,BOREAL,Confort,espejo retovisor central electrocrómico,EVOLUTION,si,0,local:BOREAL evolution.pdf,25
+RENAULT,BOREAL,Confort,"fold""",EVOLUTION,si,0,local:BOREAL evolution.pdf,26
+RENAULT,BOREAL,Confort,cámara de estacionamiento trasera,EVOLUTION,si,0,local:BOREAL evolution.pdf,27
+RENAULT,BOREAL,Confort,control de velocidad crucero adaptativo (ACC) + Stop&Go,EVOLUTION,si,0,local:BOREAL evolution.pdf,28
+RENAULT,BOREAL,Confort,volante regulable en altura y profundidad,EVOLUTION,si,0,local:BOREAL evolution.pdf,29
+RENAULT,BOREAL,Tecnología,pantalla multimedia 10'' + sistema de audio Arkamys®,EVOLUTION,si,0,local:BOREAL evolution.pdf,30
+RENAULT,BOREAL,Tecnología,modo de conducción ECO,EVOLUTION,si,0,local:BOREAL evolution.pdf,31
+RENAULT,BOREAL,Auditorium con 6 parlantes,cargador de smartphone por inducción,EVOLUTION,si,0,local:BOREAL evolution.pdf,32
+RENAULT,BOREAL,Auditorium con 6 parlantes,cluster digital de 7'' con relojes analógicos,EVOLUTION,si,0,local:BOREAL evolution.pdf,33
+RENAULT,BOREAL,Seguridad,tercera luz de freno,EVOLUTION,si,0,local:BOREAL evolution.pdf,34
+RENAULT,BOREAL,Seguridad,cinturones de seguridad traseros con pretensores,EVOLUTION,si,0,local:BOREAL evolution.pdf,35
+RENAULT,BOREAL,Seguridad,cinturón de seguridad de tres puntos en asiento trasero,EVOLUTION,si,0,local:BOREAL evolution.pdf,36
+RENAULT,BOREAL,Seguridad,sistema de antibloqueo de los frenos (ABS),EVOLUTION,si,0,local:BOREAL evolution.pdf,37
+RENAULT,BOREAL,Seguridad,central,EVOLUTION,si,0,local:BOREAL evolution.pdf,38
+RENAULT,BOREAL,Seguridad,airbag frontal conductor y pasajero,EVOLUTION,si,0,local:BOREAL evolution.pdf,39
+RENAULT,BOREAL,Seguridad,recordatorio de cinturón de seguridad en todas las plazas,EVOLUTION,si,0,local:BOREAL evolution.pdf,40
+RENAULT,BOREAL,Seguridad,airbags laterales y de cortina,EVOLUTION,si,0,local:BOREAL evolution.pdf,41
+RENAULT,BOREAL,Seguridad,(SBR),EVOLUTION,si,0,local:BOREAL evolution.pdf,42
+RENAULT,BOREAL,Seguridad,asistencia de frenado de emergencia (AFU) con encendido,EVOLUTION,si,0,local:BOREAL evolution.pdf,43
+RENAULT,BOREAL,Seguridad,anclajes isofix + top tether,EVOLUTION,si,0,local:BOREAL evolution.pdf,44
+RENAULT,BOREAL,Seguridad,automático de luces,EVOLUTION,si,0,local:BOREAL evolution.pdf,45
+RENAULT,BOREAL,Seguridad,alerta de colisión frontal (FCW),EVOLUTION,si,0,local:BOREAL evolution.pdf,46
+RENAULT,BOREAL,Seguridad,frenado autónomo de emergencia (AEBS) con detección de,EVOLUTION,si,0,local:BOREAL evolution.pdf,47
+RENAULT,BOREAL,Seguridad,cinturones de seguridad delanteros regulables en altura,EVOLUTION,si,0,local:BOREAL evolution.pdf,48
+RENAULT,BOREAL,Seguridad,ciclistas y peatones,EVOLUTION,si,0,local:BOREAL evolution.pdf,49
+RENAULT,BOREAL,Seguridad,detector de fatiga del conductor (DDAWA),EVOLUTION,si,0,local:BOREAL evolution.pdf,50
+RENAULT,BOREAL,Seguridad,apoyacabezas traseros regulables en altura (3),EVOLUTION,si,0,local:BOREAL evolution.pdf,51
+RENAULT,BOREAL,Seguridad,asistente de mantenimiento de carril de emergencia (eLKA),EVOLUTION,si,0,local:BOREAL evolution.pdf,52
+RENAULT,BOREAL,Seguridad,luces de giro integradas en espejos retrovisores,EVOLUTION,si,0,local:BOREAL evolution.pdf,53
+RENAULT,BOREAL,Seguridad,control dinámico vehicular (VDC) + asistente de arranque en,EVOLUTION,si,0,local:BOREAL evolution.pdf,54
+RENAULT,BOREAL,Seguridad,luces antinieblas traseras,EVOLUTION,si,0,local:BOREAL evolution.pdf,55
+RENAULT,BOREAL,Seguridad,pendientes (HSA),EVOLUTION,si,0,local:BOREAL evolution.pdf,56
+RENAULT,BOREAL,Seguridad,cinturones de seguridad delanteros con pretensores,EVOLUTION,si,0,local:BOREAL evolution.pdf,57
+RENAULT,BOREAL,Seguridad,monitoreo indirecto de presión de los neumáticos (TPMS),EVOLUTION,si,0,local:BOREAL evolution.pdf,58
+RENAULT,BOREAL,Look Interior,tapizado en TEP negro y costuras color plata,EVOLUTION,si,0,local:BOREAL evolution.pdf,59
+RENAULT,BOREAL,Look Interior,volante revestido en cuero sintético TEP,EVOLUTION,si,0,local:BOREAL evolution.pdf,60
+RENAULT,BOREAL,Exterior,techo color carrocería,EVOLUTION,si,0,local:BOREAL evolution.pdf,61
+RENAULT,BOREAL,Exterior,llantas de aluminio 18'',EVOLUTION,si,0,local:BOREAL evolution.pdf,62
+RENAULT,BOREAL,Exterior,espejos retrovisores exteriores color carrocería,EVOLUTION,si,0,local:BOREAL evolution.pdf,63
+RENAULT,BOREAL,Exterior,iluminación full led,EVOLUTION,si,0,local:BOREAL evolution.pdf,64
+RENAULT,BOREAL,Exterior,DRL full LED,EVOLUTION,si,0,local:BOREAL evolution.pdf,65
+RENAULT,BOREAL,Exterior,paragolpes color carrocería,EVOLUTION,si,0,local:BOREAL evolution.pdf,66

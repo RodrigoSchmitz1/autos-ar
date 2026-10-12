@@ -1,0 +1,72 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+RENAULT,KOLEOS,Especificaciones técnicas,Potencia total: 235CV,TECHNO,si,0,local:KOLEOS Techno.pdf,0
+RENAULT,KOLEOS,Especificaciones técnicas,Cilindrada 1.969cm3,TECHNO,si,0,local:KOLEOS Techno.pdf,1
+RENAULT,KOLEOS,Especificaciones técnicas,Tipo de gas AC 1234YF,TECHNO,si,0,local:KOLEOS Techno.pdf,2
+RENAULT,KOLEOS,Especificaciones técnicas,Potencia del motor princiapal: 235CV/320Nm,TECHNO,si,0,local:KOLEOS Techno.pdf,3
+RENAULT,KOLEOS,Especificaciones técnicas,Caja de cambios automática de 8 velocidades con,TECHNO,si,0,local:KOLEOS Techno.pdf,4
+RENAULT,KOLEOS,Especificaciones técnicas,convertidor de par,TECHNO,si,0,local:KOLEOS Techno.pdf,5
+RENAULT,KOLEOS,Confort,Llave tipo tarjeta con sistema keyless con imovilizador de,TECHNO,si,0,local:KOLEOS Techno.pdf,6
+RENAULT,KOLEOS,Confort,Espejos retrovisores laterales eléctricos con desempañador y,TECHNO,si,0,local:KOLEOS Techno.pdf,7
+RENAULT,KOLEOS,Confort,vehículo,TECHNO,si,0,local:KOLEOS Techno.pdf,8
+RENAULT,KOLEOS,Confort,abatimiento eléctrico,TECHNO,si,0,local:KOLEOS Techno.pdf,9
+RENAULT,KOLEOS,Confort,Cambio de luces altas/bajas automático (AHLB),TECHNO,si,0,local:KOLEOS Techno.pdf,10
+RENAULT,KOLEOS,Confort,Limitador de velocidad y control de crucero adaptativo,TECHNO,si,0,local:KOLEOS Techno.pdf,11
+RENAULT,KOLEOS,Confort,inteligente,TECHNO,si,0,local:KOLEOS Techno.pdf,12
+RENAULT,KOLEOS,Volante calefaccionado,Regulación lumbar en asiento acompañante,TECHNO,si,0,local:KOLEOS Techno.pdf,13
+RENAULT,KOLEOS,Volante calefaccionado,Freno de estacionamiento eléctrico con auto hold,TECHNO,si,0,local:KOLEOS Techno.pdf,14
+RENAULT,KOLEOS,Volante calefaccionado,Filtro de particulas en habitáculo,TECHNO,si,0,local:KOLEOS Techno.pdf,15
+RENAULT,KOLEOS,Filtro de polen,Puertos USB-C en plazas delanteras y traseras,TECHNO,si,0,local:KOLEOS Techno.pdf,16
+RENAULT,KOLEOS,Filtro de polen,Asientos delanteros calefaccionados y ventilados + asientos,TECHNO,si,0,local:KOLEOS Techno.pdf,17
+RENAULT,KOLEOS,Filtro de polen,traseros calefaccionados,TECHNO,si,0,local:KOLEOS Techno.pdf,18
+RENAULT,KOLEOS,Filtro de polen,Asiento del pasajero regulable eléctricamente de 6,TECHNO,si,0,local:KOLEOS Techno.pdf,19
+RENAULT,KOLEOS,Filtro de polen,direcciones,TECHNO,si,0,local:KOLEOS Techno.pdf,20
+RENAULT,KOLEOS,Filtro de polen,Asiento del conductor con memoria y 3 configuraciones,TECHNO,si,0,local:KOLEOS Techno.pdf,21
+RENAULT,KOLEOS,Filtro de polen,programables,TECHNO,si,0,local:KOLEOS Techno.pdf,22
+RENAULT,KOLEOS,Filtro de polen,Espejos de cortesía delanteros con iluminación,TECHNO,si,0,local:KOLEOS Techno.pdf,23
+RENAULT,KOLEOS,Filtro de polen,Climatización automática en tres zonas,TECHNO,si,0,local:KOLEOS Techno.pdf,24
+RENAULT,KOLEOS,Filtro de polen,Espejo retrovisor central electrocrómico,TECHNO,si,0,local:KOLEOS Techno.pdf,25
+RENAULT,KOLEOS,Tecnología,Pantalla multimedia central de 12.3'' + Pantalla para,TECHNO,si,0,local:KOLEOS Techno.pdf,26
+RENAULT,KOLEOS,Tecnología,Replicación inalámbrica de smartphone con Android Auto &,TECHNO,si,0,local:KOLEOS Techno.pdf,27
+RENAULT,KOLEOS,Tecnología,acompañante 12.3'',TECHNO,si,0,local:KOLEOS Techno.pdf,28
+RENAULT,KOLEOS,Tecnología,Apple Car Play,TECHNO,si,0,local:KOLEOS Techno.pdf,29
+RENAULT,KOLEOS,Tecnología,Sistema de sonido con 8 parlantes,TECHNO,si,0,local:KOLEOS Techno.pdf,30
+RENAULT,KOLEOS,Tecnología,"Hasta 6 modos de manejo incluyendo IA, nieve y offroad",TECHNO,si,0,local:KOLEOS Techno.pdf,31
+RENAULT,KOLEOS,Tecnología,Cargador de celular inalámbrico por inducción,TECHNO,si,0,local:KOLEOS Techno.pdf,32
+RENAULT,KOLEOS,Seguridad,Luces antiniebla traseras,TECHNO,si,0,local:KOLEOS Techno.pdf,33
+RENAULT,KOLEOS,Seguridad,Monitor de presión de neumáticos directo (TPMS),TECHNO,si,0,local:KOLEOS Techno.pdf,34
+RENAULT,KOLEOS,Seguridad,7 airbags (2 frontales + 2 laterales + 2 cortina + 1 central),TECHNO,si,0,local:KOLEOS Techno.pdf,35
+RENAULT,KOLEOS,Seguridad,Alerta de distancia de seguridad (DW),TECHNO,si,0,local:KOLEOS Techno.pdf,36
+RENAULT,KOLEOS,Seguridad,Asientos con sujeciones ISOFIX,TECHNO,si,0,local:KOLEOS Techno.pdf,37
+RENAULT,KOLEOS,Seguridad,Frenos ABS,TECHNO,si,0,local:KOLEOS Techno.pdf,38
+RENAULT,KOLEOS,Seguridad,Cámara panorámica 540° 3D (AVM) con detección de,TECHNO,si,0,local:KOLEOS Techno.pdf,39
+RENAULT,KOLEOS,Seguridad,Asistente de frenado de urgencia (AFU),TECHNO,si,0,local:KOLEOS Techno.pdf,40
+RENAULT,KOLEOS,Seguridad,movimiento,TECHNO,si,0,local:KOLEOS Techno.pdf,41
+RENAULT,KOLEOS,Seguridad,Airbags frontales para conductor y pasajero,TECHNO,si,0,local:KOLEOS Techno.pdf,42
+RENAULT,KOLEOS,Seguridad,Frenado autónomo de emergencia trasero (AEBS) con,TECHNO,si,0,local:KOLEOS Techno.pdf,43
+RENAULT,KOLEOS,Seguridad,Sistema de frenado autónomo de emergencia (AEBS) con,TECHNO,si,0,local:KOLEOS Techno.pdf,44
+RENAULT,KOLEOS,Seguridad,detección de obstáculos,TECHNO,si,0,local:KOLEOS Techno.pdf,45
+RENAULT,KOLEOS,Seguridad,detección de peatones y ciclistas,TECHNO,si,0,local:KOLEOS Techno.pdf,46
+RENAULT,KOLEOS,Seguridad,Mantenimiento de carril de emergencia (ELK),TECHNO,si,0,local:KOLEOS Techno.pdf,47
+RENAULT,KOLEOS,Seguridad,Asistente de arranque en pendiente (HSA) + control de,TECHNO,si,0,local:KOLEOS Techno.pdf,48
+RENAULT,KOLEOS,Seguridad,Asistente de estacionamiento autónomo,TECHNO,si,0,local:KOLEOS Techno.pdf,49
+RENAULT,KOLEOS,Seguridad,descenso en pendientes (HDC),TECHNO,si,0,local:KOLEOS Techno.pdf,50
+RENAULT,KOLEOS,Seguridad,Alarma perimetral,TECHNO,si,0,local:KOLEOS Techno.pdf,51
+RENAULT,KOLEOS,Seguridad,Recordatorio de cinturones de seguridad en todos los,TECHNO,si,0,local:KOLEOS Techno.pdf,52
+RENAULT,KOLEOS,Seguridad,asientos (SBR),TECHNO,si,0,local:KOLEOS Techno.pdf,53
+RENAULT,KOLEOS,Seguridad,Active driver assist (AD2) con control crucero adaptativo y,TECHNO,si,0,local:KOLEOS Techno.pdf,54
+RENAULT,KOLEOS,Seguridad,centrado de carril integrado,TECHNO,si,0,local:KOLEOS Techno.pdf,55
+RENAULT,KOLEOS,Seguridad,Alerta de salida segura de los ocupantes (OSE),TECHNO,si,0,local:KOLEOS Techno.pdf,56
+RENAULT,KOLEOS,Seguridad,Luces de giro integradas en espejos retrovisores,TECHNO,si,0,local:KOLEOS Techno.pdf,57
+RENAULT,KOLEOS,Seguridad,Asiento trasero central con cinturón de seguridad de tres,TECHNO,si,0,local:KOLEOS Techno.pdf,58
+RENAULT,KOLEOS,Seguridad,puntos,TECHNO,si,0,local:KOLEOS Techno.pdf,59
+RENAULT,KOLEOS,Look Interior,Tapizados en cuero sintético (TEP) y detalles textiles,TECHNO,si,0,local:KOLEOS Techno.pdf,60
+RENAULT,KOLEOS,Exterior,Luces traseras LED,TECHNO,si,0,local:KOLEOS Techno.pdf,61
+RENAULT,KOLEOS,Exterior,Espejos retrovisores laterales en negro metálico,TECHNO,si,0,local:KOLEOS Techno.pdf,62
+RENAULT,KOLEOS,Exterior,"Antena tipo ""shark""",TECHNO,si,0,local:KOLEOS Techno.pdf,63
+RENAULT,KOLEOS,Exterior,Barras de techo longitudinales,TECHNO,si,0,local:KOLEOS Techno.pdf,64
+RENAULT,KOLEOS,Exterior,Llantas de aluminio 19'' diamantadas,TECHNO,si,0,local:KOLEOS Techno.pdf,65
+RENAULT,KOLEOS,Exterior,Faros DRL full LED,TECHNO,si,0,local:KOLEOS Techno.pdf,66
+RENAULT,KOLEOS,Exterior,Techo color carrocería,TECHNO,si,0,local:KOLEOS Techno.pdf,67
+RENAULT,KOLEOS,Exterior,Faros delanteros full LED,TECHNO,si,0,local:KOLEOS Techno.pdf,68
+RENAULT,KOLEOS,Exterior,Techo solar panorámico con apertura eléctrica,TECHNO,si,0,local:KOLEOS Techno.pdf,69
+RENAULT,KOLEOS,Exterior,Iluminación de acompañamiento al suelo (puddle lights),TECHNO,si,0,local:KOLEOS Techno.pdf,70

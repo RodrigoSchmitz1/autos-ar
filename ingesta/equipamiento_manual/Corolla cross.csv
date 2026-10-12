@@ -1,0 +1,421 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),2.0 XLI CVT,4.460/1.825/1.620,0,local:Corolla cross.pdf,0
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),2.0 XEI CVT,4.460/1.825/1.620,1,local:Corolla cross.pdf,0
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),2.0 SEG CVT,4.460/1.825/1.620,2,local:Corolla cross.pdf,0
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),HEV 1.8 XEI eCVT,4.460/1.825/1.620,3,local:Corolla cross.pdf,0
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),HEV 1.8 SEG eCVT,4.460/1.825/1.620,4,local:Corolla cross.pdf,0
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),2.0 XLI CVT,2.640,0,local:Corolla cross.pdf,1
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),2.0 XEI CVT,2.640,1,local:Corolla cross.pdf,1
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),2.0 SEG CVT,2.640,2,local:Corolla cross.pdf,1
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),HEV 1.8 XEI eCVT,2.640,3,local:Corolla cross.pdf,1
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),HEV 1.8 SEG eCVT,2.640,4,local:Corolla cross.pdf,1
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),2.0 XLI CVT,440,0,local:Corolla cross.pdf,2
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),2.0 XEI CVT,440,1,local:Corolla cross.pdf,2
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),2.0 SEG CVT,440,2,local:Corolla cross.pdf,2
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),HEV 1.8 XEI eCVT,440,3,local:Corolla cross.pdf,2
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),HEV 1.8 SEG eCVT,440,4,local:Corolla cross.pdf,2
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),2.0 XLI CVT,"5,5",0,local:Corolla cross.pdf,3
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),2.0 XEI CVT,"5,5",1,local:Corolla cross.pdf,3
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),2.0 SEG CVT,"5,5",2,local:Corolla cross.pdf,3
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),HEV 1.8 XEI eCVT,"5,5",3,local:Corolla cross.pdf,3
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),HEV 1.8 SEG eCVT,"5,5",4,local:Corolla cross.pdf,3
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del tanque de combustible (lt),2.0 XLI CVT,47,0,local:Corolla cross.pdf,4
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del tanque de combustible (lt),2.0 XEI CVT,47,1,local:Corolla cross.pdf,4
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del tanque de combustible (lt),2.0 SEG CVT,47,2,local:Corolla cross.pdf,4
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del tanque de combustible (lt),HEV 1.8 XEI eCVT,36,3,local:Corolla cross.pdf,4
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Capacidad del tanque de combustible (lt),HEV 1.8 SEG eCVT,36,4,local:Corolla cross.pdf,4
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),2.0 XLI CVT,1.360 / 1.430,0,local:Corolla cross.pdf,5
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),2.0 XEI CVT,1.360 / 1.430,1,local:Corolla cross.pdf,5
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),2.0 SEG CVT,1.360 / 1.430,2,local:Corolla cross.pdf,5
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),HEV 1.8 XEI eCVT,1.385 / 1.430,3,local:Corolla cross.pdf,5
+TOYOTA,COROLLA CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),HEV 1.8 SEG eCVT,1.385 / 1.430,4,local:Corolla cross.pdf,5
+TOYOTA,COROLLA CROSS,Chasis,Transmisión,2.0 XLI CVT,Automática “Direct Shift CVT”con modo secuencial de 10 velocidades preprogramadas,0,local:Corolla cross.pdf,6
+TOYOTA,COROLLA CROSS,Chasis,Transmisión,2.0 XEI CVT,"Automática ""Direct Shift CVT"" con modo secuencial de 10 velocidades preprogramadas, levas al volante y selector de modo de conducción POWER",1,local:Corolla cross.pdf,6
+TOYOTA,COROLLA CROSS,Chasis,Transmisión,2.0 SEG CVT,"Automática ""Direct Shift CVT"" con modo secuencial de 10 velocidades preprogramadas, levas al volante y selector de modo de conducción POWER",2,local:Corolla cross.pdf,6
+TOYOTA,COROLLA CROSS,Chasis,Transmisión,HEV 1.8 XEI eCVT,"Automática eCVT (controlada electrónicamente) con selector de modo de conducción NORMAL, ECO, POWER y EV",3,local:Corolla cross.pdf,6
+TOYOTA,COROLLA CROSS,Chasis,Transmisión,HEV 1.8 SEG eCVT,"Automática eCVT (controlada electrónicamente) con selector de modo de conducción NORMAL, ECO, POWER y EV",4,local:Corolla cross.pdf,6
+TOYOTA,COROLLA CROSS,Chasis,Suspensión,2.0 XLI CVT,"Independiente tipo Mac Pherson con amortiguadores telescópicos, resortes helicoidales y barra estabilizadora",0,local:Corolla cross.pdf,7
+TOYOTA,COROLLA CROSS,Chasis,Suspensión,2.0 XEI CVT,"Independiente tipo Mac Pherson con amortiguadores telescópicos, resortes helicoidales y barra estabilizadora",1,local:Corolla cross.pdf,7
+TOYOTA,COROLLA CROSS,Chasis,Suspensión,2.0 SEG CVT,"Independiente tipo Mac Pherson con amortiguadores telescópicos, resortes helicoidales y barra estabilizadora",2,local:Corolla cross.pdf,7
+TOYOTA,COROLLA CROSS,Chasis,Suspensión,HEV 1.8 XEI eCVT,"Independiente tipo Mac Pherson con amortiguadores telescópicos, resortes helicoidales y barra estabilizadora",3,local:Corolla cross.pdf,7
+TOYOTA,COROLLA CROSS,Chasis,Suspensión,HEV 1.8 SEG eCVT,"Independiente tipo Mac Pherson con amortiguadores telescópicos, resortes helicoidales y barra estabilizadora",4,local:Corolla cross.pdf,7
+TOYOTA,COROLLA CROSS,Chasis,Dirección,2.0 XLI CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",0,local:Corolla cross.pdf,8
+TOYOTA,COROLLA CROSS,Chasis,Dirección,2.0 XEI CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",1,local:Corolla cross.pdf,8
+TOYOTA,COROLLA CROSS,Chasis,Dirección,2.0 SEG CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",2,local:Corolla cross.pdf,8
+TOYOTA,COROLLA CROSS,Chasis,Dirección,HEV 1.8 XEI eCVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",3,local:Corolla cross.pdf,8
+TOYOTA,COROLLA CROSS,Chasis,Dirección,HEV 1.8 SEG eCVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",4,local:Corolla cross.pdf,8
+TOYOTA,COROLLA CROSS,Chasis,Frenos,2.0 XLI CVT,Discos ventilados,0,local:Corolla cross.pdf,9
+TOYOTA,COROLLA CROSS,Chasis,Frenos,2.0 XEI CVT,Discos ventilados,1,local:Corolla cross.pdf,9
+TOYOTA,COROLLA CROSS,Chasis,Frenos,2.0 SEG CVT,Discos ventilados,2,local:Corolla cross.pdf,9
+TOYOTA,COROLLA CROSS,Chasis,Frenos,HEV 1.8 XEI eCVT,Discos ventilados,3,local:Corolla cross.pdf,9
+TOYOTA,COROLLA CROSS,Chasis,Frenos,HEV 1.8 SEG eCVT,Discos ventilados,4,local:Corolla cross.pdf,9
+TOYOTA,COROLLA CROSS,Motor naftero,Modelo,2.0 XLI CVT,Dynamic Force - M20A- FKS,0,local:Corolla cross.pdf,10
+TOYOTA,COROLLA CROSS,Motor naftero,Modelo,2.0 XEI CVT,Dynamic Force - M20A- FKS,1,local:Corolla cross.pdf,10
+TOYOTA,COROLLA CROSS,Motor naftero,Modelo,2.0 SEG CVT,Dynamic Force - M20A- FKS,2,local:Corolla cross.pdf,10
+TOYOTA,COROLLA CROSS,Motor naftero,Modelo,HEV 1.8 XEI eCVT,2ZR-FXE,3,local:Corolla cross.pdf,10
+TOYOTA,COROLLA CROSS,Motor naftero,Modelo,HEV 1.8 SEG eCVT,2ZR-FXE,4,local:Corolla cross.pdf,10
+TOYOTA,COROLLA CROSS,Motor naftero,Cilindrada (cc),2.0 XLI CVT,1.987,0,local:Corolla cross.pdf,11
+TOYOTA,COROLLA CROSS,Motor naftero,Cilindrada (cc),2.0 XEI CVT,1.987,1,local:Corolla cross.pdf,11
+TOYOTA,COROLLA CROSS,Motor naftero,Cilindrada (cc),2.0 SEG CVT,1.987,2,local:Corolla cross.pdf,11
+TOYOTA,COROLLA CROSS,Motor naftero,Cilindrada (cc),HEV 1.8 XEI eCVT,1.798,3,local:Corolla cross.pdf,11
+TOYOTA,COROLLA CROSS,Motor naftero,Cilindrada (cc),HEV 1.8 SEG eCVT,1.798,4,local:Corolla cross.pdf,11
+TOYOTA,COROLLA CROSS,Motor naftero,Tipo,2.0 XLI CVT,"4 cilindros en línea, naftero",0,local:Corolla cross.pdf,12
+TOYOTA,COROLLA CROSS,Motor naftero,Tipo,2.0 XEI CVT,"4 cilindros en línea, naftero",1,local:Corolla cross.pdf,12
+TOYOTA,COROLLA CROSS,Motor naftero,Tipo,2.0 SEG CVT,"4 cilindros en línea, naftero",2,local:Corolla cross.pdf,12
+TOYOTA,COROLLA CROSS,Motor naftero,Tipo,HEV 1.8 XEI eCVT,"4 cilindros en línea, naftero",3,local:Corolla cross.pdf,12
+TOYOTA,COROLLA CROSS,Motor naftero,Tipo,HEV 1.8 SEG eCVT,"4 cilindros en línea, naftero",4,local:Corolla cross.pdf,12
+TOYOTA,COROLLA CROSS,Motor naftero,Distribución,2.0 XLI CVT,"16 válvulas, DOHC con cadena de distribución y sistema Dual VVT-i (VVT-iE de admisión y VVT-i de escape)",0,local:Corolla cross.pdf,13
+TOYOTA,COROLLA CROSS,Motor naftero,Distribución,2.0 XEI CVT,"16 válvulas, DOHC con cadena de distribución y sistema Dual VVT-i (VVT-iE de admisión y VVT-i de escape)",1,local:Corolla cross.pdf,13
+TOYOTA,COROLLA CROSS,Motor naftero,Distribución,2.0 SEG CVT,"16 válvulas, DOHC con cadena de distribución y sistema Dual VVT-i (VVT-iE de admisión y VVT-i de escape)",2,local:Corolla cross.pdf,13
+TOYOTA,COROLLA CROSS,Motor naftero,Distribución,HEV 1.8 XEI eCVT,"16 válvulas, DOHC con cadena de distribución y sistema VVT-i",3,local:Corolla cross.pdf,13
+TOYOTA,COROLLA CROSS,Motor naftero,Distribución,HEV 1.8 SEG eCVT,"16 válvulas, DOHC con cadena de distribución y sistema VVT-i",4,local:Corolla cross.pdf,13
+TOYOTA,COROLLA CROSS,Motor naftero,Alimentación,2.0 XLI CVT,Sistema de inyección mixta D4-S (directa e indirecta),0,local:Corolla cross.pdf,14
+TOYOTA,COROLLA CROSS,Motor naftero,Alimentación,2.0 XEI CVT,Sistema de inyección mixta D4-S (directa e indirecta),1,local:Corolla cross.pdf,14
+TOYOTA,COROLLA CROSS,Motor naftero,Alimentación,2.0 SEG CVT,Sistema de inyección mixta D4-S (directa e indirecta),2,local:Corolla cross.pdf,14
+TOYOTA,COROLLA CROSS,Motor naftero,Alimentación,HEV 1.8 XEI eCVT,Sistema de inyección electrónica multipunto,3,local:Corolla cross.pdf,14
+TOYOTA,COROLLA CROSS,Motor naftero,Alimentación,HEV 1.8 SEG eCVT,Sistema de inyección electrónica multipunto,4,local:Corolla cross.pdf,14
+TOYOTA,COROLLA CROSS,Motor naftero,Diámetro y carrera de pistón (mm),2.0 XLI CVT,"80,5 x 97,6",0,local:Corolla cross.pdf,15
+TOYOTA,COROLLA CROSS,Motor naftero,Diámetro y carrera de pistón (mm),2.0 XEI CVT,"80,5 x 97,6",1,local:Corolla cross.pdf,15
+TOYOTA,COROLLA CROSS,Motor naftero,Diámetro y carrera de pistón (mm),2.0 SEG CVT,"80,5 x 97,6",2,local:Corolla cross.pdf,15
+TOYOTA,COROLLA CROSS,Motor naftero,Diámetro y carrera de pistón (mm),HEV 1.8 XEI eCVT,"80,5 x 88,3",3,local:Corolla cross.pdf,15
+TOYOTA,COROLLA CROSS,Motor naftero,Diámetro y carrera de pistón (mm),HEV 1.8 SEG eCVT,"80,5 x 88,3",4,local:Corolla cross.pdf,15
+TOYOTA,COROLLA CROSS,Motor naftero,Relación de compresión,2.0 XLI CVT,13.0:1,0,local:Corolla cross.pdf,16
+TOYOTA,COROLLA CROSS,Motor naftero,Relación de compresión,2.0 XEI CVT,13.0:1,1,local:Corolla cross.pdf,16
+TOYOTA,COROLLA CROSS,Motor naftero,Relación de compresión,2.0 SEG CVT,13.0:1,2,local:Corolla cross.pdf,16
+TOYOTA,COROLLA CROSS,Motor naftero,Relación de compresión,HEV 1.8 XEI eCVT,13.0:1,3,local:Corolla cross.pdf,16
+TOYOTA,COROLLA CROSS,Motor naftero,Relación de compresión,HEV 1.8 SEG eCVT,13.0:1,4,local:Corolla cross.pdf,16
+TOYOTA,COROLLA CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),2.0 XLI CVT,171 (126) / 6.600,0,local:Corolla cross.pdf,17
+TOYOTA,COROLLA CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),2.0 XEI CVT,171 (126) / 6.600,1,local:Corolla cross.pdf,17
+TOYOTA,COROLLA CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),2.0 SEG CVT,171 (126) / 6.600,2,local:Corolla cross.pdf,17
+TOYOTA,COROLLA CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),HEV 1.8 XEI eCVT,98 (72) / 5.200,3,local:Corolla cross.pdf,17
+TOYOTA,COROLLA CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),HEV 1.8 SEG eCVT,98 (72) / 5.200,4,local:Corolla cross.pdf,17
+TOYOTA,COROLLA CROSS,Motor naftero,Torque máximo (Nm / rpm),2.0 XLI CVT,203 / 4.800,0,local:Corolla cross.pdf,18
+TOYOTA,COROLLA CROSS,Motor naftero,Torque máximo (Nm / rpm),2.0 XEI CVT,203 / 4.800,1,local:Corolla cross.pdf,18
+TOYOTA,COROLLA CROSS,Motor naftero,Torque máximo (Nm / rpm),2.0 SEG CVT,203 / 4.800,2,local:Corolla cross.pdf,18
+TOYOTA,COROLLA CROSS,Motor naftero,Torque máximo (Nm / rpm),HEV 1.8 XEI eCVT,"142 (14,5) / 3.600",3,local:Corolla cross.pdf,18
+TOYOTA,COROLLA CROSS,Motor naftero,Torque máximo (Nm / rpm),HEV 1.8 SEG eCVT,"142 (14,5) / 3.600",4,local:Corolla cross.pdf,18
+TOYOTA,COROLLA CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro incorporada y retráctiles automáticamente",2.0 XLI CVT,si,0,local:Corolla cross.pdf,19
+TOYOTA,COROLLA CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro incorporada y retráctiles automáticamente",2.0 XEI CVT,si,1,local:Corolla cross.pdf,19
+TOYOTA,COROLLA CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro incorporada y retráctiles automáticamente",2.0 SEG CVT,si,2,local:Corolla cross.pdf,19
+TOYOTA,COROLLA CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro incorporada y retráctiles automáticamente",HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,19
+TOYOTA,COROLLA CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro incorporada y retráctiles automáticamente",HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,19
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura,2.0 XLI CVT,si,0,local:Corolla cross.pdf,20
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura,2.0 XEI CVT,si,1,local:Corolla cross.pdf,20
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura,2.0 SEG CVT,no,2,local:Corolla cross.pdf,20
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,20
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura,HEV 1.8 SEG eCVT,no,4,local:Corolla cross.pdf,20
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales,2.0 XLI CVT,no,0,local:Corolla cross.pdf,21
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales,2.0 XEI CVT,no,1,local:Corolla cross.pdf,21
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales,2.0 SEG CVT,si,2,local:Corolla cross.pdf,21
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,21
+TOYOTA,COROLLA CROSS,Exterior,Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,21
+TOYOTA,COROLLA CROSS,Exterior,Luces DRL de LED,2.0 XLI CVT,si,0,local:Corolla cross.pdf,22
+TOYOTA,COROLLA CROSS,Exterior,Luces DRL de LED,2.0 XEI CVT,si,1,local:Corolla cross.pdf,22
+TOYOTA,COROLLA CROSS,Exterior,Luces DRL de LED,2.0 SEG CVT,si,2,local:Corolla cross.pdf,22
+TOYOTA,COROLLA CROSS,Exterior,Luces DRL de LED,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,22
+TOYOTA,COROLLA CROSS,Exterior,Luces DRL de LED,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,22
+TOYOTA,COROLLA CROSS,Exterior,Faros traseros de LED con efecto cortina,2.0 XLI CVT,si,0,local:Corolla cross.pdf,23
+TOYOTA,COROLLA CROSS,Exterior,Faros traseros de LED con efecto cortina,2.0 XEI CVT,si,1,local:Corolla cross.pdf,23
+TOYOTA,COROLLA CROSS,Exterior,Faros traseros de LED con efecto cortina,2.0 SEG CVT,si,2,local:Corolla cross.pdf,23
+TOYOTA,COROLLA CROSS,Exterior,Faros traseros de LED con efecto cortina,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,23
+TOYOTA,COROLLA CROSS,Exterior,Faros traseros de LED con efecto cortina,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,23
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 17”,2.0 XLI CVT,si,0,local:Corolla cross.pdf,24
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 17”,2.0 XEI CVT,no,1,local:Corolla cross.pdf,24
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 17”,2.0 SEG CVT,no,2,local:Corolla cross.pdf,24
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 17”,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,24
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 17”,HEV 1.8 SEG eCVT,no,4,local:Corolla cross.pdf,24
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 18”,2.0 XLI CVT,no,0,local:Corolla cross.pdf,25
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 18”,2.0 XEI CVT,si,1,local:Corolla cross.pdf,25
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 18”,2.0 SEG CVT,si,2,local:Corolla cross.pdf,25
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 18”,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,25
+TOYOTA,COROLLA CROSS,Exterior,Llantas de aleación de 18”,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,25
+TOYOTA,COROLLA CROSS,Exterior,Neumáticos,2.0 XLI CVT,215 / 60 R17”,0,local:Corolla cross.pdf,26
+TOYOTA,COROLLA CROSS,Exterior,Neumáticos,2.0 XEI CVT,"225 / 50 R18""",1,local:Corolla cross.pdf,26
+TOYOTA,COROLLA CROSS,Exterior,Neumáticos,2.0 SEG CVT,225 / 50 R18”,2,local:Corolla cross.pdf,26
+TOYOTA,COROLLA CROSS,Exterior,Neumáticos,HEV 1.8 XEI eCVT,"225 / 50 R18""",3,local:Corolla cross.pdf,26
+TOYOTA,COROLLA CROSS,Exterior,Neumáticos,HEV 1.8 SEG eCVT,225 / 50 R18”,4,local:Corolla cross.pdf,26
+TOYOTA,COROLLA CROSS,Exterior,Moldura de ventanilla cromada,2.0 XLI CVT,no,0,local:Corolla cross.pdf,27
+TOYOTA,COROLLA CROSS,Exterior,Moldura de ventanilla cromada,2.0 XEI CVT,no,1,local:Corolla cross.pdf,27
+TOYOTA,COROLLA CROSS,Exterior,Moldura de ventanilla cromada,2.0 SEG CVT,si,2,local:Corolla cross.pdf,27
+TOYOTA,COROLLA CROSS,Exterior,Moldura de ventanilla cromada,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,27
+TOYOTA,COROLLA CROSS,Exterior,Moldura de ventanilla cromada,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,27
+TOYOTA,COROLLA CROSS,Exterior,Sistema automático de encendido de luces,2.0 XLI CVT,si,0,local:Corolla cross.pdf,28
+TOYOTA,COROLLA CROSS,Exterior,Sistema automático de encendido de luces,2.0 XEI CVT,si,1,local:Corolla cross.pdf,28
+TOYOTA,COROLLA CROSS,Exterior,Sistema automático de encendido de luces,2.0 SEG CVT,si,2,local:Corolla cross.pdf,28
+TOYOTA,COROLLA CROSS,Exterior,Sistema automático de encendido de luces,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,28
+TOYOTA,COROLLA CROSS,Exterior,Sistema automático de encendido de luces,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,28
+TOYOTA,COROLLA CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),2.0 XLI CVT,-,0,local:Corolla cross.pdf,29
+TOYOTA,COROLLA CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),2.0 XEI CVT,-,1,local:Corolla cross.pdf,29
+TOYOTA,COROLLA CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),2.0 SEG CVT,-,2,local:Corolla cross.pdf,29
+TOYOTA,COROLLA CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),HEV 1.8 XEI eCVT,122 (90) / 5.200,3,local:Corolla cross.pdf,29
+TOYOTA,COROLLA CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),HEV 1.8 SEG eCVT,122 (90) / 5.200,4,local:Corolla cross.pdf,29
+TOYOTA,COROLLA CROSS,Motor eléctrico,Potencia máxima (CV (Kw)),2.0 XLI CVT,-,0,local:Corolla cross.pdf,30
+TOYOTA,COROLLA CROSS,Motor eléctrico,Potencia máxima (CV (Kw)),2.0 XEI CVT,-,1,local:Corolla cross.pdf,30
+TOYOTA,COROLLA CROSS,Motor eléctrico,Potencia máxima (CV (Kw)),2.0 SEG CVT,-,2,local:Corolla cross.pdf,30
+TOYOTA,COROLLA CROSS,Motor eléctrico,Potencia máxima (CV (Kw)),HEV 1.8 XEI eCVT,72 (53),3,local:Corolla cross.pdf,30
+TOYOTA,COROLLA CROSS,Motor eléctrico,Potencia máxima (CV (Kw)),HEV 1.8 SEG eCVT,72 (53),4,local:Corolla cross.pdf,30
+TOYOTA,COROLLA CROSS,Motor eléctrico,Voltaje (V),2.0 XLI CVT,-,0,local:Corolla cross.pdf,31
+TOYOTA,COROLLA CROSS,Motor eléctrico,Voltaje (V),2.0 XEI CVT,-,1,local:Corolla cross.pdf,31
+TOYOTA,COROLLA CROSS,Motor eléctrico,Voltaje (V),2.0 SEG CVT,-,2,local:Corolla cross.pdf,31
+TOYOTA,COROLLA CROSS,Motor eléctrico,Voltaje (V),HEV 1.8 XEI eCVT,600,3,local:Corolla cross.pdf,31
+TOYOTA,COROLLA CROSS,Motor eléctrico,Voltaje (V),HEV 1.8 SEG eCVT,600,4,local:Corolla cross.pdf,31
+TOYOTA,COROLLA CROSS,Motor eléctrico,Capacidad de la batería (kWh),2.0 XLI CVT,-,0,local:Corolla cross.pdf,32
+TOYOTA,COROLLA CROSS,Motor eléctrico,Capacidad de la batería (kWh),2.0 XEI CVT,-,1,local:Corolla cross.pdf,32
+TOYOTA,COROLLA CROSS,Motor eléctrico,Capacidad de la batería (kWh),2.0 SEG CVT,-,2,local:Corolla cross.pdf,32
+TOYOTA,COROLLA CROSS,Motor eléctrico,Capacidad de la batería (kWh),HEV 1.8 XEI eCVT,1.3,3,local:Corolla cross.pdf,32
+TOYOTA,COROLLA CROSS,Motor eléctrico,Capacidad de la batería (kWh),HEV 1.8 SEG eCVT,1.3,4,local:Corolla cross.pdf,32
+TOYOTA,COROLLA CROSS,Confort interior,Aire acondicionado con climatizador automático digital,2.0 XLI CVT,si,0,local:Corolla cross.pdf,33
+TOYOTA,COROLLA CROSS,Confort interior,Aire acondicionado con climatizador automático digital,2.0 XEI CVT,Bi-zona,1,local:Corolla cross.pdf,33
+TOYOTA,COROLLA CROSS,Confort interior,Aire acondicionado con climatizador automático digital,2.0 SEG CVT,Bi-zona,2,local:Corolla cross.pdf,33
+TOYOTA,COROLLA CROSS,Confort interior,Aire acondicionado con climatizador automático digital,HEV 1.8 XEI eCVT,Bi-zona,3,local:Corolla cross.pdf,33
+TOYOTA,COROLLA CROSS,Confort interior,Aire acondicionado con climatizador automático digital,HEV 1.8 SEG eCVT,Bi-zona,4,local:Corolla cross.pdf,33
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación en altura y profundidad,2.0 XLI CVT,si,0,local:Corolla cross.pdf,34
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación en altura y profundidad,2.0 XEI CVT,si,1,local:Corolla cross.pdf,34
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación en altura y profundidad,2.0 SEG CVT,si,2,local:Corolla cross.pdf,34
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación en altura y profundidad,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,34
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación en altura y profundidad,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,34
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación eléctrica,2.0 XLI CVT,no,0,local:Corolla cross.pdf,35
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación eléctrica,2.0 XEI CVT,no,1,local:Corolla cross.pdf,35
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación eléctrica,2.0 SEG CVT,si,2,local:Corolla cross.pdf,35
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación eléctrica,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,35
+TOYOTA,COROLLA CROSS,Confort interior,Asiento del conductor con regulación eléctrica,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,35
+TOYOTA,COROLLA CROSS,Confort interior,Asientos tapizados de cuero natural y ecológico,2.0 XLI CVT,no,0,local:Corolla cross.pdf,36
+TOYOTA,COROLLA CROSS,Confort interior,Asientos tapizados de cuero natural y ecológico,2.0 XEI CVT,no,1,local:Corolla cross.pdf,36
+TOYOTA,COROLLA CROSS,Confort interior,Asientos tapizados de cuero natural y ecológico,2.0 SEG CVT,si,2,local:Corolla cross.pdf,36
+TOYOTA,COROLLA CROSS,Confort interior,Asientos tapizados de cuero natural y ecológico,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,36
+TOYOTA,COROLLA CROSS,Confort interior,Asientos tapizados de cuero natural y ecológico,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,36
+TOYOTA,COROLLA CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),2.0 XLI CVT,si,0,local:Corolla cross.pdf,37
+TOYOTA,COROLLA CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),2.0 XEI CVT,si,1,local:Corolla cross.pdf,37
+TOYOTA,COROLLA CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),2.0 SEG CVT,si,2,local:Corolla cross.pdf,37
+TOYOTA,COROLLA CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,37
+TOYOTA,COROLLA CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,37
+TOYOTA,COROLLA CROSS,Batería,Capacidad (Ah),2.0 XLI CVT,-,0,local:Corolla cross.pdf,38
+TOYOTA,COROLLA CROSS,Batería,Capacidad (Ah),2.0 XEI CVT,-,1,local:Corolla cross.pdf,38
+TOYOTA,COROLLA CROSS,Batería,Capacidad (Ah),2.0 SEG CVT,-,2,local:Corolla cross.pdf,38
+TOYOTA,COROLLA CROSS,Batería,Capacidad (Ah),HEV 1.8 XEI eCVT,"6,5",3,local:Corolla cross.pdf,38
+TOYOTA,COROLLA CROSS,Batería,Capacidad (Ah),HEV 1.8 SEG eCVT,"6,5",4,local:Corolla cross.pdf,38
+TOYOTA,COROLLA CROSS,Confort interior,Techo solar con apertura eléctrica,2.0 XLI CVT,no,0,local:Corolla cross.pdf,39
+TOYOTA,COROLLA CROSS,Confort interior,Techo solar con apertura eléctrica,2.0 XEI CVT,si,1,local:Corolla cross.pdf,39
+TOYOTA,COROLLA CROSS,Confort interior,Techo solar con apertura eléctrica,2.0 SEG CVT,si,2,local:Corolla cross.pdf,39
+TOYOTA,COROLLA CROSS,Confort interior,Techo solar con apertura eléctrica,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,39
+TOYOTA,COROLLA CROSS,Confort interior,Techo solar con apertura eléctrica,HEV 1.8 SEG eCVT,no,4,local:Corolla cross.pdf,39
+TOYOTA,COROLLA CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,2.0 XLI CVT,si,0,local:Corolla cross.pdf,40
+TOYOTA,COROLLA CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,2.0 XEI CVT,si,1,local:Corolla cross.pdf,40
+TOYOTA,COROLLA CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,2.0 SEG CVT,si,2,local:Corolla cross.pdf,40
+TOYOTA,COROLLA CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,40
+TOYOTA,COROLLA CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,40
+TOYOTA,COROLLA CROSS,Confort interior,Display de información múltiple con pantalla a color,2.0 XLI CVT,7”,0,local:Corolla cross.pdf,41
+TOYOTA,COROLLA CROSS,Confort interior,Display de información múltiple con pantalla a color,2.0 XEI CVT,"7""",1,local:Corolla cross.pdf,41
+TOYOTA,COROLLA CROSS,Confort interior,Display de información múltiple con pantalla a color,2.0 SEG CVT,"12.3"" Full Digital",2,local:Corolla cross.pdf,41
+TOYOTA,COROLLA CROSS,Confort interior,Display de información múltiple con pantalla a color,HEV 1.8 XEI eCVT,"7""",3,local:Corolla cross.pdf,41
+TOYOTA,COROLLA CROSS,Confort interior,Display de información múltiple con pantalla a color,HEV 1.8 SEG eCVT,"12.3"" Full Digital",4,local:Corolla cross.pdf,41
+TOYOTA,COROLLA CROSS,Confort interior,Espejo retrovisor interno con antiencandilamiento automático,2.0 XLI CVT,no,0,local:Corolla cross.pdf,42
+TOYOTA,COROLLA CROSS,Confort interior,Espejo retrovisor interno con antiencandilamiento automático,2.0 XEI CVT,si,1,local:Corolla cross.pdf,42
+TOYOTA,COROLLA CROSS,Confort interior,Espejo retrovisor interno con antiencandilamiento automático,2.0 SEG CVT,si,2,local:Corolla cross.pdf,42
+TOYOTA,COROLLA CROSS,Confort interior,Espejo retrovisor interno con antiencandilamiento automático,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,42
+TOYOTA,COROLLA CROSS,Confort interior,Espejo retrovisor interno con antiencandilamiento automático,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,42
+TOYOTA,COROLLA CROSS,Confort interior,Levanta cristales eléctricos con función “one touch” en las 4 puertas,2.0 XLI CVT,si,0,local:Corolla cross.pdf,43
+TOYOTA,COROLLA CROSS,Confort interior,Levanta cristales eléctricos con función “one touch” en las 4 puertas,2.0 XEI CVT,si,1,local:Corolla cross.pdf,43
+TOYOTA,COROLLA CROSS,Confort interior,Levanta cristales eléctricos con función “one touch” en las 4 puertas,2.0 SEG CVT,si,2,local:Corolla cross.pdf,43
+TOYOTA,COROLLA CROSS,Confort interior,Levanta cristales eléctricos con función “one touch” en las 4 puertas,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,43
+TOYOTA,COROLLA CROSS,Confort interior,Levanta cristales eléctricos con función “one touch” en las 4 puertas,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,43
+TOYOTA,COROLLA CROSS,Confort interior,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras",2.0 XLI CVT,no,0,local:Corolla cross.pdf,44
+TOYOTA,COROLLA CROSS,Confort interior,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras",2.0 XEI CVT,no,1,local:Corolla cross.pdf,44
+TOYOTA,COROLLA CROSS,Confort interior,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras",2.0 SEG CVT,si,2,local:Corolla cross.pdf,44
+TOYOTA,COROLLA CROSS,Confort interior,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras",HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,44
+TOYOTA,COROLLA CROSS,Confort interior,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras",HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,44
+TOYOTA,COROLLA CROSS,Confort interior,Toma de 12v (x1) y USB (x3),2.0 XLI CVT,si,0,local:Corolla cross.pdf,45
+TOYOTA,COROLLA CROSS,Confort interior,Toma de 12v (x1) y USB (x3),2.0 XEI CVT,si,1,local:Corolla cross.pdf,45
+TOYOTA,COROLLA CROSS,Confort interior,Toma de 12v (x1) y USB (x3),2.0 SEG CVT,si,2,local:Corolla cross.pdf,45
+TOYOTA,COROLLA CROSS,Confort interior,Toma de 12v (x1) y USB (x3),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,45
+TOYOTA,COROLLA CROSS,Confort interior,Toma de 12v (x1) y USB (x3),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,45
+TOYOTA,COROLLA CROSS,Confort interior,Volante revestido en cuero,2.0 XLI CVT,no,0,local:Corolla cross.pdf,46
+TOYOTA,COROLLA CROSS,Confort interior,Volante revestido en cuero,2.0 XEI CVT,si,1,local:Corolla cross.pdf,46
+TOYOTA,COROLLA CROSS,Confort interior,Volante revestido en cuero,2.0 SEG CVT,si,2,local:Corolla cross.pdf,46
+TOYOTA,COROLLA CROSS,Confort interior,Volante revestido en cuero,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,46
+TOYOTA,COROLLA CROSS,Confort interior,Volante revestido en cuero,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,46
+TOYOTA,COROLLA CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",2.0 XLI CVT,si,0,local:Corolla cross.pdf,47
+TOYOTA,COROLLA CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",2.0 XEI CVT,si,1,local:Corolla cross.pdf,47
+TOYOTA,COROLLA CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",2.0 SEG CVT,si,2,local:Corolla cross.pdf,47
+TOYOTA,COROLLA CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,47
+TOYOTA,COROLLA CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,47
+TOYOTA,COROLLA CROSS,Confort interior,Bandeja de baúl,2.0 XLI CVT,no,0,local:Corolla cross.pdf,48
+TOYOTA,COROLLA CROSS,Confort interior,Bandeja de baúl,2.0 XEI CVT,no,1,local:Corolla cross.pdf,48
+TOYOTA,COROLLA CROSS,Confort interior,Bandeja de baúl,2.0 SEG CVT,si,2,local:Corolla cross.pdf,48
+TOYOTA,COROLLA CROSS,Confort interior,Bandeja de baúl,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,48
+TOYOTA,COROLLA CROSS,Confort interior,Bandeja de baúl,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,48
+TOYOTA,COROLLA CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalámbrica(4),2.0 XLI CVT,no,0,local:Corolla cross.pdf,49
+TOYOTA,COROLLA CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalámbrica(4),2.0 XEI CVT,si,1,local:Corolla cross.pdf,49
+TOYOTA,COROLLA CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalámbrica(4),2.0 SEG CVT,si,2,local:Corolla cross.pdf,49
+TOYOTA,COROLLA CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalámbrica(4),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,49
+TOYOTA,COROLLA CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalámbrica(4),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,49
+TOYOTA,COROLLA CROSS,Tecnología,Modo de transmisión secuencial,2.0 XLI CVT,si,0,local:Corolla cross.pdf,50
+TOYOTA,COROLLA CROSS,Tecnología,Modo de transmisión secuencial,2.0 XEI CVT,si,1,local:Corolla cross.pdf,50
+TOYOTA,COROLLA CROSS,Tecnología,Modo de transmisión secuencial,2.0 SEG CVT,si,2,local:Corolla cross.pdf,50
+TOYOTA,COROLLA CROSS,Tecnología,Modo de transmisión secuencial,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,50
+TOYOTA,COROLLA CROSS,Tecnología,Modo de transmisión secuencial,HEV 1.8 SEG eCVT,no,4,local:Corolla cross.pdf,50
+TOYOTA,COROLLA CROSS,Tecnología,"Freno de mano electrónico (EPB) con función ""Auto-Hold""",2.0 XLI CVT,si,0,local:Corolla cross.pdf,51
+TOYOTA,COROLLA CROSS,Tecnología,"Freno de mano electrónico (EPB) con función ""Auto-Hold""",2.0 XEI CVT,si,1,local:Corolla cross.pdf,51
+TOYOTA,COROLLA CROSS,Tecnología,"Freno de mano electrónico (EPB) con función ""Auto-Hold""",2.0 SEG CVT,si,2,local:Corolla cross.pdf,51
+TOYOTA,COROLLA CROSS,Tecnología,"Freno de mano electrónico (EPB) con función ""Auto-Hold""",HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,51
+TOYOTA,COROLLA CROSS,Tecnología,"Freno de mano electrónico (EPB) con función ""Auto-Hold""",HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,51
+TOYOTA,COROLLA CROSS,Tecnología,Levas al volante,2.0 XLI CVT,no,0,local:Corolla cross.pdf,52
+TOYOTA,COROLLA CROSS,Tecnología,Levas al volante,2.0 XEI CVT,si,1,local:Corolla cross.pdf,52
+TOYOTA,COROLLA CROSS,Tecnología,Levas al volante,2.0 SEG CVT,si,2,local:Corolla cross.pdf,52
+TOYOTA,COROLLA CROSS,Tecnología,Levas al volante,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,52
+TOYOTA,COROLLA CROSS,Tecnología,Levas al volante,HEV 1.8 SEG eCVT,no,4,local:Corolla cross.pdf,52
+TOYOTA,COROLLA CROSS,Tecnología,Modos de conducción,2.0 XLI CVT,POWER,0,local:Corolla cross.pdf,53
+TOYOTA,COROLLA CROSS,Tecnología,Modos de conducción,2.0 XEI CVT,POWER,1,local:Corolla cross.pdf,53
+TOYOTA,COROLLA CROSS,Tecnología,Modos de conducción,2.0 SEG CVT,POWER,2,local:Corolla cross.pdf,53
+TOYOTA,COROLLA CROSS,Tecnología,Modos de conducción,HEV 1.8 XEI eCVT,"NORMAL, ECO, POWER, EV",3,local:Corolla cross.pdf,53
+TOYOTA,COROLLA CROSS,Tecnología,Modos de conducción,HEV 1.8 SEG eCVT,"NORMAL, ECO, POWER, EV",4,local:Corolla cross.pdf,53
+TOYOTA,COROLLA CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",2.0 XLI CVT,no,0,local:Corolla cross.pdf,54
+TOYOTA,COROLLA CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",2.0 XEI CVT,no,1,local:Corolla cross.pdf,54
+TOYOTA,COROLLA CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",2.0 SEG CVT,si,2,local:Corolla cross.pdf,54
+TOYOTA,COROLLA CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,54
+TOYOTA,COROLLA CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,54
+TOYOTA,COROLLA CROSS,Tecnología,Monitor con cámara de estacionamiento,2.0 XLI CVT,si,0,local:Corolla cross.pdf,55
+TOYOTA,COROLLA CROSS,Tecnología,Monitor con cámara de estacionamiento,2.0 XEI CVT,si,1,local:Corolla cross.pdf,55
+TOYOTA,COROLLA CROSS,Tecnología,Monitor con cámara de estacionamiento,2.0 SEG CVT,si,2,local:Corolla cross.pdf,55
+TOYOTA,COROLLA CROSS,Tecnología,Monitor con cámara de estacionamiento,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,55
+TOYOTA,COROLLA CROSS,Tecnología,Monitor con cámara de estacionamiento,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,55
+TOYOTA,COROLLA CROSS,Tecnología,Cámara de estacionamiento 360°,2.0 XLI CVT,no,0,local:Corolla cross.pdf,56
+TOYOTA,COROLLA CROSS,Tecnología,Cámara de estacionamiento 360°,2.0 XEI CVT,no,1,local:Corolla cross.pdf,56
+TOYOTA,COROLLA CROSS,Tecnología,Cámara de estacionamiento 360°,2.0 SEG CVT,si,2,local:Corolla cross.pdf,56
+TOYOTA,COROLLA CROSS,Tecnología,Cámara de estacionamiento 360°,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,56
+TOYOTA,COROLLA CROSS,Tecnología,Cámara de estacionamiento 360°,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,56
+TOYOTA,COROLLA CROSS,Tecnología,Sensores de estacionamiento delanteros y traseros con asistencia de frenado,2.0 XLI CVT,no,0,local:Corolla cross.pdf,57
+TOYOTA,COROLLA CROSS,Tecnología,Sensores de estacionamiento delanteros y traseros con asistencia de frenado,2.0 XEI CVT,si,1,local:Corolla cross.pdf,57
+TOYOTA,COROLLA CROSS,Tecnología,Sensores de estacionamiento delanteros y traseros con asistencia de frenado,2.0 SEG CVT,si,2,local:Corolla cross.pdf,57
+TOYOTA,COROLLA CROSS,Tecnología,Sensores de estacionamiento delanteros y traseros con asistencia de frenado,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,57
+TOYOTA,COROLLA CROSS,Tecnología,Sensores de estacionamiento delanteros y traseros con asistencia de frenado,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,57
+TOYOTA,COROLLA CROSS,Tecnología,Sensor de lluvia,2.0 XLI CVT,no,0,local:Corolla cross.pdf,58
+TOYOTA,COROLLA CROSS,Tecnología,Sensor de lluvia,2.0 XEI CVT,no,1,local:Corolla cross.pdf,58
+TOYOTA,COROLLA CROSS,Tecnología,Sensor de lluvia,2.0 SEG CVT,si,2,local:Corolla cross.pdf,58
+TOYOTA,COROLLA CROSS,Tecnología,Sensor de lluvia,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,58
+TOYOTA,COROLLA CROSS,Tecnología,Sensor de lluvia,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,58
+TOYOTA,COROLLA CROSS,Tecnología,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),2.0 XLI CVT,no,0,local:Corolla cross.pdf,59
+TOYOTA,COROLLA CROSS,Tecnología,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),2.0 XEI CVT,si,1,local:Corolla cross.pdf,59
+TOYOTA,COROLLA CROSS,Tecnología,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),2.0 SEG CVT,si,2,local:Corolla cross.pdf,59
+TOYOTA,COROLLA CROSS,Tecnología,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,59
+TOYOTA,COROLLA CROSS,Tecnología,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,59
+TOYOTA,COROLLA CROSS,Tecnología,Servicios conectados,2.0 XLI CVT,no,0,local:Corolla cross.pdf,60
+TOYOTA,COROLLA CROSS,Tecnología,Servicios conectados,2.0 XEI CVT,si,1,local:Corolla cross.pdf,60
+TOYOTA,COROLLA CROSS,Tecnología,Servicios conectados,2.0 SEG CVT,si,2,local:Corolla cross.pdf,60
+TOYOTA,COROLLA CROSS,Tecnología,Servicios conectados,HEV 1.8 XEI eCVT,no,3,local:Corolla cross.pdf,60
+TOYOTA,COROLLA CROSS,Tecnología,Servicios conectados,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,60
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,2.0 XLI CVT,si,0,local:Corolla cross.pdf,61
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,2.0 XEI CVT,si,1,local:Corolla cross.pdf,61
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,2.0 SEG CVT,si,2,local:Corolla cross.pdf,61
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,61
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,61
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de pre-colisión frontal (PCS)*,2.0 XLI CVT,si,0,local:Corolla cross.pdf,62
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de pre-colisión frontal (PCS)*,2.0 XEI CVT,si,1,local:Corolla cross.pdf,62
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de pre-colisión frontal (PCS)*,2.0 SEG CVT,si,2,local:Corolla cross.pdf,62
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de pre-colisión frontal (PCS)*,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,62
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de pre-colisión frontal (PCS)*,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,62
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de cambio de carril (LDA)*,2.0 XLI CVT,si,0,local:Corolla cross.pdf,63
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de cambio de carril (LDA)*,2.0 XEI CVT,si,1,local:Corolla cross.pdf,63
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de cambio de carril (LDA)*,2.0 SEG CVT,si,2,local:Corolla cross.pdf,63
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de cambio de carril (LDA)*,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,63
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de cambio de carril (LDA)*,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,63
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de asistencia para mantenimiento de Carril*,2.0 XLI CVT,si,0,local:Corolla cross.pdf,64
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de asistencia para mantenimiento de Carril*,2.0 XEI CVT,si,1,local:Corolla cross.pdf,64
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de asistencia para mantenimiento de Carril*,2.0 SEG CVT,si,2,local:Corolla cross.pdf,64
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de asistencia para mantenimiento de Carril*,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,64
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de asistencia para mantenimiento de Carril*,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,64
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de luces altas automáticas (AHB)*,2.0 XLI CVT,si,0,local:Corolla cross.pdf,65
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de luces altas automáticas (AHB)*,2.0 XEI CVT,si,1,local:Corolla cross.pdf,65
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de luces altas automáticas (AHB)*,2.0 SEG CVT,si,2,local:Corolla cross.pdf,65
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de luces altas automáticas (AHB)*,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,65
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de luces altas automáticas (AHB)*,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,65
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de vaivén (SWS)*,2.0 XLI CVT,si,0,local:Corolla cross.pdf,66
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de vaivén (SWS)*,2.0 XEI CVT,si,1,local:Corolla cross.pdf,66
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de vaivén (SWS)*,2.0 SEG CVT,si,2,local:Corolla cross.pdf,66
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de vaivén (SWS)*,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,66
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de alerta de vaivén (SWS)*,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,66
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,ABS con distribución electrónica de frenado (EBD),2.0 XLI CVT,si,0,local:Corolla cross.pdf,67
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,ABS con distribución electrónica de frenado (EBD),2.0 XEI CVT,si,1,local:Corolla cross.pdf,67
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,ABS con distribución electrónica de frenado (EBD),2.0 SEG CVT,si,2,local:Corolla cross.pdf,67
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,ABS con distribución electrónica de frenado (EBD),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,67
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,ABS con distribución electrónica de frenado (EBD),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,67
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),2.0 XLI CVT,si,0,local:Corolla cross.pdf,68
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),2.0 XEI CVT,si,1,local:Corolla cross.pdf,68
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),2.0 SEG CVT,si,2,local:Corolla cross.pdf,68
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,68
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,68
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags laterales (x2) y de cortina (x2) (5),2.0 XLI CVT,si,0,local:Corolla cross.pdf,69
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags laterales (x2) y de cortina (x2) (5),2.0 XEI CVT,si,1,local:Corolla cross.pdf,69
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags laterales (x2) y de cortina (x2) (5),2.0 SEG CVT,si,2,local:Corolla cross.pdf,69
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags laterales (x2) y de cortina (x2) (5),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,69
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Airbags laterales (x2) y de cortina (x2) (5),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,69
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alarma,2.0 XLI CVT,si,0,local:Corolla cross.pdf,70
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alarma,2.0 XEI CVT,si,1,local:Corolla cross.pdf,70
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alarma,2.0 SEG CVT,si,2,local:Corolla cross.pdf,70
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alarma,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,70
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alarma,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,70
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Asistencia de arranque en pendientes (HAC),2.0 XLI CVT,si,0,local:Corolla cross.pdf,71
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Asistencia de arranque en pendientes (HAC),2.0 XEI CVT,si,1,local:Corolla cross.pdf,71
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Asistencia de arranque en pendientes (HAC),2.0 SEG CVT,si,2,local:Corolla cross.pdf,71
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Asistencia de arranque en pendientes (HAC),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,71
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Asistencia de arranque en pendientes (HAC),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,71
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de punto ciego (BSM),2.0 XLI CVT,no,0,local:Corolla cross.pdf,72
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de punto ciego (BSM),2.0 XEI CVT,si,1,local:Corolla cross.pdf,72
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de punto ciego (BSM),2.0 SEG CVT,si,2,local:Corolla cross.pdf,72
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de punto ciego (BSM),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,72
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de punto ciego (BSM),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,72
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de trafico cruzado trasero (RCTA),2.0 XLI CVT,no,0,local:Corolla cross.pdf,73
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de trafico cruzado trasero (RCTA),2.0 XEI CVT,si,1,local:Corolla cross.pdf,73
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de trafico cruzado trasero (RCTA),2.0 SEG CVT,si,2,local:Corolla cross.pdf,73
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de trafico cruzado trasero (RCTA),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,73
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Alerta de trafico cruzado trasero (RCTA),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,73
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,2.0 XLI CVT,si,0,local:Corolla cross.pdf,74
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,2.0 XEI CVT,si,1,local:Corolla cross.pdf,74
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,2.0 SEG CVT,si,2,local:Corolla cross.pdf,74
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,74
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,74
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,2.0 XLI CVT,si,0,local:Corolla cross.pdf,75
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,2.0 XEI CVT,si,1,local:Corolla cross.pdf,75
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,2.0 SEG CVT,si,2,local:Corolla cross.pdf,75
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,75
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,75
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de estabilidad (VSC),2.0 XLI CVT,si,0,local:Corolla cross.pdf,76
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de estabilidad (VSC),2.0 XEI CVT,si,1,local:Corolla cross.pdf,76
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de estabilidad (VSC),2.0 SEG CVT,si,2,local:Corolla cross.pdf,76
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de estabilidad (VSC),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,76
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de estabilidad (VSC),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,76
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de tracción (TRC),2.0 XLI CVT,si,0,local:Corolla cross.pdf,77
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de tracción (TRC),2.0 XEI CVT,si,1,local:Corolla cross.pdf,77
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de tracción (TRC),2.0 SEG CVT,si,2,local:Corolla cross.pdf,77
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de tracción (TRC),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,77
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Control de tracción (TRC),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,77
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faros antiniebla delanteros de LED,2.0 XLI CVT,si,0,local:Corolla cross.pdf,78
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faros antiniebla delanteros de LED,2.0 XEI CVT,si,1,local:Corolla cross.pdf,78
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faros antiniebla delanteros de LED,2.0 SEG CVT,si,2,local:Corolla cross.pdf,78
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faros antiniebla delanteros de LED,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,78
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faros antiniebla delanteros de LED,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,78
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faro antiniebla trasero de LED,2.0 XLI CVT,si,0,local:Corolla cross.pdf,79
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faro antiniebla trasero de LED,2.0 XEI CVT,si,1,local:Corolla cross.pdf,79
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faro antiniebla trasero de LED,2.0 SEG CVT,si,2,local:Corolla cross.pdf,79
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faro antiniebla trasero de LED,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,79
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Faro antiniebla trasero de LED,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,79
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),2.0 XLI CVT,si,0,local:Corolla cross.pdf,80
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),2.0 XEI CVT,si,1,local:Corolla cross.pdf,80
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),2.0 SEG CVT,si,2,local:Corolla cross.pdf,80
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,80
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,80
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Tuerca de seguridad para llantas,2.0 XLI CVT,no,0,local:Corolla cross.pdf,81
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Tuerca de seguridad para llantas,2.0 XEI CVT,si,1,local:Corolla cross.pdf,81
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Tuerca de seguridad para llantas,2.0 SEG CVT,si,2,local:Corolla cross.pdf,81
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Tuerca de seguridad para llantas,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,81
+TOYOTA,COROLLA CROSS,HV 1.8 SEG eCVT Seguridad,Tuerca de seguridad para llantas,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,81
+TOYOTA,COROLLA CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,2.0 XLI CVT,si,0,local:Corolla cross.pdf,82
+TOYOTA,COROLLA CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,2.0 XEI CVT,si,1,local:Corolla cross.pdf,82
+TOYOTA,COROLLA CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,2.0 SEG CVT,si,2,local:Corolla cross.pdf,82
+TOYOTA,COROLLA CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,82
+TOYOTA,COROLLA CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,82
+TOYOTA,COROLLA CROSS,Audio y conectividad,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,2.0 XLI CVT,si,0,local:Corolla cross.pdf,83
+TOYOTA,COROLLA CROSS,Audio y conectividad,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,2.0 XEI CVT,si,1,local:Corolla cross.pdf,83
+TOYOTA,COROLLA CROSS,Audio y conectividad,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,2.0 SEG CVT,si,2,local:Corolla cross.pdf,83
+TOYOTA,COROLLA CROSS,Audio y conectividad,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,HEV 1.8 XEI eCVT,si,3,local:Corolla cross.pdf,83
+TOYOTA,COROLLA CROSS,Audio y conectividad,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,HEV 1.8 SEG eCVT,si,4,local:Corolla cross.pdf,83

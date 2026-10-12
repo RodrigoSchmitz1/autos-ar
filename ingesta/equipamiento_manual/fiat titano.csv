@@ -1,0 +1,458 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógenos,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,0
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógenos,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,0
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógenos,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,0
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógenos,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,0
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógenos,RANCH AT8 AWD,no,4,local:fiat titano.pdf,0
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógeno y LED,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,1
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógeno y LED,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,1
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógeno y LED,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,1
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógeno y LED,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,1
+FIAT,TITANO PICK UP,EXTERIOR,Faros delanteros halógeno y LED,RANCH AT8 AWD,si,4,local:fiat titano.pdf,1
+FIAT,TITANO PICK UP,EXTERIOR,Luces diurnas LED (DRL),ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,2
+FIAT,TITANO PICK UP,EXTERIOR,Luces diurnas LED (DRL),ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,2
+FIAT,TITANO PICK UP,EXTERIOR,Luces diurnas LED (DRL),FREEDOM MT 4WD,no,2,local:fiat titano.pdf,2
+FIAT,TITANO PICK UP,EXTERIOR,Luces diurnas LED (DRL),FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,2
+FIAT,TITANO PICK UP,EXTERIOR,Luces diurnas LED (DRL),RANCH AT8 AWD,si,4,local:fiat titano.pdf,2
+FIAT,TITANO PICK UP,EXTERIOR,Faros traseros LED,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,3
+FIAT,TITANO PICK UP,EXTERIOR,Faros traseros LED,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,3
+FIAT,TITANO PICK UP,EXTERIOR,Faros traseros LED,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,3
+FIAT,TITANO PICK UP,EXTERIOR,Faros traseros LED,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,3
+FIAT,TITANO PICK UP,EXTERIOR,Faros traseros LED,RANCH AT8 AWD,si,4,local:fiat titano.pdf,3
+FIAT,TITANO PICK UP,EXTERIOR,Luz antiniebla delantera con función de giro,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,4
+FIAT,TITANO PICK UP,EXTERIOR,Luz antiniebla delantera con función de giro,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,4
+FIAT,TITANO PICK UP,EXTERIOR,Luz antiniebla delantera con función de giro,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,4
+FIAT,TITANO PICK UP,EXTERIOR,Luz antiniebla delantera con función de giro,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,4
+FIAT,TITANO PICK UP,EXTERIOR,Luz antiniebla delantera con función de giro,RANCH AT8 AWD,si,4,local:fiat titano.pdf,4
+FIAT,TITANO PICK UP,EXTERIOR,Parrilla delantera negra opaca,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,5
+FIAT,TITANO PICK UP,EXTERIOR,Parrilla delantera negra opaca,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,5
+FIAT,TITANO PICK UP,EXTERIOR,Parrilla delantera negra opaca,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,5
+FIAT,TITANO PICK UP,EXTERIOR,Parrilla delantera negra opaca,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,5
+FIAT,TITANO PICK UP,EXTERIOR,Parrilla delantera negra opaca,RANCH AT8 AWD,no,4,local:fiat titano.pdf,5
+FIAT,TITANO PICK UP,EXTERIOR,con parte superior cromada,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,6
+FIAT,TITANO PICK UP,EXTERIOR,con parte superior cromada,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,6
+FIAT,TITANO PICK UP,EXTERIOR,con parte superior cromada,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,6
+FIAT,TITANO PICK UP,EXTERIOR,con parte superior cromada,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,6
+FIAT,TITANO PICK UP,EXTERIOR,con parte superior cromada,RANCH AT8 AWD,si,4,local:fiat titano.pdf,6
+FIAT,TITANO PICK UP,EXTERIOR,parte superior e inferior cromadas,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,7
+FIAT,TITANO PICK UP,EXTERIOR,parte superior e inferior cromadas,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,7
+FIAT,TITANO PICK UP,EXTERIOR,parte superior e inferior cromadas,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,7
+FIAT,TITANO PICK UP,EXTERIOR,parte superior e inferior cromadas,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,7
+FIAT,TITANO PICK UP,EXTERIOR,parte superior e inferior cromadas,RANCH AT8 AWD,si,4,local:fiat titano.pdf,7
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior gris,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,8
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior gris,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,8
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior gris,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,8
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior gris,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,8
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior gris,RANCH AT8 AWD,no,4,local:fiat titano.pdf,8
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior bipartido gris,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,9
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior bipartido gris,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,9
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior bipartido gris,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,9
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior bipartido gris,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,9
+FIAT,TITANO PICK UP,EXTERIOR,Protector frontal inferior bipartido gris,RANCH AT8 AWD,si,4,local:fiat titano.pdf,9
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de acero 17'',ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,10
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de acero 17'',ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,10
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de acero 17'',FREEDOM MT 4WD,no,2,local:fiat titano.pdf,10
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de acero 17'',FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,10
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de acero 17'',RANCH AT8 AWD,no,4,local:fiat titano.pdf,10
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 17'',ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,11
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 17'',ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,11
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 17'',FREEDOM MT 4WD,si,2,local:fiat titano.pdf,11
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 17'',FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,11
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 17'',RANCH AT8 AWD,no,4,local:fiat titano.pdf,11
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 18'',ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,12
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 18'',ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,12
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 18'',FREEDOM MT 4WD,no,2,local:fiat titano.pdf,12
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 18'',FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,12
+FIAT,TITANO PICK UP,EXTERIOR,Llantas de aleación diamantadas 18'',RANCH AT8 AWD,si,4,local:fiat titano.pdf,12
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero y trasero negros,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,13
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero y trasero negros,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,13
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero y trasero negros,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,13
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero y trasero negros,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,13
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero y trasero negros,RANCH AT8 AWD,no,4,local:fiat titano.pdf,13
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero color carrocería,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,14
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero color carrocería,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,14
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero color carrocería,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,14
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero color carrocería,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,14
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpe delantero color carrocería,RANCH AT8 AWD,si,4,local:fiat titano.pdf,14
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpes trasero Gris,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,15
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpes trasero Gris,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,15
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpes trasero Gris,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,15
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpes trasero Gris,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,15
+FIAT,TITANO PICK UP,EXTERIOR,Paragolpes trasero Gris,RANCH AT8 AWD,si,4,local:fiat titano.pdf,15
+FIAT,TITANO PICK UP,EXTERIOR,Manijas de puertas y espejos laterales,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,16
+FIAT,TITANO PICK UP,EXTERIOR,Manijas de puertas y espejos laterales,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,16
+FIAT,TITANO PICK UP,EXTERIOR,Manijas de puertas y espejos laterales,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,16
+FIAT,TITANO PICK UP,EXTERIOR,Manijas de puertas y espejos laterales,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,16
+FIAT,TITANO PICK UP,EXTERIOR,Manijas de puertas y espejos laterales,RANCH AT8 AWD,no,4,local:fiat titano.pdf,16
+FIAT,TITANO PICK UP,color carroceria,Manijas de puertas y espejos,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,17
+FIAT,TITANO PICK UP,color carroceria,Manijas de puertas y espejos,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,17
+FIAT,TITANO PICK UP,color carroceria,Manijas de puertas y espejos,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,17
+FIAT,TITANO PICK UP,color carroceria,Manijas de puertas y espejos,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,17
+FIAT,TITANO PICK UP,color carroceria,Manijas de puertas y espejos,RANCH AT8 AWD,si,4,local:fiat titano.pdf,17
+FIAT,TITANO PICK UP,laterales cromadas,Manija de la puerta de la caja de carga,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,18
+FIAT,TITANO PICK UP,laterales cromadas,Manija de la puerta de la caja de carga,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,18
+FIAT,TITANO PICK UP,laterales cromadas,Manija de la puerta de la caja de carga,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,18
+FIAT,TITANO PICK UP,laterales cromadas,Manija de la puerta de la caja de carga,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,18
+FIAT,TITANO PICK UP,laterales cromadas,Manija de la puerta de la caja de carga,RANCH AT8 AWD,si,4,local:fiat titano.pdf,18
+FIAT,TITANO PICK UP,con placa cromada,Barras de San Antonio cromada,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,19
+FIAT,TITANO PICK UP,con placa cromada,Barras de San Antonio cromada,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,19
+FIAT,TITANO PICK UP,con placa cromada,Barras de San Antonio cromada,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,19
+FIAT,TITANO PICK UP,con placa cromada,Barras de San Antonio cromada,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,19
+FIAT,TITANO PICK UP,con placa cromada,Barras de San Antonio cromada,RANCH AT8 AWD,si,4,local:fiat titano.pdf,19
+FIAT,TITANO PICK UP,con placa cromada,Barras de techo longitudinales,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,20
+FIAT,TITANO PICK UP,con placa cromada,Barras de techo longitudinales,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,20
+FIAT,TITANO PICK UP,con placa cromada,Barras de techo longitudinales,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,20
+FIAT,TITANO PICK UP,con placa cromada,Barras de techo longitudinales,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,20
+FIAT,TITANO PICK UP,con placa cromada,Barras de techo longitudinales,RANCH AT8 AWD,si,4,local:fiat titano.pdf,20
+FIAT,TITANO PICK UP,con placa cromada,Estribos laterales metálicos,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,21
+FIAT,TITANO PICK UP,con placa cromada,Estribos laterales metálicos,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,21
+FIAT,TITANO PICK UP,con placa cromada,Estribos laterales metálicos,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,21
+FIAT,TITANO PICK UP,con placa cromada,Estribos laterales metálicos,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,21
+FIAT,TITANO PICK UP,con placa cromada,Estribos laterales metálicos,RANCH AT8 AWD,si,4,local:fiat titano.pdf,21
+FIAT,TITANO PICK UP,con placa cromada,Parabarros delanteros y traseros,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,22
+FIAT,TITANO PICK UP,con placa cromada,Parabarros delanteros y traseros,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,22
+FIAT,TITANO PICK UP,con placa cromada,Parabarros delanteros y traseros,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,22
+FIAT,TITANO PICK UP,con placa cromada,Parabarros delanteros y traseros,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,22
+FIAT,TITANO PICK UP,con placa cromada,Parabarros delanteros y traseros,RANCH AT8 AWD,si,4,local:fiat titano.pdf,22
+FIAT,TITANO PICK UP,con placa cromada,Tercera luz de stop con luz en caja de carga,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,23
+FIAT,TITANO PICK UP,con placa cromada,Tercera luz de stop con luz en caja de carga,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,23
+FIAT,TITANO PICK UP,con placa cromada,Tercera luz de stop con luz en caja de carga,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,23
+FIAT,TITANO PICK UP,con placa cromada,Tercera luz de stop con luz en caja de carga,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,23
+FIAT,TITANO PICK UP,con placa cromada,Tercera luz de stop con luz en caja de carga,RANCH AT8 AWD,si,4,local:fiat titano.pdf,23
+FIAT,TITANO PICK UP,con placa cromada,Bisel de faro antiniebla inyectado en negro,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,24
+FIAT,TITANO PICK UP,con placa cromada,Bisel de faro antiniebla inyectado en negro,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,24
+FIAT,TITANO PICK UP,con placa cromada,Bisel de faro antiniebla inyectado en negro,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,24
+FIAT,TITANO PICK UP,con placa cromada,Bisel de faro antiniebla inyectado en negro,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,24
+FIAT,TITANO PICK UP,con placa cromada,Bisel de faro antiniebla inyectado en negro,RANCH AT8 AWD,no,4,local:fiat titano.pdf,24
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma perimétrica,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,25
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma perimétrica,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,25
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma perimétrica,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,25
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma perimétrica,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,25
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma perimétrica,RANCH AT8 AWD,si,4,local:fiat titano.pdf,25
+FIAT,TITANO PICK UP,SEGURIDAD,"6 Airbags (frontales, laterales, cortina)",ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,26
+FIAT,TITANO PICK UP,SEGURIDAD,"6 Airbags (frontales, laterales, cortina)",ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,26
+FIAT,TITANO PICK UP,SEGURIDAD,"6 Airbags (frontales, laterales, cortina)",FREEDOM MT 4WD,si,2,local:fiat titano.pdf,26
+FIAT,TITANO PICK UP,SEGURIDAD,"6 Airbags (frontales, laterales, cortina)",FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,26
+FIAT,TITANO PICK UP,SEGURIDAD,"6 Airbags (frontales, laterales, cortina)",RANCH AT8 AWD,si,4,local:fiat titano.pdf,26
+FIAT,TITANO PICK UP,SEGURIDAD,Cintures de seguridad (5) de tres puntos,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,27
+FIAT,TITANO PICK UP,SEGURIDAD,Cintures de seguridad (5) de tres puntos,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,27
+FIAT,TITANO PICK UP,SEGURIDAD,Cintures de seguridad (5) de tres puntos,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,27
+FIAT,TITANO PICK UP,SEGURIDAD,Cintures de seguridad (5) de tres puntos,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,27
+FIAT,TITANO PICK UP,SEGURIDAD,Cintures de seguridad (5) de tres puntos,RANCH AT8 AWD,si,4,local:fiat titano.pdf,27
+FIAT,TITANO PICK UP,SEGURIDAD,y de tracción (TCS),ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,28
+FIAT,TITANO PICK UP,SEGURIDAD,y de tracción (TCS),ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,28
+FIAT,TITANO PICK UP,SEGURIDAD,y de tracción (TCS),FREEDOM MT 4WD,si,2,local:fiat titano.pdf,28
+FIAT,TITANO PICK UP,SEGURIDAD,y de tracción (TCS),FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,28
+FIAT,TITANO PICK UP,SEGURIDAD,y de tracción (TCS),RANCH AT8 AWD,si,4,local:fiat titano.pdf,28
+FIAT,TITANO PICK UP,SEGURIDAD,Sistema de frenos ABS,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,29
+FIAT,TITANO PICK UP,SEGURIDAD,Sistema de frenos ABS,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,29
+FIAT,TITANO PICK UP,SEGURIDAD,Sistema de frenos ABS,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,29
+FIAT,TITANO PICK UP,SEGURIDAD,Sistema de frenos ABS,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,29
+FIAT,TITANO PICK UP,SEGURIDAD,Sistema de frenos ABS,RANCH AT8 AWD,si,4,local:fiat titano.pdf,29
+FIAT,TITANO PICK UP,SEGURIDAD,Asistencia en frenado de emergencia (EBA),ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,30
+FIAT,TITANO PICK UP,SEGURIDAD,Asistencia en frenado de emergencia (EBA),ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,30
+FIAT,TITANO PICK UP,SEGURIDAD,Asistencia en frenado de emergencia (EBA),FREEDOM MT 4WD,si,2,local:fiat titano.pdf,30
+FIAT,TITANO PICK UP,SEGURIDAD,Asistencia en frenado de emergencia (EBA),FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,30
+FIAT,TITANO PICK UP,SEGURIDAD,Asistencia en frenado de emergencia (EBA),RANCH AT8 AWD,si,4,local:fiat titano.pdf,30
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HAC),ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,31
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HAC),ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,31
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HAC),FREEDOM MT 4WD,si,2,local:fiat titano.pdf,31
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HAC),FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,31
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HAC),RANCH AT8 AWD,si,4,local:fiat titano.pdf,31
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HDC),ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,32
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HDC),ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,32
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HDC),FREEDOM MT 4WD,si,2,local:fiat titano.pdf,32
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HDC),FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,32
+FIAT,TITANO PICK UP,SEGURIDAD,en pendiente (HDC),RANCH AT8 AWD,si,4,local:fiat titano.pdf,32
+FIAT,TITANO PICK UP,SEGURIDAD,para nieve y arena,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,33
+FIAT,TITANO PICK UP,SEGURIDAD,para nieve y arena,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,33
+FIAT,TITANO PICK UP,SEGURIDAD,para nieve y arena,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,33
+FIAT,TITANO PICK UP,SEGURIDAD,para nieve y arena,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,33
+FIAT,TITANO PICK UP,SEGURIDAD,para nieve y arena,RANCH AT8 AWD,si,4,local:fiat titano.pdf,33
+FIAT,TITANO PICK UP,SEGURIDAD,Alerta de mantenimiento por km,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,34
+FIAT,TITANO PICK UP,SEGURIDAD,Alerta de mantenimiento por km,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,34
+FIAT,TITANO PICK UP,SEGURIDAD,Alerta de mantenimiento por km,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,34
+FIAT,TITANO PICK UP,SEGURIDAD,Alerta de mantenimiento por km,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,34
+FIAT,TITANO PICK UP,SEGURIDAD,Alerta de mantenimiento por km,RANCH AT8 AWD,si,4,local:fiat titano.pdf,34
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma de cinturón de seguridad conductor,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,35
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma de cinturón de seguridad conductor,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,35
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma de cinturón de seguridad conductor,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,35
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma de cinturón de seguridad conductor,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,35
+FIAT,TITANO PICK UP,SEGURIDAD,Alarma de cinturón de seguridad conductor,RANCH AT8 AWD,si,4,local:fiat titano.pdf,35
+FIAT,TITANO PICK UP,y pasajero delantero,Alarma de cinturón de seguridad traseros,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,36
+FIAT,TITANO PICK UP,y pasajero delantero,Alarma de cinturón de seguridad traseros,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,36
+FIAT,TITANO PICK UP,y pasajero delantero,Alarma de cinturón de seguridad traseros,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,36
+FIAT,TITANO PICK UP,y pasajero delantero,Alarma de cinturón de seguridad traseros,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,36
+FIAT,TITANO PICK UP,y pasajero delantero,Alarma de cinturón de seguridad traseros,RANCH AT8 AWD,si,4,local:fiat titano.pdf,36
+FIAT,TITANO PICK UP,y pasajero delantero,Sistema de sujeción de sillas para niños,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,37
+FIAT,TITANO PICK UP,y pasajero delantero,Sistema de sujeción de sillas para niños,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,37
+FIAT,TITANO PICK UP,y pasajero delantero,Sistema de sujeción de sillas para niños,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,37
+FIAT,TITANO PICK UP,y pasajero delantero,Sistema de sujeción de sillas para niños,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,37
+FIAT,TITANO PICK UP,y pasajero delantero,Sistema de sujeción de sillas para niños,RANCH AT8 AWD,si,4,local:fiat titano.pdf,37
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Freno de mano eléctrico,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,38
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Freno de mano eléctrico,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,38
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Freno de mano eléctrico,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,38
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Freno de mano eléctrico,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,38
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Freno de mano eléctrico,RANCH AT8 AWD,si,4,local:fiat titano.pdf,38
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Alerta de cambio de carril activo (LDW),ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,39
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Alerta de cambio de carril activo (LDW),ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,39
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Alerta de cambio de carril activo (LDW),FREEDOM MT 4WD,no,2,local:fiat titano.pdf,39
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Alerta de cambio de carril activo (LDW),FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,39
+FIAT,TITANO PICK UP,(ISOFIX ) + Top Tether,Alerta de cambio de carril activo (LDW),RANCH AT8 AWD,si,4,local:fiat titano.pdf,39
+FIAT,TITANO PICK UP,CONFORT,Climatizador manual,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,40
+FIAT,TITANO PICK UP,CONFORT,Climatizador manual,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,40
+FIAT,TITANO PICK UP,CONFORT,Climatizador manual,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,40
+FIAT,TITANO PICK UP,CONFORT,Climatizador manual,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,40
+FIAT,TITANO PICK UP,CONFORT,Climatizador manual,RANCH AT8 AWD,no,4,local:fiat titano.pdf,40
+FIAT,TITANO PICK UP,CONFORT,Climatizador automático bi-zona,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,41
+FIAT,TITANO PICK UP,CONFORT,Climatizador automático bi-zona,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,41
+FIAT,TITANO PICK UP,CONFORT,Climatizador automático bi-zona,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,41
+FIAT,TITANO PICK UP,CONFORT,Climatizador automático bi-zona,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,41
+FIAT,TITANO PICK UP,CONFORT,Climatizador automático bi-zona,RANCH AT8 AWD,si,4,local:fiat titano.pdf,41
+FIAT,TITANO PICK UP,CONFORT,Apoyabrazos delantero y trasero,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,42
+FIAT,TITANO PICK UP,CONFORT,Apoyabrazos delantero y trasero,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,42
+FIAT,TITANO PICK UP,CONFORT,Apoyabrazos delantero y trasero,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,42
+FIAT,TITANO PICK UP,CONFORT,Apoyabrazos delantero y trasero,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,42
+FIAT,TITANO PICK UP,CONFORT,Apoyabrazos delantero y trasero,RANCH AT8 AWD,si,4,local:fiat titano.pdf,42
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con regulación de altura,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,43
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con regulación de altura,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,43
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con regulación de altura,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,43
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con regulación de altura,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,43
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con regulación de altura,RANCH AT8 AWD,si,4,local:fiat titano.pdf,43
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con ajuste lumbar eléctrico,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,44
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con ajuste lumbar eléctrico,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,44
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con ajuste lumbar eléctrico,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,44
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con ajuste lumbar eléctrico,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,44
+FIAT,TITANO PICK UP,CONFORT,Asiento del conductor con ajuste lumbar eléctrico,RANCH AT8 AWD,si,4,local:fiat titano.pdf,44
+FIAT,TITANO PICK UP,CONFORT,en 6 direcciones,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,45
+FIAT,TITANO PICK UP,CONFORT,en 6 direcciones,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,45
+FIAT,TITANO PICK UP,CONFORT,en 6 direcciones,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,45
+FIAT,TITANO PICK UP,CONFORT,en 6 direcciones,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,45
+FIAT,TITANO PICK UP,CONFORT,en 4 direcciones,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,46
+FIAT,TITANO PICK UP,CONFORT,en 4 direcciones,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,46
+FIAT,TITANO PICK UP,CONFORT,en 4 direcciones,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,46
+FIAT,TITANO PICK UP,CONFORT,en 4 direcciones,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,46
+FIAT,TITANO PICK UP,CONFORT,Asiento y respaldo trasero con modularidad,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,47
+FIAT,TITANO PICK UP,CONFORT,Asiento y respaldo trasero con modularidad,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,47
+FIAT,TITANO PICK UP,CONFORT,Asiento y respaldo trasero con modularidad,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,47
+FIAT,TITANO PICK UP,CONFORT,Asiento y respaldo trasero con modularidad,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,47
+FIAT,TITANO PICK UP,CONFORT,Asiento y respaldo trasero con modularidad,RANCH AT8 AWD,si,4,local:fiat titano.pdf,47
+FIAT,TITANO PICK UP,CONFORT,Dirección eléctrica,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,48
+FIAT,TITANO PICK UP,CONFORT,Dirección eléctrica,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,48
+FIAT,TITANO PICK UP,CONFORT,Dirección eléctrica,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,48
+FIAT,TITANO PICK UP,CONFORT,Dirección eléctrica,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,48
+FIAT,TITANO PICK UP,CONFORT,Dirección eléctrica,RANCH AT8 AWD,si,4,local:fiat titano.pdf,48
+FIAT,TITANO PICK UP,CONFORT,Levantacristales eléctricos delanteros y traseros,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,49
+FIAT,TITANO PICK UP,CONFORT,Levantacristales eléctricos delanteros y traseros,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,49
+FIAT,TITANO PICK UP,CONFORT,Levantacristales eléctricos delanteros y traseros,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,49
+FIAT,TITANO PICK UP,CONFORT,Levantacristales eléctricos delanteros y traseros,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,49
+FIAT,TITANO PICK UP,CONFORT,Levantacristales eléctricos delanteros y traseros,RANCH AT8 AWD,si,4,local:fiat titano.pdf,49
+FIAT,TITANO PICK UP,CONFORT,con sistema one-touch up/down,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,50
+FIAT,TITANO PICK UP,CONFORT,con sistema one-touch up/down,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,50
+FIAT,TITANO PICK UP,CONFORT,con sistema one-touch up/down,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,50
+FIAT,TITANO PICK UP,CONFORT,con sistema one-touch up/down,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,50
+FIAT,TITANO PICK UP,CONFORT,con sistema one-touch up/down,RANCH AT8 AWD,si,4,local:fiat titano.pdf,50
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,51
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,51
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,51
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,51
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos,RANCH AT8 AWD,no,4,local:fiat titano.pdf,51
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,52
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,52
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,52
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,52
+FIAT,TITANO PICK UP,CONFORT,Espejos retrovisores eléctricos rebatibles,RANCH AT8 AWD,si,4,local:fiat titano.pdf,52
+FIAT,TITANO PICK UP,CONFORT,Desempañador de vidrio trasero,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,53
+FIAT,TITANO PICK UP,CONFORT,Desempañador de vidrio trasero,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,53
+FIAT,TITANO PICK UP,CONFORT,Desempañador de vidrio trasero,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,53
+FIAT,TITANO PICK UP,CONFORT,Desempañador de vidrio trasero,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,53
+FIAT,TITANO PICK UP,CONFORT,Desempañador de vidrio trasero,RANCH AT8 AWD,si,4,local:fiat titano.pdf,53
+FIAT,TITANO PICK UP,CONFORT,Control de velocidad crucero,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,54
+FIAT,TITANO PICK UP,CONFORT,Control de velocidad crucero,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,54
+FIAT,TITANO PICK UP,CONFORT,Control de velocidad crucero,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,54
+FIAT,TITANO PICK UP,CONFORT,Control de velocidad crucero,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,54
+FIAT,TITANO PICK UP,CONFORT,Control de velocidad crucero,RANCH AT8 AWD,no,4,local:fiat titano.pdf,54
+FIAT,TITANO PICK UP,CONFORT,(ACC Stop & Go),ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,55
+FIAT,TITANO PICK UP,CONFORT,(ACC Stop & Go),ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,55
+FIAT,TITANO PICK UP,CONFORT,(ACC Stop & Go),FREEDOM MT 4WD,no,2,local:fiat titano.pdf,55
+FIAT,TITANO PICK UP,CONFORT,(ACC Stop & Go),FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,55
+FIAT,TITANO PICK UP,CONFORT,(ACC Stop & Go),RANCH AT8 AWD,si,4,local:fiat titano.pdf,55
+FIAT,TITANO PICK UP,CONFORT,(GSI),ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,56
+FIAT,TITANO PICK UP,CONFORT,(GSI),ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,56
+FIAT,TITANO PICK UP,CONFORT,(GSI),FREEDOM MT 4WD,si,2,local:fiat titano.pdf,56
+FIAT,TITANO PICK UP,CONFORT,(GSI),FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,56
+FIAT,TITANO PICK UP,CONFORT,(GSI),RANCH AT8 AWD,no,4,local:fiat titano.pdf,56
+FIAT,TITANO PICK UP,CONFORT,Sistema de control de presión de neumáticos,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,57
+FIAT,TITANO PICK UP,CONFORT,Sistema de control de presión de neumáticos,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,57
+FIAT,TITANO PICK UP,CONFORT,Sistema de control de presión de neumáticos,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,57
+FIAT,TITANO PICK UP,CONFORT,Sistema de control de presión de neumáticos,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,57
+FIAT,TITANO PICK UP,CONFORT,Sistema de control de presión de neumáticos,RANCH AT8 AWD,si,4,local:fiat titano.pdf,57
+FIAT,TITANO PICK UP,CONFORT,Ajuste eléctrico de faros delanteros,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,58
+FIAT,TITANO PICK UP,CONFORT,Ajuste eléctrico de faros delanteros,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,58
+FIAT,TITANO PICK UP,CONFORT,Ajuste eléctrico de faros delanteros,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,58
+FIAT,TITANO PICK UP,CONFORT,Ajuste eléctrico de faros delanteros,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,58
+FIAT,TITANO PICK UP,CONFORT,Ajuste eléctrico de faros delanteros,RANCH AT8 AWD,si,4,local:fiat titano.pdf,58
+FIAT,TITANO PICK UP,CONFORT,(Keyless Entry 'N' Go),ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,59
+FIAT,TITANO PICK UP,CONFORT,(Keyless Entry 'N' Go),ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,59
+FIAT,TITANO PICK UP,CONFORT,(Keyless Entry 'N' Go),FREEDOM MT 4WD,no,2,local:fiat titano.pdf,59
+FIAT,TITANO PICK UP,CONFORT,(Keyless Entry 'N' Go),FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,59
+FIAT,TITANO PICK UP,CONFORT,(Keyless Entry 'N' Go),RANCH AT8 AWD,si,4,local:fiat titano.pdf,59
+FIAT,TITANO PICK UP,CONFORT,Sensor de temperatura exterior,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,60
+FIAT,TITANO PICK UP,CONFORT,Sensor de temperatura exterior,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,60
+FIAT,TITANO PICK UP,CONFORT,Sensor de temperatura exterior,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,60
+FIAT,TITANO PICK UP,CONFORT,Sensor de temperatura exterior,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,60
+FIAT,TITANO PICK UP,CONFORT,Sensor de temperatura exterior,RANCH AT8 AWD,si,4,local:fiat titano.pdf,60
+FIAT,TITANO PICK UP,CONFORT,Luces y limpiaparabrisas automaticos,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,61
+FIAT,TITANO PICK UP,CONFORT,Luces y limpiaparabrisas automaticos,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,61
+FIAT,TITANO PICK UP,CONFORT,Luces y limpiaparabrisas automaticos,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,61
+FIAT,TITANO PICK UP,CONFORT,Luces y limpiaparabrisas automaticos,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,61
+FIAT,TITANO PICK UP,CONFORT,Luces y limpiaparabrisas automaticos,RANCH AT8 AWD,si,4,local:fiat titano.pdf,61
+FIAT,TITANO PICK UP,CONFORT,Navegación GPS off line,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,62
+FIAT,TITANO PICK UP,CONFORT,Navegación GPS off line,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,62
+FIAT,TITANO PICK UP,CONFORT,Navegación GPS off line,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,62
+FIAT,TITANO PICK UP,CONFORT,Navegación GPS off line,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,62
+FIAT,TITANO PICK UP,CONFORT,Navegación GPS off line,RANCH AT8 AWD,si,4,local:fiat titano.pdf,62
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de tela negro,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,63
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de tela negro,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,63
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de tela negro,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,63
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de tela negro,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,63
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de tela negro,RANCH AT8 AWD,no,4,local:fiat titano.pdf,63
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de cuero,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,64
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de cuero,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,64
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de cuero,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,64
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de cuero,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,64
+FIAT,TITANO PICK UP,CONFORT,Tapizado interior de cuero,RANCH AT8 AWD,si,4,local:fiat titano.pdf,64
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en negro,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,65
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en negro,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,65
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en negro,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,65
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en negro,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,65
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en negro,RANCH AT8 AWD,no,4,local:fiat titano.pdf,65
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en gris,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,66
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en gris,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,66
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en gris,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,66
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en gris,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,66
+FIAT,TITANO PICK UP,CONFORT,Decoración interior en gris,RANCH AT8 AWD,no,4,local:fiat titano.pdf,66
+FIAT,TITANO PICK UP,CONFORT,Decoración con detalles cromados,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,67
+FIAT,TITANO PICK UP,CONFORT,Decoración con detalles cromados,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,67
+FIAT,TITANO PICK UP,CONFORT,Decoración con detalles cromados,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,67
+FIAT,TITANO PICK UP,CONFORT,Decoración con detalles cromados,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,67
+FIAT,TITANO PICK UP,CONFORT,Decoración con detalles cromados,RANCH AT8 AWD,si,4,local:fiat titano.pdf,67
+FIAT,TITANO PICK UP,CONFORT,Manija interior cromada,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,68
+FIAT,TITANO PICK UP,CONFORT,Manija interior cromada,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,68
+FIAT,TITANO PICK UP,CONFORT,Manija interior cromada,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,68
+FIAT,TITANO PICK UP,CONFORT,Manija interior cromada,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,68
+FIAT,TITANO PICK UP,CONFORT,Manija interior cromada,RANCH AT8 AWD,si,4,local:fiat titano.pdf,68
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de suelo de vinilo,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,69
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de suelo de vinilo,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,69
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de suelo de vinilo,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,69
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de suelo de vinilo,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,69
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de suelo de vinilo,RANCH AT8 AWD,no,4,local:fiat titano.pdf,69
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de piso de alfombra,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,70
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de piso de alfombra,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,70
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de piso de alfombra,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,70
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de piso de alfombra,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,70
+FIAT,TITANO PICK UP,CONFORT,Revestimiento de piso de alfombra,RANCH AT8 AWD,si,4,local:fiat titano.pdf,70
+FIAT,TITANO PICK UP,CONFORT,Guantera con iluminación y refrigeración,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,71
+FIAT,TITANO PICK UP,CONFORT,Guantera con iluminación y refrigeración,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,71
+FIAT,TITANO PICK UP,CONFORT,Guantera con iluminación y refrigeración,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,71
+FIAT,TITANO PICK UP,CONFORT,Guantera con iluminación y refrigeración,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,71
+FIAT,TITANO PICK UP,CONFORT,Guantera con iluminación y refrigeración,RANCH AT8 AWD,si,4,local:fiat titano.pdf,71
+FIAT,TITANO PICK UP,CONFORT,Luz en puertas delanteras,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,72
+FIAT,TITANO PICK UP,CONFORT,Luz en puertas delanteras,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,72
+FIAT,TITANO PICK UP,CONFORT,Luz en puertas delanteras,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,72
+FIAT,TITANO PICK UP,CONFORT,Luz en puertas delanteras,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,72
+FIAT,TITANO PICK UP,CONFORT,Luz en puertas delanteras,RANCH AT8 AWD,si,4,local:fiat titano.pdf,72
+FIAT,TITANO PICK UP,CONFORT,Posavasos para el acompañante,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,73
+FIAT,TITANO PICK UP,CONFORT,Posavasos para el acompañante,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,73
+FIAT,TITANO PICK UP,CONFORT,Posavasos para el acompañante,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,73
+FIAT,TITANO PICK UP,CONFORT,Posavasos para el acompañante,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,73
+FIAT,TITANO PICK UP,CONFORT,Posavasos para el acompañante,RANCH AT8 AWD,si,4,local:fiat titano.pdf,73
+FIAT,TITANO PICK UP,CONFORT,Espejo de cortesía en el asiento del acompañante,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,74
+FIAT,TITANO PICK UP,CONFORT,Espejo de cortesía en el asiento del acompañante,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,74
+FIAT,TITANO PICK UP,CONFORT,Espejo de cortesía en el asiento del acompañante,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,74
+FIAT,TITANO PICK UP,CONFORT,Espejo de cortesía en el asiento del acompañante,RANCH AT8 AWD,si,4,local:fiat titano.pdf,74
+FIAT,TITANO PICK UP,CONFORT,Posavasos telescópico para el conductor,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,75
+FIAT,TITANO PICK UP,CONFORT,Posavasos telescópico para el conductor,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,75
+FIAT,TITANO PICK UP,CONFORT,Posavasos telescópico para el conductor,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,75
+FIAT,TITANO PICK UP,CONFORT,Posavasos telescópico para el conductor,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,75
+FIAT,TITANO PICK UP,CONFORT,Posavasos telescópico para el conductor,RANCH AT8 AWD,si,4,local:fiat titano.pdf,75
+FIAT,TITANO PICK UP,CONFORT,Volante forrado en cuero con botones negro p.,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,76
+FIAT,TITANO PICK UP,CONFORT,Volante forrado en cuero con botones negro p.,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,76
+FIAT,TITANO PICK UP,CONFORT,Volante forrado en cuero con botones negro p.,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,76
+FIAT,TITANO PICK UP,CONFORT,Volante forrado en cuero con botones negro p.,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,76
+FIAT,TITANO PICK UP,CONFORT,Volante forrado en cuero con botones negro p.,RANCH AT8 AWD,si,4,local:fiat titano.pdf,76
+FIAT,TITANO PICK UP,CONFORT,Cubrealfombra,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,77
+FIAT,TITANO PICK UP,CONFORT,Cubrealfombra,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,77
+FIAT,TITANO PICK UP,CONFORT,Cubrealfombra,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,77
+FIAT,TITANO PICK UP,CONFORT,Cubrealfombra,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,77
+FIAT,TITANO PICK UP,CONFORT,Cubrealfombra,RANCH AT8 AWD,si,4,local:fiat titano.pdf,77
+FIAT,TITANO PICK UP,TECNOLOGÍA,trasera con guias dinámicas,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,78
+FIAT,TITANO PICK UP,TECNOLOGÍA,trasera con guias dinámicas,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,78
+FIAT,TITANO PICK UP,TECNOLOGÍA,trasera con guias dinámicas,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,78
+FIAT,TITANO PICK UP,TECNOLOGÍA,trasera con guias dinámicas,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,78
+FIAT,TITANO PICK UP,TECNOLOGÍA,trasera con guias dinámicas,RANCH AT8 AWD,si,4,local:fiat titano.pdf,78
+FIAT,TITANO PICK UP,TECNOLOGÍA,Sensores de estacionamiento delanteros,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,79
+FIAT,TITANO PICK UP,TECNOLOGÍA,Sensores de estacionamiento delanteros,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,79
+FIAT,TITANO PICK UP,TECNOLOGÍA,Sensores de estacionamiento delanteros,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,79
+FIAT,TITANO PICK UP,TECNOLOGÍA,Sensores de estacionamiento delanteros,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,79
+FIAT,TITANO PICK UP,TECNOLOGÍA,Sensores de estacionamiento delanteros,RANCH AT8 AWD,si,4,local:fiat titano.pdf,79
+FIAT,TITANO PICK UP,Camara 360°off road,(con proyección 3D y transparencia),ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,80
+FIAT,TITANO PICK UP,Camara 360°off road,(con proyección 3D y transparencia),ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,80
+FIAT,TITANO PICK UP,Camara 360°off road,(con proyección 3D y transparencia),FREEDOM MT 4WD,no,2,local:fiat titano.pdf,80
+FIAT,TITANO PICK UP,Camara 360°off road,(con proyección 3D y transparencia),FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,80
+FIAT,TITANO PICK UP,Camara 360°off road,(con proyección 3D y transparencia),RANCH AT8 AWD,si,4,local:fiat titano.pdf,80
+FIAT,TITANO PICK UP,Camara 360°off road,Cámara 180° offroad en espejo derecho,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,81
+FIAT,TITANO PICK UP,Camara 360°off road,Cámara 180° offroad en espejo derecho,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,81
+FIAT,TITANO PICK UP,Camara 360°off road,Cámara 180° offroad en espejo derecho,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,81
+FIAT,TITANO PICK UP,Camara 360°off road,Cámara 180° offroad en espejo derecho,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,81
+FIAT,TITANO PICK UP,Camara 360°off road,Cámara 180° offroad en espejo derecho,RANCH AT8 AWD,no,4,local:fiat titano.pdf,81
+FIAT,TITANO PICK UP,Camara 360°off road,Radio AM/FM 1DIN + MP3 + Bluethooth,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,82
+FIAT,TITANO PICK UP,Camara 360°off road,Radio AM/FM 1DIN + MP3 + Bluethooth,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,82
+FIAT,TITANO PICK UP,Camara 360°off road,Radio AM/FM 1DIN + MP3 + Bluethooth,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,82
+FIAT,TITANO PICK UP,Camara 360°off road,Radio AM/FM 1DIN + MP3 + Bluethooth,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,82
+FIAT,TITANO PICK UP,Camara 360°off road,Radio AM/FM 1DIN + MP3 + Bluethooth,RANCH AT8 AWD,si,4,local:fiat titano.pdf,82
+FIAT,TITANO PICK UP,Camara 360°off road,con Android Auto & Apple Car Play,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,83
+FIAT,TITANO PICK UP,Camara 360°off road,con Android Auto & Apple Car Play,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,83
+FIAT,TITANO PICK UP,Camara 360°off road,con Android Auto & Apple Car Play,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,83
+FIAT,TITANO PICK UP,Camara 360°off road,con Android Auto & Apple Car Play,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,83
+FIAT,TITANO PICK UP,Camara 360°off road,con Android Auto & Apple Car Play,RANCH AT8 AWD,si,4,local:fiat titano.pdf,83
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V + 3 puertos USB,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,84
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V + 3 puertos USB,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,84
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V + 3 puertos USB,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,84
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V + 3 puertos USB,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,84
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V + 3 puertos USB,RANCH AT8 AWD,si,4,local:fiat titano.pdf,84
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V impermeable en caja de carga,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,85
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V impermeable en caja de carga,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,85
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V impermeable en caja de carga,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,85
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V impermeable en caja de carga,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,85
+FIAT,TITANO PICK UP,Camara 360°off road,Entrada 12V impermeable en caja de carga,RANCH AT8 AWD,si,4,local:fiat titano.pdf,85
+FIAT,TITANO PICK UP,Camara 360°off road,4 Parlantes,ENDURANCE MT 2WD,si,0,local:fiat titano.pdf,86
+FIAT,TITANO PICK UP,Camara 360°off road,4 Parlantes,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,86
+FIAT,TITANO PICK UP,Camara 360°off road,4 Parlantes,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,86
+FIAT,TITANO PICK UP,Camara 360°off road,4 Parlantes,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,86
+FIAT,TITANO PICK UP,Camara 360°off road,4 Parlantes,RANCH AT8 AWD,si,4,local:fiat titano.pdf,86
+FIAT,TITANO PICK UP,Camara 360°off road,2 Tweeters,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,87
+FIAT,TITANO PICK UP,Camara 360°off road,2 Tweeters,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,87
+FIAT,TITANO PICK UP,Camara 360°off road,2 Tweeters,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,87
+FIAT,TITANO PICK UP,Camara 360°off road,2 Tweeters,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,87
+FIAT,TITANO PICK UP,Camara 360°off road,2 Tweeters,RANCH AT8 AWD,si,4,local:fiat titano.pdf,87
+FIAT,TITANO PICK UP,Camara 360°off road,para Android Auto & Apple Car Play,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,88
+FIAT,TITANO PICK UP,Camara 360°off road,para Android Auto & Apple Car Play,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,88
+FIAT,TITANO PICK UP,Camara 360°off road,para Android Auto & Apple Car Play,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,88
+FIAT,TITANO PICK UP,Camara 360°off road,para Android Auto & Apple Car Play,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,88
+FIAT,TITANO PICK UP,Camara 360°off road,para Android Auto & Apple Car Play,RANCH AT8 AWD,si,4,local:fiat titano.pdf,88
+FIAT,TITANO PICK UP,Camara 360°off road,Reconocimiento de voz solo con Apple C.Play,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,89
+FIAT,TITANO PICK UP,Camara 360°off road,Reconocimiento de voz solo con Apple C.Play,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,89
+FIAT,TITANO PICK UP,Camara 360°off road,Reconocimiento de voz solo con Apple C.Play,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,89
+FIAT,TITANO PICK UP,Camara 360°off road,Reconocimiento de voz solo con Apple C.Play,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,89
+FIAT,TITANO PICK UP,Camara 360°off road,Reconocimiento de voz solo con Apple C.Play,RANCH AT8 AWD,si,4,local:fiat titano.pdf,89
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4H / 4L,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,90
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4H / 4L,ENDURANCE MT 4WD,si,1,local:fiat titano.pdf,90
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4H / 4L,FREEDOM MT 4WD,si,2,local:fiat titano.pdf,90
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4H / 4L,FREEDOM PLUS AT8 AWD,no,3,local:fiat titano.pdf,90
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4H / 4L,RANCH AT8 AWD,no,4,local:fiat titano.pdf,90
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4AUTO / 4L,ENDURANCE MT 2WD,no,0,local:fiat titano.pdf,91
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4AUTO / 4L,ENDURANCE MT 4WD,no,1,local:fiat titano.pdf,91
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4AUTO / 4L,FREEDOM MT 4WD,no,2,local:fiat titano.pdf,91
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4AUTO / 4L,FREEDOM PLUS AT8 AWD,si,3,local:fiat titano.pdf,91
+FIAT,TITANO PICK UP,Camara 360°off road,Selector de tracción - 2H / 4AUTO / 4L,RANCH AT8 AWD,si,4,local:fiat titano.pdf,91

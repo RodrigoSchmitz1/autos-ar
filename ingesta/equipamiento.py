@@ -85,9 +85,23 @@ MARCAS = {
     "HAVAL": ({"●": "si", "•": "si", "-": "no", "—": "no"}, None),
     "BYD": ({"●": "si", "—": "no", "-": "no", "○": "opcional"}, None),
     "HONDA": ({"si": "si", "no": "no", "-": "no"}, None),
+    # Toyota: "O" (o un cero, segun la ficha) = de serie, "X" = no tiene.
+    # El "-" es "no corresponde" en datos tecnicos (bateria en una version naftera): no es marca.
+    "TOYOTA": ({"o": "si", "0": "si", "x": "no"}, None),
+    # Fiat: "S" de serie, "O" opcional, "-" no disponible (a veces el guion es un icono: U+F6BA).
+    "FIAT": ({"s": "si", "o": "opcional", "-": "no", "\uf6ba": "no"}, r"(?i)S ?: ?DE SERIE"),
+    "CITROEN": ({"si": "si", "-": "no", "no": "no", "opcional": "opcional"}, None),
+    "MG": ({"-": "no"}, None),  # tildes (se agregan solas) = de serie
+    "JAC": ({"●": "si", "-": "no"}, None),
+    "CHANGAN": ({"■": "si", "-": "no"}, None),
+    # Chery: vinieta (en algunas fichas una "l" de la fuente Wingdings) = de serie.
+    "CHERY": ({"•": "si", "l": "si", "-": "no"}, None),
+    "JETOUR": ({"●": "si", "◉": "si", "-": "no"}, None),
+    "BMW": ({"x": "si", "-": "no"}, None),
+    "MERCEDES BENZ": ({"•": "si", "x": "si", "×": "si", "-": "no"}, None),
     # Marcas dibujadas (formato dibujo): no hay texto que traducir.
     "RAM": ({}, None),
-    "NISSAN": ({}, None),
+    "NISSAN": ({"•": "si", "••": "si", "-": "no"}, None),
     "JEEP": ({}, None),
 }
 
@@ -270,6 +284,11 @@ def filas_catalogo(pdf, marcas, versiones, columnas):
                 # Una sola "X" en una tabla de varias versiones: celda combinada, la tienen todas
                 # (Kangoo Express). Un "-" solo no se interpreta.
                 if len(vals) == 1 and n > 1 and marcas[vals[0].lower()] == "si":
+                    # Salvo que antes de la marca haya un valor de otra version ("plegado
+                    # electrico Manual ✓": Manual en una, la marca en la otra).
+                    palabras_item = m.group(1).split()
+                    if len(palabras_item) > 1 and re.fullmatch(r"[A-ZÁ-Ú][a-zá-ú]+", palabras_item[-1])                             and palabras_item[-2][:1].islower():
+                        continue
                     vals = vals * n
                 if len(vals) == n:
                     item = limpio(m.group(1)).lstrip("•·- ").strip()
@@ -298,32 +317,53 @@ def filas_unica(pdf, marcas, versiones):
     return versiones, salida, 0
 
 
-def filas_dibujo(pdf, versiones, columnas=1):
+def filas_dibujo(pdf, versiones, columnas=1, marcas=None):
     """Fichas donde la marca es un dibujo (Nissan, Jeep): un circulo o tilde vectorial,
     no texto. Las columnas salen del encabezado (la palabra de cada version, en la
     lista de fichas); un renglon tiene el item si hay un dibujo chico a la altura del
-    renglon y cerca de la columna. Sin dibujo en una columna: no lo tiene."""
-    claves = [normalizar_v(v.split()[0]) for v in versiones]
+    renglon y cerca de la columna. Sin dibujo en una columna: no lo tiene.
+    Con marcas de texto (Fiat: la marca y el item no quedan en la misma tabla) se
+    hace lo mismo con las palabras que son marcas ("S", "O", "-"); sin marca en una
+    columna queda sin dato."""
+    # "1.3 MT CS=FREEDOM 1.3 CS": a la izquierda lo que dice el encabezado de la ficha
+    # (para ubicar la columna), a la derecha el nombre de la version.
+    encabezados = [v.split("=")[0] for v in versiones]
+    versiones = [v.split("=")[-1] for v in versiones]
+    claves = [normalizar_v(v.split()[0]) for v in encabezados]
     salida, seccion, xs = [], "", None
     mitades = lambda p: [p] if columnas == 1 else [p.crop((0, 0, p.width / 2, p.height)), p.crop((p.width / 2, 0, p.width, p.height))]
     for pagina in [m for p in pdf.pages for m in mitades(p)]:
-        # Tolerancia chica: en algunas fichas los nombres de version vienen pegados.
-        palabras = pagina.extract_words(keep_blank_chars=False, x_tolerance=1.5)
+        # Tolerancia chica: en algunas fichas dibujadas los nombres de version vienen
+        # pegados (RAM). Las de marcas de texto (Fiat) tienen letras espaciadas.
+        palabras = pagina.extract_words(keep_blank_chars=False, x_tolerance=3 if marcas else 1.5)
         renglones = {}
         for w in palabras:
             renglones.setdefault(round(w["top"] / 3), []).append(w)
-        # Columnas: el renglon donde aparecen las palabras de todas las versiones.
-        for ws in renglones.values():
-            textos = [normalizar_v(w["text"]) for w in ws]
-            if all(k in textos for k in claves):
+        # Columnas: el renglon donde aparecen las palabras de todas las versiones (con el
+        # de abajo: a veces unos nombres estan un par de puntos mas abajo, Titano).
+        for ws in [renglones[k] + renglones.get(k + 1, []) for k in sorted(renglones)]:
+            textos = collections.Counter(normalizar_v(w["text"]) for w in ws)
+            # Cada palabra tantas veces como versiones empiezan con ella ("C3" x4; el
+            # titulo "CITROEN C3" tiene una sola).
+            if all(textos[k] >= n for k, n in collections.Counter(claves).items()):
                 # Cada version toma la siguiente palabra con su nombre, de izquierda a
                 # derecha (dos versiones pueden empezar igual: "Laramie", "Laramie Night").
                 libres = sorted(ws, key=lambda w: w["x0"])
                 xs = []
-                for k in claves:
+                for k, v in zip(claves, encabezados):
                     w = next(w for w in libres if normalizar_v(w["text"]) == k)
+                    fin = w
+                    # La marca va centrada bajo el nombre entero ("FREEDOM PLUS AT8 AWD",
+                    # "EXCLUSIVE CVT 3R AWD"): se siguen las palabras del nombre.
+                    resto = [normalizar_v(t) for t in v.split()[1:]]
+                    siguientes = [x for x in libres if x["x0"] > w["x0"]]
+                    for t, x in zip(resto, siguientes):
+                        if normalizar_v(x["text"]) != t or x["x0"] - fin["x1"] > 15:
+                            break
+                        fin = x
+                        libres.remove(x)
                     libres.remove(w)
-                    xs.append((w["x0"] + w["x1"]) / 2)
+                    xs.append((w["x0"] + fin["x1"]) / 2)
                 break
         else:
             # Encabezado con nombres pegados ("REBELLARAMIELARAMIE", RAM): si esta la primera
@@ -342,11 +382,15 @@ def filas_dibujo(pdf, versiones, columnas=1):
             continue
         # La marca es una curva rellena (tilde o circulo); el cuadradito vacio de cada
         # celda (Jeep) es un rectangulo solo con borde y no cuenta.
-        dibujos = [o for o in pagina.curves + pagina.images
-                   if o["width"] <= 14 and o["height"] <= 14 and o["x0"] > min(xs) - 40 and o.get("fill", True)]
+        if marcas:
+            dibujos = [dict(w, valor=marcas[w["text"].lower()]) for w in palabras
+                       if w["text"].lower() in marcas and w["x0"] > min(xs) - 40]
+        else:
+            dibujos = [dict(o, valor="si") for o in pagina.curves + pagina.images
+                       if o["width"] <= 14 and o["height"] <= 14 and o["x0"] > min(xs) - 40 and o.get("fill", True)]
         # Solo los del tamanio de la marca (el mas comun): letras dibujadas como curvas
         # (textos legales, datos tecnicos) tienen otros tamanios.
-        if dibujos:
+        if dibujos and not marcas:
             tam = collections.Counter((round(o["width"]), round(o["height"])) for o in dibujos).most_common(1)[0][0]
             dibujos = [o for o in dibujos if abs(o["width"] - tam[0]) <= 1.5 and abs(o["height"] - tam[1]) <= 1.5]
         borde = min(xs) - 30
@@ -357,7 +401,12 @@ def filas_dibujo(pdf, versiones, columnas=1):
             texto = limpio(" ".join(w["text"] for w in ws if w["x1"] < borde))
             if texto and re.search("[a-z]", texto, re.I):
                 centro = (min(w["top"] for w in ws) + max(w["bottom"] for w in ws)) / 2
-                items.append([texto, centro, set()])
+                # Item en dos renglones ("Sistema de monitoreo de presion / de neumaticos"):
+                # el segundo empieza en minuscula y va pegado; la marca queda en el medio.
+                if items and texto[0].islower() and centro - items[-1][1] < 18:
+                    items[-1] = [items[-1][0] + " " + texto, (items[-1][1] + centro) / 2, {}]
+                else:
+                    items.append([texto, centro, {}])
         if not items:
             continue
         # Cada dibujo va al renglon mas cercano (no a todos los que toca: los renglones
@@ -367,7 +416,7 @@ def filas_dibujo(pdf, versiones, columnas=1):
             fila = min(items, key=lambda it: abs(it[1] - cy))
             col = min(range(len(xs)), key=lambda k: abs(cx - xs[k]))
             if abs(fila[1] - cy) <= 6 and abs(cx - xs[col]) < 30:
-                fila[2].add(col)
+                fila[2][col] = o["valor"]
         for texto, _, cols in items:
             if not cols:
                 # Sin ningun dibujo: titulo de seccion, dato de texto o nota; no se usa
@@ -375,7 +424,130 @@ def filas_dibujo(pdf, versiones, columnas=1):
                 if texto.isupper() or len(texto) < 25:
                     seccion = texto
                 continue
-            salida += [(seccion, texto, v, "si" if k in cols else "no") for k, v in enumerate(versiones)]
+            # Con marcas de texto, un renglon con marca en pocas columnas es otra cosa
+            # (tabla de colores: "249 - BLANCO").
+            if marcas and len(cols) < len(versiones) / 2:
+                continue
+            salida += [(seccion, texto, v, cols.get(k, None if marcas else "no")) for k, v in enumerate(versiones)
+                       if k in cols or not marcas]
+    return versiones, salida, 0
+
+
+def filas_grilla(pdf, marcas):
+    """Tablas con bordes y celdas combinadas (Toyota y otras): una marca que abarca
+    varias columnas vale para todas esas versiones. Se usa la grilla del PDF: cada
+    version es una columna de la tabla y cada celda cubre las columnas que ocupa.
+    El nombre de la version junta los renglones del encabezado ("CABINA DOBLE DX",
+    "4X2", "6AT"). Una tabla sin encabezado (sigue la de arriba) usa el ultimo."""
+    salida, seccion, versiones, encabezados = [], "", [], []
+    for pagina in pdf.pages:
+        for tabla in pagina.find_tables():
+            # Texto de la celda: las letras con el centro adentro (crop corta renglones que
+            # rozan el borde; within_bbox mezcla titulos superpuestos).
+            texto = lambda c: limpio(pagina.filter(
+                lambda o: o.get("object_type") != "char" or (c[0] <= (o["x0"] + o["x1"]) / 2 <= c[2] and c[1] <= (o["top"] + o["bottom"]) / 2 <= c[3])
+            ).crop(c, strict=False).extract_text()) if c else ""
+            # Columnas de la grilla: entre cada par de bordes verticales de las celdas.
+            bordes = sorted({round(x) for c in tabla.cells for x in (c[0], c[2])})
+            bordes = [b for i, b in enumerate(bordes) if i == 0 or b - bordes[i - 1] > 3]
+            centros = [(a + b) / 2 for a, b in zip(bordes, bordes[1:])]
+            filas = [[(c, texto(c)) for c in r.cells if c] for r in tabla.rows]
+            cubre = lambda celda, x: celda[0] - 1 <= x <= celda[2] + 1
+            # Titulo de seccion: letra clara (sobre fondo oscuro).
+            def clara(c):
+                letras = [o for o in pagina.chars if c[0] <= (o["x0"] + o["x1"]) / 2 <= c[2] and c[1] <= (o["top"] + o["bottom"]) / 2 <= c[3]
+                          and o["text"].strip()]
+                def blanca(o):
+                    k = o.get("non_stroking_color")
+                    k = k if isinstance(k, (tuple, list)) else (k,) if k is not None else (0,)
+                    return max(k) < 0.2 if len(k) == 4 else min(k) > 0.8  # CMYK: blanco es (0, 0, 0, 0)
+                return bool(letras) and all(blanca(o) for o in letras)
+            # Encabezado: los renglones de arriba sin nada en la columna de los items
+            # (Hilux) o un primer renglon con un nombre (no una marca) en cada columna,
+            # sin celdas combinadas (Corolla: "Corolla Cross | 2.0 XLI CVT | 2.0 XEI CVT").
+            n_enc = 0
+            for fila in filas:
+                if any(t for c, t in fila if cubre(c, centros[0])) or not any(t for _, t in fila):
+                    break
+                n_enc += 1
+            primera = [(c, t) for c, t in filas[0] if not cubre(c, centros[0])] if filas else []
+            if not n_enc and len(primera) >= 2 and all(t and not es_marca(t, marcas) and re.search("[A-Za-z]", t) for _, t in primera) \
+                    and all(sum(cubre(c, x) for x in centros) == 1 for c, _ in primera):
+                n_enc = 1
+            claves = {normalizar_v(v): v for v in versiones}
+            if n_enc:
+                cols = [x for x in centros[1:] if any(t for c, t in filas[0] if cubre(c, x) and not cubre(c, centros[0]))]
+                nombres = [limpio(" ".join(t for fila in filas[:n_enc] for c, t in fila if cubre(c, x) and not cubre(c, centros[0])))
+                           for x in cols]
+            elif len(centros) == 1 and filas and len(filas[0]) == 1 and clara(filas[0][0][0]) and re.search("[0-9]", filas[0][0][1]) \
+                    and (not versiones or normalizar_v(filas[0][0][1]) in claves):
+                # Tabla de una columna con el nombre de la version arriba (SW4: una version por ficha).
+                n_enc, cols, nombres = 1, [centros[0]], [filas[0][0][1]]
+            if n_enc:
+                # El mismo nombre escrito con otros caracteres es la misma version.
+                nombres = [claves.get(normalizar_v(n), n) for n in nombres]
+                encabezados.append((pagina.page_number, list(zip(cols, nombres))))
+                versiones += [n for n in dict.fromkeys(nombres) if n not in versiones]
+            # Tabla sin encabezado: el ultimo de la misma pagina y a la misma altura horizontal
+            # (con dos paginas por hoja, cada mitad tiene el suyo).
+            x0, x1 = tabla.bbox[0], tabla.bbox[2]
+            candidatos = [e for p, e in encabezados if any(x0 <= x <= x1 for x, _ in e)]
+            mismos = [e for p, e in encabezados if p == pagina.page_number and any(x0 <= x <= x1 for x, _ in e)]
+            encabezado = (mismos or candidatos or [None])[-1]
+            if not encabezado:
+                continue
+            for fila in filas[n_enc:]:
+                etiqueta = " ".join(t for c, t in fila if cubre(c, centros[0]) and t)
+                if not etiqueta:
+                    continue
+                vals = {}
+                for c, t in fila:
+                    if t and not cubre(c, centros[0]):
+                        for x, nombre in encabezado:
+                            if cubre(c, x):
+                                vals[nombre] = valor(t, marcas)
+                if not vals:
+                    celda = next(c for c, t in fila if t and cubre(c, centros[0]))
+                    if clara(celda) or (etiqueta.isupper() and len(etiqueta) > 3):
+                        seccion = etiqueta
+                    elif len(encabezado) == 1 and cubre(celda, encabezado[0][0]):
+                        # Ficha de una sola version (SW4): lista lo que trae, sin marcas.
+                        salida.append((seccion, etiqueta, encabezado[0][1], "si"))
+                    continue
+                salida += [(seccion, etiqueta, n, v) for n, v in vals.items()]
+    # Tablas sueltas con otro encabezado (notas, "Imagen correspondiente a..."): quedan
+    # las versiones con marcas en buena parte de los items.
+    marcadas = collections.Counter(n for _, _, n, v in salida if v in ("si", "no", "opcional"))
+    versiones = [n for n in versiones if marcadas[n] >= 0.4 * max(marcadas.values(), default=0)]
+    salida = [f for f in salida if f[2] in versiones]
+    return versiones, salida, 0
+
+
+def filas_configurador(pdf, versiones):
+    """Impresion del configurador del sitio (Renault): una version por archivo y las
+    paginas "Equipamiento incluido" / "Look Interior" con lo que trae, en dos columnas.
+    Los titulos de seccion ("Confort") van solos en el renglon y con mayuscula; los
+    items, en minuscula."""
+    salida, seccion = [], ""
+    for pagina in pdf.pages:
+        texto = pagina.extract_text() or ""
+        if "Equipamiento incluido" not in texto and "Look Interior" not in texto:
+            continue
+        palabras = pagina.extract_words(extra_attrs=["size"])
+        titulo = max((w["bottom"] for w in palabras if w["size"] > 12), default=0)
+        pie = min((w["top"] for w in palabras if w["text"] == "Encontrá"), default=pagina.height)
+        renglones = {}
+        for w in palabras:
+            if titulo < w["top"] < pie and w["size"] < 12:
+                renglones.setdefault(round(w["top"] / 3), []).append(w)
+        for clave in sorted(renglones):
+            mitad = pagina.width / 2
+            izq = limpio(" ".join(w["text"] for w in sorted(renglones[clave], key=lambda w: w["x0"]) if w["x0"] < mitad))
+            der = limpio(" ".join(w["text"] for w in sorted(renglones[clave], key=lambda w: w["x0"]) if w["x0"] >= mitad))
+            if izq and not der and izq[0].isupper() and re.search("[a-z]", izq) and len(izq) < 30:
+                seccion = izq
+                continue
+            salida += [(seccion, t, versiones[0], "si") for t in (izq, der) if t]
     return versiones, salida, 0
 
 
@@ -393,7 +565,7 @@ def leer_ficha(marca, familia, formato, url, versiones_lista=None, columnas=1):
     with pdfplumber.open(io.BytesIO(contenido)) as pdf:
         texto = "\n".join(p.extract_text() or "" for p in pdf.pages)
         # En las de una sola version (revisadas a mano al agregarlas) la leyenda puede faltar.
-        if leyenda and formato != "unica" and not re.search(leyenda, texto):
+        if leyenda and formato not in ("unica", "configurador") and not re.search(leyenda, texto):
             raise ValueError("no esta la leyenda de las marcas: puede haber cambiado el formato")
         if TILDES & set(texto):
             marcas = {**marcas, **{t: "si" for t in TILDES}}
@@ -401,6 +573,19 @@ def leer_ficha(marca, familia, formato, url, versiones_lista=None, columnas=1):
             versiones, filas, descartadas = filas_catalogo(pdf, marcas, versiones_lista, columnas)
         elif formato == "dibujo":
             versiones, filas, descartadas = filas_dibujo(pdf, versiones_lista, columnas)
+        elif formato == "posiciones":
+            versiones, filas, descartadas = filas_dibujo(pdf, versiones_lista, columnas, marcas)
+        elif formato == "configurador":
+            versiones, filas, descartadas = filas_configurador(pdf, versiones_lista)
+        elif formato == "grilla":
+            versiones, filas, descartadas = filas_grilla(pdf, marcas)
+            # Nombres como los dice DNRPA ("CABINA DOBLE DX" -> "DC DX"), en el orden de la
+            # ficha. Si la ficha cambio la cantidad de versiones, mejor fallar que cruzar mal.
+            if versiones_lista:
+                if len(versiones_lista) != len(versiones):
+                    raise ValueError(f"la ficha tiene {len(versiones)} versiones y la lista {len(versiones_lista)}: {versiones}")
+                nuevo = dict(zip(versiones, versiones_lista))
+                versiones, filas = versiones_lista, [(s, i, nuevo[v], x) for s, i, v, x in filas]
         elif formato == "unica":
             versiones, filas, descartadas = filas_unica(pdf, marcas, versiones_lista)
         else:
@@ -444,7 +629,9 @@ def main():
         nombre = f"{r['marca']} {r['familia']}"
         try:
             local = r["url"].startswith("local:")
-            extraida = os.path.join(EXTRAIDAS, r["url"][len("local:"):].rsplit(".", 1)[0] + ".csv") if local else None
+            archivo = r["url"][len("local:"):]
+            # Sin la extension .pdf (algunos PDF bajados no la tienen y llevan puntos en el nombre).
+            extraida = os.path.join(EXTRAIDAS, re.sub(r"(?i)\.pdf$", "", archivo) + ".csv") if local else None
             if local and not os.path.exists(os.path.join(MANUALES, r["url"][len("local:"):])):
                 # En el pipeline no estan los PDF bajados a mano: se usan los datos ya extraidos.
                 if not os.path.exists(extraida):

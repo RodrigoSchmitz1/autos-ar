@@ -1,0 +1,79 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+CITROEN,C 4 HYBRID,Dimensiones de rodado,Garantía 3 años ó 100.000 Km,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,0
+CITROEN,C 4 HYBRID,Dimensiones de rodado,Garantía 3 años ó 100.000 Km,C4 Hybrid MAX,si,1,local:citroen c4.pdf,0
+CITROEN,C 4 HYBRID,SEGURIDAD,Frenos ABS con REF (Repartidor Electrónico de Frenado) y AFU (Ayuda al Frenado de Urgencia),C4 Hybrid PLUS,si,0,local:citroen c4.pdf,1
+CITROEN,C 4 HYBRID,SEGURIDAD,Frenos ABS con REF (Repartidor Electrónico de Frenado) y AFU (Ayuda al Frenado de Urgencia),C4 Hybrid MAX,si,1,local:citroen c4.pdf,1
+CITROEN,C 4 HYBRID,SEGURIDAD,Control de estabilidad (ESP) y control de tracción (ASR),C4 Hybrid PLUS,si,0,local:citroen c4.pdf,2
+CITROEN,C 4 HYBRID,SEGURIDAD,Control de estabilidad (ESP) y control de tracción (ASR),C4 Hybrid MAX,si,1,local:citroen c4.pdf,2
+CITROEN,C 4 HYBRID,SEGURIDAD,Ayuda al arranque en pendiente (HILL ASSIST),C4 Hybrid PLUS,si,0,local:citroen c4.pdf,3
+CITROEN,C 4 HYBRID,SEGURIDAD,Ayuda al arranque en pendiente (HILL ASSIST),C4 Hybrid MAX,si,1,local:citroen c4.pdf,3
+CITROEN,C 4 HYBRID,SEGURIDAD,Freno de mano automático eléctrico,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,4
+CITROEN,C 4 HYBRID,SEGURIDAD,Freno de mano automático eléctrico,C4 Hybrid MAX,si,1,local:citroen c4.pdf,4
+CITROEN,C 4 HYBRID,SEGURIDAD,Airbags frontales conductor y pasajero,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,5
+CITROEN,C 4 HYBRID,SEGURIDAD,Airbags frontales conductor y pasajero,C4 Hybrid MAX,si,1,local:citroen c4.pdf,5
+CITROEN,C 4 HYBRID,SEGURIDAD,Airbags laterales delanteros,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,6
+CITROEN,C 4 HYBRID,SEGURIDAD,Airbags laterales delanteros,C4 Hybrid MAX,si,1,local:citroen c4.pdf,6
+CITROEN,C 4 HYBRID,SEGURIDAD,Airbags de cortina,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,7
+CITROEN,C 4 HYBRID,SEGURIDAD,Airbags de cortina,C4 Hybrid MAX,si,1,local:citroen c4.pdf,7
+CITROEN,C 4 HYBRID,SEGURIDAD,Cierre centralizado de puertas y baúl con mando a distancia,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,8
+CITROEN,C 4 HYBRID,SEGURIDAD,Cierre centralizado de puertas y baúl con mando a distancia,C4 Hybrid MAX,si,1,local:citroen c4.pdf,8
+CITROEN,C 4 HYBRID,- Active Safety Brake,- Sistema de vigilancia del ángulo muerto,C4 Hybrid PLUS,no,0,local:citroen c4.pdf,9
+CITROEN,C 4 HYBRID,- Active Safety Brake,- Sistema de vigilancia del ángulo muerto,C4 Hybrid MAX,si,1,local:citroen c4.pdf,9
+CITROEN,C 4 HYBRID,- Active Safety Brake,"Sensores de estacionamiento traseros, sonoro visual",C4 Hybrid PLUS,si,0,local:citroen c4.pdf,10
+CITROEN,C 4 HYBRID,- Active Safety Brake,"Sensores de estacionamiento traseros, sonoro visual",C4 Hybrid MAX,si,1,local:citroen c4.pdf,10
+CITROEN,C 4 HYBRID,- Active Safety Brake,"Sensores de estacionamiento delanteros, sonoro visual",C4 Hybrid PLUS,no,0,local:citroen c4.pdf,11
+CITROEN,C 4 HYBRID,- Active Safety Brake,"Sensores de estacionamiento delanteros, sonoro visual",C4 Hybrid MAX,si,1,local:citroen c4.pdf,11
+CITROEN,C 4 HYBRID,- Active Safety Brake,Cámara de visión trasera,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,12
+CITROEN,C 4 HYBRID,- Active Safety Brake,Cámara de visión trasera,C4 Hybrid MAX,si,1,local:citroen c4.pdf,12
+CITROEN,C 4 HYBRID,- Active Safety Brake,Espejo retrovisor con antiencandilamiento,C4 Hybrid PLUS,no,0,local:citroen c4.pdf,13
+CITROEN,C 4 HYBRID,- Active Safety Brake,Espejo retrovisor con antiencandilamiento,C4 Hybrid MAX,si,1,local:citroen c4.pdf,13
+CITROEN,C 4 HYBRID,- Active Safety Brake,Detector de sub-inflado de neumáticos,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,14
+CITROEN,C 4 HYBRID,- Active Safety Brake,Detector de sub-inflado de neumáticos,C4 Hybrid MAX,si,1,local:citroen c4.pdf,14
+CITROEN,C 4 HYBRID,- Active Safety Brake,Proyectores LED,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,15
+CITROEN,C 4 HYBRID,- Active Safety Brake,Proyectores LED,C4 Hybrid MAX,si,1,local:citroen c4.pdf,15
+CITROEN,C 4 HYBRID,- Active Safety Brake,Faros antiniebla delanteros LED,C4 Hybrid PLUS,no,0,local:citroen c4.pdf,16
+CITROEN,C 4 HYBRID,- Active Safety Brake,Faros antiniebla delanteros LED,C4 Hybrid MAX,si,1,local:citroen c4.pdf,16
+CITROEN,C 4 HYBRID,CONFORT,Suspensión de amortiguadores progresivos hidráulicos®,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,17
+CITROEN,C 4 HYBRID,CONFORT,Suspensión de amortiguadores progresivos hidráulicos®,C4 Hybrid MAX,si,1,local:citroen c4.pdf,17
+CITROEN,C 4 HYBRID,CONFORT,Dirección asistida eléctrica variable,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,18
+CITROEN,C 4 HYBRID,CONFORT,Dirección asistida eléctrica variable,C4 Hybrid MAX,si,1,local:citroen c4.pdf,18
+CITROEN,C 4 HYBRID,CONFORT,(Apple CarPlay® & Android Auto®) y reconocimiento de voz,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,19
+CITROEN,C 4 HYBRID,CONFORT,(Apple CarPlay® & Android Auto®) y reconocimiento de voz,C4 Hybrid MAX,si,1,local:citroen c4.pdf,19
+CITROEN,C 4 HYBRID,CONFORT,Radio con USB / Bluetooth® con mandos al volante,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,20
+CITROEN,C 4 HYBRID,CONFORT,Radio con USB / Bluetooth® con mandos al volante,C4 Hybrid MAX,si,1,local:citroen c4.pdf,20
+CITROEN,C 4 HYBRID,CONFORT,Toma 12V delantera,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,21
+CITROEN,C 4 HYBRID,CONFORT,Toma 12V delantera,C4 Hybrid MAX,si,1,local:citroen c4.pdf,21
+CITROEN,C 4 HYBRID,CONFORT,Tomas USB delanteras (1 tipo A + 1 tipo C para función Mirror Screen) + toma USB en la fila trasera (1 tipo A),C4 Hybrid PLUS,si,0,local:citroen c4.pdf,22
+CITROEN,C 4 HYBRID,CONFORT,Tomas USB delanteras (1 tipo A + 1 tipo C para función Mirror Screen) + toma USB en la fila trasera (1 tipo A),C4 Hybrid MAX,si,1,local:citroen c4.pdf,22
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Volante multifunción,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,23
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Volante multifunción,C4 Hybrid MAX,si,1,local:citroen c4.pdf,23
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Climatizador automático Bi-zona con función AC/MAX,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,24
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Climatizador automático Bi-zona con función AC/MAX,C4 Hybrid MAX,si,1,local:citroen c4.pdf,24
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Acceso sin llave y arranque con botón START/STOP (ADML),C4 Hybrid PLUS,no,0,local:citroen c4.pdf,25
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Acceso sin llave y arranque con botón START/STOP (ADML),C4 Hybrid MAX,si,1,local:citroen c4.pdf,25
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Encendido automático de luces y sensor de lluvia,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,26
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Encendido automático de luces y sensor de lluvia,C4 Hybrid MAX,si,1,local:citroen c4.pdf,26
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Limitador y regulador de velocidad,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,27
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Limitador y regulador de velocidad,C4 Hybrid MAX,si,1,local:citroen c4.pdf,27
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Levantavidrios delanteros y traseros eléctricos con antipinzamiento y One Touch,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,28
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Levantavidrios delanteros y traseros eléctricos con antipinzamiento y One Touch,C4 Hybrid MAX,si,1,local:citroen c4.pdf,28
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Espejos exteriores con regulación eléctrica y rebatibles eléctricamente,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,29
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Espejos exteriores con regulación eléctrica y rebatibles eléctricamente,C4 Hybrid MAX,si,1,local:citroen c4.pdf,29
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Apoyabrazos central delantero,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,30
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Apoyabrazos central delantero,C4 Hybrid MAX,si,1,local:citroen c4.pdf,30
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Apoyabrazos central trasero,C4 Hybrid PLUS,no,0,local:citroen c4.pdf,31
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Apoyabrazos central trasero,C4 Hybrid MAX,si,1,local:citroen c4.pdf,31
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Asiento trasero rebatible 1/3 - 2/3,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,32
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Asiento trasero rebatible 1/3 - 2/3,C4 Hybrid MAX,si,1,local:citroen c4.pdf,32
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Asientos Advanced Comfort®,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,33
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Asientos Advanced Comfort®,C4 Hybrid MAX,si,1,local:citroen c4.pdf,33
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Asientos delanteros calefaccionados,C4 Hybrid PLUS,no,0,local:citroen c4.pdf,34
+CITROEN,C 4 HYBRID,Cargador inalámbrico,Asientos delanteros calefaccionados,C4 Hybrid MAX,si,1,local:citroen c4.pdf,34
+CITROEN,C 4 HYBRID,Luces diurnas LED (DRL),Ópticas traseras LED,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,35
+CITROEN,C 4 HYBRID,Luces diurnas LED (DRL),Ópticas traseras LED,C4 Hybrid MAX,si,1,local:citroen c4.pdf,35
+CITROEN,C 4 HYBRID,Espejos retrovisores,Ventanas y luneta trasera tintadas,C4 Hybrid PLUS,no,0,local:citroen c4.pdf,36
+CITROEN,C 4 HYBRID,Espejos retrovisores,Ventanas y luneta trasera tintadas,C4 Hybrid MAX,si,1,local:citroen c4.pdf,36
+CITROEN,C 4 HYBRID,Espejos retrovisores,"Techo vidriado ""Spoiler"" con apertura eléctrica y black-out",C4 Hybrid PLUS,no,0,local:citroen c4.pdf,37
+CITROEN,C 4 HYBRID,Espejos retrovisores,"Techo vidriado ""Spoiler"" con apertura eléctrica y black-out",C4 Hybrid MAX,si,1,local:citroen c4.pdf,37
+CITROEN,C 4 HYBRID,Carrocería bitono,Volante de cuero,C4 Hybrid PLUS,si,0,local:citroen c4.pdf,38
+CITROEN,C 4 HYBRID,Carrocería bitono,Volante de cuero,C4 Hybrid MAX,si,1,local:citroen c4.pdf,38

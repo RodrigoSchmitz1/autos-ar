@@ -1,0 +1,61 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+CITROEN,JUMPER,Cilindrada (cm3),Filtro de Particulas (DPF),JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,0
+CITROEN,JUMPER,Cilindrada (cm3),Filtro de Particulas (DPF),JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,0
+CITROEN,JUMPER,Volumen de carga (m3),Garantía 2 años con kilometraje ilimitado,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,1
+CITROEN,JUMPER,Volumen de carga (m3),Garantía 2 años con kilometraje ilimitado,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,1
+CITROEN,JUMPER,SEGURIDAD,Frenos ABS con EBFD (distribuidor electrónico de fuerza de frenado),JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,2
+CITROEN,JUMPER,SEGURIDAD,Frenos ABS con EBFD (distribuidor electrónico de fuerza de frenado),JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,2
+CITROEN,JUMPER,SEGURIDAD,Control de estabilidad (ESP),JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,3
+CITROEN,JUMPER,SEGURIDAD,Control de estabilidad (ESP),JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,3
+CITROEN,JUMPER,SEGURIDAD,Cross Wind Assist y Trailer Stability Control,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,4
+CITROEN,JUMPER,SEGURIDAD,Cross Wind Assist y Trailer Stability Control,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,4
+CITROEN,JUMPER,SEGURIDAD,Post Collision Breaking,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,5
+CITROEN,JUMPER,SEGURIDAD,Post Collision Breaking,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,5
+CITROEN,JUMPER,SEGURIDAD,Frenos delanteros a discos ventilados,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,6
+CITROEN,JUMPER,SEGURIDAD,Frenos delanteros a discos ventilados,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,6
+CITROEN,JUMPER,SEGURIDAD,Frenos trasero a discos,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,7
+CITROEN,JUMPER,SEGURIDAD,Frenos trasero a discos,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,7
+CITROEN,JUMPER,SEGURIDAD,Airbags frontales conductor y pasajero,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,8
+CITROEN,JUMPER,SEGURIDAD,Airbags frontales conductor y pasajero,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,8
+CITROEN,JUMPER,SEGURIDAD,Cierre centralizado de puertas en rodaje con mando a distancia selectivo,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,9
+CITROEN,JUMPER,SEGURIDAD,Cierre centralizado de puertas en rodaje con mando a distancia selectivo,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,9
+CITROEN,JUMPER,SEGURIDAD,Cinturones de seguridad delanteros inerciales (3),JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,10
+CITROEN,JUMPER,SEGURIDAD,Cinturones de seguridad delanteros inerciales (3),JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,10
+CITROEN,JUMPER,SEGURIDAD,Sistema de Monitoreo Indirecto de Neumaticos (iTPMS),JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,11
+CITROEN,JUMPER,SEGURIDAD,Sistema de Monitoreo Indirecto de Neumaticos (iTPMS),JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,11
+CITROEN,JUMPER,SEGURIDAD,Alerta Peaton - Alarma marcha atrás,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,12
+CITROEN,JUMPER,SEGURIDAD,Alerta Peaton - Alarma marcha atrás,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,12
+CITROEN,JUMPER,SEGURIDAD,Ganchos para sujección de carga,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,13
+CITROEN,JUMPER,SEGURIDAD,Ganchos para sujección de carga,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,13
+CITROEN,JUMPER,SEGURIDAD,Panel divisor cabina/zona de carga,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,14
+CITROEN,JUMPER,SEGURIDAD,Panel divisor cabina/zona de carga,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,14
+CITROEN,JUMPER,Alarma perimetrica,Sensores de estacionamiento traseros,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,15
+CITROEN,JUMPER,Alarma perimetrica,Sensores de estacionamiento traseros,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,15
+CITROEN,JUMPER,CONFORT,Dirección asistida electrica,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,16
+CITROEN,JUMPER,CONFORT,Dirección asistida electrica,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,16
+CITROEN,JUMPER,CONFORT,Asiento conductor con regulación en altura y lumbar,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,17
+CITROEN,JUMPER,CONFORT,Asiento conductor con regulación en altura y lumbar,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,17
+CITROEN,JUMPER,CONFORT,Regulación interna de luces,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,18
+CITROEN,JUMPER,CONFORT,Regulación interna de luces,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,18
+CITROEN,JUMPER,CONFORT,Limitador y regulador de velocidad,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,19
+CITROEN,JUMPER,CONFORT,Limitador y regulador de velocidad,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,19
+CITROEN,JUMPER,CONFORT,Aire acondicionado,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,20
+CITROEN,JUMPER,CONFORT,Aire acondicionado,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,20
+CITROEN,JUMPER,CONFORT,Computadora de abordo,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,21
+CITROEN,JUMPER,CONFORT,Computadora de abordo,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,21
+CITROEN,JUMPER,CONFORT,Levantavidrios delanteros eléctricos,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,22
+CITROEN,JUMPER,CONFORT,Levantavidrios delanteros eléctricos,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,22
+CITROEN,JUMPER,CONFORT,Espejos exteriores con regulación eléctrica,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,23
+CITROEN,JUMPER,CONFORT,Espejos exteriores con regulación eléctrica,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,23
+CITROEN,JUMPER,CONFORT,Toma 12V,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,24
+CITROEN,JUMPER,CONFORT,Toma 12V,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,24
+CITROEN,JUMPER,CONFORT,Iluminación en zona de carga,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,25
+CITROEN,JUMPER,CONFORT,Iluminación en zona de carga,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,25
+CITROEN,JUMPER,CONFORT,Puertas traseras batientes con apertura hasta 270°,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,26
+CITROEN,JUMPER,CONFORT,Puertas traseras batientes con apertura hasta 270°,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,26
+CITROEN,JUMPER,CONFORT,Puerta lateral corrediza derecha,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,27
+CITROEN,JUMPER,CONFORT,Puerta lateral corrediza derecha,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,27
+CITROEN,JUMPER,Número de asientos,Apoyabrazo conductor,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,28
+CITROEN,JUMPER,Número de asientos,Apoyabrazo conductor,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,28
+CITROEN,JUMPER,ESTILO,Luces diurnas DRL,JUMPER L2H2 HDI 140 VAN MY26,si,0,local:citroen jumper.pdf,29
+CITROEN,JUMPER,ESTILO,Luces diurnas DRL,JUMPER L3H2 HDI 140 VAN MY26,si,1,local:citroen jumper.pdf,29

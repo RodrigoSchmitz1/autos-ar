@@ -1,0 +1,69 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+MG,ZS,,Kit de reparación de neumáticos,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,0
+MG,ZS,,Kit de reparación de neumáticos,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,0
+MG,ZS,,Apoyabrazos central delantero con almacenamiento,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,1
+MG,ZS,,Apoyabrazos central delantero con almacenamiento,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,1
+MG,ZS,,Asientos delanteros calefaccionados,HYBRID + COMFORT,no,0,local:mg-zs-hev.pdf,2
+MG,ZS,,Asientos delanteros calefaccionados,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,2
+MG,ZS,,Climatizador,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,3
+MG,ZS,,Climatizador,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,3
+MG,ZS,,Encendido por botón,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,4
+MG,ZS,,Encendido por botón,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,4
+MG,ZS,,Entrada sin llave,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,5
+MG,ZS,,Entrada sin llave,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,5
+MG,ZS,,"Espejos retrovisores externos calefaccionados, eléctricos y con indicador de giro",HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,6
+MG,ZS,,"Espejos retrovisores externos calefaccionados, eléctricos y con indicador de giro",HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,6
+MG,ZS,,Faros delanteros con DLR,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,7
+MG,ZS,,Faros delanteros con DLR,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,7
+MG,ZS,,Luz de baúl,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,8
+MG,ZS,,Luz de baúl,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,8
+MG,ZS,,Salidas de ventilación en plazas traseras,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,9
+MG,ZS,,Salidas de ventilación en plazas traseras,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,9
+MG,ZS,,Sensor de lluvia,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,10
+MG,ZS,,Sensor de lluvia,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,10
+MG,ZS,,Techo panorámico eléctrico,HYBRID + COMFORT,no,0,local:mg-zs-hev.pdf,11
+MG,ZS,,Techo panorámico eléctrico,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,11
+MG,ZS,,Toma de 12V (x1) y USB (x3),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,12
+MG,ZS,,Toma de 12V (x1) y USB (x3),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,12
+MG,ZS,,ABS+EBD,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,13
+MG,ZS,,ABS+EBD,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,13
+MG,ZS,,Alarma + inmovilizador,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,14
+MG,ZS,,Alarma + inmovilizador,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,14
+MG,ZS,,Asistencia de arranque en pendiente (HAC),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,15
+MG,ZS,,Asistencia de arranque en pendiente (HAC),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,15
+MG,ZS,,Asistencia en atascos de tráfico (TJA),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,16
+MG,ZS,,Asistencia en atascos de tráfico (TJA),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,16
+MG,ZS,,Asistente de cambio de carril (LCA),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,17
+MG,ZS,,Asistente de cambio de carril (LCA),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,17
+MG,ZS,,Asientos traseros con anclaje ISOFIX,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,18
+MG,ZS,,Asientos traseros con anclaje ISOFIX,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,18
+MG,ZS,,Alerta de tráfico cruzado trasero (RCTA),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,19
+MG,ZS,,Alerta de tráfico cruzado trasero (RCTA),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,19
+MG,ZS,,Autohold,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,20
+MG,ZS,,Autohold,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,20
+MG,ZS,,Advertencia de colisión frontal (FCW),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,21
+MG,ZS,,Advertencia de colisión frontal (FCW),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,21
+MG,ZS,,Control de descenso de pendientes (HDC),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,22
+MG,ZS,,Control de descenso de pendientes (HDC),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,22
+MG,ZS,,Control de estabilidad (ESP),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,23
+MG,ZS,,Control de estabilidad (ESP),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,23
+MG,ZS,,Control crucero adaptativo,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,24
+MG,ZS,,Control crucero adaptativo,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,24
+MG,ZS,,Frenado Autónomo de emergencia (AEB),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,25
+MG,ZS,,Frenado Autónomo de emergencia (AEB),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,25
+MG,ZS,,Freno de estacionamiento eléctrico (EPB),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,26
+MG,ZS,,Freno de estacionamiento eléctrico (EPB),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,26
+MG,ZS,,Freno a disco en las 4 ruedas,HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,27
+MG,ZS,,Freno a disco en las 4 ruedas,HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,27
+MG,ZS,,Información de punto ciego (BLIS),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,28
+MG,ZS,,Información de punto ciego (BLIS),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,28
+MG,ZS,,Mantenimiento de Carril de emergencia (ELK-re),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,29
+MG,ZS,,Mantenimiento de Carril de emergencia (ELK-re),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,29
+MG,ZS,,Monitoreo de presión de neumáticos (TPMS),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,30
+MG,ZS,,Monitoreo de presión de neumáticos (TPMS),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,30
+MG,ZS,,Sistema de advertencia de cambio de carril (LDWS),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,31
+MG,ZS,,Sistema de advertencia de cambio de carril (LDWS),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,31
+MG,ZS,,Sistema de asistencia de mantenimiento en el carril (LKA),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,32
+MG,ZS,,Sistema de asistencia de mantenimiento en el carril (LKA),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,32
+MG,ZS,,Sistema de asistencia de velocidad (SAS),HYBRID + COMFORT,si,0,local:mg-zs-hev.pdf,33
+MG,ZS,,Sistema de asistencia de velocidad (SAS),HYBRID + LUXURY,si,1,local:mg-zs-hev.pdf,33

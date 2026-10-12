@@ -1,0 +1,227 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FORD,MUSTANG,VERSIÓN,Carrocería,GT Performance,2 puertas,0,local:far-ficha-tecnica-mustang.pdf,0
+FORD,MUSTANG,VERSIÓN,Carrocería,Dark Horse,2 puertas,1,local:far-ficha-tecnica-mustang.pdf,0
+FORD,MUSTANG,VERSIÓN,Combustible,GT Performance,Nafta,0,local:far-ficha-tecnica-mustang.pdf,1
+FORD,MUSTANG,VERSIÓN,Combustible,Dark Horse,Nafta,1,local:far-ficha-tecnica-mustang.pdf,1
+FORD,MUSTANG,VERSIÓN,Motor,GT Performance,Coyote 5.0L,0,local:far-ficha-tecnica-mustang.pdf,2
+FORD,MUSTANG,VERSIÓN,Motor,Dark Horse,Coyote 5.0L,1,local:far-ficha-tecnica-mustang.pdf,2
+FORD,MUSTANG,VERSIÓN,8 Cilindros en V,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,3
+FORD,MUSTANG,VERSIÓN,8 Cilindros en V,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,3
+FORD,MUSTANG,VERSIÓN,32 Válvulas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,4
+FORD,MUSTANG,VERSIÓN,32 Válvulas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,4
+FORD,MUSTANG,VERSIÓN,Potencia,GT Performance,492 cv @ 7250 rpm,0,local:far-ficha-tecnica-mustang.pdf,5
+FORD,MUSTANG,VERSIÓN,Potencia,Dark Horse,507 CV @7250 rpm,1,local:far-ficha-tecnica-mustang.pdf,5
+FORD,MUSTANG,VERSIÓN,Torque,GT Performance,567 Nm @4900,0,local:far-ficha-tecnica-mustang.pdf,6
+FORD,MUSTANG,VERSIÓN,Torque,Dark Horse,567 Nm @4900,1,local:far-ficha-tecnica-mustang.pdf,6
+FORD,MUSTANG,VERSIÓN,Aceleración 0-100 km/h,GT Performance,4.3 segundos,0,local:far-ficha-tecnica-mustang.pdf,7
+FORD,MUSTANG,VERSIÓN,Aceleración 0-100 km/h,Dark Horse,3.7 segundos,1,local:far-ficha-tecnica-mustang.pdf,7
+FORD,MUSTANG,VERSIÓN,Inyección de combustible Indirecta Multipunto y Directa,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,8
+FORD,MUSTANG,VERSIÓN,Inyección de combustible Indirecta Multipunto y Directa,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,8
+FORD,MUSTANG,VERSIÓN,Trasmisión AT de 10 velocidades con levas al volante,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,9
+FORD,MUSTANG,VERSIÓN,Trasmisión AT de 10 velocidades con levas al volante,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,9
+FORD,MUSTANG,VERSIÓN,Tracción Trasera,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,10
+FORD,MUSTANG,VERSIÓN,Tracción Trasera,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,10
+FORD,MUSTANG,VERSIÓN,Diferencial trasero torsen,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,11
+FORD,MUSTANG,VERSIÓN,Diferencial trasero torsen,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,11
+FORD,MUSTANG,VERSIÓN,Suspensión,GT Performance,Suspensión Adaptativa MagneRide®,0,local:far-ficha-tecnica-mustang.pdf,12
+FORD,MUSTANG,VERSIÓN,Suspensión,Dark Horse,Suspensión Adaptativa MagneRide® con calibración específica Dark Horse,1,local:far-ficha-tecnica-mustang.pdf,12
+FORD,MUSTANG,VERSIÓN,Frenos de alto rendimiento BREMBO® a disco en las 4 ruedas ABS con EBD,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,13
+FORD,MUSTANG,VERSIÓN,Frenos de alto rendimiento BREMBO® a disco en las 4 ruedas ABS con EBD,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,13
+FORD,MUSTANG,VERSIÓN,Freno de mano de alto rendimiento - Drift Brake,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,14
+FORD,MUSTANG,VERSIÓN,Freno de mano de alto rendimiento - Drift Brake,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,14
+FORD,MUSTANG,VERSIÓN,"5 modos de conducción: Normal, Resbaladizo, Deportivo, Pista y Pista Drag",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,15
+FORD,MUSTANG,VERSIÓN,"5 modos de conducción: Normal, Resbaladizo, Deportivo, Pista y Pista Drag",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,15
+FORD,MUSTANG,VERSIÓN,"3 modos de dirección: Normal, Deportivo y Confort",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,16
+FORD,MUSTANG,VERSIÓN,"3 modos de dirección: Normal, Deportivo y Confort",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,16
+FORD,MUSTANG,VERSIÓN,"4 modos de suspensión: Normal, Deportivo, Pista e Pista Drag",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,17
+FORD,MUSTANG,VERSIÓN,"4 modos de suspensión: Normal, Deportivo, Pista e Pista Drag",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,17
+FORD,MUSTANG,VERSIÓN,6 modos de conducción personalizados,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,18
+FORD,MUSTANG,VERSIÓN,6 modos de conducción personalizados,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,18
+FORD,MUSTANG,VERSIÓN,"Track Apps® - métricas de desempeño, sincronización y frenado",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,19
+FORD,MUSTANG,VERSIÓN,"Track Apps® - métricas de desempeño, sincronización y frenado",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,19
+FORD,MUSTANG,VERSIÓN,"Escape doble con 4 salidas de escape cromadas y ajuste de sonido seleccionable - Normal, Deportivo, Pista y Silencioso",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,20
+FORD,MUSTANG,VERSIÓN,"Escape doble con 4 salidas de escape cromadas y ajuste de sonido seleccionable - Normal, Deportivo, Pista y Silencioso",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,20
+FORD,MUSTANG,VERSIÓN,Line Lock - Sistema de precalentamiento de los neumáticos traseros,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,21
+FORD,MUSTANG,VERSIÓN,Line Lock - Sistema de precalentamiento de los neumáticos traseros,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,21
+FORD,MUSTANG,EXTERIOR,Emblema Mustang delantero oscurecido,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,22
+FORD,MUSTANG,EXTERIOR,Emblema Mustang delantero oscurecido,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,22
+FORD,MUSTANG,EXTERIOR,"Espejos retrovisores externos con luces de conducción, eléctricos y plegables",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,23
+FORD,MUSTANG,EXTERIOR,"Espejos retrovisores externos con luces de conducción, eléctricos y plegables",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,23
+FORD,MUSTANG,EXTERIOR,Faros traseros Full LED,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,24
+FORD,MUSTANG,EXTERIOR,Faros traseros Full LED,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,24
+FORD,MUSTANG,EXTERIOR,Luces delanteras Full LED,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,25
+FORD,MUSTANG,EXTERIOR,Luces delanteras Full LED,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,25
+FORD,MUSTANG,EXTERIOR,Faros antiniebla traseros Full LED,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,26
+FORD,MUSTANG,EXTERIOR,Faros antiniebla traseros Full LED,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,26
+FORD,MUSTANG,EXTERIOR,Luz de aproximación con proyección del emblema Mustang,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,27
+FORD,MUSTANG,EXTERIOR,Luz de aproximación con proyección del emblema Mustang,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,27
+FORD,MUSTANG,EXTERIOR,Luz de freno (Brake-light),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,28
+FORD,MUSTANG,EXTERIOR,Luz de freno (Brake-light),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,28
+FORD,MUSTANG,EXTERIOR,Luces con emblema Mustang,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,29
+FORD,MUSTANG,EXTERIOR,Luces con emblema Mustang,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,29
+FORD,MUSTANG,EXTERIOR,Llantas de aleación,GT Performance,"19""cromadas",0,local:far-ficha-tecnica-mustang.pdf,30
+FORD,MUSTANG,EXTERIOR,Llantas de aleación,Dark Horse,"19"" en negro mate con diseño exclusivo",1,local:far-ficha-tecnica-mustang.pdf,30
+FORD,MUSTANG,EXTERIOR,Neumáticos delanteros,GT Performance,Pirelli P Zero 255/40 R19,0,local:far-ficha-tecnica-mustang.pdf,31
+FORD,MUSTANG,EXTERIOR,Neumáticos delanteros,Dark Horse,Pirelli P Zero 255/40 R19,1,local:far-ficha-tecnica-mustang.pdf,31
+FORD,MUSTANG,EXTERIOR,Neumáticos traseros,GT Performance,Pirelli P Zero 275/40 R19,0,local:far-ficha-tecnica-mustang.pdf,32
+FORD,MUSTANG,EXTERIOR,Neumáticos traseros,Dark Horse,Pirelli P Zero 275/40 R19,1,local:far-ficha-tecnica-mustang.pdf,32
+FORD,MUSTANG,EXTERIOR,Calipers negros,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,33
+FORD,MUSTANG,EXTERIOR,Calipers negros,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,33
+FORD,MUSTANG,EXTERIOR,Techo color carrocería,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,34
+FORD,MUSTANG,EXTERIOR,Techo color carrocería,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,34
+FORD,MUSTANG,EXTERIOR,Kit de reparación (no incluye rueda de auxilio),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,35
+FORD,MUSTANG,EXTERIOR,Kit de reparación (no incluye rueda de auxilio),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,35
+FORD,MUSTANG,EXTERIOR,Zócalos de puerta con inscripción Mustang Dark Horse,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,36
+FORD,MUSTANG,EXTERIOR,Zócalos de puerta con inscripción Mustang Dark Horse,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,36
+FORD,MUSTANG,EXTERIOR,Spoiler trasero,GT Performance,Color carroceria,0,local:far-ficha-tecnica-mustang.pdf,37
+FORD,MUSTANG,EXTERIOR,Spoiler trasero,Dark Horse,Negro,1,local:far-ficha-tecnica-mustang.pdf,37
+FORD,MUSTANG,EXTERIOR,Aplique Dark Horse trasero y lateral,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,38
+FORD,MUSTANG,EXTERIOR,Aplique Dark Horse trasero y lateral,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,38
+FORD,MUSTANG,EXTERIOR,Calcos delanteros en capot,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,39
+FORD,MUSTANG,EXTERIOR,Calcos delanteros en capot,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,39
+FORD,MUSTANG,INTERIOR Y CONFORT,Panel de instrumentos digital y pantalla touch screen integrados,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,40
+FORD,MUSTANG,INTERIOR Y CONFORT,Panel de instrumentos digital y pantalla touch screen integrados,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,40
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos delanteros calefaccionados y refrigerados,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,41
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos delanteros calefaccionados y refrigerados,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,41
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos delanteros con ajustes eléctricos de 8 posiciones para el conductor y 4 posiciones para el pasajero,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,42
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos delanteros con ajustes eléctricos de 8 posiciones para el conductor y 4 posiciones para el pasajero,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,42
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos tapizados en cuero con costuras en contraste,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,43
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos tapizados en cuero con costuras en contraste,Dark Horse,no,1,local:far-ficha-tecnica-mustang.pdf,43
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos tapizados en distintas texturas de cuero con costuras azules,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,44
+FORD,MUSTANG,INTERIOR Y CONFORT,Asientos tapizados en distintas texturas de cuero con costuras azules,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,44
+FORD,MUSTANG,INTERIOR Y CONFORT,Volante de cuero con ajuste de altura y profundidad,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,45
+FORD,MUSTANG,INTERIOR Y CONFORT,Volante de cuero con ajuste de altura y profundidad,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,45
+FORD,MUSTANG,INTERIOR Y CONFORT,Emblema Mustang oscurecido en volante,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,46
+FORD,MUSTANG,INTERIOR Y CONFORT,Emblema Mustang oscurecido en volante,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,46
+FORD,MUSTANG,INTERIOR Y CONFORT,Consola central con compartimento portaobjetos y reposabrazos integrado,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,47
+FORD,MUSTANG,INTERIOR Y CONFORT,Consola central con compartimento portaobjetos y reposabrazos integrado,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,47
+FORD,MUSTANG,INTERIOR Y CONFORT,Iluminación interior ambiental configurable,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,48
+FORD,MUSTANG,INTERIOR Y CONFORT,Iluminación interior ambiental configurable,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,48
+FORD,MUSTANG,INTERIOR Y CONFORT,Cinturones de seguridad delanteros y traseros en azul,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,49
+FORD,MUSTANG,INTERIOR Y CONFORT,Cinturones de seguridad delanteros y traseros en azul,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,49
+FORD,MUSTANG,INTERIOR Y CONFORT,Luz de lectura,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,50
+FORD,MUSTANG,INTERIOR Y CONFORT,Luz de lectura,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,50
+FORD,MUSTANG,INTERIOR Y CONFORT,Parasol con espejo y luces de cortesía (conductor/pasajero),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,51
+FORD,MUSTANG,INTERIOR Y CONFORT,Parasol con espejo y luces de cortesía (conductor/pasajero),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,51
+FORD,MUSTANG,INTERIOR Y CONFORT,Alfombras,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,52
+FORD,MUSTANG,INTERIOR Y CONFORT,Alfombras,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,52
+FORD,MUSTANG,INTERIOR Y CONFORT,Asiento trasero rebatible,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,53
+FORD,MUSTANG,INTERIOR Y CONFORT,Asiento trasero rebatible,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,53
+FORD,MUSTANG,INTERIOR Y CONFORT,Emblema Dark Horse con numeración de unidad,GT Performance,no,0,local:far-ficha-tecnica-mustang.pdf,54
+FORD,MUSTANG,INTERIOR Y CONFORT,Emblema Dark Horse con numeración de unidad,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,54
+FORD,MUSTANG,TECNOLOGÍA,SYNC 4,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,55
+FORD,MUSTANG,TECNOLOGÍA,SYNC 4,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,55
+FORD,MUSTANG,TECNOLOGÍA,Panel de Instrumentos digital de 12.4”,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,56
+FORD,MUSTANG,TECNOLOGÍA,Panel de Instrumentos digital de 12.4”,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,56
+FORD,MUSTANG,TECNOLOGÍA,Pantalla táctil central multifuncional de 13.2”,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,57
+FORD,MUSTANG,TECNOLOGÍA,Pantalla táctil central multifuncional de 13.2”,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,57
+FORD,MUSTANG,TECNOLOGÍA,Climatizador automático digital bi-zona,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,58
+FORD,MUSTANG,TECNOLOGÍA,Climatizador automático digital bi-zona,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,58
+FORD,MUSTANG,TECNOLOGÍA,Sensores traseros de estacionamiento,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,59
+FORD,MUSTANG,TECNOLOGÍA,Sensores traseros de estacionamiento,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,59
+FORD,MUSTANG,TECNOLOGÍA,Cámara de estacionamiento trasera,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,60
+FORD,MUSTANG,TECNOLOGÍA,Cámara de estacionamiento trasera,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,60
+FORD,MUSTANG,TECNOLOGÍA,Tecnología Start & Stop,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,61
+FORD,MUSTANG,TECNOLOGÍA,Tecnología Start & Stop,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,61
+FORD,MUSTANG,TECNOLOGÍA,Conectividad inalámbrica compatible con Android Auto/Apple CarPlay,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,62
+FORD,MUSTANG,TECNOLOGÍA,Conectividad inalámbrica compatible con Android Auto/Apple CarPlay,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,62
+FORD,MUSTANG,TECNOLOGÍA,Tecnología arranque sin llave “Ford Power”,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,63
+FORD,MUSTANG,TECNOLOGÍA,Tecnología arranque sin llave “Ford Power”,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,63
+FORD,MUSTANG,TECNOLOGÍA,Entrada remota sin llave,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,64
+FORD,MUSTANG,TECNOLOGÍA,Entrada remota sin llave,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,64
+FORD,MUSTANG,TECNOLOGÍA,Sistema de arranque remoto,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,65
+FORD,MUSTANG,TECNOLOGÍA,Sistema de arranque remoto,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,65
+FORD,MUSTANG,TECNOLOGÍA,Freno de mano eléctrico,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,66
+FORD,MUSTANG,TECNOLOGÍA,Freno de mano eléctrico,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,66
+FORD,MUSTANG,TECNOLOGÍA,Función Auto Hold,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,67
+FORD,MUSTANG,TECNOLOGÍA,Función Auto Hold,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,67
+FORD,MUSTANG,TECNOLOGÍA,"Levantavidrios eléctricos ""One Touch""",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,68
+FORD,MUSTANG,TECNOLOGÍA,"Levantavidrios eléctricos ""One Touch""",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,68
+FORD,MUSTANG,TECNOLOGÍA,Sistema de Sonido Premium B&O con 11 parlantes y 1 subwoofer,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,69
+FORD,MUSTANG,TECNOLOGÍA,Sistema de Sonido Premium B&O con 11 parlantes y 1 subwoofer,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,69
+FORD,MUSTANG,TECNOLOGÍA,Bluetooth,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,70
+FORD,MUSTANG,TECNOLOGÍA,Bluetooth,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,70
+FORD,MUSTANG,TECNOLOGÍA,Comandos de audio y voz en el volante,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,71
+FORD,MUSTANG,TECNOLOGÍA,Comandos de audio y voz en el volante,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,71
+FORD,MUSTANG,TECNOLOGÍA,Entradas USB tipo A y tipo C,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,72
+FORD,MUSTANG,TECNOLOGÍA,Entradas USB tipo A y tipo C,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,72
+FORD,MUSTANG,TECNOLOGÍA,GPS Embebido,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,73
+FORD,MUSTANG,TECNOLOGÍA,GPS Embebido,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,73
+FORD,MUSTANG,SEGURIDAD,"7 Airbags: 2 frontales, 2 laterales, 2 cortinas y 1 rodilla pasajero",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,74
+FORD,MUSTANG,SEGURIDAD,"7 Airbags: 2 frontales, 2 laterales, 2 cortinas y 1 rodilla pasajero",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,74
+FORD,MUSTANG,SEGURIDAD,Asistente de mantenimiento y centrado de carril,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,75
+FORD,MUSTANG,SEGURIDAD,Asistente de mantenimiento y centrado de carril,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,75
+FORD,MUSTANG,SEGURIDAD,Encendido automático de luces altas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,76
+FORD,MUSTANG,SEGURIDAD,Encendido automático de luces altas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,76
+FORD,MUSTANG,SEGURIDAD,Control de velocidad crucero adaptativo (ACC) con Stop & Go,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,77
+FORD,MUSTANG,SEGURIDAD,Control de velocidad crucero adaptativo (ACC) con Stop & Go,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,77
+FORD,MUSTANG,SEGURIDAD,Alerta de colisión frontal,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,78
+FORD,MUSTANG,SEGURIDAD,Alerta de colisión frontal,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,78
+FORD,MUSTANG,SEGURIDAD,Asistente de frenado autónomo (AEB) con detección de peatones/ciclistas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,79
+FORD,MUSTANG,SEGURIDAD,Asistente de frenado autónomo (AEB) con detección de peatones/ciclistas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,79
+FORD,MUSTANG,SEGURIDAD,Asistente de maniobras evasivas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,80
+FORD,MUSTANG,SEGURIDAD,Asistente de maniobras evasivas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,80
+FORD,MUSTANG,SEGURIDAD,Sistema de Información de punto ciego (BLIS),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,81
+FORD,MUSTANG,SEGURIDAD,Sistema de Información de punto ciego (BLIS),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,81
+FORD,MUSTANG,SEGURIDAD,Alerta y frenado automático por tráfico cruzado,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,82
+FORD,MUSTANG,SEGURIDAD,Alerta y frenado automático por tráfico cruzado,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,82
+FORD,MUSTANG,SEGURIDAD,Mitigación de baches: detección automática de pozos,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,83
+FORD,MUSTANG,SEGURIDAD,Mitigación de baches: detección automática de pozos,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,83
+FORD,MUSTANG,SEGURIDAD,Sensor de monitoreo de presión de neumáticos (TPMS),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,84
+FORD,MUSTANG,SEGURIDAD,Sensor de monitoreo de presión de neumáticos (TPMS),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,84
+FORD,MUSTANG,SEGURIDAD,Sistema de anclajes ISOFIX®,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,85
+FORD,MUSTANG,SEGURIDAD,Sistema de anclajes ISOFIX®,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,85
+FORD,MUSTANG,SEGURIDAD,Asistencia de Arranque en Pendiente (HLA),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,86
+FORD,MUSTANG,SEGURIDAD,Asistencia de Arranque en Pendiente (HLA),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,86
+FORD,MUSTANG,SEGURIDAD,Alarma de seguridad con inmovilizador y sensores de inclinación,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,87
+FORD,MUSTANG,SEGURIDAD,Alarma de seguridad con inmovilizador y sensores de inclinación,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,87
+FORD,MUSTANG,SEGURIDAD,Cinturones de seguridad delanteros y pretensores ajustables en altura,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,88
+FORD,MUSTANG,SEGURIDAD,Cinturones de seguridad delanteros y pretensores ajustables en altura,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,88
+FORD,MUSTANG,SEGURIDAD,Cinturones de seguridad traseros de 3 puntos,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,89
+FORD,MUSTANG,SEGURIDAD,Cinturones de seguridad traseros de 3 puntos,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,89
+FORD,MUSTANG,SEGURIDAD,Control electrónico de estabilidad (ESC) y tracción (TCS),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,90
+FORD,MUSTANG,SEGURIDAD,Control electrónico de estabilidad (ESC) y tracción (TCS),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,90
+FORD,MUSTANG,SEGURIDAD,Encendido automático de luces,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,91
+FORD,MUSTANG,SEGURIDAD,Encendido automático de luces,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,91
+FORD,MUSTANG,SEGURIDAD,Luces de conducción diurnas (DTRL),GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,92
+FORD,MUSTANG,SEGURIDAD,Luces de conducción diurnas (DTRL),Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,92
+FORD,MUSTANG,SEGURIDAD,Bloqueo eléctrico de puertas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,93
+FORD,MUSTANG,SEGURIDAD,Bloqueo eléctrico de puertas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,93
+FORD,MUSTANG,SEGURIDAD,Espejo retrovisor interior fotocromático,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,94
+FORD,MUSTANG,SEGURIDAD,Espejo retrovisor interior fotocromático,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,94
+FORD,MUSTANG,DIMENSIONES,Cantidad de pasajeros,GT Performance,4,0,local:far-ficha-tecnica-mustang.pdf,95
+FORD,MUSTANG,DIMENSIONES,Cantidad de pasajeros,Dark Horse,4,1,local:far-ficha-tecnica-mustang.pdf,95
+FORD,MUSTANG,DIMENSIONES,Altura (mm),GT Performance,1.393,0,local:far-ficha-tecnica-mustang.pdf,96
+FORD,MUSTANG,DIMENSIONES,Altura (mm),Dark Horse,1.393,1,local:far-ficha-tecnica-mustang.pdf,96
+FORD,MUSTANG,DIMENSIONES,Largo (mm),GT Performance,4.794,0,local:far-ficha-tecnica-mustang.pdf,97
+FORD,MUSTANG,DIMENSIONES,Largo (mm),Dark Horse,4.794,1,local:far-ficha-tecnica-mustang.pdf,97
+FORD,MUSTANG,DIMENSIONES,Entre ejes (mm),GT Performance,2.720,0,local:far-ficha-tecnica-mustang.pdf,98
+FORD,MUSTANG,DIMENSIONES,Entre ejes (mm),Dark Horse,2.720,1,local:far-ficha-tecnica-mustang.pdf,98
+FORD,MUSTANG,DIMENSIONES,Ancho sin espejos (mm),GT Performance,1.916,0,local:far-ficha-tecnica-mustang.pdf,99
+FORD,MUSTANG,DIMENSIONES,Ancho sin espejos (mm),Dark Horse,1.916,1,local:far-ficha-tecnica-mustang.pdf,99
+FORD,MUSTANG,DIMENSIONES,Peso en orden de marcha (kg),GT Performance,1.877,0,local:far-ficha-tecnica-mustang.pdf,100
+FORD,MUSTANG,DIMENSIONES,Peso en orden de marcha (kg),Dark Horse,1.893,1,local:far-ficha-tecnica-mustang.pdf,100
+FORD,MUSTANG,DIMENSIONES,Peso bruto total (kg),GT Performance,2.170,0,local:far-ficha-tecnica-mustang.pdf,101
+FORD,MUSTANG,DIMENSIONES,Peso bruto total (kg),Dark Horse,2.182,1,local:far-ficha-tecnica-mustang.pdf,101
+FORD,MUSTANG,DIMENSIONES,Capacidad de baúl (L),GT Performance,377,0,local:far-ficha-tecnica-mustang.pdf,102
+FORD,MUSTANG,DIMENSIONES,Capacidad de baúl (L),Dark Horse,377,1,local:far-ficha-tecnica-mustang.pdf,102
+FORD,MUSTANG,DIMENSIONES,Capacidad del tanque de combustible (L),GT Performance,61,0,local:far-ficha-tecnica-mustang.pdf,103
+FORD,MUSTANG,DIMENSIONES,Capacidad del tanque de combustible (L),Dark Horse,61,1,local:far-ficha-tecnica-mustang.pdf,103
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Bloqueo y desbloqueo remoto de puertas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,104
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Bloqueo y desbloqueo remoto de puertas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,104
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Encendido remoto,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,105
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Encendido remoto,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,105
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Encendido remoto programado,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,106
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Encendido remoto programado,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,106
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,"Información de autonomía, odómetro y localización en tiempo real con alerta de bocina & luces",GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,107
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,"Información de autonomía, odómetro y localización en tiempo real con alerta de bocina & luces",Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,107
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Estado general del vehículo con alertas,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,108
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Estado general del vehículo con alertas,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,108
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Reserva de turnos de servicios en línea con Pickup & Delivery,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,109
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Reserva de turnos de servicios en línea con Pickup & Delivery,Dark Horse,si,1,local:far-ficha-tecnica-mustang.pdf,109
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,GT Perfoma,GT Performance,✓ nce,0,local:far-ficha-tecnica-mustang.pdf,110
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,GT Perfoma,Dark Horse,no,1,local:far-ficha-tecnica-mustang.pdf,110
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,-,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,111
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,-,Dark Horse,no,1,local:far-ficha-tecnica-mustang.pdf,111
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Dark Horse,GT Performance,si,0,local:far-ficha-tecnica-mustang.pdf,112
+FORD,MUSTANG,CONECTIVIDAD VIA FORDPASSTM,Dark Horse,Dark Horse,no,1,local:far-ficha-tecnica-mustang.pdf,112

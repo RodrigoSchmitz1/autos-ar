@@ -1,0 +1,249 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores plegables eléctricamente con luz de acceso,LIKE,no,0,local:ficha-tecnica-cronos.pdf,0
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores plegables eléctricamente con luz de acceso,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,0
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores plegables eléctricamente con luz de acceso,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,0
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores plegables eléctricamente con luz de acceso,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,0
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores con comando eléctrico,LIKE,no,0,local:ficha-tecnica-cronos.pdf,1
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores con comando eléctrico,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,1
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores con comando eléctrico,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,1
+FIAT,CRONOS,EXTERIOR,Espejos retrovisores con comando eléctrico,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,1
+FIAT,CRONOS,EXTERIOR,Terminaciones exteriores cromadas,LIKE,no,0,local:ficha-tecnica-cronos.pdf,2
+FIAT,CRONOS,EXTERIOR,Terminaciones exteriores cromadas,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,2
+FIAT,CRONOS,EXTERIOR,Terminaciones exteriores cromadas,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,2
+FIAT,CRONOS,EXTERIOR,Terminaciones exteriores cromadas,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,2
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas color carrocería,LIKE,si,0,local:ficha-tecnica-cronos.pdf,3
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas color carrocería,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,3
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas color carrocería,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,3
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas color carrocería,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,3
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas cromadas,LIKE,no,0,local:ficha-tecnica-cronos.pdf,4
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas cromadas,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,4
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas cromadas,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,4
+FIAT,CRONOS,EXTERIOR,Manijas exteriores de puertas cromadas,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,4
+FIAT,CRONOS,EXTERIOR,Faros Full LED con luz baja /alta,LIKE,no,0,local:ficha-tecnica-cronos.pdf,5
+FIAT,CRONOS,EXTERIOR,Faros Full LED con luz baja /alta,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,5
+FIAT,CRONOS,EXTERIOR,Faros Full LED con luz baja /alta,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,5
+FIAT,CRONOS,EXTERIOR,Faros Full LED con luz baja /alta,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,5
+FIAT,CRONOS,EXTERIOR,Faros antiniebla delanteros LED,LIKE,no,0,local:ficha-tecnica-cronos.pdf,6
+FIAT,CRONOS,EXTERIOR,Faros antiniebla delanteros LED,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,6
+FIAT,CRONOS,EXTERIOR,Faros antiniebla delanteros LED,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,6
+FIAT,CRONOS,EXTERIOR,Faros antiniebla delanteros LED,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,6
+FIAT,CRONOS,EXTERIOR,Luces diurnas (DRL),LIKE,si,0,local:ficha-tecnica-cronos.pdf,7
+FIAT,CRONOS,EXTERIOR,Luces diurnas (DRL),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,7
+FIAT,CRONOS,EXTERIOR,Luces diurnas (DRL),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,7
+FIAT,CRONOS,EXTERIOR,Luces diurnas (DRL),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,7
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'',LIKE,si,0,local:ficha-tecnica-cronos.pdf,8
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'',DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,8
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'',DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,8
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'',PRECISION CVT,no,3,local:ficha-tecnica-cronos.pdf,8
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'' oscurecidas,LIKE,no,0,local:ficha-tecnica-cronos.pdf,9
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'' oscurecidas,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,9
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'' oscurecidas,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,9
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 15'' oscurecidas,PRECISION CVT,no,3,local:ficha-tecnica-cronos.pdf,9
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 16'' esmaltadas,LIKE,no,0,local:ficha-tecnica-cronos.pdf,10
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 16'' esmaltadas,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,10
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 16'' esmaltadas,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,10
+FIAT,CRONOS,EXTERIOR,Llantas de aleación 16'' esmaltadas,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,10
+FIAT,CRONOS,EXTERIOR,Luneta térmica,LIKE,si,0,local:ficha-tecnica-cronos.pdf,11
+FIAT,CRONOS,EXTERIOR,Luneta térmica,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,11
+FIAT,CRONOS,EXTERIOR,Luneta térmica,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,11
+FIAT,CRONOS,EXTERIOR,Luneta térmica,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,11
+FIAT,CRONOS,EXTERIOR,Ópticas traseras tipo LED,LIKE,si,0,local:ficha-tecnica-cronos.pdf,12
+FIAT,CRONOS,EXTERIOR,Ópticas traseras tipo LED,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,12
+FIAT,CRONOS,EXTERIOR,Ópticas traseras tipo LED,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,12
+FIAT,CRONOS,EXTERIOR,Ópticas traseras tipo LED,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,12
+FIAT,CRONOS,EXTERIOR,Tercera luz de stop,LIKE,si,0,local:ficha-tecnica-cronos.pdf,13
+FIAT,CRONOS,EXTERIOR,Tercera luz de stop,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,13
+FIAT,CRONOS,EXTERIOR,Tercera luz de stop,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,13
+FIAT,CRONOS,EXTERIOR,Tercera luz de stop,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,13
+FIAT,CRONOS,EXTERIOR,Protector de cárter,LIKE,no,0,local:ficha-tecnica-cronos.pdf,14
+FIAT,CRONOS,EXTERIOR,Protector de cárter,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,14
+FIAT,CRONOS,EXTERIOR,Protector de cárter,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,14
+FIAT,CRONOS,EXTERIOR,Protector de cárter,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,14
+FIAT,CRONOS,SEGURIDAD,Airbags frontales (conductor y pasajero),LIKE,si,0,local:ficha-tecnica-cronos.pdf,15
+FIAT,CRONOS,SEGURIDAD,Airbags frontales (conductor y pasajero),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,15
+FIAT,CRONOS,SEGURIDAD,Airbags frontales (conductor y pasajero),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,15
+FIAT,CRONOS,SEGURIDAD,Airbags frontales (conductor y pasajero),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,15
+FIAT,CRONOS,SEGURIDAD,Airbargs laterales (conductor y pasajero),LIKE,no,0,local:ficha-tecnica-cronos.pdf,16
+FIAT,CRONOS,SEGURIDAD,Airbargs laterales (conductor y pasajero),DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,16
+FIAT,CRONOS,SEGURIDAD,Airbargs laterales (conductor y pasajero),DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,16
+FIAT,CRONOS,SEGURIDAD,Airbargs laterales (conductor y pasajero),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,16
+FIAT,CRONOS,SEGURIDAD,Alarma perimetral,LIKE,si,0,local:ficha-tecnica-cronos.pdf,17
+FIAT,CRONOS,SEGURIDAD,Alarma perimetral,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,17
+FIAT,CRONOS,SEGURIDAD,Alarma perimetral,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,17
+FIAT,CRONOS,SEGURIDAD,Alarma perimetral,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,17
+FIAT,CRONOS,SEGURIDAD,Apoyacabezas regulables en altura (5),LIKE,si,0,local:ficha-tecnica-cronos.pdf,18
+FIAT,CRONOS,SEGURIDAD,Apoyacabezas regulables en altura (5),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,18
+FIAT,CRONOS,SEGURIDAD,Apoyacabezas regulables en altura (5),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,18
+FIAT,CRONOS,SEGURIDAD,Apoyacabezas regulables en altura (5),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,18
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad delanteros reg. en altura,LIKE,si,0,local:ficha-tecnica-cronos.pdf,19
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad delanteros reg. en altura,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,19
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad delanteros reg. en altura,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,19
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad delanteros reg. en altura,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,19
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad de 3 puntos,LIKE,si,0,local:ficha-tecnica-cronos.pdf,20
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad de 3 puntos,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,20
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad de 3 puntos,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,20
+FIAT,CRONOS,SEGURIDAD,Cinturones de seguridad de 3 puntos,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,20
+FIAT,CRONOS,SEGURIDAD,Control electrónico de tracción (TC),LIKE,si,0,local:ficha-tecnica-cronos.pdf,21
+FIAT,CRONOS,SEGURIDAD,Control electrónico de tracción (TC),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,21
+FIAT,CRONOS,SEGURIDAD,Control electrónico de tracción (TC),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,21
+FIAT,CRONOS,SEGURIDAD,Control electrónico de tracción (TC),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,21
+FIAT,CRONOS,SEGURIDAD,Control de estabilidad (ESC),LIKE,si,0,local:ficha-tecnica-cronos.pdf,22
+FIAT,CRONOS,SEGURIDAD,Control de estabilidad (ESC),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,22
+FIAT,CRONOS,SEGURIDAD,Control de estabilidad (ESC),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,22
+FIAT,CRONOS,SEGURIDAD,Control de estabilidad (ESC),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,22
+FIAT,CRONOS,SEGURIDAD,Inmovilizador de motor,LIKE,si,0,local:ficha-tecnica-cronos.pdf,23
+FIAT,CRONOS,SEGURIDAD,Inmovilizador de motor,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,23
+FIAT,CRONOS,SEGURIDAD,Inmovilizador de motor,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,23
+FIAT,CRONOS,SEGURIDAD,Inmovilizador de motor,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,23
+FIAT,CRONOS,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),LIKE,si,0,local:ficha-tecnica-cronos.pdf,24
+FIAT,CRONOS,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,24
+FIAT,CRONOS,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,24
+FIAT,CRONOS,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,24
+FIAT,CRONOS,SEGURIDAD,Sistema de frenos ABS + EBD,LIKE,si,0,local:ficha-tecnica-cronos.pdf,25
+FIAT,CRONOS,SEGURIDAD,Sistema de frenos ABS + EBD,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,25
+FIAT,CRONOS,SEGURIDAD,Sistema de frenos ABS + EBD,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,25
+FIAT,CRONOS,SEGURIDAD,Sistema de frenos ABS + EBD,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,25
+FIAT,CRONOS,SEGURIDAD,Alarma de cinturon de seguridad del conductor,LIKE,si,0,local:ficha-tecnica-cronos.pdf,26
+FIAT,CRONOS,SEGURIDAD,Alarma de cinturon de seguridad del conductor,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,26
+FIAT,CRONOS,SEGURIDAD,Alarma de cinturon de seguridad del conductor,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,26
+FIAT,CRONOS,SEGURIDAD,Alarma de cinturon de seguridad del conductor,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,26
+FIAT,CRONOS,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),LIKE,si,0,local:ficha-tecnica-cronos.pdf,27
+FIAT,CRONOS,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,27
+FIAT,CRONOS,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,27
+FIAT,CRONOS,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,27
+FIAT,CRONOS,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),LIKE,si,0,local:ficha-tecnica-cronos.pdf,28
+FIAT,CRONOS,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,28
+FIAT,CRONOS,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,28
+FIAT,CRONOS,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,28
+FIAT,CRONOS,SEGURIDAD,Kit de auxilio,LIKE,si,0,local:ficha-tecnica-cronos.pdf,29
+FIAT,CRONOS,SEGURIDAD,Kit de auxilio,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,29
+FIAT,CRONOS,SEGURIDAD,Kit de auxilio,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,29
+FIAT,CRONOS,SEGURIDAD,Kit de auxilio,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,29
+FIAT,CRONOS,TECNOLOGÍA,Computadora de a bordo,LIKE,si,0,local:ficha-tecnica-cronos.pdf,30
+FIAT,CRONOS,TECNOLOGÍA,Computadora de a bordo,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,30
+FIAT,CRONOS,TECNOLOGÍA,Computadora de a bordo,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,30
+FIAT,CRONOS,TECNOLOGÍA,Computadora de a bordo,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,30
+FIAT,CRONOS,TECNOLOGÍA,Volante multifunción,LIKE,si,0,local:ficha-tecnica-cronos.pdf,31
+FIAT,CRONOS,TECNOLOGÍA,Volante multifunción,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,31
+FIAT,CRONOS,TECNOLOGÍA,Volante multifunción,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,31
+FIAT,CRONOS,TECNOLOGÍA,Volante multifunción,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,31
+FIAT,CRONOS,TECNOLOGÍA,"Display multifunción 3,5''",LIKE,si,0,local:ficha-tecnica-cronos.pdf,32
+FIAT,CRONOS,TECNOLOGÍA,"Display multifunción 3,5''",DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,32
+FIAT,CRONOS,TECNOLOGÍA,"Display multifunción 3,5''",DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,32
+FIAT,CRONOS,TECNOLOGÍA,"Display multifunción 3,5''",PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,32
+FIAT,CRONOS,TECNOLOGÍA,Radio AM/FM integrada con USB entrada auxiliar,LIKE,si,0,local:ficha-tecnica-cronos.pdf,33
+FIAT,CRONOS,TECNOLOGÍA,Radio AM/FM integrada con USB entrada auxiliar,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,33
+FIAT,CRONOS,TECNOLOGÍA,Radio AM/FM integrada con USB entrada auxiliar,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,33
+FIAT,CRONOS,TECNOLOGÍA,Radio AM/FM integrada con USB entrada auxiliar,PRECISION CVT,no,3,local:ficha-tecnica-cronos.pdf,33
+FIAT,CRONOS,TECNOLOGÍA,Pantalla multimedia touch 7'',LIKE,no,0,local:ficha-tecnica-cronos.pdf,34
+FIAT,CRONOS,TECNOLOGÍA,Pantalla multimedia touch 7'',DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,34
+FIAT,CRONOS,TECNOLOGÍA,Pantalla multimedia touch 7'',DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,34
+FIAT,CRONOS,TECNOLOGÍA,Pantalla multimedia touch 7'',PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,34
+FIAT,CRONOS,TECNOLOGÍA,Conectividad Android Auto y Apple Carplay wireless,LIKE,no,0,local:ficha-tecnica-cronos.pdf,35
+FIAT,CRONOS,TECNOLOGÍA,Conectividad Android Auto y Apple Carplay wireless,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,35
+FIAT,CRONOS,TECNOLOGÍA,Conectividad Android Auto y Apple Carplay wireless,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,35
+FIAT,CRONOS,TECNOLOGÍA,Conectividad Android Auto y Apple Carplay wireless,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,35
+FIAT,CRONOS,TECNOLOGÍA,Sensores de estacionamiento traseros,LIKE,si,0,local:ficha-tecnica-cronos.pdf,36
+FIAT,CRONOS,TECNOLOGÍA,Sensores de estacionamiento traseros,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,36
+FIAT,CRONOS,TECNOLOGÍA,Sensores de estacionamiento traseros,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,36
+FIAT,CRONOS,TECNOLOGÍA,Sensores de estacionamiento traseros,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,36
+FIAT,CRONOS,TECNOLOGÍA,Cámara de estacionamiento trasera,LIKE,no,0,local:ficha-tecnica-cronos.pdf,37
+FIAT,CRONOS,TECNOLOGÍA,Cámara de estacionamiento trasera,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,37
+FIAT,CRONOS,TECNOLOGÍA,Cámara de estacionamiento trasera,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,37
+FIAT,CRONOS,TECNOLOGÍA,Cámara de estacionamiento trasera,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,37
+FIAT,CRONOS,Puertos USB,Modo SPORT,LIKE,no,0,local:ficha-tecnica-cronos.pdf,38
+FIAT,CRONOS,Puertos USB,Modo SPORT,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,38
+FIAT,CRONOS,Puertos USB,Modo SPORT,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,38
+FIAT,CRONOS,Puertos USB,Modo SPORT,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,38
+FIAT,CRONOS,Puertos USB,Toma de 12V,LIKE,si,0,local:ficha-tecnica-cronos.pdf,39
+FIAT,CRONOS,Puertos USB,Toma de 12V,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,39
+FIAT,CRONOS,Puertos USB,Toma de 12V,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,39
+FIAT,CRONOS,Puertos USB,Toma de 12V,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,39
+FIAT,CRONOS,CONFORT,Climatizador manual,LIKE,si,0,local:ficha-tecnica-cronos.pdf,40
+FIAT,CRONOS,CONFORT,Climatizador manual,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,40
+FIAT,CRONOS,CONFORT,Climatizador manual,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,40
+FIAT,CRONOS,CONFORT,Climatizador manual,PRECISION CVT,no,3,local:ficha-tecnica-cronos.pdf,40
+FIAT,CRONOS,CONFORT,Climatizador digital automático,LIKE,no,0,local:ficha-tecnica-cronos.pdf,41
+FIAT,CRONOS,CONFORT,Climatizador digital automático,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,41
+FIAT,CRONOS,CONFORT,Climatizador digital automático,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,41
+FIAT,CRONOS,CONFORT,Climatizador digital automático,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,41
+FIAT,CRONOS,CONFORT,Dirección asistida eléctrica,LIKE,si,0,local:ficha-tecnica-cronos.pdf,42
+FIAT,CRONOS,CONFORT,Dirección asistida eléctrica,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,42
+FIAT,CRONOS,CONFORT,Dirección asistida eléctrica,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,42
+FIAT,CRONOS,CONFORT,Dirección asistida eléctrica,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,42
+FIAT,CRONOS,CONFORT,Control de velocidad crucero,LIKE,no,0,local:ficha-tecnica-cronos.pdf,43
+FIAT,CRONOS,CONFORT,Control de velocidad crucero,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,43
+FIAT,CRONOS,CONFORT,Control de velocidad crucero,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,43
+FIAT,CRONOS,CONFORT,Control de velocidad crucero,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,43
+FIAT,CRONOS,CONFORT,Cierre centralizado de puertas,LIKE,si,0,local:ficha-tecnica-cronos.pdf,44
+FIAT,CRONOS,CONFORT,Cierre centralizado de puertas,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,44
+FIAT,CRONOS,CONFORT,Cierre centralizado de puertas,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,44
+FIAT,CRONOS,CONFORT,Cierre centralizado de puertas,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,44
+FIAT,CRONOS,CONFORT,Traba automática en movimiento,LIKE,si,0,local:ficha-tecnica-cronos.pdf,45
+FIAT,CRONOS,CONFORT,Traba automática en movimiento,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,45
+FIAT,CRONOS,CONFORT,Traba automática en movimiento,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,45
+FIAT,CRONOS,CONFORT,Traba automática en movimiento,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,45
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos delanteros,LIKE,si,0,local:ficha-tecnica-cronos.pdf,46
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos delanteros,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,46
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos delanteros,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,46
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos delanteros,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,46
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos traseros,LIKE,no,0,local:ficha-tecnica-cronos.pdf,47
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos traseros,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,47
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos traseros,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,47
+FIAT,CRONOS,CONFORT,Levantacristales eléctricos traseros,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,47
+FIAT,CRONOS,CONFORT,Apertura y encendido sin llave (Keyless Entry 'N' Go),LIKE,no,0,local:ficha-tecnica-cronos.pdf,48
+FIAT,CRONOS,CONFORT,Apertura y encendido sin llave (Keyless Entry 'N' Go),DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,48
+FIAT,CRONOS,CONFORT,Apertura y encendido sin llave (Keyless Entry 'N' Go),DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,48
+FIAT,CRONOS,CONFORT,Apertura y encendido sin llave (Keyless Entry 'N' Go),PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,48
+FIAT,CRONOS,CONFORT,Sensores antipinzamiento de vidrio,LIKE,si,0,local:ficha-tecnica-cronos.pdf,49
+FIAT,CRONOS,CONFORT,Sensores antipinzamiento de vidrio,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,49
+FIAT,CRONOS,CONFORT,Sensores antipinzamiento de vidrio,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,49
+FIAT,CRONOS,CONFORT,Sensores antipinzamiento de vidrio,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,49
+FIAT,CRONOS,CONFORT,Espejo de cortesía en el parasol,LIKE,no,0,local:ficha-tecnica-cronos.pdf,50
+FIAT,CRONOS,CONFORT,Espejo de cortesía en el parasol,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,50
+FIAT,CRONOS,CONFORT,Espejo de cortesía en el parasol,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,50
+FIAT,CRONOS,CONFORT,Espejo de cortesía en el parasol,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,50
+FIAT,CRONOS,CONFORT,Asiento conductor con regulación manual,LIKE,si,0,local:ficha-tecnica-cronos.pdf,51
+FIAT,CRONOS,CONFORT,Asiento conductor con regulación manual,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,51
+FIAT,CRONOS,CONFORT,Asiento conductor con regulación manual,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,51
+FIAT,CRONOS,CONFORT,Asiento conductor con regulación manual,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,51
+FIAT,CRONOS,CONFORT,Asiento trasero bipartido,LIKE,no,0,local:ficha-tecnica-cronos.pdf,52
+FIAT,CRONOS,CONFORT,Asiento trasero bipartido,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,52
+FIAT,CRONOS,CONFORT,Asiento trasero bipartido,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,52
+FIAT,CRONOS,CONFORT,Asiento trasero bipartido,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,52
+FIAT,CRONOS,CONFORT,Volante regulable en altura,LIKE,si,0,local:ficha-tecnica-cronos.pdf,53
+FIAT,CRONOS,CONFORT,Volante regulable en altura,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,53
+FIAT,CRONOS,CONFORT,Volante regulable en altura,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,53
+FIAT,CRONOS,CONFORT,Volante regulable en altura,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,53
+FIAT,CRONOS,CONFORT,Volante forrado en cuero,LIKE,no,0,local:ficha-tecnica-cronos.pdf,54
+FIAT,CRONOS,CONFORT,Volante forrado en cuero,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,54
+FIAT,CRONOS,CONFORT,Volante forrado en cuero,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,54
+FIAT,CRONOS,CONFORT,Volante forrado en cuero,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,54
+FIAT,CRONOS,Tapizado interior,Tono interior oscurecido,LIKE,no,0,local:ficha-tecnica-cronos.pdf,55
+FIAT,CRONOS,Tapizado interior,Tono interior oscurecido,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,55
+FIAT,CRONOS,Tapizado interior,Tono interior oscurecido,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,55
+FIAT,CRONOS,Tapizado interior,Tono interior oscurecido,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,55
+FIAT,CRONOS,Tapizado interior,Apliques interiores cromados,LIKE,no,0,local:ficha-tecnica-cronos.pdf,56
+FIAT,CRONOS,Tapizado interior,Apliques interiores cromados,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,56
+FIAT,CRONOS,Tapizado interior,Apliques interiores cromados,DRIVE CVT,no,2,local:ficha-tecnica-cronos.pdf,56
+FIAT,CRONOS,Tapizado interior,Apliques interiores cromados,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,56
+FIAT,CRONOS,Tapizado interior,Luz en el baúl,LIKE,si,0,local:ficha-tecnica-cronos.pdf,57
+FIAT,CRONOS,Tapizado interior,Luz en el baúl,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,57
+FIAT,CRONOS,Tapizado interior,Luz en el baúl,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,57
+FIAT,CRONOS,Tapizado interior,Luz en el baúl,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,57
+FIAT,CRONOS,Tapizado interior,Luz interior temporizada,LIKE,si,0,local:ficha-tecnica-cronos.pdf,58
+FIAT,CRONOS,Tapizado interior,Luz interior temporizada,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,58
+FIAT,CRONOS,Tapizado interior,Luz interior temporizada,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,58
+FIAT,CRONOS,Tapizado interior,Luz interior temporizada,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,58
+FIAT,CRONOS,Tapizado interior,Luz en la guantera,LIKE,si,0,local:ficha-tecnica-cronos.pdf,59
+FIAT,CRONOS,Tapizado interior,Luz en la guantera,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,59
+FIAT,CRONOS,Tapizado interior,Luz en la guantera,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,59
+FIAT,CRONOS,Tapizado interior,Luz en la guantera,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,59
+FIAT,CRONOS,Tapizado interior,Lámpara de lectura trasera,LIKE,si,0,local:ficha-tecnica-cronos.pdf,60
+FIAT,CRONOS,Tapizado interior,Lámpara de lectura trasera,DRIVE PLUS,si,1,local:ficha-tecnica-cronos.pdf,60
+FIAT,CRONOS,Tapizado interior,Lámpara de lectura trasera,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,60
+FIAT,CRONOS,Tapizado interior,Lámpara de lectura trasera,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,60
+FIAT,CRONOS,Tapizado interior,Apoyabrazos delantero,LIKE,no,0,local:ficha-tecnica-cronos.pdf,61
+FIAT,CRONOS,Tapizado interior,Apoyabrazos delantero,DRIVE PLUS,no,1,local:ficha-tecnica-cronos.pdf,61
+FIAT,CRONOS,Tapizado interior,Apoyabrazos delantero,DRIVE CVT,si,2,local:ficha-tecnica-cronos.pdf,61
+FIAT,CRONOS,Tapizado interior,Apoyabrazos delantero,PRECISION CVT,si,3,local:ficha-tecnica-cronos.pdf,61

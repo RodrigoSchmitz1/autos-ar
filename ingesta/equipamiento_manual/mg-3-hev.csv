@@ -1,0 +1,67 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+MG,3 HYBRID,,Kit de reparación de cubierta,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,0
+MG,3 HYBRID,,Kit de reparación de cubierta,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,0
+MG,3 HYBRID,,Entrada sin llave,HYBRID + COMFORT,no,0,local:mg-3-hev.pdf,1
+MG,3 HYBRID,,Entrada sin llave,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,1
+MG,3 HYBRID,,Encendido por botón,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,2
+MG,3 HYBRID,,Encendido por botón,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,2
+MG,3 HYBRID,,Apoyabrazos central delantero con almacenamiento,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,3
+MG,3 HYBRID,,Apoyabrazos central delantero con almacenamiento,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,3
+MG,3 HYBRID,,Asientos delanteros calefaccionados,HYBRID + COMFORT,no,0,local:mg-3-hev.pdf,4
+MG,3 HYBRID,,Asientos delanteros calefaccionados,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,4
+MG,3 HYBRID,,Luz de baúl,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,5
+MG,3 HYBRID,,Luz de baúl,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,5
+MG,3 HYBRID,,Climatizador,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,6
+MG,3 HYBRID,,Climatizador,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,6
+MG,3 HYBRID,,"Espejos retrovisores externos calefaccionados, eléctricos y con indicador de giro",HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,7
+MG,3 HYBRID,,"Espejos retrovisores externos calefaccionados, eléctricos y con indicador de giro",HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,7
+MG,3 HYBRID,,Sensor de lluvia,HYBRID + COMFORT,no,0,local:mg-3-hev.pdf,8
+MG,3 HYBRID,,Sensor de lluvia,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,8
+MG,3 HYBRID,,Toma de 12V (x1) y USB (x3),HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,9
+MG,3 HYBRID,,Toma de 12V (x1) y USB (x3),HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,9
+MG,3 HYBRID,,Salidas de ventilación en plazas traseras,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,10
+MG,3 HYBRID,,Salidas de ventilación en plazas traseras,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,10
+MG,3 HYBRID,,Comandos por voz,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,11
+MG,3 HYBRID,,Comandos por voz,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,11
+MG,3 HYBRID,,ABS+EBD,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,12
+MG,3 HYBRID,,ABS+EBD,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,12
+MG,3 HYBRID,,Alarma + inmovilizador,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,13
+MG,3 HYBRID,,Alarma + inmovilizador,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,13
+MG,3 HYBRID,,Asistencia de arranque en pendiente,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,14
+MG,3 HYBRID,,Asistencia de arranque en pendiente,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,14
+MG,3 HYBRID,,Asistencia en atascos de tráfico,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,15
+MG,3 HYBRID,,Asistencia en atascos de tráfico,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,15
+MG,3 HYBRID,,Asistente de cambio de carril,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,16
+MG,3 HYBRID,,Asistente de cambio de carril,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,16
+MG,3 HYBRID,,Asientos traseros con anclaje ISOFIX,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,17
+MG,3 HYBRID,,Asientos traseros con anclaje ISOFIX,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,17
+MG,3 HYBRID,,Alerta de tráfico cruzado trasero,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,18
+MG,3 HYBRID,,Alerta de tráfico cruzado trasero,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,18
+MG,3 HYBRID,,Autohold,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,19
+MG,3 HYBRID,,Autohold,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,19
+MG,3 HYBRID,,Advertencia de colisión frontal,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,20
+MG,3 HYBRID,,Advertencia de colisión frontal,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,20
+MG,3 HYBRID,,Control de estabilidad (ESP),HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,21
+MG,3 HYBRID,,Control de estabilidad (ESP),HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,21
+MG,3 HYBRID,,Control crucero adaptativo,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,22
+MG,3 HYBRID,,Control crucero adaptativo,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,22
+MG,3 HYBRID,,Frenado Autónomo de emergencia,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,23
+MG,3 HYBRID,,Frenado Autónomo de emergencia,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,23
+MG,3 HYBRID,,Freno de estacionamiento eléctrico,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,24
+MG,3 HYBRID,,Freno de estacionamiento eléctrico,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,24
+MG,3 HYBRID,,Freno a disco en las 4 ruedas,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,25
+MG,3 HYBRID,,Freno a disco en las 4 ruedas,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,25
+MG,3 HYBRID,,Sistema de advertencia de cambio de carril (LDWS),HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,26
+MG,3 HYBRID,,Sistema de advertencia de cambio de carril (LDWS),HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,26
+MG,3 HYBRID,,Sistema de asistencia de frenada de emergencia (EBA),HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,27
+MG,3 HYBRID,,Sistema de asistencia de frenada de emergencia (EBA),HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,27
+MG,3 HYBRID,,Sitema de asisitencia de mantenimiento en el carril,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,28
+MG,3 HYBRID,,Sitema de asisitencia de mantenimiento en el carril,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,28
+MG,3 HYBRID,,Sistema de asistencia de velocidad,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,29
+MG,3 HYBRID,,Sistema de asistencia de velocidad,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,29
+MG,3 HYBRID,,Mantenimiento de Carril de emergencia,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,30
+MG,3 HYBRID,,Mantenimiento de Carril de emergencia,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,30
+MG,3 HYBRID,,Monitoreo de presión de neumáticos,HYBRID + COMFORT,si,0,local:mg-3-hev.pdf,31
+MG,3 HYBRID,,Monitoreo de presión de neumáticos,HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,31
+MG,3 HYBRID,,Información de punto ciego (BLIS),HYBRID + COMFORT,no,0,local:mg-3-hev.pdf,32
+MG,3 HYBRID,,Información de punto ciego (BLIS),HYBRID + LUXURY,si,1,local:mg-3-hev.pdf,32

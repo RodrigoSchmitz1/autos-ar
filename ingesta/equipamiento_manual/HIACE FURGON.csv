@@ -1,0 +1,87 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,HIACE,Exterior,"Llantas de acero 16"" con neumáticos 215/70 R16",L1H1,si,0,local:HIACE FURGON.pdf,0
+TOYOTA,HIACE,Exterior,"Llantas de acero 16"" con neumáticos 215/70 R16",FURGON L2H2,si,1,local:HIACE FURGON.pdf,0
+TOYOTA,HIACE,Exterior,Tazas plásticas,L1H1,si,0,local:HIACE FURGON.pdf,1
+TOYOTA,HIACE,Exterior,Tazas plásticas,FURGON L2H2,si,1,local:HIACE FURGON.pdf,1
+TOYOTA,HIACE,Exterior,Espejos exteriores con regulación y plegado eléctrico,L1H1,si,0,local:HIACE FURGON.pdf,2
+TOYOTA,HIACE,Exterior,Espejos exteriores con regulación y plegado eléctrico,FURGON L2H2,si,1,local:HIACE FURGON.pdf,2
+TOYOTA,HIACE,Exterior,Espejos exteriores de giro angular,L1H1,no,0,local:HIACE FURGON.pdf,3
+TOYOTA,HIACE,Exterior,Espejos exteriores de giro angular,FURGON L2H2,si,1,local:HIACE FURGON.pdf,3
+TOYOTA,HIACE,Exterior,"Portón trasero de doble hoja, vidriado, con apertura 90°/180°",L1H1,si,0,local:HIACE FURGON.pdf,4
+TOYOTA,HIACE,Exterior,"Portón trasero de doble hoja, vidriado, con apertura 90°/180°",FURGON L2H2,si,1,local:HIACE FURGON.pdf,4
+TOYOTA,HIACE,Exterior,Doble puerta de acceso lateral,L1H1,no,0,local:HIACE FURGON.pdf,5
+TOYOTA,HIACE,Exterior,Doble puerta de acceso lateral,FURGON L2H2,si,1,local:HIACE FURGON.pdf,5
+TOYOTA,HIACE,Interior,Cierre centralizado de puertas con comando a distancia,L1H1,si,0,local:HIACE FURGON.pdf,6
+TOYOTA,HIACE,Interior,Cierre centralizado de puertas con comando a distancia,FURGON L2H2,si,1,local:HIACE FURGON.pdf,6
+TOYOTA,HIACE,Interior,Aire acondicionado,L1H1,si,0,local:HIACE FURGON.pdf,7
+TOYOTA,HIACE,Interior,Aire acondicionado,FURGON L2H2,si,1,local:HIACE FURGON.pdf,7
+TOYOTA,HIACE,Interior,"Levantacristales eléctricos con ""Auto up & down"" y sensor de presión para conductor y acompañante",L1H1,si,0,local:HIACE FURGON.pdf,8
+TOYOTA,HIACE,Interior,"Levantacristales eléctricos con ""Auto up & down"" y sensor de presión para conductor y acompañante",FURGON L2H2,si,1,local:HIACE FURGON.pdf,8
+TOYOTA,HIACE,Interior,Apertura del tanque de combustible desde el interior,L1H1,si,0,local:HIACE FURGON.pdf,9
+TOYOTA,HIACE,Interior,Apertura del tanque de combustible desde el interior,FURGON L2H2,si,1,local:HIACE FURGON.pdf,9
+TOYOTA,HIACE,Interior,Consola de techo con luz y porta anteojos,L1H1,si,0,local:HIACE FURGON.pdf,10
+TOYOTA,HIACE,Interior,Consola de techo con luz y porta anteojos,FURGON L2H2,si,1,local:HIACE FURGON.pdf,10
+TOYOTA,HIACE,Interior,Consola de techo con bandeja superior,L1H1,no,0,local:HIACE FURGON.pdf,11
+TOYOTA,HIACE,Interior,Consola de techo con bandeja superior,FURGON L2H2,si,1,local:HIACE FURGON.pdf,11
+TOYOTA,HIACE,Interior,Recubrimiento interior delantero de PVC + Cubrealfombra de PVC,L1H1,si,0,local:HIACE FURGON.pdf,12
+TOYOTA,HIACE,Interior,Recubrimiento interior delantero de PVC + Cubrealfombra de PVC,FURGON L2H2,si,1,local:HIACE FURGON.pdf,12
+TOYOTA,HIACE,Interior,Volante con regulación en altura y en profundidad,L1H1,si,0,local:HIACE FURGON.pdf,13
+TOYOTA,HIACE,Interior,Volante con regulación en altura y en profundidad,FURGON L2H2,si,1,local:HIACE FURGON.pdf,13
+TOYOTA,HIACE,Interior,Guantera con llave,L1H1,si,0,local:HIACE FURGON.pdf,14
+TOYOTA,HIACE,Interior,Guantera con llave,FURGON L2H2,si,1,local:HIACE FURGON.pdf,14
+TOYOTA,HIACE,Interior,"Butaca del conductor con regulación en altura, ajuste longitudinal y reclinación de respaldo",L1H1,si,0,local:HIACE FURGON.pdf,15
+TOYOTA,HIACE,Interior,"Butaca del conductor con regulación en altura, ajuste longitudinal y reclinación de respaldo",FURGON L2H2,si,1,local:HIACE FURGON.pdf,15
+TOYOTA,HIACE,Interior,Butaca del pasajero con ajuste longitudinal y reclinación de respaldo,L1H1,si,0,local:HIACE FURGON.pdf,16
+TOYOTA,HIACE,Interior,Butaca del pasajero con ajuste longitudinal y reclinación de respaldo,FURGON L2H2,si,1,local:HIACE FURGON.pdf,16
+TOYOTA,HIACE,Interior,Bandeja central con posavasos en respaldo de pasajero central,L1H1,si,0,local:HIACE FURGON.pdf,17
+TOYOTA,HIACE,Interior,Bandeja central con posavasos en respaldo de pasajero central,FURGON L2H2,si,1,local:HIACE FURGON.pdf,17
+TOYOTA,HIACE,Interior,Iluminación en espacio de carga,L1H1,si,0,local:HIACE FURGON.pdf,18
+TOYOTA,HIACE,Interior,Iluminación en espacio de carga,FURGON L2H2,si,1,local:HIACE FURGON.pdf,18
+TOYOTA,HIACE,Interior,Salida de 12v (x2),L1H1,si,0,local:HIACE FURGON.pdf,19
+TOYOTA,HIACE,Interior,Salida de 12v (x2),FURGON L2H2,si,1,local:HIACE FURGON.pdf,19
+TOYOTA,HIACE,Interior,"Volante con control de audio, de teléfono y de display de información múltiple",L1H1,si,0,local:HIACE FURGON.pdf,20
+TOYOTA,HIACE,Interior,"Volante con control de audio, de teléfono y de display de información múltiple",FURGON L2H2,si,1,local:HIACE FURGON.pdf,20
+TOYOTA,HIACE,Interior,"Testigo de conducción ""ECO""",L1H1,si,0,local:HIACE FURGON.pdf,21
+TOYOTA,HIACE,Interior,"Testigo de conducción ""ECO""",FURGON L2H2,si,1,local:HIACE FURGON.pdf,21
+TOYOTA,HIACE,Interior,Computadora de abordo,L1H1,si,0,local:HIACE FURGON.pdf,22
+TOYOTA,HIACE,Interior,Computadora de abordo,FURGON L2H2,si,1,local:HIACE FURGON.pdf,22
+TOYOTA,HIACE,Interior,"Display de información múltiple con pantalla a color de 4,2"" (TFT)",L1H1,si,0,local:HIACE FURGON.pdf,23
+TOYOTA,HIACE,Interior,"Display de información múltiple con pantalla a color de 4,2"" (TFT)",FURGON L2H2,si,1,local:HIACE FURGON.pdf,23
+TOYOTA,HIACE,Interior,Reóstato para luz del tablero,L1H1,si,0,local:HIACE FURGON.pdf,24
+TOYOTA,HIACE,Interior,Reóstato para luz del tablero,FURGON L2H2,si,1,local:HIACE FURGON.pdf,24
+TOYOTA,HIACE,Interior,"Audio con pantalla táctil, Bluetooth® con manos libres y USB",L1H1,0 (8”),0,local:HIACE FURGON.pdf,25
+TOYOTA,HIACE,Interior,"Audio con pantalla táctil, Bluetooth® con manos libres y USB",FURGON L2H2,0 (9”),1,local:HIACE FURGON.pdf,25
+TOYOTA,HIACE,Interior,Conectividad Android Auto® y Apple CarPlay®,L1H1,si,0,local:HIACE FURGON.pdf,26
+TOYOTA,HIACE,Interior,Conectividad Android Auto® y Apple CarPlay®,FURGON L2H2,no,1,local:HIACE FURGON.pdf,26
+TOYOTA,HIACE,Interior,Cámara de retroceso,L1H1,si,0,local:HIACE FURGON.pdf,27
+TOYOTA,HIACE,Interior,Cámara de retroceso,FURGON L2H2,si,1,local:HIACE FURGON.pdf,27
+TOYOTA,HIACE,Interior,Manijas auxiliares para ascenso y descenso para pasajeros,L1H1,si,0,local:HIACE FURGON.pdf,28
+TOYOTA,HIACE,Interior,Manijas auxiliares para ascenso y descenso para pasajeros,FURGON L2H2,si,1,local:HIACE FURGON.pdf,28
+TOYOTA,HIACE,Interior,Ganchos internos para sujeción de carga,L1H1,si,0,local:HIACE FURGON.pdf,29
+TOYOTA,HIACE,Interior,Ganchos internos para sujeción de carga,FURGON L2H2,si,1,local:HIACE FURGON.pdf,29
+TOYOTA,HIACE,Seguridad,Airbags frontales (x2) con protección para 3 ocupantes,L1H1,si,0,local:HIACE FURGON.pdf,30
+TOYOTA,HIACE,Seguridad,Airbags frontales (x2) con protección para 3 ocupantes,FURGON L2H2,si,1,local:HIACE FURGON.pdf,30
+TOYOTA,HIACE,Seguridad,Airbag de rodilla (conductor),L1H1,si,0,local:HIACE FURGON.pdf,31
+TOYOTA,HIACE,Seguridad,Airbag de rodilla (conductor),FURGON L2H2,si,1,local:HIACE FURGON.pdf,31
+TOYOTA,HIACE,Seguridad,Inmovilizador de motor y alarma,L1H1,si,0,local:HIACE FURGON.pdf,32
+TOYOTA,HIACE,Seguridad,Inmovilizador de motor y alarma,FURGON L2H2,si,1,local:HIACE FURGON.pdf,32
+TOYOTA,HIACE,Seguridad,Frenos con ABS y distribución electrónica de la fuerza de frenado (EBD),L1H1,si,0,local:HIACE FURGON.pdf,33
+TOYOTA,HIACE,Seguridad,Frenos con ABS y distribución electrónica de la fuerza de frenado (EBD),FURGON L2H2,si,1,local:HIACE FURGON.pdf,33
+TOYOTA,HIACE,Seguridad,Asistente de frenado de emergencia (BA),L1H1,si,0,local:HIACE FURGON.pdf,34
+TOYOTA,HIACE,Seguridad,Asistente de frenado de emergencia (BA),FURGON L2H2,si,1,local:HIACE FURGON.pdf,34
+TOYOTA,HIACE,Seguridad,Luces de frenado de emergencia (EBS),L1H1,si,0,local:HIACE FURGON.pdf,35
+TOYOTA,HIACE,Seguridad,Luces de frenado de emergencia (EBS),FURGON L2H2,si,1,local:HIACE FURGON.pdf,35
+TOYOTA,HIACE,Seguridad,Control de tracción (TRC),L1H1,si,0,local:HIACE FURGON.pdf,36
+TOYOTA,HIACE,Seguridad,Control de tracción (TRC),FURGON L2H2,si,1,local:HIACE FURGON.pdf,36
+TOYOTA,HIACE,Seguridad,Control de estabilidad (VSC),L1H1,si,0,local:HIACE FURGON.pdf,37
+TOYOTA,HIACE,Seguridad,Control de estabilidad (VSC),FURGON L2H2,si,1,local:HIACE FURGON.pdf,37
+TOYOTA,HIACE,Seguridad,Asistente de arranque en pendientes (HAC),L1H1,si,0,local:HIACE FURGON.pdf,38
+TOYOTA,HIACE,Seguridad,Asistente de arranque en pendientes (HAC),FURGON L2H2,si,1,local:HIACE FURGON.pdf,38
+TOYOTA,HIACE,Seguridad,Luz antiniebla trasera,L1H1,si,0,local:HIACE FURGON.pdf,39
+TOYOTA,HIACE,Seguridad,Luz antiniebla trasera,FURGON L2H2,si,1,local:HIACE FURGON.pdf,39
+TOYOTA,HIACE,Seguridad,Apoya cabezas delanteros (x3),L1H1,si,0,local:HIACE FURGON.pdf,40
+TOYOTA,HIACE,Seguridad,Apoya cabezas delanteros (x3),FURGON L2H2,si,1,local:HIACE FURGON.pdf,40
+TOYOTA,HIACE,Seguridad,"Cinturones de seguridad delanteros de 3 puntos (x3), regulables en altura, con pretensionador y limitador de fuerza para conductor y acompañante",L1H1,si,0,local:HIACE FURGON.pdf,41
+TOYOTA,HIACE,Seguridad,"Cinturones de seguridad delanteros de 3 puntos (x3), regulables en altura, con pretensionador y limitador de fuerza para conductor y acompañante",FURGON L2H2,si,1,local:HIACE FURGON.pdf,41
+TOYOTA,HIACE,Seguridad,Testigo y alarma de cinturón de seguridad (Conductor y acompañantes),L1H1,si,0,local:HIACE FURGON.pdf,42
+TOYOTA,HIACE,Seguridad,Testigo y alarma de cinturón de seguridad (Conductor y acompañantes),FURGON L2H2,si,1,local:HIACE FURGON.pdf,42

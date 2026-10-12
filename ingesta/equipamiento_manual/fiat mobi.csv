@@ -1,0 +1,59 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,MOBI,EXTERIOR,"Llantas de aleación 14"" oscurecidas",TREKKING 1.0,si,0,local:fiat mobi.pdf,0
+FIAT,MOBI,EXTERIOR,Barras longitudinales portaequipaje,TREKKING 1.0,si,0,local:fiat mobi.pdf,1
+FIAT,MOBI,EXTERIOR,Faros antiniebla delanteros,TREKKING 1.0,si,0,local:fiat mobi.pdf,2
+FIAT,MOBI,EXTERIOR,Tapa trasera del baúl en vidrio de alta resistencia en color negro,TREKKING 1.0,si,0,local:fiat mobi.pdf,3
+FIAT,MOBI,EXTERIOR,Retrovisores exteriores en negro piano,TREKKING 1.0,si,0,local:fiat mobi.pdf,4
+FIAT,MOBI,EXTERIOR,Paragolpes color carrocería,TREKKING 1.0,si,0,local:fiat mobi.pdf,5
+FIAT,MOBI,EXTERIOR,Espejos con repetidor de giro,TREKKING 1.0,si,0,local:fiat mobi.pdf,6
+FIAT,MOBI,EXTERIOR,DRL (Daylight Running Lamps),TREKKING 1.0,si,0,local:fiat mobi.pdf,7
+FIAT,MOBI,EXTERIOR,Faros delanteros con máscara oscura,TREKKING 1.0,si,0,local:fiat mobi.pdf,8
+FIAT,MOBI,EXTERIOR,Manijas de puerta color negro,TREKKING 1.0,si,0,local:fiat mobi.pdf,9
+FIAT,MOBI,EXTERIOR,Adhesivo Trekking capot,TREKKING 1.0,si,0,local:fiat mobi.pdf,10
+FIAT,MOBI,EXTERIOR,Adhesivo trekking lateral,TREKKING 1.0,si,0,local:fiat mobi.pdf,11
+FIAT,MOBI,EXTERIOR,Limpia parabrisas trasero,TREKKING 1.0,si,0,local:fiat mobi.pdf,12
+FIAT,MOBI,EXTERIOR,Carrocería bitono negra,TREKKING 1.0,si,0,local:fiat mobi.pdf,13
+FIAT,MOBI,CONFORT,Aire acondicionado manual,TREKKING 1.0,si,0,local:fiat mobi.pdf,14
+FIAT,MOBI,CONFORT,Apertura interna de baúl,TREKKING 1.0,si,0,local:fiat mobi.pdf,15
+FIAT,MOBI,CONFORT,Apoyapie lado conductor,TREKKING 1.0,si,0,local:fiat mobi.pdf,16
+FIAT,MOBI,CONFORT,Asiento conductor regulable en altura,TREKKING 1.0,si,0,local:fiat mobi.pdf,17
+FIAT,MOBI,CONFORT,Cierre centralizado de puertas,TREKKING 1.0,si,0,local:fiat mobi.pdf,18
+FIAT,MOBI,CONFORT,Computadora de a bordo,TREKKING 1.0,si,0,local:fiat mobi.pdf,19
+FIAT,MOBI,CONFORT,Dirección asistida,TREKKING 1.0,si,0,local:fiat mobi.pdf,20
+FIAT,MOBI,CONFORT,"Espejos exteriores eléctricos con función ""Tilt-Down""",TREKKING 1.0,si,0,local:fiat mobi.pdf,21
+FIAT,MOBI,CONFORT,Indicador de cambio de marcha (GSI - Gear shift indicator),TREKKING 1.0,si,0,local:fiat mobi.pdf,22
+FIAT,MOBI,CONFORT,Levantacristales eléctricos delanteros (con antipinzamiento),TREKKING 1.0,si,0,local:fiat mobi.pdf,23
+FIAT,MOBI,CONFORT,"Sistema ""My Car Fiat"" y ""Follow Me Home""",TREKKING 1.0,si,0,local:fiat mobi.pdf,24
+FIAT,MOBI,CONFORT,Drive by Wire (Control electrónico del acelerador),TREKKING 1.0,si,0,local:fiat mobi.pdf,25
+FIAT,MOBI,CONFORT,Sensor de temperatura externa,TREKKING 1.0,si,0,local:fiat mobi.pdf,26
+FIAT,MOBI,CONFORT,Volante regulable en altura,TREKKING 1.0,si,0,local:fiat mobi.pdf,27
+FIAT,MOBI,CONFORT,Comandos de radio al volante,TREKKING 1.0,si,0,local:fiat mobi.pdf,28
+FIAT,MOBI,CONFORT,4 parlantes + 2 tweeters,TREKKING 1.0,si,0,local:fiat mobi.pdf,29
+FIAT,MOBI,CONFORT,Tapizado interior de tela Trekking,TREKKING 1.0,si,0,local:fiat mobi.pdf,30
+FIAT,MOBI,CONFORT,Desempañador trasero,TREKKING 1.0,si,0,local:fiat mobi.pdf,31
+FIAT,MOBI,CONFORT,Tomacorriente auxiliar de 12 V,TREKKING 1.0,si,0,local:fiat mobi.pdf,32
+FIAT,MOBI,CONFORT,Sensor de estacionamiento trasero,TREKKING 1.0,si,0,local:fiat mobi.pdf,33
+FIAT,MOBI,CONFORT,Alfombras interiores,TREKKING 1.0,si,0,local:fiat mobi.pdf,34
+FIAT,MOBI,CONFORT,Baúl con alfombra,TREKKING 1.0,si,0,local:fiat mobi.pdf,35
+FIAT,MOBI,CONFORT,Asiento trasero rebatible,TREKKING 1.0,si,0,local:fiat mobi.pdf,36
+FIAT,MOBI,SEGURIDAD,Sistema de alerta de cinturón de seguridad,TREKKING 1.0,si,0,local:fiat mobi.pdf,37
+FIAT,MOBI,SEGURIDAD,Airbags frontales x2,TREKKING 1.0,si,0,local:fiat mobi.pdf,38
+FIAT,MOBI,SEGURIDAD,Frenos ABS con distribución electrónica de fuerza de frenado (EBD),TREKKING 1.0,si,0,local:fiat mobi.pdf,39
+FIAT,MOBI,SEGURIDAD,Control electrónico de estabilidad (ESC),TREKKING 1.0,si,0,local:fiat mobi.pdf,40
+FIAT,MOBI,SEGURIDAD,Señal de frenado de emergencia (ESS),TREKKING 1.0,si,0,local:fiat mobi.pdf,41
+FIAT,MOBI,SEGURIDAD,Inmovilizador de motor antirrobo,TREKKING 1.0,si,0,local:fiat mobi.pdf,42
+FIAT,MOBI,SEGURIDAD,Asistente de arranque en pendiente - Hill Holder (HLA),TREKKING 1.0,si,0,local:fiat mobi.pdf,43
+FIAT,MOBI,SEGURIDAD,Control de tracción (ASR),TREKKING 1.0,si,0,local:fiat mobi.pdf,44
+FIAT,MOBI,SEGURIDAD,Barra protectora en las puertas,TREKKING 1.0,si,0,local:fiat mobi.pdf,45
+FIAT,MOBI,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),TREKKING 1.0,si,0,local:fiat mobi.pdf,46
+FIAT,MOBI,SEGURIDAD,Tercera luz de stop,TREKKING 1.0,si,0,local:fiat mobi.pdf,47
+FIAT,MOBI,SEGURIDAD,Cinturones de seguridad traseros de 3 puntos x3,TREKKING 1.0,si,0,local:fiat mobi.pdf,48
+FIAT,MOBI,SEGURIDAD,Apoyacabezas x5,TREKKING 1.0,si,0,local:fiat mobi.pdf,49
+FIAT,MOBI,SEGURIDAD,Kit de seguridad,TREKKING 1.0,si,0,local:fiat mobi.pdf,50
+FIAT,MOBI,TECNOLOGÍA,Volante multifunción,TREKKING 1.0,si,0,local:fiat mobi.pdf,51
+FIAT,MOBI,TECNOLOGÍA,Indicador de presión de neumáticos (TPMS),TREKKING 1.0,si,0,local:fiat mobi.pdf,52
+FIAT,MOBI,TECNOLOGÍA,"Clúster de 3,5""",TREKKING 1.0,si,0,local:fiat mobi.pdf,53
+FIAT,MOBI,TECNOLOGÍA,"Central multimedia touch 7""",TREKKING 1.0,si,0,local:fiat mobi.pdf,54
+FIAT,MOBI,TECNOLOGÍA,Sistema de reconocimiento de voz,TREKKING 1.0,si,0,local:fiat mobi.pdf,55
+FIAT,MOBI,TECNOLOGÍA,Conectividad wireless Android Auto / Apple CarPlay,TREKKING 1.0,si,0,local:fiat mobi.pdf,56
+FIAT,MOBI,TECNOLOGÍA,Puerto USB / AUX,TREKKING 1.0,si,0,local:fiat mobi.pdf,57

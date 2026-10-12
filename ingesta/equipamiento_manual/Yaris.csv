@@ -1,0 +1,211 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,YARIS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),XS CVT,4.145 / 1.730 / 1.475,0,local:Yaris.pdf,0
+TOYOTA,YARIS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),XLS+ CVT,4.145 / 1.730 / 1.475,1,local:Yaris.pdf,0
+TOYOTA,YARIS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),S CVT,4.145 / 1.730 / 1.475,2,local:Yaris.pdf,0
+TOYOTA,YARIS,Dimensiones y Pesos,Distancia entre ejes (mm),XS CVT,2.550,0,local:Yaris.pdf,1
+TOYOTA,YARIS,Dimensiones y Pesos,Distancia entre ejes (mm),XLS+ CVT,2.550,1,local:Yaris.pdf,1
+TOYOTA,YARIS,Dimensiones y Pesos,Distancia entre ejes (mm),S CVT,2.550,2,local:Yaris.pdf,1
+TOYOTA,YARIS,Dimensiones y Pesos,Capacidad del baúl (L),XS CVT,310,0,local:Yaris.pdf,2
+TOYOTA,YARIS,Dimensiones y Pesos,Capacidad del baúl (L),XLS+ CVT,310,1,local:Yaris.pdf,2
+TOYOTA,YARIS,Dimensiones y Pesos,Capacidad del baúl (L),S CVT,310,2,local:Yaris.pdf,2
+TOYOTA,YARIS,Dimensiones y Pesos,Capacidad del tanque de combustible (L),XS CVT,42,0,local:Yaris.pdf,3
+TOYOTA,YARIS,Dimensiones y Pesos,Capacidad del tanque de combustible (L),XLS+ CVT,42,1,local:Yaris.pdf,3
+TOYOTA,YARIS,Dimensiones y Pesos,Capacidad del tanque de combustible (L),S CVT,42,2,local:Yaris.pdf,3
+TOYOTA,YARIS,Dimensiones y Pesos,Peso en orden de marcha (Mín. - Máx.) (kg),XS CVT,1.105-1.135,0,local:Yaris.pdf,4
+TOYOTA,YARIS,Dimensiones y Pesos,Peso en orden de marcha (Mín. - Máx.) (kg),XLS+ CVT,1.105-1.135,1,local:Yaris.pdf,4
+TOYOTA,YARIS,Dimensiones y Pesos,Peso en orden de marcha (Mín. - Máx.) (kg),S CVT,1.115-1.145,2,local:Yaris.pdf,4
+TOYOTA,YARIS,Dimensiones y Pesos,Cilindrada (cm3),XS CVT,1.496 (1.5 L),0,local:Yaris.pdf,5
+TOYOTA,YARIS,Dimensiones y Pesos,Cilindrada (cm3),XLS+ CVT,1.496 (1.5 L),1,local:Yaris.pdf,5
+TOYOTA,YARIS,Dimensiones y Pesos,Cilindrada (cm3),S CVT,1.496 (1.5 L),2,local:Yaris.pdf,5
+TOYOTA,YARIS,Dimensiones y Pesos,Tipo,XS CVT,"4 cilindros en línea, nafta",0,local:Yaris.pdf,6
+TOYOTA,YARIS,Dimensiones y Pesos,Tipo,XLS+ CVT,"4 cilindros en línea, nafta",1,local:Yaris.pdf,6
+TOYOTA,YARIS,Dimensiones y Pesos,Tipo,S CVT,"4 cilindros en línea, nafta",2,local:Yaris.pdf,6
+TOYOTA,YARIS,Dimensiones y Pesos,Distribución,XS CVT,"Motor TOYOTA 2NR - FE, 16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas)",0,local:Yaris.pdf,7
+TOYOTA,YARIS,Dimensiones y Pesos,Distribución,XLS+ CVT,"Motor TOYOTA 2NR - FE, 16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas)",1,local:Yaris.pdf,7
+TOYOTA,YARIS,Dimensiones y Pesos,Distribución,S CVT,"Motor TOYOTA 2NR - FE, 16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas)",2,local:Yaris.pdf,7
+TOYOTA,YARIS,Dimensiones y Pesos,Relación de compresión,XS CVT,"11,5:1",0,local:Yaris.pdf,8
+TOYOTA,YARIS,Dimensiones y Pesos,Relación de compresión,XLS+ CVT,"11,5:1",1,local:Yaris.pdf,8
+TOYOTA,YARIS,Dimensiones y Pesos,Relación de compresión,S CVT,"11,5:1",2,local:Yaris.pdf,8
+TOYOTA,YARIS,Dimensiones y Pesos,Diámetro por carrera (mm),XS CVT,"72,5 x 90,6",0,local:Yaris.pdf,9
+TOYOTA,YARIS,Dimensiones y Pesos,Diámetro por carrera (mm),XLS+ CVT,"72,5 x 90,6",1,local:Yaris.pdf,9
+TOYOTA,YARIS,Dimensiones y Pesos,Diámetro por carrera (mm),S CVT,"72,5 x 90,6",2,local:Yaris.pdf,9
+TOYOTA,YARIS,Dimensiones y Pesos,Potencia máxima (CV (kW) / rpm),XS CVT,107 (79) / 6.000,0,local:Yaris.pdf,10
+TOYOTA,YARIS,Dimensiones y Pesos,Potencia máxima (CV (kW) / rpm),XLS+ CVT,107 (79) / 6.000,1,local:Yaris.pdf,10
+TOYOTA,YARIS,Dimensiones y Pesos,Potencia máxima (CV (kW) / rpm),S CVT,107 (79) / 6.000,2,local:Yaris.pdf,10
+TOYOTA,YARIS,Dimensiones y Pesos,Torque máximo (Nm (Kgm) / rpm),XS CVT,140 / 4.200,0,local:Yaris.pdf,11
+TOYOTA,YARIS,Dimensiones y Pesos,Torque máximo (Nm (Kgm) / rpm),XLS+ CVT,140 / 4.200,1,local:Yaris.pdf,11
+TOYOTA,YARIS,Dimensiones y Pesos,Torque máximo (Nm (Kgm) / rpm),S CVT,140 / 4.200,2,local:Yaris.pdf,11
+TOYOTA,YARIS,Chasis,Transmisión,XS CVT,Automática CVT de 7 velocidades pre-programadas,0,local:Yaris.pdf,12
+TOYOTA,YARIS,Chasis,Transmisión,XLS+ CVT,Automática CVT de 7 velocidades pre-programadas,1,local:Yaris.pdf,12
+TOYOTA,YARIS,Chasis,Transmisión,S CVT,Automática CVT de 7 velocidades pre-programadas,2,local:Yaris.pdf,12
+TOYOTA,YARIS,Chasis,Tracción,XS CVT,Delantera,0,local:Yaris.pdf,13
+TOYOTA,YARIS,Chasis,Tracción,XLS+ CVT,Delantera,1,local:Yaris.pdf,13
+TOYOTA,YARIS,Chasis,Tracción,S CVT,Delantera,2,local:Yaris.pdf,13
+TOYOTA,YARIS,Chasis,Suspensión,XS CVT,Tipo MacPherson con barra estabilizadora,0,local:Yaris.pdf,14
+TOYOTA,YARIS,Chasis,Suspensión,XLS+ CVT,Tipo MacPherson con barra estabilizadora,1,local:Yaris.pdf,14
+TOYOTA,YARIS,Chasis,Suspensión,S CVT,Tipo MacPherson con barra estabilizadora,2,local:Yaris.pdf,14
+TOYOTA,YARIS,Chasis,Dirección,XS CVT,"Piñón y cremallera, asistida eléctricamente (EPS)",0,local:Yaris.pdf,15
+TOYOTA,YARIS,Chasis,Dirección,XLS+ CVT,"Piñón y cremallera, asistida eléctricamente (EPS)",1,local:Yaris.pdf,15
+TOYOTA,YARIS,Chasis,Dirección,S CVT,"Piñón y cremallera, asistida eléctricamente (EPS)",2,local:Yaris.pdf,15
+TOYOTA,YARIS,Chasis,Frenos,XS CVT,Discos ventilados,0,local:Yaris.pdf,16
+TOYOTA,YARIS,Chasis,Frenos,XLS+ CVT,Discos ventilados,1,local:Yaris.pdf,16
+TOYOTA,YARIS,Chasis,Frenos,S CVT,Discos ventilados,2,local:Yaris.pdf,16
+TOYOTA,YARIS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro incorporada,XS CVT,si,0,local:Yaris.pdf,17
+TOYOTA,YARIS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro incorporada,XLS+ CVT,si,1,local:Yaris.pdf,17
+TOYOTA,YARIS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro incorporada,S CVT,si,2,local:Yaris.pdf,17
+TOYOTA,YARIS,Exterior,Espejos exteriores retráctiles eléctricamente,XS CVT,no,0,local:Yaris.pdf,18
+TOYOTA,YARIS,Exterior,Espejos exteriores retráctiles eléctricamente,XLS+ CVT,si,1,local:Yaris.pdf,18
+TOYOTA,YARIS,Exterior,Espejos exteriores retráctiles eléctricamente,S CVT,si,2,local:Yaris.pdf,18
+TOYOTA,YARIS,Exterior,Luces de circulación diurnas LED (DRL),XS CVT,si,0,local:Yaris.pdf,19
+TOYOTA,YARIS,Exterior,Luces de circulación diurnas LED (DRL),XLS+ CVT,si,1,local:Yaris.pdf,19
+TOYOTA,YARIS,Exterior,Luces de circulación diurnas LED (DRL),S CVT,si,2,local:Yaris.pdf,19
+TOYOTA,YARIS,Exterior,"Llantas de acero de 15""",XS CVT,si,0,local:Yaris.pdf,20
+TOYOTA,YARIS,Exterior,"Llantas de acero de 15""",XLS+ CVT,no,1,local:Yaris.pdf,20
+TOYOTA,YARIS,Exterior,"Llantas de acero de 15""",S CVT,no,2,local:Yaris.pdf,20
+TOYOTA,YARIS,Exterior,"Llantas de aleación de 15""",XS CVT,no,0,local:Yaris.pdf,21
+TOYOTA,YARIS,Exterior,"Llantas de aleación de 15""",XLS+ CVT,no,1,local:Yaris.pdf,21
+TOYOTA,YARIS,Exterior,"Llantas de aleación de 15""",S CVT,no,2,local:Yaris.pdf,21
+TOYOTA,YARIS,Exterior,"Llantas de aleación de 16""",XS CVT,no,0,local:Yaris.pdf,22
+TOYOTA,YARIS,Exterior,"Llantas de aleación de 16""",XLS+ CVT,si,1,local:Yaris.pdf,22
+TOYOTA,YARIS,Exterior,"Llantas de aleación de 16""",S CVT,si,2,local:Yaris.pdf,22
+TOYOTA,YARIS,Exterior,Manijas exteriores cromadas,XS CVT,no,0,local:Yaris.pdf,23
+TOYOTA,YARIS,Exterior,Manijas exteriores cromadas,XLS+ CVT,no,1,local:Yaris.pdf,23
+TOYOTA,YARIS,Exterior,Manijas exteriores cromadas,S CVT,si,2,local:Yaris.pdf,23
+TOYOTA,YARIS,Exterior,Neumáticos,XS CVT,"185 / 60 R15""",0,local:Yaris.pdf,24
+TOYOTA,YARIS,Exterior,Neumáticos,XLS+ CVT,"195 / 50 R16""",1,local:Yaris.pdf,24
+TOYOTA,YARIS,Exterior,Neumáticos,S CVT,"195 / 50 R16""",2,local:Yaris.pdf,24
+TOYOTA,YARIS,Exterior,Ópticas delanteras halógenas con regulación en altura,XS CVT,si,0,local:Yaris.pdf,25
+TOYOTA,YARIS,Exterior,Ópticas delanteras halógenas con regulación en altura,XLS+ CVT,no,1,local:Yaris.pdf,25
+TOYOTA,YARIS,Exterior,Ópticas delanteras halógenas con regulación en altura,S CVT,no,2,local:Yaris.pdf,25
+TOYOTA,YARIS,Exterior,Ópticas delanteras halógenas con regulación en altura y proyector,XS CVT,no,0,local:Yaris.pdf,26
+TOYOTA,YARIS,Exterior,Ópticas delanteras halógenas con regulación en altura y proyector,XLS+ CVT,si,1,local:Yaris.pdf,26
+TOYOTA,YARIS,Exterior,Ópticas delanteras halógenas con regulación en altura y proyector,S CVT,no,2,local:Yaris.pdf,26
+TOYOTA,YARIS,Exterior,Ópticas delanteras LED con regulación en altura,XS CVT,no,0,local:Yaris.pdf,27
+TOYOTA,YARIS,Exterior,Ópticas delanteras LED con regulación en altura,XLS+ CVT,no,1,local:Yaris.pdf,27
+TOYOTA,YARIS,Exterior,Ópticas delanteras LED con regulación en altura,S CVT,si,2,local:Yaris.pdf,27
+TOYOTA,YARIS,Exterior,Ópticas traseras con LED,XS CVT,no,0,local:Yaris.pdf,28
+TOYOTA,YARIS,Exterior,Ópticas traseras con LED,XLS+ CVT,si,1,local:Yaris.pdf,28
+TOYOTA,YARIS,Exterior,Ópticas traseras con LED,S CVT,si,2,local:Yaris.pdf,28
+TOYOTA,YARIS,Exterior,Parrilla frontal con detalle cromado,XS CVT,no,0,local:Yaris.pdf,29
+TOYOTA,YARIS,Exterior,Parrilla frontal con detalle cromado,XLS+ CVT,si,1,local:Yaris.pdf,29
+TOYOTA,YARIS,Exterior,Parrilla frontal con detalle cromado,S CVT,si,2,local:Yaris.pdf,29
+TOYOTA,YARIS,Confort interior,Aire acondicionado con climatizador automático digital,XS CVT,no,0,local:Yaris.pdf,30
+TOYOTA,YARIS,Confort interior,Aire acondicionado con climatizador automático digital,XLS+ CVT,si,1,local:Yaris.pdf,30
+TOYOTA,YARIS,Confort interior,Aire acondicionado con climatizador automático digital,S CVT,si,2,local:Yaris.pdf,30
+TOYOTA,YARIS,Confort interior,Apertura interna del tanque de combustible,XS CVT,si,0,local:Yaris.pdf,31
+TOYOTA,YARIS,Confort interior,Apertura interna del tanque de combustible,XLS+ CVT,si,1,local:Yaris.pdf,31
+TOYOTA,YARIS,Confort interior,Apertura interna del tanque de combustible,S CVT,si,2,local:Yaris.pdf,31
+TOYOTA,YARIS,Confort interior,Apoyabrazos trasero central con dos posavasos,XS CVT,no,0,local:Yaris.pdf,32
+TOYOTA,YARIS,Confort interior,Apoyabrazos trasero central con dos posavasos,XLS+ CVT,si,1,local:Yaris.pdf,32
+TOYOTA,YARIS,Confort interior,Apoyabrazos trasero central con dos posavasos,S CVT,si,2,local:Yaris.pdf,32
+TOYOTA,YARIS,Confort interior,Asiento del conductor con regulación en altura,XS CVT,si,0,local:Yaris.pdf,33
+TOYOTA,YARIS,Confort interior,Asiento del conductor con regulación en altura,XLS+ CVT,si,1,local:Yaris.pdf,33
+TOYOTA,YARIS,Confort interior,Asiento del conductor con regulación en altura,S CVT,si,2,local:Yaris.pdf,33
+TOYOTA,YARIS,Confort interior,Asientos con costuras color rojo,XS CVT,no,0,local:Yaris.pdf,34
+TOYOTA,YARIS,Confort interior,Asientos con costuras color rojo,XLS+ CVT,no,1,local:Yaris.pdf,34
+TOYOTA,YARIS,Confort interior,Asientos con costuras color rojo,S CVT,si,2,local:Yaris.pdf,34
+TOYOTA,YARIS,Confort interior,Asientos con tapizado de cuero natural y ecológico,XS CVT,no,0,local:Yaris.pdf,35
+TOYOTA,YARIS,Confort interior,Asientos con tapizado de cuero natural y ecológico,XLS+ CVT,no,1,local:Yaris.pdf,35
+TOYOTA,YARIS,Confort interior,Asientos con tapizado de cuero natural y ecológico,S CVT,si,2,local:Yaris.pdf,35
+TOYOTA,YARIS,Confort interior,Asiento trasero rebatible 60:40,XS CVT,no,0,local:Yaris.pdf,36
+TOYOTA,YARIS,Confort interior,Asiento trasero rebatible 60:40,XLS+ CVT,si,1,local:Yaris.pdf,36
+TOYOTA,YARIS,Confort interior,Asiento trasero rebatible 60:40,S CVT,si,2,local:Yaris.pdf,36
+TOYOTA,YARIS,Confort interior,Columna de dirección regulable en altura,XS CVT,si,0,local:Yaris.pdf,37
+TOYOTA,YARIS,Confort interior,Columna de dirección regulable en altura,XLS+ CVT,si,1,local:Yaris.pdf,37
+TOYOTA,YARIS,Confort interior,Columna de dirección regulable en altura,S CVT,si,2,local:Yaris.pdf,37
+TOYOTA,YARIS,Confort interior,Computadora de abordo,XS CVT,si,0,local:Yaris.pdf,38
+TOYOTA,YARIS,Confort interior,Computadora de abordo,XLS+ CVT,si,1,local:Yaris.pdf,38
+TOYOTA,YARIS,Confort interior,Computadora de abordo,S CVT,si,2,local:Yaris.pdf,38
+TOYOTA,YARIS,Confort interior,"Display de información múltiple de 4,2""",XS CVT,no,0,local:Yaris.pdf,39
+TOYOTA,YARIS,Confort interior,"Display de información múltiple de 4,2""",XLS+ CVT,no,1,local:Yaris.pdf,39
+TOYOTA,YARIS,Confort interior,"Display de información múltiple de 4,2""",S CVT,si,2,local:Yaris.pdf,39
+TOYOTA,YARIS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,XS CVT,no,0,local:Yaris.pdf,40
+TOYOTA,YARIS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,XLS+ CVT,si,1,local:Yaris.pdf,40
+TOYOTA,YARIS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,S CVT,si,2,local:Yaris.pdf,40
+TOYOTA,YARIS,Confort interior,Levanta cristales eléctricos con función “One Touch”,XS CVT,o (Conductor),0,local:Yaris.pdf,41
+TOYOTA,YARIS,Confort interior,Levanta cristales eléctricos con función “One Touch”,XLS+ CVT,o (4 puertas),1,local:Yaris.pdf,41
+TOYOTA,YARIS,Confort interior,Levanta cristales eléctricos con función “One Touch”,S CVT,o (4 puertas),2,local:Yaris.pdf,41
+TOYOTA,YARIS,Confort interior,Sensores de estacionamiento delanteros y traseros,XS CVT,no,0,local:Yaris.pdf,42
+TOYOTA,YARIS,Confort interior,Sensores de estacionamiento delanteros y traseros,XLS+ CVT,si,1,local:Yaris.pdf,42
+TOYOTA,YARIS,Confort interior,Sensores de estacionamiento delanteros y traseros,S CVT,si,2,local:Yaris.pdf,42
+TOYOTA,YARIS,Confort interior,Techo solar eléctrico,XS CVT,no,0,local:Yaris.pdf,43
+TOYOTA,YARIS,Confort interior,Techo solar eléctrico,XLS+ CVT,no,1,local:Yaris.pdf,43
+TOYOTA,YARIS,Confort interior,Techo solar eléctrico,S CVT,si,2,local:Yaris.pdf,43
+TOYOTA,YARIS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",XS CVT,si,0,local:Yaris.pdf,44
+TOYOTA,YARIS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",XLS+ CVT,si,1,local:Yaris.pdf,44
+TOYOTA,YARIS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",S CVT,si,2,local:Yaris.pdf,44
+TOYOTA,YARIS,Tecnología y conectividad,"Audio con MP3, Bluetooth® y 6 parlantes",XS CVT,si,0,local:Yaris.pdf,45
+TOYOTA,YARIS,Tecnología y conectividad,"Audio con MP3, Bluetooth® y 6 parlantes",XLS+ CVT,si,1,local:Yaris.pdf,45
+TOYOTA,YARIS,Tecnología y conectividad,"Audio con MP3, Bluetooth® y 6 parlantes",S CVT,si,2,local:Yaris.pdf,45
+TOYOTA,YARIS,Tecnología y conectividad,"Audio con pantalla táctil LCD 6.8"", USB (en consola central)",XS CVT,si,0,local:Yaris.pdf,46
+TOYOTA,YARIS,Tecnología y conectividad,"Audio con pantalla táctil LCD 6.8"", USB (en consola central)",XLS+ CVT,si,1,local:Yaris.pdf,46
+TOYOTA,YARIS,Tecnología y conectividad,"Audio con pantalla táctil LCD 6.8"", USB (en consola central)",S CVT,si,2,local:Yaris.pdf,46
+TOYOTA,YARIS,Tecnología y conectividad,Conectividad*: Apple CarPlay® & Android Auto®,XS CVT,si,0,local:Yaris.pdf,47
+TOYOTA,YARIS,Tecnología y conectividad,Conectividad*: Apple CarPlay® & Android Auto®,XLS+ CVT,si,1,local:Yaris.pdf,47
+TOYOTA,YARIS,Tecnología y conectividad,Conectividad*: Apple CarPlay® & Android Auto®,S CVT,si,2,local:Yaris.pdf,47
+TOYOTA,YARIS,Tecnología y conectividad,Control de velocidad crucero,XS CVT,no,0,local:Yaris.pdf,48
+TOYOTA,YARIS,Tecnología y conectividad,Control de velocidad crucero,XLS+ CVT,si,1,local:Yaris.pdf,48
+TOYOTA,YARIS,Tecnología y conectividad,Control de velocidad crucero,S CVT,si,2,local:Yaris.pdf,48
+TOYOTA,YARIS,Tecnología y conectividad,Monitor con cámara de estacionamiento,XS CVT,no,0,local:Yaris.pdf,49
+TOYOTA,YARIS,Tecnología y conectividad,Monitor con cámara de estacionamiento,XLS+ CVT,si,1,local:Yaris.pdf,49
+TOYOTA,YARIS,Tecnología y conectividad,Monitor con cámara de estacionamiento,S CVT,si,2,local:Yaris.pdf,49
+TOYOTA,YARIS,Tecnología y conectividad,Paddle Shifts (levas al volante),XS CVT,no,0,local:Yaris.pdf,50
+TOYOTA,YARIS,Tecnología y conectividad,Paddle Shifts (levas al volante),XLS+ CVT,no,1,local:Yaris.pdf,50
+TOYOTA,YARIS,Tecnología y conectividad,Paddle Shifts (levas al volante),S CVT,si,2,local:Yaris.pdf,50
+TOYOTA,YARIS,Tecnología y conectividad,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),XS CVT,no,0,local:Yaris.pdf,51
+TOYOTA,YARIS,Tecnología y conectividad,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),XLS+ CVT,no,1,local:Yaris.pdf,51
+TOYOTA,YARIS,Tecnología y conectividad,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),S CVT,si,2,local:Yaris.pdf,51
+TOYOTA,YARIS,Toyota Safety Sense**,Sistema de pre-colisión frontal (PCS)**,XS CVT,no,0,local:Yaris.pdf,52
+TOYOTA,YARIS,Toyota Safety Sense**,Sistema de pre-colisión frontal (PCS)**,XLS+ CVT,no,1,local:Yaris.pdf,52
+TOYOTA,YARIS,Toyota Safety Sense**,Sistema de pre-colisión frontal (PCS)**,S CVT,si,2,local:Yaris.pdf,52
+TOYOTA,YARIS,Toyota Safety Sense**,Sistema de alerta de cambio de carril (LDA)**,XS CVT,no,0,local:Yaris.pdf,53
+TOYOTA,YARIS,Toyota Safety Sense**,Sistema de alerta de cambio de carril (LDA)**,XLS+ CVT,no,1,local:Yaris.pdf,53
+TOYOTA,YARIS,Toyota Safety Sense**,Sistema de alerta de cambio de carril (LDA)**,S CVT,si,2,local:Yaris.pdf,53
+TOYOTA,YARIS,Toyota Safety Sense**,ABS con distribución electrónica de frenado (EBD) y asistente de frenado de emergencia (BA),XS CVT,si,0,local:Yaris.pdf,54
+TOYOTA,YARIS,Toyota Safety Sense**,ABS con distribución electrónica de frenado (EBD) y asistente de frenado de emergencia (BA),XLS+ CVT,si,1,local:Yaris.pdf,54
+TOYOTA,YARIS,Toyota Safety Sense**,ABS con distribución electrónica de frenado (EBD) y asistente de frenado de emergencia (BA),S CVT,si,2,local:Yaris.pdf,54
+TOYOTA,YARIS,Toyota Safety Sense**,Airbags frontales (conductor y pasajero),XS CVT,si,0,local:Yaris.pdf,55
+TOYOTA,YARIS,Toyota Safety Sense**,Airbags frontales (conductor y pasajero),XLS+ CVT,si,1,local:Yaris.pdf,55
+TOYOTA,YARIS,Toyota Safety Sense**,Airbags frontales (conductor y pasajero),S CVT,si,2,local:Yaris.pdf,55
+TOYOTA,YARIS,Toyota Safety Sense**,"Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)",XS CVT,si,0,local:Yaris.pdf,56
+TOYOTA,YARIS,Toyota Safety Sense**,"Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)",XLS+ CVT,si,1,local:Yaris.pdf,56
+TOYOTA,YARIS,Toyota Safety Sense**,"Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)",S CVT,si,2,local:Yaris.pdf,56
+TOYOTA,YARIS,Toyota Safety Sense**,Alarma e inmovilizador de motor,XS CVT,si,0,local:Yaris.pdf,57
+TOYOTA,YARIS,Toyota Safety Sense**,Alarma e inmovilizador de motor,XLS+ CVT,si,1,local:Yaris.pdf,57
+TOYOTA,YARIS,Toyota Safety Sense**,Alarma e inmovilizador de motor,S CVT,si,2,local:Yaris.pdf,57
+TOYOTA,YARIS,Toyota Safety Sense**,Alerta de luces encendidas y puertas abiertas,XS CVT,si,0,local:Yaris.pdf,58
+TOYOTA,YARIS,Toyota Safety Sense**,Alerta de luces encendidas y puertas abiertas,XLS+ CVT,si,1,local:Yaris.pdf,58
+TOYOTA,YARIS,Toyota Safety Sense**,Alerta de luces encendidas y puertas abiertas,S CVT,si,2,local:Yaris.pdf,58
+TOYOTA,YARIS,Toyota Safety Sense**,Anclaje ISOFIX (x2) y anclaje para correa superior,XS CVT,si,0,local:Yaris.pdf,59
+TOYOTA,YARIS,Toyota Safety Sense**,Anclaje ISOFIX (x2) y anclaje para correa superior,XLS+ CVT,si,1,local:Yaris.pdf,59
+TOYOTA,YARIS,Toyota Safety Sense**,Anclaje ISOFIX (x2) y anclaje para correa superior,S CVT,si,2,local:Yaris.pdf,59
+TOYOTA,YARIS,Toyota Safety Sense**,Asistente de arranque en pendientes (HAC),XS CVT,si,0,local:Yaris.pdf,60
+TOYOTA,YARIS,Toyota Safety Sense**,Asistente de arranque en pendientes (HAC),XLS+ CVT,si,1,local:Yaris.pdf,60
+TOYOTA,YARIS,Toyota Safety Sense**,Asistente de arranque en pendientes (HAC),S CVT,si,2,local:Yaris.pdf,60
+TOYOTA,YARIS,Toyota Safety Sense**,Barras de protección contra impactos laterales,XS CVT,si,0,local:Yaris.pdf,61
+TOYOTA,YARIS,Toyota Safety Sense**,Barras de protección contra impactos laterales,XLS+ CVT,si,1,local:Yaris.pdf,61
+TOYOTA,YARIS,Toyota Safety Sense**,Barras de protección contra impactos laterales,S CVT,si,2,local:Yaris.pdf,61
+TOYOTA,YARIS,Toyota Safety Sense**,Cierre automático de puertas en velocidad,XS CVT,si,0,local:Yaris.pdf,62
+TOYOTA,YARIS,Toyota Safety Sense**,Cierre automático de puertas en velocidad,XLS+ CVT,si,1,local:Yaris.pdf,62
+TOYOTA,YARIS,Toyota Safety Sense**,Cierre automático de puertas en velocidad,S CVT,si,2,local:Yaris.pdf,62
+TOYOTA,YARIS,Toyota Safety Sense**,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,XS CVT,si,0,local:Yaris.pdf,63
+TOYOTA,YARIS,Toyota Safety Sense**,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,XLS+ CVT,si,1,local:Yaris.pdf,63
+TOYOTA,YARIS,Toyota Safety Sense**,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,S CVT,si,2,local:Yaris.pdf,63
+TOYOTA,YARIS,Toyota Safety Sense**,Cinturones de seguridad traseros (x3) inerciales de 3 puntos,XS CVT,si,0,local:Yaris.pdf,64
+TOYOTA,YARIS,Toyota Safety Sense**,Cinturones de seguridad traseros (x3) inerciales de 3 puntos,XLS+ CVT,si,1,local:Yaris.pdf,64
+TOYOTA,YARIS,Toyota Safety Sense**,Cinturones de seguridad traseros (x3) inerciales de 3 puntos,S CVT,si,2,local:Yaris.pdf,64
+TOYOTA,YARIS,Toyota Safety Sense**,Control de estabilidad (VSC) y control de tracción (TRC),XS CVT,si,0,local:Yaris.pdf,65
+TOYOTA,YARIS,Toyota Safety Sense**,Control de estabilidad (VSC) y control de tracción (TRC),XLS+ CVT,si,1,local:Yaris.pdf,65
+TOYOTA,YARIS,Toyota Safety Sense**,Control de estabilidad (VSC) y control de tracción (TRC),S CVT,si,2,local:Yaris.pdf,65
+TOYOTA,YARIS,Toyota Safety Sense**,Faros antiniebla delanteros,XS CVT,no,0,local:Yaris.pdf,66
+TOYOTA,YARIS,Toyota Safety Sense**,Faros antiniebla delanteros,XLS+ CVT,si,1,local:Yaris.pdf,66
+TOYOTA,YARIS,Toyota Safety Sense**,Faros antiniebla delanteros,S CVT,si,2,local:Yaris.pdf,66
+TOYOTA,YARIS,Toyota Safety Sense**,Faros antiniebla traseros,XS CVT,si,0,local:Yaris.pdf,67
+TOYOTA,YARIS,Toyota Safety Sense**,Faros antiniebla traseros,XLS+ CVT,si,1,local:Yaris.pdf,67
+TOYOTA,YARIS,Toyota Safety Sense**,Faros antiniebla traseros,S CVT,si,2,local:Yaris.pdf,67
+TOYOTA,YARIS,Toyota Safety Sense**,Tercera luz de stop tipo LED,XS CVT,si,0,local:Yaris.pdf,68
+TOYOTA,YARIS,Toyota Safety Sense**,Tercera luz de stop tipo LED,XLS+ CVT,si,1,local:Yaris.pdf,68
+TOYOTA,YARIS,Toyota Safety Sense**,Tercera luz de stop tipo LED,S CVT,si,2,local:Yaris.pdf,68
+TOYOTA,YARIS,Toyota Safety Sense**,Tuerca de seguridad para llantas,XS CVT,no,0,local:Yaris.pdf,69
+TOYOTA,YARIS,Toyota Safety Sense**,Tuerca de seguridad para llantas,XLS+ CVT,si,1,local:Yaris.pdf,69
+TOYOTA,YARIS,Toyota Safety Sense**,Tuerca de seguridad para llantas,S CVT,si,2,local:Yaris.pdf,69

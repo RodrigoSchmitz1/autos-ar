@@ -1,0 +1,65 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,RAV - 4,Sistema Híbrido auto-recargable,Potencia máxima (CV (kW)),RAV4 HEV AWD Limited,239 (176),0,local:RAV4.pdf,0
+TOYOTA,RAV - 4,Motor naftero,Modelo,RAV4 HEV AWD Limited,Toyota A25A-FXS,0,local:RAV4.pdf,1
+TOYOTA,RAV - 4,Motor naftero,Cilindrada (cm³),RAV4 HEV AWD Limited,2.487,0,local:RAV4.pdf,2
+TOYOTA,RAV - 4,Motor naftero,Potencia máxima (CV(kW) / rpm),RAV4 HEV AWD Limited,186 (137) / 6.000,0,local:RAV4.pdf,3
+TOYOTA,RAV - 4,Motor naftero,Torque máximo (Nm/ rpm),RAV4 HEV AWD Limited,221 / 3.600 - 5.200,0,local:RAV4.pdf,4
+TOYOTA,RAV - 4,Motor naftero,Diámetro y carrera de pistón (mm),RAV4 HEV AWD Limited,"87,5 x 103,4",0,local:RAV4.pdf,5
+TOYOTA,RAV - 4,Motor naftero,Tipo,RAV4 HEV AWD Limited,4 cilindros en línea,0,local:RAV4.pdf,6
+TOYOTA,RAV - 4,Motor naftero,Alimentación,RAV4 HEV AWD Limited,Inyección D4-S mixta (directa e indirecta),0,local:RAV4.pdf,7
+TOYOTA,RAV - 4,Motor naftero,Distribución,RAV4 HEV AWD Limited,16 válvulas DOHC con cadena de distribución y sistema VVT-iE (admisión) y VVT-i (escape),0,local:RAV4.pdf,8
+TOYOTA,RAV - 4,Motor naftero,Relación de compresión,RAV4 HEV AWD Limited,14:1,0,local:RAV4.pdf,9
+TOYOTA,RAV - 4,Motor eléctrico,Potencia máxima delantera (CV (kW)),RAV4 HEV AWD Limited,136 (100),0,local:RAV4.pdf,10
+TOYOTA,RAV - 4,Motor eléctrico,Potencia máxima trasera (CV (kW)),RAV4 HEV AWD Limited,54 (40),0,local:RAV4.pdf,11
+TOYOTA,RAV - 4,Motor eléctrico,Voltaje (V),RAV4 HEV AWD Limited,600,0,local:RAV4.pdf,12
+TOYOTA,RAV - 4,Motor eléctrico,Torque máximo (Nm (Kgm)),RAV4 HEV AWD Limited,208 (delantero) / 121 (trasero),0,local:RAV4.pdf,13
+TOYOTA,RAV - 4,Batería del motor eléctrico auto-recargable,Voltaje (pack batería) (V),RAV4 HEV AWD Limited,"248,2",0,local:RAV4.pdf,14
+TOYOTA,RAV - 4,Batería del motor eléctrico auto-recargable,Capacidad (Ah/kWh),RAV4 HEV AWD Limited,"4,4 / 1,09",0,local:RAV4.pdf,15
+TOYOTA,RAV - 4,Performance,Aceleración 0-100km (seg.),RAV4 HEV AWD Limited,"7,3",0,local:RAV4.pdf,16
+TOYOTA,RAV - 4,Performance,Velocidad máxima (km/h),RAV4 HEV AWD Limited,180,0,local:RAV4.pdf,17
+TOYOTA,RAV - 4,Transmisión,Tracción,RAV4 HEV AWD Limited,Sistema eléctrico de tracción integral adaptativo AWD (All Wheel Drive) con selector de modos de conducción,0,local:RAV4.pdf,18
+TOYOTA,RAV - 4,Confort interior,Aire acondicionado con climatizador automático digital Bi-zona,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,19
+TOYOTA,RAV - 4,Confort interior,"Asientos con tapizado de cuero natural y ecológico, con detalle en gamuza",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,20
+TOYOTA,RAV - 4,Confort interior,"Asientos delanteros ventilados, con regulación eléctrica en altura, longitudinal y lumbar (8 posiciones)",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,21
+TOYOTA,RAV - 4,Confort interior,Asientos delanteros y traseros calefaccionados,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,22
+TOYOTA,RAV - 4,Confort interior,"Asiento del conductor con memorias de posición (x2) y sistema ""Easy Access""",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,23
+TOYOTA,RAV - 4,Confort interior,Display de informacion multiple con pantalla Full Digital,RAV4 HEV AWD Limited,"12.3""",0,local:RAV4.pdf,24
+TOYOTA,RAV - 4,Confort interior,Espejo retrovisor interno anti encandilamiento automático,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,25
+TOYOTA,RAV - 4,Confort interior,"Levanta cristales eléctricos con ""Auto up & Down"" (x4) y sensor de presión",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,26
+TOYOTA,RAV - 4,Confort interior,Lona retráctil cubre baúl,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,27
+TOYOTA,RAV - 4,Confort interior,Sistema de iluminación de ambiente automática en cabina y compartimentos,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,28
+TOYOTA,RAV - 4,Confort interior,Techo solar con apertura eléctrica,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,29
+TOYOTA,RAV - 4,Confort interior,"Volante forrado en cuero natural con regulación en altura y profundidad, control de audio, de teléfono y de display de información múltiple",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,30
+TOYOTA,RAV - 4,Seguridad,"Airbags frontales (x2), laterales delanteros (x2), de cortina (x2), y de rodilla (x1) para el conductor",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,31
+TOYOTA,RAV - 4,Seguridad,ABS con distribución electrónica de la fuerza de frenado (EBD) y asistente de frenado de emergencia (BA),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,32
+TOYOTA,RAV - 4,Seguridad,Alerta de tráfico trasero (RCTA),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,33
+TOYOTA,RAV - 4,Seguridad,Alerta de punto ciego (BSM) con Asistencia de Salida Segura (SEA),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,34
+TOYOTA,RAV - 4,Seguridad,Asistente de arranque en pendientes (HAC),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,35
+TOYOTA,RAV - 4,Seguridad,Asistente de descenso en pendientes (DAC),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,36
+TOYOTA,RAV - 4,Seguridad,Anclajes ISOFIX (x2) y anclaje para correa superior (x2),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,37
+TOYOTA,RAV - 4,Seguridad,Inmovilizador de motor,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,38
+TOYOTA,RAV - 4,Seguridad,Control de estabilidad (VSC),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,39
+TOYOTA,RAV - 4,Seguridad,Control de tracción (TRC),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,40
+TOYOTA,RAV - 4,Seguridad,"Cinturones de seguridad inerciales delanteros de 3 puntos, con pretensionador y limitador de fuerza (x2)",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,41
+TOYOTA,RAV - 4,Seguridad,Cinturones de seguridad traseros de 3 puntos (x3),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,42
+TOYOTA,RAV - 4,Seguridad,Faros antiniebla traseros y delanteros LED,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,43
+TOYOTA,RAV - 4,Seguridad,Sistema de monitoreo de presión de neumáticos (TPMS) con lectura individual,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,44
+TOYOTA,RAV - 4,Seguridad,Tercera luz de stop LED,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,45
+TOYOTA,RAV - 4,Tecnología,Cámara de estacionamiento con sistema de visión 360°,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,46
+TOYOTA,RAV - 4,Tecnología,"Freno de estacionamiento eléctrico (EPB) con función ""Auto-hold""",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,47
+TOYOTA,RAV - 4,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres"" y función ""Walk-Away""",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,48
+TOYOTA,RAV - 4,Tecnología,Selector de modo de conducción (NORMAL - ECO - SPORT ) y modo EV,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,49
+TOYOTA,RAV - 4,Tecnología,Selector Multi-Terreno (TRAIL / SNOW / NORMAL),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,50
+TOYOTA,RAV - 4,Tecnología,Sensores de estacionamiento delanteros y traseros con asistente de frenado (PKSB),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,51
+TOYOTA,RAV - 4,Tecnología,Sistema de encendido por botón (Push Start Button),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,52
+TOYOTA,RAV - 4,Tecnología,Sistema de ingreso inteligente (Smart Entry System),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,53
+TOYOTA,RAV - 4,Tecnología,Sistema de Estacionamiento Automático (Park Assist),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,54
+TOYOTA,RAV - 4,Toyota Safety Sense(1),Sistema pre-colisión frontal (PCS)(1),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,55
+TOYOTA,RAV - 4,Toyota Safety Sense(1),Control de velocidad crucero adaptativo (ACC)(1) con rango completo,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,56
+TOYOTA,RAV - 4,Toyota Safety Sense(1),Sistema de alerta de cambio de carril (LDA)(1) con asistencia para mantenimiento de carril(1),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,57
+TOYOTA,RAV - 4,Toyota Safety Sense(1),Sistema de luces automáticas (AHB)(1),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,58
+TOYOTA,RAV - 4,Toyota Safety Sense(1),Sistema de lectura de señales de tránsito (RSA)(1),RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,59
+TOYOTA,RAV - 4,Equipo de audio y conectividad,"Audio con pantalla táctil de 12.9”, GPS, MP3 y Bluetooth®",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,60
+TOYOTA,RAV - 4,Equipo de audio y conectividad,Conectividad**: Apple CarPlay® y Android Auto®,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,61
+TOYOTA,RAV - 4,Equipo de audio y conectividad,"Cargador inalámbrico para Smartphones que soportan carga inalámbrica** (x2), conector USB tipo ""C"" (x4), conector de 12V (x 2)en consola central y parte trasera",RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,62
+TOYOTA,RAV - 4,Equipo de audio y conectividad,Sistema de audio premium 11 parlantes JBL®,RAV4 HEV AWD Limited,si,0,local:RAV4.pdf,63

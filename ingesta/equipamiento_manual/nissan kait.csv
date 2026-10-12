@@ -1,0 +1,151 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+NISSAN,KAIT,,Rieles en techo porta equipajes,SENSE,no,0,local:nissan kait.pdf,0
+NISSAN,KAIT,,Rieles en techo porta equipajes,ADVANCE,si,1,local:nissan kait.pdf,0
+NISSAN,KAIT,,Rieles en techo porta equipajes,EXCLUSIVE,si,2,local:nissan kait.pdf,0
+NISSAN,KAIT,,"Antena estilo ""shark""",SENSE,si,0,local:nissan kait.pdf,1
+NISSAN,KAIT,,"Antena estilo ""shark""",ADVANCE,si,1,local:nissan kait.pdf,1
+NISSAN,KAIT,,"Antena estilo ""shark""",EXCLUSIVE,si,2,local:nissan kait.pdf,1
+NISSAN,KAIT,,Faros full LED,SENSE,si,0,local:nissan kait.pdf,2
+NISSAN,KAIT,,Faros full LED,ADVANCE,si,1,local:nissan kait.pdf,2
+NISSAN,KAIT,,Faros full LED,EXCLUSIVE,si,2,local:nissan kait.pdf,2
+NISSAN,KAIT,,Luces traseras LED,SENSE,si,0,local:nissan kait.pdf,3
+NISSAN,KAIT,,Luces traseras LED,ADVANCE,si,1,local:nissan kait.pdf,3
+NISSAN,KAIT,,Luces traseras LED,EXCLUSIVE,si,2,local:nissan kait.pdf,3
+NISSAN,KAIT,,Retrovisores externos eléctricos con indicador de dirección LED,SENSE,si,0,local:nissan kait.pdf,4
+NISSAN,KAIT,,Retrovisores externos eléctricos con indicador de dirección LED,ADVANCE,si,1,local:nissan kait.pdf,4
+NISSAN,KAIT,,Retrovisores externos eléctricos con indicador de dirección LED,EXCLUSIVE,si,2,local:nissan kait.pdf,4
+NISSAN,KAIT,,Retrovisores externos color negro premium,SENSE,si,0,local:nissan kait.pdf,5
+NISSAN,KAIT,,Retrovisores externos color negro premium,ADVANCE,si,1,local:nissan kait.pdf,5
+NISSAN,KAIT,,Retrovisores externos color negro premium,EXCLUSIVE,si,2,local:nissan kait.pdf,5
+NISSAN,KAIT,,"Llantas de aleación ""blade"" de 17"" y neumáticos 205/55 R17",SENSE,no,0,local:nissan kait.pdf,6
+NISSAN,KAIT,,"Llantas de aleación ""blade"" de 17"" y neumáticos 205/55 R17",ADVANCE,si,1,local:nissan kait.pdf,6
+NISSAN,KAIT,,"Llantas de aleación ""blade"" de 17"" y neumáticos 205/55 R17",EXCLUSIVE,si,2,local:nissan kait.pdf,6
+NISSAN,KAIT,,"Llantas de aleación de 16"" y neumáticos 205/60 R16",SENSE,si,0,local:nissan kait.pdf,7
+NISSAN,KAIT,,"Llantas de aleación de 16"" y neumáticos 205/60 R16",ADVANCE,no,1,local:nissan kait.pdf,7
+NISSAN,KAIT,,"Llantas de aleación de 16"" y neumáticos 205/60 R16",EXCLUSIVE,no,2,local:nissan kait.pdf,7
+NISSAN,KAIT,,Volante revestido en cuero,SENSE,no,0,local:nissan kait.pdf,8
+NISSAN,KAIT,,Volante revestido en cuero,ADVANCE,no,1,local:nissan kait.pdf,8
+NISSAN,KAIT,,Volante revestido en cuero,EXCLUSIVE,si,2,local:nissan kait.pdf,8
+NISSAN,KAIT,,Modo Sport,SENSE,si,0,local:nissan kait.pdf,9
+NISSAN,KAIT,,Modo Sport,ADVANCE,si,1,local:nissan kait.pdf,9
+NISSAN,KAIT,,Modo Sport,EXCLUSIVE,si,2,local:nissan kait.pdf,9
+NISSAN,KAIT,,Asientos revestidos en cuero sintético,SENSE,no,0,local:nissan kait.pdf,10
+NISSAN,KAIT,,Asientos revestidos en cuero sintético,ADVANCE,no,1,local:nissan kait.pdf,10
+NISSAN,KAIT,,Asientos revestidos en cuero sintético,EXCLUSIVE,si,2,local:nissan kait.pdf,10
+NISSAN,KAIT,,Asientos revestidos en tela premium,SENSE,no,0,local:nissan kait.pdf,11
+NISSAN,KAIT,,Asientos revestidos en tela premium,ADVANCE,si,1,local:nissan kait.pdf,11
+NISSAN,KAIT,,Asientos revestidos en tela premium,EXCLUSIVE,no,2,local:nissan kait.pdf,11
+NISSAN,KAIT,,Asientos revestidos en tela,SENSE,si,0,local:nissan kait.pdf,12
+NISSAN,KAIT,,Asientos revestidos en tela,ADVANCE,no,1,local:nissan kait.pdf,12
+NISSAN,KAIT,,Asientos revestidos en tela,EXCLUSIVE,no,2,local:nissan kait.pdf,12
+NISSAN,KAIT,,Cargador de celular inalámbrico,SENSE,no,0,local:nissan kait.pdf,13
+NISSAN,KAIT,,Cargador de celular inalámbrico,ADVANCE,si,1,local:nissan kait.pdf,13
+NISSAN,KAIT,,Cargador de celular inalámbrico,EXCLUSIVE,si,2,local:nissan kait.pdf,13
+NISSAN,KAIT,,Consola central con apoyabrazos y portavasos,SENSE,no,0,local:nissan kait.pdf,14
+NISSAN,KAIT,,Consola central con apoyabrazos y portavasos,ADVANCE,si,1,local:nissan kait.pdf,14
+NISSAN,KAIT,,Consola central con apoyabrazos y portavasos,EXCLUSIVE,si,2,local:nissan kait.pdf,14
+NISSAN,KAIT,,Consola central con portavasos,SENSE,si,0,local:nissan kait.pdf,15
+NISSAN,KAIT,,Consola central con portavasos,ADVANCE,no,1,local:nissan kait.pdf,15
+NISSAN,KAIT,,Consola central con portavasos,EXCLUSIVE,no,2,local:nissan kait.pdf,15
+NISSAN,KAIT,,Espejo retrovisor interno eléctrico,SENSE,no,0,local:nissan kait.pdf,16
+NISSAN,KAIT,,Espejo retrovisor interno eléctrico,ADVANCE,si,1,local:nissan kait.pdf,16
+NISSAN,KAIT,,Espejo retrovisor interno eléctrico,EXCLUSIVE,si,2,local:nissan kait.pdf,16
+NISSAN,KAIT,,Puertos USB C trasero (2),SENSE,no,0,local:nissan kait.pdf,17
+NISSAN,KAIT,,Puertos USB C trasero (2),ADVANCE,si,1,local:nissan kait.pdf,17
+NISSAN,KAIT,,Puertos USB C trasero (2),EXCLUSIVE,si,2,local:nissan kait.pdf,17
+NISSAN,KAIT,,Puertos USB C trasero (1),SENSE,si,0,local:nissan kait.pdf,18
+NISSAN,KAIT,,Puertos USB C trasero (1),ADVANCE,no,1,local:nissan kait.pdf,18
+NISSAN,KAIT,,Puertos USB C trasero (1),EXCLUSIVE,no,2,local:nissan kait.pdf,18
+NISSAN,KAIT,,"Tacómetro y velocímetro digital de 7""",SENSE,no,0,local:nissan kait.pdf,19
+NISSAN,KAIT,,"Tacómetro y velocímetro digital de 7""",ADVANCE,si,1,local:nissan kait.pdf,19
+NISSAN,KAIT,,"Tacómetro y velocímetro digital de 7""",EXCLUSIVE,si,2,local:nissan kait.pdf,19
+NISSAN,KAIT,,Tacómetro y velocímetro analógico,SENSE,si,0,local:nissan kait.pdf,20
+NISSAN,KAIT,,Tacómetro y velocímetro analógico,ADVANCE,no,1,local:nissan kait.pdf,20
+NISSAN,KAIT,,Tacómetro y velocímetro analógico,EXCLUSIVE,no,2,local:nissan kait.pdf,20
+NISSAN,KAIT,,Climatizador automático digital,SENSE,no,0,local:nissan kait.pdf,21
+NISSAN,KAIT,,Climatizador automático digital,ADVANCE,no,1,local:nissan kait.pdf,21
+NISSAN,KAIT,,Climatizador automático digital,EXCLUSIVE,si,2,local:nissan kait.pdf,21
+NISSAN,KAIT,,Aire acondicionado manual,SENSE,si,0,local:nissan kait.pdf,22
+NISSAN,KAIT,,Aire acondicionado manual,ADVANCE,si,1,local:nissan kait.pdf,22
+NISSAN,KAIT,,Aire acondicionado manual,EXCLUSIVE,no,2,local:nissan kait.pdf,22
+NISSAN,KAIT,,Asiento del conductor regulable en altura,SENSE,si,0,local:nissan kait.pdf,23
+NISSAN,KAIT,,Asiento del conductor regulable en altura,ADVANCE,si,1,local:nissan kait.pdf,23
+NISSAN,KAIT,,Asiento del conductor regulable en altura,EXCLUSIVE,si,2,local:nissan kait.pdf,23
+NISSAN,KAIT,,Volante con regulación en altura y profundidad,SENSE,si,0,local:nissan kait.pdf,24
+NISSAN,KAIT,,Volante con regulación en altura y profundidad,ADVANCE,si,1,local:nissan kait.pdf,24
+NISSAN,KAIT,,Volante con regulación en altura y profundidad,EXCLUSIVE,si,2,local:nissan kait.pdf,24
+NISSAN,KAIT,,Volante multifuncional,SENSE,si,0,local:nissan kait.pdf,25
+NISSAN,KAIT,,Volante multifuncional,ADVANCE,si,1,local:nissan kait.pdf,25
+NISSAN,KAIT,,Volante multifuncional,EXCLUSIVE,si,2,local:nissan kait.pdf,25
+NISSAN,KAIT,,Asientos delanteros y traseros con tecnología Zero Gravity®,SENSE,si,0,local:nissan kait.pdf,26
+NISSAN,KAIT,,Asientos delanteros y traseros con tecnología Zero Gravity®,ADVANCE,si,1,local:nissan kait.pdf,26
+NISSAN,KAIT,,Asientos delanteros y traseros con tecnología Zero Gravity®,EXCLUSIVE,si,2,local:nissan kait.pdf,26
+NISSAN,KAIT,,Llave inteligente presencial (I-Key),SENSE,si,0,local:nissan kait.pdf,27
+NISSAN,KAIT,,Llave inteligente presencial (I-Key),ADVANCE,si,1,local:nissan kait.pdf,27
+NISSAN,KAIT,,Llave inteligente presencial (I-Key),EXCLUSIVE,si,2,local:nissan kait.pdf,27
+NISSAN,KAIT,,Luces de conducción diurna en LED (DTRL),SENSE,si,0,local:nissan kait.pdf,28
+NISSAN,KAIT,,Luces de conducción diurna en LED (DTRL),ADVANCE,si,1,local:nissan kait.pdf,28
+NISSAN,KAIT,,Luces de conducción diurna en LED (DTRL),EXCLUSIVE,si,2,local:nissan kait.pdf,28
+NISSAN,KAIT,,Faros con regulación eléctrica en altura,SENSE,si,0,local:nissan kait.pdf,29
+NISSAN,KAIT,,Faros con regulación eléctrica en altura,ADVANCE,si,1,local:nissan kait.pdf,29
+NISSAN,KAIT,,Faros con regulación eléctrica en altura,EXCLUSIVE,si,2,local:nissan kait.pdf,29
+NISSAN,KAIT,,Para sol con espejos,SENSE,si,0,local:nissan kait.pdf,30
+NISSAN,KAIT,,Para sol con espejos,ADVANCE,si,1,local:nissan kait.pdf,30
+NISSAN,KAIT,,Para sol con espejos,EXCLUSIVE,si,2,local:nissan kait.pdf,30
+NISSAN,KAIT,,Encendido por botón Push Start,SENSE,si,0,local:nissan kait.pdf,31
+NISSAN,KAIT,,Encendido por botón Push Start,ADVANCE,si,1,local:nissan kait.pdf,31
+NISSAN,KAIT,,Encendido por botón Push Start,EXCLUSIVE,si,2,local:nissan kait.pdf,31
+NISSAN,KAIT,,Toma de 12V en consola central,SENSE,si,0,local:nissan kait.pdf,32
+NISSAN,KAIT,,Toma de 12V en consola central,ADVANCE,si,1,local:nissan kait.pdf,32
+NISSAN,KAIT,,Toma de 12V en consola central,EXCLUSIVE,si,2,local:nissan kait.pdf,32
+NISSAN,KAIT,,Alerta de punto ciego,SENSE,no,0,local:nissan kait.pdf,33
+NISSAN,KAIT,,Alerta de punto ciego,ADVANCE,no,1,local:nissan kait.pdf,33
+NISSAN,KAIT,,Alerta de punto ciego,EXCLUSIVE,si,2,local:nissan kait.pdf,33
+NISSAN,KAIT,,Alerta de tráfico cruzado trasero,SENSE,no,0,local:nissan kait.pdf,34
+NISSAN,KAIT,,Alerta de tráfico cruzado trasero,ADVANCE,no,1,local:nissan kait.pdf,34
+NISSAN,KAIT,,Alerta de tráfico cruzado trasero,EXCLUSIVE,si,2,local:nissan kait.pdf,34
+NISSAN,KAIT,,Alerta inteligente de atención al conductor (DAA),SENSE,no,0,local:nissan kait.pdf,35
+NISSAN,KAIT,,Alerta inteligente de atención al conductor (DAA),ADVANCE,no,1,local:nissan kait.pdf,35
+NISSAN,KAIT,,Alerta inteligente de atención al conductor (DAA),EXCLUSIVE,si,2,local:nissan kait.pdf,35
+NISSAN,KAIT,,Asistente inteligente de prevención de salida de carril (LDW+LDP),SENSE,si,0,local:nissan kait.pdf,36
+NISSAN,KAIT,,Asistente inteligente de prevención de salida de carril (LDW+LDP),ADVANCE,si,1,local:nissan kait.pdf,36
+NISSAN,KAIT,,Asistente inteligente de prevención de salida de carril (LDW+LDP),EXCLUSIVE,si,2,local:nissan kait.pdf,36
+NISSAN,KAIT,,Control crucero adaptativo de velocidad y distancia (ICC),SENSE,no,0,local:nissan kait.pdf,37
+NISSAN,KAIT,,Control crucero adaptativo de velocidad y distancia (ICC),ADVANCE,no,1,local:nissan kait.pdf,37
+NISSAN,KAIT,,Control crucero adaptativo de velocidad y distancia (ICC),EXCLUSIVE,si,2,local:nissan kait.pdf,37
+NISSAN,KAIT,,Control crucero (CC),SENSE,si,0,local:nissan kait.pdf,38
+NISSAN,KAIT,,Control crucero (CC),ADVANCE,si,1,local:nissan kait.pdf,38
+NISSAN,KAIT,,Control crucero (CC),EXCLUSIVE,no,2,local:nissan kait.pdf,38
+NISSAN,KAIT,,Sensor de estacionamiento trasero,SENSE,si,0,local:nissan kait.pdf,39
+NISSAN,KAIT,,Sensor de estacionamiento trasero,ADVANCE,si,1,local:nissan kait.pdf,39
+NISSAN,KAIT,,Sensor de estacionamiento trasero,EXCLUSIVE,si,2,local:nissan kait.pdf,39
+NISSAN,KAIT,,Sistema de monitoreo de presión de neumáticos (TPMS),SENSE,si,0,local:nissan kait.pdf,40
+NISSAN,KAIT,,Sistema de monitoreo de presión de neumáticos (TPMS),ADVANCE,si,1,local:nissan kait.pdf,40
+NISSAN,KAIT,,Sistema de monitoreo de presión de neumáticos (TPMS),EXCLUSIVE,si,2,local:nissan kait.pdf,40
+NISSAN,KAIT,,Sistema inteligente de arranque en pendiente (HSA),SENSE,si,0,local:nissan kait.pdf,41
+NISSAN,KAIT,,Sistema inteligente de arranque en pendiente (HSA),ADVANCE,si,1,local:nissan kait.pdf,41
+NISSAN,KAIT,,Sistema inteligente de arranque en pendiente (HSA),EXCLUSIVE,si,2,local:nissan kait.pdf,41
+NISSAN,KAIT,,Sistema de anclaje en asientos traseros (ISOFIX),SENSE,si,0,local:nissan kait.pdf,42
+NISSAN,KAIT,,Sistema de anclaje en asientos traseros (ISOFIX),ADVANCE,si,1,local:nissan kait.pdf,42
+NISSAN,KAIT,,Sistema de anclaje en asientos traseros (ISOFIX),EXCLUSIVE,si,2,local:nissan kait.pdf,42
+NISSAN,KAIT,,Control de tracción y estabilidad (VDC),SENSE,si,0,local:nissan kait.pdf,43
+NISSAN,KAIT,,Control de tracción y estabilidad (VDC),ADVANCE,si,1,local:nissan kait.pdf,43
+NISSAN,KAIT,,Control de tracción y estabilidad (VDC),EXCLUSIVE,si,2,local:nissan kait.pdf,43
+NISSAN,KAIT,,Airbags laterales y de cortina,SENSE,si,0,local:nissan kait.pdf,44
+NISSAN,KAIT,,Airbags laterales y de cortina,ADVANCE,si,1,local:nissan kait.pdf,44
+NISSAN,KAIT,,Airbags laterales y de cortina,EXCLUSIVE,si,2,local:nissan kait.pdf,44
+NISSAN,KAIT,,Alarma perimetral antirrobo con inmovilizador,SENSE,si,0,local:nissan kait.pdf,45
+NISSAN,KAIT,,Alarma perimetral antirrobo con inmovilizador,ADVANCE,si,1,local:nissan kait.pdf,45
+NISSAN,KAIT,,Alarma perimetral antirrobo con inmovilizador,EXCLUSIVE,si,2,local:nissan kait.pdf,45
+NISSAN,KAIT,,Alerta de cinturon de seguridad delantero y trasero,SENSE,si,0,local:nissan kait.pdf,46
+NISSAN,KAIT,,Alerta de cinturon de seguridad delantero y trasero,ADVANCE,si,1,local:nissan kait.pdf,46
+NISSAN,KAIT,,Alerta de cinturon de seguridad delantero y trasero,EXCLUSIVE,si,2,local:nissan kait.pdf,46
+NISSAN,KAIT,,"tipo A y C, Bluetooth y conexión sin cable para Apple CarPlay®",SENSE,no,0,local:nissan kait.pdf,47
+NISSAN,KAIT,,"tipo A y C, Bluetooth y conexión sin cable para Apple CarPlay®",ADVANCE,si,1,local:nissan kait.pdf,47
+NISSAN,KAIT,,"tipo A y C, Bluetooth y conexión sin cable para Apple CarPlay®",EXCLUSIVE,si,2,local:nissan kait.pdf,47
+NISSAN,KAIT,,"puertos USB tipo A y C, Bluetooth y conexión con cable para",SENSE,si,0,local:nissan kait.pdf,48
+NISSAN,KAIT,,"puertos USB tipo A y C, Bluetooth y conexión con cable para",ADVANCE,no,1,local:nissan kait.pdf,48
+NISSAN,KAIT,,"puertos USB tipo A y C, Bluetooth y conexión con cable para",EXCLUSIVE,no,2,local:nissan kait.pdf,48
+NISSAN,KAIT,,Altavoces (4),SENSE,si,0,local:nissan kait.pdf,49
+NISSAN,KAIT,,Altavoces (4),ADVANCE,si,1,local:nissan kait.pdf,49
+NISSAN,KAIT,,Altavoces (4),EXCLUSIVE,si,2,local:nissan kait.pdf,49

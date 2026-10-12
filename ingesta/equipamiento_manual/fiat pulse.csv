@@ -1,0 +1,245 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,PULSE,EXTERIOR,Carrocería Bitono negro,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,0
+FIAT,PULSE,EXTERIOR,Carrocería Bitono negro,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,0
+FIAT,PULSE,EXTERIOR,Carrocería Bitono negro,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,0
+FIAT,PULSE,EXTERIOR,Carrocería Bitono negro,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,0
+FIAT,PULSE,EXTERIOR,Techo panorámico,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,1
+FIAT,PULSE,EXTERIOR,Techo panorámico,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,1
+FIAT,PULSE,EXTERIOR,Techo panorámico,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,1
+FIAT,PULSE,EXTERIOR,Techo panorámico,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,1
+FIAT,PULSE,EXTERIOR,Espejos exteriores color negro piano,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,2
+FIAT,PULSE,EXTERIOR,Espejos exteriores color negro piano,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,2
+FIAT,PULSE,EXTERIOR,Espejos exteriores color negro piano,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,2
+FIAT,PULSE,EXTERIOR,Espejos exteriores color negro piano,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,2
+FIAT,PULSE,EXTERIOR,Espejos exteriores con luz de giro,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,3
+FIAT,PULSE,EXTERIOR,Espejos exteriores con luz de giro,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,3
+FIAT,PULSE,EXTERIOR,Espejos exteriores con luz de giro,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,3
+FIAT,PULSE,EXTERIOR,Espejos exteriores con luz de giro,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,3
+FIAT,PULSE,EXTERIOR,Manijas de puertas color carrocería,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,4
+FIAT,PULSE,EXTERIOR,Manijas de puertas color carrocería,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,4
+FIAT,PULSE,EXTERIOR,Manijas de puertas color carrocería,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,4
+FIAT,PULSE,EXTERIOR,Manijas de puertas color carrocería,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,4
+FIAT,PULSE,EXTERIOR,Apliques exteriores cromados,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,5
+FIAT,PULSE,EXTERIOR,Apliques exteriores cromados,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,5
+FIAT,PULSE,EXTERIOR,Apliques exteriores cromados,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,5
+FIAT,PULSE,EXTERIOR,Apliques exteriores cromados,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,5
+FIAT,PULSE,EXTERIOR,Llantas de aleación 16'',DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,6
+FIAT,PULSE,EXTERIOR,Llantas de aleación 16'',DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,6
+FIAT,PULSE,EXTERIOR,Llantas de aleación 16'',AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,6
+FIAT,PULSE,EXTERIOR,Llantas de aleación 16'',IMPETUS 1.0T CVT,no,3,local:fiat pulse.pdf,6
+FIAT,PULSE,EXTERIOR,Llantas de aleación diamantadas 17,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,7
+FIAT,PULSE,EXTERIOR,Llantas de aleación diamantadas 17,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,7
+FIAT,PULSE,EXTERIOR,Llantas de aleación diamantadas 17,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,7
+FIAT,PULSE,EXTERIOR,Llantas de aleación diamantadas 17,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,7
+FIAT,PULSE,EXTERIOR,Faros delanteros LED + DRL,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,8
+FIAT,PULSE,EXTERIOR,Faros delanteros LED + DRL,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,8
+FIAT,PULSE,EXTERIOR,Faros delanteros LED + DRL,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,8
+FIAT,PULSE,EXTERIOR,Faros delanteros LED + DRL,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,8
+FIAT,PULSE,EXTERIOR,Faros antiniebla delanteros con f. cornering,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,9
+FIAT,PULSE,EXTERIOR,Faros antiniebla delanteros con f. cornering,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,9
+FIAT,PULSE,EXTERIOR,Faros antiniebla delanteros con f. cornering,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,9
+FIAT,PULSE,EXTERIOR,Faros antiniebla delanteros con f. cornering,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,9
+FIAT,PULSE,EXTERIOR,Faros traseros LED,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,10
+FIAT,PULSE,EXTERIOR,Faros traseros LED,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,10
+FIAT,PULSE,EXTERIOR,Faros traseros LED,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,10
+FIAT,PULSE,EXTERIOR,Faros traseros LED,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,10
+FIAT,PULSE,EXTERIOR,Tercera luz de stop,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,11
+FIAT,PULSE,EXTERIOR,Tercera luz de stop,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,11
+FIAT,PULSE,EXTERIOR,Tercera luz de stop,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,11
+FIAT,PULSE,EXTERIOR,Tercera luz de stop,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,11
+FIAT,PULSE,EXTERIOR,Barras longitudinales en el techo,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,12
+FIAT,PULSE,EXTERIOR,Barras longitudinales en el techo,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,12
+FIAT,PULSE,EXTERIOR,Barras longitudinales en el techo,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,12
+FIAT,PULSE,EXTERIOR,Barras longitudinales en el techo,IMPETUS 1.0T CVT,no,3,local:fiat pulse.pdf,12
+FIAT,PULSE,EXTERIOR,Spoiler trasero,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,13
+FIAT,PULSE,EXTERIOR,Spoiler trasero,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,13
+FIAT,PULSE,EXTERIOR,Spoiler trasero,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,13
+FIAT,PULSE,EXTERIOR,Spoiler trasero,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,13
+FIAT,PULSE,EXTERIOR,Nuevo skid plate,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,14
+FIAT,PULSE,EXTERIOR,Nuevo skid plate,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,14
+FIAT,PULSE,EXTERIOR,Nuevo skid plate,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,14
+FIAT,PULSE,EXTERIOR,Nuevo skid plate,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,14
+FIAT,PULSE,SEGURIDAD,Alarma perimetral,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,15
+FIAT,PULSE,SEGURIDAD,Alarma perimetral,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,15
+FIAT,PULSE,SEGURIDAD,Alarma perimetral,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,15
+FIAT,PULSE,SEGURIDAD,Alarma perimetral,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,15
+FIAT,PULSE,SEGURIDAD,Frenos ABS,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,16
+FIAT,PULSE,SEGURIDAD,Frenos ABS,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,16
+FIAT,PULSE,SEGURIDAD,Frenos ABS,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,16
+FIAT,PULSE,SEGURIDAD,Frenos ABS,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,16
+FIAT,PULSE,SEGURIDAD,Airbags frontales,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,17
+FIAT,PULSE,SEGURIDAD,Airbags frontales,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,17
+FIAT,PULSE,SEGURIDAD,Airbags frontales,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,17
+FIAT,PULSE,SEGURIDAD,Airbags frontales,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,17
+FIAT,PULSE,SEGURIDAD,Airbags laterales delanteros (tórax+cabeza),DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,18
+FIAT,PULSE,SEGURIDAD,Airbags laterales delanteros (tórax+cabeza),DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,18
+FIAT,PULSE,SEGURIDAD,Airbags laterales delanteros (tórax+cabeza),AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,18
+FIAT,PULSE,SEGURIDAD,Airbags laterales delanteros (tórax+cabeza),IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,18
+FIAT,PULSE,SEGURIDAD,Anclaje ISOFIX para niños,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,19
+FIAT,PULSE,SEGURIDAD,Anclaje ISOFIX para niños,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,19
+FIAT,PULSE,SEGURIDAD,Anclaje ISOFIX para niños,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,19
+FIAT,PULSE,SEGURIDAD,Anclaje ISOFIX para niños,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,19
+FIAT,PULSE,SEGURIDAD,Asistente de arranque en pendiente,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,20
+FIAT,PULSE,SEGURIDAD,Asistente de arranque en pendiente,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,20
+FIAT,PULSE,SEGURIDAD,Asistente de arranque en pendiente,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,20
+FIAT,PULSE,SEGURIDAD,Asistente de arranque en pendiente,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,20
+FIAT,PULSE,SEGURIDAD,Cinturones de seguridad de 3 puntos (x5),DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,21
+FIAT,PULSE,SEGURIDAD,Cinturones de seguridad de 3 puntos (x5),DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,21
+FIAT,PULSE,SEGURIDAD,Cinturones de seguridad de 3 puntos (x5),AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,21
+FIAT,PULSE,SEGURIDAD,Cinturones de seguridad de 3 puntos (x5),IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,21
+FIAT,PULSE,SEGURIDAD,Control de estabilidad ESC,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,22
+FIAT,PULSE,SEGURIDAD,Control de estabilidad ESC,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,22
+FIAT,PULSE,SEGURIDAD,Control de estabilidad ESC,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,22
+FIAT,PULSE,SEGURIDAD,Control de estabilidad ESC,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,22
+FIAT,PULSE,SEGURIDAD,Control de tracción avanzado (TC+),DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,23
+FIAT,PULSE,SEGURIDAD,Control de tracción avanzado (TC+),DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,23
+FIAT,PULSE,SEGURIDAD,Control de tracción avanzado (TC+),AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,23
+FIAT,PULSE,SEGURIDAD,Control de tracción avanzado (TC+),IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,23
+FIAT,PULSE,SEGURIDAD,Frenado autónomo de emergencia,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,24
+FIAT,PULSE,SEGURIDAD,Frenado autónomo de emergencia,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,24
+FIAT,PULSE,SEGURIDAD,Frenado autónomo de emergencia,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,24
+FIAT,PULSE,SEGURIDAD,Frenado autónomo de emergencia,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,24
+FIAT,PULSE,SEGURIDAD,Sistema At de luces altas/bajas.,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,25
+FIAT,PULSE,SEGURIDAD,Sistema At de luces altas/bajas.,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,25
+FIAT,PULSE,SEGURIDAD,Sistema At de luces altas/bajas.,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,25
+FIAT,PULSE,SEGURIDAD,Sistema At de luces altas/bajas.,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,25
+FIAT,PULSE,SEGURIDAD,Sistema de control de presión de neumáticos,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,26
+FIAT,PULSE,SEGURIDAD,Sistema de control de presión de neumáticos,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,26
+FIAT,PULSE,SEGURIDAD,Sistema de control de presión de neumáticos,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,26
+FIAT,PULSE,SEGURIDAD,Sistema de control de presión de neumáticos,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,26
+FIAT,PULSE,SEGURIDAD,Sistema de mantenimiento de carril activo,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,27
+FIAT,PULSE,SEGURIDAD,Sistema de mantenimiento de carril activo,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,27
+FIAT,PULSE,SEGURIDAD,Sistema de mantenimiento de carril activo,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,27
+FIAT,PULSE,SEGURIDAD,Sistema de mantenimiento de carril activo,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,27
+FIAT,PULSE,SEGURIDAD,Kit de seguridad,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,28
+FIAT,PULSE,SEGURIDAD,Kit de seguridad,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,28
+FIAT,PULSE,SEGURIDAD,Kit de seguridad,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,28
+FIAT,PULSE,SEGURIDAD,Kit de seguridad,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,28
+FIAT,PULSE,TECNOLOGÍA,Modo SPORT,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,29
+FIAT,PULSE,TECNOLOGÍA,Modo SPORT,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,29
+FIAT,PULSE,TECNOLOGÍA,Modo SPORT,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,29
+FIAT,PULSE,TECNOLOGÍA,Modo SPORT,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,29
+FIAT,PULSE,TECNOLOGÍA,"Sistema Multimedia Uconnect 10,1'' Android Auto y Apple CarPlay",DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,30
+FIAT,PULSE,TECNOLOGÍA,"Sistema Multimedia Uconnect 10,1'' Android Auto y Apple CarPlay",DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,30
+FIAT,PULSE,TECNOLOGÍA,"Sistema Multimedia Uconnect 10,1'' Android Auto y Apple CarPlay",AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,30
+FIAT,PULSE,TECNOLOGÍA,"Sistema Multimedia Uconnect 10,1'' Android Auto y Apple CarPlay",IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,30
+FIAT,PULSE,TECNOLOGÍA,Conect. Android Auto y Apple CarPlay wireless,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,31
+FIAT,PULSE,TECNOLOGÍA,Conect. Android Auto y Apple CarPlay wireless,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,31
+FIAT,PULSE,TECNOLOGÍA,Conect. Android Auto y Apple CarPlay wireless,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,31
+FIAT,PULSE,TECNOLOGÍA,Conect. Android Auto y Apple CarPlay wireless,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,31
+FIAT,PULSE,TECNOLOGÍA,Cargador inalámbrico,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,32
+FIAT,PULSE,TECNOLOGÍA,Cargador inalámbrico,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,32
+FIAT,PULSE,TECNOLOGÍA,Cargador inalámbrico,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,32
+FIAT,PULSE,TECNOLOGÍA,Cargador inalámbrico,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,32
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 3,5"" monocolor",DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,33
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 3,5"" monocolor",DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,33
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 3,5"" monocolor",AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,33
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 3,5"" monocolor",IMPETUS 1.0T CVT,no,3,local:fiat pulse.pdf,33
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 7"" Full Color",DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,34
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 7"" Full Color",DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,34
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 7"" Full Color",AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,34
+FIAT,PULSE,TECNOLOGÍA,"Tablero digital 7"" Full Color",IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,34
+FIAT,PULSE,TECNOLOGÍA,Encendido remoto,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,35
+FIAT,PULSE,TECNOLOGÍA,Encendido remoto,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,35
+FIAT,PULSE,TECNOLOGÍA,Encendido remoto,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,35
+FIAT,PULSE,TECNOLOGÍA,Encendido remoto,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,35
+FIAT,PULSE,TECNOLOGÍA,Puertos USB A/C,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,36
+FIAT,PULSE,TECNOLOGÍA,Puertos USB A/C,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,36
+FIAT,PULSE,TECNOLOGÍA,Puertos USB A/C,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,36
+FIAT,PULSE,TECNOLOGÍA,Puertos USB A/C,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,36
+FIAT,PULSE,CONFORT,Espejos exteriores con regulación eléctrica,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,37
+FIAT,PULSE,CONFORT,Espejos exteriores con regulación eléctrica,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,37
+FIAT,PULSE,CONFORT,Espejos exteriores con regulación eléctrica,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,37
+FIAT,PULSE,CONFORT,Espejos exteriores con regulación eléctrica,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,37
+FIAT,PULSE,CONFORT,Plegado At. De espejos + luz de acceso,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,38
+FIAT,PULSE,CONFORT,Plegado At. De espejos + luz de acceso,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,38
+FIAT,PULSE,CONFORT,Plegado At. De espejos + luz de acceso,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,38
+FIAT,PULSE,CONFORT,Plegado At. De espejos + luz de acceso,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,38
+FIAT,PULSE,CONFORT,Espejo interno electrocrómico,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,39
+FIAT,PULSE,CONFORT,Espejo interno electrocrómico,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,39
+FIAT,PULSE,CONFORT,Espejo interno electrocrómico,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,39
+FIAT,PULSE,CONFORT,Espejo interno electrocrómico,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,39
+FIAT,PULSE,CONFORT,Alzacristales eléctricos en las 4 puertas con antipinzamiento,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,40
+FIAT,PULSE,CONFORT,Alzacristales eléctricos en las 4 puertas con antipinzamiento,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,40
+FIAT,PULSE,CONFORT,Alzacristales eléctricos en las 4 puertas con antipinzamiento,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,40
+FIAT,PULSE,CONFORT,Alzacristales eléctricos en las 4 puertas con antipinzamiento,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,40
+FIAT,PULSE,CONFORT,Cierre centralizado con telecomando,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,41
+FIAT,PULSE,CONFORT,Cierre centralizado con telecomando,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,41
+FIAT,PULSE,CONFORT,Cierre centralizado con telecomando,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,41
+FIAT,PULSE,CONFORT,Cierre centralizado con telecomando,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,41
+FIAT,PULSE,CONFORT,Climatizador automático,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,42
+FIAT,PULSE,CONFORT,Climatizador automático,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,42
+FIAT,PULSE,CONFORT,Climatizador automático,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,42
+FIAT,PULSE,CONFORT,Climatizador automático,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,42
+FIAT,PULSE,CONFORT,Control de velocidad crucero,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,43
+FIAT,PULSE,CONFORT,Control de velocidad crucero,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,43
+FIAT,PULSE,CONFORT,Control de velocidad crucero,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,43
+FIAT,PULSE,CONFORT,Control de velocidad crucero,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,43
+FIAT,PULSE,CONFORT,Limitador de velocidad,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,44
+FIAT,PULSE,CONFORT,Limitador de velocidad,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,44
+FIAT,PULSE,CONFORT,Limitador de velocidad,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,44
+FIAT,PULSE,CONFORT,Limitador de velocidad,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,44
+FIAT,PULSE,CONFORT,Cámara de retroceso con sensores de estacionamiento,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,45
+FIAT,PULSE,CONFORT,Cámara de retroceso con sensores de estacionamiento,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,45
+FIAT,PULSE,CONFORT,Cámara de retroceso con sensores de estacionamiento,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,45
+FIAT,PULSE,CONFORT,Cámara de retroceso con sensores de estacionamiento,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,45
+FIAT,PULSE,CONFORT,Sensores de estacionamiento delanteros,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,46
+FIAT,PULSE,CONFORT,Sensores de estacionamiento delanteros,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,46
+FIAT,PULSE,CONFORT,Sensores de estacionamiento delanteros,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,46
+FIAT,PULSE,CONFORT,Sensores de estacionamiento delanteros,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,46
+FIAT,PULSE,CONFORT,Controles satelitales al volante,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,47
+FIAT,PULSE,CONFORT,Controles satelitales al volante,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,47
+FIAT,PULSE,CONFORT,Controles satelitales al volante,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,47
+FIAT,PULSE,CONFORT,Controles satelitales al volante,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,47
+FIAT,PULSE,CONFORT,Asiento conductor con ajuste de altura,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,48
+FIAT,PULSE,CONFORT,Asiento conductor con ajuste de altura,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,48
+FIAT,PULSE,CONFORT,Asiento conductor con ajuste de altura,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,48
+FIAT,PULSE,CONFORT,Asiento conductor con ajuste de altura,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,48
+FIAT,PULSE,CONFORT,Volante con ajuste de altura,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,49
+FIAT,PULSE,CONFORT,Volante con ajuste de altura,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,49
+FIAT,PULSE,CONFORT,Volante con ajuste de altura,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,49
+FIAT,PULSE,CONFORT,Volante con ajuste de altura,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,49
+FIAT,PULSE,CONFORT,Volante con ajuste de profundidad,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,50
+FIAT,PULSE,CONFORT,Volante con ajuste de profundidad,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,50
+FIAT,PULSE,CONFORT,Volante con ajuste de profundidad,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,50
+FIAT,PULSE,CONFORT,Volante con ajuste de profundidad,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,50
+FIAT,PULSE,CONFORT,Volante en cuero,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,51
+FIAT,PULSE,CONFORT,Volante en cuero,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,51
+FIAT,PULSE,CONFORT,Volante en cuero,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,51
+FIAT,PULSE,CONFORT,Volante en cuero,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,51
+FIAT,PULSE,CONFORT,Tapizado en cuero,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,52
+FIAT,PULSE,CONFORT,Tapizado en cuero,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,52
+FIAT,PULSE,CONFORT,Tapizado en cuero,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,52
+FIAT,PULSE,CONFORT,Tapizado en cuero,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,52
+FIAT,PULSE,CONFORT,Keyless Enter'n'Go,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,53
+FIAT,PULSE,CONFORT,Keyless Enter'n'Go,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,53
+FIAT,PULSE,CONFORT,Keyless Enter'n'Go,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,53
+FIAT,PULSE,CONFORT,Keyless Enter'n'Go,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,53
+FIAT,PULSE,CONFORT,Sensor de lluvia y crepuscular,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,54
+FIAT,PULSE,CONFORT,Sensor de lluvia y crepuscular,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,54
+FIAT,PULSE,CONFORT,Sensor de lluvia y crepuscular,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,54
+FIAT,PULSE,CONFORT,Sensor de lluvia y crepuscular,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,54
+FIAT,PULSE,CONFORT,Sensor de temperatura externa,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,55
+FIAT,PULSE,CONFORT,Sensor de temperatura externa,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,55
+FIAT,PULSE,CONFORT,Sensor de temperatura externa,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,55
+FIAT,PULSE,CONFORT,Sensor de temperatura externa,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,55
+FIAT,PULSE,CONFORT,Limpiaparabrisas trasero,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,56
+FIAT,PULSE,CONFORT,Limpiaparabrisas trasero,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,56
+FIAT,PULSE,CONFORT,Limpiaparabrisas trasero,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,56
+FIAT,PULSE,CONFORT,Limpiaparabrisas trasero,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,56
+FIAT,PULSE,CONFORT,Apoyabrazos delantero,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,57
+FIAT,PULSE,CONFORT,Apoyabrazos delantero,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,57
+FIAT,PULSE,CONFORT,Apoyabrazos delantero,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,57
+FIAT,PULSE,CONFORT,Apoyabrazos delantero,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,57
+FIAT,PULSE,CONFORT,Fiat Sound Design,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,58
+FIAT,PULSE,CONFORT,Fiat Sound Design,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,58
+FIAT,PULSE,CONFORT,Fiat Sound Design,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,58
+FIAT,PULSE,CONFORT,Fiat Sound Design,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,58
+FIAT,PULSE,CONFORT,Alfombras interiores,DRIVE 1.3 MT5,si,0,local:fiat pulse.pdf,59
+FIAT,PULSE,CONFORT,Alfombras interiores,DRIVE 1.3 CVT,si,1,local:fiat pulse.pdf,59
+FIAT,PULSE,CONFORT,Alfombras interiores,AUDACE 1.0T CVT,si,2,local:fiat pulse.pdf,59
+FIAT,PULSE,CONFORT,Alfombras interiores,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,59
+FIAT,PULSE,CONFORT,Espejo en el parasol del acompañante,DRIVE 1.3 MT5,no,0,local:fiat pulse.pdf,60
+FIAT,PULSE,CONFORT,Espejo en el parasol del acompañante,DRIVE 1.3 CVT,no,1,local:fiat pulse.pdf,60
+FIAT,PULSE,CONFORT,Espejo en el parasol del acompañante,AUDACE 1.0T CVT,no,2,local:fiat pulse.pdf,60
+FIAT,PULSE,CONFORT,Espejo en el parasol del acompañante,IMPETUS 1.0T CVT,si,3,local:fiat pulse.pdf,60

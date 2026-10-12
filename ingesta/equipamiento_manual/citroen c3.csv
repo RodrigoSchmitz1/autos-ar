@@ -1,0 +1,170 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+CITROEN,C 3,Velocidad máx. (Km/h),Garantía 3 años ó 100.000km,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,0
+CITROEN,C 3,Velocidad máx. (Km/h),Garantía 3 años ó 100.000km,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,0
+CITROEN,C 3,Velocidad máx. (Km/h),Garantía 3 años ó 100.000km,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,0
+CITROEN,C 3,Velocidad máx. (Km/h),Garantía 3 años ó 100.000km,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,0
+CITROEN,C 3,SEGURIDAD,Frenos ABS con REF (Repartidor Electrónico de Frenado),C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,1
+CITROEN,C 3,SEGURIDAD,Frenos ABS con REF (Repartidor Electrónico de Frenado),C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,1
+CITROEN,C 3,SEGURIDAD,Frenos ABS con REF (Repartidor Electrónico de Frenado),C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,1
+CITROEN,C 3,SEGURIDAD,Frenos ABS con REF (Repartidor Electrónico de Frenado),C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,1
+CITROEN,C 3,SEGURIDAD,Control de estabilidad (ESP) y Control de tracción (ASR),C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,2
+CITROEN,C 3,SEGURIDAD,Control de estabilidad (ESP) y Control de tracción (ASR),C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,2
+CITROEN,C 3,SEGURIDAD,Control de estabilidad (ESP) y Control de tracción (ASR),C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,2
+CITROEN,C 3,SEGURIDAD,Control de estabilidad (ESP) y Control de tracción (ASR),C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,2
+CITROEN,C 3,SEGURIDAD,Ayuda al arranque en pendiente,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,3
+CITROEN,C 3,SEGURIDAD,Ayuda al arranque en pendiente,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,3
+CITROEN,C 3,SEGURIDAD,Ayuda al arranque en pendiente,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,3
+CITROEN,C 3,SEGURIDAD,Ayuda al arranque en pendiente,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,3
+CITROEN,C 3,SEGURIDAD,Airbags frontales conductor y pasajero,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,4
+CITROEN,C 3,SEGURIDAD,Airbags frontales conductor y pasajero,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,4
+CITROEN,C 3,SEGURIDAD,Airbags frontales conductor y pasajero,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,4
+CITROEN,C 3,SEGURIDAD,Airbags frontales conductor y pasajero,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,4
+CITROEN,C 3,SEGURIDAD,Alarma perimetral,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,5
+CITROEN,C 3,SEGURIDAD,Alarma perimetral,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,5
+CITROEN,C 3,SEGURIDAD,Alarma perimetral,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,5
+CITROEN,C 3,SEGURIDAD,Alarma perimetral,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,5
+CITROEN,C 3,SEGURIDAD,3ra luz de STOP,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,6
+CITROEN,C 3,SEGURIDAD,3ra luz de STOP,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,6
+CITROEN,C 3,SEGURIDAD,3ra luz de STOP,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,6
+CITROEN,C 3,SEGURIDAD,3ra luz de STOP,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,6
+CITROEN,C 3,SEGURIDAD,Cinturones de seguridad delanteros y traseros inerciales,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,7
+CITROEN,C 3,SEGURIDAD,Cinturones de seguridad delanteros y traseros inerciales,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,7
+CITROEN,C 3,SEGURIDAD,Cinturones de seguridad delanteros y traseros inerciales,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,7
+CITROEN,C 3,SEGURIDAD,Cinturones de seguridad delanteros y traseros inerciales,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,7
+CITROEN,C 3,Apoyacabezas traseros,Cierre centralizado de puertas y baúl con mando a distancia,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,8
+CITROEN,C 3,Apoyacabezas traseros,Cierre centralizado de puertas y baúl con mando a distancia,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,8
+CITROEN,C 3,Apoyacabezas traseros,Cierre centralizado de puertas y baúl con mando a distancia,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,8
+CITROEN,C 3,Apoyacabezas traseros,Cierre centralizado de puertas y baúl con mando a distancia,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,8
+CITROEN,C 3,Cámara de visión trasera,Fijaciones de asientos para niños (ISOFIX y TOP TETHER) en plazas traseras laterales,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,9
+CITROEN,C 3,Cámara de visión trasera,Fijaciones de asientos para niños (ISOFIX y TOP TETHER) en plazas traseras laterales,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,9
+CITROEN,C 3,Cámara de visión trasera,Fijaciones de asientos para niños (ISOFIX y TOP TETHER) en plazas traseras laterales,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,9
+CITROEN,C 3,Cámara de visión trasera,Espejos retrovisores con luz de giro incorporada,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,10
+CITROEN,C 3,Cámara de visión trasera,Espejos retrovisores con luz de giro incorporada,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,10
+CITROEN,C 3,Cámara de visión trasera,Espejos retrovisores con luz de giro incorporada,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,10
+CITROEN,C 3,Cámara de visión trasera,Espejos retrovisores con luz de giro incorporada,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,10
+CITROEN,C 3,Cámara de visión trasera,Faros antiniebla delanteros,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,11
+CITROEN,C 3,Cámara de visión trasera,Faros antiniebla delanteros,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,11
+CITROEN,C 3,Cámara de visión trasera,Faros antiniebla delanteros,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,11
+CITROEN,C 3,Cámara de visión trasera,Faros antiniebla delanteros,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,11
+CITROEN,C 3,CONFORT,Dirección asistida eléctrica variable,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,12
+CITROEN,C 3,CONFORT,Dirección asistida eléctrica variable,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,12
+CITROEN,C 3,CONFORT,Dirección asistida eléctrica variable,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,12
+CITROEN,C 3,CONFORT,Dirección asistida eléctrica variable,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,12
+CITROEN,C 3,CONFORT,Radio / Bluetooth con mandos al volante,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,13
+CITROEN,C 3,CONFORT,Radio / Bluetooth con mandos al volante,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,13
+CITROEN,C 3,CONFORT,Radio / Bluetooth con mandos al volante,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,13
+CITROEN,C 3,CONFORT,Radio / Bluetooth con mandos al volante,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,13
+CITROEN,C 3,Parlantes + Tweeters,Toma USB delantera A (carga + datos),C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,14
+CITROEN,C 3,Parlantes + Tweeters,Toma USB delantera A (carga + datos),C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,14
+CITROEN,C 3,Parlantes + Tweeters,Toma USB delantera A (carga + datos),C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,14
+CITROEN,C 3,Parlantes + Tweeters,Toma USB delantera A (carga + datos),C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,14
+CITROEN,C 3,Parlantes + Tweeters,Toma 12V delantera,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,15
+CITROEN,C 3,Parlantes + Tweeters,Toma 12V delantera,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,15
+CITROEN,C 3,Parlantes + Tweeters,Toma 12V delantera,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,15
+CITROEN,C 3,Parlantes + Tweeters,Toma 12V delantera,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,15
+CITROEN,C 3,Parlantes + Tweeters,"Citroën Connect 10""- Sistema Multimedia con Pantálla Táctil de 10"" integrada con Mirror Screen conexión wireless (Apple CarPlay® & Android Auto®)",C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,16
+CITROEN,C 3,Parlantes + Tweeters,"Citroën Connect 10""- Sistema Multimedia con Pantálla Táctil de 10"" integrada con Mirror Screen conexión wireless (Apple CarPlay® & Android Auto®)",C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,16
+CITROEN,C 3,Parlantes + Tweeters,"Citroën Connect 10""- Sistema Multimedia con Pantálla Táctil de 10"" integrada con Mirror Screen conexión wireless (Apple CarPlay® & Android Auto®)",C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,16
+CITROEN,C 3,Parlantes + Tweeters,"Citroën Connect 10""- Sistema Multimedia con Pantálla Táctil de 10"" integrada con Mirror Screen conexión wireless (Apple CarPlay® & Android Auto®)",C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,16
+CITROEN,C 3,Parlantes + Tweeters,"Panel de instrumentos digital TFT 7"" color",C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,17
+CITROEN,C 3,Parlantes + Tweeters,"Panel de instrumentos digital TFT 7"" color",C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,17
+CITROEN,C 3,Parlantes + Tweeters,"Panel de instrumentos digital TFT 7"" color",C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,17
+CITROEN,C 3,Parlantes + Tweeters,"Panel de instrumentos digital TFT 7"" color",C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,17
+CITROEN,C 3,Parlantes + Tweeters,Volante multifunción,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,18
+CITROEN,C 3,Parlantes + Tweeters,Volante multifunción,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,18
+CITROEN,C 3,Parlantes + Tweeters,Volante multifunción,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,18
+CITROEN,C 3,Parlantes + Tweeters,Volante multifunción,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,18
+CITROEN,C 3,Parlantes + Tweeters,Aire acondicionado,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,19
+CITROEN,C 3,Parlantes + Tweeters,Aire acondicionado,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,19
+CITROEN,C 3,Parlantes + Tweeters,Aire acondicionado,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,19
+CITROEN,C 3,Parlantes + Tweeters,Aire acondicionado,C3 T200 FEEL PK YOU! MY26,no,3,local:citroen c3.pdf,19
+CITROEN,C 3,Parlantes + Tweeters,Climatizador automático con función AC / MAX,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,20
+CITROEN,C 3,Parlantes + Tweeters,Climatizador automático con función AC / MAX,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,20
+CITROEN,C 3,Parlantes + Tweeters,Climatizador automático con función AC / MAX,C3 VTi AT XTR MY26,no,2,local:citroen c3.pdf,20
+CITROEN,C 3,Parlantes + Tweeters,Climatizador automático con función AC / MAX,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,20
+CITROEN,C 3,Parlantes + Tweeters,Computadora de a bordo,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,21
+CITROEN,C 3,Parlantes + Tweeters,Computadora de a bordo,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,21
+CITROEN,C 3,Parlantes + Tweeters,Computadora de a bordo,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,21
+CITROEN,C 3,Parlantes + Tweeters,Computadora de a bordo,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,21
+CITROEN,C 3,Parlantes + Tweeters,Recomendador de cambio de marcha (GSI),C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,22
+CITROEN,C 3,Parlantes + Tweeters,Recomendador de cambio de marcha (GSI),C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,22
+CITROEN,C 3,Parlantes + Tweeters,Recomendador de cambio de marcha (GSI),C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,22
+CITROEN,C 3,Parlantes + Tweeters,Recomendador de cambio de marcha (GSI),C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,22
+CITROEN,C 3,Parlantes + Tweeters,Limitador y regulador de velocidad programable,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,23
+CITROEN,C 3,Parlantes + Tweeters,Limitador y regulador de velocidad programable,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,23
+CITROEN,C 3,Parlantes + Tweeters,Limitador y regulador de velocidad programable,C3 VTi AT XTR MY26,no,2,local:citroen c3.pdf,23
+CITROEN,C 3,Parlantes + Tweeters,Limitador y regulador de velocidad programable,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,23
+CITROEN,C 3,Parlantes + Tweeters,Levantavidrios delanteros y traseros eléctricos One touch x 4 antipinzamiento,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,24
+CITROEN,C 3,Parlantes + Tweeters,Levantavidrios delanteros y traseros eléctricos One touch x 4 antipinzamiento,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,24
+CITROEN,C 3,Parlantes + Tweeters,Levantavidrios delanteros y traseros eléctricos One touch x 4 antipinzamiento,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,24
+CITROEN,C 3,Parlantes + Tweeters,Levantavidrios delanteros y traseros eléctricos One touch x 4 antipinzamiento,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,24
+CITROEN,C 3,Parlantes + Tweeters,Limpia lava luneta y desempañador trasero,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,25
+CITROEN,C 3,Parlantes + Tweeters,Limpia lava luneta y desempañador trasero,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,25
+CITROEN,C 3,Parlantes + Tweeters,Limpia lava luneta y desempañador trasero,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,25
+CITROEN,C 3,Parlantes + Tweeters,Limpia lava luneta y desempañador trasero,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,25
+CITROEN,C 3,Parlantes + Tweeters,Espejos Exteriores con regulación eléctrica,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,26
+CITROEN,C 3,Parlantes + Tweeters,Espejos Exteriores con regulación eléctrica,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,26
+CITROEN,C 3,Parlantes + Tweeters,Espejos Exteriores con regulación eléctrica,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,26
+CITROEN,C 3,Parlantes + Tweeters,Espejos Exteriores con regulación eléctrica,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,26
+CITROEN,C 3,Tapizado,Asientos Delanteros con apoyacabeza ajustable,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,27
+CITROEN,C 3,Tapizado,Asientos Delanteros con apoyacabeza ajustable,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,27
+CITROEN,C 3,Tapizado,Asientos Delanteros con apoyacabeza ajustable,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,27
+CITROEN,C 3,Tapizado,Asientos Delanteros con apoyacabeza ajustable,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,27
+CITROEN,C 3,Tapizado,Asiento conductor con regulación en altura,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,28
+CITROEN,C 3,Tapizado,Asiento conductor con regulación en altura,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,28
+CITROEN,C 3,Tapizado,Asiento conductor con regulación en altura,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,28
+CITROEN,C 3,Tapizado,Asiento conductor con regulación en altura,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,28
+CITROEN,C 3,Tapizado,Columna de dirección regulable en altura,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,29
+CITROEN,C 3,Tapizado,Columna de dirección regulable en altura,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,29
+CITROEN,C 3,Tapizado,Columna de dirección regulable en altura,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,29
+CITROEN,C 3,Tapizado,Columna de dirección regulable en altura,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,29
+CITROEN,C 3,Tapizado,Alfombras de tela personalizadas YOU!,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,30
+CITROEN,C 3,Tapizado,Alfombras de tela personalizadas YOU!,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,30
+CITROEN,C 3,Tapizado,Alfombras de tela personalizadas YOU!,C3 VTi AT XTR MY26,no,2,local:citroen c3.pdf,30
+CITROEN,C 3,Tapizado,Alfombras de tela personalizadas YOU!,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,30
+CITROEN,C 3,ESTILO,Luces diurnas LED (DRL),C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,31
+CITROEN,C 3,ESTILO,Luces diurnas LED (DRL),C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,31
+CITROEN,C 3,ESTILO,Luces diurnas LED (DRL),C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,31
+CITROEN,C 3,ESTILO,Luces diurnas LED (DRL),C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,31
+CITROEN,C 3,Chevron delantero,"Faros traseros "" C Type""",C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,32
+CITROEN,C 3,Chevron delantero,"Faros traseros "" C Type""",C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,32
+CITROEN,C 3,Chevron delantero,"Faros traseros "" C Type""",C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,32
+CITROEN,C 3,Chevron delantero,"Faros traseros "" C Type""",C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,32
+CITROEN,C 3,Espejos retrovisores,Barras de techo longitudinales,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,33
+CITROEN,C 3,Espejos retrovisores,Barras de techo longitudinales,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,33
+CITROEN,C 3,Espejos retrovisores,Barras de techo longitudinales,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,33
+CITROEN,C 3,Espejos retrovisores,Barras de techo longitudinales,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,33
+CITROEN,C 3,Llantas,Aireadores y comandos de ventilación con detalles cromados,C3 VTi FEEL MY26,si,0,local:citroen c3.pdf,34
+CITROEN,C 3,Llantas,Aireadores y comandos de ventilación con detalles cromados,C3 VTi AT FEEL PK MY26,si,1,local:citroen c3.pdf,34
+CITROEN,C 3,Llantas,Aireadores y comandos de ventilación con detalles cromados,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,34
+CITROEN,C 3,Llantas,Aireadores y comandos de ventilación con detalles cromados,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,34
+CITROEN,C 3,Llantas,Volante de cuero,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,35
+CITROEN,C 3,Llantas,Volante de cuero,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,35
+CITROEN,C 3,Llantas,Volante de cuero,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,35
+CITROEN,C 3,Llantas,Volante de cuero,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,35
+CITROEN,C 3,Llantas,Embellecedores de zócalos interiores delanteros,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,36
+CITROEN,C 3,Llantas,Embellecedores de zócalos interiores delanteros,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,36
+CITROEN,C 3,Llantas,Embellecedores de zócalos interiores delanteros,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,36
+CITROEN,C 3,Llantas,Embellecedores de zócalos interiores delanteros,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,36
+CITROEN,C 3,Llantas,Embellecedores de faros antiniebla delanteros,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,37
+CITROEN,C 3,Llantas,Embellecedores de faros antiniebla delanteros,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,37
+CITROEN,C 3,Llantas,Pedalera de Aluminio,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,38
+CITROEN,C 3,Llantas,Pedalera de Aluminio,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,38
+CITROEN,C 3,Llantas,Pedalera de Aluminio,C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,38
+CITROEN,C 3,Llantas,Pedalera de Aluminio,C3 T200 FEEL PK YOU! MY26,no,3,local:citroen c3.pdf,38
+CITROEN,C 3,Llantas,"Molduras laterales de puertas ""XTR""",C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,39
+CITROEN,C 3,Llantas,"Molduras laterales de puertas ""XTR""",C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,39
+CITROEN,C 3,Llantas,"Molduras laterales de puertas ""XTR""",C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,39
+CITROEN,C 3,Llantas,"Molduras laterales de puertas ""XTR""",C3 T200 FEEL PK YOU! MY26,no,3,local:citroen c3.pdf,39
+CITROEN,C 3,Llantas,"Personalización exterior capó y pilar C ""XTR""",C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,40
+CITROEN,C 3,Llantas,"Personalización exterior capó y pilar C ""XTR""",C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,40
+CITROEN,C 3,Llantas,"Personalización exterior capó y pilar C ""XTR""",C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,40
+CITROEN,C 3,Llantas,"Personalización exterior capó y pilar C ""XTR""",C3 T200 FEEL PK YOU! MY26,no,3,local:citroen c3.pdf,40
+CITROEN,C 3,Llantas,"Insignias exteriores ""XTR""",C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,41
+CITROEN,C 3,Llantas,"Insignias exteriores ""XTR""",C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,41
+CITROEN,C 3,Llantas,"Insignias exteriores ""XTR""",C3 VTi AT XTR MY26,si,2,local:citroen c3.pdf,41
+CITROEN,C 3,Llantas,"Insignias exteriores ""XTR""",C3 T200 FEEL PK YOU! MY26,no,3,local:citroen c3.pdf,41
+CITROEN,C 3,Llantas,Personalización en laterales YOU!,C3 VTi FEEL MY26,no,0,local:citroen c3.pdf,42
+CITROEN,C 3,Llantas,Personalización en laterales YOU!,C3 VTi AT FEEL PK MY26,no,1,local:citroen c3.pdf,42
+CITROEN,C 3,Llantas,Personalización en laterales YOU!,C3 VTi AT XTR MY26,no,2,local:citroen c3.pdf,42
+CITROEN,C 3,Llantas,Personalización en laterales YOU!,C3 T200 FEEL PK YOU! MY26,si,3,local:citroen c3.pdf,42

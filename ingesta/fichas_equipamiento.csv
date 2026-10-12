@@ -50,3 +50,51 @@ BYD,SONG PRO DM-i,catalogo,https://www.byd.com/material/byd-site/ar/flyers_argen
 BYD,ATTO 2,catalogo,https://www.byd.com/material/byd-site/ar/atto-2-dmi/FICHA-TECNICA-ATTO2-DM-i-2026.pdf,GS,2
 HAVAL,JOLION,catalogo,https://gwm.com.ar/FT-Jolion-Pro-HEV-2.pdf,PRO HEV,2
 HAVAL,H 6,catalogo,https://gwm.com.ar/FT-Haval-H6-4WD.pdf,4WD,1
+TOYOTA,HILUX PICK - UP,grilla,local:Hilux doble cabina.pdf,CS DX 4X2 6MT|CS DX 4X4 6MT|DC DX 4X2 6MT|DC DX 4X4 6MT|DC DX 4X2 6AT|DC DX 4X4 6AT|DC SR 4X2 6AT|DC SR 4X4 6MT|DC SR 4X4 6AT|DC SRV 4X2 6AT|DC SRV+ 4X4 6AT|DC SRX 4X4 6AT,
+TOYOTA,YARIS,grilla,local:Yaris.pdf,XS CVT|XLS+ CVT|S CVT,
+TOYOTA,COROLLA CROSS,grilla,local:Corolla cross.pdf,,
+TOYOTA,YARIS CROSS,grilla,local:Yariss cross.pdf,,
+TOYOTA,COROLLA,grilla,local:Corolla.pdf,,
+TOYOTA,HILUX SW4,grilla,local:SW4.pdf,SRX 4X4 6 AT,
+TOYOTA,HILUX SW4,grilla,local:SW4 DIAMOND.pdf,,
+TOYOTA,HILUX SW4,grilla,local:SW4 GR.pdf,GR-SPORT,
+TOYOTA,HIACE,grilla,local:HIACE FURGON.pdf,L1H1|FURGON L2H2,
+TOYOTA,RAV - 4,grilla,local:RAV4.pdf,,
+FIAT,CRONOS,posiciones,local:ficha-tecnica-cronos.pdf,LIKE|DRIVE PLUS|DRIVE CVT|PRECISION CVT,1
+FIAT,STRADA PICK - UP,posiciones,local:ficha-tecnica-strada.pdf,1.3 MT CS=FREEDOM 1.3 CS|1.3 MT CD=FREEDOM 1.3 CD|1.3 CVT CD=VOLCANO 1.3 CVT|1.0 CVT CD=RANCH|1.0T CVT CD=ULTRA,2
+FIAT,FIORINO,unica,local:FT_Fiorino_MY27.pdf,ENDURANCE 1.3 MT,
+FIAT,ARGO,unica,local:Argo.pdf,DRIVE 1.3,
+FIAT,TORO PICK UP,posiciones,local:fiat toro.pdf,FREEDOM 1.3T 4X2|VOLCANO 1.3T 4X2|VOLCANO 2.2TD 4X4,1
+FIAT,PULSE,posiciones,local:fiat pulse.pdf,MT5=DRIVE 1.3 MT5|CVT=DRIVE 1.3 CVT|CVT=AUDACE 1.0T CVT|CVT=IMPETUS 1.0T CVT,2
+FIAT,TITANO PICK UP,posiciones,local:fiat titano.pdf,ENDURANCE MT=ENDURANCE MT 2WD|ENDURANCE MT 4WD|FREEDOM MT 4WD|FREEDOM PLUS AT8 AWD|RANCH AT8 AWD,1
+FIAT,FASTBACK,unica,local:fiat fastback.pdf,TURBO 270 AT,
+FIAT,MOBI,unica,local:fiat mobi.pdf,TREKKING 1.0,
+FIAT,600,unica,local:fiat 600.pdf,HYBRID 1.2 EDCT,
+CITROEN,C 3,posiciones,local:citroen c3.pdf,C3 VTi FEEL MY26|C3 VTi AT FEEL PK MY26|C3 VTi AT XTR MY26|C3 T200 FEEL PK YOU! MY26,1
+CITROEN,BASALT,posiciones,local:citroen basalt.pdf,BASALT 1.3 LIVE PK MY26|BASALT 1.3 FEEL MY26|BASALT T200 SHINE MY26|BASALT T200 DARK EDITION MY26,1
+CITROEN,C 3 AIRCROSS,posiciones,local:citroen aircross.pdf,AIRCROSS 1.3 FEEL PK MY26.5|AIRCROSS T200 FEEL PK MY26.5|AIRCROSS T200 SHINE MY26.5|AIRCROSS T200 XTR MY26.5|AIRCROSS T200 SHINE 7 MY26.5,1
+CITROEN,C 4 HYBRID,posiciones,local:citroen c4.pdf,C4 Hybrid PLUS|C4 Hybrid MAX,1
+CITROEN,JUMPER,posiciones,local:citroen jumper.pdf,JUMPER L2H2 HDI 140 VAN MY26|JUMPER L3H2 HDI 140 VAN MY26,1
+CITROEN,BERLINGO,unica,local:berlingo.pdf,VAN L2 HDI 92,
+NISSAN,VERSA,posiciones,local:Nuevo Nissan Versa - Ficha Técnica - 10-01-2024.pdf,MT=SENSE MT|MT=ADVANCE MT|CVT=ADVANCE CVT|CVT=SR CVT|CVT=EXCLUSIVE CVT,1
+NISSAN,KAIT,catalogo,local:nissan kait.pdf,SENSE|ADVANCE|EXCLUSIVE,1
+NISSAN,SENTRA,lineas,local:260317_sentra_my24_ficha_tecnica.pdf,,
+NISSAN,KICKS,dibujo,local:251210_kicks_my25_ficha_tecnica.pdf,SENSE|ADVANCE|EXCLUSIVE,1
+RENAULT,KARDIAN,configurador,local:KARDIAN Evolution 156 MT.pdf,EVOLUTION 156 MT,
+RENAULT,KARDIAN,configurador,local:KARDIAN Evolution 200 EDC.pdf,EVOLUTION 200 EDC,
+RENAULT,ARKANA E-TECH,configurador,local:ARKANA HYBRID E-TECH Esprit Alpine.pdf,ESPRIT ALPINE,
+RENAULT,BOREAL,configurador,local:BOREAL evolution.pdf,EVOLUTION,
+RENAULT,KOLEOS,configurador,local:KOLEOS Techno.pdf,TECHNO,
+RENAULT,KOLEOS,configurador,local:KOLEOS esprit Alpine full hybrid E-Tech.pdf,ESPRIT ALPINE,
+RENAULT,DUSTER OROCH PICK - UP,configurador,local:OROCH Emotion 1.6 SCe 114 2WD,EMOTION 1.6 SCE 114 2WD,
+RENAULT,DUSTER OROCH PICK - UP,configurador,local:OROCH Iconic 1.3 TCe 2WD CVT,ICONIC 1.3 TCE 2WD CVT,
+RENAULT,DUSTER OROCH PICK - UP,configurador,local:OROCH Outsider 1.3 TCe 4WD,OUTSIDER 1.3 TCE 4WD,
+MG,ZS,catalogo,local:mg-zs-hev.pdf,HYBRID + COMFORT|HYBRID + LUXURY,2
+MG,3 HYBRID,catalogo,local:mg-3-hev.pdf,HYBRID + COMFORT|HYBRID + LUXURY,2
+JAC,JS4,catalogo,local:JACJS4-Ficha-tecnica-2025.pdf,LUXURY|FLAGSHIP 1.5 CVT,1
+JAC,S2,catalogo,local:JACS2-FL-Ficha-tecnica-2025.pdf,INTELLIGENT|LUXURY,1
+JAC,JS6,unica,local:20251003_jac_js6phev_fichatecnica.pdf,PHEV,
+JAC,JS8,unica,local:JAC-JS8-Pro-ficha-tecnica.pdf,PRO,
+FORD,MUSTANG,matriz,local:far-ficha-tecnica-mustang.pdf,,
+BYD,SHARK DMO,catalogo,local:BYD-SHARK-ARG.pdf,GS,2
+BYD,SEAL U DM-i,catalogo,local:2026 06 Ficha tenica - BYD SEAL U DM-i ARG.pdf,GS,2

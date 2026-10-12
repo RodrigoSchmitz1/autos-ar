@@ -1,0 +1,266 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,STRADA PICK - UP,EXTERIOR,Faros antiniebla delanteros,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,0
+FIAT,STRADA PICK - UP,EXTERIOR,Faros antiniebla delanteros,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,0
+FIAT,STRADA PICK - UP,EXTERIOR,Faros antiniebla delanteros,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,0
+FIAT,STRADA PICK - UP,EXTERIOR,Faros antiniebla delanteros,RANCH,si,3,local:ficha-tecnica-strada.pdf,0
+FIAT,STRADA PICK - UP,EXTERIOR,Faros antiniebla delanteros,ULTRA,si,4,local:ficha-tecnica-strada.pdf,0
+FIAT,STRADA PICK - UP,EXTERIOR,Faros delanteros LED,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,1
+FIAT,STRADA PICK - UP,EXTERIOR,Faros delanteros LED,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,1
+FIAT,STRADA PICK - UP,EXTERIOR,Faros delanteros LED,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,1
+FIAT,STRADA PICK - UP,EXTERIOR,Faros delanteros LED,RANCH,si,3,local:ficha-tecnica-strada.pdf,1
+FIAT,STRADA PICK - UP,EXTERIOR,Faros delanteros LED,ULTRA,si,4,local:ficha-tecnica-strada.pdf,1
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 15'',FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,2
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 15'',FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,2
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 15'',VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,2
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 15'',RANCH,no,3,local:ficha-tecnica-strada.pdf,2
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 15'',ULTRA,no,4,local:ficha-tecnica-strada.pdf,2
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 16'',FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,3
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 16'',FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,3
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 16'',VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,3
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 16'',RANCH,si,3,local:ficha-tecnica-strada.pdf,3
+FIAT,STRADA PICK - UP,EXTERIOR,Llantas de aleación de 16'',ULTRA,si,4,local:ficha-tecnica-strada.pdf,3
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos de uso mixto,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,4
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos de uso mixto,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,4
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos de uso mixto,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,4
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos de uso mixto,RANCH,no,3,local:ficha-tecnica-strada.pdf,4
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos de uso mixto,ULTRA,si,4,local:ficha-tecnica-strada.pdf,4
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos ATR (All Terrain),FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,5
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos ATR (All Terrain),FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,5
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos ATR (All Terrain),VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,5
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos ATR (All Terrain),RANCH,si,3,local:ficha-tecnica-strada.pdf,5
+FIAT,STRADA PICK - UP,EXTERIOR,Neumáticos ATR (All Terrain),ULTRA,no,4,local:ficha-tecnica-strada.pdf,5
+FIAT,STRADA PICK - UP,EXTERIOR,Paragolpes color carrocería,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,6
+FIAT,STRADA PICK - UP,EXTERIOR,Paragolpes color carrocería,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,6
+FIAT,STRADA PICK - UP,EXTERIOR,Paragolpes color carrocería,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,6
+FIAT,STRADA PICK - UP,EXTERIOR,Paragolpes color carrocería,RANCH,si,3,local:ficha-tecnica-strada.pdf,6
+FIAT,STRADA PICK - UP,EXTERIOR,Paragolpes color carrocería,ULTRA,si,4,local:ficha-tecnica-strada.pdf,6
+FIAT,STRADA PICK - UP,EXTERIOR,Espejos exteriores color negro con repetidor de giro,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,7
+FIAT,STRADA PICK - UP,EXTERIOR,Espejos exteriores color negro con repetidor de giro,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,7
+FIAT,STRADA PICK - UP,EXTERIOR,Espejos exteriores color negro con repetidor de giro,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,7
+FIAT,STRADA PICK - UP,EXTERIOR,Espejos exteriores color negro con repetidor de giro,RANCH,si,3,local:ficha-tecnica-strada.pdf,7
+FIAT,STRADA PICK - UP,EXTERIOR,Espejos exteriores color negro con repetidor de giro,ULTRA,si,4,local:ficha-tecnica-strada.pdf,7
+FIAT,STRADA PICK - UP,EXTERIOR,Barra longitudinal portaequipaje,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,8
+FIAT,STRADA PICK - UP,EXTERIOR,Barra longitudinal portaequipaje,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,8
+FIAT,STRADA PICK - UP,EXTERIOR,Barra longitudinal portaequipaje,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,8
+FIAT,STRADA PICK - UP,EXTERIOR,Barra longitudinal portaequipaje,RANCH,si,3,local:ficha-tecnica-strada.pdf,8
+FIAT,STRADA PICK - UP,EXTERIOR,Barra longitudinal portaequipaje,ULTRA,si,4,local:ficha-tecnica-strada.pdf,8
+FIAT,STRADA PICK - UP,EXTERIOR,Capota cubre carga,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,9
+FIAT,STRADA PICK - UP,EXTERIOR,Capota cubre carga,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,9
+FIAT,STRADA PICK - UP,EXTERIOR,Capota cubre carga,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,9
+FIAT,STRADA PICK - UP,EXTERIOR,Capota cubre carga,RANCH,si,3,local:ficha-tecnica-strada.pdf,9
+FIAT,STRADA PICK - UP,EXTERIOR,Capota cubre carga,ULTRA,si,4,local:ficha-tecnica-strada.pdf,9
+FIAT,STRADA PICK - UP,EXTERIOR,Iluminación en caja de carga,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,10
+FIAT,STRADA PICK - UP,EXTERIOR,Iluminación en caja de carga,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,10
+FIAT,STRADA PICK - UP,EXTERIOR,Iluminación en caja de carga,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,10
+FIAT,STRADA PICK - UP,EXTERIOR,Iluminación en caja de carga,RANCH,si,3,local:ficha-tecnica-strada.pdf,10
+FIAT,STRADA PICK - UP,EXTERIOR,Iluminación en caja de carga,ULTRA,si,4,local:ficha-tecnica-strada.pdf,10
+FIAT,STRADA PICK - UP,EXTERIOR,Caja de carga modular con ganchos de sujeción,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,11
+FIAT,STRADA PICK - UP,EXTERIOR,Caja de carga modular con ganchos de sujeción,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,11
+FIAT,STRADA PICK - UP,EXTERIOR,Caja de carga modular con ganchos de sujeción,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,11
+FIAT,STRADA PICK - UP,EXTERIOR,Caja de carga modular con ganchos de sujeción,RANCH,si,3,local:ficha-tecnica-strada.pdf,11
+FIAT,STRADA PICK - UP,EXTERIOR,Caja de carga modular con ganchos de sujeción,ULTRA,si,4,local:ficha-tecnica-strada.pdf,11
+FIAT,STRADA PICK - UP,EXTERIOR,Portón trasero con apertura amortiguada,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,12
+FIAT,STRADA PICK - UP,EXTERIOR,Portón trasero con apertura amortiguada,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,12
+FIAT,STRADA PICK - UP,EXTERIOR,Portón trasero con apertura amortiguada,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,12
+FIAT,STRADA PICK - UP,EXTERIOR,Portón trasero con apertura amortiguada,RANCH,si,3,local:ficha-tecnica-strada.pdf,12
+FIAT,STRADA PICK - UP,EXTERIOR,Portón trasero con apertura amortiguada,ULTRA,si,4,local:ficha-tecnica-strada.pdf,12
+FIAT,STRADA PICK - UP,EXTERIOR,Protección de luneta,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,13
+FIAT,STRADA PICK - UP,EXTERIOR,Protección de luneta,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,13
+FIAT,STRADA PICK - UP,EXTERIOR,Protección de luneta,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,13
+FIAT,STRADA PICK - UP,EXTERIOR,Protección de luneta,RANCH,si,3,local:ficha-tecnica-strada.pdf,13
+FIAT,STRADA PICK - UP,EXTERIOR,Protección de luneta,ULTRA,si,4,local:ficha-tecnica-strada.pdf,13
+FIAT,STRADA PICK - UP,EXTERIOR,Molduras laterales,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,14
+FIAT,STRADA PICK - UP,EXTERIOR,Molduras laterales,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,14
+FIAT,STRADA PICK - UP,EXTERIOR,Molduras laterales,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,14
+FIAT,STRADA PICK - UP,EXTERIOR,Molduras laterales,RANCH,si,3,local:ficha-tecnica-strada.pdf,14
+FIAT,STRADA PICK - UP,EXTERIOR,Molduras laterales,ULTRA,si,4,local:ficha-tecnica-strada.pdf,14
+FIAT,STRADA PICK - UP,EXTERIOR,Estribos laterales,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,15
+FIAT,STRADA PICK - UP,EXTERIOR,Estribos laterales,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,15
+FIAT,STRADA PICK - UP,EXTERIOR,Estribos laterales,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,15
+FIAT,STRADA PICK - UP,EXTERIOR,Estribos laterales,RANCH,si,3,local:ficha-tecnica-strada.pdf,15
+FIAT,STRADA PICK - UP,EXTERIOR,Estribos laterales,ULTRA,si,4,local:ficha-tecnica-strada.pdf,15
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ranch,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,16
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ranch,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,16
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ranch,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,16
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ranch,RANCH,si,3,local:ficha-tecnica-strada.pdf,16
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ranch,ULTRA,no,4,local:ficha-tecnica-strada.pdf,16
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ultra,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,17
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ultra,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,17
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ultra,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,17
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ultra,RANCH,no,3,local:ficha-tecnica-strada.pdf,17
+FIAT,STRADA PICK - UP,EXTERIOR,Badge trasero Ultra,ULTRA,si,4,local:ficha-tecnica-strada.pdf,17
+FIAT,STRADA PICK - UP,SEGURIDAD,ABS con EBD,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,18
+FIAT,STRADA PICK - UP,SEGURIDAD,ABS con EBD,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,18
+FIAT,STRADA PICK - UP,SEGURIDAD,ABS con EBD,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,18
+FIAT,STRADA PICK - UP,SEGURIDAD,ABS con EBD,RANCH,si,3,local:ficha-tecnica-strada.pdf,18
+FIAT,STRADA PICK - UP,SEGURIDAD,ABS con EBD,ULTRA,si,4,local:ficha-tecnica-strada.pdf,18
+FIAT,STRADA PICK - UP,SEGURIDAD,TC+ (Control de tracción +),FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,19
+FIAT,STRADA PICK - UP,SEGURIDAD,TC+ (Control de tracción +),FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,19
+FIAT,STRADA PICK - UP,SEGURIDAD,TC+ (Control de tracción +),VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,19
+FIAT,STRADA PICK - UP,SEGURIDAD,TC+ (Control de tracción +),RANCH,si,3,local:ficha-tecnica-strada.pdf,19
+FIAT,STRADA PICK - UP,SEGURIDAD,TC+ (Control de tracción +),ULTRA,si,4,local:ficha-tecnica-strada.pdf,19
+FIAT,STRADA PICK - UP,SEGURIDAD,Control electrónico de estabilidad (ESC),FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,20
+FIAT,STRADA PICK - UP,SEGURIDAD,Control electrónico de estabilidad (ESC),FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,20
+FIAT,STRADA PICK - UP,SEGURIDAD,Control electrónico de estabilidad (ESC),VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,20
+FIAT,STRADA PICK - UP,SEGURIDAD,Control electrónico de estabilidad (ESC),RANCH,si,3,local:ficha-tecnica-strada.pdf,20
+FIAT,STRADA PICK - UP,SEGURIDAD,Control electrónico de estabilidad (ESC),ULTRA,si,4,local:ficha-tecnica-strada.pdf,20
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags (frontales conductor y pasajero),FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,21
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags (frontales conductor y pasajero),FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,21
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags (frontales conductor y pasajero),VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,21
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags (frontales conductor y pasajero),RANCH,si,3,local:ficha-tecnica-strada.pdf,21
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags (frontales conductor y pasajero),ULTRA,si,4,local:ficha-tecnica-strada.pdf,21
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags laterales,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,22
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags laterales,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,22
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags laterales,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,22
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags laterales,RANCH,si,3,local:ficha-tecnica-strada.pdf,22
+FIAT,STRADA PICK - UP,SEGURIDAD,2 Airbags laterales,ULTRA,si,4,local:ficha-tecnica-strada.pdf,22
+FIAT,STRADA PICK - UP,SEGURIDAD,Alarma perimetral,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,23
+FIAT,STRADA PICK - UP,SEGURIDAD,Alarma perimetral,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,23
+FIAT,STRADA PICK - UP,SEGURIDAD,Alarma perimetral,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,23
+FIAT,STRADA PICK - UP,SEGURIDAD,Alarma perimetral,RANCH,si,3,local:ficha-tecnica-strada.pdf,23
+FIAT,STRADA PICK - UP,SEGURIDAD,Alarma perimetral,ULTRA,si,4,local:ficha-tecnica-strada.pdf,23
+FIAT,STRADA PICK - UP,SEGURIDAD,Apoyacabezas traseros (3),FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,24
+FIAT,STRADA PICK - UP,SEGURIDAD,Apoyacabezas traseros (3),FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,24
+FIAT,STRADA PICK - UP,SEGURIDAD,Apoyacabezas traseros (3),VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,24
+FIAT,STRADA PICK - UP,SEGURIDAD,Apoyacabezas traseros (3),RANCH,si,3,local:ficha-tecnica-strada.pdf,24
+FIAT,STRADA PICK - UP,SEGURIDAD,Apoyacabezas traseros (3),ULTRA,si,4,local:ficha-tecnica-strada.pdf,24
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,25
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,25
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,25
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),RANCH,si,3,local:ficha-tecnica-strada.pdf,25
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),ULTRA,si,4,local:ficha-tecnica-strada.pdf,25
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,26
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,26
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,26
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),RANCH,si,3,local:ficha-tecnica-strada.pdf,26
+FIAT,STRADA PICK - UP,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),ULTRA,si,4,local:ficha-tecnica-strada.pdf,26
+FIAT,STRADA PICK - UP,CONFORT,Climatizador automático,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,27
+FIAT,STRADA PICK - UP,CONFORT,Climatizador automático,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,27
+FIAT,STRADA PICK - UP,CONFORT,Climatizador automático,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,27
+FIAT,STRADA PICK - UP,CONFORT,Climatizador automático,RANCH,si,3,local:ficha-tecnica-strada.pdf,27
+FIAT,STRADA PICK - UP,CONFORT,Climatizador automático,ULTRA,si,4,local:ficha-tecnica-strada.pdf,27
+FIAT,STRADA PICK - UP,CONFORT,Apoyapie lado conductor,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,28
+FIAT,STRADA PICK - UP,CONFORT,Apoyapie lado conductor,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,28
+FIAT,STRADA PICK - UP,CONFORT,Apoyapie lado conductor,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,28
+FIAT,STRADA PICK - UP,CONFORT,Apoyapie lado conductor,RANCH,si,3,local:ficha-tecnica-strada.pdf,28
+FIAT,STRADA PICK - UP,CONFORT,Apoyapie lado conductor,ULTRA,si,4,local:ficha-tecnica-strada.pdf,28
+FIAT,STRADA PICK - UP,CONFORT,Asiento conductor con regulación en altura,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,29
+FIAT,STRADA PICK - UP,CONFORT,Asiento conductor con regulación en altura,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,29
+FIAT,STRADA PICK - UP,CONFORT,Asiento conductor con regulación en altura,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,29
+FIAT,STRADA PICK - UP,CONFORT,Asiento conductor con regulación en altura,RANCH,si,3,local:ficha-tecnica-strada.pdf,29
+FIAT,STRADA PICK - UP,CONFORT,Asiento conductor con regulación en altura,ULTRA,si,4,local:ficha-tecnica-strada.pdf,29
+FIAT,STRADA PICK - UP,CONFORT,Cámara de retroceso,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,30
+FIAT,STRADA PICK - UP,CONFORT,Cámara de retroceso,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,30
+FIAT,STRADA PICK - UP,CONFORT,Cámara de retroceso,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,30
+FIAT,STRADA PICK - UP,CONFORT,Cámara de retroceso,RANCH,si,3,local:ficha-tecnica-strada.pdf,30
+FIAT,STRADA PICK - UP,CONFORT,Cámara de retroceso,ULTRA,si,4,local:ficha-tecnica-strada.pdf,30
+FIAT,STRADA PICK - UP,CONFORT,Sensores de estacionamiento trasero,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,31
+FIAT,STRADA PICK - UP,CONFORT,Sensores de estacionamiento trasero,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,31
+FIAT,STRADA PICK - UP,CONFORT,Sensores de estacionamiento trasero,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,31
+FIAT,STRADA PICK - UP,CONFORT,Sensores de estacionamiento trasero,RANCH,si,3,local:ficha-tecnica-strada.pdf,31
+FIAT,STRADA PICK - UP,CONFORT,Sensores de estacionamiento trasero,ULTRA,si,4,local:ficha-tecnica-strada.pdf,31
+FIAT,STRADA PICK - UP,CONFORT,Volante forrado en cuero,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,32
+FIAT,STRADA PICK - UP,CONFORT,Volante forrado en cuero,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,32
+FIAT,STRADA PICK - UP,CONFORT,Volante forrado en cuero,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,32
+FIAT,STRADA PICK - UP,CONFORT,Volante forrado en cuero,RANCH,si,3,local:ficha-tecnica-strada.pdf,32
+FIAT,STRADA PICK - UP,CONFORT,Volante forrado en cuero,ULTRA,si,4,local:ficha-tecnica-strada.pdf,32
+FIAT,STRADA PICK - UP,CONFORT,Apoyabrazos central delantero,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,33
+FIAT,STRADA PICK - UP,CONFORT,Apoyabrazos central delantero,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,33
+FIAT,STRADA PICK - UP,CONFORT,Apoyabrazos central delantero,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,33
+FIAT,STRADA PICK - UP,CONFORT,Apoyabrazos central delantero,RANCH,si,3,local:ficha-tecnica-strada.pdf,33
+FIAT,STRADA PICK - UP,CONFORT,Apoyabrazos central delantero,ULTRA,si,4,local:ficha-tecnica-strada.pdf,33
+FIAT,STRADA PICK - UP,CONFORT,Cierre centralizado de puertas y traba automática,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,34
+FIAT,STRADA PICK - UP,CONFORT,Cierre centralizado de puertas y traba automática,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,34
+FIAT,STRADA PICK - UP,CONFORT,Cierre centralizado de puertas y traba automática,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,34
+FIAT,STRADA PICK - UP,CONFORT,Cierre centralizado de puertas y traba automática,RANCH,si,3,local:ficha-tecnica-strada.pdf,34
+FIAT,STRADA PICK - UP,CONFORT,Cierre centralizado de puertas y traba automática,ULTRA,si,4,local:ficha-tecnica-strada.pdf,34
+FIAT,STRADA PICK - UP,CONFORT,Apertura remota de tanque de combustible,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,35
+FIAT,STRADA PICK - UP,CONFORT,Apertura remota de tanque de combustible,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,35
+FIAT,STRADA PICK - UP,CONFORT,Apertura remota de tanque de combustible,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,35
+FIAT,STRADA PICK - UP,CONFORT,Apertura remota de tanque de combustible,RANCH,si,3,local:ficha-tecnica-strada.pdf,35
+FIAT,STRADA PICK - UP,CONFORT,Apertura remota de tanque de combustible,ULTRA,si,4,local:ficha-tecnica-strada.pdf,35
+FIAT,STRADA PICK - UP,CONFORT,Dirección asistida,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,36
+FIAT,STRADA PICK - UP,CONFORT,Dirección asistida,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,36
+FIAT,STRADA PICK - UP,CONFORT,Dirección asistida,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,36
+FIAT,STRADA PICK - UP,CONFORT,Dirección asistida,RANCH,si,3,local:ficha-tecnica-strada.pdf,36
+FIAT,STRADA PICK - UP,CONFORT,Dirección asistida,ULTRA,si,4,local:ficha-tecnica-strada.pdf,36
+FIAT,STRADA PICK - UP,CONFORT,Volante regulable en altura,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,37
+FIAT,STRADA PICK - UP,CONFORT,Volante regulable en altura,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,37
+FIAT,STRADA PICK - UP,CONFORT,Volante regulable en altura,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,37
+FIAT,STRADA PICK - UP,CONFORT,Volante regulable en altura,RANCH,si,3,local:ficha-tecnica-strada.pdf,37
+FIAT,STRADA PICK - UP,CONFORT,Volante regulable en altura,ULTRA,si,4,local:ficha-tecnica-strada.pdf,37
+FIAT,STRADA PICK - UP,CONFORT,Espejos retrovisores eléctricos,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,38
+FIAT,STRADA PICK - UP,CONFORT,Espejos retrovisores eléctricos,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,38
+FIAT,STRADA PICK - UP,CONFORT,Espejos retrovisores eléctricos,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,38
+FIAT,STRADA PICK - UP,CONFORT,Espejos retrovisores eléctricos,RANCH,si,3,local:ficha-tecnica-strada.pdf,38
+FIAT,STRADA PICK - UP,CONFORT,Espejos retrovisores eléctricos,ULTRA,si,4,local:ficha-tecnica-strada.pdf,38
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 2 puertas,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,39
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 2 puertas,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,39
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 2 puertas,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,39
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 2 puertas,RANCH,no,3,local:ficha-tecnica-strada.pdf,39
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 2 puertas,ULTRA,no,4,local:ficha-tecnica-strada.pdf,39
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 4 puertas,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,40
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 4 puertas,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,40
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 4 puertas,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,40
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 4 puertas,RANCH,si,3,local:ficha-tecnica-strada.pdf,40
+FIAT,STRADA PICK - UP,CONFORT,Levantacristales eléctricos en las 4 puertas,ULTRA,si,4,local:ficha-tecnica-strada.pdf,40
+FIAT,STRADA PICK - UP,CONFORT,Luz de caja automática,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,41
+FIAT,STRADA PICK - UP,CONFORT,Luz de caja automática,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,41
+FIAT,STRADA PICK - UP,CONFORT,Luz de caja automática,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,41
+FIAT,STRADA PICK - UP,CONFORT,Luz de caja automática,RANCH,si,3,local:ficha-tecnica-strada.pdf,41
+FIAT,STRADA PICK - UP,CONFORT,Luz de caja automática,ULTRA,si,4,local:ficha-tecnica-strada.pdf,41
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Computadora de a bordo,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,42
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Computadora de a bordo,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,42
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Computadora de a bordo,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,42
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Computadora de a bordo,RANCH,si,3,local:ficha-tecnica-strada.pdf,42
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Computadora de a bordo,ULTRA,si,4,local:ficha-tecnica-strada.pdf,42
+FIAT,STRADA PICK - UP,TECNOLOGÍA,"Display de tablero multifunción 3,5''",FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,43
+FIAT,STRADA PICK - UP,TECNOLOGÍA,"Display de tablero multifunción 3,5''",FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,43
+FIAT,STRADA PICK - UP,TECNOLOGÍA,"Display de tablero multifunción 3,5''",VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,43
+FIAT,STRADA PICK - UP,TECNOLOGÍA,"Display de tablero multifunción 3,5''",RANCH,si,3,local:ficha-tecnica-strada.pdf,43
+FIAT,STRADA PICK - UP,TECNOLOGÍA,"Display de tablero multifunción 3,5''",ULTRA,si,4,local:ficha-tecnica-strada.pdf,43
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Indicador de temperatura externa,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,44
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Indicador de temperatura externa,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,44
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Indicador de temperatura externa,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,44
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Indicador de temperatura externa,RANCH,si,3,local:ficha-tecnica-strada.pdf,44
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Indicador de temperatura externa,ULTRA,si,4,local:ficha-tecnica-strada.pdf,44
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Radio 1DIN AM/FM,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,45
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Radio 1DIN AM/FM,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,45
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Radio 1DIN AM/FM,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,45
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Radio 1DIN AM/FM,RANCH,no,3,local:ficha-tecnica-strada.pdf,45
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Radio 1DIN AM/FM,ULTRA,no,4,local:ficha-tecnica-strada.pdf,45
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Pantalla multimedia touch 7'' con Android Auto & Apple Car Play,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,46
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Pantalla multimedia touch 7'' con Android Auto & Apple Car Play,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,46
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Pantalla multimedia touch 7'' con Android Auto & Apple Car Play,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,46
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Pantalla multimedia touch 7'' con Android Auto & Apple Car Play,RANCH,si,3,local:ficha-tecnica-strada.pdf,46
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Pantalla multimedia touch 7'' con Android Auto & Apple Car Play,ULTRA,si,4,local:ficha-tecnica-strada.pdf,46
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Comandos de radio/teléfono en volante,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,47
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Comandos de radio/teléfono en volante,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,47
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Comandos de radio/teléfono en volante,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,47
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Comandos de radio/teléfono en volante,RANCH,si,3,local:ficha-tecnica-strada.pdf,47
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Comandos de radio/teléfono en volante,ULTRA,si,4,local:ficha-tecnica-strada.pdf,47
+FIAT,STRADA PICK - UP,TECNOLOGÍA,2 parlantes,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,48
+FIAT,STRADA PICK - UP,TECNOLOGÍA,2 parlantes,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,48
+FIAT,STRADA PICK - UP,TECNOLOGÍA,2 parlantes,VOLCANO 1.3 CVT,no,2,local:ficha-tecnica-strada.pdf,48
+FIAT,STRADA PICK - UP,TECNOLOGÍA,2 parlantes,RANCH,no,3,local:ficha-tecnica-strada.pdf,48
+FIAT,STRADA PICK - UP,TECNOLOGÍA,2 parlantes,ULTRA,no,4,local:ficha-tecnica-strada.pdf,48
+FIAT,STRADA PICK - UP,TECNOLOGÍA,6 parlantes,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,49
+FIAT,STRADA PICK - UP,TECNOLOGÍA,6 parlantes,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,49
+FIAT,STRADA PICK - UP,TECNOLOGÍA,6 parlantes,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,49
+FIAT,STRADA PICK - UP,TECNOLOGÍA,6 parlantes,RANCH,si,3,local:ficha-tecnica-strada.pdf,49
+FIAT,STRADA PICK - UP,TECNOLOGÍA,6 parlantes,ULTRA,si,4,local:ficha-tecnica-strada.pdf,49
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Puerto USB A/C,FREEDOM 1.3 CS,si,0,local:ficha-tecnica-strada.pdf,50
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Puerto USB A/C,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,50
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Puerto USB A/C,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,50
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Puerto USB A/C,RANCH,si,3,local:ficha-tecnica-strada.pdf,50
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Puerto USB A/C,ULTRA,si,4,local:ficha-tecnica-strada.pdf,50
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Cargador celular inalámbrico,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,51
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Cargador celular inalámbrico,FREEDOM 1.3 CD,si,1,local:ficha-tecnica-strada.pdf,51
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Cargador celular inalámbrico,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,51
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Cargador celular inalámbrico,RANCH,si,3,local:ficha-tecnica-strada.pdf,51
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Cargador celular inalámbrico,ULTRA,si,4,local:ficha-tecnica-strada.pdf,51
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Modo Sport,FREEDOM 1.3 CS,no,0,local:ficha-tecnica-strada.pdf,52
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Modo Sport,FREEDOM 1.3 CD,no,1,local:ficha-tecnica-strada.pdf,52
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Modo Sport,VOLCANO 1.3 CVT,si,2,local:ficha-tecnica-strada.pdf,52
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Modo Sport,RANCH,si,3,local:ficha-tecnica-strada.pdf,52
+FIAT,STRADA PICK - UP,TECNOLOGÍA,Modo Sport,ULTRA,si,4,local:ficha-tecnica-strada.pdf,52

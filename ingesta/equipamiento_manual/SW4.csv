@@ -1,0 +1,84 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,HILUX SW4,Motor,Modelo,SRX 4X4 6 AT,Toyota 1GD (2.8l),0,local:SW4.pdf,0
+TOYOTA,HILUX SW4,Motor,Combustible,SRX 4X4 6 AT,Diésel Grado 3*,0,local:SW4.pdf,1
+TOYOTA,HILUX SW4,Motor,Normativa de emisión,SRX 4X4 6 AT,Euro5 con filtro de partículas DPF,0,local:SW4.pdf,2
+TOYOTA,HILUX SW4,Motor,Tipo,SRX 4X4 6 AT,4 cilindros en línea con Turbocompresor de geometría variable (TGV) e intercooler,0,local:SW4.pdf,3
+TOYOTA,HILUX SW4,Motor,Alimentación,SRX 4X4 6 AT,Inyección directa electrónica Common-Rail,0,local:SW4.pdf,4
+TOYOTA,HILUX SW4,Motor,Distribución,SRX 4X4 6 AT,"16 válvulas, DOHC con cadena de distribución",0,local:SW4.pdf,5
+TOYOTA,HILUX SW4,Motor,Diámetro y carrera de pistón (mm),SRX 4X4 6 AT,"92 x 103,6",0,local:SW4.pdf,6
+TOYOTA,HILUX SW4,Motor,Relación de compresión,SRX 4X4 6 AT,"15,6:1",0,local:SW4.pdf,7
+TOYOTA,HILUX SW4,Motor,Cilindrada (cm3),SRX 4X4 6 AT,2.755,0,local:SW4.pdf,8
+TOYOTA,HILUX SW4,Motor,Potencia máxima (CV (kW)/rpm),SRX 4X4 6 AT,204 (150) / 3.000 - 3.400,0,local:SW4.pdf,9
+TOYOTA,HILUX SW4,Motor,Torque máximo (Nm/rpm),SRX 4X4 6 AT,500 (1.600 - 2.800),0,local:SW4.pdf,10
+TOYOTA,HILUX SW4,Transmisión,Tracción,SRX 4X4 6 AT,"4x2, 4x4 y 4x4 reducida con accionamiento electrónico, ADD (Desconexión automática de diferencial) y A-TRC (Control de Tracción Activo)",0,local:SW4.pdf,11
+TOYOTA,HILUX SW4,Chasis,Suspensión,SRX 4X4 6 AT,"Independiente con doble brazo de suspensión, resortes helicoidales, amortiguadores telescópicos y barra estabilizadora",0,local:SW4.pdf,12
+TOYOTA,HILUX SW4,Chasis,Dirección,SRX 4X4 6 AT,Hidráulica de piñón y cremallera con asistencia variable,0,local:SW4.pdf,13
+TOYOTA,HILUX SW4,Chasis,Frenos,SRX 4X4 6 AT,Discos ventilados,0,local:SW4.pdf,14
+TOYOTA,HILUX SW4,Dimensiones y pesos,Total,SRX 4X4 6 AT,4.795,0,local:SW4.pdf,15
+TOYOTA,HILUX SW4,Dimensiones y pesos,Distancia entre ejes (mm),SRX 4X4 6 AT,2.745,0,local:SW4.pdf,16
+TOYOTA,HILUX SW4,Dimensiones y pesos,Despeje mínimo del suelo (mm),SRX 4X4 6 AT,227,0,local:SW4.pdf,17
+TOYOTA,HILUX SW4,Dimensiones y pesos,Peso en orden de marcha (mín-máx) (kg),SRX 4X4 6 AT,2.140 - 2.185,0,local:SW4.pdf,18
+TOYOTA,HILUX SW4,Dimensiones y pesos,Peso bruto total (kg),SRX 4X4 6 AT,2.750,0,local:SW4.pdf,19
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad del tanque de combustible (l),SRX 4X4 6 AT,80,0,local:SW4.pdf,20
+TOYOTA,HILUX SW4,Dimensiones y pesos,Radio mínimo de giro (m),SRX 4X4 6 AT,"6,2",0,local:SW4.pdf,21
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad de remolque con frenos (kg),SRX 4X4 6 AT,3.000,0,local:SW4.pdf,22
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad de remolque sin frenos (kg),SRX 4X4 6 AT,750,0,local:SW4.pdf,23
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad de pasajeros,SRX 4X4 6 AT,7,0,local:SW4.pdf,24
+TOYOTA,HILUX SW4,Exterior,"Espejos exteriores retráctiles eléctricamente, regulación eléctrica y luz de giro incorporada",SRX 4X4 6 AT,si,0,local:SW4.pdf,25
+TOYOTA,HILUX SW4,Exterior,Espejos exteriores con desempañador,SRX 4X4 6 AT,si,0,local:SW4.pdf,26
+TOYOTA,HILUX SW4,Exterior,Estribos laterales,SRX 4X4 6 AT,si,0,local:SW4.pdf,27
+TOYOTA,HILUX SW4,Exterior,"Faros delanteros Bi-LED con ""Follow me home"" y regulación automática en altura",SRX 4X4 6 AT,si,0,local:SW4.pdf,28
+TOYOTA,HILUX SW4,Exterior,Luces diurnas (DRL) (LED),SRX 4X4 6 AT,si,0,local:SW4.pdf,29
+TOYOTA,HILUX SW4,Exterior,Faros traseros de LED,SRX 4X4 6 AT,si,0,local:SW4.pdf,30
+TOYOTA,HILUX SW4,Exterior,"Llantas de aleación 18"" con neumáticos 265/60 R18",SRX 4X4 6 AT,si,0,local:SW4.pdf,31
+TOYOTA,HILUX SW4,Exterior,Manijas exteriores y molduras en ventanillas cromadas,SRX 4X4 6 AT,si,0,local:SW4.pdf,32
+TOYOTA,HILUX SW4,Exterior,"Protector de Cárter ""Heavy Duty""",SRX 4X4 6 AT,si,0,local:SW4.pdf,33
+TOYOTA,HILUX SW4,Exterior,Sensores de estacionamiento delanteros (x2) y traseros (x4),SRX 4X4 6 AT,si,0,local:SW4.pdf,34
+TOYOTA,HILUX SW4,Interior,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),SRX 4X4 6 AT,si,0,local:SW4.pdf,35
+TOYOTA,HILUX SW4,Interior,Butacas con regulación eléctrica para el conductor y acompañante,SRX 4X4 6 AT,si,0,local:SW4.pdf,36
+TOYOTA,HILUX SW4,Interior,Tapizado de cuero natural y ecológico,SRX 4X4 6 AT,si,0,local:SW4.pdf,37
+TOYOTA,HILUX SW4,Interior,Butacas delanteras con función de ventilación,SRX 4X4 6 AT,si,0,local:SW4.pdf,38
+TOYOTA,HILUX SW4,Interior,Segunda fila de asientos 60/40 con regulación longitudinal y respaldo reclinable,SRX 4X4 6 AT,si,0,local:SW4.pdf,39
+TOYOTA,HILUX SW4,Interior,Tercera fila de asientos con respaldo reclinable,SRX 4X4 6 AT,si,0,local:SW4.pdf,40
+TOYOTA,HILUX SW4,Interior,"Volante con control de audio, de teléfono y de display de información múltiple",SRX 4X4 6 AT,si,0,local:SW4.pdf,41
+TOYOTA,HILUX SW4,Interior,Volante forrado en cuero natural con regulación en altura y profundidad,SRX 4X4 6 AT,si,0,local:SW4.pdf,42
+TOYOTA,HILUX SW4,Interior,Aire acondicionado con climatizador automático digital bizona,SRX 4X4 6 AT,si,0,local:SW4.pdf,43
+TOYOTA,HILUX SW4,Interior,Salidas de aire acondicionado y reglador para plazas traseras (Digital),SRX 4X4 6 AT,si,0,local:SW4.pdf,44
+TOYOTA,HILUX SW4,Interior,Audio con pantalla táctil de 9” con USB y Bluetooth®,SRX 4X4 6 AT,si,0,local:SW4.pdf,45
+TOYOTA,HILUX SW4,Interior,Conectividad inalámbrica**: Android Auto® y Apple CarPlay®,SRX 4X4 6 AT,si,0,local:SW4.pdf,46
+TOYOTA,HILUX SW4,Interior,Cargador inalámbrico para smartphones que soporten carga inalámbrica,SRX 4X4 6 AT,si,0,local:SW4.pdf,47
+TOYOTA,HILUX SW4,Interior,Servicios Conectados,SRX 4X4 6 AT,si,0,local:SW4.pdf,48
+TOYOTA,HILUX SW4,Interior,Sistema de audio Premium JBL® con 10 parlantes y subwoofer,SRX 4X4 6 AT,si,0,local:SW4.pdf,49
+TOYOTA,HILUX SW4,Interior,Monitor de sistema de visión 360° en pantalla de audio,SRX 4X4 6 AT,si,0,local:SW4.pdf,50
+TOYOTA,HILUX SW4,Interior,Cámara de retroceso,SRX 4X4 6 AT,si,0,local:SW4.pdf,51
+TOYOTA,HILUX SW4,Interior,"Display de información múltiple con pantalla a color de 4,2”(TFT)",SRX 4X4 6 AT,si,0,local:SW4.pdf,52
+TOYOTA,HILUX SW4,Interior,"Control de velocidad crucero ECO, NORM y SPORT Mode",SRX 4X4 6 AT,si,0,local:SW4.pdf,53
+TOYOTA,HILUX SW4,Interior,Selector electrónico de tracción 4x4,SRX 4X4 6 AT,si,0,local:SW4.pdf,54
+TOYOTA,HILUX SW4,Interior,Domo con luz de LED,SRX 4X4 6 AT,si,0,local:SW4.pdf,55
+TOYOTA,HILUX SW4,Interior,Espejo retrovisor interno con función antiencandilamiento automático,SRX 4X4 6 AT,si,0,local:SW4.pdf,56
+TOYOTA,HILUX SW4,Interior,Levantacristales electricos con “Auto up & down” y sensor de presión (x4),SRX 4X4 6 AT,si,0,local:SW4.pdf,57
+TOYOTA,HILUX SW4,Interior,Salida de 220v (100 w) y 3 salidas de 12v,SRX 4X4 6 AT,si,0,local:SW4.pdf,58
+TOYOTA,HILUX SW4,Interior,Portón trasero con sistema de apertura y cierre eléctrico,SRX 4X4 6 AT,si,0,local:SW4.pdf,59
+TOYOTA,HILUX SW4,Seguridad,Cinturones de seguridad traseros inerciales de 3 puntos (x5),SRX 4X4 6 AT,si,0,local:SW4.pdf,60
+TOYOTA,HILUX SW4,Seguridad,Testigo y alarma de cinturón de seguridad para todas las plazas,SRX 4X4 6 AT,si,0,local:SW4.pdf,61
+TOYOTA,HILUX SW4,Seguridad,Anclajes ISOFIX (x2) y anclaje para correa superior (x2),SRX 4X4 6 AT,si,0,local:SW4.pdf,62
+TOYOTA,HILUX SW4,Seguridad,Alarma de puertas abiertas en movimiento (con display de cada puerta),SRX 4X4 6 AT,si,0,local:SW4.pdf,63
+TOYOTA,HILUX SW4,Seguridad,Traba de seguridad para niños en las puertas traseras,SRX 4X4 6 AT,si,0,local:SW4.pdf,64
+TOYOTA,HILUX SW4,Seguridad,Sistema de alarma con inmovilizador de motor,SRX 4X4 6 AT,si,0,local:SW4.pdf,65
+TOYOTA,HILUX SW4,Seguridad,"Llave con botón de ""Pánico""",SRX 4X4 6 AT,si,0,local:SW4.pdf,66
+TOYOTA,HILUX SW4,Seguridad,Candado de seguridad para rueda de auxilio,SRX 4X4 6 AT,si,0,local:SW4.pdf,67
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de Velocidad Crucero Adaptativo (ACC)*,SRX 4X4 6 AT,si,0,local:SW4.pdf,68
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de Pre-Colisión Frontal (PCS)*,SRX 4X4 6 AT,si,0,local:SW4.pdf,69
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de Alerta de Cambio de Carril (LDA)*,SRX 4X4 6 AT,si,0,local:SW4.pdf,70
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Alerta de Punto Ciego (BSM),SRX 4X4 6 AT,si,0,local:SW4.pdf,71
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Alerta de Tráfico Trasero (RCTA),SRX 4X4 6 AT,si,0,local:SW4.pdf,72
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Airbags frontales (conductor y acompañante) y de rodilla (conductor),SRX 4X4 6 AT,si,0,local:SW4.pdf,73
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Airbags laterales (x2) y airbags de cortina (x2),SRX 4X4 6 AT,si,0,local:SW4.pdf,74
+TOYOTA,HILUX SW4,Toyota Safety Sense*,"ABS con Distribución Electrónica de la Fuerza de Frenado (EBD), Asistente de Frenado de Emergencia (BA) y Luces de Frenado de Emergencia (EBS)",SRX 4X4 6 AT,si,0,local:SW4.pdf,75
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de Estabilidad (VSC) y Control de Balanceo de Tráiler (TSC),SRX 4X4 6 AT,si,0,local:SW4.pdf,76
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de Tracción (TRC) y Control de Tracción Activo (A-TRC),SRX 4X4 6 AT,si,0,local:SW4.pdf,77
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Asistente de Arranque en Pendientes (HAC) y Asistente de Descenso de Pendientes (DAC),SRX 4X4 6 AT,si,0,local:SW4.pdf,78
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Bloqueo de Diferencial Trasero,SRX 4X4 6 AT,si,0,local:SW4.pdf,79
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Diferencial de Deslizamiento Limitado Electrónicamente (Auto LSD),SRX 4X4 6 AT,si,0,local:SW4.pdf,80
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Faros antiniebla delanteros y traseros,SRX 4X4 6 AT,si,0,local:SW4.pdf,81
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Cinturones de seguridad delanteros de 3 puntos regulables en altura con pretensionador y limitador de fuerza (x2),SRX 4X4 6 AT,si,0,local:SW4.pdf,82

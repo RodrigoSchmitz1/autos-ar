@@ -1,0 +1,83 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+JAC,S2,,ABS (Sistema antibloqueo de frenos),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,0
+JAC,S2,,ABS (Sistema antibloqueo de frenos),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,0
+JAC,S2,,EBD (Distribución electrónica de frenado),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,1
+JAC,S2,,EBD (Distribución electrónica de frenado),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,1
+JAC,S2,,ESP (Control electrónico de estabilidad),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,2
+JAC,S2,,ESP (Control electrónico de estabilidad),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,2
+JAC,S2,,HBA (Asistente hidráulico de frenado),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,3
+JAC,S2,,HBA (Asistente hidráulico de frenado),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,3
+JAC,S2,,HAC (Asistencia de arranque en pendiente),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,4
+JAC,S2,,HAC (Asistencia de arranque en pendiente),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,4
+JAC,S2,,BOS (Sistema inteligente de frenado),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,5
+JAC,S2,,BOS (Sistema inteligente de frenado),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,5
+JAC,S2,,Doble airbag frontal,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,6
+JAC,S2,,Doble airbag frontal,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,6
+JAC,S2,,Asiento medio trasero con cinturón de seguridad de tres puntos,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,7
+JAC,S2,,Asiento medio trasero con cinturón de seguridad de tres puntos,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,7
+JAC,S2,,Seguridad Cinturón del asiento del conductor y el acompañante con sistema de alarma,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,8
+JAC,S2,,Seguridad Cinturón del asiento del conductor y el acompañante con sistema de alarma,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,8
+JAC,S2,,ISOFIX (Sistema de sujeción de asientos para niños),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,9
+JAC,S2,,ISOFIX (Sistema de sujeción de asientos para niños),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,9
+JAC,S2,,IMMO (Inmovilizador del motor),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,10
+JAC,S2,,IMMO (Inmovilizador del motor),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,10
+JAC,S2,,Bloqueo de ventanillas eléctricas,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,11
+JAC,S2,,Bloqueo de ventanillas eléctricas,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,11
+JAC,S2,,Cierre automático de puertas en movimiento,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,12
+JAC,S2,,Cierre automático de puertas en movimiento,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,12
+JAC,S2,,Traba para niños en puertas traseras,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,13
+JAC,S2,,Traba para niños en puertas traseras,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,13
+JAC,S2,,Alarma,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,14
+JAC,S2,,Alarma,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,14
+JAC,S2,,Sensores de estacionamiento traseros,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,15
+JAC,S2,,Sensores de estacionamiento traseros,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,15
+JAC,S2,,Cámara de retroceso (guías),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,16
+JAC,S2,,Cámara de retroceso (guías),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,16
+JAC,S2,,Barras longitudinales,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,17
+JAC,S2,,Barras longitudinales,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,17
+JAC,S2,,DRL (Luces de circulación diurna) LED,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,18
+JAC,S2,,DRL (Luces de circulación diurna) LED,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,18
+JAC,S2,,Faros regulables en altura,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,19
+JAC,S2,,Faros regulables en altura,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,19
+JAC,S2,,Iluminación Encendido automático de luces,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,20
+JAC,S2,,Iluminación Encendido automático de luces,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,20
+JAC,S2,,Faros antiniebla,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,21
+JAC,S2,,Faros antiniebla,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,21
+JAC,S2,,Fatos halógenos,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,22
+JAC,S2,,Fatos halógenos,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,22
+JAC,S2,,Levantavidrios eléctricos (One touch down para conductor),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,23
+JAC,S2,,Levantavidrios eléctricos (One touch down para conductor),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,23
+JAC,S2,,Espejos exteriores eléctricos,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,24
+JAC,S2,,Espejos exteriores eléctricos,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,24
+JAC,S2,,Limpiaparabrisas trasero,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,25
+JAC,S2,,Limpiaparabrisas trasero,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,25
+JAC,S2,,Bloqueo ventanillas,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,26
+JAC,S2,,Bloqueo ventanillas,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,26
+JAC,S2,,Asiento traseros rebatibles enterizo,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,27
+JAC,S2,,Asiento traseros rebatibles enterizo,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,27
+JAC,S2,,Volante multifunción revestido en ecocuero,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,28
+JAC,S2,,Volante multifunción revestido en ecocuero,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,28
+JAC,S2,,Volante regulable en altura,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,29
+JAC,S2,,Volante regulable en altura,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,29
+JAC,S2,,Computadora de a bordo,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,30
+JAC,S2,,Computadora de a bordo,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,30
+JAC,S2,,CCS (Control de velocidad crucero),INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,31
+JAC,S2,,CCS (Control de velocidad crucero),LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,31
+JAC,S2,,Espejo de cortesía en parasoles,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,32
+JAC,S2,,Espejo de cortesía en parasoles,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,32
+JAC,S2,,Aire acondicionado,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,33
+JAC,S2,,Aire acondicionado,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,33
+JAC,S2,,Portalentes,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,34
+JAC,S2,,Portalentes,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,34
+JAC,S2,,Luz en baúl,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,35
+JAC,S2,,Luz en baúl,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,35
+JAC,S2,,Radio,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,36
+JAC,S2,,Radio,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,36
+JAC,S2,,Pantalla táctil de 9'',INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,37
+JAC,S2,,Pantalla táctil de 9'',LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,37
+JAC,S2,,USB delantero,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,38
+JAC,S2,,USB delantero,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,38
+JAC,S2,,Bluetooth,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,39
+JAC,S2,,Bluetooth,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,39
+JAC,S2,,Car Play® & Android Auto®,INTELLIGENT,si,0,local:JACS2-FL-Ficha-tecnica-2025.pdf,40
+JAC,S2,,Car Play® & Android Auto®,LUXURY,si,1,local:JACS2-FL-Ficha-tecnica-2025.pdf,40

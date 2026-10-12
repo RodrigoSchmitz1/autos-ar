@@ -1,0 +1,238 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+NISSAN,KICKS,DISEÑO EXTERIOR,Techo solar panorámico,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,0
+NISSAN,KICKS,DISEÑO EXTERIOR,Techo solar panorámico,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,0
+NISSAN,KICKS,DISEÑO EXTERIOR,Techo solar panorámico,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,0
+NISSAN,KICKS,DISEÑO EXTERIOR,"Llantas de aleación diamantadas de 19"" y neumáticos 225/45 R19",SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,1
+NISSAN,KICKS,DISEÑO EXTERIOR,"Llantas de aleación diamantadas de 19"" y neumáticos 225/45 R19",ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,1
+NISSAN,KICKS,DISEÑO EXTERIOR,"Llantas de aleación diamantadas de 19"" y neumáticos 225/45 R19",EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,1
+NISSAN,KICKS,DISEÑO EXTERIOR,Llantas de aleación diamantadas de 17'' y neumáticos 215/60 R17,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,2
+NISSAN,KICKS,DISEÑO EXTERIOR,Llantas de aleación diamantadas de 17'' y neumáticos 215/60 R17,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,2
+NISSAN,KICKS,DISEÑO EXTERIOR,Llantas de aleación diamantadas de 17'' y neumáticos 215/60 R17,EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,2
+NISSAN,KICKS,DISEÑO EXTERIOR,Faros Full LED con proyectores,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,3
+NISSAN,KICKS,DISEÑO EXTERIOR,Faros Full LED con proyectores,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,3
+NISSAN,KICKS,DISEÑO EXTERIOR,Faros Full LED con proyectores,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,3
+NISSAN,KICKS,DISEÑO EXTERIOR,Faros Full LED,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,4
+NISSAN,KICKS,DISEÑO EXTERIOR,Faros Full LED,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,4
+NISSAN,KICKS,DISEÑO EXTERIOR,Faros Full LED,EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,4
+NISSAN,KICKS,DISEÑO EXTERIOR,Rieles en techo porta equipajes,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,5
+NISSAN,KICKS,DISEÑO EXTERIOR,Rieles en techo porta equipajes,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,5
+NISSAN,KICKS,DISEÑO EXTERIOR,Rieles en techo porta equipajes,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,5
+NISSAN,KICKS,DISEÑO EXTERIOR,Antena tipo aleta de tiburón,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,6
+NISSAN,KICKS,DISEÑO EXTERIOR,Antena tipo aleta de tiburón,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,6
+NISSAN,KICKS,DISEÑO EXTERIOR,Antena tipo aleta de tiburón,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,6
+NISSAN,KICKS,DISEÑO EXTERIOR,Luces traseras LED,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,7
+NISSAN,KICKS,DISEÑO EXTERIOR,Luces traseras LED,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,7
+NISSAN,KICKS,DISEÑO EXTERIOR,Luces traseras LED,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,7
+NISSAN,KICKS,DISEÑO EXTERIOR,Retrovisores externos eléctricos con indicador de dirección LED,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,8
+NISSAN,KICKS,DISEÑO EXTERIOR,Retrovisores externos eléctricos con indicador de dirección LED,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,8
+NISSAN,KICKS,DISEÑO EXTERIOR,Retrovisores externos eléctricos con indicador de dirección LED,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,8
+NISSAN,KICKS,DISEÑO EXTERIOR,Retrovisores externos color negro premium,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,9
+NISSAN,KICKS,DISEÑO EXTERIOR,Retrovisores externos color negro premium,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,9
+NISSAN,KICKS,DISEÑO EXTERIOR,Retrovisores externos color negro premium,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,9
+NISSAN,KICKS,CONFORT,Limpia parabrisa automático con sensor de lluvia,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,10
+NISSAN,KICKS,CONFORT,Limpia parabrisa automático con sensor de lluvia,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,10
+NISSAN,KICKS,CONFORT,Limpia parabrisa automático con sensor de lluvia,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,10
+NISSAN,KICKS,CONFORT,Sensor crepuscular,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,11
+NISSAN,KICKS,CONFORT,Sensor crepuscular,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,11
+NISSAN,KICKS,CONFORT,Sensor crepuscular,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,11
+NISSAN,KICKS,CONFORT,Apoyabrazos trasero con portavasos,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,12
+NISSAN,KICKS,CONFORT,Apoyabrazos trasero con portavasos,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,12
+NISSAN,KICKS,CONFORT,Apoyabrazos trasero con portavasos,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,12
+NISSAN,KICKS,CONFORT,Porta-lentes,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,13
+NISSAN,KICKS,CONFORT,Porta-lentes,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,13
+NISSAN,KICKS,CONFORT,Porta-lentes,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,13
+NISSAN,KICKS,CONFORT,Retrovisores externos rebatibles automáticamente,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,14
+NISSAN,KICKS,CONFORT,Retrovisores externos rebatibles automáticamente,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,14
+NISSAN,KICKS,CONFORT,Retrovisores externos rebatibles automáticamente,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,14
+NISSAN,KICKS,CONFORT,Espejo retrovisor interno eléctrico,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,15
+NISSAN,KICKS,CONFORT,Espejo retrovisor interno eléctrico,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,15
+NISSAN,KICKS,CONFORT,Espejo retrovisor interno eléctrico,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,15
+NISSAN,KICKS,CONFORT,Iluminación ambiente en las puertas delanteras,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,16
+NISSAN,KICKS,CONFORT,Iluminación ambiente en las puertas delanteras,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,16
+NISSAN,KICKS,CONFORT,Iluminación ambiente en las puertas delanteras,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,16
+NISSAN,KICKS,CONFORT,Climatizador automático digital touch,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,17
+NISSAN,KICKS,CONFORT,Climatizador automático digital touch,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,17
+NISSAN,KICKS,CONFORT,Climatizador automático digital touch,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,17
+NISSAN,KICKS,CONFORT,Climatizador automático digital,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,18
+NISSAN,KICKS,CONFORT,Climatizador automático digital,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,18
+NISSAN,KICKS,CONFORT,Climatizador automático digital,EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,18
+NISSAN,KICKS,CONFORT,Parasol con espejos e iluminación,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,19
+NISSAN,KICKS,CONFORT,Parasol con espejos e iluminación,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,19
+NISSAN,KICKS,CONFORT,Parasol con espejos e iluminación,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,19
+NISSAN,KICKS,CONFORT,Parasol con espejos,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,20
+NISSAN,KICKS,CONFORT,Parasol con espejos,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,20
+NISSAN,KICKS,CONFORT,Parasol con espejos,EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,20
+NISSAN,KICKS,CONFORT,"Tacómetro y velocímetro digital HD de 12.3""",SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,21
+NISSAN,KICKS,CONFORT,"Tacómetro y velocímetro digital HD de 12.3""",ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,21
+NISSAN,KICKS,CONFORT,"Tacómetro y velocímetro digital HD de 12.3""",EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,21
+NISSAN,KICKS,CONFORT,"Tacómetro y velocímetro digital de 7""",SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,22
+NISSAN,KICKS,CONFORT,"Tacómetro y velocímetro digital de 7""",ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,22
+NISSAN,KICKS,CONFORT,"Tacómetro y velocímetro digital de 7""",EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,22
+NISSAN,KICKS,CONFORT,Asientos revestidos en cuero sintético,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,23
+NISSAN,KICKS,CONFORT,Asientos revestidos en cuero sintético,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,23
+NISSAN,KICKS,CONFORT,Asientos revestidos en cuero sintético,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,23
+NISSAN,KICKS,CONFORT,Asientos revestidos en tela,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,24
+NISSAN,KICKS,CONFORT,Asientos revestidos en tela,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,24
+NISSAN,KICKS,CONFORT,Asientos revestidos en tela,EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,24
+NISSAN,KICKS,CONFORT,Cargador de celular inalámbrico,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,25
+NISSAN,KICKS,CONFORT,Cargador de celular inalámbrico,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,25
+NISSAN,KICKS,CONFORT,Cargador de celular inalámbrico,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,25
+NISSAN,KICKS,CONFORT,Nivelador de profundidad del baúl,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,26
+NISSAN,KICKS,CONFORT,Nivelador de profundidad del baúl,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,26
+NISSAN,KICKS,CONFORT,Nivelador de profundidad del baúl,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,26
+NISSAN,KICKS,CONFORT,Encendido remoto,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,27
+NISSAN,KICKS,CONFORT,Encendido remoto,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,27
+NISSAN,KICKS,CONFORT,Encendido remoto,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,27
+NISSAN,KICKS,CONFORT,Volante forrado en cuero sintético,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,28
+NISSAN,KICKS,CONFORT,Volante forrado en cuero sintético,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,28
+NISSAN,KICKS,CONFORT,Volante forrado en cuero sintético,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,28
+NISSAN,KICKS,CONFORT,Apertura y cierre de vidrios a través de la llave,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,29
+NISSAN,KICKS,CONFORT,Apertura y cierre de vidrios a través de la llave,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,29
+NISSAN,KICKS,CONFORT,Apertura y cierre de vidrios a través de la llave,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,29
+NISSAN,KICKS,CONFORT,Levas al volante (Paddle Shift),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,30
+NISSAN,KICKS,CONFORT,Levas al volante (Paddle Shift),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,30
+NISSAN,KICKS,CONFORT,Levas al volante (Paddle Shift),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,30
+NISSAN,KICKS,CONFORT,Asiento del conductor regulable en altura,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,31
+NISSAN,KICKS,CONFORT,Asiento del conductor regulable en altura,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,31
+NISSAN,KICKS,CONFORT,Asiento del conductor regulable en altura,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,31
+NISSAN,KICKS,CONFORT,Asientos traseros rebatibles (60/40),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,32
+NISSAN,KICKS,CONFORT,Asientos traseros rebatibles (60/40),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,32
+NISSAN,KICKS,CONFORT,Asientos traseros rebatibles (60/40),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,32
+NISSAN,KICKS,CONFORT,Asientos delanteros y traseros con tecnologia Zero Gravity®,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,33
+NISSAN,KICKS,CONFORT,Asientos delanteros y traseros con tecnologia Zero Gravity®,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,33
+NISSAN,KICKS,CONFORT,Asientos delanteros y traseros con tecnologia Zero Gravity®,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,33
+NISSAN,KICKS,CONFORT,Llave inteligente presencial (I-Key),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,34
+NISSAN,KICKS,CONFORT,Llave inteligente presencial (I-Key),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,34
+NISSAN,KICKS,CONFORT,Llave inteligente presencial (I-Key),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,34
+NISSAN,KICKS,CONFORT,Consola central con apoyabrazos y portavasos,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,35
+NISSAN,KICKS,CONFORT,Consola central con apoyabrazos y portavasos,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,35
+NISSAN,KICKS,CONFORT,Consola central con apoyabrazos y portavasos,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,35
+NISSAN,KICKS,CONFORT,Dirección eléctrica con asistencia variable (EPS),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,36
+NISSAN,KICKS,CONFORT,Dirección eléctrica con asistencia variable (EPS),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,36
+NISSAN,KICKS,CONFORT,Dirección eléctrica con asistencia variable (EPS),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,36
+NISSAN,KICKS,CONFORT,Faros con regulación eléctrica en altura,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,37
+NISSAN,KICKS,CONFORT,Faros con regulación eléctrica en altura,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,37
+NISSAN,KICKS,CONFORT,Faros con regulación eléctrica en altura,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,37
+NISSAN,KICKS,CONFORT,Luces de conducción diurna en LED (DTRL),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,38
+NISSAN,KICKS,CONFORT,Luces de conducción diurna en LED (DTRL),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,38
+NISSAN,KICKS,CONFORT,Luces de conducción diurna en LED (DTRL),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,38
+NISSAN,KICKS,CONFORT,Luces de lectura delantera y trasera en LED,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,39
+NISSAN,KICKS,CONFORT,Luces de lectura delantera y trasera en LED,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,39
+NISSAN,KICKS,CONFORT,Luces de lectura delantera y trasera en LED,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,39
+NISSAN,KICKS,CONFORT,Puertos USB tipo C traseros (2),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,40
+NISSAN,KICKS,CONFORT,Puertos USB tipo C traseros (2),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,40
+NISSAN,KICKS,CONFORT,Puertos USB tipo C traseros (2),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,40
+NISSAN,KICKS,CONFORT,Selectora de transmisión por botones (E-Shifter),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,41
+NISSAN,KICKS,CONFORT,Selectora de transmisión por botones (E-Shifter),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,41
+NISSAN,KICKS,CONFORT,Selectora de transmisión por botones (E-Shifter),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,41
+NISSAN,KICKS,CONFORT,"Selector de modo de conducción (Normal, ECO, Sport)",SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,42
+NISSAN,KICKS,CONFORT,"Selector de modo de conducción (Normal, ECO, Sport)",ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,42
+NISSAN,KICKS,CONFORT,"Selector de modo de conducción (Normal, ECO, Sport)",EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,42
+NISSAN,KICKS,CONFORT,Encendido por boton Push Start,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,43
+NISSAN,KICKS,CONFORT,Encendido por boton Push Start,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,43
+NISSAN,KICKS,CONFORT,Encendido por boton Push Start,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,43
+NISSAN,KICKS,CONFORT,Sistema Stop/Start de apagado y encendido automático del motor,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,44
+NISSAN,KICKS,CONFORT,Sistema Stop/Start de apagado y encendido automático del motor,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,44
+NISSAN,KICKS,CONFORT,Sistema Stop/Start de apagado y encendido automático del motor,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,44
+NISSAN,KICKS,CONFORT,Toma de 12V en consola central,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,45
+NISSAN,KICKS,CONFORT,Toma de 12V en consola central,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,45
+NISSAN,KICKS,CONFORT,Toma de 12V en consola central,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,45
+NISSAN,KICKS,CONFORT,"Levantavidrios delanteros y traseros con sistema ""One Touch""",SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,46
+NISSAN,KICKS,CONFORT,"Levantavidrios delanteros y traseros con sistema ""One Touch""",ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,46
+NISSAN,KICKS,CONFORT,"Levantavidrios delanteros y traseros con sistema ""One Touch""",EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,46
+NISSAN,KICKS,CONFORT,Volante con ajuste telescópico y de altura,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,47
+NISSAN,KICKS,CONFORT,Volante con ajuste telescópico y de altura,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,47
+NISSAN,KICKS,CONFORT,Volante con ajuste telescópico y de altura,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,47
+NISSAN,KICKS,CONFORT,Volante multifuncional,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,48
+NISSAN,KICKS,CONFORT,Volante multifuncional,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,48
+NISSAN,KICKS,CONFORT,Volante multifuncional,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,48
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de asistencia a la conducción – ProPILOT®,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,49
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de asistencia a la conducción – ProPILOT®,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,49
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de asistencia a la conducción – ProPILOT®,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,49
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Visión 360° inteligente y detector de objetos en movimento (AVM+MOD),SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,50
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Visión 360° inteligente y detector de objetos en movimento (AVM+MOD),ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,50
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Visión 360° inteligente y detector de objetos en movimento (AVM+MOD),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,50
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Monitoreo inteligente de punto ciego con intervención (BSWI),SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,51
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Monitoreo inteligente de punto ciego con intervención (BSWI),ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,51
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Monitoreo inteligente de punto ciego con intervención (BSWI),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,51
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sensor de estacionamento delantero,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,52
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sensor de estacionamento delantero,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,52
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sensor de estacionamento delantero,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,52
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de tráfico cruzado trasero (RCTA),SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,53
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de tráfico cruzado trasero (RCTA),ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,53
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de tráfico cruzado trasero (RCTA),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,53
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistente inteligente de centrado de carril (LKA),SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,54
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistente inteligente de centrado de carril (LKA),ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,54
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistente inteligente de centrado de carril (LKA),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,54
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Cámara trasera de estacionamiento,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,55
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Cámara trasera de estacionamiento,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,55
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Cámara trasera de estacionamiento,EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,55
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control crucero adaptativo de velocidad y distancia con Stop&Go (ICC),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,56
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control crucero adaptativo de velocidad y distancia con Stop&Go (ICC),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,56
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control crucero adaptativo de velocidad y distancia con Stop&Go (ICC),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,56
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistencia de frenado inteligente trasero con detección de peatones (RAEB),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,57
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistencia de frenado inteligente trasero con detección de peatones (RAEB),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,57
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistencia de frenado inteligente trasero con detección de peatones (RAEB),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,57
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistente inteligente de prevención de salida de carril (LDW+LDP),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,58
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistente inteligente de prevención de salida de carril (LDW+LDP),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,58
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Asistente inteligente de prevención de salida de carril (LDW+LDP),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,58
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Freno eléctrico de estacionamiento con “Auto Hold” (EPB+Auto Hold),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,59
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Freno eléctrico de estacionamiento con “Auto Hold” (EPB+Auto Hold),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,59
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Freno eléctrico de estacionamiento con “Auto Hold” (EPB+Auto Hold),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,59
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de colisión frontal con asistente de frenado inteligente y detección de peatones (FCW+FEB),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,60
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de colisión frontal con asistente de frenado inteligente y detección de peatones (FCW+FEB),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,60
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de colisión frontal con asistente de frenado inteligente y detección de peatones (FCW+FEB),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,60
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Advertencia de colisión frontal (PFCW),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,61
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Advertencia de colisión frontal (PFCW),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,61
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Advertencia de colisión frontal (PFCW),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,61
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta inteligente de atención al conductor (DAA),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,62
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta inteligente de atención al conductor (DAA),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,62
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta inteligente de atención al conductor (DAA),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,62
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de objetos en asientos traseros,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,63
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de objetos en asientos traseros,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,63
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de objetos en asientos traseros,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,63
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema inteligente de arranque en pendiente (HSA),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,64
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema inteligente de arranque en pendiente (HSA),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,64
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema inteligente de arranque en pendiente (HSA),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,64
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de monitoreo de presión de neumáticos (TPMS),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,65
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de monitoreo de presión de neumáticos (TPMS),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,65
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de monitoreo de presión de neumáticos (TPMS),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,65
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sensor de estacionamento trasero,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,66
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sensor de estacionamento trasero,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,66
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sensor de estacionamento trasero,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,66
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Frenos ABS con control electrónico de frenado y asistencia de frenado (EBD+BA),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,67
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Frenos ABS con control electrónico de frenado y asistencia de frenado (EBD+BA),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,67
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Frenos ABS con control electrónico de frenado y asistencia de frenado (EBD+BA),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,67
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control inteligente en curvas (ATC),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,68
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control inteligente en curvas (ATC),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,68
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control inteligente en curvas (ATC),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,68
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control de tracción y estabilidad (VDC),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,69
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control de tracción y estabilidad (VDC),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,69
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Control de tracción y estabilidad (VDC),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,69
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Faros con ajuste inteligente de altura e intensidad (HBA),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,70
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Faros con ajuste inteligente de altura e intensidad (HBA),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,70
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Faros con ajuste inteligente de altura e intensidad (HBA),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,70
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de cinturon de seguridad delantero y trasero,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,71
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de cinturon de seguridad delantero y trasero,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,71
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alerta de cinturon de seguridad delantero y trasero,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,71
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Bloqueo de automático de puertas y baúl con el vehiculo en movimiento,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,72
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Bloqueo de automático de puertas y baúl con el vehiculo en movimiento,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,72
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Bloqueo de automático de puertas y baúl con el vehiculo en movimiento,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,72
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alarma perimetral antirrobo con inmovilizador,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,73
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alarma perimetral antirrobo con inmovilizador,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,73
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Alarma perimetral antirrobo con inmovilizador,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,73
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de anclaje en asientos traseros (ISOFIX),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,74
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de anclaje en asientos traseros (ISOFIX),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,74
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Sistema de anclaje en asientos traseros (ISOFIX),EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,74
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Doble Airbag frontal,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,75
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Doble Airbag frontal,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,75
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Doble Airbag frontal,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,75
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Airbags laterales y de cortina,SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,76
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Airbags laterales y de cortina,ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,76
+NISSAN,KICKS,SSEEGGUURRIIDDAADD,Airbags laterales y de cortina,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,76
+NISSAN,KICKS,AUDIO,Sistema premium de sonido BOSE® Personal con 10 altavoces,SENSE,no,0,local:251210_kicks_my25_ficha_tecnica.pdf,77
+NISSAN,KICKS,AUDIO,Sistema premium de sonido BOSE® Personal con 10 altavoces,ADVANCE,no,1,local:251210_kicks_my25_ficha_tecnica.pdf,77
+NISSAN,KICKS,AUDIO,Sistema premium de sonido BOSE® Personal con 10 altavoces,EXCLUSIVE,si,2,local:251210_kicks_my25_ficha_tecnica.pdf,77
+NISSAN,KICKS,AUDIO,Altavoces (4),SENSE,si,0,local:251210_kicks_my25_ficha_tecnica.pdf,78
+NISSAN,KICKS,AUDIO,Altavoces (4),ADVANCE,si,1,local:251210_kicks_my25_ficha_tecnica.pdf,78
+NISSAN,KICKS,AUDIO,Altavoces (4),EXCLUSIVE,no,2,local:251210_kicks_my25_ficha_tecnica.pdf,78

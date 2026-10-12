@@ -1,0 +1,52 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,600,EXTERIOR,Faros delanteros LED + DRL,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,0
+FIAT,600,EXTERIOR,Faros antiniebla delanteros y traseros,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,1
+FIAT,600,EXTERIOR,Luces de posición / función cornering LED,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,2
+FIAT,600,EXTERIOR,Ópticas traseras LED,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,3
+FIAT,600,EXTERIOR,Llantas de aleación 17'',HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,4
+FIAT,600,EXTERIOR,Espejos exteriores color negro piano,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,5
+FIAT,600,EXTERIOR,Manijas de puertas color carrocería,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,6
+FIAT,600,EXTERIOR,Spoiler trasero,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,7
+FIAT,600,EXTERIOR,Apliques exteriores cromados,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,8
+FIAT,600,EXTERIOR,Tercera luz de stop,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,9
+FIAT,600,EXTERIOR,Limpiaparabrisas trasero,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,10
+FIAT,600,EXTERIOR,Luneta térmica,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,11
+FIAT,600,CONFORT,Climatizador automático digital,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,12
+FIAT,600,CONFORT,Control de velocidad crucero,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,13
+FIAT,600,CONFORT,Volante multifunción en cuero,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,14
+FIAT,600,CONFORT,Levas al volante,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,15
+FIAT,600,CONFORT,Volante regulable en altura y profundidad,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,16
+FIAT,600,CONFORT,Tapizado en tela negra,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,17
+FIAT,600,CONFORT,Llave electrónica con telecomando,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,18
+FIAT,600,CONFORT,Keyless Enter'n'Go,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,19
+FIAT,600,CONFORT,Manijas de puertas interiores cromadas,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,20
+FIAT,600,CONFORT,Espejo interno electrocrómico,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,21
+FIAT,600,CONFORT,Freno de mano eléctrico (Auto Hold),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,22
+FIAT,600,CONFORT,Alzacristales eléctricos (con función antipinzamiento),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,23
+FIAT,600,CONFORT,Conmutador automático de luces altas,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,24
+FIAT,600,CONFORT,Sensor de lluvia y crepuscular,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,25
+FIAT,600,CONFORT,Limpia parabrisas trasero,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,26
+FIAT,600,CONFORT,Apoyabrazos delantero central,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,27
+FIAT,600,CONFORT,Asiento trasero plegable 40/60,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,28
+FIAT,600,TECNOLOGÍA,"Central Multimedia Uconnect 10,1''",HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,29
+FIAT,600,TECNOLOGÍA,Conect. Android Auto y Apple CarPlay wireless,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,30
+FIAT,600,TECNOLOGÍA,"Tablero digital 7"" Full Color personalizable",HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,31
+FIAT,600,TECNOLOGÍA,Cargador inalámbrico,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,32
+FIAT,600,TECNOLOGÍA,Cámara de estacionamiento trasera,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,33
+FIAT,600,TECNOLOGÍA,8 Sensores de estacionamiento,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,34
+FIAT,600,TECNOLOGÍA,Luces interiores customizables,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,35
+FIAT,600,TECNOLOGÍA,Puertos USB [USB A y C] delanteros,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,36
+FIAT,600,TECNOLOGÍA,"6 Speakers (2 tweeters, 2 delanteros y 2 traseros)",HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,37
+FIAT,600,SEGURIDAD,"6 airbags (frontales, laterales y cortina)",HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,38
+FIAT,600,SEGURIDAD,Frenado Autónomo de Emergencia,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,39
+FIAT,600,SEGURIDAD,Sistema de detección de conductor somnoliento,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,40
+FIAT,600,SEGURIDAD,Frenos ABS + EBD,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,41
+FIAT,600,SEGURIDAD,Control de estabilidad ESC,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,42
+FIAT,600,SEGURIDAD,Control de tracción avanzado (TC+),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,43
+FIAT,600,SEGURIDAD,Hill Holder (Asistente de arranque en pendiente),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,44
+FIAT,600,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,45
+FIAT,600,SEGURIDAD,Cinturones de seguridad de 3 puntos (x5),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,46
+FIAT,600,SEGURIDAD,Sistema de reconocimiento de señales de tránsito,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,47
+FIAT,600,SEGURIDAD,Sistema de mantenimiento de carril,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,48
+FIAT,600,SEGURIDAD,Sistema de control de presión de neumáticos (TPMS),HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,49
+FIAT,600,SEGURIDAD,Kit de seguridad,HYBRID 1.2 EDCT,si,0,local:fiat 600.pdf,50

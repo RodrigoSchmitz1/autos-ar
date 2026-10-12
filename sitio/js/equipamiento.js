@@ -10,9 +10,7 @@ import { nombreFamilia } from "./respuesta.js";
 const GRUPOS = { seguridad: "Seguridad", confort: "Confort", tecnologia: "Tecnología", exterior: "Exterior" };
 // Marcas cuyas fichas no se pueden leer automaticamente (ver ingesta/equipamiento.py).
 const SIN_FICHA = {
-  FIAT: "Fiat no deja consultar su sitio a programas", TOYOTA: "Toyota no deja consultar su sitio a programas",
-  CITROEN: "Citroën no permite leer su sitio (robots.txt)",
-  JEEP: "en la ficha de Jeep las marcas son dibujos, no texto",
+  BAIC: "BAIC solo publica folletos en imagen, sin texto que leer",
 };
 let soloDiferencias = false;
 
@@ -28,7 +26,7 @@ function palabras(texto, familia) {
 // La version de la ficha que corresponde a una version del comparador: la que el
 // pipeline cruzo con ese id DNRPA; si no (DNRPA tiene varias que cumplen y el cruce
 // se quedo con la mas vendida), la que tiene todas sus palabras en el nombre DNRPA.
-function fichaDe(v, eq) {
+export function fichaDe(v, eq) {
   const familia = eq.familias?.[`${v.marca}|${v.familia}`];
   if (!familia) return null;
   const exacta = familia.versiones.find((x) => x.id === v.id);
@@ -49,7 +47,11 @@ function celda(valor, tipo) {
 
 function motivo(v, eq) {
   if (SIN_FICHA[v.marca]) return `Sin ficha: ${SIN_FICHA[v.marca]}.`;
-  if (eq.familias?.[`${v.marca}|${v.familia}`]) return "Esta versión no figura en la ficha oficial.";
+  const familia = eq.familias?.[`${v.marca}|${v.familia}`];
+  if (familia) {
+    const nombres = familia.versiones.map((x) => x.nombre).join(", ");
+    return `Esta versión no figura en la ficha oficial. Sí figuran: ${nombres}.`;
+  }
   return "Todavía no tenemos la ficha de este modelo.";
 }
 

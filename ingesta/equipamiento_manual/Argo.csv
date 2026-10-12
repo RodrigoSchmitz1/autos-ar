@@ -1,0 +1,46 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,ARGO,EXTERIOR,Luces diurnas (DRL),DRIVE 1.3,si,0,local:Argo.pdf,0
+FIAT,ARGO,EXTERIOR,Espejos retrovisores con comando eléctrico,DRIVE 1.3,si,0,local:Argo.pdf,1
+FIAT,ARGO,EXTERIOR,Repetidor de luz de giro lateral,DRIVE 1.3,si,0,local:Argo.pdf,2
+FIAT,ARGO,EXTERIOR,Manijas exteriores de puertas color carrocería,DRIVE 1.3,si,0,local:Argo.pdf,3
+FIAT,ARGO,EXTERIOR,"Llantas de aleación 15""",DRIVE 1.3,si,0,local:Argo.pdf,4
+FIAT,ARGO,EXTERIOR,Spoiler trasero,DRIVE 1.3,si,0,local:Argo.pdf,5
+FIAT,ARGO,EXTERIOR,Luneta térmica,DRIVE 1.3,si,0,local:Argo.pdf,6
+FIAT,ARGO,EXTERIOR,Tercera luz de stop,DRIVE 1.3,si,0,local:Argo.pdf,7
+FIAT,ARGO,SEGURIDAD,Alarma,DRIVE 1.3,si,0,local:Argo.pdf,8
+FIAT,ARGO,SEGURIDAD,Airbags frontales (conductor y pasajero),DRIVE 1.3,si,0,local:Argo.pdf,9
+FIAT,ARGO,SEGURIDAD,Apoyacabezas regulables en altura (5),DRIVE 1.3,si,0,local:Argo.pdf,10
+FIAT,ARGO,SEGURIDAD,Cinturones de seguridad delanteros reg. en altura,DRIVE 1.3,si,0,local:Argo.pdf,11
+FIAT,ARGO,SEGURIDAD,Cinturones de seguridad con retractor (3),DRIVE 1.3,si,0,local:Argo.pdf,12
+FIAT,ARGO,SEGURIDAD,Alarma de cinturon de seguridad del conductor,DRIVE 1.3,si,0,local:Argo.pdf,13
+FIAT,ARGO,SEGURIDAD,Control electrónico de tracción (TC),DRIVE 1.3,si,0,local:Argo.pdf,14
+FIAT,ARGO,SEGURIDAD,Control de estabilidad (ESC),DRIVE 1.3,si,0,local:Argo.pdf,15
+FIAT,ARGO,SEGURIDAD,Balizas automáticas de emergencia (ESS),DRIVE 1.3,si,0,local:Argo.pdf,16
+FIAT,ARGO,SEGURIDAD,Sistema de asistencia al arranque en pendiente (HLA),DRIVE 1.3,si,0,local:Argo.pdf,17
+FIAT,ARGO,SEGURIDAD,Sistema de frenos ABS + EBD,DRIVE 1.3,si,0,local:Argo.pdf,18
+FIAT,ARGO,SEGURIDAD,Sistema Inteligente de Monitoreo de Presión de Neumáticos (iTPMS),DRIVE 1.3,si,0,local:Argo.pdf,19
+FIAT,ARGO,SEGURIDAD,Sistema de sujeción de sillas para niños (ISOFIX),DRIVE 1.3,si,0,local:Argo.pdf,20
+FIAT,ARGO,TECNOLOGÍA,Computadora de a bordo,DRIVE 1.3,si,0,local:Argo.pdf,21
+FIAT,ARGO,TECNOLOGÍA,Volante multifunción,DRIVE 1.3,si,0,local:Argo.pdf,22
+FIAT,ARGO,TECNOLOGÍA,"Display multifunción 3,5''",DRIVE 1.3,si,0,local:Argo.pdf,23
+FIAT,ARGO,TECNOLOGÍA,Pantalla multimedia touch 7'',DRIVE 1.3,si,0,local:Argo.pdf,24
+FIAT,ARGO,TECNOLOGÍA,Conectividad Android Auto y Apple Carplay wireless,DRIVE 1.3,si,0,local:Argo.pdf,25
+FIAT,ARGO,TECNOLOGÍA,Sensores de estacionamiento traseros,DRIVE 1.3,si,0,local:Argo.pdf,26
+FIAT,ARGO,TECNOLOGÍA,Cámara de estacionamiento trasera,DRIVE 1.3,si,0,local:Argo.pdf,27
+FIAT,ARGO,TECNOLOGÍA,Puertos USB,DRIVE 1.3,si,0,local:Argo.pdf,28
+FIAT,ARGO,TECNOLOGÍA,Toma de 12V,DRIVE 1.3,si,0,local:Argo.pdf,29
+FIAT,ARGO,CONFORT,Climatizador manual,DRIVE 1.3,si,0,local:Argo.pdf,30
+FIAT,ARGO,CONFORT,Dirección asistida eléctrica,DRIVE 1.3,si,0,local:Argo.pdf,31
+FIAT,ARGO,CONFORT,Levantacristales eléctricos delanteros,DRIVE 1.3,si,0,local:Argo.pdf,32
+FIAT,ARGO,CONFORT,Levantacristales eléctricos traseros,DRIVE 1.3,si,0,local:Argo.pdf,33
+FIAT,ARGO,CONFORT,Asiento conductor con regulación manual,DRIVE 1.3,si,0,local:Argo.pdf,34
+FIAT,ARGO,CONFORT,Asiento conductor con regulación en altura,DRIVE 1.3,si,0,local:Argo.pdf,35
+FIAT,ARGO,CONFORT,Corrector de alineación de faros,DRIVE 1.3,si,0,local:Argo.pdf,36
+FIAT,ARGO,CONFORT,Sensores de temperatura externa,DRIVE 1.3,si,0,local:Argo.pdf,37
+FIAT,ARGO,CONFORT,Cierre centralizado de puertas,DRIVE 1.3,si,0,local:Argo.pdf,38
+FIAT,ARGO,CONFORT,Sensores antipinzamiento de vidrio,DRIVE 1.3,si,0,local:Argo.pdf,39
+FIAT,ARGO,CONFORT,Columna de dirección regulable en altura,DRIVE 1.3,si,0,local:Argo.pdf,40
+FIAT,ARGO,CONFORT,Limpia parabrisas trasero,DRIVE 1.3,si,0,local:Argo.pdf,41
+FIAT,ARGO,CONFORT,Filtro antipolen,DRIVE 1.3,si,0,local:Argo.pdf,42
+FIAT,ARGO,CONFORT,Luz en el baúl,DRIVE 1.3,si,0,local:Argo.pdf,43
+FIAT,ARGO,CONFORT,Luz en la guantera,DRIVE 1.3,si,0,local:Argo.pdf,44

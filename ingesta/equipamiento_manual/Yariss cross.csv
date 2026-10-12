@@ -1,0 +1,411 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),1.5 XLI CVT,4.310 / 1.770 / 1.655,0,local:Yariss cross.pdf,0
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),1.5 XEI CVT,4.310 / 1.770 / 1.655,1,local:Yariss cross.pdf,0
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),1.5 SEG CVT,4.310 / 1.770 / 1.655,2,local:Yariss cross.pdf,0
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),XEI HEV 1.5 eCVT,4.310 / 1.770 / 1.655,3,local:Yariss cross.pdf,0
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Largo / Ancho / Alto (mm),SEG HEV 1.5 eCVT,4.310 / 1.770 / 1.655,4,local:Yariss cross.pdf,0
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),1.5 XLI CVT,2.620,0,local:Yariss cross.pdf,1
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),1.5 XEI CVT,2.620,1,local:Yariss cross.pdf,1
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),1.5 SEG CVT,2.620,2,local:Yariss cross.pdf,1
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),XEI HEV 1.5 eCVT,2.620,3,local:Yariss cross.pdf,1
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Distancia entre ejes (mm),SEG HEV 1.5 eCVT,2.620,4,local:Yariss cross.pdf,1
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),1.5 XLI CVT,400,0,local:Yariss cross.pdf,2
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),1.5 XEI CVT,400,1,local:Yariss cross.pdf,2
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),1.5 SEG CVT,400,2,local:Yariss cross.pdf,2
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),XEI HEV 1.5 eCVT,391,3,local:Yariss cross.pdf,2
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del baúl (lt),SEG HEV 1.5 eCVT,391,4,local:Yariss cross.pdf,2
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),1.5 XLI CVT,"5,2",0,local:Yariss cross.pdf,3
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),1.5 XEI CVT,"5,2",1,local:Yariss cross.pdf,3
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),1.5 SEG CVT,"5,2",2,local:Yariss cross.pdf,3
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),XEI HEV 1.5 eCVT,"5,2",3,local:Yariss cross.pdf,3
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Radio mínimo de giro (m),SEG HEV 1.5 eCVT,"5,2",4,local:Yariss cross.pdf,3
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del tanque combustible (lt),1.5 XLI CVT,42,0,local:Yariss cross.pdf,4
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del tanque combustible (lt),1.5 XEI CVT,42,1,local:Yariss cross.pdf,4
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del tanque combustible (lt),1.5 SEG CVT,42,2,local:Yariss cross.pdf,4
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del tanque combustible (lt),XEI HEV 1.5 eCVT,36,3,local:Yariss cross.pdf,4
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Capacidad del tanque combustible (lt),SEG HEV 1.5 eCVT,36,4,local:Yariss cross.pdf,4
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),1.5 XLI CVT,1.160,0,local:Yariss cross.pdf,5
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),1.5 XEI CVT,1.170,1,local:Yariss cross.pdf,5
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),1.5 SEG CVT,1.195,2,local:Yariss cross.pdf,5
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),XEI HEV 1.5 eCVT,1.260,3,local:Yariss cross.pdf,5
+TOYOTA,YARIS CROSS,Dimensiones y Pesos,Peso en orden de marcha (kg),SEG HEV 1.5 eCVT,1.280,4,local:Yariss cross.pdf,5
+TOYOTA,YARIS CROSS,Exterior,Barras de techo longitudinales color plateado,1.5 XLI CVT,si,0,local:Yariss cross.pdf,6
+TOYOTA,YARIS CROSS,Exterior,Barras de techo longitudinales color plateado,1.5 XEI CVT,si,1,local:Yariss cross.pdf,6
+TOYOTA,YARIS CROSS,Exterior,Barras de techo longitudinales color plateado,1.5 SEG CVT,si,2,local:Yariss cross.pdf,6
+TOYOTA,YARIS CROSS,Exterior,Barras de techo longitudinales color plateado,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,6
+TOYOTA,YARIS CROSS,Exterior,Barras de techo longitudinales color plateado,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,6
+TOYOTA,YARIS CROSS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro LED incorporada,1.5 XLI CVT,si,0,local:Yariss cross.pdf,7
+TOYOTA,YARIS CROSS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro LED incorporada,1.5 XEI CVT,no,1,local:Yariss cross.pdf,7
+TOYOTA,YARIS CROSS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro LED incorporada,1.5 SEG CVT,no,2,local:Yariss cross.pdf,7
+TOYOTA,YARIS CROSS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro LED incorporada,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,7
+TOYOTA,YARIS CROSS,Exterior,Espejos exteriores con regulación eléctrica y luz de giro LED incorporada,SEG HEV 1.5 eCVT,no,4,local:Yariss cross.pdf,7
+TOYOTA,YARIS CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro LED incorporada y retráctiles automaticamente",1.5 XLI CVT,no,0,local:Yariss cross.pdf,8
+TOYOTA,YARIS CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro LED incorporada y retráctiles automaticamente",1.5 XEI CVT,si,1,local:Yariss cross.pdf,8
+TOYOTA,YARIS CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro LED incorporada y retráctiles automaticamente",1.5 SEG CVT,si,2,local:Yariss cross.pdf,8
+TOYOTA,YARIS CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro LED incorporada y retráctiles automaticamente",XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,8
+TOYOTA,YARIS CROSS,Exterior,"Espejos exteriores con regulación eléctrica, luz de giro LED incorporada y retráctiles automaticamente",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,8
+TOYOTA,YARIS CROSS,Exterior,Faros delanteros LED con regulación en altura,1.5 XLI CVT,si,0,local:Yariss cross.pdf,9
+TOYOTA,YARIS CROSS,Exterior,Faros delanteros LED con regulación en altura,1.5 XEI CVT,si,1,local:Yariss cross.pdf,9
+TOYOTA,YARIS CROSS,Exterior,Faros delanteros LED con regulación en altura,1.5 SEG CVT,si,2,local:Yariss cross.pdf,9
+TOYOTA,YARIS CROSS,Exterior,Faros delanteros LED con regulación en altura,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,9
+TOYOTA,YARIS CROSS,Exterior,Faros delanteros LED con regulación en altura,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,9
+TOYOTA,YARIS CROSS,Exterior,Faros traseros full LED,1.5 XLI CVT,si,0,local:Yariss cross.pdf,10
+TOYOTA,YARIS CROSS,Exterior,Faros traseros full LED,1.5 XEI CVT,si,1,local:Yariss cross.pdf,10
+TOYOTA,YARIS CROSS,Exterior,Faros traseros full LED,1.5 SEG CVT,si,2,local:Yariss cross.pdf,10
+TOYOTA,YARIS CROSS,Exterior,Faros traseros full LED,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,10
+TOYOTA,YARIS CROSS,Exterior,Faros traseros full LED,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,10
+TOYOTA,YARIS CROSS,Exterior,Luces DRL de LED,1.5 XLI CVT,si,0,local:Yariss cross.pdf,11
+TOYOTA,YARIS CROSS,Exterior,Luces DRL de LED,1.5 XEI CVT,si,1,local:Yariss cross.pdf,11
+TOYOTA,YARIS CROSS,Exterior,Luces DRL de LED,1.5 SEG CVT,si,2,local:Yariss cross.pdf,11
+TOYOTA,YARIS CROSS,Exterior,Luces DRL de LED,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,11
+TOYOTA,YARIS CROSS,Exterior,Luces DRL de LED,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,11
+TOYOTA,YARIS CROSS,Exterior,Llantas de aleación,1.5 XLI CVT,17”,0,local:Yariss cross.pdf,12
+TOYOTA,YARIS CROSS,Exterior,Llantas de aleación,1.5 XEI CVT,18”,1,local:Yariss cross.pdf,12
+TOYOTA,YARIS CROSS,Exterior,Llantas de aleación,1.5 SEG CVT,18”,2,local:Yariss cross.pdf,12
+TOYOTA,YARIS CROSS,Exterior,Llantas de aleación,XEI HEV 1.5 eCVT,18”,3,local:Yariss cross.pdf,12
+TOYOTA,YARIS CROSS,Exterior,Llantas de aleación,SEG HEV 1.5 eCVT,18”,4,local:Yariss cross.pdf,12
+TOYOTA,YARIS CROSS,Exterior,Neumáticos,1.5 XLI CVT,"215/60 R17""",0,local:Yariss cross.pdf,13
+TOYOTA,YARIS CROSS,Exterior,Neumáticos,1.5 XEI CVT,"215/55 R18""",1,local:Yariss cross.pdf,13
+TOYOTA,YARIS CROSS,Exterior,Neumáticos,1.5 SEG CVT,"215/55 R18""",2,local:Yariss cross.pdf,13
+TOYOTA,YARIS CROSS,Exterior,Neumáticos,XEI HEV 1.5 eCVT,"215/55 R18""",3,local:Yariss cross.pdf,13
+TOYOTA,YARIS CROSS,Exterior,Neumáticos,SEG HEV 1.5 eCVT,"215/55 R18""",4,local:Yariss cross.pdf,13
+TOYOTA,YARIS CROSS,Exterior,Moldura de ventanilla cromada,1.5 XLI CVT,no,0,local:Yariss cross.pdf,14
+TOYOTA,YARIS CROSS,Exterior,Moldura de ventanilla cromada,1.5 XEI CVT,no,1,local:Yariss cross.pdf,14
+TOYOTA,YARIS CROSS,Exterior,Moldura de ventanilla cromada,1.5 SEG CVT,si,2,local:Yariss cross.pdf,14
+TOYOTA,YARIS CROSS,Exterior,Moldura de ventanilla cromada,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,14
+TOYOTA,YARIS CROSS,Exterior,Moldura de ventanilla cromada,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,14
+TOYOTA,YARIS CROSS,Exterior,Sistema automático de encendido de luces,1.5 XLI CVT,si,0,local:Yariss cross.pdf,15
+TOYOTA,YARIS CROSS,Exterior,Sistema automático de encendido de luces,1.5 XEI CVT,si,1,local:Yariss cross.pdf,15
+TOYOTA,YARIS CROSS,Exterior,Sistema automático de encendido de luces,1.5 SEG CVT,si,2,local:Yariss cross.pdf,15
+TOYOTA,YARIS CROSS,Exterior,Sistema automático de encendido de luces,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,15
+TOYOTA,YARIS CROSS,Exterior,Sistema automático de encendido de luces,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,15
+TOYOTA,YARIS CROSS,Motor naftero,Modelo,1.5 XLI CVT,2NR-VE,0,local:Yariss cross.pdf,16
+TOYOTA,YARIS CROSS,Motor naftero,Modelo,1.5 XEI CVT,2NR-VE,1,local:Yariss cross.pdf,16
+TOYOTA,YARIS CROSS,Motor naftero,Modelo,1.5 SEG CVT,2NR-VE,2,local:Yariss cross.pdf,16
+TOYOTA,YARIS CROSS,Motor naftero,Modelo,XEI HEV 1.5 eCVT,2NR-VEX,3,local:Yariss cross.pdf,16
+TOYOTA,YARIS CROSS,Motor naftero,Modelo,SEG HEV 1.5 eCVT,2NR-VEX,4,local:Yariss cross.pdf,16
+TOYOTA,YARIS CROSS,Motor naftero,Cilindrada (cc),1.5 XLI CVT,1.496,0,local:Yariss cross.pdf,17
+TOYOTA,YARIS CROSS,Motor naftero,Cilindrada (cc),1.5 XEI CVT,1.496,1,local:Yariss cross.pdf,17
+TOYOTA,YARIS CROSS,Motor naftero,Cilindrada (cc),1.5 SEG CVT,1.496,2,local:Yariss cross.pdf,17
+TOYOTA,YARIS CROSS,Motor naftero,Cilindrada (cc),XEI HEV 1.5 eCVT,1.496,3,local:Yariss cross.pdf,17
+TOYOTA,YARIS CROSS,Motor naftero,Cilindrada (cc),SEG HEV 1.5 eCVT,1.496,4,local:Yariss cross.pdf,17
+TOYOTA,YARIS CROSS,Motor naftero,Tipo,1.5 XLI CVT,"4 cilindros en línea, naftero",0,local:Yariss cross.pdf,18
+TOYOTA,YARIS CROSS,Motor naftero,Tipo,1.5 XEI CVT,"4 cilindros en línea, naftero",1,local:Yariss cross.pdf,18
+TOYOTA,YARIS CROSS,Motor naftero,Tipo,1.5 SEG CVT,"4 cilindros en línea, naftero",2,local:Yariss cross.pdf,18
+TOYOTA,YARIS CROSS,Motor naftero,Tipo,XEI HEV 1.5 eCVT,"4 cilindros en línea, naftero",3,local:Yariss cross.pdf,18
+TOYOTA,YARIS CROSS,Motor naftero,Tipo,SEG HEV 1.5 eCVT,"4 cilindros en línea, naftero",4,local:Yariss cross.pdf,18
+TOYOTA,YARIS CROSS,Motor naftero,Distribución,1.5 XLI CVT,16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas),0,local:Yariss cross.pdf,19
+TOYOTA,YARIS CROSS,Motor naftero,Distribución,1.5 XEI CVT,16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas),1,local:Yariss cross.pdf,19
+TOYOTA,YARIS CROSS,Motor naftero,Distribución,1.5 SEG CVT,16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas),2,local:Yariss cross.pdf,19
+TOYOTA,YARIS CROSS,Motor naftero,Distribución,XEI HEV 1.5 eCVT,16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas),3,local:Yariss cross.pdf,19
+TOYOTA,YARIS CROSS,Motor naftero,Distribución,SEG HEV 1.5 eCVT,16 válvulas con cadena de distribución y sistema Dual VVT-i (Variación inteligente de sincronización de válvulas),4,local:Yariss cross.pdf,19
+TOYOTA,YARIS CROSS,Motor naftero,Diámetro y carrera de pistón (mm),1.5 XLI CVT,72.5 x 90.6,0,local:Yariss cross.pdf,20
+TOYOTA,YARIS CROSS,Motor naftero,Diámetro y carrera de pistón (mm),1.5 XEI CVT,72.5 x 90.6,1,local:Yariss cross.pdf,20
+TOYOTA,YARIS CROSS,Motor naftero,Diámetro y carrera de pistón (mm),1.5 SEG CVT,72.5 x 90.6,2,local:Yariss cross.pdf,20
+TOYOTA,YARIS CROSS,Motor naftero,Diámetro y carrera de pistón (mm),XEI HEV 1.5 eCVT,72.5 x 90.6,3,local:Yariss cross.pdf,20
+TOYOTA,YARIS CROSS,Motor naftero,Diámetro y carrera de pistón (mm),SEG HEV 1.5 eCVT,72.5 x 90.6,4,local:Yariss cross.pdf,20
+TOYOTA,YARIS CROSS,Motor naftero,Relación de compresión,1.5 XLI CVT,11.5:1,0,local:Yariss cross.pdf,21
+TOYOTA,YARIS CROSS,Motor naftero,Relación de compresión,1.5 XEI CVT,11.5:1,1,local:Yariss cross.pdf,21
+TOYOTA,YARIS CROSS,Motor naftero,Relación de compresión,1.5 SEG CVT,11.5:1,2,local:Yariss cross.pdf,21
+TOYOTA,YARIS CROSS,Motor naftero,Relación de compresión,XEI HEV 1.5 eCVT,11.5:1,3,local:Yariss cross.pdf,21
+TOYOTA,YARIS CROSS,Motor naftero,Relación de compresión,SEG HEV 1.5 eCVT,11.5:1,4,local:Yariss cross.pdf,21
+TOYOTA,YARIS CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),1.5 XLI CVT,106 (78) / 6.000,0,local:Yariss cross.pdf,22
+TOYOTA,YARIS CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),1.5 XEI CVT,106 (78) / 6.000,1,local:Yariss cross.pdf,22
+TOYOTA,YARIS CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),1.5 SEG CVT,106 (78) / 6.000,2,local:Yariss cross.pdf,22
+TOYOTA,YARIS CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),XEI HEV 1.5 eCVT,91 (67) / 5.500,3,local:Yariss cross.pdf,22
+TOYOTA,YARIS CROSS,Motor naftero,Potencia máxima (Cv (Kw) / rpm),SEG HEV 1.5 eCVT,91 (67) / 5.500,4,local:Yariss cross.pdf,22
+TOYOTA,YARIS CROSS,Motor naftero,Torque máximo (Nm / rpm),1.5 XLI CVT,138 / 4.200,0,local:Yariss cross.pdf,23
+TOYOTA,YARIS CROSS,Motor naftero,Torque máximo (Nm / rpm),1.5 XEI CVT,138 / 4.200,1,local:Yariss cross.pdf,23
+TOYOTA,YARIS CROSS,Motor naftero,Torque máximo (Nm / rpm),1.5 SEG CVT,138 / 4.200,2,local:Yariss cross.pdf,23
+TOYOTA,YARIS CROSS,Motor naftero,Torque máximo (Nm / rpm),XEI HEV 1.5 eCVT,121 / 4.000,3,local:Yariss cross.pdf,23
+TOYOTA,YARIS CROSS,Motor naftero,Torque máximo (Nm / rpm),SEG HEV 1.5 eCVT,121 / 4.000,4,local:Yariss cross.pdf,23
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado digital,1.5 XLI CVT,si,0,local:Yariss cross.pdf,24
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado digital,1.5 XEI CVT,no,1,local:Yariss cross.pdf,24
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado digital,1.5 SEG CVT,no,2,local:Yariss cross.pdf,24
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado digital,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,24
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado digital,SEG HEV 1.5 eCVT,no,4,local:Yariss cross.pdf,24
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado con climatizador automático digital,1.5 XLI CVT,no,0,local:Yariss cross.pdf,25
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado con climatizador automático digital,1.5 XEI CVT,si,1,local:Yariss cross.pdf,25
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado con climatizador automático digital,1.5 SEG CVT,si,2,local:Yariss cross.pdf,25
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado con climatizador automático digital,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,25
+TOYOTA,YARIS CROSS,Confort interior,Aire acondicionado con climatizador automático digital,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,25
+TOYOTA,YARIS CROSS,Confort interior,Asiento del conductor con regulación en altura,1.5 XLI CVT,si,0,local:Yariss cross.pdf,26
+TOYOTA,YARIS CROSS,Confort interior,Asiento del conductor con regulación en altura,1.5 XEI CVT,si,1,local:Yariss cross.pdf,26
+TOYOTA,YARIS CROSS,Confort interior,Asiento del conductor con regulación en altura,1.5 SEG CVT,si,2,local:Yariss cross.pdf,26
+TOYOTA,YARIS CROSS,Confort interior,Asiento del conductor con regulación en altura,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,26
+TOYOTA,YARIS CROSS,Confort interior,Asiento del conductor con regulación en altura,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,26
+TOYOTA,YARIS CROSS,Confort interior,Asientos tapizados de cuero ecológico microperforado,1.5 XLI CVT,no,0,local:Yariss cross.pdf,27
+TOYOTA,YARIS CROSS,Confort interior,Asientos tapizados de cuero ecológico microperforado,1.5 XEI CVT,no,1,local:Yariss cross.pdf,27
+TOYOTA,YARIS CROSS,Confort interior,Asientos tapizados de cuero ecológico microperforado,1.5 SEG CVT,si,2,local:Yariss cross.pdf,27
+TOYOTA,YARIS CROSS,Confort interior,Asientos tapizados de cuero ecológico microperforado,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,27
+TOYOTA,YARIS CROSS,Confort interior,Asientos tapizados de cuero ecológico microperforado,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,27
+TOYOTA,YARIS CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),1.5 XLI CVT,si,0,local:Yariss cross.pdf,28
+TOYOTA,YARIS CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),1.5 XEI CVT,si,1,local:Yariss cross.pdf,28
+TOYOTA,YARIS CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),1.5 SEG CVT,si,2,local:Yariss cross.pdf,28
+TOYOTA,YARIS CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,28
+TOYOTA,YARIS CROSS,Confort interior,Asientos traseros con respaldos plegables (60/40),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,28
+TOYOTA,YARIS CROSS,Confort interior,Bandeja de baúl,1.5 XLI CVT,no,0,local:Yariss cross.pdf,29
+TOYOTA,YARIS CROSS,Confort interior,Bandeja de baúl,1.5 XEI CVT,no,1,local:Yariss cross.pdf,29
+TOYOTA,YARIS CROSS,Confort interior,Bandeja de baúl,1.5 SEG CVT,si,2,local:Yariss cross.pdf,29
+TOYOTA,YARIS CROSS,Confort interior,Bandeja de baúl,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,29
+TOYOTA,YARIS CROSS,Confort interior,Bandeja de baúl,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,29
+TOYOTA,YARIS CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,1.5 XLI CVT,si,0,local:Yariss cross.pdf,30
+TOYOTA,YARIS CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,1.5 XEI CVT,si,1,local:Yariss cross.pdf,30
+TOYOTA,YARIS CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,1.5 SEG CVT,si,2,local:Yariss cross.pdf,30
+TOYOTA,YARIS CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,30
+TOYOTA,YARIS CROSS,Confort interior,Columna de dirección regulable en altura y profundidad,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,30
+TOYOTA,YARIS CROSS,Confort interior,Display de información múltiple con pantalla a color,1.5 XLI CVT,4.2'',0,local:Yariss cross.pdf,31
+TOYOTA,YARIS CROSS,Confort interior,Display de información múltiple con pantalla a color,1.5 XEI CVT,"7""",1,local:Yariss cross.pdf,31
+TOYOTA,YARIS CROSS,Confort interior,Display de información múltiple con pantalla a color,1.5 SEG CVT,"7""",2,local:Yariss cross.pdf,31
+TOYOTA,YARIS CROSS,Confort interior,Display de información múltiple con pantalla a color,XEI HEV 1.5 eCVT,"7""",3,local:Yariss cross.pdf,31
+TOYOTA,YARIS CROSS,Confort interior,Display de información múltiple con pantalla a color,SEG HEV 1.5 eCVT,"7""",4,local:Yariss cross.pdf,31
+TOYOTA,YARIS CROSS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,1.5 XLI CVT,no,0,local:Yariss cross.pdf,32
+TOYOTA,YARIS CROSS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,1.5 XEI CVT,si,1,local:Yariss cross.pdf,32
+TOYOTA,YARIS CROSS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,1.5 SEG CVT,si,2,local:Yariss cross.pdf,32
+TOYOTA,YARIS CROSS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,32
+TOYOTA,YARIS CROSS,Confort interior,Espejo retrovisor interno con anti-encandilamiento automático,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,32
+TOYOTA,YARIS CROSS,Confort interior,"Levanta cristales eléctricos con función ""one touch"" para el conductor",1.5 XLI CVT,si,0,local:Yariss cross.pdf,33
+TOYOTA,YARIS CROSS,Confort interior,"Levanta cristales eléctricos con función ""one touch"" para el conductor",1.5 XEI CVT,si,1,local:Yariss cross.pdf,33
+TOYOTA,YARIS CROSS,Confort interior,"Levanta cristales eléctricos con función ""one touch"" para el conductor",1.5 SEG CVT,si,2,local:Yariss cross.pdf,33
+TOYOTA,YARIS CROSS,Confort interior,"Levanta cristales eléctricos con función ""one touch"" para el conductor",XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,33
+TOYOTA,YARIS CROSS,Confort interior,"Levanta cristales eléctricos con función ""one touch"" para el conductor",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,33
+TOYOTA,YARIS CROSS,Confort interior,Iluminación interior ambiente LED,1.5 XLI CVT,no,0,local:Yariss cross.pdf,34
+TOYOTA,YARIS CROSS,Confort interior,Iluminación interior ambiente LED,1.5 XEI CVT,si,1,local:Yariss cross.pdf,34
+TOYOTA,YARIS CROSS,Confort interior,Iluminación interior ambiente LED,1.5 SEG CVT,si,2,local:Yariss cross.pdf,34
+TOYOTA,YARIS CROSS,Confort interior,Iluminación interior ambiente LED,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,34
+TOYOTA,YARIS CROSS,Confort interior,Iluminación interior ambiente LED,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,34
+TOYOTA,YARIS CROSS,Confort interior,Salidas de aire acondicionado para plazas traseras,1.5 XLI CVT,si,0,local:Yariss cross.pdf,35
+TOYOTA,YARIS CROSS,Confort interior,Salidas de aire acondicionado para plazas traseras,1.5 XEI CVT,si,1,local:Yariss cross.pdf,35
+TOYOTA,YARIS CROSS,Confort interior,Salidas de aire acondicionado para plazas traseras,1.5 SEG CVT,si,2,local:Yariss cross.pdf,35
+TOYOTA,YARIS CROSS,Confort interior,Salidas de aire acondicionado para plazas traseras,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,35
+TOYOTA,YARIS CROSS,Confort interior,Salidas de aire acondicionado para plazas traseras,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,35
+TOYOTA,YARIS CROSS,Confort interior,Techo solar panorámico,1.5 XLI CVT,no,0,local:Yariss cross.pdf,36
+TOYOTA,YARIS CROSS,Confort interior,Techo solar panorámico,1.5 XEI CVT,no,1,local:Yariss cross.pdf,36
+TOYOTA,YARIS CROSS,Confort interior,Techo solar panorámico,1.5 SEG CVT,si,2,local:Yariss cross.pdf,36
+TOYOTA,YARIS CROSS,Confort interior,Techo solar panorámico,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,36
+TOYOTA,YARIS CROSS,Confort interior,Techo solar panorámico,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,36
+TOYOTA,YARIS CROSS,Confort interior,"Toma de 12V (x1) y USB tipo ""C"" (x1)",1.5 XLI CVT,si,0,local:Yariss cross.pdf,37
+TOYOTA,YARIS CROSS,Confort interior,"Toma de 12V (x1) y USB tipo ""C"" (x1)",1.5 XEI CVT,si,1,local:Yariss cross.pdf,37
+TOYOTA,YARIS CROSS,Confort interior,"Toma de 12V (x1) y USB tipo ""C"" (x1)",1.5 SEG CVT,si,2,local:Yariss cross.pdf,37
+TOYOTA,YARIS CROSS,Confort interior,"Toma de 12V (x1) y USB tipo ""C"" (x1)",XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,37
+TOYOTA,YARIS CROSS,Confort interior,"Toma de 12V (x1) y USB tipo ""C"" (x1)",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,37
+TOYOTA,YARIS CROSS,Confort interior,"USB tipo ""C"" para plazas traseras (x2)",1.5 XLI CVT,si,0,local:Yariss cross.pdf,38
+TOYOTA,YARIS CROSS,Confort interior,"USB tipo ""C"" para plazas traseras (x2)",1.5 XEI CVT,si,1,local:Yariss cross.pdf,38
+TOYOTA,YARIS CROSS,Confort interior,"USB tipo ""C"" para plazas traseras (x2)",1.5 SEG CVT,si,2,local:Yariss cross.pdf,38
+TOYOTA,YARIS CROSS,Confort interior,"USB tipo ""C"" para plazas traseras (x2)",XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,38
+TOYOTA,YARIS CROSS,Confort interior,"USB tipo ""C"" para plazas traseras (x2)",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,38
+TOYOTA,YARIS CROSS,Confort interior,Volante revestido en cuero,1.5 XLI CVT,no,0,local:Yariss cross.pdf,39
+TOYOTA,YARIS CROSS,Confort interior,Volante revestido en cuero,1.5 XEI CVT,si,1,local:Yariss cross.pdf,39
+TOYOTA,YARIS CROSS,Confort interior,Volante revestido en cuero,1.5 SEG CVT,si,2,local:Yariss cross.pdf,39
+TOYOTA,YARIS CROSS,Confort interior,Volante revestido en cuero,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,39
+TOYOTA,YARIS CROSS,Confort interior,Volante revestido en cuero,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,39
+TOYOTA,YARIS CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",1.5 XLI CVT,si,0,local:Yariss cross.pdf,40
+TOYOTA,YARIS CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",1.5 XEI CVT,si,1,local:Yariss cross.pdf,40
+TOYOTA,YARIS CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",1.5 SEG CVT,si,2,local:Yariss cross.pdf,40
+TOYOTA,YARIS CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,40
+TOYOTA,YARIS CROSS,Confort interior,"Volante con control de audio, display de información múltiple y teléfono",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,40
+TOYOTA,YARIS CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),1.5 XLI CVT,-,0,local:Yariss cross.pdf,41
+TOYOTA,YARIS CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),1.5 XEI CVT,-,1,local:Yariss cross.pdf,41
+TOYOTA,YARIS CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),1.5 SEG CVT,-,2,local:Yariss cross.pdf,41
+TOYOTA,YARIS CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),XEI HEV 1.5 eCVT,111 (82),3,local:Yariss cross.pdf,41
+TOYOTA,YARIS CROSS,Sistema híbrido autorecargable,Potencia máxima combinada (CV (Kw) / rpm),SEG HEV 1.5 eCVT,111 (82),4,local:Yariss cross.pdf,41
+TOYOTA,YARIS CROSS,Motor eléctrico,Potencia máxima [ CV (Kw) ],1.5 XLI CVT,-,0,local:Yariss cross.pdf,42
+TOYOTA,YARIS CROSS,Motor eléctrico,Potencia máxima [ CV (Kw) ],1.5 XEI CVT,-,1,local:Yariss cross.pdf,42
+TOYOTA,YARIS CROSS,Motor eléctrico,Potencia máxima [ CV (Kw) ],1.5 SEG CVT,-,2,local:Yariss cross.pdf,42
+TOYOTA,YARIS CROSS,Motor eléctrico,Potencia máxima [ CV (Kw) ],XEI HEV 1.5 eCVT,80 (59),3,local:Yariss cross.pdf,42
+TOYOTA,YARIS CROSS,Motor eléctrico,Potencia máxima [ CV (Kw) ],SEG HEV 1.5 eCVT,80 (59),4,local:Yariss cross.pdf,42
+TOYOTA,YARIS CROSS,Motor eléctrico,Voltaje (V),1.5 XLI CVT,-,0,local:Yariss cross.pdf,43
+TOYOTA,YARIS CROSS,Motor eléctrico,Voltaje (V),1.5 XEI CVT,-,1,local:Yariss cross.pdf,43
+TOYOTA,YARIS CROSS,Motor eléctrico,Voltaje (V),1.5 SEG CVT,-,2,local:Yariss cross.pdf,43
+TOYOTA,YARIS CROSS,Motor eléctrico,Voltaje (V),XEI HEV 1.5 eCVT,580,3,local:Yariss cross.pdf,43
+TOYOTA,YARIS CROSS,Motor eléctrico,Voltaje (V),SEG HEV 1.5 eCVT,580,4,local:Yariss cross.pdf,43
+TOYOTA,YARIS CROSS,Motor eléctrico,Torque máximo [ Nm ],1.5 XLI CVT,-,0,local:Yariss cross.pdf,44
+TOYOTA,YARIS CROSS,Motor eléctrico,Torque máximo [ Nm ],1.5 XEI CVT,-,1,local:Yariss cross.pdf,44
+TOYOTA,YARIS CROSS,Motor eléctrico,Torque máximo [ Nm ],1.5 SEG CVT,-,2,local:Yariss cross.pdf,44
+TOYOTA,YARIS CROSS,Motor eléctrico,Torque máximo [ Nm ],XEI HEV 1.5 eCVT,141,3,local:Yariss cross.pdf,44
+TOYOTA,YARIS CROSS,Motor eléctrico,Torque máximo [ Nm ],SEG HEV 1.5 eCVT,141,4,local:Yariss cross.pdf,44
+TOYOTA,YARIS CROSS,Batería,Capacidad (Ah),1.5 XLI CVT,-,0,local:Yariss cross.pdf,45
+TOYOTA,YARIS CROSS,Batería,Capacidad (Ah),1.5 XEI CVT,-,1,local:Yariss cross.pdf,45
+TOYOTA,YARIS CROSS,Batería,Capacidad (Ah),1.5 SEG CVT,-,2,local:Yariss cross.pdf,45
+TOYOTA,YARIS CROSS,Batería,Capacidad (Ah),XEI HEV 1.5 eCVT,"4,3",3,local:Yariss cross.pdf,45
+TOYOTA,YARIS CROSS,Batería,Capacidad (Ah),SEG HEV 1.5 eCVT,"4,3",4,local:Yariss cross.pdf,45
+TOYOTA,YARIS CROSS,Chasis,Transmisión,1.5 XLI CVT,Automática CVT,0,local:Yariss cross.pdf,46
+TOYOTA,YARIS CROSS,Chasis,Transmisión,1.5 XEI CVT,Automática CVT,1,local:Yariss cross.pdf,46
+TOYOTA,YARIS CROSS,Chasis,Transmisión,1.5 SEG CVT,Automática CVT de 7 velocidades pre- programadas,2,local:Yariss cross.pdf,46
+TOYOTA,YARIS CROSS,Chasis,Transmisión,XEI HEV 1.5 eCVT,Automática e-CVT (controlada electrónicamente),3,local:Yariss cross.pdf,46
+TOYOTA,YARIS CROSS,Chasis,Transmisión,SEG HEV 1.5 eCVT,Automática e-CVT (controlada electrónicamente),4,local:Yariss cross.pdf,46
+TOYOTA,YARIS CROSS,Chasis,Suspensión,1.5 XLI CVT,Independiente tipo Mac Pherson con barra estabilizadora,0,local:Yariss cross.pdf,47
+TOYOTA,YARIS CROSS,Chasis,Suspensión,1.5 XEI CVT,Independiente tipo Mac Pherson con barra estabilizadora,1,local:Yariss cross.pdf,47
+TOYOTA,YARIS CROSS,Chasis,Suspensión,1.5 SEG CVT,Independiente tipo Mac Pherson con barra estabilizadora,2,local:Yariss cross.pdf,47
+TOYOTA,YARIS CROSS,Chasis,Suspensión,XEI HEV 1.5 eCVT,Independiente tipo Mac Pherson con barra estabilizadora,3,local:Yariss cross.pdf,47
+TOYOTA,YARIS CROSS,Chasis,Suspensión,SEG HEV 1.5 eCVT,Independiente tipo Mac Pherson con barra estabilizadora,4,local:Yariss cross.pdf,47
+TOYOTA,YARIS CROSS,Chasis,Dirección,1.5 XLI CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",0,local:Yariss cross.pdf,48
+TOYOTA,YARIS CROSS,Chasis,Dirección,1.5 XEI CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",1,local:Yariss cross.pdf,48
+TOYOTA,YARIS CROSS,Chasis,Dirección,1.5 SEG CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",2,local:Yariss cross.pdf,48
+TOYOTA,YARIS CROSS,Chasis,Dirección,XEI HEV 1.5 eCVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",3,local:Yariss cross.pdf,48
+TOYOTA,YARIS CROSS,Chasis,Dirección,SEG HEV 1.5 eCVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",4,local:Yariss cross.pdf,48
+TOYOTA,YARIS CROSS,Chasis,Frenos,1.5 XLI CVT,Discos ventilados,0,local:Yariss cross.pdf,49
+TOYOTA,YARIS CROSS,Chasis,Frenos,1.5 XEI CVT,Discos ventilados,1,local:Yariss cross.pdf,49
+TOYOTA,YARIS CROSS,Chasis,Frenos,1.5 SEG CVT,Discos ventilados,2,local:Yariss cross.pdf,49
+TOYOTA,YARIS CROSS,Chasis,Frenos,XEI HEV 1.5 eCVT,Discos ventilados,3,local:Yariss cross.pdf,49
+TOYOTA,YARIS CROSS,Chasis,Frenos,SEG HEV 1.5 eCVT,Discos ventilados,4,local:Yariss cross.pdf,49
+TOYOTA,YARIS CROSS,Tecnología,Cámara de estacionamiento,1.5 XLI CVT,Trasera,0,local:Yariss cross.pdf,50
+TOYOTA,YARIS CROSS,Tecnología,Cámara de estacionamiento,1.5 XEI CVT,Trasera,1,local:Yariss cross.pdf,50
+TOYOTA,YARIS CROSS,Tecnología,Cámara de estacionamiento,1.5 SEG CVT,360°,2,local:Yariss cross.pdf,50
+TOYOTA,YARIS CROSS,Tecnología,Cámara de estacionamiento,XEI HEV 1.5 eCVT,Trasera,3,local:Yariss cross.pdf,50
+TOYOTA,YARIS CROSS,Tecnología,Cámara de estacionamiento,SEG HEV 1.5 eCVT,360°,4,local:Yariss cross.pdf,50
+TOYOTA,YARIS CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalambrica**,1.5 XLI CVT,no,0,local:Yariss cross.pdf,51
+TOYOTA,YARIS CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalambrica**,1.5 XEI CVT,si,1,local:Yariss cross.pdf,51
+TOYOTA,YARIS CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalambrica**,1.5 SEG CVT,si,2,local:Yariss cross.pdf,51
+TOYOTA,YARIS CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalambrica**,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,51
+TOYOTA,YARIS CROSS,Tecnología,Cargador inalámbrico para smartphones que soporten carga inalambrica**,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,51
+TOYOTA,YARIS CROSS,Tecnología,"Freno de estacionamiento electrónico (EPB) con función ""Auto-Hold",1.5 XLI CVT,si,0,local:Yariss cross.pdf,52
+TOYOTA,YARIS CROSS,Tecnología,"Freno de estacionamiento electrónico (EPB) con función ""Auto-Hold",1.5 XEI CVT,si,1,local:Yariss cross.pdf,52
+TOYOTA,YARIS CROSS,Tecnología,"Freno de estacionamiento electrónico (EPB) con función ""Auto-Hold",1.5 SEG CVT,si,2,local:Yariss cross.pdf,52
+TOYOTA,YARIS CROSS,Tecnología,"Freno de estacionamiento electrónico (EPB) con función ""Auto-Hold",XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,52
+TOYOTA,YARIS CROSS,Tecnología,"Freno de estacionamiento electrónico (EPB) con función ""Auto-Hold",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,52
+TOYOTA,YARIS CROSS,Tecnología,Levas al volante,1.5 XLI CVT,no,0,local:Yariss cross.pdf,53
+TOYOTA,YARIS CROSS,Tecnología,Levas al volante,1.5 XEI CVT,no,1,local:Yariss cross.pdf,53
+TOYOTA,YARIS CROSS,Tecnología,Levas al volante,1.5 SEG CVT,si,2,local:Yariss cross.pdf,53
+TOYOTA,YARIS CROSS,Tecnología,Levas al volante,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,53
+TOYOTA,YARIS CROSS,Tecnología,Levas al volante,SEG HEV 1.5 eCVT,no,4,local:Yariss cross.pdf,53
+TOYOTA,YARIS CROSS,Tecnología,Modos de conducción,1.5 XLI CVT,no,0,local:Yariss cross.pdf,54
+TOYOTA,YARIS CROSS,Tecnología,Modos de conducción,1.5 XEI CVT,"ECO, NORMAL, POWER",1,local:Yariss cross.pdf,54
+TOYOTA,YARIS CROSS,Tecnología,Modos de conducción,1.5 SEG CVT,"ECO, NORMAL, POWER",2,local:Yariss cross.pdf,54
+TOYOTA,YARIS CROSS,Tecnología,Modos de conducción,XEI HEV 1.5 eCVT,"ECO, NORMAL, POWER, EV",3,local:Yariss cross.pdf,54
+TOYOTA,YARIS CROSS,Tecnología,Modos de conducción,SEG HEV 1.5 eCVT,"ECO, NORMAL, POWER, EV",4,local:Yariss cross.pdf,54
+TOYOTA,YARIS CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",1.5 XLI CVT,no,0,local:Yariss cross.pdf,55
+TOYOTA,YARIS CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",1.5 XEI CVT,no,1,local:Yariss cross.pdf,55
+TOYOTA,YARIS CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",1.5 SEG CVT,si,2,local:Yariss cross.pdf,55
+TOYOTA,YARIS CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,55
+TOYOTA,YARIS CROSS,Tecnología,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,55
+TOYOTA,YARIS CROSS,Tecnología,Sensores de estacionamiento delanteros (x2) y traseros (x2),1.5 XLI CVT,no,0,local:Yariss cross.pdf,56
+TOYOTA,YARIS CROSS,Tecnología,Sensores de estacionamiento delanteros (x2) y traseros (x2),1.5 XEI CVT,si,1,local:Yariss cross.pdf,56
+TOYOTA,YARIS CROSS,Tecnología,Sensores de estacionamiento delanteros (x2) y traseros (x2),1.5 SEG CVT,si,2,local:Yariss cross.pdf,56
+TOYOTA,YARIS CROSS,Tecnología,Sensores de estacionamiento delanteros (x2) y traseros (x2),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,56
+TOYOTA,YARIS CROSS,Tecnología,Sensores de estacionamiento delanteros (x2) y traseros (x2),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,56
+TOYOTA,YARIS CROSS,Tecnología,Sistema de encendido por botón (Push Start Button),1.5 XLI CVT,si,0,local:Yariss cross.pdf,57
+TOYOTA,YARIS CROSS,Tecnología,Sistema de encendido por botón (Push Start Button),1.5 XEI CVT,si,1,local:Yariss cross.pdf,57
+TOYOTA,YARIS CROSS,Tecnología,Sistema de encendido por botón (Push Start Button),1.5 SEG CVT,si,2,local:Yariss cross.pdf,57
+TOYOTA,YARIS CROSS,Tecnología,Sistema de encendido por botón (Push Start Button),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,57
+TOYOTA,YARIS CROSS,Tecnología,Sistema de encendido por botón (Push Start Button),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,57
+TOYOTA,YARIS CROSS,Tecnología,Sistema de ingreso inteligente (Smart Entry System),1.5 XLI CVT,no,0,local:Yariss cross.pdf,58
+TOYOTA,YARIS CROSS,Tecnología,Sistema de ingreso inteligente (Smart Entry System),1.5 XEI CVT,si,1,local:Yariss cross.pdf,58
+TOYOTA,YARIS CROSS,Tecnología,Sistema de ingreso inteligente (Smart Entry System),1.5 SEG CVT,si,2,local:Yariss cross.pdf,58
+TOYOTA,YARIS CROSS,Tecnología,Sistema de ingreso inteligente (Smart Entry System),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,58
+TOYOTA,YARIS CROSS,Tecnología,Sistema de ingreso inteligente (Smart Entry System),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,58
+TOYOTA,YARIS CROSS,Tecnología,Servicios conectados,1.5 XLI CVT,no,0,local:Yariss cross.pdf,59
+TOYOTA,YARIS CROSS,Tecnología,Servicios conectados,1.5 XEI CVT,no,1,local:Yariss cross.pdf,59
+TOYOTA,YARIS CROSS,Tecnología,Servicios conectados,1.5 SEG CVT,si,2,local:Yariss cross.pdf,59
+TOYOTA,YARIS CROSS,Tecnología,Servicios conectados,XEI HEV 1.5 eCVT,no,3,local:Yariss cross.pdf,59
+TOYOTA,YARIS CROSS,Tecnología,Servicios conectados,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,59
+TOYOTA,YARIS CROSS,Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,1.5 XLI CVT,si,0,local:Yariss cross.pdf,60
+TOYOTA,YARIS CROSS,Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,1.5 XEI CVT,si,1,local:Yariss cross.pdf,60
+TOYOTA,YARIS CROSS,Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,1.5 SEG CVT,si,2,local:Yariss cross.pdf,60
+TOYOTA,YARIS CROSS,Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,60
+TOYOTA,YARIS CROSS,Seguridad,Control de velocidad crucero adaptativo (ACC)* con rango completo,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,60
+TOYOTA,YARIS CROSS,Seguridad,Sistema de pre-colisión frontal (PCS)*,1.5 XLI CVT,si,0,local:Yariss cross.pdf,61
+TOYOTA,YARIS CROSS,Seguridad,Sistema de pre-colisión frontal (PCS)*,1.5 XEI CVT,si,1,local:Yariss cross.pdf,61
+TOYOTA,YARIS CROSS,Seguridad,Sistema de pre-colisión frontal (PCS)*,1.5 SEG CVT,si,2,local:Yariss cross.pdf,61
+TOYOTA,YARIS CROSS,Seguridad,Sistema de pre-colisión frontal (PCS)*,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,61
+TOYOTA,YARIS CROSS,Seguridad,Sistema de pre-colisión frontal (PCS)*,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,61
+TOYOTA,YARIS CROSS,Seguridad,Sistema de alerta de cambio de carril (LDA)*,1.5 XLI CVT,si,0,local:Yariss cross.pdf,62
+TOYOTA,YARIS CROSS,Seguridad,Sistema de alerta de cambio de carril (LDA)*,1.5 XEI CVT,si,1,local:Yariss cross.pdf,62
+TOYOTA,YARIS CROSS,Seguridad,Sistema de alerta de cambio de carril (LDA)*,1.5 SEG CVT,si,2,local:Yariss cross.pdf,62
+TOYOTA,YARIS CROSS,Seguridad,Sistema de alerta de cambio de carril (LDA)*,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,62
+TOYOTA,YARIS CROSS,Seguridad,Sistema de alerta de cambio de carril (LDA)*,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,62
+TOYOTA,YARIS CROSS,Seguridad,Sistema de asistencia para mantenimiento de Carril*,1.5 XLI CVT,si,0,local:Yariss cross.pdf,63
+TOYOTA,YARIS CROSS,Seguridad,Sistema de asistencia para mantenimiento de Carril*,1.5 XEI CVT,si,1,local:Yariss cross.pdf,63
+TOYOTA,YARIS CROSS,Seguridad,Sistema de asistencia para mantenimiento de Carril*,1.5 SEG CVT,si,2,local:Yariss cross.pdf,63
+TOYOTA,YARIS CROSS,Seguridad,Sistema de asistencia para mantenimiento de Carril*,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,63
+TOYOTA,YARIS CROSS,Seguridad,Sistema de asistencia para mantenimiento de Carril*,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,63
+TOYOTA,YARIS CROSS,Seguridad,Sistema de luces altas automáticas (AHB)*,1.5 XLI CVT,si,0,local:Yariss cross.pdf,64
+TOYOTA,YARIS CROSS,Seguridad,Sistema de luces altas automáticas (AHB)*,1.5 XEI CVT,si,1,local:Yariss cross.pdf,64
+TOYOTA,YARIS CROSS,Seguridad,Sistema de luces altas automáticas (AHB)*,1.5 SEG CVT,si,2,local:Yariss cross.pdf,64
+TOYOTA,YARIS CROSS,Seguridad,Sistema de luces altas automáticas (AHB)*,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,64
+TOYOTA,YARIS CROSS,Seguridad,Sistema de luces altas automáticas (AHB)*,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,64
+TOYOTA,YARIS CROSS,Seguridad,ABS con distribución electrónica de frenado (EBD),1.5 XLI CVT,si,0,local:Yariss cross.pdf,65
+TOYOTA,YARIS CROSS,Seguridad,ABS con distribución electrónica de frenado (EBD),1.5 XEI CVT,si,1,local:Yariss cross.pdf,65
+TOYOTA,YARIS CROSS,Seguridad,ABS con distribución electrónica de frenado (EBD),1.5 SEG CVT,si,2,local:Yariss cross.pdf,65
+TOYOTA,YARIS CROSS,Seguridad,ABS con distribución electrónica de frenado (EBD),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,65
+TOYOTA,YARIS CROSS,Seguridad,ABS con distribución electrónica de frenado (EBD),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,65
+TOYOTA,YARIS CROSS,Seguridad,Airbags frontales para conductor y acompañante (x2),1.5 XLI CVT,si,0,local:Yariss cross.pdf,66
+TOYOTA,YARIS CROSS,Seguridad,Airbags frontales para conductor y acompañante (x2),1.5 XEI CVT,si,1,local:Yariss cross.pdf,66
+TOYOTA,YARIS CROSS,Seguridad,Airbags frontales para conductor y acompañante (x2),1.5 SEG CVT,si,2,local:Yariss cross.pdf,66
+TOYOTA,YARIS CROSS,Seguridad,Airbags frontales para conductor y acompañante (x2),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,66
+TOYOTA,YARIS CROSS,Seguridad,Airbags frontales para conductor y acompañante (x2),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,66
+TOYOTA,YARIS CROSS,Seguridad,Airbags laterales (x2) y de cortina (x2),1.5 XLI CVT,si,0,local:Yariss cross.pdf,67
+TOYOTA,YARIS CROSS,Seguridad,Airbags laterales (x2) y de cortina (x2),1.5 XEI CVT,si,1,local:Yariss cross.pdf,67
+TOYOTA,YARIS CROSS,Seguridad,Airbags laterales (x2) y de cortina (x2),1.5 SEG CVT,si,2,local:Yariss cross.pdf,67
+TOYOTA,YARIS CROSS,Seguridad,Airbags laterales (x2) y de cortina (x2),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,67
+TOYOTA,YARIS CROSS,Seguridad,Airbags laterales (x2) y de cortina (x2),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,67
+TOYOTA,YARIS CROSS,Seguridad,Alarma con inmovilizador,1.5 XLI CVT,si,0,local:Yariss cross.pdf,68
+TOYOTA,YARIS CROSS,Seguridad,Alarma con inmovilizador,1.5 XEI CVT,si,1,local:Yariss cross.pdf,68
+TOYOTA,YARIS CROSS,Seguridad,Alarma con inmovilizador,1.5 SEG CVT,si,2,local:Yariss cross.pdf,68
+TOYOTA,YARIS CROSS,Seguridad,Alarma con inmovilizador,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,68
+TOYOTA,YARIS CROSS,Seguridad,Alarma con inmovilizador,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,68
+TOYOTA,YARIS CROSS,Seguridad,Asistencia de arranque en pendientes (HAC),1.5 XLI CVT,si,0,local:Yariss cross.pdf,69
+TOYOTA,YARIS CROSS,Seguridad,Asistencia de arranque en pendientes (HAC),1.5 XEI CVT,si,1,local:Yariss cross.pdf,69
+TOYOTA,YARIS CROSS,Seguridad,Asistencia de arranque en pendientes (HAC),1.5 SEG CVT,si,2,local:Yariss cross.pdf,69
+TOYOTA,YARIS CROSS,Seguridad,Asistencia de arranque en pendientes (HAC),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,69
+TOYOTA,YARIS CROSS,Seguridad,Asistencia de arranque en pendientes (HAC),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,69
+TOYOTA,YARIS CROSS,Seguridad,Alerta de punto ciego (BSM),1.5 XLI CVT,si,0,local:Yariss cross.pdf,70
+TOYOTA,YARIS CROSS,Seguridad,Alerta de punto ciego (BSM),1.5 XEI CVT,si,1,local:Yariss cross.pdf,70
+TOYOTA,YARIS CROSS,Seguridad,Alerta de punto ciego (BSM),1.5 SEG CVT,si,2,local:Yariss cross.pdf,70
+TOYOTA,YARIS CROSS,Seguridad,Alerta de punto ciego (BSM),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,70
+TOYOTA,YARIS CROSS,Seguridad,Alerta de punto ciego (BSM),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,70
+TOYOTA,YARIS CROSS,Seguridad,Alerta de trafico cruzado trasero (RCTA),1.5 XLI CVT,si,0,local:Yariss cross.pdf,71
+TOYOTA,YARIS CROSS,Seguridad,Alerta de trafico cruzado trasero (RCTA),1.5 XEI CVT,si,1,local:Yariss cross.pdf,71
+TOYOTA,YARIS CROSS,Seguridad,Alerta de trafico cruzado trasero (RCTA),1.5 SEG CVT,si,2,local:Yariss cross.pdf,71
+TOYOTA,YARIS CROSS,Seguridad,Alerta de trafico cruzado trasero (RCTA),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,71
+TOYOTA,YARIS CROSS,Seguridad,Alerta de trafico cruzado trasero (RCTA),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,71
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,1.5 XLI CVT,si,0,local:Yariss cross.pdf,72
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,1.5 XEI CVT,si,1,local:Yariss cross.pdf,72
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,1.5 SEG CVT,si,2,local:Yariss cross.pdf,72
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,72
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,72
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,1.5 XLI CVT,si,0,local:Yariss cross.pdf,73
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,1.5 XEI CVT,si,1,local:Yariss cross.pdf,73
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,1.5 SEG CVT,si,2,local:Yariss cross.pdf,73
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,73
+TOYOTA,YARIS CROSS,Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,73
+TOYOTA,YARIS CROSS,Seguridad,Control de estabilidad (VSC),1.5 XLI CVT,si,0,local:Yariss cross.pdf,74
+TOYOTA,YARIS CROSS,Seguridad,Control de estabilidad (VSC),1.5 XEI CVT,si,1,local:Yariss cross.pdf,74
+TOYOTA,YARIS CROSS,Seguridad,Control de estabilidad (VSC),1.5 SEG CVT,si,2,local:Yariss cross.pdf,74
+TOYOTA,YARIS CROSS,Seguridad,Control de estabilidad (VSC),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,74
+TOYOTA,YARIS CROSS,Seguridad,Control de estabilidad (VSC),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,74
+TOYOTA,YARIS CROSS,Seguridad,Control de tracción (TRC),1.5 XLI CVT,si,0,local:Yariss cross.pdf,75
+TOYOTA,YARIS CROSS,Seguridad,Control de tracción (TRC),1.5 XEI CVT,si,1,local:Yariss cross.pdf,75
+TOYOTA,YARIS CROSS,Seguridad,Control de tracción (TRC),1.5 SEG CVT,si,2,local:Yariss cross.pdf,75
+TOYOTA,YARIS CROSS,Seguridad,Control de tracción (TRC),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,75
+TOYOTA,YARIS CROSS,Seguridad,Control de tracción (TRC),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,75
+TOYOTA,YARIS CROSS,Seguridad,Faros antiniebla delanteros de LED,1.5 XLI CVT,no,0,local:Yariss cross.pdf,76
+TOYOTA,YARIS CROSS,Seguridad,Faros antiniebla delanteros de LED,1.5 XEI CVT,si,1,local:Yariss cross.pdf,76
+TOYOTA,YARIS CROSS,Seguridad,Faros antiniebla delanteros de LED,1.5 SEG CVT,si,2,local:Yariss cross.pdf,76
+TOYOTA,YARIS CROSS,Seguridad,Faros antiniebla delanteros de LED,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,76
+TOYOTA,YARIS CROSS,Seguridad,Faros antiniebla delanteros de LED,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,76
+TOYOTA,YARIS CROSS,Seguridad,Faro antiniebla trasero de LED,1.5 XLI CVT,si,0,local:Yariss cross.pdf,77
+TOYOTA,YARIS CROSS,Seguridad,Faro antiniebla trasero de LED,1.5 XEI CVT,si,1,local:Yariss cross.pdf,77
+TOYOTA,YARIS CROSS,Seguridad,Faro antiniebla trasero de LED,1.5 SEG CVT,si,2,local:Yariss cross.pdf,77
+TOYOTA,YARIS CROSS,Seguridad,Faro antiniebla trasero de LED,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,77
+TOYOTA,YARIS CROSS,Seguridad,Faro antiniebla trasero de LED,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,77
+TOYOTA,YARIS CROSS,Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),1.5 XLI CVT,si,0,local:Yariss cross.pdf,78
+TOYOTA,YARIS CROSS,Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),1.5 XEI CVT,si,1,local:Yariss cross.pdf,78
+TOYOTA,YARIS CROSS,Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),1.5 SEG CVT,si,2,local:Yariss cross.pdf,78
+TOYOTA,YARIS CROSS,Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,78
+TOYOTA,YARIS CROSS,Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,78
+TOYOTA,YARIS CROSS,Seguridad,Tuerca de seguridad para llantas,1.5 XLI CVT,no,0,local:Yariss cross.pdf,79
+TOYOTA,YARIS CROSS,Seguridad,Tuerca de seguridad para llantas,1.5 XEI CVT,si,1,local:Yariss cross.pdf,79
+TOYOTA,YARIS CROSS,Seguridad,Tuerca de seguridad para llantas,1.5 SEG CVT,si,2,local:Yariss cross.pdf,79
+TOYOTA,YARIS CROSS,Seguridad,Tuerca de seguridad para llantas,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,79
+TOYOTA,YARIS CROSS,Seguridad,Tuerca de seguridad para llantas,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,79
+TOYOTA,YARIS CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,1.5 XLI CVT,si,0,local:Yariss cross.pdf,80
+TOYOTA,YARIS CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,1.5 XEI CVT,si,1,local:Yariss cross.pdf,80
+TOYOTA,YARIS CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,1.5 SEG CVT,si,2,local:Yariss cross.pdf,80
+TOYOTA,YARIS CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,80
+TOYOTA,YARIS CROSS,Audio y conectividad,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,80
+TOYOTA,YARIS CROSS,Audio y conectividad,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,1.5 XLI CVT,si,0,local:Yariss cross.pdf,81
+TOYOTA,YARIS CROSS,Audio y conectividad,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,1.5 XEI CVT,si,1,local:Yariss cross.pdf,81
+TOYOTA,YARIS CROSS,Audio y conectividad,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,1.5 SEG CVT,si,2,local:Yariss cross.pdf,81
+TOYOTA,YARIS CROSS,Audio y conectividad,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,XEI HEV 1.5 eCVT,si,3,local:Yariss cross.pdf,81
+TOYOTA,YARIS CROSS,Audio y conectividad,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,SEG HEV 1.5 eCVT,si,4,local:Yariss cross.pdf,81

@@ -1,0 +1,39 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+FIAT,FIORINO,EXTERIOR,Apertura de puertas a 90º y 180º,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,0
+FIAT,FIORINO,EXTERIOR,Molduras laterales protectoras,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,1
+FIAT,FIORINO,EXTERIOR,Espejos laterales con luz de giro,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,2
+FIAT,FIORINO,EXTERIOR,Paragolpes negros,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,3
+FIAT,FIORINO,EXTERIOR,Puerta trasera de 2 hojas 60/40,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,4
+FIAT,FIORINO,INTERIOR,Ganchos de sujeción de carga (4),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,5
+FIAT,FIORINO,INTERIOR,Gavetas portaobjetos en puertas,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,6
+FIAT,FIORINO,INTERIOR,Guantera portaobjetos con tapa,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,7
+FIAT,FIORINO,INTERIOR,Luz interior (en cabina y caja de carga),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,8
+FIAT,FIORINO,INTERIOR,Odómetro digital (total y parcial),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,9
+FIAT,FIORINO,INTERIOR,Panel divisorio de chapa,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,10
+FIAT,FIORINO,INTERIOR,2 parlantes + 2 tweeters,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,11
+FIAT,FIORINO,INTERIOR,Tacómetro,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,12
+FIAT,FIORINO,INTERIOR,Toma de 12V en consola central,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,13
+FIAT,FIORINO,CONFORT,Aire acondicionado,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,14
+FIAT,FIORINO,CONFORT,Asientos rebatibles,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,15
+FIAT,FIORINO,CONFORT,Asiento de conductor regulable en altura,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,16
+FIAT,FIORINO,CONFORT,Apoyacabezas delanteros regulables en altura,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,17
+FIAT,FIORINO,CONFORT,Dirección asistida,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,18
+FIAT,FIORINO,CONFORT,Espejos exteriores con regulación eléctrica,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,19
+FIAT,FIORINO,CONFORT,Levantacristales delanteros eléctricos,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,20
+FIAT,FIORINO,CONFORT,Computadora de a bordo,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,21
+FIAT,FIORINO,CONFORT,Cierre centralizado de puertas,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,22
+FIAT,FIORINO,CONFORT,Volante regulable en altura,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,23
+FIAT,FIORINO,CONFORT,Llave con telecomando,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,24
+FIAT,FIORINO,CONFORT,Sensores de estacionamiento traseros,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,25
+FIAT,FIORINO,CONFORT,Sensor de temperatura externa,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,26
+FIAT,FIORINO,SEGURIDAD,Control de estabilidad (ESC),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,27
+FIAT,FIORINO,SEGURIDAD,Asistente de arranque en pendiente (HH),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,28
+FIAT,FIORINO,SEGURIDAD,Airbags frontales conductor y pasajero,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,29
+FIAT,FIORINO,SEGURIDAD,Barras de protección laterales,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,30
+FIAT,FIORINO,SEGURIDAD,Cinturones de seguridad con pretensores,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,31
+FIAT,FIORINO,SEGURIDAD,iTPMS (Sistema de control de la presión de los neumáticos),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,32
+FIAT,FIORINO,SEGURIDAD,Inmovilizador de motor (Fiat Code),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,33
+FIAT,FIORINO,SEGURIDAD,Protector de cárter,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,34
+FIAT,FIORINO,SEGURIDAD,Rueda de auxilio de dimensiones normales,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,35
+FIAT,FIORINO,SEGURIDAD,Tercera luz de stop,ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,36
+FIAT,FIORINO,SEGURIDAD,ESS (Emergency stop signaling),ENDURANCE 1.3 MT,si,0,local:FT_Fiorino_MY27.pdf,37
