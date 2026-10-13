@@ -1,0 +1,111 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+MERCEDES BENZ,GLC 200,,Combustible,200 4MATIC,Nafta,0,local:ficha_tecnica_glc.pdf,0
+MERCEDES BENZ,GLC 200,,Combustible,300 4MATIC,Nafta,1,local:ficha_tecnica_glc.pdf,0
+MERCEDES BENZ,GLC 200,,Cilindrada (cm3),200 4MATIC,"1,999",0,local:ficha_tecnica_glc.pdf,1
+MERCEDES BENZ,GLC 200,,Cilindrada (cm3),300 4MATIC,"1,999",1,local:ficha_tecnica_glc.pdf,1
+MERCEDES BENZ,GLC 200,,Cilindros / Disposición,200 4MATIC,4/L,0,local:ficha_tecnica_glc.pdf,2
+MERCEDES BENZ,GLC 200,,Cilindros / Disposición,300 4MATIC,4/L,1,local:ficha_tecnica_glc.pdf,2
+MERCEDES BENZ,GLC 200,,Potencia1 (CV / rpm),200 4MATIC,204/5.800,0,local:ficha_tecnica_glc.pdf,3
+MERCEDES BENZ,GLC 200,,Potencia1 (CV / rpm),300 4MATIC,258/5.800,1,local:ficha_tecnica_glc.pdf,3
+MERCEDES BENZ,GLC 200,,Par máximo1 (Nm / rpm),200 4MATIC,320/1.600-4.000,0,local:ficha_tecnica_glc.pdf,4
+MERCEDES BENZ,GLC 200,,Par máximo1 (Nm / rpm),300 4MATIC,400/2.000-3.200,1,local:ficha_tecnica_glc.pdf,4
+MERCEDES BENZ,GLC 200,,Velocidad máxima (km/h),200 4MATIC,221,0,local:ficha_tecnica_glc.pdf,5
+MERCEDES BENZ,GLC 200,,Velocidad máxima (km/h),300 4MATIC,240,1,local:ficha_tecnica_glc.pdf,5
+MERCEDES BENZ,GLC 200,,Aceleración de 0 a 100 km/h (seg.),200 4MATIC,7.8,0,local:ficha_tecnica_glc.pdf,6
+MERCEDES BENZ,GLC 200,,Aceleración de 0 a 100 km/h (seg.),300 4MATIC,6.2,1,local:ficha_tecnica_glc.pdf,6
+MERCEDES BENZ,GLC 200,,Ciudad,200 4MATIC,10,0,local:ficha_tecnica_glc.pdf,7
+MERCEDES BENZ,GLC 200,,Ciudad,300 4MATIC,10,1,local:ficha_tecnica_glc.pdf,7
+MERCEDES BENZ,GLC 200,,Ruta,200 4MATIC,6.5,0,local:ficha_tecnica_glc.pdf,8
+MERCEDES BENZ,GLC 200,,Ruta,300 4MATIC,6.3,1,local:ficha_tecnica_glc.pdf,8
+MERCEDES BENZ,GLC 200,,Mixto,200 4MATIC,7.8,0,local:ficha_tecnica_glc.pdf,9
+MERCEDES BENZ,GLC 200,,Mixto,300 4MATIC,7.7,1,local:ficha_tecnica_glc.pdf,9
+MERCEDES BENZ,GLC 200,,"Emisiones de CO2 (g/km), ciclo mixto2",200 4MATIC,177,0,local:ficha_tecnica_glc.pdf,10
+MERCEDES BENZ,GLC 200,,"Emisiones de CO2 (g/km), ciclo mixto2",300 4MATIC,175,1,local:ficha_tecnica_glc.pdf,10
+MERCEDES BENZ,GLC 200,Exterior,Línea exterior.,200 4MATIC,Avantgarde,0,local:ficha_tecnica_glc.pdf,11
+MERCEDES BENZ,GLC 200,Exterior,Línea exterior.,300 4MATIC,AMG Line,1,local:ficha_tecnica_glc.pdf,11
+MERCEDES BENZ,GLC 200,Exterior,"Llantas de aleación de 19"".",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,12
+MERCEDES BENZ,GLC 200,Exterior,"Llantas de aleación de 19"".",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,12
+MERCEDES BENZ,GLC 200,Exterior,Estribos en efecto aluminio con tacos de goma.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,13
+MERCEDES BENZ,GLC 200,Exterior,Paquete Night. Elementos exteriores en color negro brillante.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,14
+MERCEDES BENZ,GLC 200,Exterior,Barras longitudinales en el techo.,200 4MATIC,Aluminio pulido,0,local:ficha_tecnica_glc.pdf,15
+MERCEDES BENZ,GLC 200,Exterior,Barras longitudinales en el techo.,300 4MATIC,Color negro,1,local:ficha_tecnica_glc.pdf,15
+MERCEDES BENZ,GLC 200,Exterior,Revestimientos de los pasarruedas del color del vehículo.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,16
+MERCEDES BENZ,GLC 200,Exterior,Espejos retrovisores exteriores con regulación eléctrica y abatibles eléctricamente.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,17
+MERCEDES BENZ,GLC 200,Exterior,Espejos retrovisores exteriores con regulación eléctrica y abatibles eléctricamente.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,17
+MERCEDES BENZ,GLC 200,Exterior,Faros LED High Performance.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,18
+MERCEDES BENZ,GLC 200,Exterior,Faros LED High Performance.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,18
+MERCEDES BENZ,GLC 200,Exterior,Iluminación del entorno con proyección del logotipo de la marca.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,19
+MERCEDES BENZ,GLC 200,Exterior,Iluminación del entorno con proyección del logotipo de la marca.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,19
+MERCEDES BENZ,GLC 200,Exterior,Techo corredizo panorámico.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,20
+MERCEDES BENZ,GLC 200,Exterior,Techo corredizo panorámico.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,20
+MERCEDES BENZ,GLC 200,Interior,Asientos de confort tapizados en símil de cuero ARTICO color negro.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,21
+MERCEDES BENZ,GLC 200,Interior,Asientos deportivos tapizados en símil de cuero ARTICO color negro.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,22
+MERCEDES BENZ,GLC 200,Interior,Techo interior de tela.,200 4MATIC,Gris cristal,0,local:ficha_tecnica_glc.pdf,23
+MERCEDES BENZ,GLC 200,Interior,Techo interior de tela.,300 4MATIC,Negro,1,local:ficha_tecnica_glc.pdf,23
+MERCEDES BENZ,GLC 200,Interior,Volante deportivo multifunción en cuero.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,24
+MERCEDES BENZ,GLC 200,Interior,Volante deportivo multifunción forrado en napa.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,25
+MERCEDES BENZ,GLC 200,Interior,Tablero de instrumentos y líneas de cintura de símil de cuero ARTICO en efecto napa.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,26
+MERCEDES BENZ,GLC 200,Interior,Tablero de instrumentos y líneas de cintura de símil de cuero ARTICO en efecto napa.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,26
+MERCEDES BENZ,GLC 200,Interior,Elementos de adorno en diseño rombos gris plata. Consola central en negro brillante.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,27
+MERCEDES BENZ,GLC 200,Interior,Elementos de adorno y consola central en diseño de estructura de metal.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,28
+MERCEDES BENZ,GLC 200,Interior,Retrovisor interior con función antideslumbrante automática.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,29
+MERCEDES BENZ,GLC 200,Interior,Retrovisor interior con función antideslumbrante automática.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,29
+MERCEDES BENZ,GLC 200,Interior,Paquete USB Plus. 6 puertos USB-C de carga rápida y 2 tomas de 12 V.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,30
+MERCEDES BENZ,GLC 200,Interior,Paquete USB Plus. 6 puertos USB-C de carga rápida y 2 tomas de 12 V.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,30
+MERCEDES BENZ,GLC 200,Interior,"Listones de umbral con distintivo «Mercedes-Benz», iluminados.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,31
+MERCEDES BENZ,GLC 200,Interior,"Listones de umbral con distintivo «Mercedes-Benz», iluminados.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,31
+MERCEDES BENZ,GLC 200,Interior,"Asientos delanteros calefactados, con regulación eléctrica y memorias. Apoyo lumbar con 4 vías de ajuste.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,32
+MERCEDES BENZ,GLC 200,Interior,"Asientos delanteros calefactados, con regulación eléctrica y memorias. Apoyo lumbar con 4 vías de ajuste.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,32
+MERCEDES BENZ,GLC 200,Interior,"Climatización automática THERMATIC con 2 zonas climáticas, filtro de carbón activado y sistema de descongelación.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,33
+MERCEDES BENZ,GLC 200,Interior,"Climatización automática THERMATIC con 2 zonas climáticas, filtro de carbón activado y sistema de descongelación.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,33
+MERCEDES BENZ,GLC 200,Interior,"Cuadro de instrumentos digital de 12,3"". Visualizador central de 11,9"" con superficie táctil.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,34
+MERCEDES BENZ,GLC 200,Interior,"Cuadro de instrumentos digital de 12,3"". Visualizador central de 11,9"" con superficie táctil.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,34
+MERCEDES BENZ,GLC 200,Interior,Sistema multimedia MBUX con asistente de voz. Módulo de comunicación (5G) para el uso de Servicios Digitales.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,35
+MERCEDES BENZ,GLC 200,Interior,Sistema multimedia MBUX con asistente de voz. Módulo de comunicación (5G) para el uso de Servicios Digitales.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,35
+MERCEDES BENZ,GLC 200,Interior,Sistema inalámbrico de carga para dispositivos móviles. Apple CarPlay y Android Auto inalámbricos.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,36
+MERCEDES BENZ,GLC 200,Interior,Sistema inalámbrico de carga para dispositivos móviles. Apple CarPlay y Android Auto inalámbricos.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,36
+MERCEDES BENZ,GLC 200,Interior,Sistema de bloqueo electrónico de acceso y arranque KEYLESS-GO. Sistema HANDS-FREE ACCESS para el baúl.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,37
+MERCEDES BENZ,GLC 200,Interior,Sistema de bloqueo electrónico de acceso y arranque KEYLESS-GO. Sistema HANDS-FREE ACCESS para el baúl.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,37
+MERCEDES BENZ,GLC 200,Interior,Sistema de sonido premium con 9 altavoces y 225 vatios de potencia.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,38
+MERCEDES BENZ,GLC 200,Interior,"Iluminación de ambiente Plus con 64 colores, 10 mundos cromáticos y apoyo visual para determinadas funciones.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,39
+MERCEDES BENZ,GLC 200,Interior,"Iluminación de ambiente Plus con 64 colores, 10 mundos cromáticos y apoyo visual para determinadas funciones.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,39
+MERCEDES BENZ,GLC 200,Interior,Conectividad ampliada Plus. Servicios remotos y pre-climatización mediante encendido remoto del motor.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,40
+MERCEDES BENZ,GLC 200,Interior,Conectividad ampliada Plus. Servicios remotos y pre-climatización mediante encendido remoto del motor.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,40
+MERCEDES BENZ,GLC 200,Interior,Paquete de Navegación MBUX Premium. Servicios de navegación y Live Traffic Information.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,41
+MERCEDES BENZ,GLC 200,Interior,Paquete de Navegación MBUX Premium. Servicios de navegación y Live Traffic Information.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,41
+MERCEDES BENZ,GLC 200,Interior,Paquete de estacionamiento con cámara de marcha atrás.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,42
+MERCEDES BENZ,GLC 200,Interior,Paquete de estacionamiento con cámara de marcha atrás.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,42
+MERCEDES BENZ,GLC 200,Interior,Limpiaparabrisas con sensor de lluvia y luces altas automáticas.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,43
+MERCEDES BENZ,GLC 200,Interior,Limpiaparabrisas con sensor de lluvia y luces altas automáticas.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,43
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,"Airbags frontales y laterales delanteros, central, de rodilla para conductor y windowbags. Sistema PRE-SAFE®.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,44
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,"Airbags frontales y laterales delanteros, central, de rodilla para conductor y windowbags. Sistema PRE-SAFE®.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,44
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Asistente de frenado activo.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,45
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Asistente de frenado activo.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,45
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Asistente activo de distancia DISTRONIC.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,46
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Asistente activo de distancia DISTRONIC.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,46
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Control de ángulo muerto. Función de advertencia al salir del vehículo.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,47
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Control de ángulo muerto. Función de advertencia al salir del vehículo.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,47
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Detector activo de cambio de carril.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,48
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Detector activo de cambio de carril.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,48
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Ayuda activa para estacionar con PARKTRONIC.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,49
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Ayuda activa para estacionar con PARKTRONIC.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,49
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Sistema de llamada de emergencia de Mercedes-Benz.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,50
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Sistema de llamada de emergencia de Mercedes-Benz.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,50
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,"Protección GUARD 360°. Alarma antirrobo y volumétrica. Notificación de robo, acarreo o colisión vía app.",200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,51
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,"Protección GUARD 360°. Alarma antirrobo y volumétrica. Notificación de robo, acarreo o colisión vía app.",300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,51
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Advertencia de pérdida de presión en los neumáticos.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,52
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Advertencia de pérdida de presión en los neumáticos.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,52
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Indicador del uso de los cinturones de seguridad traseros en el cuadro de instrumentos.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,53
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Indicador del uso de los cinturones de seguridad traseros en el cuadro de instrumentos.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,53
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Recordatorio pasivo de presencia de personas o animales domésticos en la parte trasera del vehículo.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,54
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Recordatorio pasivo de presencia de personas o animales domésticos en la parte trasera del vehículo.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,54
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Extintor de incendios y chaleco reflectante para el conductor. Rueda de emergencia y herramientas para el cambio.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,55
+MERCEDES BENZ,GLC 200,Seguridad y Asistencias a la conducción,Extintor de incendios y chaleco reflectante para el conductor. Rueda de emergencia y herramientas para el cambio.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,55
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Suspensión de confort. Paquete técnico Offroad con protección técnica de bajos.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,56
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Suspensión de confort. Paquete técnico Offroad con protección técnica de bajos.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,56
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Tracción integral 4MATIC.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,57
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Tracción integral 4MATIC.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,57
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Caja automática 9G-TRONIC.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,58
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Caja automática 9G-TRONIC.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,58
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Sistema Mild-Hybrid. Alternador-arrancador integrado (ISG) y red de 48V.,200 4MATIC,si,0,local:ficha_tecnica_glc.pdf,59
+MERCEDES BENZ,GLC 200,Chasis / Transmisión,Sistema Mild-Hybrid. Alternador-arrancador integrado (ISG) y red de 48V.,300 4MATIC,si,1,local:ficha_tecnica_glc.pdf,59

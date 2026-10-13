@@ -94,8 +94,9 @@ MARCAS = {
     "MG": ({"-": "no"}, None),  # tildes (se agregan solas) = de serie
     "JAC": ({"●": "si", "-": "no"}, None),
     "CHANGAN": ({"■": "si", "-": "no"}, None),
-    # Chery: vinieta (en algunas fichas una "l" de la fuente Wingdings) = de serie.
-    "CHERY": ({"•": "si", "l": "si", "-": "no"}, None),
+    # Chery: vinieta = de serie; en algunas fichas es una "l" de la fuente Wingdings, o un
+    # glyph sin nombre que pdfplumber muestra como "(cid:79)".
+    "CHERY": ({"•": "si", "l": "si", "(cid:79)": "si", "-": "no"}, None),
     "JETOUR": ({"●": "si", "◉": "si", "-": "no"}, None),
     "BMW": ({"x": "si", "-": "no"}, None),
     "MERCEDES BENZ": ({"•": "si", "x": "si", "×": "si", "-": "no"}, None),
@@ -276,9 +277,16 @@ def filas_catalogo(pdf, marcas, versiones, columnas):
         mitades = [pagina] if columnas == 1 else [
             pagina.crop((0, 0, pagina.width / 2, pagina.height)), pagina.crop((pagina.width / 2, 0, pagina.width, pagina.height))]
         for parte in mitades:
+            padre = None
             for linea in (parte.extract_text() or "").splitlines():
                 m = renglon.match(linea.strip())
-                if not m or not re.search("[a-z]", m.group(1), re.I):
+                if not m:
+                    # Renglon sin marca: puede ser el item del que cuelgan sub-items con guion.
+                    texto = limpio(linea)
+                    if re.search("[a-z]", texto) and not texto.startswith("-"):
+                        padre = texto
+                    continue
+                if not re.search("[a-z]", m.group(1), re.I):
                     continue
                 vals = m.group(2).split()
                 # Una sola "X" en una tabla de varias versiones: celda combinada, la tienen todas
@@ -287,11 +295,16 @@ def filas_catalogo(pdf, marcas, versiones, columnas):
                     # Salvo que antes de la marca haya un valor de otra version ("plegado
                     # electrico Manual ✓": Manual en una, la marca en la otra).
                     palabras_item = m.group(1).split()
-                    if len(palabras_item) > 1 and re.fullmatch(r"[A-ZÁ-Ú][a-zá-ú]+", palabras_item[-1])                             and palabras_item[-2][:1].islower():
+                    if len(palabras_item) > 1 and re.fullmatch(r"[A-ZÁ-Ú][a-zá-ú]+", palabras_item[-1]) \
+                            and palabras_item[-2][:1].islower():
                         continue
                     vals = vals * n
                 if len(vals) == n:
                     item = limpio(m.group(1)).lstrip("•·- ").strip()
+                    # Sub-item ("-Calefaccionados" bajo "Espejos exteriores", F-150): se le
+                    # antepone el renglon sin marca de arriba.
+                    if m.group(1).lstrip().startswith("-") and padre:
+                        item = f"{padre}: {item[:1].lower()}{item[1:]}"
                     salida += [("", item, v, marcas[x.lower()]) for v, x in zip(versiones, vals)]
     return versiones, salida, 0
 
@@ -341,7 +354,11 @@ def filas_dibujo(pdf, versiones, columnas=1, marcas=None):
             renglones.setdefault(round(w["top"] / 3), []).append(w)
         # Columnas: el renglon donde aparecen las palabras de todas las versiones (con el
         # de abajo: a veces unos nombres estan un par de puntos mas abajo, Titano).
+        candidatos = []
         for ws in [renglones[k] + renglones.get(k + 1, []) for k in sorted(renglones)]:
+            # Una palabra pegada a un parentesis no es el nombre de una columna: el titulo
+            # "X-TRAIL (EXCLUSIVE + ADVANCE)" nombra las versiones pero no es el encabezado.
+            ws = [w for w in ws if not re.search(r"[()]", w["text"])]
             textos = collections.Counter(normalizar_v(w["text"]) for w in ws)
             # Cada palabra tantas veces como versiones empiezan con ella ("C3" x4; el
             # titulo "CITROEN C3" tiene una sola).
@@ -349,7 +366,7 @@ def filas_dibujo(pdf, versiones, columnas=1, marcas=None):
                 # Cada version toma la siguiente palabra con su nombre, de izquierda a
                 # derecha (dos versiones pueden empezar igual: "Laramie", "Laramie Night").
                 libres = sorted(ws, key=lambda w: w["x0"])
-                xs = []
+                xs_r = []
                 for k, v in zip(claves, encabezados):
                     w = next(w for w in libres if normalizar_v(w["text"]) == k)
                     fin = w
@@ -363,8 +380,10 @@ def filas_dibujo(pdf, versiones, columnas=1, marcas=None):
                         fin = x
                         libres.remove(x)
                     libres.remove(w)
-                    xs.append((w["x0"] + fin["x1"]) / 2)
-                break
+                    xs_r.append((w["x0"] + fin["x1"]) / 2)
+                candidatos.append(xs_r)
+        if candidatos:
+            xs = candidatos[0]
         else:
             # Encabezado con nombres pegados ("REBELLARAMIELARAMIE", RAM): si esta la primera
             # version, las columnas son las de la otra mitad corridas lo mismo.
@@ -428,12 +447,18 @@ def filas_dibujo(pdf, versiones, columnas=1, marcas=None):
             # (tabla de colores: "249 - BLANCO").
             if marcas and len(cols) < len(versiones) / 2:
                 continue
+            # Rotulo de seccion que quedo a la altura de una marca ("SEGURIDAD"), o texto
+            # con letras sin nombre en la fuente ("(cid:709)(cid:694)..."): no es un item.
+            if marcas and (texto.isupper() or "(cid:" in texto):
+                if texto.isupper():
+                    seccion = texto
+                continue
             salida += [(seccion, texto, v, cols.get(k, None if marcas else "no")) for k, v in enumerate(versiones)
                        if k in cols or not marcas]
     return versiones, salida, 0
 
 
-def filas_grilla(pdf, marcas):
+def filas_grilla(pdf, marcas, unica=None):
     """Tablas con bordes y celdas combinadas (Toyota y otras): una marca que abarca
     varias columnas vale para todas esas versiones. Se usa la grilla del PDF: cada
     version es una columna de la tabla y cada celda cubre las columnas que ocupa.
@@ -479,10 +504,14 @@ def filas_grilla(pdf, marcas):
                 cols = [x for x in centros[1:] if any(t for c, t in filas[0] if cubre(c, x) and not cubre(c, centros[0]))]
                 nombres = [limpio(" ".join(t for fila in filas[:n_enc] for c, t in fila if cubre(c, x) and not cubre(c, centros[0])))
                            for x in cols]
-            elif len(centros) == 1 and filas and len(filas[0]) == 1 and clara(filas[0][0][0]) and re.search("[0-9]", filas[0][0][1]) \
-                    and (not versiones or normalizar_v(filas[0][0][1]) in claves):
-                # Tabla de una columna con el nombre de la version arriba (SW4: una version por ficha).
-                n_enc, cols, nombres = 1, [centros[0]], [filas[0][0][1]]
+            elif filas and len(filas[0]) == 1 and clara(filas[0][0][0]) \
+                    and (normalizar_v(filas[0][0][1]) in claves or (not encabezados and re.search("[0-9]", filas[0][0][1]))
+                         or (not encabezados and len(centros) > 1 and len(filas) > 1 and clara(filas[1][0][0]))):
+                # Ficha de una sola version (SW4, Hilux GR-Sport): el nombre arriba, en una barra
+                # de todo el ancho. En la primera tabla se reconoce por tener numeros o porque
+                # abajo viene otra barra (la primera seccion, "Motor"); despues, por repetir el nombre.
+                cols = centros[1:] if len(centros) > 1 else [centros[0]]
+                n_enc, nombres = 1, [filas[0][0][1]] * len(cols)
             if n_enc:
                 # El mismo nombre escrito con otros caracteres es la misma version.
                 nombres = [claves.get(normalizar_v(n), n) for n in nombres]
@@ -494,6 +523,12 @@ def filas_grilla(pdf, marcas):
             candidatos = [e for p, e in encabezados if any(x0 <= x <= x1 for x, _ in e)]
             mismos = [e for p, e in encabezados if p == pagina.page_number and any(x0 <= x <= x1 for x, _ in e)]
             encabezado = (mismos or candidatos or [None])[-1]
+            if not encabezado and unica:
+                # Ficha de una sola version con el nombre fuera de las tablas (Hilux GR-Sport):
+                # el nombre viene de la lista de fichas.
+                encabezado = [(x, unica) for x in (centros[1:] or centros)]
+                if unica not in versiones:
+                    versiones.append(unica)
             if not encabezado:
                 continue
             for fila in filas[n_enc:]:
@@ -520,6 +555,23 @@ def filas_grilla(pdf, marcas):
     marcadas = collections.Counter(n for _, _, n, v in salida if v in ("si", "no", "opcional"))
     versiones = [n for n in versiones if marcadas[n] >= 0.4 * max(marcadas.values(), default=0)]
     salida = [f for f in salida if f[2] in versiones]
+    return versiones, salida, 0
+
+
+def filas_lista(pdf, versiones):
+    """Folleto con listas de vinietas de una sola version (Jetour): cada renglon que
+    empieza con una vinieta es un item que trae; los titulos en mayusculas son secciones.
+    Lo demas (tablas de datos tecnicos) no se usa."""
+    salida, seccion = [], ""
+    for pagina in pdf.pages:
+        for linea in (pagina.extract_text() or "").splitlines():
+            linea = linea.strip()
+            if re.match(r"^[•·●\-–]\s+\S", linea):
+                item = limpio(linea[1:])
+                if re.search("[a-z]", item) and len(item) <= 120:
+                    salida.append((seccion, item, versiones[0], "si"))
+            elif linea.isupper() and 3 < len(linea) < 40:
+                seccion = linea
     return versiones, salida, 0
 
 
@@ -565,7 +617,7 @@ def leer_ficha(marca, familia, formato, url, versiones_lista=None, columnas=1):
     with pdfplumber.open(io.BytesIO(contenido)) as pdf:
         texto = "\n".join(p.extract_text() or "" for p in pdf.pages)
         # En las de una sola version (revisadas a mano al agregarlas) la leyenda puede faltar.
-        if leyenda and formato not in ("unica", "configurador") and not re.search(leyenda, texto):
+        if leyenda and formato not in ("unica", "configurador", "lista") and not re.search(leyenda, texto):
             raise ValueError("no esta la leyenda de las marcas: puede haber cambiado el formato")
         if TILDES & set(texto):
             marcas = {**marcas, **{t: "si" for t in TILDES}}
@@ -575,10 +627,12 @@ def leer_ficha(marca, familia, formato, url, versiones_lista=None, columnas=1):
             versiones, filas, descartadas = filas_dibujo(pdf, versiones_lista, columnas)
         elif formato == "posiciones":
             versiones, filas, descartadas = filas_dibujo(pdf, versiones_lista, columnas, marcas)
+        elif formato == "lista":
+            versiones, filas, descartadas = filas_lista(pdf, versiones_lista)
         elif formato == "configurador":
             versiones, filas, descartadas = filas_configurador(pdf, versiones_lista)
         elif formato == "grilla":
-            versiones, filas, descartadas = filas_grilla(pdf, marcas)
+            versiones, filas, descartadas = filas_grilla(pdf, marcas, versiones_lista[0] if len(versiones_lista or []) == 1 else None)
             # Nombres como los dice DNRPA ("CABINA DOBLE DX" -> "DC DX"), en el orden de la
             # ficha. Si la ficha cambio la cantidad de versiones, mejor fallar que cruzar mal.
             if versiones_lista:
@@ -637,6 +691,9 @@ def main():
                 if not os.path.exists(extraida):
                     raise FileNotFoundError(f"falta el PDF en {MANUALES}/ y no hay datos extraidos")
                 df = pd.read_csv(extraida, keep_default_na=False, na_values=[""])
+                # Un mismo PDF puede servir a dos familias (la ficha de la GLC trae la GLC 200
+                # y la GLC 300): la familia es la de la lista, no la del archivo.
+                df["marca"], df["familia"] = r["marca"], r["familia"]
                 versiones = list(dict.fromkeys(df.sort_values("orden_version")["version_fuente"]))
                 descartadas = 0
             else:

@@ -1,0 +1,80 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,COROLLA,Motor,Modelo,GR-SPORT 2.0 CVT,Dynamic Force - M20A-FKS,0,local:COROLLA GR.pdf,0
+TOYOTA,COROLLA,Motor,Tipo,GR-SPORT 2.0 CVT,"4 cilindros en línea, naftero",0,local:COROLLA GR.pdf,1
+TOYOTA,COROLLA,Motor,Alimentación,GR-SPORT 2.0 CVT,Sistema de inyección mixta D4-S (directa e indirecta),0,local:COROLLA GR.pdf,2
+TOYOTA,COROLLA,Motor,Distribución,GR-SPORT 2.0 CVT,"16 válvulas, DOHC con cadena de distribución y Sistema Dual VVT-i (VVT-iE de admisión y VVT-i de escape)",0,local:COROLLA GR.pdf,3
+TOYOTA,COROLLA,Motor,Diámetro y carrera de pistón (mm),GR-SPORT 2.0 CVT,"80,5 x 97,6",0,local:COROLLA GR.pdf,4
+TOYOTA,COROLLA,Motor,Relación de compresión,GR-SPORT 2.0 CVT,13.0:1,0,local:COROLLA GR.pdf,5
+TOYOTA,COROLLA,Motor,Cilindrada (cm3),GR-SPORT 2.0 CVT,1.987,0,local:COROLLA GR.pdf,6
+TOYOTA,COROLLA,Motor,Potencia máxima (CV (kW)/rpm),GR-SPORT 2.0 CVT,171 (126) / 6.600,0,local:COROLLA GR.pdf,7
+TOYOTA,COROLLA,Motor,Torque máximo (Nm/rpm),GR-SPORT 2.0 CVT,203 / 4.600 - 5.000,0,local:COROLLA GR.pdf,8
+TOYOTA,COROLLA,Confort Interior,Toma de 12V (x1) y USB (x2),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,9
+TOYOTA,COROLLA,Confort Interior,Volante revestido en cuero con costuras rojas y emblema GR,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,10
+TOYOTA,COROLLA,Confort Interior,"Volante con control de audio, display de información múltiple y teléfono",GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,11
+TOYOTA,COROLLA,Confort Interior,Cubrealfombra con diseño Gazoo Racing,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,12
+TOYOTA,COROLLA,Confort Interior,Bandeja de Baúl,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,13
+TOYOTA,COROLLA,Tecnología,Modo de transmisión secuencial,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,14
+TOYOTA,COROLLA,Tecnología,Levas al volante,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,15
+TOYOTA,COROLLA,Tecnología,Modos de conducción,GR-SPORT 2.0 CVT,SPORT,0,local:COROLLA GR.pdf,16
+TOYOTA,COROLLA,Tecnología,Monitor con cámara de estacionamiento,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,17
+TOYOTA,COROLLA,Tecnología,Sensores de estacionamiento delanteros y traseros,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,18
+TOYOTA,COROLLA,Tecnología,Sistema de encendido por botón (Push Start Button) con diseño exclusivo Gazoo Racing,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,19
+TOYOTA,COROLLA,Tecnología,Cargador inalámbrico para smartphones que soportan carga inalámbrica*4,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,20
+TOYOTA,COROLLA,Tecnología,Sistema de ingreso inteligente (Smart Entry System),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,21
+TOYOTA,COROLLA,Tecnología,Servicios conectados,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,22
+TOYOTA,COROLLA,Audio y conectividad,"Audio con pantalla táctil de 10"" con manos libres y Bluetooth®*4",GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,23
+TOYOTA,COROLLA,Audio y conectividad,Conectividad: Apple CarPlay® & Android Auto®* inalámbrica*4,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,24
+TOYOTA,COROLLA,Seguridad,ABS con distribución electrónica de frenado (EBD),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,25
+TOYOTA,COROLLA,Seguridad,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) *6,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,26
+TOYOTA,COROLLA,Seguridad,Airbags laterales (x2) y de cortina (x2) *6,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,27
+TOYOTA,COROLLA,Seguridad,Alarma e inmovilizador de motor,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,28
+TOYOTA,COROLLA,Seguridad,Asistencia de arranque en pendientes (HAC),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,29
+TOYOTA,COROLLA,Seguridad,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,30
+TOYOTA,COROLLA,Seguridad,Cinturones de seguridad traseros (3) inerciales de 3 puntos,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,31
+TOYOTA,COROLLA,Seguridad,Control de estabilidad (VSC),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,32
+TOYOTA,COROLLA,Seguridad,Control de tracción (TRC),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,33
+TOYOTA,COROLLA,Seguridad,Asistencia activa en curvas (ACA),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,34
+TOYOTA,COROLLA,Seguridad,Faros antiniebla delanteros de LED,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,35
+TOYOTA,COROLLA,Seguridad,Faro antiniebla trasero de LED,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,36
+TOYOTA,COROLLA,Seguridad,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,37
+TOYOTA,COROLLA,Seguridad,Alerta de punto ciego (BSM),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,38
+TOYOTA,COROLLA,Seguridad,Alerta de tráfico trasero (RCTA),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,39
+TOYOTA,COROLLA,Toyota Safety Sense,Control de velocidad crucero adaptativo (ACC)*5 con rango completo,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,40
+TOYOTA,COROLLA,Toyota Safety Sense,Sistema de pre colisión frontal (PCS)*5,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,41
+TOYOTA,COROLLA,Toyota Safety Sense,Sistema de alerta de cambio de carril (LDA)*5,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,42
+TOYOTA,COROLLA,Toyota Safety Sense,Sistema de asistencia para mantenimiento de carril*5,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,43
+TOYOTA,COROLLA,Toyota Safety Sense,Sistema de luces altas automáticas (AHB)*5,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,44
+TOYOTA,COROLLA,Toyota Safety Sense,Sistema de alerta de vaivén (SWS)*5,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,45
+TOYOTA,COROLLA,Transmisión y Chasis,Suspensión,GR-SPORT 2.0 CVT,"Independiente tipo Mac Pherson con amortiguadores telescópicos, resortes helicoidales Gazoo Racing. Barra estabilizadora",0,local:COROLLA GR.pdf,46
+TOYOTA,COROLLA,Transmisión y Chasis,Dirección,GR-SPORT 2.0 CVT,"Piñón y cremallera, con asistencia eléctrica progresiva (EPS)",0,local:COROLLA GR.pdf,47
+TOYOTA,COROLLA,Transmisión y Chasis,Frenos,GR-SPORT 2.0 CVT,Discos ventilados (282 mm),0,local:COROLLA GR.pdf,48
+TOYOTA,COROLLA,Dimensiones,Total (mm),GR-SPORT 2.0 CVT,4.630,0,local:COROLLA GR.pdf,49
+TOYOTA,COROLLA,Dimensiones,Distancia entre ejes (mm),GR-SPORT 2.0 CVT,2.700,0,local:COROLLA GR.pdf,50
+TOYOTA,COROLLA,Dimensiones,Peso en orden de marcha (kg),GR-SPORT 2.0 CVT,1.405,0,local:COROLLA GR.pdf,51
+TOYOTA,COROLLA,Dimensiones,Capacidad del tanque de combustible (l),GR-SPORT 2.0 CVT,50,0,local:COROLLA GR.pdf,52
+TOYOTA,COROLLA,Dimensiones,Radio mínimo de giro (m),GR-SPORT 2.0 CVT,"5,8",0,local:COROLLA GR.pdf,53
+TOYOTA,COROLLA,Dimensiones,Capacidad del baúl (l),GR-SPORT 2.0 CVT,470,0,local:COROLLA GR.pdf,54
+TOYOTA,COROLLA,Exterior,Techo negro metalizado,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,55
+TOYOTA,COROLLA,Exterior,Spóiler trasero color negro,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,56
+TOYOTA,COROLLA,Exterior,Faldones laterales,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,57
+TOYOTA,COROLLA,Exterior,"Llantas de aleación de 17"" Gazoo Racing",GR-SPORT 2.0 CVT,"225/45R17""",0,local:COROLLA GR.pdf,58
+TOYOTA,COROLLA,Exterior,Neumáticos,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,59
+TOYOTA,COROLLA,Exterior,Espejos exteriores con regulación eléctrica y luz de giro incorporada,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,60
+TOYOTA,COROLLA,Exterior,Faros delanteros Bi-LED con regulación en altura,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,61
+TOYOTA,COROLLA,Exterior,Luces DRL de LED,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,62
+TOYOTA,COROLLA,Exterior,Faros traseros Full LED Oscurecidos,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,63
+TOYOTA,COROLLA,Exterior,Sistema automático de encendido de luces,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,64
+TOYOTA,COROLLA,Confort Interior,Detalles interiores color exclusivo gris oscuro,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,65
+TOYOTA,COROLLA,Confort Interior,Aire acondicionado con climatizador automático digital bi-zona,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,66
+TOYOTA,COROLLA,Confort Interior,Apertura de baúl con comando a distancia,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,67
+TOYOTA,COROLLA,Confort Interior,Asientos tapizados de cuero natural y ecológico combinado con Ultrasuede y detalles en rojo,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,68
+TOYOTA,COROLLA,Confort Interior,Asientos traseros con respaldos plegables (60/40),GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,69
+TOYOTA,COROLLA,Confort Interior,Apoyacabezas delanteros con emblema Gazoo Racing,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,70
+TOYOTA,COROLLA,Confort Interior,Columna de dirección regulable en altura y profundidad,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,71
+TOYOTA,COROLLA,Confort Interior,Display de información múltiple con pantalla a color,GR-SPORT 2.0 CVT,"12.3""",0,local:COROLLA GR.pdf,72
+TOYOTA,COROLLA,Confort Interior,Puerto USB tipo C (x2) para plazas traseras,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,73
+TOYOTA,COROLLA,Confort Interior,Techo solar con apertura eléctrica,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,74
+TOYOTA,COROLLA,Confort Interior,Salidas de aire acondicionado y regulador para plazas traseras,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,75
+TOYOTA,COROLLA,Confort Interior,Espejo retrovisor interno con anti-encandilamiento automático,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,76
+TOYOTA,COROLLA,Confort Interior,Levanta cristales eléctricos con función “one touch” en las 4 puertas,GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,77
+TOYOTA,COROLLA,BLANCO ROJO COLORES NEGRO PERLADO METALIZADO METALIZADO BI-TONO BI-TONO,"Toyota Argentina S.A., CUIT: 33-67913936-9. Oficina Comercial: Thomas Edison 2659, Edif. Este, 2do Piso (B1640HSA), Martínez - Bs. As. Planta Industrial Zárate: Ruta 12, Km 81 (B28000FA) Zárate - Bs. As. Toyota Argentina S.A. se reserva el derecho de alterar cualquier parte de las especificaciones y equipamiento sin previo aviso. Las especificaciones y equipamiento están sometidos a cambios para adaptarse a las exigencias de otros mercados. En cuanto a los detalles de estos cambios que pueden ser necesarios en su zona, se ruega pida información en su concesionario local. Nota: los vehículos fotografiados en este folleto pueden ser diferentes de los modelos disponibles en su zona. El color de las carrocerías de los vehículos puede ser ligeramente diferente del de las ilustraciones impresas en este folleto. Productos sujetos a disponibilidad de stock. Fotografías ilustrativas. Los modelos adquiridos en la Argentina a través de un concesionario oficial cuentan con una garantía oficial limitada de hasta 10 años o 200.000 km (lo que ocurra primero). La garantía, mientras siga vigente, es transferible. Para más información y condiciones o limitaciones ingrese a www.toyota.com.ar y/o comuníquese gratuitamente al teléfono 0800-666-8696.",GR-SPORT 2.0 CVT,si,0,local:COROLLA GR.pdf,78

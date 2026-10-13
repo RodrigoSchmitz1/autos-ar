@@ -1,0 +1,47 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+NISSAN,XTRAIL,Distancia entre ejes,Capacidad de Baúl (Lts),EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,0
+NISSAN,XTRAIL,Distancia entre ejes,Capacidad de Baúl (Lts),ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,0
+NISSAN,XTRAIL,Neumáticos,Auxilio: Llanta temporal de chapa,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,1
+NISSAN,XTRAIL,Neumáticos,Auxilio: Llanta temporal de chapa,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,1
+NISSAN,XTRAIL,EXTERIOR,"Limpia parabrisas automático variable, intermitente y con sensor de velocidad",EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,2
+NISSAN,XTRAIL,EXTERIOR,"Limpia parabrisas automático variable, intermitente y con sensor de velocidad",ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,2
+NISSAN,XTRAIL,EXTERIOR,Techo panorámico de cristal fijo con cortina eléctrica,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,3
+NISSAN,XTRAIL,EXTERIOR,Techo panorámico de cristal fijo con cortina eléctrica,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,3
+NISSAN,XTRAIL,INTERIOR,Aire acondicionado automático en doble zona,EXCLUSIVE CVT,no,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,4
+NISSAN,XTRAIL,INTERIOR,Aire acondicionado automático en doble zona,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,4
+NISSAN,XTRAIL,INTERIOR,Aire acondicionado automático en triple zona,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,5
+NISSAN,XTRAIL,INTERIOR,Aire acondicionado automático en triple zona,ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,5
+NISSAN,XTRAIL,INTERIOR,"Ajuste de asiento piloto: eléctrico (deslizable, reclinable, altura, inclinación, lumbar) + ajuste lumbar eléctrico",EXCLUSIVE CVT,no,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,6
+NISSAN,XTRAIL,INTERIOR,"Ajuste de asiento piloto: eléctrico (deslizable, reclinable, altura, inclinación, lumbar) + ajuste lumbar eléctrico",ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,6
+NISSAN,XTRAIL,INTERIOR,"Ajuste de asiento piloto: eléctrico (deslizable, reclinable, altura, inclinación, lumbar)",EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,7
+NISSAN,XTRAIL,INTERIOR,"Ajuste de asiento piloto: eléctrico (deslizable, reclinable, altura, inclinación, lumbar)",ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,7
+NISSAN,XTRAIL,INTERIOR,Asientos de tela,EXCLUSIVE CVT,no,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,8
+NISSAN,XTRAIL,INTERIOR,Asientos de tela,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,8
+NISSAN,XTRAIL,INTERIOR,Asientos de cuero sintético,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,9
+NISSAN,XTRAIL,INTERIOR,Asientos de cuero sintético,ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,9
+NISSAN,XTRAIL,INTERIOR,Tacómetro y velocímetro análogo con pantalla de 7”,EXCLUSIVE CVT,no,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,10
+NISSAN,XTRAIL,INTERIOR,Tacómetro y velocímetro análogo con pantalla de 7”,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,10
+NISSAN,XTRAIL,INTERIOR,"Tacómetro y velocímetro análogo con pantalla de 12,3”",EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,11
+NISSAN,XTRAIL,INTERIOR,"Tacómetro y velocímetro análogo con pantalla de 12,3”",ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,11
+NISSAN,XTRAIL,INTERIOR,Volante de cuero sintético,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,12
+NISSAN,XTRAIL,INTERIOR,Volante de cuero sintético,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,12
+NISSAN,XTRAIL,INTERIOR,"Modo de manejo (Estándar, Eco, Sport, Snow, Off Road)",EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,13
+NISSAN,XTRAIL,INTERIOR,"Modo de manejo (Estándar, Eco, Sport, Snow, Off Road)",ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,13
+NISSAN,XTRAIL,INTERIOR,Proyector Head up Display (HUD),EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,14
+NISSAN,XTRAIL,INTERIOR,Proyector Head up Display (HUD),ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,14
+NISSAN,XTRAIL,INTERIOR,Cargador inalámbrico para celular,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,15
+NISSAN,XTRAIL,INTERIOR,Cargador inalámbrico para celular,ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,15
+NISSAN,XTRAIL,INTERIOR,Espejo retrovisor interior antidestello automático,EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,16
+NISSAN,XTRAIL,INTERIOR,Espejo retrovisor interior antidestello automático,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,16
+NISSAN,XTRAIL,INTERIOR,"Apertura maletero eléctrico, cerrado, automático y manos libres (Hands free)",EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,17
+NISSAN,XTRAIL,INTERIOR,"Apertura maletero eléctrico, cerrado, automático y manos libres (Hands free)",ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,17
+NISSAN,XTRAIL,SISTEMA DE AUDIO INTERIOR,Radio con pantalla de 8” + 6 parlantes,EXCLUSIVE CVT,no,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,18
+NISSAN,XTRAIL,SISTEMA DE AUDIO INTERIOR,Radio con pantalla de 8” + 6 parlantes,ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,18
+NISSAN,XTRAIL,SISTEMA DE AUDIO INTERIOR,"Radio con pantalla de 12,3” + Bose + 6 parlantes",EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,19
+NISSAN,XTRAIL,SISTEMA DE AUDIO INTERIOR,"Radio con pantalla de 12,3” + Bose + 6 parlantes",ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,19
+NISSAN,XTRAIL,SEGURIDAD,Asistente de descensos (DCS),EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,20
+NISSAN,XTRAIL,SEGURIDAD,Asistente de descensos (DCS),ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,20
+NISSAN,XTRAIL,SEGURIDAD,Sistema monitoreo presión neumáticos (TPMS),EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,21
+NISSAN,XTRAIL,SEGURIDAD,Sistema monitoreo presión neumáticos (TPMS),ADVANCE CVT,si,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,21
+NISSAN,XTRAIL,SEGURIDAD,Monitor de visión periférica (AVM) + detector de objetos en movimiento (MOD),EXCLUSIVE CVT,si,0,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,22
+NISSAN,XTRAIL,SEGURIDAD,Monitor de visión periférica (AVM) + detector de objetos en movimiento (MOD),ADVANCE CVT,no,1,local:250910_ficha_tecnica_xtrail_exclusive_advance.pdf,22

@@ -25,6 +25,7 @@ import os
 import re
 import sys
 import unicodedata
+import urllib.error
 
 CARACTERISTICAS = os.path.join("transform", "seeds", "equipamiento_caracteristicas.csv")
 SALIDA = os.path.join("transform", "seeds", "equipamiento_clasificacion.csv")
@@ -203,7 +204,18 @@ def por_gemini(items):
         cat = catalogo()
         for i in range(0, len(faltan), LOTE):
             lote = faltan[i:i + LOTE]
-            cache.update(gemini_lote(lote, cat, clave, modelo))
+            # El free tier a veces responde 429/500/503 o tarda demasiado un rato: se espera
+            # y se reintenta. Otro error HTTP (clave invalida, pedido mal armado) corta.
+            for espera in (30, 90, 300, None):
+                try:
+                    cache.update(gemini_lote(lote, cat, clave, modelo))
+                    break
+                except (urllib.error.URLError, TimeoutError) as e:
+                    codigo = getattr(e, "code", None)
+                    if espera is None or (codigo is not None and codigo != 429 and codigo < 500):
+                        raise
+                    print(f"  gemini: {codigo or type(e).__name__}, se reintenta en {espera} s", file=sys.stderr)
+                    time.sleep(espera)
             for t in lote:
                 cache.setdefault(t, {})  # sin respuesta para ese numero: ninguna
             json.dump(cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

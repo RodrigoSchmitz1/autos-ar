@@ -1,0 +1,42 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+JETOUR,X70,,Motor 1.6 TGDI (turbo naftero con inyección directa),PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,0
+JETOUR,X70,,Caja DCT (doble embrague) de siete marchas,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,1
+JETOUR,X70,,197 CV de potencia,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,2
+JETOUR,X70,,290 N.m de torque,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,3
+JETOUR,X70,,Suspensión delantera MacPherson,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,4
+JETOUR,X70,,Suspensión trasera Multilink,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,5
+JETOUR,X70,,Diseño deportivo,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,6
+JETOUR,X70,,Capacidad para 7 pasajeros,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,7
+JETOUR,X70,,Dirección eléctrica,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,8
+JETOUR,X70,SEGURIDAD,6 airbags,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,9
+JETOUR,X70,SEGURIDAD,Control de estabilidad con control de tracción (ESP),PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,10
+JETOUR,X70,SEGURIDAD,Asistencia de salida en pendientes (HHC),PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,11
+JETOUR,X70,SEGURIDAD,Control de descenso en pendientes (HDC),PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,12
+JETOUR,X70,SEGURIDAD,Sistema de prevención de vuelcos (RMI),PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,13
+JETOUR,X70,SEGURIDAD,Cámara auxiliar de visión 360°,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,14
+JETOUR,X70,SEGURIDAD,Sensores de estacionamiento,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,15
+JETOUR,X70,SEGURIDAD,Sistemas de asistencia al conductor:,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,16
+JETOUR,X70,SEGURIDAD,Control de velocidad crucero,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,17
+JETOUR,X70,SEGURIDAD,Advertencia de cambio de carril,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,18
+JETOUR,X70,SEGURIDAD,Alerta de punto ciego.,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,19
+JETOUR,X70,SEGURIDAD,Desbloqueo por presencia,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,20
+JETOUR,X70,SEGURIDAD,Freno de estacionamiento eléctrico,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,21
+JETOUR,X70,SEGURIDAD,Selector de marchas electrónico,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,22
+JETOUR,X70,SEGURIDAD,Techo solar panorámico corredizo,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,23
+JETOUR,X70,SEGURIDAD,Materiales interiores acústicos soft-touch,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,24
+JETOUR,X70,SEGURIDAD,Apertura eléctrica remota del portón trasero,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,25
+JETOUR,X70,SEGURIDAD,Suspensión delantera McPherson y trasera Multilink,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,26
+JETOUR,X70,SEGURIDAD,Sistema de monitoreo de la presión de neumáticos,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,27
+JETOUR,X70,SEGURIDAD,Asiento del conductor con regulación eléctrica,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,28
+JETOUR,X70,SEGURIDAD,Espejos laterales con desempañador y plegado automático,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,29
+JETOUR,X70,SEGURIDAD,Levantavidrios eléctricos con función one-touch y anti-pinch,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,30
+JETOUR,X70,SEGURIDAD,Columna de direccióncon regulación en altura y profundidad,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,31
+JETOUR,X70,SEGURIDAD,Gaveta con control de temperatura (refrigeración y calefacción),PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,32
+JETOUR,X70,SEGURIDAD,Cargador inalámbrico para celulares,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,33
+JETOUR,X70,SEGURIDAD,Climatizador bizona con purificador del aire,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,34
+JETOUR,X70,SEGURIDAD,"Equipo multimedia con pantalla de 10,25”",PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,35
+JETOUR,X70,SEGURIDAD,Luces automáticas,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,36
+JETOUR,X70,SEGURIDAD,Sensor de lluvia,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,37
+JETOUR,X70,SEGURIDAD,Iluminación ambiente,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,38
+JETOUR,X70,SEGURIDAD,Tomas de 12 V,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,39
+JETOUR,X70,SEGURIDAD,Puertos USB delanteros y traseros,PLUS,si,0,local:Ficha-Tecnica-X70-Plus.pdf,40

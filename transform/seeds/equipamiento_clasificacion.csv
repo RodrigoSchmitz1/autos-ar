@@ -596,6 +596,113 @@ BYD,parabrisas Desempañador eléctrico y descongelador de cristal trasero,,,nin
 BYD,remolque+triángulo de advertencia+chaleco reflectante+clip de extracción de la,,,ninguna
 BYD,trasera,,,ninguna
 BYD,�� Altavoces,,,ninguna
+CHERY,ABS |Antibloqueo de dirección,,,ninguna
+CHERY,ACC | Control crucero adaptativo,crucero_adaptativo,,reglas
+CHERY,AEB | Frenado automático precolisión,frenado_autonomo,,reglas
+CHERY,AKliat drme ae mdee rcginetnucrióan (eBsa dlieza sse +g uGraidnacdh o(x r5e)molque),,,ninguna
+CHERY,Airbag central delantero (x1)v,,,ninguna
+CHERY,Airbags de cortina (x2),airbags_cortina,,reglas
+CHERY,Airbags de cortina delanteros y traseros (x2),airbags_cortina,,reglas
+CHERY,Airbags frontales (x2),airbags_frontales,,reglas
+CHERY,Airbags laterales (x2),airbags_laterales,,reglas
+CHERY,Airbags laterales delanteros (x2),airbags_laterales,,reglas
+CHERY,Alarma antirrobo,,,ninguna
+CHERY,Alarma de cinturónes de seguridad (x5),,,ninguna
+CHERY,Alarma de puerta abierta,,,ninguna
+CHERY,Alerta de presión de neumáticos,presion_neumaticos,,reglas
+CHERY,Alzacristales electricos one touch (x4),pantalla_multimedia,,reglas
+CHERY,Apertura remota de baul,,,ninguna
+CHERY,Apliques exteriores cromados,,,ninguna
+CHERY,Apoyabrazo delantero,,,ninguna
+CHERY,Apoyabrazo delantero con guarda objetos,,,ninguna
+CHERY,Apoyabrazo trasero,,,ninguna
+CHERY,Apoyabrazos trasero,,,ninguna
+CHERY,Apoyacabezas (x5),,,ninguna
+CHERY,Apoyacabezas delanteros regulables 2 direcciones,,,ninguna
+CHERY,Asiento conductor con regulación eléctrica 6 direcciones,asiento_electrico,,reglas
+CHERY,Asiento conductor con regulación eléctrica lumbar,asiento_electrico,,reglas
+CHERY,Asiento pasajero con regulación eléctrica 4 direcciones,asiento_electrico,,reglas
+CHERY,Asiento pasajero con regulación manual 4 direcciones,,,ninguna
+CHERY,Asiento trasero bipartido (60/40),,,ninguna
+CHERY,BSD | Alerta de punto ciego,punto_ciego,,reglas
+CHERY,Bloqueo automático en rodaje,,,ninguna
+CHERY,Calipers de freno en rojo,,,ninguna
+CHERY,Camara visión HD 360°,camara_360,,reglas
+CHERY,Cargador celular wireless,cargador_inalambrico,,gemini
+CHERY,Cerradura de seguridad para niños,,,ninguna
+CHERY,Cinturones de seguridad de 3 puntos (x5),,,ninguna
+CHERY,Cinturones de seguridad delanteros con pretensionador (x2),,,ninguna
+CHERY,Cinturones de seguridad delanteros regulables en altura (x2),,,ninguna
+CHERY,Cinturónes de seguridad delanteros con pretensionador (x2),,,ninguna
+CHERY,Cinturónes de seguridad delanteros regulables en altura (x2),,,ninguna
+CHERY,Climatizador automatico bi-zona,climatizador_automatico,,reglas
+CHERY,Climatizador automatico bi-zona,climatizador_bizona,,reglas
+CHERY,Conectividad Apple Carplay/Android Auto,carplay_android,,reglas
+CHERY,Conectividad Bluetooth,,,ninguna
+CHERY,Control de velocidad crucero,crucero,,reglas
+CHERY,Cubre baúl,,,ninguna
+CHERY,Cubre baúl retractil,,,ninguna
+CHERY,Desempañador de luneta,,,ninguna
+CHERY,EBD | Distribución electrónica de fuerza de frenado,,,ninguna
+CHERY,ESP | Control de estabilidad,control_estabilidad,,reglas
+CHERY,Encendido por botón,arranque_boton,,reglas
+CHERY,Encendido remoto,conectividad_remota,,gemini
+CHERY,Espejo retrovisor electrocrómico,espejo_electrocromico,,reglas
+CHERY,Espejos exteriores c/ ajuste eléctrico,,,ninguna
+CHERY,Espejos exteriores calefaccionados,,,ninguna
+CHERY,Espejos exteriores color carrocería,,,ninguna
+CHERY,Espejos exteriores con luz de giro,,,ninguna
+CHERY,Espejos exteriores plegables electricamente,espejos_rebatibles,,reglas
+CHERY,FCW | Alerta de colisión frontal,,,ninguna
+CHERY,Faro antiniebla trasero,faros_antiniebla,,reglas
+CHERY,Faros antiniebla delanteros LED,faros_antiniebla,,reglas
+CHERY,Faros delanteros LED,faros_led,,reglas
+CHERY,Faros delanteros con reg. Altura,,,ninguna
+CHERY,Faros traseros LED,,,manual
+CHERY,Freno Autohold,,,ninguna
+CHERY,Freno de estacionamiento eléctrico,freno_mano_electrico,,reglas
+CHERY,Guantera portaobjetos,,,ninguna
+CHERY,HAC | Asistente de arranque en pendiente,arranque_pendiente,,reglas
+CHERY,HDC | Asistente de descenso en pendiente,,,ninguna
+CHERY,IHC | Conmutador automático de luces,luces_altas_automaticas,,gemini
+CHERY,ISOFIX (x2),isofix,,reglas
+CHERY,Inmobilizador de motor,,,ninguna
+CHERY,Interior oscurecido,,,ninguna
+CHERY,Kit de emergencia (Balizas + Gancho remolque),,,ninguna
+CHERY,LDW | Alerta de mantenimiento de carril,mantenimiento_carril,,reglas
+CHERY,Limitador de velocidad,limitador_velocidad,,reglas
+CHERY,Llave con telepresencia,llave_presencia,,gemini
+CHERY,Luces diurnas LED (DRL),luces_diurnas,,reglas
+CHERY,Luz ambiente multicolor interior,,,ninguna
+CHERY,Luz de lectura,,,ninguna
+CHERY,Manijas de puertas color carrocería,,,ninguna
+CHERY,Modo ECO & SPORT,,,ninguna
+CHERY,Modos de conducción ECO & SPORT,,,ninguna
+CHERY,Navegador satelital,navegador,,reglas
+CHERY,Parasoles delanteros con espejo cortesia,,,ninguna
+CHERY,Parasoles delanteros con espejo cortesia y luz,,,ninguna
+CHERY,Plancha de instrumentos con luz ambiente,,,ninguna
+CHERY,Puerto USB (x2),,,ninguna
+CHERY,Puertos USB A & C,,,ninguna
+CHERY,RCW | Alerta de colisión trasera,,,ninguna
+CHERY,Radio AM/FM,,,ninguna
+CHERY,Rango eléctrico puro (km/WLTP),,,ninguna
+CHERY,Rieles de techo,barras_techo,,gemini
+CHERY,SEGURIDAD Cinturones de seguridad de 3 puntos (x5),,,ninguna
+CHERY,Salida de escape doble,,,ninguna
+CHERY,Sensor crepuscular,luces_automaticas,,reglas
+CHERY,Sensor de lluvia,sensor_lluvia,,reglas
+CHERY,Sensores de estacionamiento,sensores_traseros,,gemini
+CHERY,Spoiler trasero,,,ninguna
+CHERY,TCS | Control de tracción,,,ninguna
+CHERY,Techo panorámico eléctrico,techo_solar,,reglas
+CHERY,Techo solar eléctrico,techo_solar,,reglas
+CHERY,Tercera luz de stop,,,ninguna
+CHERY,Toma 12v,,,ninguna
+CHERY,Ventilación plazas traseras,salidas_aire_traseras,,gemini
+CHERY,Volante con regulación en altura y profundidad,,,ninguna
+CHERY,Volante multifunción,,,ninguna
+CHERY,Volante tapizado en cuero ecológico,volante_cuero,,reglas
 CHEVROLET,"""Arena Metálico"" ",,,ninguna
 CHEVROLET,"""Rush Met""",,,ninguna
 CHEVROLET,3ra fila de asientos rebatible,,,ninguna
@@ -1569,7 +1676,6 @@ CITROEN,Volante de cuero,volante_cuero,,reglas
 CITROEN,Volante multifunción,,,ninguna
 CITROEN,Ópticas traseras LED,,,ninguna
 FIAT,(ACC Stop & Go),crucero_adaptativo,,reglas
-FIAT,(GSI),,,ninguna
 FIAT,(Keyless Entry 'N' Go),llave_presencia,,reglas
 FIAT,(con proyección 3D y transparencia),,,ninguna
 FIAT,2 Airbags (frontales conductor y pasajero),airbags_frontales,,reglas
@@ -2057,6 +2163,7 @@ FORD,- Volumen (m3),,,ninguna
 FORD,-Ancho (mm),,,ninguna
 FORD,-Ancho entre buches (mm),,,ninguna
 FORD,1 fila de entrada USB (tipo A + tipo C),,,ninguna
+FORD,14 parlantes con subwoofer,,,ninguna
 FORD,1° fila / 2° fila / 3° fila - Headroom 972/953/923 Comando de audio al volante,,,ninguna
 FORD,2 Ganchos de remolque delanteros n Sistema de mitigación de vuelcos (RSC),,,ninguna
 FORD,2 filas de entradas USB (2 tipo A + 2 tipo C),usb_traseros,,gemini
@@ -2076,16 +2183,24 @@ FORD,"7 Airbags: 2 frontales, 2 laterales, 2 cortinas y 1 rodilla pasajero",airb
 FORD,"7 Airbags: 2 frontales, 2 laterales, 2 cortinas y 1 rodilla pasajero",airbag_rodilla,,reglas
 FORD,8 Cilindros en V,,,ninguna
 FORD,A - Largo total 5981 Cierre central de puertas con comando a distancia,,,ninguna
+FORD,ABS en las 4 ruedas,,,ninguna
 FORD,ABS y EBD en las 4 ruedas,,,ninguna
 FORD,"ABS, EBD (electronic brake distribution) y EBA",,,ninguna
 FORD,Aceleración 0-100 km/h,,,ninguna
+FORD,Advance TRAC® con RSC® (Roll stability control),,,ninguna
 FORD,Advertencia de salida de puertas,,,ninguna
 FORD,"Airbag de rodilla para conductor, airbag delanteros y laterales de tórax para conductor y acompañante, airbags laterales tipo cortina",airbags_frontales,,reglas
 FORD,"Airbag de rodilla para conductor, airbag delanteros y laterales de tórax para conductor y acompañante, airbags laterales tipo cortina",airbags_cortina,,reglas
 FORD,"Airbag de rodilla para conductor, airbag delanteros y laterales de tórax para conductor y acompañante, airbags laterales tipo cortina",airbag_rodilla,,reglas
+FORD,Airbag: de cortina,airbags_cortina,,reglas
+FORD,Airbag: frontal conductor y acompañante,airbags_frontales,,reglas
+FORD,Airbag: laterales en asientos delanteros,airbags_laterales,,reglas
 FORD,Airbags delanteros para conductor y acompañante,airbags_frontales,,reglas
 FORD,Airbags laterales de tórax en asientos delanteros,airbags_laterales,,reglas
 FORD,Airbags laterales tipo cortina,airbags_cortina,,reglas
+FORD,Airbags: de cortina,airbags_cortina,,reglas
+FORD,Airbags: frontal conductor y acompañante,airbags_frontales,,reglas
+FORD,Airbags: laterales en asientos delanteros,airbags_laterales,,reglas
 FORD,Aire acondicionado digital,aire_acondicionado,,reglas
 FORD,Alarma de seguridad con inmovilizador y sensores de inclinación,,,ninguna
 FORD,Alarma perimetral,,,ninguna
@@ -2100,12 +2215,17 @@ FORD,Alerta de puertas abiertas y luces encendidas,,,ninguna
 FORD,Alerta y frenado automático por tráfico cruzado,trafico_cruzado,,reglas
 FORD,Alfombras,,,ninguna
 FORD,Alfombras de goma,,,ninguna
+FORD,Alfombras de piso interiores,,,ninguna
+FORD,Alfombras de piso interiores exclusivas Raptor,,,ninguna
+FORD,Alfombras de piso interiores exclusivas Tremor,,,ninguna
 FORD,Alto (descargado - sin barras portaequipajes),,,ninguna
 FORD,Alto (descargado),,,ninguna
 FORD,Alto (mm),,,ninguna
 FORD,Altura (mm,,,ninguna
 FORD,Altura (mm),,,ninguna
 FORD,Altura (mm) 1841 Conectividad inalámbrica compatible con Android Auto/Apple Car Play,,,ninguna
+FORD,Amortiguadores TREMOR,,,ninguna
+FORD,Amortiguadores de alto desempeño FOX RACING SHOX™,,,ninguna
 FORD,Ancho (mm),,,ninguna
 FORD,Ancho entre buches (mm),,,ninguna
 FORD,Ancho sin espejos (mm),,,ninguna
@@ -2123,15 +2243,27 @@ FORD,Aplique Dark Horse trasero y lateral,,,ninguna
 FORD,Aplique Everest portón trasero n Control de tracción (TCS),,,ninguna
 FORD,Aplique Platinum en portón trasero y capot,,,ninguna
 FORD,Aplique Titanium en portón trasero,,,ninguna
+FORD,Apoya vasos delanteros y traseros,,,ninguna
 FORD,Apoyabrazos central con guardaobjetos y posavasos,,,ninguna
 FORD,Apoyabrazos central trasero,,,ninguna
 FORD,Apoyabrazos delantero con guardaobjetos y trasero con posavasos,,,ninguna
+FORD,"Apoyabrazos delantero convertible en ""mesa plana""",,,ninguna
 FORD,Apoyabrazos delantero frontal con guarda objetos,,,ninguna
 FORD,Apoyabrazos trasero con posa vasos,,,ninguna
 FORD,Apoyacabezas regulables en altura,,,ninguna
 FORD,"Arranque de motor sin llave ""Ford Power""",arranque_boton,,gemini
+FORD,"Arranque sin llave ""Ford Power""",arranque_boton,,reglas
+FORD,Asiento acompañante con ajuste eléctrico con hasta 8 posiciones,asiento_electrico,,reglas
 FORD,Asiento conductor c/ajuste eléctrico en 8 direcciones,asiento_electrico,,reglas
 FORD,Asiento conductor c/ajuste manual en 6 direcciones,,,ninguna
+FORD,Asiento conductor con ajuste eléctrico con hasta 10 posiciones: climatizados,asiento_electrico,,reglas
+FORD,Asiento conductor con ajuste eléctrico con hasta 10 posiciones: con ajuste lumbar eléctrico,asiento_electrico,,reglas
+FORD,Asiento conductor con ajuste eléctrico con hasta 10 posiciones: con inscripción Tremor en respaldo,asiento_electrico,,reglas
+FORD,Asiento conductor con ajuste eléctrico con hasta 10 posiciones: con memoria (conductor),asiento_electrico,,reglas
+FORD,Asiento conductor y acompañante: climatizados,asientos_calefaccionados,,gemini
+FORD,Asiento conductor y acompañante: con ajuste eléctrico con hasta 10 posiciones para el conductor con memoria,asiento_electrico,,reglas
+FORD,Asiento conductor y acompañante: con ajuste eléctrico con hasta 8 posiciones para el acompañante,asiento_electrico,,reglas
+FORD,Asiento conductor y acompañante: con inscripción Raptor en respaldo,,,ninguna
 FORD,Asiento de conductor con regulación eléctrica (8 posiciones) y manual para acompañante (6 posiciones),asiento_electrico,,reglas
 FORD,Asiento del acompañante con regulación eléctrica de 4 posiciones,asiento_electrico,,reglas
 FORD,Asiento del acompañante con regulación eléctrica de 6 posiciones,asiento_electrico,,reglas
@@ -2141,6 +2273,9 @@ FORD,Asiento del conductor con regulación eléctrica de 10 posiciones incluyend
 FORD,Asiento del conductor con regulación eléctrica de 6 posiciones,asiento_electrico,,reglas
 FORD,Asiento del conductor con regulación eléctrica de 8 posiciones,asiento_electrico,,reglas
 FORD,Asiento del conductor con regulación manual de 6 posiciones,,,ninguna
+FORD,Asiento pasajeros trasero: base asiento trasero rebatilbe (mayor espacio de carga),,,ninguna
+FORD,Asiento pasajeros trasero: calefaccionados,asientos_calefaccionados,,reglas
+FORD,"Asiento pasajeros trasero: espacio de almacenamiento con traba, debajo del asiento",,,ninguna
 FORD,Asiento trasero rebatible,,,ninguna
 FORD,Asientos 2+1 Limpiaparabrisas delantero de intermitencia variable,,,ninguna
 FORD,Asientos con tapizado combinado de tela y cuero ecologico,asientos_cuero,,reglas
@@ -2156,7 +2291,25 @@ FORD,Asientos traseros rebatibles 60/40,,,ninguna
 FORD,Asistencia de Arranque en Pendiente (HLA),arranque_pendiente,,reglas
 FORD,Asistencia electrónica al frenado de emergencia (EBA),,,ninguna
 FORD,Asistencia para la conducción con trailer (Pro-trailer back up assist),,,ninguna
+FORD,Asistente Ford Co-Pilot 360™: asistente de dirección evasiva,,,ninguna
+FORD,Asistente Ford Co-Pilot 360™: asistente de frenado en reversa,,,ninguna
+FORD,Asistente Ford Co-Pilot 360™: asistente de pre-colisión con frenado automático de emergencia y detección de peatones,frenado_autonomo,,reglas
+FORD,Asistente Ford Co-Pilot 360™: control automático de luces altas,luces_altas_automaticas,,gemini
+FORD,Asistente Ford Co-Pilot 360™: control de Velocidad Crucero Adaptativo con Stop&Go y Centrado de Carril,crucero_adaptativo,,reglas
+FORD,Asistente Ford Co-Pilot 360™: control de Velocidad Crucero Adaptativo con Stop&Go y Centrado de Carril,mantenimiento_carril,,reglas
+FORD,Asistente Ford Co-Pilot 360™: control de Velocidad Crucero Adaptativo con Stop&Go y Centrado de carril,crucero_adaptativo,,reglas
+FORD,Asistente Ford Co-Pilot 360™: control de Velocidad Crucero Adaptativo con Stop&Go y Centrado de carril,mantenimiento_carril,,reglas
+FORD,Asistente Ford Co-Pilot 360™: cámara 360° con pantalla dividida,camara_360,,reglas
+FORD,Asistente Ford Co-Pilot 360™: cámara 360° con pantalla dividida,pantalla_multimedia,,reglas
+FORD,Asistente Ford Co-Pilot 360™: pro trailer back-up assist,,,ninguna
+FORD,Asistente Ford Co-Pilot 360™: sensores de estacionamiento traseros,sensores_traseros,,reglas
+FORD,Asistente Ford Co-Pilot 360™: sistema de Centrado de Carril (Lane Centering),mantenimiento_carril,,reglas
+FORD,Asistente Ford Co-Pilot 360™: sistema de Manteniemiento de Carril (Lane Keeping Aid),mantenimiento_carril,,reglas
+FORD,Asistente Ford Co-Pilot 360™: sistema de freando post-colisión,,,ninguna
+FORD,Asistente Ford Co-Pilot 360™: sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado,punto_ciego,,reglas
+FORD,Asistente Ford Co-Pilot 360™: sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado,trafico_cruzado,,reglas
 FORD,Asistente al arranque en pendiente (HLA),arranque_pendiente,,reglas
+FORD,Asistente de Giro Off Road - Trail Turn Assist,,,ninguna
 FORD,Asistente de descenso en pendiente (HDC),,,ninguna
 FORD,Asistente de dirección evasiva,,,ninguna
 FORD,Asistente de frenado autónomo (AEB) con detección de peatones/ciclistas,frenado_autonomo,,reglas
@@ -2186,6 +2339,7 @@ FORD,Barras de techo longitudinales de color gris satinado,barras_techo,,reglas
 FORD,Barras de techo longitudinales de color negro,barras_techo,,reglas
 FORD,Baúl de carga con cobertor de goma removible en respaldo,,,ninguna
 FORD,Bloqueo de diferencial trasero,,,ninguna
+FORD,Bloqueo del diferencial trasero (LRD),,,ninguna
 FORD,Bloqueo eléctrico de puertas,,,ninguna
 FORD,Bloqueo y desbloqueo remoto de puertas,,,ninguna
 FORD,Bluetooth,,,ninguna
@@ -2195,7 +2349,9 @@ FORD,Caja de carga: -Largo (mm),,,ninguna
 FORD,Calco Badlands en lateral de puerta,,,ninguna
 FORD,Calco Big Bend en lateral de puerta,,,ninguna
 FORD,Calcomanías deportivas TREMOR en laterales y capot,,,ninguna
+FORD,Calcos Raptor exclusivos,,,ninguna
 FORD,Calcos delanteros en capot,,,ninguna
+FORD,Calcos exclusivos Tremor,,,ninguna
 FORD,Calipers negros,,,ninguna
 FORD,Cantidad de pasajeros,,,ninguna
 FORD,Capacidad baúl (L) 7A/5A/2A 259/898/1823 Iluminación 360,,,ninguna
@@ -2221,6 +2377,7 @@ FORD,Cargador inalámbrico,cargador_inalambrico,,reglas
 FORD,Cargador inalámbrico de smartphone,cargador_inalambrico,,reglas
 FORD,Carrocería,,,ninguna
 FORD,Cerradura electrica en portón de caja de carga,,,ninguna
+FORD,Cierre centralizado / control remoto,,,ninguna
 FORD,Cierre centralizado en portón de caja,,,ninguna
 FORD,Cierre con cerradura en portón de caja,,,ninguna
 FORD,Cierre/apertura global remoto de puertas,,,ninguna
@@ -2262,8 +2419,14 @@ FORD,Configuración,,,ninguna
 FORD,Configuración 4 en línea Gancho de remolque delantero y trasero n,,,ninguna
 FORD,Consola central con compartimento portaobjetos y reposabrazos integrado,,,ninguna
 FORD,Consola de techo con luces interiores,,,ninguna
+FORD,Control anti-vuelco (ROM),,,ninguna
 FORD,Control automático de luces altas,luces_altas_automaticas,,gemini
+FORD,Control de Velocidad crucero Off Road - Trail control,crucero,,reglas
+FORD,Control de audio / SYNC al volante,pantalla_multimedia,,reglas
+FORD,Control de balanceo de trailer,,,ninguna
 FORD,Control de balanceo de trailer (TSM) y control de carga adaptativo (LAC),,,ninguna
+FORD,Control de caminos,,,ninguna
+FORD,Control de estabilidad (ESP),control_estabilidad,,reglas
 FORD,"Control de estabilidad (ESP), control de tracción (TCS) y control anti-vuelco (ROM)",control_estabilidad,,reglas
 FORD,Control de tracción (TCS),,,ninguna
 FORD,Control de velocidad crucero,crucero,,reglas
@@ -2307,6 +2470,7 @@ FORD,Distancia entre ejes (mm) 2900 Base de carga de celular inalámbrica,,,ning
 FORD,Distribución electrónica de frenado (EBD),,,ninguna
 FORD,Diámetro de giro pared a pared 13300 Dirección eléctrica,,,ninguna
 FORD,Doble gancho de rescate delantero,,,ninguna
+FORD,Doble salida de escape,,,ninguna
 FORD,Dos ganchos de rescate delanteros en color naranja cobre,,,ninguna
 FORD,Emblema Dark Horse con numeración de unidad,,,ninguna
 FORD,Emblema Mustang delantero oscurecido,,,ninguna
@@ -2317,15 +2481,19 @@ FORD,Encendido de motor remoto,conectividad_remota,,gemini
 FORD,Encendido remoto,conectividad_remota,,gemini
 FORD,Encendido remoto desde la llave,,,ninguna
 FORD,Encendido remoto programado,conectividad_remota,,gemini
+FORD,Entrada iluminada,,,ninguna
 FORD,Entrada remota sin llave,,,ninguna
 FORD,Entradas USB Tipo A y Tipo C,,,ninguna
 FORD,Entradas USB tipo A y tipo C,,,ninguna
 FORD,Entre ejes (mm),,,ninguna
+FORD,Escalera asistente en portón de caja de carga,,,ninguna
 FORD,Escalón lateral en caja de carga,,,ninguna
 FORD,"Escape doble con 4 salidas de escape cromadas y ajuste de sonido seleccionable - Normal, Deportivo, Pista y Silencioso",,,ninguna
 FORD,Espejo interior retrovisor fotocromático,espejo_electrocromico,,reglas
+FORD,Espejo retrovisor electrocromático,espejo_electrocromico,,gemini
 FORD,Espejo retrovisor fotocromático,espejo_electrocromico,,reglas
 FORD,Espejo retrovisor interior fotocromático,espejo_electrocromico,,reglas
+FORD,Espejos exteriores,,,ninguna
 FORD,Espejos exteriores c/comando eléctrico y c/luz de giro,,,ninguna
 FORD,Espejos exteriores calefaccionados,,,ninguna
 FORD,"Espejos exteriores color carrocería, con luz de giro incorporada",,,ninguna
@@ -2342,12 +2510,26 @@ FORD,Espejos exteriores plegables electricos,espejos_rebatibles,,reglas
 FORD,"Espejos exteriores, parrilla y manijas de puerta color carrocería, manija de portón color negro",,,ninguna
 FORD,"Espejos exteriores, parrilla y manijas de puerta cromados, manija de portón color negro",,,ninguna
 FORD,"Espejos exteriores, parrilla, manijas de puerta y portón color negro",,,ninguna
+FORD,Espejos exteriores: calefaccionados,,,ninguna
+FORD,Espejos exteriores: color carroceria,,,ninguna
+FORD,Espejos exteriores: con luz LED,,,ninguna
+FORD,Espejos exteriores: con memoria,,,ninguna
+FORD,Espejos exteriores: con sensor electrocromático (conductor),,,ninguna
+FORD,Espejos exteriores: cromados,,,ninguna
+FORD,Espejos exteriores: eléctricos,,,ninguna
+FORD,Espejos exteriores: luz LED,,,ninguna
+FORD,Espejos exteriores: rebatibles electrónicamente,espejos_rebatibles,,gemini
 FORD,"Espejos retrovisores externos con luces de conducción, eléctricos y plegables",espejos_rebatibles,,reglas
 FORD,Estado general del vehículo con alertas,,,ninguna
 FORD,Estribos color negro,,,ninguna
+FORD,Estribos laterales,,,ninguna
+FORD,Estribos laterales Negros de aluminio: caja de transferencia,,,ninguna
+FORD,Estribos laterales Negros de aluminio: diferencial delantero,,,ninguna
+FORD,Estribos laterales Negros de aluminio: tanque de combustible,,,ninguna
 FORD,Everest -,,,ninguna
 FORD,F- Voladizo trasero 1208 Doble espejo retrovisor con punto ciego,punto_ciego,,reglas
 FORD,FRENOS Panel divisor de espacio de cabina/carga,,,ninguna
+FORD,Faros antiniebla,faros_antiniebla,,reglas
 FORD,Faros antiniebla LED,faros_antiniebla,,reglas
 FORD,Faros antiniebla delanteros LED,faros_antiniebla,,reglas
 FORD,Faros antiniebla halógenos,faros_antiniebla,,reglas
@@ -2358,6 +2540,8 @@ FORD,Faros delanteros con tecnología LED,faros_led,,reglas
 FORD,Faros delanteros con tecnología full LED y nivelación de altura,faros_led,,reglas
 FORD,Faros delanteros halógenos,,,ninguna
 FORD,Faros delanteros y traseros 100% con tecnología LED,faros_led,,gemini
+FORD,Faros delanteros y traseros con iluminación full LED,faros_led,,gemini
+FORD,"Faros delanteros, antinieblas y traseros con iluminación full LED",faros_antiniebla,,reglas
 FORD,Faros traseros Full LED,,,manual
 FORD,Faros traseros LED,,,manual
 FORD,Faros traseros con tecnologia LED,,,ninguna
@@ -2377,8 +2561,13 @@ FORD,GPS Integrado,navegador,,reglas
 FORD,GT Perfoma,,,ninguna
 FORD,Gancho delantero de rescate,,,ninguna
 FORD,Ganchos de rescate delanteros,,,ninguna
+FORD,Ganchos de rescate delanteros (dos),,,ninguna
+FORD,Ganchos de rescate delanteros y traseros,,,ninguna
+FORD,Ganchos de sujeción en caja de carga,,,ninguna
+FORD,Ganchos de sujeción en caja de carga (BoxLink),,,ninguna
 FORD,Ganchos para sujeción de carga (interior),,,ninguna
 FORD,H- Altura de acceso de la puerta lateral 1600 Número de identificación del vehículo visible,,,ninguna
+FORD,Heads-Up Display,pantalla_multimedia,,reglas
 FORD,Iluminación de caja de carga,,,ninguna
 FORD,Iluminación interior ambiental configurable,,,ninguna
 FORD,"Información de autonomía, odómetro y localizacion en tiempo real",conectividad_remota,,gemini
@@ -2398,6 +2587,7 @@ FORD,"L F l r a e n n t o a s s Discos ventilados A e l n u m la i s n 4 io r 2 
 FORD,Largo (mm),,,ninguna
 FORD,Largo (mm) 4914 Tecnología Start-Stop,,,ninguna
 FORD,Largo total (mm),,,ninguna
+FORD,Lariat Híbrida,,,ninguna
 FORD,Laterales,,,ninguna
 FORD,"Levantacristales eléctricos con sistema ""One Touch Down"" para conductor",pantalla_multimedia,,reglas
 FORD,"Levantacristales eléctricos con sistema ""One Touch Up/Down"" para conductor y pasajeros",pantalla_multimedia,,reglas
@@ -2405,6 +2595,8 @@ FORD,"Levantacristales eléctricos con sistema ""One Touch"" para conductor y pa
 FORD,Levantacristales eléctricos con sistema “One Touch Down” para conductor,pantalla_multimedia,,reglas
 FORD,"Levantavidrios eléctricos ""One Touch""",pantalla_multimedia,,reglas
 FORD,"Levantavidrios eléctricos ""un toque"" delanteros y traseros",,,ninguna
+FORD,"Levantavidrios eléctricos delanteros y traseros, con ""un toque"" para conductor y acompañante",,,ninguna
+FORD,"Levantavidrios eléctricos delanteros y traseros, con “un toque” para conductor y acompañante",,,ninguna
 FORD,Levas al volante,levas,,reglas
 FORD,Limitador de velocidad,limitador_velocidad,,reglas
 FORD,Limpiaparabrisas con sensor de lluvia,sensor_lluvia,,reglas
@@ -2425,6 +2617,7 @@ FORD,"Llantas de aleación de 20""",llantas_aleacion,,reglas
 FORD,"Llantas de aleación de 20""",llantas,20,reglas
 FORD,Luces altas automáticas,luces_altas_automaticas,,reglas
 FORD,Luces con emblema Mustang,,,ninguna
+FORD,Luces de circulación diurna (DTRL),luces_diurnas,,reglas
 FORD,Luces de conducción diurnas (DTRL),luces_diurnas,,reglas
 FORD,Luces delanteras Full LED,faros_led,,reglas
 FORD,Luces diurnas con tecnología LED,luces_diurnas,,reglas
@@ -2433,7 +2626,10 @@ FORD,Luces diurnas de circulación Full LED n Cámara trasera digital,camara_tra
 FORD,Luces diurnas de circulación Full LED n Cámara trasera digital,luces_diurnas,,reglas
 FORD,Luces diurnas de circulación LED (DTRL),luces_diurnas,,reglas
 FORD,Luces diurnas halógenas,luces_diurnas,,reglas
+FORD,Luneta trasera eléctrica y calefaccionada,,,ninguna
 FORD,Luz LED en caja de carga,,,ninguna
+FORD,Luz LED en caja de carga con iluminación de zona,,,ninguna
+FORD,Luz de ambiente,,,ninguna
 FORD,Luz de ambiente interior LED de color seleccionable,,,ninguna
 FORD,Luz de aproximación con proyección del emblema Mustang,,,ninguna
 FORD,Luz de freno (Brake-light),,,ninguna
@@ -2448,10 +2644,13 @@ FORD,Manijas de puerta de color de la carroceria,,,ninguna
 FORD,Manijas de puertas color carrocería,,,ninguna
 FORD,Manijas de puertas color negro,,,ninguna
 FORD,Manijas de puertas cromadas,,,ninguna
+FORD,Manijas de puertas y portón de caja color carroceria,,,ninguna
+FORD,Manijas de puertas y portón de caja cromado,,,ninguna
 FORD,Marca / Modelo,,,ninguna
 FORD,Medidas,,,ninguna
 FORD,Mitigación de baches: detección automática de pozos,,,ninguna
 FORD,Modelo,,,ninguna
+FORD,Modo de Conducción Off Road con un Pedal,,,ninguna
 FORD,Modo de manejo Todo Terreno adicional,,,ninguna
 FORD,Modos de dirección seleccionables,,,ninguna
 FORD,"Modos de manejo 6 modos: Normal, Eco, Resbaladizo, Barro/Surcos, Arena y Remolque Apoyabrazos central delantero",,,ninguna
@@ -2473,14 +2672,33 @@ FORD,Panel de Instrumentos digital de 12.4”,tablero_digital,,reglas
 FORD,"Panel de instrumentos digital color de 8""",tablero_digital,8,reglas
 FORD,Panel de instrumentos digital full LED,tablero_digital,,reglas
 FORD,Panel de instrumentos digital y pantalla touch screen integrados,tablero_digital,,reglas
+FORD,"Pantalla multitáctil de 12"" con SYNC 4 compatible con Apple CarPlay & Android Auto Inalambrico",carplay_android,,reglas
+FORD,"Pantalla multitáctil de 12"" con SYNC 4 compatible con Apple CarPlay & Android Auto Inalambrico",carplay_inalambrico,,reglas
+FORD,"Pantalla multitáctil de 12"" con SYNC 4 compatible con Apple CarPlay & Android Auto Inalambrico",pantalla_multimedia,12,reglas
+FORD,"Pantalla multitáctil de 12"" con SYNC 4 compatible con Apple CarPlay & Android Auto inalámbrico",carplay_android,,reglas
+FORD,"Pantalla multitáctil de 12"" con SYNC 4 compatible con Apple CarPlay & Android Auto inalámbrico",carplay_inalambrico,,reglas
+FORD,"Pantalla multitáctil de 12"" con SYNC 4 compatible con Apple CarPlay & Android Auto inalámbrico",pantalla_multimedia,12,reglas
 FORD,Pantalla todoterreno,pantalla_multimedia,,reglas
 FORD,Pantalla táctil central multifuncional de 13.2”,pantalla_multimedia,,reglas
 FORD,"Pantalla táctil de 13,2” con SYNC 4 compatible con Apple CarPlay & Android Auto Wireles",carplay_android,,reglas
 FORD,"Pantalla táctil de 13,2” con SYNC 4 compatible con Apple CarPlay & Android Auto Wireles",pantalla_multimedia,,reglas
+FORD,Paquete Ford Co-Pilot 360™: asistente de frenado en reversa,,,ninguna
+FORD,Paquete Ford Co-Pilot 360™: asistente de pre-colisión con frenado automático de emergencia y detección de peatones,frenado_autonomo,,reglas
+FORD,Paquete Ford Co-Pilot 360™: control automático de luces altas,luces_altas_automaticas,,gemini
+FORD,Paquete Ford Co-Pilot 360™: control de Velocidad Crucero Adaptativo con Stop&Go y centrado de carril,crucero_adaptativo,,reglas
+FORD,Paquete Ford Co-Pilot 360™: control de Velocidad Crucero Adaptativo con Stop&Go y centrado de carril,mantenimiento_carril,,reglas
+FORD,Paquete Ford Co-Pilot 360™: cámara 360° con pantalla dividida,camara_360,,reglas
+FORD,Paquete Ford Co-Pilot 360™: cámara 360° con pantalla dividida,pantalla_multimedia,,reglas
+FORD,Paquete Ford Co-Pilot 360™: pro trailer back-up assist,,,ninguna
+FORD,Paquete Ford Co-Pilot 360™: sistema de Manteniemiento de Carril (Lane Keeping Aid),mantenimiento_carril,,reglas
+FORD,Paquete Ford Co-Pilot 360™: sistema de frenado post-colisión,,,ninguna
+FORD,Paquete Ford Co-Pilot 360™: sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado,punto_ciego,,reglas
+FORD,Paquete Ford Co-Pilot 360™: sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado,trafico_cruzado,,reglas
 FORD,Paragolpe trasero color gris oscuro,,,ninguna
 FORD,Paragolpe trasero color gris satinado,,,ninguna
 FORD,Paragolpe trasero color negro,,,ninguna
 FORD,Paragolpe trasero cromado,,,ninguna
+FORD,Paragolpes delantero y trasero off-road exclusivo Raptor,,,ninguna
 FORD,Paragolpes frontal color carrocería,,,ninguna
 FORD,Paragolpes frontal color negro,,,ninguna
 FORD,Paragolpes frontal color negro con placa de acero de alta resistencia,,,ninguna
@@ -2488,12 +2706,17 @@ FORD,Paragolpes trasero color carrocería,,,ninguna
 FORD,Paragolpes trasero color negro,,,ninguna
 FORD,Parasol con espejo y luces de cortesía (conductor/pasajero),,,ninguna
 FORD,Parasoles de conductor y acompañante con espejo de cortesía y luz,,,ninguna
+FORD,Parrilla color negro y barra transversal color naranja cobre,,,ninguna
 FORD,Parrilla con barra transversal color gris oscuro,,,ninguna
 FORD,Parrilla con barra transversal color gris satinado,,,ninguna
 FORD,Parrilla con barra transversal color negro,,,ninguna
 FORD,Parrilla con barra transversal cromada,,,ninguna
+FORD,Parrilla cromada,,,ninguna
 FORD,Parrilla delantera con barra transversal y grilla cromada n Sistema de información de punto ciego (BLIS),punto_ciego,,reglas
 FORD,Parrilla delantera con detalles naranja cobre,,,ninguna
+FORD,Parrilla negra exclusiva Raptor c/ luces LED,faros_led,,reglas
+FORD,Pedales ajustables electronicamente y con memoria,,,ninguna
+FORD,Pedales ajustables electrónicamente y con memoria,,,ninguna
 FORD,Peso Bruto Total (Kg),,,ninguna
 FORD,Peso Bruto Total (Kg) 3500 Programa electrónico de estabilidad (ESP),,,ninguna
 FORD,Peso Máximo Bruto total eje delantero 1321 Control de Tracción (BTCS),,,ninguna
@@ -2507,6 +2730,9 @@ FORD,Piso de goma lavable en plazas delanteras y traseras,,,ninguna
 FORD,Plazas delanteras calefaccionadas y refrigeradas,asientos_calefaccionados,,gemini
 FORD,Portón de caja con asistencia,,,ninguna
 FORD,Portón de caja con manija iluminada,,,ninguna
+FORD,Portón de caja de carga con apertura automática y cierre remoto,porton_electrico,,gemini
+FORD,Portón de caja de carga con apertura y cierre remoto,,,ninguna
+FORD,Portón de caja de carga con aplique exlusivo FORD,,,ninguna
 FORD,Portón trasero con doble apertura,,,ninguna
 FORD,Potencia,,,ninguna
 FORD,Potencia (CV) 300 @5650 Asientos rebatibles 60/40 (segunda fila),,,ninguna
@@ -2515,15 +2741,29 @@ FORD,Potencia Máxima del Motor de Combustión Interna (CV @ RPM),,,ninguna
 FORD,Potencia máxima combinada (CV / rpm),,,ninguna
 FORD,Potencia máxima del motor de combustión interna (CV / rpm),,,ninguna
 FORD,Potencia máxima del motor electrico (CV / rpm),,,ninguna
+FORD,Pro Power Onboard 2 kW,,,ninguna
+FORD,Pro Power Onboard 2.0kW,,,ninguna
+FORD,"Pro Power Onboard 7,2kW",,,ninguna
 FORD,Protección de bajos,,,ninguna
 FORD,Protección inferior de motor metalizado,,,ninguna
+FORD,Protector de caja de carga (bedliner),,,ninguna
 FORD,Protector de caja de carga Flex Bed con ganchos de anclaje,,,ninguna
+FORD,Protector de caja de carga premium (bedliner),,,ninguna
 FORD,Protector de la caja de transferencia,,,ninguna
 FORD,Protector del tanque de combustible,,,ninguna
+FORD,Protectores inferiores de carter y motor,,,ninguna
+FORD,Protectores inferiores para:,,,ninguna
+FORD,Protectores inferiores para:: caja de transferencia,,,ninguna
+FORD,Protectores inferiores para:: diferencial delantero,,,ninguna
+FORD,Protectores inferiores para:: tanque de combustible,,,ninguna
 FORD,Puerto USB delantero y trasero,usb_traseros,,reglas
+FORD,Puerto USB y USB-C,,,ninguna
 FORD,Puntos de anclaje en el portón trasero,,,ninguna
+FORD,Raptor,,,ninguna
 FORD,Relación 3.15:1 Sistema de audio con radio AM/FM,,,ninguna
 FORD,Relación de compresión,,,ninguna
+FORD,Reserva de turnos de Servicios en linea con Pickup and Delivery,,,ninguna
+FORD,Reserva de turnos de Servicios on-line con Pickup & Delivery,,,ninguna
 FORD,Reserva de turnos de servicios en línea con Pickup & Delivery,,,ninguna
 FORD,Reserva de turnos de servicios en línea con Pickup and Delivery,,,ninguna
 FORD,Rueda de auxilio,,,ninguna
@@ -2534,14 +2774,19 @@ FORD,SYNC 4,pantalla_multimedia,,reglas
 FORD,"Selector de cambios rotativo ""Rotary Shifter""",,,ninguna
 FORD,"Selector de transmisión ""E-Shifter""",,,ninguna
 FORD,"Selector de transmisión ""Rotary Shifter""",,,ninguna
+FORD,Sensor de lluvia,sensor_lluvia,,reglas
 FORD,Sensor de monitoreo de presión de neumáticos (TPMS),presion_neumaticos,,reglas
 FORD,Sensores de estacionamiento delanteros,sensores_delanteros,,reglas
 FORD,Sensores de estacionamiento trasero,sensores_traseros,,reglas
 FORD,Sensores de estacionamiento traseros,sensores_traseros,,reglas
+FORD,Sensores de estacionamiento traseros y delanteros,sensores_traseros,,reglas
+FORD,Sensores de estacionamiento traseros y delanteros,sensores_delanteros,,reglas
 FORD,Sensores traseros de estacionamiento,sensores_traseros,,reglas
 FORD,Sin espejos (mm),,,ninguna
 FORD,Sistema Auto Start / Stop,,,ninguna
+FORD,Sistema Easy Fuel - Llenado de combustible sin tapa,,,ninguna
 FORD,Sistema antibloqueo de frenos (ABS),,,ninguna
+FORD,Sistema de Audio Premium B&O,audio_premium,,reglas
 FORD,"Sistema de Gestión de Terrenos con modos de manejo (normal, eco, deportivo, remolcar y resbaladizo)",,,ninguna
 FORD,Sistema de Información de punto ciego (BLIS),punto_ciego,,reglas
 FORD,Sistema de Información de punto ciego (BLIS) con alerta de tráfico cruzado,punto_ciego,,reglas
@@ -2551,6 +2796,7 @@ FORD,Sistema de alerta de tráfico cruzado,trafico_cruzado,,reglas
 FORD,Sistema de anclaje ISOFIX,isofix,,reglas
 FORD,Sistema de anclajes ISOFIX,isofix,,reglas
 FORD,Sistema de anclajes ISOFIX®,isofix,,reglas
+FORD,Sistema de apertura de porton Access Tailgate,,,ninguna
 FORD,Sistema de arranque remoto,,,ninguna
 FORD,Sistema de audio con 4 parlantes,,,ninguna
 FORD,Sistema de audio con 6 parlantes,,,ninguna
@@ -2571,10 +2817,13 @@ FORD,Sistema de mantenimiento de carril,mantenimiento_carril,,reglas
 FORD,Sistema de mantenimiento de carril (Lane Keeping Aid),mantenimiento_carril,,reglas
 FORD,Sistema de monitoreo de presión de neumaticos (TPMS),presion_neumaticos,,reglas
 FORD,Sistema de monitoreo de presión de neumáticos,presion_neumaticos,,reglas
+FORD,Sistema de monitoreo de presión de neumáticos (TPMS),presion_neumaticos,,reglas
+FORD,Sistema de remolque (Tow/Haul),,,ninguna
 FORD,Sistema de suspensión especial off-road,,,ninguna
 FORD,"Sistema multimedia SYNC Touch con pantalla Multi-Táctil de 12,3"", control por voz, Bluetooth y puertos USB",pantalla_multimedia,12.3,reglas
 FORD,Spoiler trasero,,,ninguna
 FORD,Start & Stop,,,ninguna
+FORD,Superficie de trabajo en portón de caja de carga,,,ninguna
 FORD,Suspensión,,,ninguna
 FORD,"Suspensión delantera Independ a i m en o t r e t i c g o u n a d d o o r b e l s e t b e r l a e z s o có d p e i c s o u s s y p e b n a s r i r ó a n e , s r t e a s b o i r li t z e a s d h o e r l a icoidales, I G lu u m an in te a r c a ió r n e f a r m ige b r ie a n d t a a e l iluminada n",,,ninguna
 FORD,"Sync 4 con pantalla multitáctil de 10"" compatible con Android Auto® y Apple Car Play® inalámbrico",carplay_android,,reglas
@@ -2584,7 +2833,9 @@ FORD,"Sync 4 con pantalla multitáctil de 12"" compatible con Android Auto® y A
 FORD,"Sync 4 con pantalla multitáctil de 12"" compatible con Android Auto® y Apple Car Play® inalámbrico",carplay_inalambrico,,reglas
 FORD,"Sync 4 con pantalla multitáctil de 12"" compatible con Android Auto® y Apple Car Play® inalámbrico",pantalla_multimedia,12,reglas
 FORD,TRANSMISIÓN Luz en área de carga,,,ninguna
+FORD,TREMOR,,,ninguna
 FORD,"Tablero de instrumentos con pantalla digital de 8""",tablero_digital,8,reglas
+FORD,"Tablero de instrumentos digital con pantalla color de 12""",tablero_digital,12,reglas
 FORD,Tapizado de asientos de eco-cuero,asientos_cuero,,reglas
 FORD,Tapizado de asientos en cuero micro-perforado de diseño exclusivo Platinum en tono claro,asientos_cuero,,reglas
 FORD,Tapizado de asientos en cuero micro-perforado en tono oscuro,asientos_cuero,,reglas
@@ -2595,12 +2846,15 @@ FORD,Techo panorámico corredizo de doble panel n Frontales,techo_solar,,reglas
 FORD,Techo pintado en negro (bi-tono),techo_bitono,,reglas
 FORD,Techo solar,techo_solar,,reglas
 FORD,Techo solar con apertura y cierre eléctrico,techo_solar,,reglas
+FORD,Techo solar panorámico,techo_solar,,reglas
+FORD,Techo solar panorámico (doble panel),techo_solar,,reglas
 FORD,Techo solar panorámico con apertura y cierre eléctrico,techo_solar,,reglas
 FORD,Tecnología Auto Start/Stop,,,ninguna
 FORD,Tecnología Start & Stop,,,ninguna
 FORD,"Tecnología arranque sin llave ""Ford Power""",arranque_boton,,reglas
 FORD,Tecnología arranque sin llave “Ford Power”,arranque_boton,,reglas
 FORD,Tercer cinturón inercial trasero,,,ninguna
+FORD,Terrain management system (7 modos de manejo),,,ninguna
 FORD,Tipo,,,ninguna
 FORD,Tipo / Velocidades,,,ninguna
 FORD,Tipo 235/65 R16 Distribución electrónica del frenado (EBD),llantas,16,gemini
@@ -2619,15 +2873,20 @@ FORD,Tracción 4x4 Palanca de cambios forrada en cuero,traccion_4x4,,reglas
 FORD,Tracción Trasera,traccion_4x4,,reglas
 FORD,"Track Apps® - métricas de desempeño, sincronización y frenado",,,ninguna
 FORD,Trail Control 1 Pedal,,,ninguna
+FORD,Trailer brake controller,,,ninguna
 FORD,Transmisión,,,ninguna
 FORD,Transmisión AT 10 velocidades Volante regulable en altura y profundidad,,,ninguna
+FORD,Transmisión con función Selectshift,,,ninguna
 FORD,Trasera,,,ninguna
 FORD,Traseros,,,ninguna
 FORD,Trasmisión AT de 10 velocidades con levas al volante,levas,,reglas
 FORD,Trocha delantera 1732 Ópticas con temporizador - “Follow me home”,,,ninguna
 FORD,Trocha trasera 1743 Levantavidrios delanteros eléctricos con sistema “one touch” para conductor,pantalla_multimedia,,reglas
 FORD,Ventanas oscurecidas (Privacy Glass) en portón y plazas traseras,,,ninguna
+FORD,Ventanilla electrica trasera con desempañador,,,ninguna
+FORD,Ventanilla eléctrica trasera con desempañador,,,ninguna
 FORD,Versión,,,ninguna
+FORD,Vidrios traseros oscurecidos,,,ninguna
 FORD,Volante calefaccionado,,,ninguna
 FORD,Volante de cuero con ajuste de altura y profundidad,volante_cuero,,reglas
 FORD,Volante forrado en cuero,volante_cuero,,reglas
@@ -2636,6 +2895,11 @@ FORD,"Volante multifunción con comandos de audio, computadora de abordo y telé
 FORD,Volante multifunción forrado en cuero,volante_cuero,,reglas
 FORD,"Volante multifunción forrado en cuero equipado con comandos de audio, computadora de abordo y teléfono",volante_cuero,,reglas
 FORD,Volante multifunción regulable en altura y profundidad,,,ninguna
+FORD,Volante: calefaccionado,asientos_calefaccionados,,gemini
+FORD,Volante: calefaccionado y forrado en cuero,volante_cuero,,reglas
+FORD,Volante: forrado en cuero,volante_cuero,,reglas
+FORD,Volante: regulable en altura y profundidad,,,ninguna
+FORD,Volante: regulable en altura y profundidad eléctrico y con memoria,,,ninguna
 FORD,Válvulas,,,ninguna
 FORD,Válvulas 4 por cilindro Asientos y volante tapizados en cuero,,,ninguna
 FORD,Zocalo interior con logo Platinum,,,ninguna
@@ -3299,6 +3563,77 @@ JEEP,Volante regulable en altura y profundidad,,,ninguna
 JEEP,Volante revestido en cuero,volante_cuero,,reglas
 JEEP,Volante tapizado en cuero,volante_cuero,,reglas
 JEEP,Volante y selectora tapizados en cuero,volante_cuero,,reglas
+JETOUR,197 CV de potencia,,,ninguna
+JETOUR,290 N.m de torque,,,ninguna
+JETOUR,6 airbags,,,ninguna
+JETOUR,9 parlantes,,,ninguna
+JETOUR,Advertencia de cambio de carril,mantenimiento_carril,,gemini
+JETOUR,Advertencia de cambio de carril (LDW),mantenimiento_carril,,gemini
+JETOUR,Ajuste del volante en profundidad y altura,,,ninguna
+JETOUR,Alerta de punto ciego.,punto_ciego,,reglas
+JETOUR,Apertura de baúl motorizada,porton_electrico,,gemini
+JETOUR,Apertura eléctrica remota del portón trasero,porton_electrico,,gemini
+JETOUR,Asiento del conductor con regulación eléctrica,asiento_electrico,,reglas
+JETOUR,Asientos con ventilación,,,ninguna
+JETOUR,Asistencia de estacionamiento con visión 540°,,,ninguna
+JETOUR,Asistencia de salida en pendientes (HHC),arranque_pendiente,,gemini
+JETOUR,Asistencia para descenso en pendientes (HDC),,,ninguna
+JETOUR,Asistencia para salida en pendientes (HHC),arranque_pendiente,,gemini
+JETOUR,Asistente para mantenimiento de carril (LKA),mantenimiento_carril,,reglas
+JETOUR,Caja DCT (doble embrague) de siete marchas,,,ninguna
+JETOUR,Capacidad para 7 pasajeros,,,ninguna
+JETOUR,Cargador inalámbrico para celulares,cargador_inalambrico,,reglas
+JETOUR,Climatizador bi-zona,climatizador_automatico,,reglas
+JETOUR,Climatizador bi-zona,climatizador_bizona,,reglas
+JETOUR,Climatizador bizona con purificador del aire,climatizador_automatico,,reglas
+JETOUR,Climatizador bizona con purificador del aire,climatizador_bizona,,reglas
+JETOUR,Columna de direccióncon regulación en altura y profundidad,,,ninguna
+JETOUR,Conexión Android Auto y Carplay,carplay_android,,reglas
+JETOUR,Control crucero adaptativo (ACC),crucero_adaptativo,,reglas
+JETOUR,Control de descenso en pendientes (HDC),,,ninguna
+JETOUR,Control de estabilidad con control de tracción (ESP),control_estabilidad,,reglas
+JETOUR,Control de velocidad crucero,crucero,,reglas
+JETOUR,Control por voz,,,ninguna
+JETOUR,Cámara auxiliar de visión 360°,camara_360,,reglas
+JETOUR,Desbloqueo por presencia,llave_presencia,,gemini
+JETOUR,Detección de punto ciego (BSD),punto_ciego,,reglas
+JETOUR,Dirección eléctrica,,,ninguna
+JETOUR,Diseño deportivo,,,ninguna
+JETOUR,"Equipo multimedia con pantalla de 10,25”",pantalla_multimedia,,reglas
+JETOUR,Espejos laterales con desempañador y plegado automático,espejos_rebatibles,,gemini
+JETOUR,Faros full led,faros_led,,reglas
+JETOUR,Frenado autónomo de emergencia (AEB),frenado_autonomo,,reglas
+JETOUR,Freno de estacionamiento eléctrico,freno_mano_electrico,,reglas
+JETOUR,Gaveta con control de temperatura (refrigeración y calefacción),,,ninguna
+JETOUR,Gaveta con refrigeración,,,ninguna
+JETOUR,Gaveta de refrigeración,,,ninguna
+JETOUR,Iluminación ambiente,,,ninguna
+JETOUR,Levantavidrios eléctricos con función one-touch y anti-pinch,pantalla_multimedia,,reglas
+JETOUR,Luces automáticas,luces_automaticas,,reglas
+JETOUR,Luces interiores ambientales,,,ninguna
+JETOUR,Materiales interiores acústicos soft-touch,pantalla_multimedia,,reglas
+JETOUR,Materiales soft-touch,pantalla_multimedia,,reglas
+JETOUR,Monitoreo de presión de neumáticos (TPMS),presion_neumaticos,,reglas
+JETOUR,Motor 1.6 TGDI (turbo naftero con inyección directa),,,ninguna
+JETOUR,"Pantalla LCD de 15,6”",pantalla_multimedia,,reglas
+JETOUR,Puertos USB delanteros y traseros,usb_traseros,,reglas
+JETOUR,"Puertos de conexión USB, USB-C",,,ninguna
+JETOUR,Reparto electrónico de frenado (EBD),,,ninguna
+JETOUR,Selector de marchas electrónico,,,ninguna
+JETOUR,Sensor de lluvia,sensor_lluvia,,reglas
+JETOUR,Sensores de estacionamiento,sensores_traseros,,gemini
+JETOUR,Sensores de estacionamiento delanteros y traseros,sensores_traseros,,reglas
+JETOUR,Sensores de estacionamiento delanteros y traseros,sensores_delanteros,,reglas
+JETOUR,Sistema de arranque por botón y remoto,arranque_boton,,reglas
+JETOUR,Sistema de monitoreo de la presión de neumáticos,presion_neumaticos,,reglas
+JETOUR,Sistema de monitoreo y purificación del aire,,,ninguna
+JETOUR,Sistema de prevención de vuelcos (RMI),,,ninguna
+JETOUR,Sistemas de asistencia al conductor:,,,ninguna
+JETOUR,Suspensión delantera MacPherson,,,ninguna
+JETOUR,Suspensión delantera McPherson y trasera Multilink,,,ninguna
+JETOUR,Suspensión trasera Multilink,,,ninguna
+JETOUR,Techo solar panorámico corredizo,techo_solar,,reglas
+JETOUR,Tomas de 12 V,,,ninguna
 KIA,ABS (Sistema Antibloqueo de Frenos),,,ninguna
 KIA,Airbag Acompañante,airbags_frontales,,gemini
 KIA,Airbag Conductor,airbags_frontales,,gemini
@@ -3381,6 +3716,72 @@ KIA,Techo Solar (One Touch & Safety),pantalla_multimedia,,reglas
 KIA,Volante Deportivo Forrado en Cuero Ecológico,volante_cuero,,reglas
 KIA,Volante Forrado en Cuero Ecológico,volante_cuero,,reglas
 KIA,Volante con Regulacion en Altura y Profundidad,,,ninguna
+MERCEDES BENZ,Aceleración de 0 a 100 km/h (seg.),,,ninguna
+MERCEDES BENZ,Advertencia de pérdida de presión en los neumáticos.,presion_neumaticos,,gemini
+MERCEDES BENZ,"Airbags frontales y laterales delanteros, central, de rodilla para conductor y windowbags. Sistema PRE-SAFE®.",airbags_frontales,,reglas
+MERCEDES BENZ,"Airbags frontales y laterales delanteros, central, de rodilla para conductor y windowbags. Sistema PRE-SAFE®.",airbags_laterales,,reglas
+MERCEDES BENZ,"Airbags frontales y laterales delanteros, central, de rodilla para conductor y windowbags. Sistema PRE-SAFE®.",airbag_rodilla,,reglas
+MERCEDES BENZ,Asientos de confort tapizados en símil de cuero ARTICO color negro.,asientos_cuero,,reglas
+MERCEDES BENZ,"Asientos delanteros calefactados, con regulación eléctrica y memorias. Apoyo lumbar con 4 vías de ajuste.",asiento_electrico,,reglas
+MERCEDES BENZ,Asientos deportivos tapizados en símil de cuero ARTICO color negro.,asientos_cuero,,reglas
+MERCEDES BENZ,Asistente activo de distancia DISTRONIC.,crucero_adaptativo,,gemini
+MERCEDES BENZ,Asistente de frenado activo.,frenado_autonomo,,gemini
+MERCEDES BENZ,Ayuda activa para estacionar con PARKTRONIC.,estacionamiento_asistido,,gemini
+MERCEDES BENZ,Barras longitudinales en el techo.,barras_techo,,reglas
+MERCEDES BENZ,Caja automática 9G-TRONIC.,,,ninguna
+MERCEDES BENZ,Cilindrada (cm3),,,ninguna
+MERCEDES BENZ,Cilindros / Disposición,,,ninguna
+MERCEDES BENZ,Ciudad,,,ninguna
+MERCEDES BENZ,"Climatización automática THERMATIC con 2 zonas climáticas, filtro de carbón activado y sistema de descongelación.",climatizador_bizona,,reglas
+MERCEDES BENZ,Combustible,,,ninguna
+MERCEDES BENZ,Conectividad ampliada Plus. Servicios remotos y pre-climatización mediante encendido remoto del motor.,conectividad_remota,,gemini
+MERCEDES BENZ,Control de ángulo muerto. Función de advertencia al salir del vehículo.,punto_ciego,,reglas
+MERCEDES BENZ,"Cuadro de instrumentos digital de 12,3"". Visualizador central de 11,9"" con superficie táctil.",tablero_digital,12.3,reglas
+MERCEDES BENZ,Detector activo de cambio de carril.,mantenimiento_carril,,gemini
+MERCEDES BENZ,Elementos de adorno en diseño rombos gris plata. Consola central en negro brillante.,,,ninguna
+MERCEDES BENZ,Elementos de adorno y consola central en diseño de estructura de metal.,,,ninguna
+MERCEDES BENZ,"Emisiones de CO2 (g/km), ciclo mixto2",,,ninguna
+MERCEDES BENZ,Espejos retrovisores exteriores con regulación eléctrica y abatibles eléctricamente.,espejos_rebatibles,,gemini
+MERCEDES BENZ,Estribos en efecto aluminio con tacos de goma.,,,ninguna
+MERCEDES BENZ,Extintor de incendios y chaleco reflectante para el conductor. Rueda de emergencia y herramientas para el cambio.,,,ninguna
+MERCEDES BENZ,Faros LED High Performance.,faros_led,,reglas
+MERCEDES BENZ,"Iluminación de ambiente Plus con 64 colores, 10 mundos cromáticos y apoyo visual para determinadas funciones.",,,ninguna
+MERCEDES BENZ,Iluminación del entorno con proyección del logotipo de la marca.,,,ninguna
+MERCEDES BENZ,Indicador del uso de los cinturones de seguridad traseros en el cuadro de instrumentos.,tablero_digital,,reglas
+MERCEDES BENZ,Limpiaparabrisas con sensor de lluvia y luces altas automáticas.,luces_altas_automaticas,,reglas
+MERCEDES BENZ,Limpiaparabrisas con sensor de lluvia y luces altas automáticas.,sensor_lluvia,,reglas
+MERCEDES BENZ,"Listones de umbral con distintivo «Mercedes-Benz», iluminados.",,,ninguna
+MERCEDES BENZ,"Llantas de aleación de 19"".",llantas_aleacion,,reglas
+MERCEDES BENZ,"Llantas de aleación de 19"".",llantas,19,reglas
+MERCEDES BENZ,Línea exterior.,,,ninguna
+MERCEDES BENZ,Mixto,,,ninguna
+MERCEDES BENZ,Paquete Night. Elementos exteriores en color negro brillante.,,,ninguna
+MERCEDES BENZ,Paquete USB Plus. 6 puertos USB-C de carga rápida y 2 tomas de 12 V.,usb_traseros,,gemini
+MERCEDES BENZ,Paquete de Navegación MBUX Premium. Servicios de navegación y Live Traffic Information.,navegador,,reglas
+MERCEDES BENZ,Paquete de estacionamiento con cámara de marcha atrás.,camara_trasera,,gemini
+MERCEDES BENZ,Par máximo1 (Nm / rpm),,,ninguna
+MERCEDES BENZ,Potencia1 (CV / rpm),,,ninguna
+MERCEDES BENZ,"Protección GUARD 360°. Alarma antirrobo y volumétrica. Notificación de robo, acarreo o colisión vía app.",conectividad_remota,,gemini
+MERCEDES BENZ,Recordatorio pasivo de presencia de personas o animales domésticos en la parte trasera del vehículo.,,,ninguna
+MERCEDES BENZ,Retrovisor interior con función antideslumbrante automática.,espejo_electrocromico,,reglas
+MERCEDES BENZ,Revestimientos de los pasarruedas del color del vehículo.,,,ninguna
+MERCEDES BENZ,Ruta,,,ninguna
+MERCEDES BENZ,Sistema Mild-Hybrid. Alternador-arrancador integrado (ISG) y red de 48V.,,,ninguna
+MERCEDES BENZ,Sistema de bloqueo electrónico de acceso y arranque KEYLESS-GO. Sistema HANDS-FREE ACCESS para el baúl.,llave_presencia,,reglas
+MERCEDES BENZ,Sistema de llamada de emergencia de Mercedes-Benz.,,,ninguna
+MERCEDES BENZ,Sistema de sonido premium con 9 altavoces y 225 vatios de potencia.,,,ninguna
+MERCEDES BENZ,Sistema inalámbrico de carga para dispositivos móviles. Apple CarPlay y Android Auto inalámbricos.,carplay_android,,reglas
+MERCEDES BENZ,Sistema inalámbrico de carga para dispositivos móviles. Apple CarPlay y Android Auto inalámbricos.,carplay_inalambrico,,reglas
+MERCEDES BENZ,Sistema inalámbrico de carga para dispositivos móviles. Apple CarPlay y Android Auto inalámbricos.,cargador_inalambrico,,reglas
+MERCEDES BENZ,Sistema multimedia MBUX con asistente de voz. Módulo de comunicación (5G) para el uso de Servicios Digitales.,pantalla_multimedia,,reglas
+MERCEDES BENZ,Suspensión de confort. Paquete técnico Offroad con protección técnica de bajos.,,,ninguna
+MERCEDES BENZ,Tablero de instrumentos y líneas de cintura de símil de cuero ARTICO en efecto napa.,tablero_digital,,reglas
+MERCEDES BENZ,Techo corredizo panorámico.,techo_solar,,gemini
+MERCEDES BENZ,Techo interior de tela.,,,ninguna
+MERCEDES BENZ,Tracción integral 4MATIC.,traccion_4x4,,reglas
+MERCEDES BENZ,Velocidad máxima (km/h),,,ninguna
+MERCEDES BENZ,Volante deportivo multifunción en cuero.,volante_cuero,,reglas
+MERCEDES BENZ,Volante deportivo multifunción forrado en napa.,volante_cuero,,gemini
 MG,ABS+EBD,,,ninguna
 MG,Advertencia de colisión frontal,,,ninguna
 MG,Advertencia de colisión frontal (FCW),,,ninguna
@@ -3440,7 +3841,12 @@ NISSAN,Aire Acondicionado Automático,climatizador_automatico,,reglas
 NISSAN,Aire Acondicionado Automático Bi-zona,climatizador_automatico,,reglas
 NISSAN,Aire Acondicionado Automático Bi-zona,climatizador_bizona,,reglas
 NISSAN,Aire Acondicionado Manual,aire_acondicionado,,reglas
+NISSAN,Aire acondicionado automático en doble zona,climatizador_automatico,,reglas
+NISSAN,Aire acondicionado automático en doble zona,climatizador_bizona,,reglas
+NISSAN,Aire acondicionado automático en triple zona,climatizador_automatico,,reglas
 NISSAN,Aire acondicionado manual,aire_acondicionado,,reglas
+NISSAN,"Ajuste de asiento piloto: eléctrico (deslizable, reclinable, altura, inclinación, lumbar)",asiento_electrico,,reglas
+NISSAN,"Ajuste de asiento piloto: eléctrico (deslizable, reclinable, altura, inclinación, lumbar) + ajuste lumbar eléctrico",asiento_electrico,,reglas
 NISSAN,Alarma perimetral antirrobo con inmovilizador,,,ninguna
 NISSAN,Alerta Inteligente de Atención al Conductor (DAA),alerta_fatiga,,gemini
 NISSAN,Alerta Inteligente de Colisión Frontal (PFCW),,,ninguna
@@ -3462,6 +3868,7 @@ NISSAN,Alerta inteligente de atención al conductor (DAA),alerta_fatiga,,gemini
 NISSAN,Altavoces (4),,,ninguna
 NISSAN,"Antena estilo ""shark""",,,ninguna
 NISSAN,Antena tipo aleta de tiburón,,,ninguna
+NISSAN,"Apertura maletero eléctrico, cerrado, automático y manos libres (Hands free)",porton_electrico,,gemini
 NISSAN,Apertura y cierre de vidrios a través de la llave,,,ninguna
 NISSAN,Apoyabrazos central en asiento trasero,,,ninguna
 NISSAN,Apoyabrazos central en asiento trasero con portavasos (2),,,ninguna
@@ -3470,6 +3877,8 @@ NISSAN,Apoyabrazos trasero con portavasos,,,ninguna
 NISSAN,Asiento del conductor regulable en 6 posiciones,,,ninguna
 NISSAN,Asiento del conductor regulable en 8 posiciones electricamente,asiento_electrico,,reglas
 NISSAN,Asiento del conductor regulable en altura,,,ninguna
+NISSAN,Asientos de cuero sintético,asientos_cuero,,reglas
+NISSAN,Asientos de tela,,,ninguna
 NISSAN,Asientos delanteros calefaccionados,asientos_calefaccionados,,reglas
 NISSAN,Asientos delanteros con apoyacabezas regulables,,,ninguna
 NISSAN,Asientos delanteros y traseros con apoyacabezas regulables,,,ninguna
@@ -3485,13 +3894,17 @@ NISSAN,Asientos traseros rebatibles (60/40),,,ninguna
 NISSAN,Asientos traseros rebatibles 60:40,,,ninguna
 NISSAN,Asistencia de frenado inteligente trasero con detección de peatones (RAEB),frenado_autonomo,,gemini
 NISSAN,Asistente de Ascenso en Pendientes (HSA),arranque_pendiente,,reglas
+NISSAN,Asistente de descensos (DCS),,,ninguna
 NISSAN,Asistente inteligente de centrado de carril (LKA),mantenimiento_carril,,reglas
 NISSAN,Asistente inteligente de prevención de salida de carril (LDW+LDP),mantenimiento_carril,,gemini
 NISSAN,Asitencia para luces altas (HBA),luces_altas_automaticas,,gemini
+NISSAN,Auxilio: Llanta temporal de chapa,llantas,,reglas
 NISSAN,Bloqueo de automático de puertas y baúl con el vehiculo en movimiento,,,ninguna
 NISSAN,Botón de encendido y apagado de motor,arranque_boton,,reglas
+NISSAN,Capacidad de Baúl (Lts),,,ninguna
 NISSAN,Cargador de Celular Inalámbrico,cargador_inalambrico,,reglas
 NISSAN,Cargador de celular inalámbrico,cargador_inalambrico,,reglas
+NISSAN,Cargador inalámbrico para celular,cargador_inalambrico,,reglas
 NISSAN,Cierre centralizado de puertas,,,ninguna
 NISSAN,Cinturones de seguridad delanteros retráctiles de 3 puntos (ELR),,,ninguna
 NISSAN,Cinturones de seguridad traseros retráctiles de 3 puntos (3) (ELR),,,ninguna
@@ -3522,6 +3935,7 @@ NISSAN,Encendido por boton Push Start,arranque_boton,,reglas
 NISSAN,Encendido por botón Push Start,arranque_boton,,reglas
 NISSAN,Encendido remoto,conectividad_remota,,gemini
 NISSAN,Encendido remoto del motor,conectividad_remota,,gemini
+NISSAN,Espejo retrovisor interior antidestello automático,espejo_electrocromico,,gemini
 NISSAN,Espejo retrovisor interno eléctrico,espejo_electrocromico,,gemini
 NISSAN,Espejos exteriores ajustables electrónicamente color negro con ajuste manual,,,ninguna
 NISSAN,Espejos exteriores ajustables eléctricamente color carrocería,,,ninguna
@@ -3548,6 +3962,7 @@ NISSAN,Levantavidrios eléctricos con apertura One Touch (conductor),pantalla_mu
 NISSAN,Levas al volante,levas,,reglas
 NISSAN,Levas al volante (Paddle Shift),levas,,reglas
 NISSAN,Limpia parabrisa automático con sensor de lluvia,sensor_lluvia,,reglas
+NISSAN,"Limpia parabrisas automático variable, intermitente y con sensor de velocidad",sensor_lluvia,,gemini
 NISSAN,Limpiaparabrisas intermitente con velocidad variable,,,ninguna
 NISSAN,"Llantas de aleación ""blade"" de 17"" y neumáticos 205/55 R17",llantas_aleacion,,reglas
 NISSAN,"Llantas de aleación ""blade"" de 17"" y neumáticos 205/55 R17",llantas,17,reglas
@@ -3567,8 +3982,10 @@ NISSAN,Luces traseras LED,,,ninguna
 NISSAN,Luz de baúl,,,ninguna
 NISSAN,Modo Sport,,,ninguna
 NISSAN,Modo de conducción ECO | Modo de manejo Sport,,,ninguna
+NISSAN,"Modo de manejo (Estándar, Eco, Sport, Snow, Off Road)",,,ninguna
 NISSAN,Modo de manejo Sport,,,ninguna
 NISSAN,Monitor Inteligente de Visión Periférica (I-AVM) con detección de objetos en movimiento,camara_360,,gemini
+NISSAN,Monitor de visión periférica (AVM) + detector de objetos en movimiento (MOD),camara_360,,gemini
 NISSAN,Monitoreo inteligente de punto ciego con intervención (BSWI),punto_ciego,,reglas
 NISSAN,Nivelador de profundidad del baúl,,,ninguna
 NISSAN,"Panel de instrumentos (Advance Drive Assist Display) con pantalla de 7"" a color (TFT) con indicador de temperatura exterior",tablero_digital,7,reglas
@@ -3578,9 +3995,13 @@ NISSAN,Parasol con espejos e iluminación,,,ninguna
 NISSAN,Parasoles con espejo incluido para conductor y pasajero,,,ninguna
 NISSAN,Parasoles con espejo incluido para conductor y pasajero y luz,,,ninguna
 NISSAN,Porta-lentes,,,ninguna
+NISSAN,Proyector Head up Display (HUD),pantalla_multimedia,,reglas
 NISSAN,Puertos USB C trasero (1),usb_traseros,,reglas
 NISSAN,Puertos USB C trasero (2),usb_traseros,,reglas
 NISSAN,Puertos USB tipo C traseros (2),usb_traseros,,reglas
+NISSAN,"Radio con pantalla de 12,3” + Bose + 6 parlantes",audio_premium,,reglas
+NISSAN,"Radio con pantalla de 12,3” + Bose + 6 parlantes",pantalla_multimedia,,reglas
+NISSAN,Radio con pantalla de 8” + 6 parlantes,pantalla_multimedia,,reglas
 NISSAN,Recordatorio de cinturones de seguridad (conductor y pasajero),,,ninguna
 NISSAN,Recordatorio de cinturones de seguridad: asientos delanteros y traseros,,,ninguna
 NISSAN,Retrovisores externos color negro premium,,,ninguna
@@ -3609,11 +4030,15 @@ NISSAN,"Sistema de audio con 6 Parlantes, Bluetooth, reconocimiento de voz, y pa
 NISSAN,"Sistema de audio standard con 4 Parlantes, Bluetooth, USB + AUX",,,ninguna
 NISSAN,Sistema de monitoreo de presión de neumáticos (TPMS),presion_neumaticos,,reglas
 NISSAN,Sistema inteligente de arranque en pendiente (HSA),arranque_pendiente,,reglas
+NISSAN,Sistema monitoreo presión neumáticos (TPMS),presion_neumaticos,,reglas
 NISSAN,Sistema premium de sonido BOSE® Personal con 10 altavoces,audio_premium,,reglas
 NISSAN,Spoiler trasero,,,ninguna
 NISSAN,Tacómetro y velocímetro analógico,,,ninguna
+NISSAN,"Tacómetro y velocímetro análogo con pantalla de 12,3”",pantalla_multimedia,,reglas
+NISSAN,Tacómetro y velocímetro análogo con pantalla de 7”,pantalla_multimedia,,reglas
 NISSAN,"Tacómetro y velocímetro digital HD de 12.3""",tablero_digital,12.3,gemini
 NISSAN,"Tacómetro y velocímetro digital de 7""",tablero_digital,7,gemini
+NISSAN,Techo panorámico de cristal fijo con cortina eléctrica,techo_solar,,reglas
 NISSAN,Techo solar panorámico,techo_solar,,reglas
 NISSAN,Toma de 12V en consola central,,,ninguna
 NISSAN,USB (1 frontal & 2 consola central & 1 para asientos traseros) & 12V,usb_traseros,,reglas
@@ -3623,6 +4048,7 @@ NISSAN,Volante calefaccionado,,,ninguna
 NISSAN,Volante con ajuste telescopico y de altura,,,ninguna
 NISSAN,Volante con ajuste telescópico y de altura,,,ninguna
 NISSAN,Volante con regulación en altura y profundidad,,,ninguna
+NISSAN,Volante de cuero sintético,volante_cuero,,reglas
 NISSAN,Volante forrado en cuero,volante_cuero,,reglas
 NISSAN,Volante forrado en cuero sintético,volante_cuero,,reglas
 NISSAN,Volante multifuncional,,,ninguna
@@ -4308,15 +4734,18 @@ TOYOTA,"ABS con Distribución Electrónica de la Fuerza de Frenado (EBD), Asiste
 TOYOTA,"ABS con Distribución electrónica de la fuerza de frenado (EBD), Asistente de frenado de emergencia (BA) y Luces de frenado de emergencia (EBS)",,,ninguna
 TOYOTA,ABS con distribución electrónica de frenado (EBD),,,ninguna
 TOYOTA,ABS con distribución electrónica de frenado (EBD) y asistente de frenado de emergencia (BA),,,ninguna
+TOYOTA,ABS con distribución electrónica de la fuerza de frenado (EBD) Asistente de frenado de emergencia (BA),,,ninguna
 TOYOTA,ABS con distribución electrónica de la fuerza de frenado (EBD) y asistente de frenado de emergencia (BA),,,ninguna
 TOYOTA,"ABS, con distribución electrónica de la fuerza de frenado (EBD), asistente de frenado de emergencia (BA) y Luces de frenado de emergencia (EBS)",,,ninguna
 TOYOTA,Aceleración 0-100km (seg.),,,ninguna
 TOYOTA,Airbag de rodilla (conductor),airbag_rodilla,,reglas
+TOYOTA,Airbag de rodilla (conductor) Alarma e inmovilizador de motor,airbag_rodilla,,reglas
 TOYOTA,Airbags frontales (conductor y acompañante) y de rodilla (conductor),airbags_frontales,,reglas
 TOYOTA,Airbags frontales (conductor y acompañante) y de rodilla (conductor),airbag_rodilla,,reglas
 TOYOTA,Airbags frontales (conductor y acompañante) y de rodilla (conductor) *7,airbags_frontales,,reglas
 TOYOTA,Airbags frontales (conductor y acompañante) y de rodilla (conductor) *7,airbag_rodilla,,reglas
 TOYOTA,Airbags frontales (conductor y pasajero),airbags_frontales,,reglas
+TOYOTA,Airbags frontales (x2) *7 Cinturones de seguridad delanteros de 3 puntos regulables en altura con pretensionador y limitador de fuerza (x2),airbags_frontales,,reglas
 TOYOTA,Airbags frontales (x2) con protección para 3 ocupantes,airbags_frontales,,reglas
 TOYOTA,"Airbags frontales (x2), laterales delanteros (x2), de cortina (x2), y de rodilla (x1) para el conductor",airbags_frontales,,reglas
 TOYOTA,"Airbags frontales (x2), laterales delanteros (x2), de cortina (x2), y de rodilla (x1) para el conductor",airbags_laterales,,reglas
@@ -4327,6 +4756,11 @@ TOYOTA,Airbags frontales para conductor y acompañante (x2) y de rodilla para co
 TOYOTA,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1),airbag_rodilla,,reglas
 TOYOTA,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),airbags_frontales,,reglas
 TOYOTA,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) (5),airbag_rodilla,,reglas
+TOYOTA,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) *6,airbags_frontales,,reglas
+TOYOTA,Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) *6,airbag_rodilla,,reglas
+TOYOTA,Airbags laterales (x2) *7 Airbags de cortina (x2) *7 Airbag de rodilla para el conductor *7,airbags_laterales,,reglas
+TOYOTA,Airbags laterales (x2) *7 Airbags de cortina (x2) *7 Airbag de rodilla para el conductor *7,airbags_cortina,,reglas
+TOYOTA,Airbags laterales (x2) *7 Airbags de cortina (x2) *7 Airbag de rodilla para el conductor *7,airbag_rodilla,,reglas
 TOYOTA,Airbags laterales (x2) y airbags de cortina (x2),airbags_laterales,,reglas
 TOYOTA,Airbags laterales (x2) y airbags de cortina (x2),airbags_cortina,,reglas
 TOYOTA,Airbags laterales (x2) y airbags de cortina (x2) *7,airbags_laterales,,reglas
@@ -4335,13 +4769,19 @@ TOYOTA,Airbags laterales (x2) y de cortina (x2),airbags_laterales,,reglas
 TOYOTA,Airbags laterales (x2) y de cortina (x2),airbags_cortina,,reglas
 TOYOTA,Airbags laterales (x2) y de cortina (x2) (5),airbags_laterales,,reglas
 TOYOTA,Airbags laterales (x2) y de cortina (x2) (5),airbags_cortina,,reglas
+TOYOTA,Airbags laterales (x2) y de cortina (x2) *6,airbags_laterales,,reglas
+TOYOTA,Airbags laterales (x2) y de cortina (x2) *6,airbags_cortina,,reglas
 TOYOTA,"Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)",airbags_laterales,,reglas
 TOYOTA,"Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)",airbags_cortina,,reglas
 TOYOTA,"Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)",airbag_rodilla,,reglas
 TOYOTA,Aire acondicionado,aire_acondicionado,,reglas
 TOYOTA,Aire acondicionado con climatizador automático digital,climatizador_automatico,,reglas
+TOYOTA,Aire acondicionado con climatizador automático digital Bi-Zona,climatizador_automatico,,reglas
+TOYOTA,Aire acondicionado con climatizador automático digital Bi-Zona,climatizador_bizona,,reglas
 TOYOTA,Aire acondicionado con climatizador automático digital Bi-zona,climatizador_automatico,,reglas
 TOYOTA,Aire acondicionado con climatizador automático digital Bi-zona,climatizador_bizona,,reglas
+TOYOTA,Aire acondicionado con climatizador automático digital bi-zona,climatizador_automatico,,reglas
+TOYOTA,Aire acondicionado con climatizador automático digital bi-zona,climatizador_bizona,,reglas
 TOYOTA,Aire acondicionado con climatizador automático digital bizona,climatizador_automatico,,reglas
 TOYOTA,Aire acondicionado con climatizador automático digital bizona,climatizador_bizona,,reglas
 TOYOTA,Aire acondicionado con climatizador automático digital bizona y salidas para plazas traseras,climatizador_automatico,,reglas
@@ -4362,29 +4802,42 @@ TOYOTA,Alerta de trafico cruzado trasero (RCTA),trafico_cruzado,,reglas
 TOYOTA,Alerta de trafico trasero (RCTA),trafico_cruzado,,gemini
 TOYOTA,Alerta de tráfico trasero (RCTA),trafico_cruzado,,gemini
 TOYOTA,Alimentación,,,ninguna
+TOYOTA,Alimentación Diámetro y carrera de pistón (mm),,,ninguna
 TOYOTA,Anclaje ISOFIX (x2) y anclaje para correa superior,isofix,,reglas
 TOYOTA,Anclajes ISOFIX (x2) y anclaje para correa superior (x2),isofix,,reglas
+TOYOTA,Anclajes ISOFIX (x2) y anclaje para correa superior (x2) Sistema de alarma e Inmovilizador de motor Candado de seguridad para rueda de auxilio,isofix,,reglas
+TOYOTA,Apertura de baúl con comando a distancia,,,ninguna
 TOYOTA,Apertura del tanque de combustible desde el interior,,,ninguna
 TOYOTA,Apertura interna del tanque de combustible,,,ninguna
 TOYOTA,Apoya brazos trasero central con 2 posavasos,,,ninguna
+TOYOTA,Apoya cabezas delanteros (x2),,,ninguna
 TOYOTA,Apoya cabezas delanteros (x3),,,ninguna
 TOYOTA,Apoya cabezas traseros (x3),,,ninguna
+TOYOTA,Apoya cabezas traseros independientes en todas las plazas,,,ninguna
 TOYOTA,Apoyabrazos delantero tapizado en cuero ecológico,,,manual
 TOYOTA,Apoyabrazos trasero central con dos posavasos,,,ninguna
+TOYOTA,Apoyacabezas delanteros con emblema Gazoo Racing,,,ninguna
 TOYOTA,Apoyacabezas delanteros con emblema bordado GR,,,ninguna
+TOYOTA,Asiento del acompañante con ajuste longitudinal y reclinación de respaldo,,,ninguna
 TOYOTA,"Asiento del conductor con memorias de posición (x2) y sistema ""Easy Access""",,,ninguna
 TOYOTA,Asiento del conductor con regulación eléctrica,asiento_electrico,,reglas
 TOYOTA,Asiento del conductor con regulación en altura,,,ninguna
 TOYOTA,Asiento del conductor con regulación en altura y profundidad,,,ninguna
+TOYOTA,Asiento del conductor con regulación en altura y profundidad Asiento del conductor con regulación eléctrica,asiento_electrico,,reglas
+TOYOTA,"Asiento del conductor con regulación en altura, ajuste longitudinal y reclinación de respaldo",,,ninguna
 TOYOTA,Asiento trasero rebatible 60:40,,,ninguna
 TOYOTA,Asientos con costuras color rojo,,,ninguna
 TOYOTA,Asientos con tapizado de cuero natural y ecológico,asientos_cuero,,reglas
 TOYOTA,"Asientos con tapizado de cuero natural y ecológico, con detalle en gamuza",asientos_cuero,,reglas
+TOYOTA,Asientos de pasajeros posteriores con reclinación de respaldo Asientos posteriores con apoyabrazos en pasillo central,,,ninguna
 TOYOTA,"Asientos delanteros ventilados, con regulación eléctrica en altura, longitudinal y lumbar (8 posiciones)",asiento_electrico,,reglas
 TOYOTA,Asientos delanteros y traseros calefaccionados,asientos_calefaccionados,,reglas
 TOYOTA,Asientos tapizados de cuero ecológico microperforado,asientos_cuero,,reglas
 TOYOTA,Asientos tapizados de cuero natural y ecológico,asientos_cuero,,reglas
+TOYOTA,Asientos tapizados de cuero natural y ecológico combinado con Air Nobuck® y detalles en rojo Asientos traseros con respaldos plegables (60/40),asientos_cuero,,reglas
+TOYOTA,Asientos tapizados de cuero natural y ecológico combinado con Ultrasuede y detalles en rojo,asientos_cuero,,reglas
 TOYOTA,Asientos tapizados de tela combinado con cuero ecológico,asientos_cuero,,reglas
+TOYOTA,Asientos tapizados en tela y cuero ecológico,asientos_cuero,,reglas
 TOYOTA,Asientos traseros con respaldos plegables (60/40),,,ninguna
 TOYOTA,Asistencia activa en curvas (ACA),,,ninguna
 TOYOTA,Asistencia de arranque en pendientes (HAC),arranque_pendiente,,reglas
@@ -4397,14 +4850,20 @@ TOYOTA,"Audio con MP3, Bluetooth® y 6 parlantes",,,ninguna
 TOYOTA,Audio con Pantalla táctil de 10” con manos libres y Bluetooth ®,pantalla_multimedia,,reglas
 TOYOTA,"Audio con pantalla táctil LCD 6.8"", USB (en consola central)",pantalla_multimedia,6.8,reglas
 TOYOTA,"Audio con pantalla táctil de 10"" con manos libres y Bluetooth",pantalla_multimedia,10,reglas
+TOYOTA,"Audio con pantalla táctil de 10"" con manos libres y Bluetooth®*4",pantalla_multimedia,10,reglas
 TOYOTA,"Audio con pantalla táctil de 12.9”, GPS, MP3 y Bluetooth®",navegador,,reglas
 TOYOTA,"Audio con pantalla táctil de 12.9”, GPS, MP3 y Bluetooth®",pantalla_multimedia,,reglas
+TOYOTA,"Audio con pantalla táctil de 9"" Bluetooth® con manos libres, puerto USB y 6 parlantes Puertos USB tipo-C para plazas traseras (x6) Espejo interior con función día/noche",usb_traseros,,reglas
+TOYOTA,"Audio con pantalla táctil de 9"" Bluetooth® con manos libres, puerto USB y 6 parlantes Puertos USB tipo-C para plazas traseras (x6) Espejo interior con función día/noche",pantalla_multimedia,9,reglas
 TOYOTA,"Audio con pantalla táctil de 9"" con USB y Bluetooth®",pantalla_multimedia,9,reglas
+TOYOTA,"Audio con pantalla táctil de 9"", animacion GR, USB y Bluetooth®",pantalla_multimedia,9,reglas
 TOYOTA,Audio con pantalla táctil de 9” con USB y Bluetooth®,pantalla_multimedia,,reglas
 TOYOTA,"Audio con pantalla táctil, Bluetooth® con manos libres y USB",pantalla_multimedia,,reglas
 TOYOTA,Bandeja central con posavasos en respaldo de pasajero central,,,ninguna
+TOYOTA,Bandeja de Baúl,,,ninguna
 TOYOTA,Bandeja de baúl,,,ninguna
 TOYOTA,Barra aerodinámica,,,ninguna
+TOYOTA,Barra deportiva aerodinámica,,,ninguna
 TOYOTA,Barras de protección contra impactos laterales,,,ninguna
 TOYOTA,Barras de techo longitudinales color plateado,barras_techo,,reglas
 TOYOTA,Bloqueo de Diferencial Trasero,,,ninguna
@@ -4416,6 +4875,8 @@ TOYOTA,"Butaca del conductor con regulación en altura, ajuste longitudinal y re
 TOYOTA,Butaca del pasajero con ajuste longitudinal y reclinación de respaldo,,,ninguna
 TOYOTA,Butacas con regulación eléctrica para el conductor y acompañante,asiento_electrico,,gemini
 TOYOTA,Butacas delanteras con función de ventilación,,,ninguna
+TOYOTA,"CARACTERÍSTICAS TÉCNICAS Dimensiones y pesos Exterior Largo / Ancho / Alto (mm) 4.455 / 1.825 / 1.620 Espejos exteriores con regulación eléctrica, luz de giro incorporada y retráctiles automáticamente Distancia entre ejes (mm) 2.640 Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales Capacidad del baúl (lt) 440 Paragolpes delantero y trasero con spoiler exclusivo GR PAQUETE PAGO Radio mínimo de giro (m) 5,5 Carroceria bitono Grilla delantera Gazoo Racing Capacidad del tanque de combustible (lt) 47 Peso en orden de marcha (kg) 1.360 / 1.430 Luces DRL de LED *3 Faros traseros de LED con efecto cortina Motor naftero Llantas de aleación de 18"" exclusivas Gazoo Racing Con Servicios Conectados tenes Modelo Dynamic Force - M20A- FKS Neumáticos 225/50 R18” acceso a más de 13 servicios para Cilindrada (cc) 1.987 Moldura de ventanilla negra mantener tu vehículo siempre PAQUETE SIEMPRE CONECTADO Tipo 4 cilindros en línea, naftero Sistema automático de encendido de luces conectado y seguro. Permite +8 SERVICIOS Distribución 16 válvulas, DOHC con cadena de distribución y sistema Dual VVT-i Confort interior monitorear el vehículo y conocer la (VVT-iE de admisión y VVT-i de escape) Aire acondicionado con climatizador automático digital Bi-Zona ubicación y estado del mismo. Alimentación Sistema de inyección mixta D4-S (directa e indirecta) Asiento del conductor con regulación en altura y profundidad Diámetro y carrera de pistón (mm) 80,5 x 97,6 Asiento del conductor con regulación eléctrica El Corolla Cross GRS incorpora las Relación de compresión 13.0:1 Asientos tapizados de cuero natural y ecológico combinado con Air Nobuck® y detalles en rojo siguientes especificaciones de Potencia máxima [CV (Kw)/rpm] 171 (126) / 6.600 Asientos traseros con respaldos plegables (60/40) Servicios Conectados: Torque máximo [Nm (Kg-m)/rpm] 203/4.400-4.800 Techo solar con apertura eléctrica Chasis Columna de dirección regulable en altura y profundidad PAQUETE GRATUITO Display de información multiple con pantalla a color Full Digital de 12,3’’ Transmisión Tipo pre A pr u o to g m ra á m ti a c d a a "" s D , i l r e e v c a t s S a h l if v t o C la V n T t "" e c y o s n e l m ec o t d o o r d se e c m ue o n d c o i a d l e d c e o 1 n 0 d u v c e c lo ió c n id P a O de W s E R. E Ilu s m pe in jo a r c e ió tr n o v in is te o r r i o in r t e a r m n b o ie c n on te a L n E t D i-e e n n c a p n o d sa ila v m as i o e s n , t o c o a n u s t o o l m a á c t e ic n o tral, tablero y puertas delanteras Independiente tipo Mac Pherson con amortiguadores telescópicos, Levanta cristales eléctricos con función ""one touch"" en las 4 puertas Suspensión D elantera resortes helicoidales Gazoo Racing y barra estabilizadora Toma de 12V (x1) y USB (x3) Trasera Tipo barra de torsión con bujes de correción y barra estabilizadora Gazoo racing Volante revestido en cuero con costuras en rojo Dirección Tipo Piñón y cremallera, con asistencia eléctrica progresiva (EPS) Volante con control de audio, display de información múltiple y teléfono Frenos Delanteros Discos ventilados T Ca e rg c a n d o or l in o a g lá í m a brico para smartphones que soporten carga inalambrica *1 Traseros Discos sólidos Freno de mano eléctrico (EPB) con función “Auto-Hold” 5 SERVICIOS Audio y conectividad Modo de transmisión secuencial Audio con pantalla táctil de 10"" con manos libres y bluetooth ® Levas al volante Conectividad: Apple Car Play ® y Android Auto ® *1 Modos de conducción ECO-POWER Diseño Monitor con cámara de estacionamiento SERVICIOS OPCIONALES Sensores de estacionamiento delanteros y traseros con asistente de frenado Sensor de lluvia Portón trasero con sistema de apertura y cierre eléctrico con sensor “manos libres” *4 Cámara de estacionamiento 360° Sistema de encendido por botón (Push Start Button) con diseño exclusivo Gazoo Racing Sistema de ingreso inteligente (Smart Entry System) Servicios conectados Llantas de aleación de 18"" Grilla delantera Seguridad *5 exclusivas Gazoo Racing Gazoo Racing Toyota Safety Sense*2 Control de velocidad crucero adaptativo (ACC)*2 con rango completo Sistema de pre-colisión frontal (PCS)*2 Sistema de alerta de cambio de carril (LDA)*2 Sistema de asistencia para mantenimiento de Carril (LTA)*2 Sistema de luces altas automáticas (AHB)*2 Sistema de alerta de vaivén (SWS)*2 *3 Servicios válidos y vigentes dentro del Territorio Argentino. Aquellos servicios detallados en el Paquete denominado “Seguridad Conectada” se encuentran sujetos a contratación. Podrá usted acceder a ellos sin ABS con distribución electrónica de frenado (EBD) costo por el plazo de un año, transcurridos los primeros 12 (doce) meses bonificados, se producirá de Airbags frontales para conductor y acompañante (x2) y de rodilla para conductor (x1) *6 manera automática la conversión del período gratuito a una suscripción mensual arancelada. PARA MÁS Asiento deportivo con logotipo GR Airbags laterales (x2) y de cortina (x2) *6 INFORMACIÓN Y CONDICIONES O LIMITACIONES APLICABLES COMUNIQUESE GRATUITAMENTE AL Alarma 0800-666-5555 o CONSULTE EN www.toyota.com.ar/mi-toyota/conectado Colores disponibles Asistencia de arranque en pendientes (HAC) Alerta de punto ciego (BSM) *4 Servicio provisto por la compañía de telecomunicaciones UBIGI. Con quien deberá usted suscribirá un contrato de adhesión. Aplican los Términos, Condiciones, así como la Política de Privacidad de la empresa Alerta de tráfico trasero (RCTA) prestadora del servicio. Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza Cinturones de seguridad traseros (x3) inerciales de 3 puntos *5 Servicio provisto una compañía y/o Broker del mercado asegurador, debidamente habilitada por la Control de estabilidad (VSC) Superintendencia de Seguros de la Nación. Con quien deberá usted suscribirá un contrato de adhesión. Control de tracción (TRC) Aplican los Términos, Condiciones, así como la Política de Privacidad de la empresa prestadora del servicio. Faros antiniebla delanteros de LED Faro antiniebla trasero de LED Blanco perlado bi-tono negro Rojo metalizado bi-tono negro Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2) Tuerca de seguridad para llantas Los Servicios listados resultan válidos y vigentes dentro del Territorio Argentino.",,,ninguna
+TOYOTA,"CARACTERÍSTICAS TÉCNICAS HIACE Commuter 2.8 TDI 6AT 14A HIACE Commuter 2.8 TDI 6AT 14A Asientos (pasajeros + conductor) 13+1 Asientos (pasajeros + conductor) 13+1 PAQUETE PAGO Motor Interior Modelo Toyota 1GD (2.8l) Cierre centralizado de puertas con comando a distancia Combustible Diésel Grado 3* Aire acondicionado con salidas y regulador manual para plazas traseras *2 Tipo d 4 e c G il e in o d m ro e s t r e ía n V lí a n r e ia a b c le o n (T T G u V rb ) o e c i o n m ter p c r o e o s l o e r r Cámara de retroceso Con Servicios Conectados tenes Alimentación Inyección directa electrónica Common-Rail Levanta cristales eléctricos con ""Auto up & down"" acceso a más de 13 servicios para y sensor de presión para conductor y acompañante Distribución 16 válvulas, DOHC con cadena de distribución mantener tu vehículo siempre PAQUETE SIEMPRE CONECTADO Diámetro y carrera de pistón (mm) 92.0 × 103.6 Asientos tapizados en tela y cuero ecológico conectado y seguro. Permite +8 SERVICIOS Relación de Comprensión 15,6 : 1 Volante con regulación en altura y en profundidad monitorear el vehículo y conocer la Guantera con llave ubicación y estado del mismo. Cilindrada (cm3) 2.755 Asiento del conductor con regulación en altura, Potencia máxima (CV (Kw)/RPM) 163 (120) / 3.600 La Hiace Commuter incorpora las ajuste longitudinal y reclinación de respaldo Torque máximo (Nm/ RPM) 420 (1.600-2.200) siguientes especificaciones de Asiento del acompañante con ajuste longitudinal y reclinación de respaldo Servicios Conectados: Velocidad máxima limitada a 100 km/h Asientos de pasajeros posteriores con reclinación de respaldo Asientos posteriores con apoyabrazos en pasillo central Transmisión Última fila de asientos abatible y plegable (2+2) PAQUETE GRATUITO Tipo Automática de 6 velocidades Bandeja posavasos y espacio portaobjetos en respaldo de butacas traseras Tracción Trasera con TRC (Control de Tracción) Luz de cortesía LED para pasajeros (x8) Salida de 12v (x2) Chasis Independiente con doble brazo de suspensión, Volante con control de audio, display de información múltiple y teléfono Delantera resortes helicoidales y barra estabilizadora. Testigo de conducción ""ECO"" Suspensión Trasera Eje rígido con elásticos longitudinales Display de información múltiple con pantalla a color de 4,2"" (TFT ) y amortiguadores telescópicos. Audio con pantalla táctil de 9"" Bluetooth® Dirección Hidráulica de piñón y cremallera con asistencia variable con manos libres, puerto USB y 6 parlantes 5 SERVICIOS Frenos Delanteros Discos ventilados Puertos USB tipo-C para plazas traseras (x6) Traseros Discos ventilados Espejo interior con función día/noche Limpiaparabrisas y desempañador en luneta trasera Dimensiones Manijas auxiliares para ascenso y descenso de pasajeros SERVICIOS OPCIONALES Largo (mm) 5.915 Servicios Conectados Total Ancho (mm) 1.950 Seguridad Alto (mm) 2.280 Airbags frontales (conductor y acompañantes) *3 Distancia entre ejes (mm) 3.860 Airbag de rodilla (conductor) Despeje mínimo del suelo (mm) 183,5 Alarma e inmovilizador de motor Peso en orden de marcha (Min-Max) (kg) 2.400 - 2.650 ABS con distribución electrónica de la fuerza de frenado (EBD) Peso bruto total (kg) 3.810 Asistente de frenado de emergencia (BA) *4 Capacidad del tanque de combustible (l) 70 Luces de frenado de emergencia (EBS) Radio mínimo de giro (m) 6,9 Faros antiniebla delanteros y luz antiniebla trasera Control de tracción (TRC) Exterior Control de estabilidad (VSC) *2 Servicios válidos y vigentes dentro del Territorio Argentino. Aquellos servicios detallados en el Llantas de acero de 16"" con tazas plásticas y neumáticos 235/65 R16 Asistente de arranque en pendientes (HAC) Paquete denominado “Seguridad Conectada” se encuentran sujetos a contratación. Podrá usted Luces DRL de LED Apoya cabezas delanteros (x2) acceder a ellos sin costo por el plazo de un año, transcurridos los primeros 12 (doce) meses Espejos exteriores con regulación eléctrica y luz de giro incorporada Apoya cabezas traseros independientes en todas las plazas bonificados, se producirá de manera automática la conversión del período gratuito a una Espejos exteriores eléctricamente retráctiles Cinturones de seguridad delanteros de 3 puntos (x2), regulables en altura, suscripción mensual arancelada. PARA MÁS INFORMACIÓN Y CONDICIONES O LIMITACIONES Espejos exteriores de giro angular con pretensionador y limitador de fuerza para conductor y acompañante A co P m LI . C a A r/ B m LE i- S to C y O ot M a/ U c N on IQ ec U t E a S d E o GRATUITAMENTE AL 0800-666-5555 o CONSULTE EN www.toyota.- Cinturones de seguridad traseros de 3 puntos en todas las plazas *Diésel con contenido de azufre menor a 10 ppm. Escotilla de techo *3 Servicio provisto por la compañía de telecomunicaciones UBIGI. Con quien deberá usted suscribirá un contrato de adhesión. Aplican los Términos, Condiciones, así como la Política de Privacidad de la empresa prestadora del servicio. *4 Servicio provisto una compañía y/o Broker del mercado asegurador, debidamente habilitada por la Superintendencia de Seguros de la Nación. Con quien deberá usted suscribirá un contrato de adhesión. Aplican los Términos, Condiciones, así como la Política de Privacidad de la empresa prestadora del servicio. Motor 1GD Transmision Luces de cortesía LED Puertos USB Cámara Audio con LOS SERVICIOS LISTADOS RESULTAN VÁLIDOS Y VIGENTES DENTRO DEL TERRITORIO ARGENTINO. (2.8l) - 163 CV automática 6AT para pasajeros para plazas traseras de retroceso pantalla táctil de 9”",,,ninguna
 TOYOTA,Candado de seguridad para rueda de auxilio,,,ninguna
 TOYOTA,Capacidad (Ah),,,ninguna
 TOYOTA,Capacidad (Ah/kWh),,,ninguna
@@ -4424,7 +4885,9 @@ TOYOTA,Capacidad de pasajeros,,,ninguna
 TOYOTA,Capacidad de remolque con frenos (kg),,,ninguna
 TOYOTA,Capacidad de remolque sin frenos (kg),,,ninguna
 TOYOTA,Capacidad del baúl (L),,,ninguna
+TOYOTA,Capacidad del baúl (l),,,ninguna
 TOYOTA,Capacidad del baúl (lt),,,ninguna
+TOYOTA,Capacidad del baúl (lt) Radio mínimo de giro (m),,,ninguna
 TOYOTA,Capacidad del tanque combustible (lt),,,ninguna
 TOYOTA,Capacidad del tanque de combustible (L),,,ninguna
 TOYOTA,Capacidad del tanque de combustible (l),,,ninguna
@@ -4433,6 +4896,9 @@ TOYOTA,Cargador inalámbrico para Smartphones que soportan carga inalámbrica,ca
 TOYOTA,"Cargador inalámbrico para Smartphones que soportan carga inalámbrica** (x2), conector USB tipo ""C"" (x4), conector de 12V (x 2)en consola central y parte trasera",cargador_inalambrico,,reglas
 TOYOTA,"Cargador inalámbrico para Smartphones que soportan carga inalámbrica** (x2), conector USB tipo ""C"" (x4), conector de 12V (x 2)en consola central y parte trasera",usb_traseros,,reglas
 TOYOTA,Cargador inalámbrico para smartphones que soportan carga inalámbrica (4),cargador_inalambrico,,reglas
+TOYOTA,Cargador inalámbrico para smartphones que soportan carga inalámbrica*4,cargador_inalambrico,,reglas
+TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalambrica *1 Freno de mano eléctrico (EPB) con función “Auto-Hold”,freno_mano_electrico,,reglas
+TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalambrica *1 Freno de mano eléctrico (EPB) con función “Auto-Hold”,cargador_inalambrico,,reglas
 TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalambrica**,cargador_inalambrico,,reglas
 TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalámbrica,cargador_inalambrico,,reglas
 TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalámbrica(4),cargador_inalambrico,,reglas
@@ -4440,9 +4906,11 @@ TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalámbrica***
 TOYOTA,Cargador inalámbrico para smartphones que soporten carga inalámbrica*9,cargador_inalambrico,,reglas
 TOYOTA,Cierre automático de puertas en velocidad,,,ninguna
 TOYOTA,Cierre centralizado de puertas con comando a distancia,,,ninguna
+TOYOTA,Cierre centralizado de puertas con comando a distancia Aire acondicionado con salidas y regulador manual para plazas traseras Cámara de retroceso,camara_trasera,,reglas
 TOYOTA,Cilindrada (cc),,,ninguna
 TOYOTA,Cilindrada (cm3),,,ninguna
 TOYOTA,Cilindrada (cm³),,,ninguna
+TOYOTA,"Cinturones de seguridad delanteros de 3 puntos (x2), regulables en altura, con pretensionador y limitador de fuerza para conductor y acompañante",,,ninguna
 TOYOTA,"Cinturones de seguridad delanteros de 3 puntos (x3), regulables en altura, con pretensionador y limitador de fuerza para conductor y acompañante",,,ninguna
 TOYOTA,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza,,,ninguna
 TOYOTA,Cinturones de seguridad delanteros de 3 puntos con pretensionador y limitador de fuerza (x2),,,ninguna
@@ -4452,9 +4920,11 @@ TOYOTA,"Cinturones de seguridad inerciales delanteros de 3 puntos, con pretensio
 TOYOTA,Cinturones de seguridad traseros (3) inerciales de 3 puntos,,,ninguna
 TOYOTA,Cinturones de seguridad traseros (x3) inerciales de 3 puntos,,,ninguna
 TOYOTA,Cinturones de seguridad traseros de 3 puntos (x3),,,ninguna
+TOYOTA,Cinturones de seguridad traseros de 3 puntos en todas las plazas,,,ninguna
 TOYOTA,Cinturones de seguridad traseros inerciales de 3 puntos (x3),,,ninguna
 TOYOTA,Cinturones de seguridad traseros inerciales de 3 puntos (x5),,,ninguna
 TOYOTA,Cobertor de caja de carga,,,ninguna
+TOYOTA,Cobertor y lona de caja de carga,,,ninguna
 TOYOTA,Columna de dirección regulable en altura,,,ninguna
 TOYOTA,Columna de dirección regulable en altura y profundidad,,,ninguna
 TOYOTA,Combustible,,,ninguna
@@ -4464,6 +4934,8 @@ TOYOTA,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,carplay
 TOYOTA,Conectividad inalámbrica(4): Apple Car Play ® & Android Auto ®,carplay_inalambrico,,reglas
 TOYOTA,Conectividad inalámbrica**: Android Auto® y Apple CarPlay®,carplay_android,,reglas
 TOYOTA,Conectividad inalámbrica**: Android Auto® y Apple CarPlay®,carplay_inalambrico,,reglas
+TOYOTA,Conectividad inalámbrica: Android Auto® y Apple CarPlay®*2,carplay_android,,reglas
+TOYOTA,Conectividad inalámbrica: Android Auto® y Apple CarPlay®*2,carplay_inalambrico,,reglas
 TOYOTA,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,carplay_android,,reglas
 TOYOTA,Conectividad inalámbrica: Apple Car Play ® & Android Auto ® ***,carplay_inalambrico,,reglas
 TOYOTA,Conectividad**: Apple CarPlay® y Android Auto®,carplay_android,,reglas
@@ -4471,6 +4943,8 @@ TOYOTA,Conectividad*: Apple CarPlay® & Android Auto®,carplay_android,,reglas
 TOYOTA,Conectividad: Android Auto® y Apple CarPlay® *2,carplay_android,,reglas
 TOYOTA,Conectividad: Apple CarPlay ® & Android Auto® inalámbrica (4),carplay_android,,reglas
 TOYOTA,Conectividad: Apple CarPlay ® & Android Auto® inalámbrica (4),carplay_inalambrico,,reglas
+TOYOTA,Conectividad: Apple CarPlay® & Android Auto®* inalámbrica*4,carplay_android,,reglas
+TOYOTA,Conectividad: Apple CarPlay® & Android Auto®* inalámbrica*4,carplay_inalambrico,,reglas
 TOYOTA,Consola de techo con bandeja superior,,,ninguna
 TOYOTA,Consola de techo con luz y porta anteojos,,,ninguna
 TOYOTA,Control de Estabilidad (VSC) y Control de Balanceo de Tráiler (TSC),control_estabilidad,,reglas
@@ -4478,6 +4952,7 @@ TOYOTA,Control de Tracción (TRC) y Control de Tracción Activo (A-TRC),,,ningun
 TOYOTA,Control de Velocidad Crucero Adaptativo (ACC)*,crucero_adaptativo,,reglas
 TOYOTA,Control de estabilidad (VSC),control_estabilidad,,reglas
 TOYOTA,Control de estabilidad (VSC) y Control de balanceo de tráiler (TSC),control_estabilidad,,reglas
+TOYOTA,Control de estabilidad (VSC) y Control de balanceo de tráiler (TSC) Control de tracción activo (A-TRC),control_estabilidad,,reglas
 TOYOTA,Control de estabilidad (VSC) y control de tracción (TRC),control_estabilidad,,reglas
 TOYOTA,"Control de estabilidad (VSC), Control de balanceo de tráiler (TSC) y Control de tracción (TRC)",control_estabilidad,,reglas
 TOYOTA,Control de tracción (TRC),,,ninguna
@@ -4489,7 +4964,9 @@ TOYOTA,Control de velocidad crucero adaptativo (ACC)(1) con rango completo,cruce
 TOYOTA,Control de velocidad crucero adaptativo (ACC)*,crucero_adaptativo,,reglas
 TOYOTA,Control de velocidad crucero adaptativo (ACC)* con rango completo,crucero_adaptativo,,reglas
 TOYOTA,Control de velocidad crucero adaptativo (ACC)*3,crucero_adaptativo,,reglas
+TOYOTA,Control de velocidad crucero adaptativo (ACC)*5 con rango completo,crucero_adaptativo,,reglas
 TOYOTA,Cubrealfombra con diseño GR,,,ninguna
+TOYOTA,Cubrealfombra con diseño Gazoo Racing,,,ninguna
 TOYOTA,Cubrealfombras de diseño exclusivo “ DIAMOND”,,,ninguna
 TOYOTA,Cámara de estacionamiento,camara_trasera,,reglas
 TOYOTA,Cámara de estacionamiento 360°,camara_360,,reglas
@@ -4497,11 +4974,15 @@ TOYOTA,Cámara de estacionamiento con sistema de visión 360°,camara_360,,regla
 TOYOTA,Cámara de retroceso,camara_trasera,,reglas
 TOYOTA,Despeje mínimo del suelo (mm),,,ninguna
 TOYOTA,Detalles e inserciones de interior GR,,,ninguna
+TOYOTA,Detalles interiores color exclusivo gris oscuro,,,ninguna
 TOYOTA,Diferencial de Deslizamiento Limitado Electrónicamente (Auto LSD),,,ninguna
 TOYOTA,Diferencial de deslizamiento limitado electrónicamente (Auto LSD),,,ninguna
+TOYOTA,Diferencial de deslizamiento limitado electrónicamente (Auto LSD) Faros antiniebla delanteros de LED y luz antiniebla trasera,faros_antiniebla,,reglas
 TOYOTA,Dirección,,,ninguna
+TOYOTA,Dirección Frenos,,,ninguna
 TOYOTA,Diseño exterior exclusivo GR,,,ninguna
 TOYOTA,Display de informacion multiple con pantalla Full Digital,pantalla_multimedia,,reglas
+TOYOTA,"Display de información multiple con pantalla a color Full Digital de 12,3’’ Espejo retrovisor interno con anti-encandilamiento automático",pantalla_multimedia,,reglas
 TOYOTA,Display de información múltiple con pantalla a color,pantalla_multimedia,,reglas
 TOYOTA,"Display de información múltiple con pantalla a color de 4,2"" (TFT)",pantalla_multimedia,4.2,reglas
 TOYOTA,"Display de información múltiple con pantalla a color de 4,2"" (TFT) con animación GR",pantalla_multimedia,4.2,reglas
@@ -4510,6 +4991,7 @@ TOYOTA,"Display de información múltiple con pantalla a color de 4,2”(TFT)",p
 TOYOTA,"Display de información múltiple de 4,2""",pantalla_multimedia,4.2,reglas
 TOYOTA,Distancia entre ejes (mm),,,ninguna
 TOYOTA,Distribución,,,ninguna
+TOYOTA,Distribución Diámetro y carrera de pistón (mm),,,ninguna
 TOYOTA,Diámetro por carrera (mm),,,ninguna
 TOYOTA,Diámetro y carrera de pistón (mm),,,ninguna
 TOYOTA,Doble puerta de acceso lateral,,,ninguna
@@ -4517,6 +4999,9 @@ TOYOTA,Domo con luz de LED,,,ninguna
 TOYOTA,"ECO, NORM y SPORT Mode",,,ninguna
 TOYOTA,"ECO, NORM y SPORT mode",,,ninguna
 TOYOTA,Eco & Power Mode,,,ninguna
+TOYOTA,Eco y power mode,,,ninguna
+TOYOTA,Escotilla de techo,techo_solar,,gemini
+TOYOTA,Espejo retrovisor electrocromico,espejo_electrocromico,,reglas
 TOYOTA,Espejo retrovisor interno anti encandilamiento automático,espejo_electrocromico,,gemini
 TOYOTA,Espejo retrovisor interno con anti-encandilamiento automático,espejo_electrocromico,,gemini
 TOYOTA,Espejo retrovisor interno con antiencandilamiento automático,espejo_electrocromico,,gemini
@@ -4533,7 +5018,9 @@ TOYOTA,Espejos exteriores de giro angular,,,ninguna
 TOYOTA,Espejos exteriores retráctiles automáticos y con desempañador,espejos_rebatibles,,gemini
 TOYOTA,Espejos exteriores retráctiles eléctricamente,espejos_rebatibles,,gemini
 TOYOTA,"Espejos exteriores retráctiles eléctricamente, regulación eléctrica y luz de giro incorporada",espejos_rebatibles,,gemini
+TOYOTA,"Espejos exteriores, eléctricamente retráctiles con regulación eléctrica, luz de giro y de cortesía incorporada",espejos_rebatibles,,gemini
 TOYOTA,Estribos laterales,,,ninguna
+TOYOTA,Faldones laterales,,,ninguna
 TOYOTA,Faro antiniebla trasero de LED,faros_antiniebla,,reglas
 TOYOTA,Faros antiniebla delanteros,faros_antiniebla,,reglas
 TOYOTA,Faros antiniebla delanteros de LED,faros_antiniebla,,reglas
@@ -4543,10 +5030,12 @@ TOYOTA,Faros antiniebla traseros y delanteros LED,faros_antiniebla,,reglas
 TOYOTA,"Faros delanteros Bi-LED con ""Follow me home"" y regulación automática en altura",faros_led,,reglas
 TOYOTA,Faros delanteros Bi-LED con regulación en altura,faros_led,,reglas
 TOYOTA,Faros delanteros Bi-LED con regulación en altura y luces de giro secuenciales,faros_led,,gemini
+TOYOTA,Faros delanteros Bi-LED y regulación automática en altura,faros_led,,reglas
 TOYOTA,"Faros delanteros Full-LED de diseño exclusivo con ""Follow me home"" y regulación automática en altura",faros_led,,reglas
 TOYOTA,Faros delanteros LED con regulación en altura,faros_led,,reglas
 TOYOTA,Faros delanteros halógenos con proyector y regulación en altura,,,ninguna
 TOYOTA,"Faros delanteros halógenos con regulación en altura y Sistema ""Follow me home""",,,ninguna
+TOYOTA,Faros traseros Full LED Oscurecidos,,,manual
 TOYOTA,Faros traseros con LED,,,manual
 TOYOTA,Faros traseros de LED,,,manual
 TOYOTA,Faros traseros de LED con efecto cortina,,,manual
@@ -4559,14 +5048,17 @@ TOYOTA,Frenos con ABS y distribución electrónica de la fuerza de frenado (EBD)
 TOYOTA,Ganchos externos para sujeción de carga,,,ninguna
 TOYOTA,Ganchos internos para sujeción de carga,,,ninguna
 TOYOTA,Guantera con llave,,,ninguna
+TOYOTA,Guardabarros extendidos con overfenders exclusivos GR en negro,,,ninguna
 TOYOTA,Iluminación en espacio de carga,,,ninguna
 TOYOTA,Iluminación interior ambiente LED,,,ninguna
 TOYOTA,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras",,,ninguna
+TOYOTA,"Iluminación interior ambiente LED en posavasos, consola central, tablero y puertas delanteras Levanta cristales eléctricos con función ""one touch"" en las 4 puertas Toma de 12V (x1) y USB (x3)",,,ninguna
 TOYOTA,"Iluminación interior ambiente LED en reposapies, consola central, tablero y puertas",,,ninguna
 TOYOTA,Inmovilizador de motor,,,ninguna
 TOYOTA,Inmovilizador de motor y alarma,,,ninguna
 TOYOTA,Largo / Ancho / Alto (mm),,,ninguna
 TOYOTA,"Levanta cristales eléctricos con ""Auto up & Down"" (x4) y sensor de presión",,,ninguna
+TOYOTA,"Levanta cristales eléctricos con ""Auto up & down"" y sensor de presión para conductor y acompañante",,,ninguna
 TOYOTA,"Levanta cristales eléctricos con función ""one touch"" en las 4 puertas",pantalla_multimedia,,reglas
 TOYOTA,"Levanta cristales eléctricos con función ""one touch"" para el conductor",pantalla_multimedia,,reglas
 TOYOTA,Levanta cristales eléctricos con función “One Touch”,pantalla_multimedia,,reglas
@@ -4579,6 +5071,7 @@ TOYOTA,"Levantacristales eléctricos con ""Auto up & down"" y sensor de presión
 TOYOTA,Levantacristales eléctricos con “Auto up & down” y sensor de presión (x4),,,ninguna
 TOYOTA,Levas al volante,levas,,reglas
 TOYOTA,Limitador automático de velocidad (ASL),limitador_velocidad,,gemini
+TOYOTA,Limpiaparabrisas y desempañador en luneta trasera Manijas auxiliares para ascenso y descenso de pasajeros Servicios Conectados Seguridad Airbags frontales (conductor y acompañantes),airbags_frontales,,reglas
 TOYOTA,"Llantas de acero 16"" con neumáticos 215/70 R16",llantas,16,reglas
 TOYOTA,"Llantas de acero de 15""",llantas,15,reglas
 TOYOTA,"Llantas de acero de 17"" con neumáticos 225/70 R17"" AT",llantas,17,reglas
@@ -4592,8 +5085,12 @@ TOYOTA,"Llantas de aleación de 16""",llantas_aleacion,,reglas
 TOYOTA,"Llantas de aleación de 16""",llantas,16,reglas
 TOYOTA,"Llantas de aleación de 17""",llantas_aleacion,,reglas
 TOYOTA,"Llantas de aleación de 17""",llantas,17,reglas
+TOYOTA,"Llantas de aleación de 17"" Gazoo Racing",llantas_aleacion,,reglas
+TOYOTA,"Llantas de aleación de 17"" Gazoo Racing",llantas,17,reglas
 TOYOTA,"Llantas de aleación de 17"" con neumáticos 265/65 R17"" AT",llantas_aleacion,,reglas
 TOYOTA,"Llantas de aleación de 17"" con neumáticos 265/65 R17"" AT",llantas,17,reglas
+TOYOTA,"Llantas de aleación de 17"" de diseño exclusivo GR con neumáticos 265/65 R17"" AT",llantas_aleacion,,reglas
+TOYOTA,"Llantas de aleación de 17"" de diseño exclusivo GR con neumáticos 265/65 R17"" AT",llantas,17,reglas
 TOYOTA,Llantas de aleación de 17”,llantas_aleacion,,reglas
 TOYOTA,Llantas de aleación de 17”,llantas,,reglas
 TOYOTA,"Llantas de aleación de 18"" con neumáticos 265/60 R18"" HT",llantas_aleacion,,reglas
@@ -4602,6 +5099,8 @@ TOYOTA,"Llantas de aleación de 18"" de diseño exclusivo GR con neumáticos 265
 TOYOTA,"Llantas de aleación de 18"" de diseño exclusivo GR con neumáticos 265/60 R18""",llantas,18,reglas
 TOYOTA,"Llantas de aleación de 18"" de diseño exclusivo con neumáticos 265/60 R18""",llantas_aleacion,,reglas
 TOYOTA,"Llantas de aleación de 18"" de diseño exclusivo con neumáticos 265/60 R18""",llantas,18,reglas
+TOYOTA,"Llantas de aleación de 18"" exclusivas Gazoo Racing Neumáticos 225/50 R18”",llantas_aleacion,,reglas
+TOYOTA,"Llantas de aleación de 18"" exclusivas Gazoo Racing Neumáticos 225/50 R18”",llantas,18,reglas
 TOYOTA,Llantas de aleación de 18”,llantas_aleacion,,reglas
 TOYOTA,Llantas de aleación de 18”,llantas,,reglas
 TOYOTA,"Llave con botón de ""Pánico""",,,ninguna
@@ -4609,10 +5108,13 @@ TOYOTA,Llave de diseño exclusivo,,,ninguna
 TOYOTA,Llave de diseño exclusivo GR,,,ninguna
 TOYOTA,Lona retráctil cubre baúl,,,ninguna
 TOYOTA,Luces DRL de LED,luces_diurnas,,reglas
+TOYOTA,Luces DRL de LED Faros traseros de LED con efecto cortina,luces_diurnas,,reglas
 TOYOTA,Luces de circulación diurnas LED (DRL),luces_diurnas,,reglas
 TOYOTA,Luces de frenado de emergencia (EBS),,,ninguna
+TOYOTA,Luces de frenado de emergencia (EBS) Faros antiniebla delanteros y luz antiniebla trasera,faros_antiniebla,,reglas
 TOYOTA,Luces diurnas (DRL),luces_diurnas,,reglas
 TOYOTA,Luces diurnas (DRL) (LED),luces_diurnas,,reglas
+TOYOTA,Luces diurnas (DRL) de LED,luces_diurnas,,reglas
 TOYOTA,Luces diurnas LED (DRL),luces_diurnas,,reglas
 TOYOTA,Luces intermitentes secuenciales,,,ninguna
 TOYOTA,Luz antiniebla trasera,faros_antiniebla,,reglas
@@ -4621,11 +5123,15 @@ TOYOTA,Manijas exteriores color carrocería,,,ninguna
 TOYOTA,Manijas exteriores color carrocería y molduras en ventanillas cromadas,,,ninguna
 TOYOTA,Manijas exteriores cromadas,,,ninguna
 TOYOTA,Manijas exteriores y molduras en ventanillas cromadas,,,ninguna
+TOYOTA,Manijas exteriores y molduras en ventanillas negras,,,ninguna
 TOYOTA,Modelo,,,ninguna
 TOYOTA,Modo de conducción,,,ninguna
 TOYOTA,Modo de transmisión secuencial,,,ninguna
+TOYOTA,Modo de transmisión secuencial Levas al volante Modos de conducción ECO-POWER Monitor con cámara de estacionamiento,camara_trasera,,reglas
+TOYOTA,Modo de transmisión secuencial Levas al volante Modos de conducción ECO-POWER Monitor con cámara de estacionamiento,levas,,reglas
 TOYOTA,Modos de conducción,,,ninguna
 TOYOTA,Moldura de ventanilla cromada,,,ninguna
+TOYOTA,Moldura de ventanilla negra,,,ninguna
 TOYOTA,Moldura delantera y difusor trasero de diseño exclusivo,,,ninguna
 TOYOTA,Moldura delantera y difusor trasero de diseño exclusivo GR,,,ninguna
 TOYOTA,Molduras en ventanillas cromadas,,,ninguna
@@ -4635,8 +5141,11 @@ TOYOTA,Monitor de sistema de visión 360° en pantalla de audio,pantalla_multime
 TOYOTA,Neumáticos,,,ninguna
 TOYOTA,Normativa de emisión,,,ninguna
 TOYOTA,Paddle Shifts (levas al volante),levas,,reglas
+TOYOTA,Paragolpes GR con canalizador aerodinámico,,,ninguna
 TOYOTA,Paragolpes delantero color carrocería,,,ninguna
+TOYOTA,Paragolpes delantero y trasero con spoiler exclusivo GR Carroceria bitono Grilla delantera Gazoo Racing,techo_bitono,,reglas
 TOYOTA,Paragolpes trasero cromado,,,ninguna
+TOYOTA,"Parrilla exclusiva GR con emblema ""TOYOTA"" y logo GR",,,ninguna
 TOYOTA,Parrilla frontal con detalle cromado,,,ninguna
 TOYOTA,Pedalera deportiva de aluminio,,,ninguna
 TOYOTA,Peso bruto total (kg),,,ninguna
@@ -4644,12 +5153,15 @@ TOYOTA,Peso en orden de marcha (Mín. - Máx.) (kg),,,ninguna
 TOYOTA,Peso en orden de marcha (kg),,,ninguna
 TOYOTA,Peso en orden de marcha (mín-máx) (kg),,,ninguna
 TOYOTA,Placa de identificación con numero de unidad,,,ninguna
+TOYOTA,Placa de identificación con número de unidad,,,ninguna
 TOYOTA,Portón de caja de carga con asistencia para apertura y cierre,,,ninguna
 TOYOTA,Portón trasero con llave,,,ninguna
 TOYOTA,Portón trasero con moldura cromada,,,ninguna
 TOYOTA,Portón trasero con sistema de apertura y cierre eléctrico,porton_electrico,,reglas
 TOYOTA,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",porton_electrico,,reglas
 TOYOTA,"Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres"" y función ""Walk-Away""",porton_electrico,,reglas
+TOYOTA,Portón trasero con sistema de apertura y cierre eléctrico con sensor “manos libres” Cámara de estacionamiento 360°,camara_360,,reglas
+TOYOTA,Portón trasero con sistema de apertura y cierre eléctrico con sensor “manos libres” Cámara de estacionamiento 360°,porton_electrico,,reglas
 TOYOTA,"Portón trasero de doble hoja, vidriado, con apertura 90°/180°",,,ninguna
 TOYOTA,Potencia máxima (CV (Kw)),,,ninguna
 TOYOTA,Potencia máxima (CV (kW) / rpm),,,ninguna
@@ -4657,6 +5169,7 @@ TOYOTA,Potencia máxima (CV (kW)),,,ninguna
 TOYOTA,Potencia máxima (CV (kW)/rpm),,,ninguna
 TOYOTA,Potencia máxima (CV(kW) / rpm),,,ninguna
 TOYOTA,Potencia máxima (Cv (Kw) / rpm),,,ninguna
+TOYOTA,Potencia máxima CV (kW)/rpm,,,ninguna
 TOYOTA,Potencia máxima [ CV (Kw) ],,,ninguna
 TOYOTA,Potencia máxima combinada (CV (Kw) / rpm),,,ninguna
 TOYOTA,Potencia máxima delantera (CV (kW)),,,ninguna
@@ -4668,6 +5181,7 @@ TOYOTA,Radio mínimo de giro (m),,,ninguna
 TOYOTA,Recubrimiento interior delantero de PVC + Cubrealfombra de PVC,,,ninguna
 TOYOTA,Relación de Compresión,,,ninguna
 TOYOTA,Relación de compresión,,,ninguna
+TOYOTA,Relación de compresión Potencia máxima [CV (Kw)/rpm],,,ninguna
 TOYOTA,Reóstato para luz del tablero,,,ninguna
 TOYOTA,Salida 220v (100W),,,ninguna
 TOYOTA,Salida de 12v (x2),,,ninguna
@@ -4694,8 +5208,12 @@ TOYOTA,Sensores de estacionamiento delanteros y traseros con asistencia de frena
 TOYOTA,Sensores de estacionamiento delanteros y traseros con asistencia de frenado,sensores_delanteros,,reglas
 TOYOTA,Sensores de estacionamiento delanteros y traseros con asistente de frenado (PKSB),sensores_traseros,,reglas
 TOYOTA,Sensores de estacionamiento delanteros y traseros con asistente de frenado (PKSB),sensores_delanteros,,reglas
+TOYOTA,Sensores de estacionamiento delanteros y traseros con asistente de frenado Sensor de lluvia,sensores_traseros,,reglas
+TOYOTA,Sensores de estacionamiento delanteros y traseros con asistente de frenado Sensor de lluvia,sensores_delanteros,,reglas
+TOYOTA,Sensores de estacionamiento delanteros y traseros con asistente de frenado Sensor de lluvia,sensor_lluvia,,reglas
 TOYOTA,Servicios Conectados,,,ninguna
 TOYOTA,Servicios conectados,conectividad_remota,,gemini
+TOYOTA,Servicios conectados Seguridad 2,,,ninguna
 TOYOTA,Sistema automático de encendido de luces,luces_automaticas,,gemini
 TOYOTA,Sistema de Alerta de Cambio de Carril (LDA)*,mantenimiento_carril,,gemini
 TOYOTA,Sistema de Estacionamiento Automático (Park Assist),estacionamiento_asistido,,reglas
@@ -4705,25 +5223,37 @@ TOYOTA,Sistema de alarma con inmovilizador de motor,,,ninguna
 TOYOTA,Sistema de alerta de cambio de carril (LDA)(1) con asistencia para mantenimiento de carril(1),mantenimiento_carril,,reglas
 TOYOTA,Sistema de alerta de cambio de carril (LDA)*,mantenimiento_carril,,gemini
 TOYOTA,Sistema de alerta de cambio de carril (LDA)**,mantenimiento_carril,,gemini
+TOYOTA,Sistema de alerta de cambio de carril (LDA)*2,mantenimiento_carril,,gemini
 TOYOTA,Sistema de alerta de cambio de carril (LDA)*3,mantenimiento_carril,,gemini
+TOYOTA,Sistema de alerta de cambio de carril (LDA)*5,mantenimiento_carril,,gemini
 TOYOTA,Sistema de alerta de vaivén (SWS)*,,,ninguna
+TOYOTA,Sistema de alerta de vaivén (SWS)*2,,,ninguna
+TOYOTA,Sistema de alerta de vaivén (SWS)*5,,,ninguna
 TOYOTA,Sistema de anclaje ISOFIX (x2) y anclaje para correa superior (x2),isofix,,reglas
+TOYOTA,Sistema de asistencia para mantenimiento de Carril (LTA)*2,mantenimiento_carril,,reglas
 TOYOTA,Sistema de asistencia para mantenimiento de Carril*,mantenimiento_carril,,reglas
+TOYOTA,Sistema de asistencia para mantenimiento de carril*5,mantenimiento_carril,,reglas
 TOYOTA,Sistema de audio Premium JBL® con 10 parlantes y subwoofer,audio_premium,,reglas
 TOYOTA,Sistema de audio Premium JBL® con 8 parlantes y subwoofer,audio_premium,,reglas
 TOYOTA,Sistema de audio premium 11 parlantes JBL®,audio_premium,,reglas
 TOYOTA,Sistema de encendido por botón (Push Start Button),arranque_boton,,reglas
 TOYOTA,Sistema de encendido por botón (Push Start Button) GR y Sistema de ingreso inteligente (Smart Entry System),arranque_boton,,reglas
+TOYOTA,Sistema de encendido por botón (Push Start Button) con diseño exclusivo Gazoo Racing,arranque_boton,,reglas
+TOYOTA,Sistema de encendido por botón (Push Start Button) con diseño exclusivo Gazoo Racing Sistema de ingreso inteligente (Smart Entry System),arranque_boton,,reglas
 TOYOTA,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),arranque_boton,,reglas
 TOYOTA,Sistema de iluminación de ambiente automática en cabina y compartimentos,,,ninguna
 TOYOTA,Sistema de ingreso inteligente (Smart Entry System),llave_presencia,,gemini
 TOYOTA,Sistema de lectura de señales de tránsito (RSA)(1),,,ninguna
 TOYOTA,Sistema de luces altas automáticas (AHB)*,luces_altas_automaticas,,reglas
+TOYOTA,Sistema de luces altas automáticas (AHB)*2,luces_altas_automaticas,,reglas
+TOYOTA,Sistema de luces altas automáticas (AHB)*5,luces_altas_automaticas,,reglas
 TOYOTA,Sistema de luces automáticas (AHB)(1),luces_automaticas,,reglas
 TOYOTA,Sistema de monitoreo de presión de neumáticos (TPMS) con lectura individual,presion_neumaticos,,reglas
 TOYOTA,Sistema de pre colisión frontal (PCS)*,frenado_autonomo,,reglas
+TOYOTA,Sistema de pre colisión frontal (PCS)*5,frenado_autonomo,,reglas
 TOYOTA,Sistema de pre-colisión frontal (PCS)*,frenado_autonomo,,reglas
 TOYOTA,Sistema de pre-colisión frontal (PCS)**,frenado_autonomo,,reglas
+TOYOTA,Sistema de pre-colisión frontal (PCS)*2,frenado_autonomo,,reglas
 TOYOTA,Sistema de pre-colisión frontal (PCS)*3,frenado_autonomo,,reglas
 TOYOTA,Sistema de visión 360° en pantalla de audio,camara_360,,reglas
 TOYOTA,Sistema de visión 360° en pantalla de audio,pantalla_multimedia,,reglas
@@ -4731,13 +5261,16 @@ TOYOTA,Sistema de visión 360°en pantalla de audio,camara_360,,reglas
 TOYOTA,Sistema de visión 360°en pantalla de audio,pantalla_multimedia,,reglas
 TOYOTA,Sistema pre-colisión frontal (PCS)(1),frenado_autonomo,,reglas
 TOYOTA,Spoiler trasero de diseño exclusivo GR,,,ninguna
+TOYOTA,Spóiler trasero color negro,,,ninguna
 TOYOTA,Suspensión,,,ninguna
 TOYOTA,TTooyyoottaa SSaaffeettyy SSeennssee*3,,,ninguna
 TOYOTA,Tapizado de cuero natural y ecológico,asientos_cuero,,reglas
+TOYOTA,Tapizado de cuero natural y ecológico combinado con Suede sintético perforado y detalles en rojo,asientos_cuero,,reglas
 TOYOTA,Tapizado de cuero natural y ecológico combinado con Ultrasuede® y detalles en rojo,asientos_cuero,,reglas
 TOYOTA,Tapizado de cuero natural y ecológico perforado color beige,asientos_cuero,,reglas
 TOYOTA,Tapizados de butacas de Tela,,,ninguna
 TOYOTA,Tazas plásticas,,,ninguna
+TOYOTA,Techo negro metalizado,techo_bitono,,reglas
 TOYOTA,Techo solar con apertura eléctrica,techo_solar,,reglas
 TOYOTA,Techo solar eléctrico,techo_solar,,reglas
 TOYOTA,Techo solar panorámico,techo_solar,,reglas
@@ -4758,19 +5291,28 @@ TOYOTA,Torque máximo (Nm (Kgm)),,,ninguna
 TOYOTA,Torque máximo (Nm / rpm),,,ninguna
 TOYOTA,Torque máximo (Nm/ rpm),,,ninguna
 TOYOTA,Torque máximo (Nm/rpm),,,ninguna
+TOYOTA,Torque máximo Nm (Kgm)/rpm,,,ninguna
 TOYOTA,Torque máximo [ Nm ],,,ninguna
+TOYOTA,Torque máximo [Nm (Kg-m)/rpm],,,ninguna
 TOYOTA,Total,,,ninguna
+TOYOTA,Total (mm),,,ninguna
+TOYOTA,"Toyota Argentina S.A., CUIT: 33-67913936-9. Oficina Comercial: Thomas Edison 2659, Edif. Este, 2do Piso (B1640HSA), Martínez - Bs. As. Planta Industrial Zárate: Ruta 12, Km 81 (B28000FA) Zárate - Bs. As. Toyota Argentina S.A. se reserva el derecho de alterar cualquier parte de las especificaciones y equipamiento sin previo aviso. Las especificaciones y equipamiento están sometidos a cambios para adaptarse a las exigencias de otros mercados. En cuanto a los detalles de estos cambios que pueden ser necesarios en su zona, se ruega pida información en su concesionario local. Nota: los vehículos fotografiados en este folleto pueden ser diferentes de los modelos disponibles en su zona. El color de las carrocerías de los vehículos puede ser ligeramente diferente del de las ilustraciones impresas en este folleto. Productos sujetos a disponibilidad de stock. Fotografías ilustrativas. Los modelos adquiridos en la Argentina a través de un concesionario oficial cuentan con una garantía oficial limitada de hasta 10 años o 200.000 km (lo que ocurra primero). La garantía, mientras siga vigente, es transferible. Para más información y condiciones o limitaciones ingrese a www.toyota.com.ar y/o comuníquese gratuitamente al teléfono 0800-666-8696.",,,ninguna
 TOYOTA,Toyota Safety Sense*,,,ninguna
+TOYOTA,Toyota Safety Sense* Control de velocidad crucero adaptativo (ACC)*2 con rango completo,crucero_adaptativo,,reglas
+TOYOTA,Toyota Safety Sense*3,,,ninguna
 TOYOTA,Traba de seguridad para niños en las puertas traseras,,,ninguna
 TOYOTA,Tracción,traccion_4x4,,reglas
 TOYOTA,Transmisión,,,ninguna
+TOYOTA,Transmisión Suspensión,,,ninguna
 TOYOTA,Tuerca de seguridad para llantas,llantas,,reglas
 TOYOTA,"USB tipo ""C"" para plazas traseras (x2)",usb_traseros,,reglas
 TOYOTA,USB tipo C en plazas traseras (x2),usb_traseros,,reglas
 TOYOTA,Velocidad máxima (km/h),,,ninguna
 TOYOTA,Volante con control de audio y de teléfono,,,ninguna
+TOYOTA,"Volante con control de audio, de display de información múltiple y de teléfono",pantalla_multimedia,,reglas
 TOYOTA,"Volante con control de audio, de teléfono y de display de información múltiple",pantalla_multimedia,,reglas
 TOYOTA,"Volante con control de audio, display de información múltiple y teléfono",pantalla_multimedia,,reglas
+TOYOTA,"Volante con control de audio, display de información múltiple y teléfono Testigo de conducción ""ECO"" Display de información múltiple con pantalla a color de 4,2"" (TFT )",pantalla_multimedia,4.2,reglas
 TOYOTA,Volante con regulación en altura y en profundidad,,,ninguna
 TOYOTA,Volante con regulación en altura y profundidad,,,ninguna
 TOYOTA,Volante forrado en cuero natural con control de display de información múltiple,volante_cuero,,reglas
@@ -4778,14 +5320,22 @@ TOYOTA,Volante forrado en cuero natural con control de display de información m
 TOYOTA,Volante forrado en cuero natural con regulación en altura y profundidad,volante_cuero,,reglas
 TOYOTA,"Volante forrado en cuero natural con regulación en altura y profundidad, control de audio, de teléfono y de display de información múltiple",volante_cuero,,reglas
 TOYOTA,"Volante forrado en cuero natural con regulación en altura y profundidad, control de audio, de teléfono y de display de información múltiple",pantalla_multimedia,,reglas
+TOYOTA,Volante forrado en cuero natural microperforado con costuras rojas de diseño GR con regulación en altura y profundidad,volante_cuero,,reglas
 TOYOTA,Volante forrado en cuero natural microperforado de diseño GR con regulación en altura y profundidad,volante_cuero,,reglas
 TOYOTA,Volante revestido en cuero,volante_cuero,,reglas
+TOYOTA,"Volante revestido en cuero con costuras en rojo Volante con control de audio, display de información múltiple y teléfono Tecnología",volante_cuero,,reglas
+TOYOTA,"Volante revestido en cuero con costuras en rojo Volante con control de audio, display de información múltiple y teléfono Tecnología",pantalla_multimedia,,reglas
+TOYOTA,Volante revestido en cuero con costuras rojas y emblema GR,volante_cuero,,reglas
 TOYOTA,Voltaje (V),,,ninguna
 TOYOTA,Voltaje (pack batería) (V),,,ninguna
+TOYOTA,Ángulo Ventral,,,ninguna
+TOYOTA,Ángulo ataque,,,ninguna
+TOYOTA,Ángulo de salida,,,ninguna
 TOYOTA,Ópticas delanteras LED con regulación en altura,faros_led,,reglas
 TOYOTA,Ópticas delanteras halógenas con regulación en altura,,,ninguna
 TOYOTA,Ópticas delanteras halógenas con regulación en altura y proyector,,,ninguna
 TOYOTA,Ópticas traseras con LED,,,ninguna
+TOYOTA,Última fila de asientos abatible y plegable (2+2) Bandeja posavasos y espacio portaobjetos en respaldo de butacas traseras Luz de cortesía LED para pasajeros (x8) Salida de 12v (x2),,,ninguna
 VOLKSWAGEN,-,,,ninguna
 VOLKSWAGEN,1 luz de lectura delantera y dos traseras,,,ninguna
 VOLKSWAGEN,2 airbags (conductor y pasajero),airbags_frontales,,reglas

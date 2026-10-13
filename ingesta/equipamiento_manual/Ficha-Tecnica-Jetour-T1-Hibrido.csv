@@ -1,0 +1,30 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+JETOUR,T1,DISEÑO,"Pantalla LCD de 15,6”",I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,0
+JETOUR,T1,DISEÑO,Conexión Android Auto y Carplay,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,1
+JETOUR,T1,DISEÑO,Faros full led,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,2
+JETOUR,T1,DISEÑO,Gaveta con refrigeración,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,3
+JETOUR,T1,DISEÑO,Cargador inalámbrico para celulares,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,4
+JETOUR,T1,DISEÑO,Luces interiores ambientales,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,5
+JETOUR,T1,DISEÑO,Climatizador bi-zona,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,6
+JETOUR,T1,DISEÑO,9 parlantes,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,7
+JETOUR,T1,DISEÑO,"Puertos de conexión USB, USB-C",I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,8
+JETOUR,T1,CONFORT,Materiales soft-touch,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,9
+JETOUR,T1,CONFORT,Sistema de arranque por botón y remoto,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,10
+JETOUR,T1,CONFORT,Ajuste del volante en profundidad y altura,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,11
+JETOUR,T1,CONFORT,Freno de estacionamiento eléctrico,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,12
+JETOUR,T1,CONFORT,Apertura de baúl motorizada,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,13
+JETOUR,T1,CONFORT,Control por voz,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,14
+JETOUR,T1,CONFORT,Sistema de monitoreo y purificación del aire,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,15
+JETOUR,T1,CONFORT,Asientos con ventilación,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,16
+JETOUR,T1,CONFORT,Gaveta de refrigeración,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,17
+JETOUR,T1,SEGURIDAD,Control crucero adaptativo (ACC),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,18
+JETOUR,T1,SEGURIDAD,Frenado autónomo de emergencia (AEB),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,19
+JETOUR,T1,SEGURIDAD,Asistente para mantenimiento de carril (LKA),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,20
+JETOUR,T1,SEGURIDAD,Reparto electrónico de frenado (EBD),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,21
+JETOUR,T1,SEGURIDAD,Asistencia de estacionamiento con visión 540°,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,22
+JETOUR,T1,SEGURIDAD,Advertencia de cambio de carril (LDW),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,23
+JETOUR,T1,SEGURIDAD,Detección de punto ciego (BSD),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,24
+JETOUR,T1,SEGURIDAD,Monitoreo de presión de neumáticos (TPMS),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,25
+JETOUR,T1,SEGURIDAD,Asistencia para salida en pendientes (HHC),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,26
+JETOUR,T1,SEGURIDAD,Asistencia para descenso en pendientes (HDC),I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,27
+JETOUR,T1,SEGURIDAD,Sensores de estacionamiento delanteros y traseros,I-DM,si,0,local:Ficha-Tecnica-Jetour-T1-Hibrido.pdf,28

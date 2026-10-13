@@ -1,64 +1,88 @@
 marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
-TOYOTA,HILUX SW4,Exterior,"Espejos exteriores retráctiles eléctricamente, regulación eléctrica y luz de giro incorporada",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,0
-TOYOTA,HILUX SW4,Exterior,Espejos exteriores con desempañador,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,1
-TOYOTA,HILUX SW4,Exterior,Moldura delantera y difusor trasero de diseño exclusivo,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,2
-TOYOTA,HILUX SW4,Exterior,Estribos laterales,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,3
-TOYOTA,HILUX SW4,Exterior,"Faros delanteros Full-LED de diseño exclusivo con ""Follow me home"" y regulación automática en altura",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,4
-TOYOTA,HILUX SW4,Exterior,Luces diurnas (DRL),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,5
-TOYOTA,HILUX SW4,Exterior,Faros traseros de LED,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,6
-TOYOTA,HILUX SW4,Exterior,Luces intermitentes secuenciales,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,7
-TOYOTA,HILUX SW4,Exterior,"Llantas de aleación de 18"" de diseño exclusivo con neumáticos 265/60 R18""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,8
-TOYOTA,HILUX SW4,Exterior,Manijas exteriores y molduras en ventanillas cromadas,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,9
-TOYOTA,HILUX SW4,Exterior,"Protector de Cárter ""Heavy Duty""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,10
-TOYOTA,HILUX SW4,Exterior,Sensores de estacionamiento delanteros (x2) y traseros (x4),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,11
-TOYOTA,HILUX SW4,Interior,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,12
-TOYOTA,HILUX SW4,Interior,Llave de diseño exclusivo,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,13
-TOYOTA,HILUX SW4,Interior,Butacas con regulación eléctrica para el conductor y acompañante,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,14
-TOYOTA,HILUX SW4,Interior,Tapizado de cuero natural y ecológico perforado color beige,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,15
-TOYOTA,HILUX SW4,Interior,Cubrealfombras de diseño exclusivo “ DIAMOND”,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,16
-TOYOTA,HILUX SW4,Interior,Butacas delanteras con función de ventilación,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,17
-TOYOTA,HILUX SW4,Interior,Segunda fila de asientos 60/40 con regulación longitudinal y respaldo reclinable,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,18
-TOYOTA,HILUX SW4,Interior,Tercera fila de asientos con respaldo reclinable,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,19
-TOYOTA,HILUX SW4,Interior,"Volante con control de audio, de teléfono y de display de información múltiple",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,20
-TOYOTA,HILUX SW4,Interior,Volante forrado en cuero natural con regulación en altura y profundidad,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,21
-TOYOTA,HILUX SW4,Interior,Aire acondicionado con climatizador automático digital bizona,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,22
-TOYOTA,HILUX SW4,Interior,Salidas de aire acondicionado y regulador para plazas traseras (Digital),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,23
-TOYOTA,HILUX SW4,Interior,Audio con pantalla táctil de 9” con USB y Bluetooth®,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,24
-TOYOTA,HILUX SW4,Interior,Conectividad inalámbrica**: Android Auto® y Apple CarPlay®,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,25
-TOYOTA,HILUX SW4,Interior,Cargador inalámbrico para smartphones que soporten carga inalámbrica***,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,26
-TOYOTA,HILUX SW4,Interior,Servicios Conectados,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,27
-TOYOTA,HILUX SW4,Interior,Sistema de audio Premium JBL® con 10 parlantes y subwoofer,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,28
-TOYOTA,HILUX SW4,Interior,Sistema de visión 360° en pantalla de audio,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,29
-TOYOTA,HILUX SW4,Interior,Cámara de retroceso,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,30
-TOYOTA,HILUX SW4,Interior,"Display de información múltiple con pantalla a color de 4,2” (TFT)",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,31
-TOYOTA,HILUX SW4,Interior,"ECO, NORM y SPORT mode",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,32
-TOYOTA,HILUX SW4,Interior,Selector electrónico de tracción 4x4,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,33
-TOYOTA,HILUX SW4,Interior,Domo con luz de LED,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,34
-TOYOTA,HILUX SW4,Interior,"Iluminación interior ambiente LED en reposapies, consola central, tablero y puertas",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,35
-TOYOTA,HILUX SW4,Interior,Espejo retrovisor interno con función antiencandilamiento automático,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,36
-TOYOTA,HILUX SW4,Interior,Levantacristales eléctricos con “Auto up & down” y sensor de presión (x4),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,37
-TOYOTA,HILUX SW4,Interior,Salida de 220v (100 w) y 2 salidas de 12v,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,38
-TOYOTA,HILUX SW4,Interior,"2 puertos USB en plazas traseras Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,39
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de velocidad crucero adaptativo (ACC)*,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,40
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de pre-colisión frontal (PCS)*,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,41
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de alerta de cambio de carril (LDA)*,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,42
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Alerta de punto ciego (BSM),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,43
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Alerta de tráfico trasero (RCTA),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,44
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Airbags frontales (conductor y acompañante) y de rodilla (conductor),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,45
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Airbags laterales (x2) y airbags de cortina (x2),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,46
-TOYOTA,HILUX SW4,Toyota Safety Sense*,"ABS con Distribución electrónica de la fuerza de frenado (EBD), Asistente de frenado de emergencia (BA) y Luces de frenado de emergencia (EBS)",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,47
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de estabilidad (VSC) y Control de balanceo de tráiler (TSC),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,48
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de tracción (TRC) y Control de tracción activo (A-TRC),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,49
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Asistente de arranque en pendientes (HAC) y Asistente de descenso en pendientes (DAC),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,50
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Bloqueo de Diferencial trasero,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,51
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Diferencial de deslizamiento limitado electrónicamente (Auto LSD),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,52
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Faros antiniebla delanteros y traseros,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,53
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Cinturones de seguridad delanteros de 3 puntos regulables en altura con pretensionador y limitador de fuerza (x2),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,54
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Cinturones de seguridad traseros inerciales de 3 puntos (x5),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,55
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Testigo y alarma de cinturón de seguridad para todas las plazas,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,56
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Anclajes ISOFIX (x2) y anclaje para correa superior (x2),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,57
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Alarma de puertas abiertas en movimiento (con display de cada puerta),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,58
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Traba de seguridad para niños en las puertas traseras,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,59
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de alarma con inmovilizador de motor,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,60
-TOYOTA,HILUX SW4,Toyota Safety Sense*,"Llave con botón de ""Pánico""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,61
-TOYOTA,HILUX SW4,Toyota Safety Sense*,Candado de seguridad para rueda de auxilio,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,62
+TOYOTA,HILUX SW4,Motor,Modelo,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,Toyota 1GD (2.8 L),0,local:SW4 DIAMOND.pdf,0
+TOYOTA,HILUX SW4,Motor,Combustible,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,Diésel Grado 3**,0,local:SW4 DIAMOND.pdf,1
+TOYOTA,HILUX SW4,Motor,Tipo,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,4 cilindros en línea con Turbocompresor de geometría variable (TGV) e intercooler,0,local:SW4 DIAMOND.pdf,2
+TOYOTA,HILUX SW4,Motor,Alimentación,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,Inyección directa electrónica Common-Rail,0,local:SW4 DIAMOND.pdf,3
+TOYOTA,HILUX SW4,Motor,Distribución,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,"16 válvulas, DOHC con cadena de distribución",0,local:SW4 DIAMOND.pdf,4
+TOYOTA,HILUX SW4,Motor,Diámetro y carrera de pistón (mm),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,"92 x 103,6",0,local:SW4 DIAMOND.pdf,5
+TOYOTA,HILUX SW4,Motor,Relación de compresión,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,15.6:1,0,local:SW4 DIAMOND.pdf,6
+TOYOTA,HILUX SW4,Motor,Cilindrada (cm3),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,2.755,0,local:SW4 DIAMOND.pdf,7
+TOYOTA,HILUX SW4,Motor,Potencia máxima CV (kW)/rpm,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,204 (150) / 3.000 - 3.400,0,local:SW4 DIAMOND.pdf,8
+TOYOTA,HILUX SW4,Motor,Torque máximo Nm (Kgm)/rpm,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,500 (1.600 - 2.800),0,local:SW4 DIAMOND.pdf,9
+TOYOTA,HILUX SW4,Exterior,"Espejos exteriores retráctiles eléctricamente, regulación eléctrica y luz de giro incorporada",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,10
+TOYOTA,HILUX SW4,Exterior,Espejos exteriores con desempañador,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,11
+TOYOTA,HILUX SW4,Exterior,Moldura delantera y difusor trasero de diseño exclusivo,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,12
+TOYOTA,HILUX SW4,Exterior,Estribos laterales,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,13
+TOYOTA,HILUX SW4,Exterior,"Faros delanteros Full-LED de diseño exclusivo con ""Follow me home"" y regulación automática en altura",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,14
+TOYOTA,HILUX SW4,Exterior,Luces diurnas (DRL),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,15
+TOYOTA,HILUX SW4,Exterior,Faros traseros de LED,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,16
+TOYOTA,HILUX SW4,Exterior,Luces intermitentes secuenciales,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,17
+TOYOTA,HILUX SW4,Exterior,"Llantas de aleación de 18"" de diseño exclusivo con neumáticos 265/60 R18""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,18
+TOYOTA,HILUX SW4,Exterior,Manijas exteriores y molduras en ventanillas cromadas,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,19
+TOYOTA,HILUX SW4,Exterior,"Protector de Cárter ""Heavy Duty""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,20
+TOYOTA,HILUX SW4,Exterior,Sensores de estacionamiento delanteros (x2) y traseros (x4),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,21
+TOYOTA,HILUX SW4,Transmisión,Tracción,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,"4x2, 4x4 y 4x4 reducida con accionamiento electrónico. ADD (Desconexión automática de diferencial) y A-TRC (Control de tracción activo).",0,local:SW4 DIAMOND.pdf,22
+TOYOTA,HILUX SW4,Interior,Sistema de encendido por botón (Push Start Button) y Sistema de ingreso inteligente (Smart Entry System),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,23
+TOYOTA,HILUX SW4,Interior,Llave de diseño exclusivo,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,24
+TOYOTA,HILUX SW4,Interior,Butacas con regulación eléctrica para el conductor y acompañante,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,25
+TOYOTA,HILUX SW4,Interior,Tapizado de cuero natural y ecológico perforado color beige,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,26
+TOYOTA,HILUX SW4,Interior,Cubrealfombras de diseño exclusivo “ DIAMOND”,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,27
+TOYOTA,HILUX SW4,Interior,Butacas delanteras con función de ventilación,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,28
+TOYOTA,HILUX SW4,Interior,Segunda fila de asientos 60/40 con regulación longitudinal y respaldo reclinable,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,29
+TOYOTA,HILUX SW4,Interior,Tercera fila de asientos con respaldo reclinable,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,30
+TOYOTA,HILUX SW4,Interior,"Volante con control de audio, de teléfono y de display de información múltiple",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,31
+TOYOTA,HILUX SW4,Interior,Volante forrado en cuero natural con regulación en altura y profundidad,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,32
+TOYOTA,HILUX SW4,Interior,Aire acondicionado con climatizador automático digital bizona,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,33
+TOYOTA,HILUX SW4,Interior,Salidas de aire acondicionado y regulador para plazas traseras (Digital),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,34
+TOYOTA,HILUX SW4,Interior,Audio con pantalla táctil de 9” con USB y Bluetooth®,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,35
+TOYOTA,HILUX SW4,Interior,Conectividad inalámbrica**: Android Auto® y Apple CarPlay®,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,36
+TOYOTA,HILUX SW4,Interior,Cargador inalámbrico para smartphones que soporten carga inalámbrica***,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,37
+TOYOTA,HILUX SW4,Interior,Servicios Conectados,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,38
+TOYOTA,HILUX SW4,Interior,Sistema de audio Premium JBL® con 10 parlantes y subwoofer,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,39
+TOYOTA,HILUX SW4,Interior,Sistema de visión 360° en pantalla de audio,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,40
+TOYOTA,HILUX SW4,Interior,Cámara de retroceso,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,41
+TOYOTA,HILUX SW4,Interior,"Display de información múltiple con pantalla a color de 4,2” (TFT)",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,42
+TOYOTA,HILUX SW4,Interior,"ECO, NORM y SPORT mode",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,43
+TOYOTA,HILUX SW4,Interior,Selector electrónico de tracción 4x4,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,44
+TOYOTA,HILUX SW4,Interior,Domo con luz de LED,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,45
+TOYOTA,HILUX SW4,Interior,"Iluminación interior ambiente LED en reposapies, consola central, tablero y puertas",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,46
+TOYOTA,HILUX SW4,Interior,Espejo retrovisor interno con función antiencandilamiento automático,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,47
+TOYOTA,HILUX SW4,Interior,Levantacristales eléctricos con “Auto up & down” y sensor de presión (x4),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,48
+TOYOTA,HILUX SW4,Chasis,Suspensión,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,"Independiente con doble brazo de suspensión, resortes helicoidales, amortiguadores telescópicos y barra estabilizadora",0,local:SW4 DIAMOND.pdf,49
+TOYOTA,HILUX SW4,Chasis,Dirección,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,Hidráulica de piñón y cremallera con asistencia variable,0,local:SW4 DIAMOND.pdf,50
+TOYOTA,HILUX SW4,Chasis,Frenos,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,Discos ventilados,0,local:SW4 DIAMOND.pdf,51
+TOYOTA,HILUX SW4,Dimensiones y pesos,Total,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,4.795,0,local:SW4 DIAMOND.pdf,52
+TOYOTA,HILUX SW4,Dimensiones y pesos,Distancia entre ejes (mm),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,2.745,0,local:SW4 DIAMOND.pdf,53
+TOYOTA,HILUX SW4,Dimensiones y pesos,Despeje mínimo del suelo (mm),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,227,0,local:SW4 DIAMOND.pdf,54
+TOYOTA,HILUX SW4,Dimensiones y pesos,Peso en orden de marcha (mín-máx) (kg),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,2.135 - 2.175,0,local:SW4 DIAMOND.pdf,55
+TOYOTA,HILUX SW4,Dimensiones y pesos,Peso bruto total (kg),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,2.750,0,local:SW4 DIAMOND.pdf,56
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad del tanque de combustible (L),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,80,0,local:SW4 DIAMOND.pdf,57
+TOYOTA,HILUX SW4,Dimensiones y pesos,Radio mínimo de giro (m),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,"6,2",0,local:SW4 DIAMOND.pdf,58
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad de remolque con frenos (kg),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,3.000,0,local:SW4 DIAMOND.pdf,59
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad de remolque sin frenos (kg),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,750,0,local:SW4 DIAMOND.pdf,60
+TOYOTA,HILUX SW4,Dimensiones y pesos,Capacidad de pasajeros,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,7,0,local:SW4 DIAMOND.pdf,61
+TOYOTA,HILUX SW4,Interior,Salida de 220v (100 w) y 2 salidas de 12v,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,62
+TOYOTA,HILUX SW4,Interior,"2 puertos USB en plazas traseras Portón trasero con sistema de apertura y cierre eléctrico con sensor ""manos libres""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,63
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de velocidad crucero adaptativo (ACC)*,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,64
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de pre-colisión frontal (PCS)*,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,65
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de alerta de cambio de carril (LDA)*,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,66
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Alerta de punto ciego (BSM),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,67
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Alerta de tráfico trasero (RCTA),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,68
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Airbags frontales (conductor y acompañante) y de rodilla (conductor),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,69
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Airbags laterales (x2) y airbags de cortina (x2),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,70
+TOYOTA,HILUX SW4,Toyota Safety Sense*,"ABS con Distribución electrónica de la fuerza de frenado (EBD), Asistente de frenado de emergencia (BA) y Luces de frenado de emergencia (EBS)",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,71
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de estabilidad (VSC) y Control de balanceo de tráiler (TSC),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,72
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Control de tracción (TRC) y Control de tracción activo (A-TRC),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,73
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Asistente de arranque en pendientes (HAC) y Asistente de descenso en pendientes (DAC),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,74
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Bloqueo de Diferencial trasero,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,75
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Diferencial de deslizamiento limitado electrónicamente (Auto LSD),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,76
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Faros antiniebla delanteros y traseros,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,77
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Cinturones de seguridad delanteros de 3 puntos regulables en altura con pretensionador y limitador de fuerza (x2),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,78
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Cinturones de seguridad traseros inerciales de 3 puntos (x5),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,79
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Testigo y alarma de cinturón de seguridad para todas las plazas,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,80
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Anclajes ISOFIX (x2) y anclaje para correa superior (x2),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,81
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Alarma de puertas abiertas en movimiento (con display de cada puerta),SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,82
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Traba de seguridad para niños en las puertas traseras,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,83
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Sistema de alarma con inmovilizador de motor,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,84
+TOYOTA,HILUX SW4,Toyota Safety Sense*,"Llave con botón de ""Pánico""",SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,85
+TOYOTA,HILUX SW4,Toyota Safety Sense*,Candado de seguridad para rueda de auxilio,SW4 4X4 DIAMOND II 2.8 TDI 6 AT 7A,si,0,local:SW4 DIAMOND.pdf,86

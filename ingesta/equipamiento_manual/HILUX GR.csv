@@ -1,0 +1,76 @@
+marca,familia,seccion,item,version_fuente,valor,orden_version,fuente_url,orden_item
+TOYOTA,HILUX PICK - UP,Motor,Modelo,DC GR-SPORT IV,Toyota 1 GD (2.8 L),0,local:HILUX GR.pdf,0
+TOYOTA,HILUX PICK - UP,Motor,Combustible,DC GR-SPORT IV,Diésel Grado 3*1,0,local:HILUX GR.pdf,1
+TOYOTA,HILUX PICK - UP,Motor,Normativa de emisión,DC GR-SPORT IV,Euro5 (con filtro de partículas DPF),0,local:HILUX GR.pdf,2
+TOYOTA,HILUX PICK - UP,Motor,Tipo,DC GR-SPORT IV,"4 cilindros en línea, con Turbocompresor de geometría variable (TGV) e intercooler",0,local:HILUX GR.pdf,3
+TOYOTA,HILUX PICK - UP,Motor,Alimentación,DC GR-SPORT IV,Inyección directa electrónica Common-Rail,0,local:HILUX GR.pdf,4
+TOYOTA,HILUX PICK - UP,Motor,Distribución Diámetro y carrera de pistón (mm),DC GR-SPORT IV,"16 válvulas, DOHC con cadena de distribución 92,0 x 103,6",0,local:HILUX GR.pdf,5
+TOYOTA,HILUX PICK - UP,Motor,Relación de compresión,DC GR-SPORT IV,"15,6:1",0,local:HILUX GR.pdf,6
+TOYOTA,HILUX PICK - UP,Motor,Cilindrada (cm3),DC GR-SPORT IV,2.755,0,local:HILUX GR.pdf,7
+TOYOTA,HILUX PICK - UP,Motor,Potencia máxima (CV (kW) / rpm),DC GR-SPORT IV,224 (165) / 3.000,0,local:HILUX GR.pdf,8
+TOYOTA,HILUX PICK - UP,Motor,Torque máximo (Nm/ rpm),DC GR-SPORT IV,550 (1.600 - 2.800),0,local:HILUX GR.pdf,9
+TOYOTA,HILUX PICK - UP,Motor,"Llantas de aleación de 17"" de diseño exclusivo GR con neumáticos 265/65 R17"" AT",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,10
+TOYOTA,HILUX PICK - UP,Motor,"Parrilla exclusiva GR con emblema ""TOYOTA"" y logo GR",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,11
+TOYOTA,HILUX PICK - UP,Motor,Guardabarros extendidos con overfenders exclusivos GR en negro,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,12
+TOYOTA,HILUX PICK - UP,Motor,Paragolpes GR con canalizador aerodinámico,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,13
+TOYOTA,HILUX PICK - UP,Motor,"Espejos exteriores, eléctricamente retráctiles con regulación eléctrica, luz de giro y de cortesía incorporada",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,14
+TOYOTA,HILUX PICK - UP,Motor,Cobertor y lona de caja de carga,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,15
+TOYOTA,HILUX PICK - UP,Motor,Manijas exteriores y molduras en ventanillas negras,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,16
+TOYOTA,HILUX PICK - UP,Motor,Faros delanteros Bi-LED y regulación automática en altura,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,17
+TOYOTA,HILUX PICK - UP,Motor,Faros traseros de LED,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,18
+TOYOTA,HILUX PICK - UP,Motor,Luces diurnas (DRL) de LED,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,19
+TOYOTA,HILUX PICK - UP,Motor,"Protector de cárter ""Heavy Duty"" y de tanque de combustible",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,20
+TOYOTA,HILUX PICK - UP,Motor,Portón de caja de carga con asistencia para apertura y cierre,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,21
+TOYOTA,HILUX PICK - UP,Motor,Barra deportiva aerodinámica,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,22
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Tracción,DC GR-SPORT IV,"2x4, 4x4 y 4x4 reducida con accionamiento electrónico. ADD (Desconexión automática de diferencial) y A-TRC (Control de tracción activo)",0,local:HILUX GR.pdf,23
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Suspensión,DC GR-SPORT IV,"Independiente con doble brazo de suspensión, resortes helicoidales y amortiguadores telescópicos monotubo GR.",0,local:HILUX GR.pdf,24
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Dirección,DC GR-SPORT IV,Hidraúlica de piñón y cremallera con asistencia variable,0,local:HILUX GR.pdf,25
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Frenos,DC GR-SPORT IV,De discos ventilados,0,local:HILUX GR.pdf,26
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Sistema de ingreso inteligente (Smart Entry System),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,27
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Sistema de encendido por botón (Push Start Button),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,28
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Llave de diseño exclusivo GR,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,29
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Espejo retrovisor electrocromico,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,30
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Butaca del conductor con regulación eléctrica,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,31
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Tapizado de cuero natural y ecológico combinado con Suede sintético perforado y detalles en rojo,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,32
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Detalles e inserciones de interior GR,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,33
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Pedalera deportiva de aluminio,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,34
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Cubrealfombra con diseño GR,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,35
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Placa de identificación con número de unidad,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,36
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,"Display de información múltiple con pantalla a color de 4,2"" (TFT)",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,37
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,"Volante con control de audio, de display de información múltiple y de teléfono",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,38
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Volante forrado en cuero natural microperforado con costuras rojas de diseño GR con regulación en altura y profundidad,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,39
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Aire acondicionado con climatizador automático digital bizona y salidas para plazas traseras,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,40
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,"Audio con pantalla táctil de 9"", animacion GR, USB y Bluetooth®",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,41
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Conectividad inalámbrica: Android Auto® y Apple CarPlay®*2,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,42
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Sistema de audio Premium JBL® con 8 parlantes y subwoofer,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,43
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Servicios Conectados,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,44
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Cargador inalámbrico para smartphones que soporten carga inalámbrica,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,45
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,USB tipo C en plazas traseras (x2),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,46
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Cámara de retroceso,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,47
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Monitor de sistema de visión 360° en pantalla de audio,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,48
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Sensores de estacionamiento delanteros (x2) y traseros (x4),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,49
+TOYOTA,HILUX PICK - UP,Transmisión y Chasis,Eco y power mode,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,50
+TOYOTA,HILUX PICK - UP,Dimensiones,Total,DC GR-SPORT IV,5.325,0,local:HILUX GR.pdf,51
+TOYOTA,HILUX PICK - UP,Dimensiones,Distancia entre ejes (mm),DC GR-SPORT IV,3.085,0,local:HILUX GR.pdf,52
+TOYOTA,HILUX PICK - UP,Dimensiones,Peso en orden de marcha (kg),DC GR-SPORT IV,2.125 - 2.135,0,local:HILUX GR.pdf,53
+TOYOTA,HILUX PICK - UP,Dimensiones,Capacidad del tanque de combustible (L),DC GR-SPORT IV,80,0,local:HILUX GR.pdf,54
+TOYOTA,HILUX PICK - UP,Dimensiones,Despeje mínimo del suelo (mm),DC GR-SPORT IV,247,0,local:HILUX GR.pdf,55
+TOYOTA,HILUX PICK - UP,Dimensiones,Peso bruto total (kg),DC GR-SPORT IV,3.140,0,local:HILUX GR.pdf,56
+TOYOTA,HILUX PICK - UP,Dimensiones,Capacidad de remolque con frenos (kg),DC GR-SPORT IV,3.500,0,local:HILUX GR.pdf,57
+TOYOTA,HILUX PICK - UP,Dimensiones,Capacidad de remolque sin frenos (kg),DC GR-SPORT IV,750,0,local:HILUX GR.pdf,58
+TOYOTA,HILUX PICK - UP,Dimensiones,Ángulo ataque,DC GR-SPORT IV,30°,0,local:HILUX GR.pdf,59
+TOYOTA,HILUX PICK - UP,Dimensiones,Ángulo de salida,DC GR-SPORT IV,24°,0,local:HILUX GR.pdf,60
+TOYOTA,HILUX PICK - UP,Dimensiones,Ángulo Ventral,DC GR-SPORT IV,30°,0,local:HILUX GR.pdf,61
+TOYOTA,HILUX PICK - UP,Dimensiones,Toyota Safety Sense*3,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,62
+TOYOTA,HILUX PICK - UP,Dimensiones,Control de velocidad crucero adaptativo (ACC)*3,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,63
+TOYOTA,HILUX PICK - UP,Dimensiones,Sistema de pre-colisión frontal (PCS)*3,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,64
+TOYOTA,HILUX PICK - UP,Dimensiones,Sistema de alerta de cambio de carril (LDA)*3,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,65
+TOYOTA,HILUX PICK - UP,Dimensiones,Asistente de arranque en pendientes (HAC),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,66
+TOYOTA,HILUX PICK - UP,Dimensiones,Control de estabilidad (VSC) y Control de balanceo de tráiler (TSC) Control de tracción activo (A-TRC),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,67
+TOYOTA,HILUX PICK - UP,Dimensiones,"ABS, con distribución electrónica de la fuerza de frenado (EBD), asistente de frenado de emergencia (BA) y Luces de frenado de emergencia (EBS)",DC GR-SPORT IV,si,0,local:HILUX GR.pdf,68
+TOYOTA,HILUX PICK - UP,Dimensiones,Asistente de descenso en pendientes (DAC),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,69
+TOYOTA,HILUX PICK - UP,Dimensiones,Bloqueo de diferencial trasero,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,70
+TOYOTA,HILUX PICK - UP,Dimensiones,Diferencial de deslizamiento limitado electrónicamente (Auto LSD) Faros antiniebla delanteros de LED y luz antiniebla trasera,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,71
+TOYOTA,HILUX PICK - UP,Dimensiones,Anclajes ISOFIX (x2) y anclaje para correa superior (x2) Sistema de alarma e Inmovilizador de motor Candado de seguridad para rueda de auxilio,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,72
+TOYOTA,HILUX PICK - UP,Dimensiones,Airbags frontales (x2) *7 Cinturones de seguridad delanteros de 3 puntos regulables en altura con pretensionador y limitador de fuerza (x2),DC GR-SPORT IV,si,0,local:HILUX GR.pdf,73
+TOYOTA,HILUX PICK - UP,Dimensiones,Airbags laterales (x2) *7 Airbags de cortina (x2) *7 Airbag de rodilla para el conductor *7,DC GR-SPORT IV,si,0,local:HILUX GR.pdf,74
