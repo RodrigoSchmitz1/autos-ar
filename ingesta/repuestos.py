@@ -53,8 +53,15 @@ ALCANCE = [
 
 TARJETA = re.compile(r'<a class="group flex[^"]*" href="/producto/(?P<sku>[^"]+)">(?P<cuerpo>.*?)</a>', re.S)
 TITULO = re.compile(r"<h3[^>]*>(.*?)</h3>", re.S)
-ETIQUETAS = re.compile(r'<span class="rounded [^"]*">(.*?)</span>', re.S)
-PRECIO_FINAL = re.compile(r'<p class="[^"]*tabular">\$([\d.]+)</p>')
+# Desde octubre 2026 la calidad ("Original", "Importado" o la marca del repuesto) va en
+# un distintivo sobre la foto, y la marca del auto debajo del titulo ("· Fiat").
+CALIDAD = re.compile(r'<span class="absolute [^"]*rounded-full[^"]*">(.*?)</span>', re.S)
+MARCA_AUTO = re.compile(r'<span class="font-semibold">(.*?)</span>', re.S)
+# La clase del precio puede traer mas cosas despues de "tabular" ("tabular sm:text-xl",
+# desde octubre 2026).
+PRECIO_FINAL = re.compile(r'<p class="[^"]*tabular[^"]*">\$([\d.]+)</p>')
+# El precio tachado: hasta septiembre 2026 era el de lista; desde octubre es el de
+# Mercado Libre con que se comparan ("-8% vs ML"). No se usa en ningun calculo.
 PRECIO_LISTA = re.compile(r'line-through tabular">\$([\d.]+)</span>')
 PAGINAS = re.compile(r"página 1 de (\d+)")
 
@@ -68,14 +75,17 @@ def parsear(texto, categoria, subcategoria):
     for m in TARJETA.finditer(texto):
         cuerpo = m["cuerpo"]
         titulo = TITULO.search(cuerpo)
-        etiquetas = [limpiar(e) for e in ETIQUETAS.findall(cuerpo)]
+        calidad = CALIDAD.search(cuerpo)
+        marca_auto = MARCA_AUTO.search(cuerpo)
+        etiquetas = [e for e in (limpiar(calidad[1]) if calidad else None,
+                                 limpiar(marca_auto[1]).lstrip("· ").strip() if marca_auto else None) if e]
         final = PRECIO_FINAL.search(cuerpo)
         lista = PRECIO_LISTA.search(cuerpo)
         productos.append({
             "sku": urllib.parse.unquote(m["sku"]),
             "titulo": limpiar(titulo[1]) if titulo else None,
-            "calidad": etiquetas[0] if etiquetas else None,
-            "marca_auto": etiquetas[1] if len(etiquetas) > 1 else None,
+            "calidad": limpiar(calidad[1]) if calidad else None,
+            "marca_auto": limpiar(marca_auto[1]).lstrip("· ").strip() if marca_auto else None,
             "etiquetas": "|".join(etiquetas),
             "precio": int(final[1].replace(".", "")) if final else None,
             "precio_lista": int(lista[1].replace(".", "")) if lista else None,
