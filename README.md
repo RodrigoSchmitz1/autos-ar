@@ -238,6 +238,8 @@ Seguro, cochera y peajes quedan afuera: no hay fuente pública.
 
 **Consumo, el componente más incompleto.** La etiqueta oficial es una copia de 2022: no cruzaba versión por versión ("Cronos Like" no, "Cronos Drive" sí; ninguna de las 34 versiones de la Strada) y no tiene los modelos posteriores. `int_consumo_version` lo resuelve con una cascada marcada en cada fila: la versión; la mediana de la misma familia, combustible y cilindrada; la de la familia; o la de todos los ensayos de esa cilindrada. El combustible y la cilindrada salen del nombre ("2.8 TDI", "1.8L", "HEV") o de códigos de motor conocidos ("170 TSI" = 1.0 turbo, "T270" = 1.3). Cubre el 83% de los patentamientos; faltan eléctricos, híbridos sin ensayos y versiones sin cilindrada.
 
+**Piezas sin precio.** Si una familia tiene precio de algunas piezas de desgaste y de otras no, cada pieza que falta usa el precio mediano de esa pieza en todas las familias (`int_mantenimiento_familia`) y la fuente queda como `parcial`. Antes se sumaban solo las piezas con precio, y un modelo con solo pastillas relevadas (Gol Trend) daba $1,5 por km de repuestos contra los ~$22 típicos.
+
 **Respaldos marcados.** Si a una familia le falta service (Chevrolet no publica precios), repuestos o curva de depreciación (modelos nuevos), se usa la mediana de la marca o la general, y la fila lo dice (`*_fuente`, `componentes_con_respaldo`). El total se publica solo si no falta ningún componente: así cubre el **83% de los patentamientos** de Buenos Aires (41% con todo de su propia familia).
 
 Los más vendidos en Buenos Aires (15.000 km por año, 5 años):
@@ -268,6 +270,7 @@ python -m costo.comparador --provincia 06 --km 20000 --anios 3 --seguro 60000 "c
 | Página | Qué hace |
 |---|---|
 | Inicio | Rankings con la foto de cada auto: los 0 km más vendidos de los últimos 12 meses, los usados que mejor conservan su valor a los 5 años (solo modelos con más de 5.000 transferencias por año, para no premiar rarezas) y los usados más baratos de mantener (un 2021 en Buenos Aires, sin depreciación); y el precio de la nafta por provincia en barras |
+| Mi auto | Para el auto de cada uno, nuevo o usado (389 modelos que circulan, cualquier versión y año): cuánto cuesta mantenerlo por mes (combustible, patente de su año en su provincia, service oficial y repuestos, más el seguro si se carga), el próximo service según los km que tiene, qué repuestos toca cambiar y cuándo, y cuánto vale. Lo elegido queda en la URL y en el navegador. Estilo de app, oscuro: es la base del rediseño del resto del sitio |
 | Comparador | Hasta 4 autos lado a lado, como las páginas de "comparar modelos" de las marcas: cuánto cuesta mantener cada uno por mes y la diferencia en plata, la pérdida de valor aparte, componente por componente con el más barato resaltado, el gasto acumulado año a año y el equipamiento; con los km por año, años, provincia, seguro y repuestos del usuario. La URL guarda la comparación para compartirla |
 | Modelos | Por familia: curva de depreciación (mercado y fiscal), service oficial, repuestos y patentamientos |
 

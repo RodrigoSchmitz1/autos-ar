@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07090c">
+  <title>Mi auto · Autos AR</title>
+  <meta name="description" content="Cuánto te cuesta mantener tu auto por mes: combustible, patente, service oficial y repuestos, para tu modelo, año y provincia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+  <style>
+    .hero-foto { position: relative; height: 210px; margin: 0 -16px; overflow: hidden;
+      background: radial-gradient(60% 70% at 50% 60%, rgba(76, 141, 255, .18), transparent 70%); }
+    .hero-foto::after { content: ""; position: absolute; left: 14%; right: 14%; bottom: 26px; height: 20px;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, .85), transparent); filter: blur(6px); }
+    .hero-foto img { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); height: 72%; width: auto;
+      max-width: 88%; object-fit: contain; z-index: 1; }
+    .hero-foto img.foto-auto { height: 100%; bottom: 0; max-width: none; width: 100%; object-fit: cover; opacity: .85;
+      -webkit-mask-image: linear-gradient(transparent, #000 25%, #000 70%, transparent); mask-image: linear-gradient(transparent, #000 25%, #000 70%, transparent); }
+    .hero-marca { position: absolute; inset: 0; display: grid; place-items: center; font-size: clamp(34px, 9vw, 64px); font-weight: 700;
+      letter-spacing: .08em; color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, .22); z-index: 1; text-align: center; padding: 0 12px; }
+    .hero-foto .sin-foto { position: absolute; inset: 30px 20%; border-radius: 20px; display: grid; place-items: center; font-weight: 700; color: #fff; }
+    .hero .titulo { margin-top: 6px; }
+
+    .barra-mix { display: flex; height: 10px; border-radius: 99px; overflow: hidden; margin-top: 22px; gap: 3px; }
+    .barra-mix i { display: block; height: 100%; border-radius: 99px; min-width: 6px; }
+    .partes { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 18px; margin-top: 18px; }
+    .parte { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }
+    .punto { width: 10px; height: 10px; border-radius: 3px; margin-top: 5px; flex: none; }
+    .parte p { font-size: 13px; color: var(--suave); min-width: 0; }
+    .parte strong { display: block; font-size: 17px; font-weight: 500; color: var(--texto); }
+    .parte em { font-style: normal; color: var(--tenue); font-size: 12px; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .parte.sd strong { color: var(--tenue); font-weight: 400; font-size: 15px; }
+    .interruptor { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 20px; padding-top: 16px;
+      border-top: 1px solid var(--linea); font-size: 14px; color: var(--suave); }
+
+    .proximo { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; margin-top: 12px; }
+    .proximo .grande { font-size: 30px; font-weight: 300; letter-spacing: -.03em; }
+    .proximo .grande small { font-size: 15px; color: var(--suave); }
+    .precio { font-size: 18px; font-weight: 500; white-space: nowrap; }
+    .linea-tiempo { position: relative; margin-top: 22px; height: 46px; }
+    .linea-tiempo::before { content: ""; position: absolute; left: 0; right: 0; top: 9px; height: 2px; background: var(--linea); border-radius: 2px; }
+    .hito { position: absolute; top: 0; transform: translateX(-50%); text-align: center; font-size: 11px; color: var(--tenue); white-space: nowrap; }
+    .hito i { display: block; width: 20px; height: 20px; margin: 0 auto 6px; border-radius: 50%; background: var(--fondo); border: 2px solid var(--service); }
+    .hito.hoy i { border-color: var(--texto); background: var(--texto); width: 12px; height: 12px; margin-top: 4px; margin-bottom: 10px; }
+    .hito.prox i { background: var(--service); box-shadow: 0 0 0 6px rgba(46, 211, 183, .15); }
+    .hito.prox { color: var(--texto); }
+    .items-service { margin-top: 12px; font-size: 13px; color: var(--suave); line-height: 1.5; }
+
+    .valor-cifras { display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; }
+    .valor-cifras div { font-size: 13px; color: var(--suave); }
+    .valor-cifras strong { display: block; color: var(--texto); font-size: 22px; font-weight: 300; letter-spacing: -.02em; }
+    svg.curva { width: 100%; height: 120px; margin-top: 14px; display: block; overflow: visible; }
+
+    .otros { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .otros span { font-size: 13px; padding: 8px 12px; border-radius: 12px; background: var(--superficie-2); color: var(--suave); }
+    .otros b { color: var(--texto); font-weight: 500; margin-left: 4px; }
+
+    .vacio { text-align: center; padding: 30px 10px; color: var(--suave); }
+    #elegir h1 { margin-top: 18px; }
+    #elegir .subtitulo { margin-top: 8px; line-height: 1.45; max-width: 560px; }
+    #elegir .buscador { margin-top: 20px; display: block; }
+
+    @media (min-width: 960px) {
+      .contenido { display: grid; grid-template-columns: 400px 1fr; gap: 32px; align-items: start; margin-top: 20px; }
+      .hero { position: sticky; top: 20px; }
+      .hero-foto { margin: 0; height: 250px; border-radius: 24px; border: 1px solid var(--linea);
+        background: radial-gradient(70% 70% at 50% 60%, rgba(76, 141, 255, .2), transparent 70%), var(--superficie); }
+      .hero .titulo { font-size: 36px; margin-top: 22px; }
+      .grilla { margin-top: 0; grid-template-columns: 1fr 1fr; }
+      .ancha { grid-column: 1 / -1; }
+      .ancha .partes { grid-template-columns: repeat(4, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="barra">
+      <a class="marca" href="index.html">Autos<span>AR</span></a>
+      <nav class="nav-escritorio">
+        <a href="index.html">Inicio</a><a class="activo" href="mi-auto.html">Mi auto</a><a href="comparador.html">Comparar</a>
+        <a href="ficha.html">Modelos</a><a href="asistente.html">Asistente</a>
+      </nav>
+      <button class="icono-btn oculto" id="abrir-ajustes" type="button" aria-label="Cambiar mi auto">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+      </button>
+    </header>
+
+    <!-- Paso 1: elegir el modelo -->
+    <section id="elegir" class="oculto">
+      <p class="etiqueta">Mi auto</p>
+      <h1 class="titulo">¿Qué auto tenés?</h1>
+      <p class="subtitulo">Elegí tu modelo y te mostramos cuánto te cuesta mantenerlo por mes: combustible, patente, service y repuestos.</p>
+      <label class="buscador">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="buscar" type="search" placeholder="Buscar: gol trend, cronos, hilux…" autocomplete="off" aria-label="Buscar modelo">
+      </label>
+      <div class="modelos" id="modelos"></div>
+    </section>
+
+    <!-- Paso 2: el tablero -->
+    <div class="contenido oculto" id="tablero">
+      <section class="hero">
+        <div class="hero-foto" id="hero-foto"></div>
+        <p class="etiqueta">Mi auto</p>
+        <h1 class="titulo" id="nombre"></h1>
+        <p class="subtitulo" id="version"></p>
+        <div class="chips" id="chips"></div>
+      </section>
+
+      <main class="grilla">
+        <section class="tarjeta destacada ancha">
+          <h2>Mantenerlo te cuesta</h2>
+          <div class="cifra"><sup>$</sup><span id="total"></span> <small>/ mes</small></div>
+          <p class="sub" id="total-sub"></p>
+          <div class="barra-mix" id="mix"></div>
+          <div class="partes" id="partes"></div>
+          <div class="interruptor">
+            <span>Repuestos</span>
+            <div class="seg" id="tipo-repuestos"><button type="button" data-o="0" class="on">Alternativos</button><button type="button" data-o="1">Originales</button></div>
+          </div>
+        </section>
+
+        <section class="tarjeta" id="tarjeta-service"></section>
+        <section class="tarjeta" id="tarjeta-valor"></section>
+
+        <section class="tarjeta ancha" id="repuestos">
+          <h2>Repuestos que vas a cambiar</h2>
+          <div id="lista-repuestos"></div>
+          <div class="otros" id="otros-repuestos"></div>
+          <p class="nota" id="nota-repuestos"></p>
+        </section>
+
+        <p class="nota ancha" id="fuentes"></p>
+      </main>
+    </div>
+    <p class="vacio oculto" id="estado"></p>
+    <footer class="nota"></footer>
+  </div>
+
+  <!-- Ajustes -->
+  <div class="velo" id="velo"></div>
+  <section class="hoja" id="hoja" aria-label="Datos de mi auto">
+    <h2>Mi auto</h2>
+    <div class="campos">
+      <button class="boton secundario" type="button" id="cambiar-modelo"></button>
+      <label class="campo"><span>Versión</span><select id="f-version"></select></label>
+      <label class="campo"><span>Año</span><select id="f-anio"></select></label>
+      <label class="campo"><span>Provincia</span><select id="f-provincia"></select></label>
+      <label class="campo"><span class="valor-rango">Kilómetros por mes <b id="f-km-valor"></b></span>
+        <input id="f-km" type="range" min="200" max="5000" step="50"></label>
+      <label class="campo"><span>Kilómetros que tiene hoy</span><input id="f-odometro" type="number" min="0" step="1000" inputmode="numeric"></label>
+      <label class="campo"><span>Seguro por mes (opcional)</span><input id="f-seguro" type="number" min="0" step="1000" inputmode="numeric" placeholder="0"></label>
+    </div>
+    <div class="acciones"><button class="boton" type="button" id="listo">Listo</button></div>
+  </section>
+
+  <nav class="tabs">
+    <a href="index.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11l8-6 8 6v8a1 1 0 0 1-1 1h-4v-5h-6v5H5a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+    <a class="activo" href="mi-auto.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 16l1.5-5a2 2 0 0 1 1.9-1.4h7.2a2 2 0 0 1 1.9 1.4L19 16"/><rect x="3" y="15" width="18" height="4" rx="1.5"/><circle cx="7.5" cy="19.5" r="1"/><circle cx="16.5" cy="19.5" r="1"/></svg>Mi auto</a>
+    <a href="comparador.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M7 4v16M17 4v16M3 8h8M13 16h8"/></svg>Comparar</a>
+    <a href="ficha.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></svg>Modelos</a>
+    <a href="asistente.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg>Asistente</a>
+  </nav>
+
+  <script type="module" src="js/mi-auto.js"></script>
+</body>
+</html>

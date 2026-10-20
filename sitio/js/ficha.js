@@ -1,4 +1,4 @@
-import { cargar, objetos, pesos, numero, decimal, millones, el, coincide, pie } from "./comun.js";
+import { cargar, objetos, pesos, numero, decimal, millones, el, coincide, pie, PIEZAS } from "./comun.js";
 import { cargarFotos, foto, recorte, variantes, datosFoto, colorDe } from "./autos.js";
 import { seccionVersiones } from "./versiones.js";
 import { cargarMedios, seccionGaleria, enlaceOficial } from "./galeria.js";
@@ -6,15 +6,6 @@ import { nombreFamilia } from "./respuesta.js";
 
 const $ = (id) => document.getElementById(id);
 const SVG = "http://www.w3.org/2000/svg";
-const PIEZAS = {
-  pastillas_freno: "Pastillas de freno", disco_freno: "Disco de freno", campana_freno: "Campana de freno",
-  filtro_aceite: "Filtro de aceite", filtro_aire: "Filtro de aire", filtro_habitaculo: "Filtro de habitáculo",
-  filtro_combustible: "Filtro de combustible", kit_filtros: "Kit de filtros", kit_service: "Kit de service",
-  bujia_encendido: "Bujía", bujia_precalentamiento: "Bujía de precalentamiento", kit_distribucion: "Kit de distribución",
-  correa_distribucion: "Correa de distribución", tensor_distribucion: "Tensor de distribución",
-  correa_accesorios: "Correa de accesorios", amortiguador_delantero: "Amortiguador delantero",
-  amortiguador_trasero: "Amortiguador trasero", amortiguador: "Amortiguador", kit_embrague: "Kit de embrague",
-};
 const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 let fichas, equipamiento = {}, versionesCosto = [];
 

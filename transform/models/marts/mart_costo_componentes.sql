@@ -23,7 +23,8 @@
 
   Respaldos: si la familia no tiene service, repuestos o curva de
   depreciacion, se usa una mediana mas general (de la marca o de todas), y la
-  columna *_fuente lo dice ('familia', 'mediana_marca', 'mediana_general').
+  columna *_fuente lo dice ('familia', 'mediana_marca', 'mediana_general'; en repuestos,
+  'parcial': algunas piezas con precio de la familia y otras con la mediana de la pieza).
   Combustible no tiene respaldo: si falta, falta.
 
   Grano: version (llave DNRPA) x provincia. Solo livianos con valor 0 km.
@@ -54,21 +55,19 @@ precio_combustible as (
     group by all
 ),
 
+-- Service y repuestos por km de cada familia: int_mantenimiento_familia (el mismo
+-- calculo que usa mart_mantenimiento_version para los usados).
 service as (
-    select upper(marca) as marca, familia, median(costo_por_km) as service_por_km
-    from {{ ref('mart_service') }}
-    where familia is not null
-    group by all
+    select marca, familia, service_por_km
+    from {{ ref('int_mantenimiento_familia') }} where service_por_km is not null
 ),
 
-repuestos as (
-    select r.cca_marca, r.familia, i.solo_manual,
-           sum(coalesce(r.precio_mediano_alternativo, r.precio_mediano_original) * i.unidades / i.intervalo_km) as por_km_alternativo,
-           sum(coalesce(r.precio_mediano_original, r.precio_mediano_alternativo) * i.unidades / i.intervalo_km) as por_km_original,
-           string_agg(r.tipo_pieza, ', ' order by r.tipo_pieza) as piezas
-    from {{ ref('mart_repuestos') }} r
-    join {{ ref('costo_repuestos_intervalos') }} i using (tipo_pieza)
-    group by all
+repuestos_por_familia as (
+    select marca, familia,
+           repuestos_sin_embrague as sin_embrague, repuestos_con_embrague as con_embrague,
+           repuestos_original_sin_embrague as original_sin_embrague, repuestos_original_con_embrague as original_con_embrague,
+           repuestos_con_embrague, piezas_propias_sin_embrague, piezas_sin_embrague, piezas_propias_con_embrague, piezas_con_embrague
+    from {{ ref('int_mantenimiento_familia') }} where repuestos_con_embrague is not null
 ),
 
 provincias as (
@@ -80,13 +79,6 @@ provincias as (
 -- componente mas directo y en los electricos seria inventarlo.
 service_general as (
     select median(service_por_km) as service_por_km from service
-),
-
-repuestos_por_familia as (
-    select cca_marca, familia,
-           sum(por_km_alternativo) filter (where not solo_manual) as sin_embrague,
-           sum(por_km_alternativo) as con_embrague
-    from repuestos group by all
 ),
 
 repuestos_general as (
@@ -124,9 +116,11 @@ select
     -- El embrague solo cuenta en cajas manuales.
     coalesce(case when v.automatica then rf.sin_embrague else rf.con_embrague end,
              (select case when v.automatica then sin_embrague else con_embrague end from repuestos_general)) as repuestos_por_km,
-    case when rf.con_embrague is not null then 'familia' else 'mediana_general' end as repuestos_fuente,
-    (select sum(r.por_km_original) from repuestos r
-      where r.cca_marca = v.cca_marca and r.familia = v.cca_modelo and (not r.solo_manual or not v.automatica)) as repuestos_por_km_original,
+    case when rf.repuestos_con_embrague is null then 'mediana_general'
+         when (case when v.automatica then rf.piezas_propias_sin_embrague = rf.piezas_sin_embrague
+                    else rf.piezas_propias_con_embrague = rf.piezas_con_embrague end) then 'familia'
+         else 'parcial' end as repuestos_fuente,
+    case when v.automatica then rf.original_sin_embrague else rf.original_con_embrague end as repuestos_por_km_original,
     pt.patente_anual,
     pt.precision as patente_precision,
     coalesce(cf1.proporcion, cm1.proporcion, cg1.proporcion) as proporcion_conservada_1,
@@ -141,7 +135,7 @@ left join precio_combustible pc
   on pc.provincia_id = p.provincia_id and pc.combustible = case when v.combustible = 'diesel' then 'diesel' else 'nafta' end
  and v.combustible <> 'electrico'
 left join service s on s.marca = upper(v.marca) and s.familia = v.cca_modelo
-left join repuestos_por_familia rf on rf.cca_marca = v.cca_marca and rf.familia = v.cca_modelo
+left join repuestos_por_familia rf on rf.marca = upper(v.cca_marca) and rf.familia = v.cca_modelo
 left join {{ ref('mart_patente_estimada') }} pt
   on pt.provincia_id = p.provincia_id
  and (pt.origen_codigo, pt.marca_codigo, pt.tipo_codigo, pt.modelo_codigo) = (v.origen_codigo, v.marca_codigo, v.tipo_codigo, v.modelo_codigo)

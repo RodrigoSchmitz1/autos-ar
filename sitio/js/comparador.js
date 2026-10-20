@@ -53,7 +53,8 @@ function avisos(v) {
   const t = [];
   if (v.consumo_estimacion && v.consumo_estimacion !== "version") t.push(ESTIMACION[v.consumo_estimacion] || "consumo estimado");
   if (v.service_fuente !== "familia") t.push("service: mediana general");
-  if (v.repuestos_fuente !== "familia") t.push("repuestos: mediana general");
+  if (v.repuestos_fuente === "parcial") t.push("repuestos: algunas piezas con precio promedio");
+  else if (v.repuestos_fuente !== "familia") t.push("repuestos: mediana general");
   if (v.depreciacion_fuente === "mediana_marca") t.push("valor: mediana de la marca");
   if (v.depreciacion_fuente === "mediana_general") t.push("valor: mediana general");
   return t.map((x) => el("span", { class: "chip aviso", text: x }));

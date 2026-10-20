@@ -78,6 +78,117 @@ def carrocerias(con):
         from dim_version where segmento = 'liviano' and cca_modelo is not null group by all""").fetchall()}
 
 
+MIN_TRAMITES_MI_AUTO = 50   # familias con menos tramites en el anio no entran en "Mi auto"
+VERSIONES_POR_FAMILIA = 40  # las mas tramitadas; el resto usa la mas parecida
+
+
+def slug(marca, familia):
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", f"{marca} {familia}").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def exportar_mi_auto(con, provincias, precio_litro, carro):
+    """Datos de la pantalla "Mi auto" (cualquier auto que circula, nuevo o usado):
+
+      miauto/indice.json   las familias (para elegir el auto), los intervalos de
+                           cambio de los repuestos, el precio del litro por provincia
+      miauto/<slug>.json   una por familia: versiones (consumo, service y repuestos
+                           por km), y por version y anio la patente de cada provincia
+                           y la valuacion fiscal; el plan de service km por km y el
+                           precio de cada repuesto. Se baja solo la del auto elegido.
+    """
+    carpeta = os.path.join(DESTINO, "miauto")
+    os.makedirs(carpeta, exist_ok=True)
+    # Anios del modelo: los de la valuacion fiscal de sus versiones (el rango de anio
+    # modelo de DNRPA tiene ruido: un Cronos "desde 2001"). El 0 km cuenta como este anio.
+    familias = con.sql(f"""
+        with anios as (select v.cca_marca, v.cca_modelo,
+                              min(nullif(a.anio, 0)) anio_min,
+                              max(case when a.anio = 0 then year(current_date) else a.anio end) anio_max
+                       from mart_mantenimiento_version v join int_valuacion_version a using (origen_codigo, marca_codigo, tipo_codigo, modelo_codigo)
+                       group by all)
+        select upper(m.cca_marca) marca, m.cca_modelo familia, sum(m.tramites_12m) tramites, sum(m.inscripciones_12m) inscripciones,
+               any_value(a.anio_min) anio_min, any_value(a.anio_max) anio_max
+        from mart_mantenimiento_version m left join anios a using (cca_marca, cca_modelo)
+        group by all
+        having sum(m.tramites_12m) >= {MIN_TRAMITES_MI_AUTO}
+        order by tramites desc""").fetchall()
+    indice = []
+    total = 0
+    for marca, familia, tramites, inscripciones, amin, amax in familias:
+        s = slug(marca, familia)
+        indice.append({"marca": marca, "familia": familia, "slug": s, "tramites": int(tramites),
+                       "inscripciones": int(inscripciones or 0), "anios": [amin, amax],
+                       "carroceria": carro.get((marca, familia), "hatch")})
+        clave = f"upper(cca_marca) = '{marca.replace(chr(39), chr(39) * 2)}' and cca_modelo = '{familia.replace(chr(39), chr(39) * 2)}'"
+        columnas, versiones = filas(con, f"""
+            with v as (select *, origen_codigo || marca_codigo || '-' || tipo_codigo || '-' || modelo_codigo as id
+                       from mart_mantenimiento_version where {clave}
+                       order by tramites_12m desc, modelo limit {VERSIONES_POR_FAMILIA}),
+                 -- Sin consumo propio: la mediana de la familia con el mismo combustible.
+                 med as (select combustible, median(consumo_l100km) c from mart_mantenimiento_version
+                         where {clave} and consumo_l100km is not null group by all)
+            select v.id, v.modelo, v.anio_modelo_min as anio_min, v.anio_modelo_max as anio_max, v.tramites_12m as tramites,
+                   v.combustible, v.automatica,
+                   coalesce(v.consumo_l100km, med.c) as consumo_l100km,
+                   case when v.consumo_l100km is null and med.c is not null then 'familia' else v.consumo_estimacion end as consumo_estimacion,
+                   v.service_por_km, v.service_fuente, v.repuestos_por_km, v.repuestos_por_km_original, v.repuestos_fuente
+            from v left join med using (combustible)
+            order by v.tramites_12m desc, v.modelo""")
+        ids = [v[0] for v in versiones]
+        lista_ids = ", ".join(f"'{i}'" for i in ids) or "''"
+        # Patente por version, provincia y anio modelo; valuacion fiscal por version y anio.
+        patente, anios = {}, {}
+        for vid, prov, anio, valor in con.sql(f"""
+                select origen_codigo || marca_codigo || '-' || tipo_codigo || '-' || modelo_codigo, provincia_id, anio_modelo, patente_anual
+                from mart_patente_estimada
+                where origen_codigo || marca_codigo || '-' || tipo_codigo || '-' || modelo_codigo in ({lista_ids})
+                  and patente_anual is not null
+                order by 1, 2, 3""").fetchall():
+            patente.setdefault(vid, {}).setdefault(prov, {})[anio] = round(valor / 100) * 100
+            anios.setdefault(vid, set()).add(anio)
+        valor = {}
+        for vid, anio, v in con.sql(f"""
+                select origen_codigo || marca_codigo || '-' || tipo_codigo || '-' || modelo_codigo, anio, valor_fiscal
+                from int_valuacion_version
+                where origen_codigo || marca_codigo || '-' || tipo_codigo || '-' || modelo_codigo in ({lista_ids})
+                order by 1, 2""").fetchall():
+            valor.setdefault(vid, {})[str(anio)] = round(v / 1000) * 1000
+        # Patente compacta: por version, la lista de anios y por provincia los valores en ese orden.
+        patente_compacta = {}
+        for vid, provs in patente.items():
+            lista = sorted(anios[vid])
+            patente_compacta[vid] = {"anios": lista, "valores": {p: [x.get(a) for a in lista] for p, x in provs.items()}}
+        # Plan de service km por km (mediana entre los motores de la familia) y repuestos.
+        service = [[km, limpio(p), items] for km, p, items in con.sql(f"""
+            select p.km, median(p.precio), any_value(p.items_cambio)
+            from stg_service__precios p
+            join mart_service s on upper(s.marca) = upper(p.marca) and s.modelo_fuente = p.modelo_fuente
+            where p.es_vigente and upper(s.marca) = '{marca.replace(chr(39), chr(39) * 2)}'
+              and s.familia = '{familia.replace(chr(39), chr(39) * 2)}'
+            group by p.km order by p.km""").fetchall()]
+        repuestos = [[t, limpio(o), limpio(a)] for t, o, a in con.sql(f"""
+            select tipo_pieza, precio_mediano_original, precio_mediano_alternativo from mart_repuestos
+            where upper(cca_marca) = '{marca.replace(chr(39), chr(39) * 2)}' and familia = '{familia.replace(chr(39), chr(39) * 2)}'
+            order by tipo_pieza""").fetchall()]
+        total += escribir(os.path.join("miauto", f"{s}.json"), {
+            "marca": marca, "familia": familia, "columnas": columnas, "versiones": versiones,
+            "patente": patente_compacta, "valor": valor, "service": service, "repuestos": repuestos})
+    # Intervalos de cambio y precio mediano de cada pieza en todas las familias (el que
+    # usa el costo cuando la familia no tiene precio de esa pieza: int_mantenimiento_familia).
+    intervalos = {t: {"unidades": u, "km": km, "solo_manual": sm, "mediana": [limpio(o), limpio(a)]}
+                  for t, u, km, sm, o, a in con.sql("""
+        select i.tipo_pieza, i.unidades, i.intervalo_km, i.solo_manual,
+               median(coalesce(r.precio_mediano_original, r.precio_mediano_alternativo)),
+               median(coalesce(r.precio_mediano_alternativo, r.precio_mediano_original))
+        from costo_repuestos_intervalos i join mart_repuestos r using (tipo_pieza) group by all""").fetchall()}
+    tam_indice = escribir(os.path.join("miauto", "indice.json"), {
+        "familias": indice, "intervalos": intervalos, "precio_litro": precio_litro, "provincias": provincias})
+    return {"miauto/indice.json": tam_indice, f"miauto/ ({len(indice)} familias)": total}
+
+
 def main():
     os.makedirs(DESTINO, exist_ok=True)
     con = duckdb.connect(BASE, read_only=True)
@@ -149,7 +260,7 @@ def main():
              fam as (select upper(cca_marca) marca, cca_modelo familia, median(combustible_por_km) c,
                             median(service_por_km) s, median(repuestos_por_km) r
                      from mart_costo_componentes
-                     where provincia_id = '06' and service_fuente = 'familia' and repuestos_fuente = 'familia'
+                     where provincia_id = '06' and service_fuente = 'familia' and repuestos_fuente <> 'mediana_general'
                        and combustible_por_km is not null
                      group by all),
              pat as (select upper(d.cca_marca) marca, d.cca_modelo familia, median(p.patente_anual) p
@@ -253,6 +364,9 @@ def main():
     with open(os.path.join("exportar", "sitios_oficiales.csv"), encoding="utf-8") as f:
         oficiales = {f"{r['marca']}|{r['familia']}": {"alcance": r["alcance"], "url": r["url"]} for r in csv.DictReader(f)}
     tamanios["oficiales.json"] = escribir("oficiales.json", oficiales)
+
+    # ---------- miauto/ ----------
+    tamanios.update(exportar_mi_auto(con, provincias, precio, carro))
 
     # ---------- meta.json ----------
     meta = {
