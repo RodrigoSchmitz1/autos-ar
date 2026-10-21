@@ -69,7 +69,9 @@ marcas as (
                 when regexp_matches(t, '\b(original(es)?|orig|oem|mopar)\b') then 'Original'
                 when regexp_matches(t, '\bfric ?rot\b') then 'Fric-Rot'
                 when regexp_matches(t, '\bhipper\b') then 'Hipper Freios'
-                when marca_titulo in ('skf', 'ina', 'lpr', 'vmg', 'phc', 'trw', 'ngk', 'kyb', 'ans', 'wix') then upper(marca_titulo)
+                -- Escritas como en Repuestos Express, para que la misma marca sume junta.
+                when marca_titulo = 'acdelco' then 'ACDelco'
+                when marca_titulo in ('skf', 'ina', 'lpr', 'vmg', 'phc', 'trw', 'ngk', 'kyb', 'ans', 'wix', 'luk') then upper(marca_titulo)
                 when marca_titulo is not null then upper(marca_titulo[1]) || marca_titulo[2:]
                 else 'Alternativo'
             end

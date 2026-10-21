@@ -87,6 +87,24 @@
     .ranking-fila .pista span { display: block; height: 100%; border-radius: 99px; }
     .tarjeta > h3 { font-size: 13px; font-weight: 500; color: var(--suave); margin-bottom: 6px; }
 
+    /* Marcas: barra que crece a la izquierda (mas barata) o a la derecha (mas cara) del precio tipico */
+    .marca-fila { display: grid; grid-template-columns: 112px 1fr 64px; gap: 12px; align-items: center; padding: 9px 0; font-size: 14px;
+      border-top: 1px solid var(--linea); }
+    .marca-fila:first-of-type { border-top: 0; }
+    .marca-fila small { display: block; font-size: 11px; color: var(--tenue); }
+    .marca-fila b { text-align: right; font-weight: 500; font-variant-numeric: tabular-nums; }
+    .marca-fila.barata b { color: var(--service); }
+    .marca-fila.cara b { color: var(--repuestos); }
+    .marca-fila.orig span:first-child { color: var(--repuestos); }
+    .eje { position: relative; height: 8px; }
+    .eje::before { content: ""; position: absolute; left: 50%; top: -6px; bottom: -6px; width: 1px; background: var(--linea-2); }
+    .eje span { position: absolute; top: 0; height: 100%; border-radius: 99px; }
+    .marca-fila.barata .eje span { background: var(--service); }
+    .marca-fila.cara .eje span { background: var(--repuestos); }
+    .marca-fila.igual .eje span { background: var(--tenue); }
+    .eje-titulos { display: grid; grid-template-columns: 112px 1fr 64px; gap: 12px; font-size: 11px; color: var(--tenue); margin-bottom: 4px; }
+    .eje-titulos div { display: flex; justify-content: space-between; }
+
     .destacado-cifra { font-size: 56px; font-weight: 300; letter-spacing: -.04em; line-height: 1; margin-top: 8px; }
     .destacado-cifra small { font-size: 18px; color: var(--suave); letter-spacing: 0; }
     .ejemplo { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 10px 0; border-top: 1px solid var(--linea); font-size: 14px; }
@@ -101,6 +119,7 @@
       .modelo { grid-template-columns: 1.4fr 1fr; align-items: start; }
       .dos { grid-template-columns: 1fr 1fr; }
       .chips-piezas { margin: 16px 0 0; padding: 0 0 4px; flex-wrap: wrap; }
+      .marca-fila, .eje-titulos { grid-template-columns: 170px 1fr 64px; }
     }
   </style>
 </head>
@@ -141,6 +160,13 @@
       <h2>Lo que se gasta en repuestos</h2>
       <p>Frenos, amortiguadores, distribución y embrague, con sus intervalos de cambio habituales, para 1.250 km por mes. Solo modelos con precio relevado de la mayoría de las piezas y más de 1.000 trámites en el año.</p>
       <div class="dos" id="ranking-km"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>¿Qué marca conviene?</h2>
+      <p>Cuánto cuesta cada marca contra el precio típico de la misma pieza para el mismo modelo, en la misma tienda. Así no se mezcla una marca que vende sobre todo para camionetas con una de autos chicos.</p>
+      <div class="chips-piezas" id="chips-marcas"></div>
+      <div class="tarjeta" id="marcas" style="margin-top:16px;max-width:760px"></div>
     </section>
 
     <section class="seccion">

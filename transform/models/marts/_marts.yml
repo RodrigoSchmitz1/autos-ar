@@ -142,6 +142,21 @@ models:
       - name: veces_mas_caro_original
         data_tests: [not_null]
 
+  - name: mart_repuestos_marcas
+    description: Precio de cada marca de repuesto contra el tipico de la misma pieza y modelo (indice 1 = tipico).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [tipo_pieza, marca]
+    columns:
+      - name: indice
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: false
+
   - name: mart_costo_componentes
     description: Costos unitarios de tener cada auto 0 km (combustible, service, repuestos, patente, depreciacion), por version y provincia.
     data_tests:

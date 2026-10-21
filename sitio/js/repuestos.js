@@ -164,6 +164,27 @@ function rankingKm() {
   dosListas($("ranking-km"), filas, ["Los que menos gastan, por mes", "Los que más gastan, por mes"]);
 }
 
+// Escala de las barras: de la mitad del precio tipico (izquierda) al doble (derecha),
+// en escala logaritmica para que "-50%" y "x2" midan lo mismo.
+function rankingMarcas(tipo) {
+  document.querySelectorAll("#chips-marcas .chip").forEach((c) => c.classList.toggle("on", c.dataset.tipo === tipo));
+  const lado = (x) => Math.max(-1, Math.min(1, Math.log2(x)));
+  const texto = (x) => Math.abs(x - 1) < 0.05 ? "igual" : x < 1 ? `−${Math.round((1 - x) * 100)}%`
+    : x >= 2 ? `×${x.toFixed(1).replace(".", ",")}` : `+${Math.round((x - 1) * 100)}%`;
+  poner($("marcas"),
+    el("div", { class: "eje-titulos" }, el("span"), el("div", {}, el("span", { text: "más barata" }), el("span", { text: "típico" }), el("span", { text: "más cara" })), el("span")),
+    datos.marcas[tipo].map(([marca, x, productos, familias]) => {
+      const d = lado(x) * 50;
+      const clase = Math.abs(x - 1) < 0.05 ? "igual" : x < 1 ? "barata" : "cara";
+      return el("div", { class: `marca-fila ${clase}${marca === "Original" ? " orig" : ""}` },
+        el("span", {}, marca, el("small", { text: `${productos} productos · ${familias} modelos` })),
+        el("div", { class: "eje" }, el("span", { style: d < 0 ? `left:${50 + d}%;width:${-d}%` : `left:50%;width:${Math.max(d, 1)}%` })),
+        el("b", { text: texto(x) }));
+    }),
+    el("p", { class: "nota", text: "Cada producto se divide por el precio mediano de los alternativos para ese modelo y pieza en la misma tienda; la marca muestra la mediana de esos cocientes. "
+      + "\"Sin marca\": los que la tienda no identifica (importados). El precio no dice nada de la calidad." }));
+}
+
 function comparables() {
   const c = datos.comparables;
   $("b-comparables").textContent = `En ${c.piezas} repuestos Repuestos Express vende la misma pieza (mismo código) en calidad original y alternativa: así se puede comparar el precio sin mezclar piezas distintas.`;
@@ -193,6 +214,11 @@ async function iniciar() {
   poner($("chips-piezas"), tipos.map((t) => el("button", { type: "button", class: "chip", "data-tipo": t, onclick: () => rankingPieza(t) }, PIEZAS[t] || t)));
   rankingPieza(tipos[0]);
   rankingKm();
+  const conMarcas = ORDEN.filter((t) => datos.marcas?.[t]);
+  poner($("chips-marcas"), conMarcas.map((t) => el("button", { type: "button", class: "chip", "data-tipo": t, onclick: () => rankingMarcas(t) }, PIEZAS[t] || t)));
+  // Arranca por la pieza donde mas cambia el precio entre marcas (sin contar el original).
+  const rango = (t) => { const x = datos.marcas[t].filter((m) => m[0] !== "Original").map((m) => m[1]); return Math.max(...x) / Math.min(...x); };
+  if (conMarcas.length) rankingMarcas(conMarcas.reduce((a, b) => (rango(b) > rango(a) ? b : a)));
   comparables();
 }
 

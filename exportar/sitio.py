@@ -126,8 +126,16 @@ def exportar_repuestos(con):
                 for t, tp, o, a, c, v in con.sql("""
         select titulo_original, tipo_pieza, precio_original, precio_alternativo_min, calidad_alternativa, veces_mas_caro_original
         from mart_repuestos_comparables where not revisar order by veces_mas_caro_original desc limit 12""").fetchall()]
+    # Precio de cada marca contra el tipico de la misma pieza y modelo; solo las
+    # piezas con 3 marcas o mas para comparar (sin contar los originales).
+    marcas = {}
+    for tipo, marca, indice, productos, n in con.sql("""
+            select tipo_pieza, marca, indice, productos, familias from mart_repuestos_marcas
+            qualify count(*) filter (where marca <> 'Original') over (partition by tipo_pieza) >= 3
+            order by tipo_pieza, indice""").fetchall():
+        marcas.setdefault(tipo, []).append([marca, limpio(indice), int(productos), int(n)])
     return escribir("repuestos.json", {
-        "piezas": piezas, "intervalos": intervalos, "familias": list(familias.values()),
+        "piezas": piezas, "intervalos": intervalos, "familias": list(familias.values()), "marcas": marcas,
         "comparables": {"veces_mediana": limpio(comparables[0]), "piezas": int(comparables[1]), "ejemplos": ejemplos},
         "capturado": con.sql("select max(capturado) from mart_repuestos").fetchone()[0].isoformat()})
 
