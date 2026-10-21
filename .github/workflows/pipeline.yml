@@ -104,6 +104,10 @@ jobs:
         if: ${{ !cancelled() }}
         run: python -m ingesta.repuestos
 
+      - name: Ingesta repuestos (segunda tienda)
+        if: ${{ !cancelled() }}
+        run: python -m ingesta.repuestos_arg
+
       # Equipamiento por version (fichas tecnicas oficiales): como maximo una
       # consulta por semana; robots.txt se verifica en cada ficha.
       - name: Ingesta equipamiento

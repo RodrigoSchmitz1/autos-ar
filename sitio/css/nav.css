@@ -11,10 +11,10 @@
   display: grid; place-items: center; color: var(--suave); cursor: pointer; flex: none; }
 .icono-btn:hover { color: var(--texto); border-color: var(--linea-2); }
 
-.tabs { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 20; display: grid; grid-template-columns: repeat(5, 1fr);
+.tabs { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 20; display: grid; grid-template-columns: repeat(6, 1fr);
   background: rgba(16, 19, 24, .82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
   border: 1px solid var(--linea); border-radius: 22px; padding: 8px 6px; max-width: 520px; margin: 0 auto; }
-.tabs a { display: grid; justify-items: center; gap: 4px; font-size: 10.5px; color: var(--tenue); padding: 4px 0; }
+.tabs a { display: grid; justify-items: center; gap: 4px; font-size: 10px; letter-spacing: -.01em; color: var(--tenue); padding: 4px 0; }
 .tabs a.activo { color: var(--texto); }
 .tabs a.activo svg { color: var(--acento); }
 

@@ -89,6 +89,45 @@ def slug(marca, familia):
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 
+def exportar_repuestos(con):
+    """Pagina de repuestos: precio de cada pieza por modelo (original y alternativo),
+    el gasto en repuestos de desgaste por km de cada modelo y la comparacion de la
+    misma pieza original contra alternativa (mismo codigo, distinta calidad)."""
+    piezas = [{"tipo": t, "modelos": int(n), "alternativo": limpio(a), "original": limpio(o)} for t, n, a, o in con.sql("""
+        select tipo_pieza, count(distinct cca_marca || familia), median(precio_mediano_alternativo), median(precio_mediano_original)
+        from mart_repuestos group by 1 order by 2 desc""").fetchall()]
+    intervalos = {t: {"unidades": u, "km": km, "solo_manual": sm} for t, u, km, sm in con.sql(
+        "select tipo_pieza, unidades, intervalo_km, solo_manual from costo_repuestos_intervalos").fetchall()}
+    familias = {}
+    for marca, familia, tipo, orig, alt, n in con.sql("""
+            select upper(cca_marca), familia, tipo_pieza, precio_mediano_original, precio_mediano_alternativo, productos
+            from mart_repuestos order by 1, 2, 3""").fetchall():
+        f = familias.setdefault((marca, familia), {"marca": marca, "familia": familia, "slug": slug(marca, familia), "piezas": {}})
+        f["piezas"][tipo] = [limpio(orig), limpio(alt), int(n)]
+    # Gasto por km en repuestos de desgaste (caja manual: con embrague) y cuantas piezas
+    # tienen precio propio; y cuantos tramites tiene la familia (para no rankear rarezas).
+    for marca, familia, alt, orig, propias, total, tramites in con.sql("""
+            select m.marca, m.familia, m.repuestos_con_embrague, m.repuestos_original_con_embrague,
+                   m.piezas_propias_con_embrague, m.piezas_con_embrague,
+                   (select sum(tramites_12m) from mart_mantenimiento_version v
+                     where upper(v.cca_marca) = m.marca and v.cca_modelo = m.familia)
+            from int_mantenimiento_familia m where m.repuestos_con_embrague is not null""").fetchall():
+        f = familias.get((marca, familia))
+        if f:
+            f.update({"por_km": limpio(alt), "por_km_original": limpio(orig), "propias": int(propias), "de": int(total),
+                      "tramites": int(tramites or 0)})
+    comparables = con.sql("""
+        select median(veces_mas_caro_original), count(*) from mart_repuestos_comparables where not revisar""").fetchone()
+    ejemplos = [{"titulo": t, "tipo": tp, "original": limpio(o), "alternativo": limpio(a), "calidad": c, "veces": limpio(v)}
+                for t, tp, o, a, c, v in con.sql("""
+        select titulo_original, tipo_pieza, precio_original, precio_alternativo_min, calidad_alternativa, veces_mas_caro_original
+        from mart_repuestos_comparables where not revisar order by veces_mas_caro_original desc limit 12""").fetchall()]
+    return escribir("repuestos.json", {
+        "piezas": piezas, "intervalos": intervalos, "familias": list(familias.values()),
+        "comparables": {"veces_mediana": limpio(comparables[0]), "piezas": int(comparables[1]), "ejemplos": ejemplos},
+        "capturado": con.sql("select max(capturado) from mart_repuestos").fetchone()[0].isoformat()})
+
+
 def exportar_mi_auto(con, provincias, precio_litro, carro):
     """Datos de la pantalla "Mi auto" (cualquier auto que circula, nuevo o usado):
 
@@ -364,6 +403,9 @@ def main():
     with open(os.path.join("exportar", "sitios_oficiales.csv"), encoding="utf-8") as f:
         oficiales = {f"{r['marca']}|{r['familia']}": {"alcance": r["alcance"], "url": r["url"]} for r in csv.DictReader(f)}
     tamanios["oficiales.json"] = escribir("oficiales.json", oficiales)
+
+    # ---------- repuestos.json ----------
+    tamanios["repuestos.json"] = exportar_repuestos(con)
 
     # ---------- miauto/ ----------
     tamanios.update(exportar_mi_auto(con, provincias, precio, carro))

@@ -366,7 +366,7 @@ function dibujarRepuestos(v, odo) {
   }));
   poner($("otros-repuestos"), ...otros.sort((a, b) => (PIEZAS[a[0]] || a[0]).localeCompare(PIEZAS[b[0]] || b[0], "es"))
     .map(([t, p]) => el("span", {}, PIEZAS[t] || t, el("b", { text: pesos(p) }))));
-  $("nota-repuestos").textContent = `Precio mediano en la tienda relevada (Repuestos Express), ${estado.o ? "original" : "alternativo (si no hay, el original)"}. `
+  $("nota-repuestos").textContent = `Precio mediano en las tiendas relevadas (Repuestos Express y ARG Autopartes),${estado.o ? "original" : "alternativo (si no hay, el original)"}. `
     + "Intervalos de cambio habituales; dependen del uso."
     + (conIntervalo.some((r) => r.promedio) ? " \"Precio promedio\": no relevamos esa pieza para este modelo y usamos el precio mediano de todos." : "") + (otros.length ? " Abajo, otros repuestos de este modelo (filtros y bujías van en el service)." : "");
 }
