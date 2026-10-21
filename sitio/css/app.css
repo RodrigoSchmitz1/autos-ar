@@ -107,6 +107,8 @@ input[type=range] { width: 100%; accent-color: var(--acento); }
 .fila .der { text-align: right; }
 .fila .der strong { font-size: 15px; font-weight: 500; display: block; white-space: nowrap; }
 .fila .der small { font-size: 12px; color: var(--tenue); white-space: nowrap; }
+a.fila { text-decoration: none; color: inherit; }
+a.fila:hover h3 { color: var(--acento); }
 .pildora { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 99px; background: rgba(255, 107, 133, .12);
   color: var(--repuestos); margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
 .pildora.lejos { background: rgba(255, 255, 255, .05); color: var(--suave); }

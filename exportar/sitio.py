@@ -11,6 +11,9 @@ que el pipeline regenera cada dia despues de dbt. La "API" son los archivos.
   costo.json       componentes del costo de cada version 0 km (comparador)
   fichas.json      por familia: depreciacion, service, repuestos, mercado
   oficiales.json   pagina oficial de cada modelo (enlace al 360 y configurador)
+  repuestos.json   precio de cada pieza por familia, gasto por km, comparables
+  repuestos/<slug>.json  productos de cada pieza de una familia (tienda, enlace)
+  miauto/          una por familia para la pantalla "Mi auto"
   equipamiento.json  por familia con ficha oficial: versiones en orden (con
                    precio 0 km), tabla de equipamiento y que suma cada version
 
@@ -116,6 +119,7 @@ def exportar_repuestos(con):
         if f:
             f.update({"por_km": limpio(alt), "por_km_original": limpio(orig), "propias": int(propias), "de": int(total),
                       "tramites": int(tramites or 0)})
+    exportar_ofertas(con, {f["slug"]: f for f in familias.values()})
     comparables = con.sql("""
         select median(veces_mas_caro_original), count(*) from mart_repuestos_comparables where not revisar""").fetchone()
     ejemplos = [{"titulo": t, "tipo": tp, "original": limpio(o), "alternativo": limpio(a), "calidad": c, "veces": limpio(v)}
@@ -126,6 +130,40 @@ def exportar_repuestos(con):
         "piezas": piezas, "intervalos": intervalos, "familias": list(familias.values()),
         "comparables": {"veces_mediana": limpio(comparables[0]), "piezas": int(comparables[1]), "ejemplos": ejemplos},
         "capturado": con.sql("select max(capturado) from mart_repuestos").fetchone()[0].isoformat()})
+
+
+OFERTAS_ALTERNATIVAS = 8
+OFERTAS_ORIGINALES = 4
+
+
+def exportar_ofertas(con, por_slug):
+    """repuestos/<slug>.json: los productos de cada pieza de una familia, para
+    ver de donde sale el precio mediano y donde comprarlo. Por pieza, los
+    alternativos y los originales mas baratos (precio por unidad), con la
+    tienda y el enlace al producto. Se baja solo el del modelo elegido."""
+    import urllib.parse
+    carpeta = os.path.join(DESTINO, "repuestos")
+    os.makedirs(carpeta, exist_ok=True)
+    ofertas = {}
+    for marca, familia, tipo, tienda, sku, titulo, calidad, precio, unidades, url in con.sql(f"""
+            with p as (
+                select upper(m.cca_marca) marca, m.familia, r.tipo_pieza, r.tienda, r.sku, r.titulo, r.calidad,
+                       r.precio, r.unidades, r.url, r.es_original,
+                       row_number() over (partition by m.cca_marca, m.familia, r.tipo_pieza, r.es_original
+                                          order by r.precio, r.sku) n
+                from stg_repuestos__productos r join int_repuesto_modelos m using (sku)
+                where r.es_vigente and r.tipo_pieza <> 'otro')
+            select marca, familia, tipo_pieza, tienda, sku, titulo, calidad, precio, unidades, url from p
+            where n <= case when es_original then {OFERTAS_ORIGINALES} else {OFERTAS_ALTERNATIVAS} end
+            order by marca, familia, tipo_pieza, precio""").fetchall():
+        if tienda == "rex":
+            # Repuestos Express no publica el enlace aparte: es /producto/<sku>.
+            url = "https://repuestos-express.com/producto/" + urllib.parse.quote(sku, safe="")
+        piezas = ofertas.setdefault(slug(marca, familia), {})
+        piezas.setdefault(tipo, []).append([tienda, titulo, calidad, limpio(precio), int(unidades), url])
+    for s, piezas in ofertas.items():
+        if s in por_slug:
+            escribir(os.path.join("repuestos", f"{s}.json"), piezas)
 
 
 def exportar_mi_auto(con, provincias, precio_litro, carro):

@@ -45,7 +45,8 @@ function elegir(f, { desplazar = false } = {}) {
       el("p", { text: `${Object.keys(f.piezas).length} repuestos con precio relevado` })));
 
   const piezas = Object.entries(f.piezas).sort((a, b) => orden(a[0]) - orden(b[0]));
-  poner($("lista-piezas"), piezas.map(([tipo, [orig, alt]]) => {
+  const ofertas = cargar(`repuestos/${f.slug}.json`).catch(() => ({}));
+  poner($("lista-piezas"), piezas.map(([tipo, [orig, alt, n]]) => {
     const max = Math.max(orig || 0, alt || 0);
     const fila = (clase, nombre, x) => el("div", { class: `par-fila ${clase}${x ? "" : " sd"}` },
       el("span", { text: nombre }), el("div", { class: "par-pista" }, el("span", { style: `width:${x ? x / max * 100 : 0}%` })),
@@ -54,7 +55,8 @@ function elegir(f, { desplazar = false } = {}) {
     return el("div", { class: "pieza" },
       el("h3", {}, PIEZAS[tipo] || tipo, el("small", { text: cadaCuanto(tipo) })),
       el("span", { class: "veces", text: veces ? `original ×${veces.toFixed(1).replace(".", ",")}` : "" }),
-      el("div", { class: "par" }, fila("alt", "Alternativo", alt), fila("orig", "Original", orig)));
+      el("div", { class: "par" }, fila("alt", "Alternativo", alt), fila("orig", "Original", orig)),
+      detalleOfertas(tipo, n, ofertas));
   }));
   $("nota-modelo").textContent = `Precio mediano por pieza en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${fecha(datos.capturado)}. `
     + "Discos, campanas, amortiguadores y bujías, por unidad (los que se venden de a par se dividen); pastillas y kits, por juego.";
@@ -73,7 +75,36 @@ function elegir(f, { desplazar = false } = {}) {
     poner(r, el("h2", {}, "Gasto en repuestos"), el("p", { class: "sub", text: "Sin piezas de desgaste relevadas para este modelo." }),
       el("div", { class: "chips" }, el("a", { class: "boton", href: `mi-auto.html?m=${f.slug}` }, "Todo lo que cuesta mantenerlo")));
   }
-  if (desplazar) $("modelo").scrollIntoView({ behavior: "smooth", block: "start" });
+  // ?p=<tipo>: abre los productos de esa pieza (enlace directo a una pieza).
+  const abrir = new URLSearchParams(location.search).get("p");
+  const pieza = abrir && $("lista-piezas").querySelector(`.detalle-ofertas[data-tipo="${CSS.escape(abrir)}"]`);
+  if (pieza) {
+    pieza.open = true;
+    pieza.closest(".pieza").scrollIntoView({ block: "start" });
+  } else if (desplazar) $("modelo").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+// Los productos de una pieza (datos/repuestos/<slug>.json): se dibujan al abrir.
+const TIENDAS = { rex: "Repuestos Express", arg: "ARG Autopartes" };
+const PARES = { 2: "el par", 4: "el juego de 4" };
+
+function detalleOfertas(tipo, n, ofertas) {
+  const lista = el("div", { class: "ofertas" });
+  const detalle = el("details", { class: "detalle-ofertas", "data-tipo": tipo },
+    el("summary", { text: n > 1 ? `Ver los ${n} productos` : "Ver el producto" }), lista);
+  detalle.addEventListener("toggle", async () => {
+    if (!detalle.open || lista.childElementCount) return;
+    const productos = (await ofertas)[tipo] || [];
+    poner(lista, productos.map(([tienda, titulo, calidad, precio, unidades, url]) =>
+      el("a", { class: "oferta", href: url, target: "_blank", rel: "noopener" },
+        el("span", { class: "titulo", text: titulo }),
+        el("b", { text: pesos(precio) }),
+        el("small", {}, el("span", { class: calidad === "Original" ? "sello orig" : "sello", text: calidad }),
+          ` ${TIENDAS[tienda] || tienda}`, unidades > 1 ? ` · ${pesos(precio * unidades)} ${PARES[unidades] || `x${unidades}`}` : ""),
+        el("span", { class: "flecha", "aria-hidden": "true", text: "↗" }))),
+      productos.length < n ? el("p", { class: "nota", text: `Los ${productos.length} más baratos de cada calidad, precio por unidad.` }) : null);
+  });
+  return detalle;
 }
 
 // ---------- Buscador ----------

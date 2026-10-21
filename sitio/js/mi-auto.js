@@ -359,15 +359,18 @@ function dibujarRepuestos(v, odo) {
     icono.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">${ICONOS[ICONO_PIEZA[r.tipo] || "motor"]}</svg>`;
     const otro = r.promedio ? "precio promedio" : estado.o ? (r.orig ? null : "no hay original")
       : (r.orig && r.alt ? `original ${pesos(r.orig * r.i.unidades)}` : null);
-    return el("div", { class: "fila" }, icono,
+    // Con precio propio, la fila lleva a los productos de esa pieza en Repuestos.
+    const atributos = r.promedio ? { class: "fila" }
+      : { class: "fila enlace", href: `repuestos.html?m=${estado.m}&p=${r.tipo}`, title: "Ver los productos y dónde comprarlo" };
+    return el(r.promedio ? "div" : "a", atributos, icono,
       el("div", {}, el("h3", {}, PIEZAS[r.tipo] || r.tipo, el("span", { class: `pildora ${clase}`, text: cuando })),
         el("p", { text: `Cada ${numero(r.i.km)} km${r.i.unidades > 1 ? ` · ${r.i.unidades} unidades` : ""} · a los ${numero(r.proximo)} km` })),
       el("div", { class: "der" }, el("strong", { text: pesos(r.precio * r.i.unidades) }), otro ? el("small", { text: otro }) : null));
   }));
   poner($("otros-repuestos"), ...otros.sort((a, b) => (PIEZAS[a[0]] || a[0]).localeCompare(PIEZAS[b[0]] || b[0], "es"))
     .map(([t, p]) => el("span", {}, PIEZAS[t] || t, el("b", { text: pesos(p) }))));
-  $("nota-repuestos").textContent = `Precio mediano en las tiendas relevadas (Repuestos Express y ARG Autopartes),${estado.o ? "original" : "alternativo (si no hay, el original)"}. `
-    + "Intervalos de cambio habituales; dependen del uso."
+  $("nota-repuestos").textContent = `Precio mediano en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${estado.o ? "original" : "alternativo (si no hay, el original)"}. `
+    + "Intervalos de cambio habituales; dependen del uso. Tocá un repuesto para ver los productos y dónde comprarlo."
     + (conIntervalo.some((r) => r.promedio) ? " \"Precio promedio\": no relevamos esa pieza para este modelo y usamos el precio mediano de todos." : "") + (otros.length ? " Abajo, otros repuestos de este modelo (filtros y bujías van en el service)." : "");
 }
 
