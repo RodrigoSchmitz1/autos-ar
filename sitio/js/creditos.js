@@ -1,5 +1,6 @@
 import { el, pie } from "./comun.js";
 import { cargarFotos, foto, tieneRecorte } from "./autos.js";
+import { navegacion } from "./nav.js";
 
 function fila(marca, familia, vista, f, miniatura) {
   return el("tr", {},
@@ -33,4 +34,5 @@ async function iniciar() {
 }
 
 iniciar();
+navegacion();
 pie();

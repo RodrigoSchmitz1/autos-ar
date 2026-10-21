@@ -1,8 +1,9 @@
-import { cargar, objetos, pesos, numero, decimal, millones, el, coincide, pie, PIEZAS } from "./comun.js";
-import { cargarFotos, foto, recorte, variantes, datosFoto, colorDe } from "./autos.js";
+import { cargar, objetos, pesos, numero, decimal, millones, el, coincide, pie, PIEZAS, slugModelo } from "./comun.js";
+import { cargarFotos, foto, recorte, variantes, datosFoto, colorDe, fotoGaleria } from "./autos.js";
 import { seccionVersiones } from "./versiones.js";
-import { cargarMedios, seccionGaleria, enlaceOficial } from "./galeria.js";
+import { cargarMedios, seccionGaleria, enlaceOficial, tieneInterior } from "./galeria.js";
 import { nombreFamilia } from "./respuesta.js";
+import { navegacion } from "./nav.js";
 
 const $ = (id) => document.getElementById(id);
 const SVG = "http://www.w3.org/2000/svg";
@@ -92,7 +93,8 @@ function hero(f) {
         el("h1", { text: nombreFamilia(f.marca, f.familia).slice(f.marca.length + 1) }),
         desde ? el("p", { class: "hero-precio" }, "0 km desde ", el("strong", { text: millones(desde) })) : null,
         el("div", { class: "hero-acciones" },
-          el("a", { class: "boton", href: "#versiones", text: "Ver versiones" }),
+          el("a", { class: "boton", href: `mi-auto.html?m=${slugModelo(f.marca, f.familia)}`, text: "¿Lo tenés? Calculá cuánto te cuesta" }),
+          el("a", { class: "boton boton-vidrio", href: "#versiones", text: "Ver versiones" }),
           oficial ? el("a", { class: "boton boton-vidrio", href: oficial.url, target: "_blank", rel: "noopener", text: oficial.texto }) : null)),
       el("div", { class: "hero-auto" }, imagen, el("div", { class: "hero-sombra", "aria-hidden": "true" }))),
     datos.length ? el("div", { class: "hero-datos" }, datos.map(([t, v, d]) =>
@@ -120,11 +122,11 @@ function mostrar(f) {
   const bloques = [];
 
   const galeria = seccionGaleria(f.marca, f.familia);
-  if (galeria.length) bloques.push(bloque("galeria", "Galería", "Por fuera y por dentro", null, ...galeria));
+  if (galeria.length) bloques.push(bloque("galeria", "Galería", tieneInterior(f.marca, f.familia) ? "Por fuera y por dentro" : "Por fuera", null, ...galeria));
 
   const versiones = seccionVersiones(equipamiento[`${f.marca}|${f.familia}`],
-    // Cada version con un auto de otro color, si hay; la primera distinta de la del hero.
-    (i) => recorte(f.marca, f.familia, "", variantes(f.marca, f.familia) > 1 ? i + 1 : 0) || foto(f.marca, f.familia));
+    // Cada version con otra foto de la galeria (entera: el recorte en chico parece pegado).
+    (i) => fotoGaleria(f.marca, f.familia, i));
   if (versiones.length) bloques.push(bloque("versiones", "Versiones", "Qué suma cada versión", ...versiones.slice(1)));
 
   if (f.depreciacion) {
@@ -201,4 +203,5 @@ async function iniciar() {
 }
 
 iniciar().catch((e) => { $("estado").textContent = `No se pudieron cargar los datos: ${e.message}`; });
+navegacion();
 pie();

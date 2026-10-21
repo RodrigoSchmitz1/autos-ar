@@ -56,6 +56,10 @@ export function el(tag, atributos = {}, ...hijos) {
   return e;
 }
 
+// Nombre del archivo de cada modelo en datos/miauto/ (el mismo que exportar/sitio.py).
+export const slugModelo = (marca, familia) => `${marca} ${familia}`.normalize("NFKD").replace(/[̀-ͯ]/g, "")
+  .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 // Busqueda tolerante: todas las palabras, sin tildes ni mayusculas.
 export function normalizar(t) {
   return (t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();

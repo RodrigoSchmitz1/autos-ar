@@ -5,9 +5,11 @@
 
 import { calcular, componentes, proporcionConservada } from "./costo.js";
 import { cargar, objetos, pesos, numero, millones, decimal, el, coincide, normalizar, pie } from "./comun.js";
-import { cargarFotos, foto, recorte } from "./autos.js";
+import { cargarFotos, foto, recorte, datosFoto } from "./autos.js";
 import { seccionEquipamiento, fichaDe } from "./equipamiento.js";
 import { nombreFamilia } from "./respuesta.js";
+import { navegacion } from "./nav.js";
+import { barraApilada, leyendaCompacta } from "./graficos.js";
 
 const MAXIMO = 4;
 const COLORES = ["#3a5bdc", "#ef476f", "#06a77d", "#fb8500"];
@@ -68,11 +70,13 @@ function tarjetaAuto(v, i) {
     fam.versiones.map((x) => el("option", { value: x.id, text: `${nombreVersion(x)}${x.valor_0km ? ` · ${millones(x.valor_0km)}` : ""}` })));
   elegir.value = v.id;
   elegir.addEventListener("change", () => { elegidas[i] = versiones.find((x) => x.id === elegir.value); dibujar(); });
-  const imagen = recorte(v.marca, v.familia) || foto(v.marca, v.familia);
+  // La foto entera (en chico, el auto recortado parece pegado); sin foto, el recorte.
+  const completa = Boolean(datosFoto(v.marca, v.familia));
+  const imagen = completa ? foto(v.marca, v.familia) : recorte(v.marca, v.familia) || foto(v.marca, v.familia);
   return el("article", { class: "comp-auto", style: `--color:${COLORES[i]}` },
     el("button", { type: "button", class: "comp-quitar", "aria-label": `Quitar ${corto(v)}`, text: "×",
       onclick: () => { elegidas.splice(i, 1); dibujar(); } }),
-    el("a", { class: "comp-auto-foto", href: `ficha.html?m=${encodeURIComponent(clave(v))}`, title: `Ficha del ${corto(v)}` }, imagen),
+    el("a", { class: `comp-auto-foto${completa ? " foto-completa" : ""}`, href: `ficha.html?m=${encodeURIComponent(clave(v))}`, title: `Ficha del ${corto(v)}` }, imagen),
     el("p", { class: "comp-auto-marca", text: marcaLinda(v.marca) }),
     el("h2", { class: "comp-auto-nombre", text: corto(v).slice(v.marca.length + 1) }),
     el("p", { class: "comp-auto-precio" }, v.valor_0km ? ["0 km ", el("strong", { text: millones(v.valor_0km) })] : "sin precio de lista"),
@@ -132,7 +136,6 @@ function seccionCosto(filas, perfil) {
       el("p", { class: "comp-titular-grande" }, el("span", { text: pesos(dif * 12 * perfil.anios) }),
         ` de diferencia en ${perfil.anios} ${perfil.anios === 1 ? "año" : "años"} con ${numero(perfil.km_anio)} km por año.`));
   }
-  const maximo = Math.max(...completas.map((f) => f.k.mensual), 1);
   const menorMantener = Math.min(...completas.map((f) => f.mantener));
   const tarjetas = filas.map((f) => {
     if (!f.k.completo) {
@@ -145,16 +148,15 @@ function seccionCosto(filas, perfil) {
       mejor ? el("span", { class: "comp-medalla", text: "Más barato de mantener" }) : null,
       el("p", { class: "comp-costo-nombre", text: corto(f.v) }),
       el("p", { class: "comp-costo-mantener" }, el("strong", { text: pesos(f.mantener) }), el("span", { text: "por mes para mantenerlo" })),
-      el("div", { class: "barra comp-barra", style: `width:${Math.max(25, 100 * f.k.mensual / maximo)}%` },
-        PARTES.filter(([c]) => f.k[c] > 0).map(([c, n2, color]) => el("span", { title: `${n2}: ${pesos(f.k[c] / 12)} por mes`, style: `width:${100 * f.k[c] / f.k.anual}%;background:var(${color})` })),
-        el("span", { title: `Pérdida de valor: ${pesos(f.k.depreciacion_anual / 12)} por mes`, class: "rayado", style: `width:${100 * f.k.depreciacion_anual / f.k.anual}%` })),
+      // En que se va lo de mantenerlo (sin la perdida de valor, que va aparte abajo).
+      (() => {
+        const p = PARTES.map(([c, n2, color]) => ({ nombre: n2.replace(" oficial", ""), color: `var(${color})`, valor: f.k[c] }));
+        return el("div", { class: "gasto-mini" }, barraApilada(p, { clase: "chica" }), leyendaCompacta(p));
+      })(),
       el("p", { class: "comp-costo-detalle" }, "+ ", el("strong", { text: pesos(f.k.depreciacion_anual / 12) }), " por mes de pérdida de valor"),
       el("p", { class: "comp-costo-total" }, "Total ", el("strong", { text: pesos(f.k.mensual) }), ` /mes · ${pesos(f.k.por_km)} por km`),
       el("div", { class: "comp-avisos" }, avisos(f.v)));
   });
-  const leyenda = el("div", { class: "leyenda" },
-    PARTES.filter(([c]) => completas.some((f) => f.k[c] > 0)).map(([, n2, c]) => el("span", {}, el("i", { style: `background:var(${c})` }), n2)),
-    el("span", {}, el("i", { class: "rayado" }), "Pérdida de valor"));
 
   // Componente por componente: el mas barato de cada fila resaltado; los demas, cuanto mas.
   const filasTabla = [...PARTES.filter(([c]) => completas.some((f) => f.k[c] > 0)),
@@ -175,7 +177,7 @@ function seccionCosto(filas, perfil) {
 
   return bloque("costo", "Costo", "Cuánto cuesta tenerlo, por mes",
     `Con ${numero(perfil.km_anio)} km por año durante ${perfil.anios} ${perfil.anios === 1 ? "año" : "años"} en ${$("provincia").selectedOptions[0]?.text || ""}. Cambialo en la barra de arriba.`,
-    titular, columnas(n, ...tarjetas), leyenda,
+    titular, columnas(n, ...tarjetas),
     el("details", { class: "comp-detalle", open: true }, el("summary", { text: "Componente por componente (por mes)" }),
       el("div", { class: "tabla-scroll" }, el("div", { class: "comp-tabla-marco", style: `--n:${n}` }, tabla))));
 }
@@ -286,4 +288,5 @@ async function iniciar() {
 }
 
 iniciar().catch((e) => { $("estado").textContent = `No se pudieron cargar los datos: ${e.message}`; });
+navegacion();
 pie();

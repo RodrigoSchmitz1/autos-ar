@@ -2,84 +2,168 @@
 <html lang="es-AR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07090c">
   <title>Autos AR</title>
-  <meta name="description" content="Cuánto cuesta tener un auto en Argentina: los 0 km más vendidos, los usados que mejor conservan su valor y los más baratos de mantener.">
+  <meta name="description" content="Cuánto cuesta mantener un auto en Argentina: combustible, patente, service oficial y repuestos, para tu modelo, año y provincia.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
-  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/graficos.css">
+  <style>
+    /* ---------- Portada ---------- */
+    .portada { display: grid; gap: 8px; margin-top: 8px; }
+    .portada h1 { font-size: clamp(36px, 9vw, 60px); font-weight: 600; letter-spacing: -.04em; line-height: 1.02; margin-top: 10px; }
+    .portada h1 span { color: var(--acento); }
+    .portada .bajada { color: var(--suave); font-size: 16px; line-height: 1.5; margin-top: 14px; max-width: 520px; }
+    .acciones-portada { display: grid; gap: 10px; margin-top: 22px; max-width: 520px; }
+    .pregunta { display: flex; gap: 8px; background: var(--superficie); border: 1px solid var(--linea); border-radius: 16px; padding: 6px; }
+    .pregunta input { flex: 1; min-width: 0; background: transparent; border: 0; color: var(--texto); font: inherit; font-size: 15px; padding: 10px 10px; }
+    .pregunta input:focus { outline: none; }
+    .pregunta:focus-within { border-color: var(--acento); }
+    .pregunta .boton { padding: 10px 14px; border-radius: 11px; font-size: 14px; }
+
+    .escena { position: relative; height: 230px; margin: 6px -16px 0; overflow: hidden; }
+    .escena .brillo { position: absolute; inset: 0; background: radial-gradient(55% 60% at 50% 62%, color-mix(in srgb, var(--marca, var(--acento)) 30%, transparent), transparent 70%);
+      transition: background .8s; }
+    .escena::after { content: ""; position: absolute; left: 16%; right: 16%; bottom: 30px; height: 22px;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, .9), transparent); filter: blur(7px); }
+    .escena img { position: absolute; left: 50%; bottom: 30px; height: 70%; width: auto; max-width: 90%; object-fit: contain;
+      transform: translateX(-46%) scale(.96); opacity: 0; transition: opacity .7s, transform .9s; z-index: 1; }
+    .escena img.activa { opacity: 1; transform: translateX(-50%) scale(1); }
+    .escena-nombre { position: absolute; left: 16px; bottom: 6px; z-index: 2; font-size: 13px; color: var(--suave); }
+    .escena-nombre strong { display: block; color: var(--texto); font-size: 16px; font-weight: 600; }
+
+    .tu-auto { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; margin-top: 18px; text-decoration: none; }
+    .tu-auto p { font-size: 13px; color: var(--suave); }
+    .tu-auto strong { display: block; font-size: 17px; font-weight: 600; color: var(--texto); margin-top: 2px; }
+    .tu-auto .monto { text-align: right; font-size: 26px; font-weight: 300; letter-spacing: -.03em; }
+    .tu-auto .monto small { display: block; font-size: 12px; color: var(--suave); letter-spacing: 0; }
+
+    /* ---------- Secciones y carruseles ---------- */
+    .seccion { margin-top: 42px; }
+    .seccion-cabeza { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; }
+    .flechas { display: none; gap: 8px; flex: none; }
+    .flechas button { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--linea); background: var(--superficie);
+      color: var(--suave); cursor: pointer; display: grid; place-items: center; }
+    .flechas button:hover { color: var(--texto); border-color: var(--linea-2); }
+    .seccion-cabeza h2 { font-size: 22px; font-weight: 600; letter-spacing: -.02em; }
+    .seccion-cabeza p { color: var(--suave); font-size: 14px; margin-top: 6px; line-height: 1.45; max-width: 640px; }
+    .carrusel { display: grid; grid-auto-flow: column; grid-auto-columns: 78%; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+      margin: 16px -16px 0; padding: 0 16px 6px; scroll-padding-inline: 16px; scrollbar-width: none; scroll-behavior: smooth; }
+    .carrusel::-webkit-scrollbar { display: none; }
+    .ficha-auto { scroll-snap-align: start; background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); overflow: hidden;
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      display: grid; text-decoration: none; transition: border-color .2s, transform .2s; }
+    .ficha-auto:hover { border-color: var(--linea-2); transform: translateY(-2px); }
+    .estudio { position: relative; height: 170px; background: var(--superficie-2); overflow: hidden; }
+    .estudio::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+      background: linear-gradient(180deg, rgba(7, 9, 12, .25), transparent 30%, transparent 55%, rgba(7, 9, 12, .55)); }
+    .estudio img.recorte { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); height: 78%; width: auto; max-width: 90%; object-fit: contain; }
+    .estudio img.foto-auto { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
+    .ficha-auto:hover .estudio img.foto-auto { transform: scale(1.04); }
+    .estudio .sin-foto { position: absolute; inset: 0; display: grid; place-items: center; background: none !important; }
+    .estudio .sin-foto span { color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, .25); font-weight: 700; font-size: 22px; letter-spacing: .08em; }
+    .puesto { position: absolute; top: 12px; left: 12px; z-index: 1; width: 28px; height: 28px; border-radius: 9px; background: rgba(7, 9, 12, .55);
+      border: 1px solid rgba(255, 255, 255, .14);
+      backdrop-filter: blur(6px); display: grid; place-items: center; font-size: 13px; font-weight: 600; }
+    .ficha-cuerpo { padding: 14px 16px 16px; }
+    .ficha-cuerpo .marca-auto { font-size: 12px; color: var(--suave); text-transform: uppercase; letter-spacing: .1em; }
+    .ficha-cuerpo .nombre { font-size: 18px; font-weight: 600; letter-spacing: -.01em; margin-top: 2px; }
+    .ficha-cuerpo .dato { font-size: 24px; font-weight: 300; letter-spacing: -.03em; margin-top: 10px; }
+    .ficha-cuerpo .dato small { font-size: 13px; color: var(--suave); letter-spacing: 0; }
+    .ficha-cuerpo .detalle { font-size: 12px; color: var(--tenue); margin-top: 6px; line-height: 1.4; }
+    .medidor { height: 6px; border-radius: 99px; background: var(--superficie-3); margin-top: 10px; overflow: hidden; display: flex; gap: 2px; }
+    .medidor span { display: block; height: 100%; border-radius: 99px; }
+
+    .nafta { display: grid; gap: 9px; }
+    .nafta .fila-n { display: grid; grid-template-columns: 112px 1fr 76px; gap: 10px; align-items: center; font-size: 13px; }
+    .nafta .fila-n span:first-child { color: var(--suave); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .nafta .pista { height: 8px; border-radius: 99px; background: var(--superficie-3); overflow: hidden; }
+    .nafta .pista span { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, #9a6a15, var(--combustible)); }
+    .nafta .valor { text-align: right; font-weight: 500; }
+
+    @media (min-width: 720px) {
+      .carrusel { grid-auto-columns: calc((100% - 36px) / 4); margin: 16px 0 0; padding: 0 0 6px; scroll-padding-inline: 0; }
+      .flechas { display: flex; }
+    }
+    @media (min-width: 960px) {
+      .portada { grid-template-columns: 1fr 1.05fr; align-items: center; gap: 24px; margin-top: 28px; }
+      .escena { height: 380px; margin: 0; border-radius: 28px; }
+      .escena-nombre { left: 24px; bottom: 18px; }
+      .seccion { margin-top: 56px; }
+      .nafta { grid-template-columns: 1fr 1fr; column-gap: 40px; }
+    }
+  </style>
 </head>
-<body class="pagina-inicio">
-  <header>
-    <nav>
-      <a class="marca" href="index.html">Autos<span>AR</span></a>
-      <a href="index.html" aria-current="page">Inicio</a>
-      <a href="mi-auto.html">Mi auto</a>
-      <a href="asistente.html">Asistente</a>
-      <a href="comparador.html">Comparador</a>
-      <a href="ficha.html">Modelos</a>
-    </nav>
-    <div class="portada">
+<body>
+  <div class="app">
+    <header class="barra-nav" data-pagina="inicio"></header>
+
+    <section class="portada">
       <div>
-        <h1>¿Cuánto cuesta tener un auto en Argentina?</h1>
-        <p>Combustible, service oficial, repuestos, patente y cuánto valor pierde con los años: modelo por modelo y provincia por provincia, con datos públicos que se actualizan solos.</p>
-        <form class="pregunta-portada" action="asistente.html" method="get">
-          <input name="q" type="text" maxlength="300" placeholder="Preguntá: ¿cronos o polo? hago 15.000 km por año en Córdoba" aria-label="Preguntale al asistente">
-          <button type="submit" class="boton">Preguntar</button>
-        </form>
-        <a class="enlace-claro" href="comparador.html">O compará modelos a mano →</a>
-      </div>
-      <div class="autos" id="autos-portada"></div>
-    </div>
-  </header>
-
-  <main>
-    <section class="seccion" aria-labelledby="t-vendidos">
-      <div class="seccion-titulo">
-        <div class="icono" style="background:var(--s-vendidos)">1</div>
-        <div>
-          <h2 id="t-vendidos">Los 0 km más vendidos</h2>
-          <p class="bajada" id="b-vendidos">Patentamientos de los últimos 12 meses en todo el país.</p>
+        <p class="etiqueta">Combustible · patente · service · repuestos</p>
+        <h1>¿Cuánto te cuesta <span>tu auto</span>?</h1>
+        <p class="bajada">Para tu modelo, tu año y tu provincia, con datos públicos que se actualizan solos: lo que gastás por mes, cuándo toca el próximo service y cuánto salen los repuestos.</p>
+        <div class="acciones-portada">
+          <a class="boton" href="mi-auto.html">Calculá el de tu auto</a>
+          <form class="pregunta" action="asistente.html" method="get">
+            <input name="q" type="text" maxlength="300" placeholder="O preguntá: ¿cronos o polo para 15.000 km?" aria-label="Preguntale al asistente">
+            <button type="submit" class="boton secundario">Preguntar</button>
+          </form>
         </div>
+        <a class="tarjeta tu-auto oculto" id="tu-auto"></a>
       </div>
-      <div class="ranking" id="vendidos"></div>
+      <div class="escena" id="escena"><div class="brillo"></div></div>
     </section>
 
-    <section class="seccion" aria-labelledby="t-conservan">
-      <div class="seccion-titulo">
-        <div class="icono" style="background:var(--s-conservan)">2</div>
+    <section class="seccion">
+      <div class="seccion-cabeza">
         <div>
-          <h2 id="t-conservan">Los usados que mejor conservan su valor</h2>
-          <p class="bajada">Qué parte del precio de un 0 km vale el mismo modelo con 5 años, según la guía de precios de usados. Solo modelos con más de 5.000 ventas de usados por año.</p>
+          <h2>Los usados más baratos de mantener</h2>
+          <p>Un usado de 5 años en Buenos Aires con 15.000 km por año: combustible, service oficial, repuestos y patente, por mes.</p>
         </div>
+        <div class="flechas" data-carrusel="mantener"><button type="button" aria-label="Anteriores" data-dir="-1">&#8592;</button><button type="button" aria-label="Siguientes" data-dir="1">&#8594;</button></div>
       </div>
-      <div class="ranking" id="conservan"></div>
+      <div class="carrusel" id="mantener"></div>
     </section>
 
-    <section class="seccion" aria-labelledby="t-mantener">
-      <div class="seccion-titulo">
-        <div class="icono" style="background:var(--s-mantener)">3</div>
+    <section class="seccion">
+      <div class="seccion-cabeza">
         <div>
-          <h2 id="t-mantener">Los usados más baratos de mantener</h2>
-          <p class="bajada">Un usado de 5 años en Buenos Aires con 15.000 km por año: combustible, service oficial, repuestos de desgaste y patente, por mes.</p>
+          <h2>Los 0 km más vendidos</h2>
+          <p id="b-vendidos">Patentamientos de los últimos 12 meses en todo el país.</p>
         </div>
+        <div class="flechas" data-carrusel="vendidos"><button type="button" aria-label="Anteriores" data-dir="-1">&#8592;</button><button type="button" aria-label="Siguientes" data-dir="1">&#8594;</button></div>
       </div>
-      <div class="ranking" id="mantener"></div>
+      <div class="carrusel" id="vendidos"></div>
     </section>
 
-    <section class="seccion" aria-labelledby="t-combustible">
-      <div class="seccion-titulo">
-        <div class="icono" style="background:var(--s-combustible)">4</div>
+    <section class="seccion">
+      <div class="seccion-cabeza">
         <div>
-          <h2 id="t-combustible">La nafta, provincia por provincia</h2>
-          <p class="bajada" id="b-combustible">Precio promedio de la nafta súper por litro, ponderado por lo que vende cada estación.</p>
+          <h2>Los que mejor conservan su valor</h2>
+          <p>Qué parte del precio del 0 km vale el mismo modelo con 5 años. Solo modelos con más de 5.000 usados vendidos por año.</p>
+        </div>
+        <div class="flechas" data-carrusel="conservan"><button type="button" aria-label="Anteriores" data-dir="-1">&#8592;</button><button type="button" aria-label="Siguientes" data-dir="1">&#8594;</button></div>
+      </div>
+      <div class="carrusel" id="conservan"></div>
+    </section>
+
+    <section class="seccion">
+      <div class="seccion-cabeza">
+        <div>
+          <h2>La nafta, provincia por provincia</h2>
+          <p id="b-combustible">Precio promedio de la nafta súper por litro, ponderado por lo que vende cada estación.</p>
         </div>
       </div>
-      <div class="tarjeta"><div class="barras" id="combustible"></div></div>
+      <div class="tarjeta" style="margin-top:16px"><div class="nafta" id="combustible"></div></div>
     </section>
-    <p class="estado" id="estado"></p>
-  </main>
-  <footer></footer>
+
+    <p class="vacio" id="estado"></p>
+    <footer class="nota" style="margin-top:40px"></footer>
+  </div>
   <script type="module" src="js/inicio.js"></script>
 </body>
 </html>

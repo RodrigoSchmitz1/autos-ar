@@ -1,0 +1,31 @@
+/* Graficos del gasto por rubro (js/graficos.js): barra apilada, lista de rubros
+   y leyenda compacta. Lo usan Mi auto, la portada y el comparador. */
+
+/* Barra apilada: tramos con una separacion fina y puntas redondeadas, con un
+   brillo apenas mas claro arriba para que no se vea plana. */
+.apilada { display: flex; gap: 2px; height: 12px; border-radius: 99px; overflow: hidden; background: rgba(255, 255, 255, .05); }
+.apilada span { display: block; min-width: 4px; flex-basis: 0;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--c) 82%, #fff), var(--c) 55%, color-mix(in srgb, var(--c) 80%, #000)); }
+.apilada.chica { height: 8px; }
+
+/* Lista de rubros (estado de cuenta) */
+.rubros { display: grid; }
+.rubro { display: grid; grid-template-columns: 1fr 52px auto; column-gap: 14px; align-items: baseline; padding: 13px 0 12px;
+  border-top: 1px solid var(--linea); }
+.rubro:first-child { border-top: 0; }
+.rubro-texto strong { display: flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 500; }
+.rubro-marca { width: 9px; height: 9px; border-radius: 3px; background: var(--c); flex: none; }
+.rubro-texto small { display: block; font-size: 12px; color: var(--tenue); margin: 2px 0 0 18px; }
+.rubro-pct { font-size: 13px; color: var(--suave); text-align: right; font-variant-numeric: tabular-nums; }
+.rubro-monto { font-size: 16px; font-weight: 500; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; min-width: 96px; }
+.rubro-pista { grid-column: 1 / -1; height: 4px; margin: 10px 0 0 18px; border-radius: 99px; background: rgba(255, 255, 255, .05); overflow: hidden; }
+.rubro-pista span { display: block; height: 100%; border-radius: 99px; background: var(--c); opacity: .9; }
+.rubro.sd .rubro-texto strong, .rubro.sd .rubro-monto { color: var(--tenue); font-weight: 400; }
+.rubro.sd .rubro-marca { opacity: .35; }
+
+/* Leyenda compacta (tarjetas de la portada y del comparador) */
+.leyenda-compacta { list-style: none; padding: 0; margin: 10px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px 16px; }
+.leyenda-compacta li { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--suave); white-space: nowrap; min-width: 0; }
+.leyenda-compacta li i { width: 8px; height: 8px; border-radius: 2px; background: var(--c); flex: none; }
+.leyenda-compacta li b { margin-left: auto; color: var(--texto); font-weight: 500; font-variant-numeric: tabular-nums; }
+.gasto-mini { margin-top: 12px; }

@@ -11,8 +11,10 @@
 // La perdida de valor va aparte: no es un gasto del mes.
 
 import { cargar, objetos, pesos, numero, millones, el, coincide, pie, PIEZAS } from "./comun.js";
-import { cargarFotos, foto, recorte, datosFoto } from "./autos.js";
+import { cargarFotos, foto, recorte, datosFoto, fotoGaleria } from "./autos.js";
 import { nombreFamilia } from "./respuesta.js";
+import { navegacion } from "./nav.js";
+import { barraApilada, rubros } from "./graficos.js";
 
 const $ = (id) => document.getElementById(id);
 // replaceChildren escribe "null" si le llega un null: aca los vacios se descartan.
@@ -200,8 +202,10 @@ function mostrarTablero() {
   $("tablero").classList.remove("oculto");
   $("abrir-ajustes").classList.remove("oculto");
   const marca = familia.marca, fam = familia.familia;
-  // Sin foto del modelo: la marca en grande (no una tarjeta de color).
-  poner($("hero-foto"), recorte(marca, fam) || (datosFoto(marca, fam) ? foto(marca, fam) : el("div", { class: "hero-marca", text: marca })));
+  // La foto real del modelo (el auto recortado se ve pegado); sin foto, la marca en grande.
+  const conFoto = Boolean(datosFoto(marca, fam));
+  $("hero-foto").classList.toggle("con-foto", conFoto);
+  poner($("hero-foto"), conFoto ? fotoGaleria(marca, fam, 0) : el("div", { class: "hero-marca", text: marca }));
   $("nombre").textContent = nombreFamilia(marca, fam);
   dibujarTablero();
 }
@@ -224,22 +228,24 @@ function dibujarTablero() {
   $("total").textContent = numero(Math.round(k.total / 100) * 100);
   poner($("total-sub"), el("b", { text: millones(k.total * 12) }), " al año · ",
     el("b", { text: pesos(k.total / estado.km) }), " por km");
-  const con = PARTES.filter(([id]) => k.partes[id]);
-  poner($("mix"), ...con.map(([id, , c]) => el("i", { style: `width:${k.partes[id] / k.total * 100}%;background:${c}` })));
   const detalle = {
-    combustible: v.consumo_l100km ? `${numero(v.consumo_l100km / 100 * estado.km)} litros` : "sin consumo",
-    patente: k.patente !== null ? `$${numero(k.patente / 1000)} mil al año` : "sin dato",
-    service: v.service_fuente === "familia" ? "oficial" : "estimado",
+    combustible: v.consumo_l100km ? `${numero(v.consumo_l100km / 100 * estado.km)} litros por mes` : "",
+    patente: k.patente !== null ? `$${numero(k.patente / 1000)} mil al año` : "",
+    service: v.service_fuente === "familia" ? "plan oficial" : "estimado",
     repuestos: estado.o ? "originales" : "alternativos",
     seguro: "el que cargaste",
   };
-  poner($("partes"), ...PARTES.filter(([id]) => id !== "seguro" || k.partes.seguro).map(([id, n, c]) => {
-    const x = k.partes[id];
-    return el("div", { class: `parte${x === null ? " sd" : ""}` }, el("span", { class: "punto", style: `background:${c}` }),
-      el("p", {}, n, el("strong", { text: x === null ? "sin dato" : pesos(Math.round(x / 100) * 100) }),
-        el("em", { text: x === null ? detalleSinDato(id, v) : `${Math.round(x / k.total * 100)}% · ${detalle[id]}` })));
-  }));
+  const partes = PARTES.filter(([id]) => id !== "seguro" || k.partes.seguro).map(([id, nombre, color]) => ({
+    nombre, color, valor: k.partes[id], detalle: detalle[id], motivo: k.partes[id] === null ? detalleSinDato(id, v) : "" }));
+  poner($("apilada"), barraApilada(partes));
+  poner($("rubros"), rubros(partes, (x) => pesos(Math.round(x / 100) * 100)));
   document.querySelectorAll("#tipo-repuestos button").forEach((b) => b.classList.toggle("on", (b.dataset.o === "1") === estado.o));
+
+  // Resumen para la portada ("tu auto te cuesta...").
+  try {
+    localStorage.setItem(`${GUARDADO}-resumen`, JSON.stringify({ marca: familia.marca, familia: familia.familia,
+      version: nombreVersion(v.modelo), anio: estado.a, total: k.total, url: `mi-auto.html${location.search}` }));
+  } catch { /* sin almacenamiento */ }
 
   dibujarService(v, odo);
   dibujarValor(v);
@@ -383,6 +389,11 @@ async function iniciar() {
   estado = leerEstado();
   if (estado?.m && indice.familias.some((f) => f.slug === estado.m)) {
     await cargarFamilia(estado.m);
+    // Un enlace puede traer solo el modelo (?m=fiat-cronos): version y anio por defecto.
+    const v = versiones.find((x) => x.id === estado.v) || versiones[0];
+    estado.v = v.id;
+    const anios = aniosDe(v);
+    if (!anios.includes(estado.a)) estado.a = estado.a ? anios.reduce((m, x) => Math.abs(x - estado.a) < Math.abs(m - estado.a) ? x : m) : anios[0];
     mostrarTablero();
   } else {
     estado = null;
@@ -390,6 +401,7 @@ async function iniciar() {
   }
 }
 
+navegacion();
 iniciar().catch((e) => {
   $("estado").textContent = `No se pudieron cargar los datos: ${e.message}`;
   $("estado").classList.remove("oculto");

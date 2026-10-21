@@ -1,0 +1,83 @@
+/* Las paginas con estilo.css (ficha, comparador, asistente, creditos) con el
+   aspecto de app de Mi auto y la portada: va DESPUES de estilo.css y lleva sus
+   colores a la paleta oscura (siempre oscura, como una app). */
+
+:root, :root:not(#x) {
+  /* Paleta de app.css */
+  --fondo: #07090c;
+  --superficie: rgba(255, 255, 255, .045);
+  --superficie-2: rgba(255, 255, 255, .065);
+  --superficie-3: rgba(255, 255, 255, .1);
+  --linea: rgba(255, 255, 255, .09);
+  --linea-2: rgba(255, 255, 255, .12);
+  --texto: #f3f5f8;
+  --suave: #8b94a3;
+  --tenue: #5b6372;
+  --acento: #4c8dff;
+  --acento-suave: rgba(76, 141, 255, .14);
+  /* Nombres de estilo.css */
+  --borde: rgba(255, 255, 255, .08);
+  --bien: #2ed3b7;
+  --mal: #ff6b85;
+  --aviso: #f5a524;
+  --radio: 20px;
+  --sombra: none;
+  /* Componentes del costo: los mismos colores que Mi auto en todo el sitio. */
+  --c-combustible: #f5a524;
+  --c-patente: #a383ff;
+  --c-service: #2ed3b7;
+  --c-repuestos: #ff6b85;
+  --c-depreciacion: #4c8dff;
+  --c-seguro: #6cb4ff;
+  /* Fondo con brillos suaves: sobre el, las tarjetas semitransparentes se ven de vidrio. */
+  --fondo-pagina: radial-gradient(70% 45% at 0% 0%, rgba(76, 141, 255, .16), transparent 62%),
+    radial-gradient(55% 40% at 100% 22%, rgba(163, 131, 255, .11), transparent 60%),
+    radial-gradient(60% 45% at 30% 100%, rgba(46, 211, 183, .07), transparent 62%), #07090c;
+  --solido: #11141a;
+  color-scheme: dark;
+}
+
+body { background: var(--fondo-pagina); background-attachment: fixed; color: var(--texto); font-feature-settings: "tnum" 1, "cv11" 1; -webkit-font-smoothing: antialiased; padding-bottom: 104px; }
+@media (min-width: 960px) { body { padding-bottom: 40px; } }
+a { color: var(--acento); }
+
+/* El encabezado viejo (degradado azul) pasa a la barra de la app. */
+header.app-cabecera { background: none; color: var(--texto); }
+header.app-cabecera .barra-nav { max-width: 1180px; margin: 0 auto; padding: 18px 16px 8px; }
+@media (min-width: 960px) { header.app-cabecera .barra-nav { padding: 18px 32px 8px; } }
+header.app-cabecera .marca { color: var(--texto); text-decoration: none; margin: 0; font-size: 17px; font-weight: 700; }
+header.app-cabecera .marca span { color: var(--acento); }
+header.app-cabecera .nav-escritorio a { color: var(--suave); text-decoration: none; font-weight: 400; border: 0; }
+header.app-cabecera .nav-escritorio a.activo, header.app-cabecera .nav-escritorio a:hover { color: var(--texto); }
+.tabs a { text-decoration: none; }
+
+/* Componentes comunes con el aspecto de la app. */
+.tarjeta { border: 1px solid var(--linea); box-shadow: none; border-radius: var(--radio);
+  backdrop-filter: blur(18px) saturate(140%); -webkit-backdrop-filter: blur(18px) saturate(140%); }
+.boton { background: var(--acento); color: #fff; border-radius: 14px; font-weight: 600; }
+.chip { background: var(--acento-suave); color: var(--acento); }
+input, select, textarea { background: var(--superficie-2); color: var(--texto); border: 1px solid var(--linea); border-radius: 12px; }
+input:focus, select:focus, textarea:focus { outline: 2px solid var(--acento-suave); border-color: var(--acento); }
+table { color: var(--texto); }
+th { color: var(--suave); font-weight: 500; }
+td, th { border-color: var(--linea) !important; }
+footer { color: var(--tenue); }
+footer a { color: var(--suave); }
+h1, h2, h3 { letter-spacing: -.02em; }
+header.app-cabecera nav { padding: 0; margin: 0; max-width: none; flex-wrap: nowrap; }
+.boton.boton-vidrio { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .18); color: #fff; backdrop-filter: blur(8px); }
+/* Letra mas liviana que la de estilo.css (800-900): mas sobria, como Mi auto. */
+h1, h2 { font-weight: 650; }
+.cifra-grande strong, .hero-texto h1 { font-weight: 650; }
+/* Comparador: la foto entera arriba de cada tarjeta, de borde a borde. */
+.comp-auto-foto.foto-completa { margin: -16px -16px 12px; height: 160px; border-radius: 20px 20px 0 0; overflow: hidden; display: block; }
+.comp-auto-foto.foto-completa::after { left: 0; right: 0; bottom: 0; top: 0; height: auto; border-radius: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(7, 9, 12, .55)); }
+.comp-auto-foto.foto-completa .foto-auto { width: 100%; height: 100%; object-fit: cover; border-radius: 0; transition: transform .5s; }
+.comp-auto-foto.foto-completa:hover .foto-auto { transform: scale(1.04); }
+.comp-costo .gasto-mini { margin: 12px 0 10px; }
+.comp-quitar { z-index: 3; }
+.escalon-foto.con-fondo { height: 160px; background: var(--superficie-2); }
+.escalon-foto.con-fondo .foto-auto { transition: transform .5s; }
+.escalon:hover .escalon-foto.con-fondo .foto-auto { transform: scale(1.04); }
+.hero-acciones { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }

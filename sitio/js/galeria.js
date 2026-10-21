@@ -91,6 +91,13 @@ export function enlaceOficial(marca, familia) {
     texto: o.alcance === "modelo" ? "360° en el sitio oficial ↗" : `Gama en el sitio de ${marcaLinda} ↗` };
 }
 
+// Si hay alguna foto de adentro (para no titular "por dentro" si son todas de afuera).
+const EXTERIOR = new Set(["frente", "cola", "lateral", "perfil", "exterior"]);
+export function tieneInterior(marca, familia) {
+  const f = medios.fotos[`${marca}|${familia}`];
+  return Boolean(f?.interior || f?.galeria?.some((g) => !EXTERIOR.has(g.vista)));
+}
+
 export function seccionGaleria(marca, familia) {
   const clave = `${marca}|${familia}`;
   const f = medios.fotos[clave], v = medios.videos[clave];

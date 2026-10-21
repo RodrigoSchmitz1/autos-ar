@@ -1,0 +1,24 @@
+/* Navegacion del sitio (js/nav.js): barra de arriba y, en el celular, barra de
+   abajo estilo app. Va en todas las paginas, con app.css o con estilo.css. */
+
+.barra-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0 8px; }
+.marca { font-weight: 700; letter-spacing: -.02em; font-size: 17px; }
+.marca span { color: var(--acento); }
+.nav-escritorio { display: none; gap: 28px; font-size: 14px; color: var(--suave); }
+.nav-escritorio a:hover, .nav-escritorio a.activo { color: var(--texto); }
+.barra-lado { min-width: 40px; display: flex; justify-content: flex-end; }
+.icono-btn { width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--linea); background: var(--superficie);
+  display: grid; place-items: center; color: var(--suave); cursor: pointer; flex: none; }
+.icono-btn:hover { color: var(--texto); border-color: var(--linea-2); }
+
+.tabs { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 20; display: grid; grid-template-columns: repeat(5, 1fr);
+  background: rgba(16, 19, 24, .82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  border: 1px solid var(--linea); border-radius: 22px; padding: 8px 6px; max-width: 520px; margin: 0 auto; }
+.tabs a { display: grid; justify-items: center; gap: 4px; font-size: 10.5px; color: var(--tenue); padding: 4px 0; }
+.tabs a.activo { color: var(--texto); }
+.tabs a.activo svg { color: var(--acento); }
+
+@media (min-width: 960px) {
+  .nav-escritorio { display: flex; }
+  .tabs { display: none; }
+}

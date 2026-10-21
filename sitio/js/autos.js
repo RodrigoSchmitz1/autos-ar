@@ -47,6 +47,19 @@ export function colorDe(nombre) {
   return PALETA[(h >>> 0) % PALETA.length];
 }
 
+// Una foto de afuera de la galeria del modelo (la i-esima, dando la vuelta), entera:
+// para tarjetas chicas, donde el auto recortado parece pegado. Sin galeria, la foto comun.
+const AFUERA = new Set(["frente", "cola", "lateral", "perfil", "exterior"]);
+export function fotoGaleria(marca, familia, i = 0, clase = "") {
+  const g = (fotos[`${marca}|${familia}`]?.galeria || []).filter((x) => AFUERA.has(x.vista));
+  if (!g.length) return foto(marca, familia, clase);
+  const x = g[i % g.length];
+  return el("img", {
+    class: `foto-auto ${clase}`, src: `img/autos/${x.imagen}`, loading: "lazy", width: x.ancho, height: x.alto,
+    alt: `${marca} ${familia}`.toLowerCase(), title: `Foto: ${x.autor} · ${x.licencia} · Wikimedia Commons`,
+  });
+}
+
 export function foto(marca, familia, clase = "") {
   const f = fotos[`${marca}|${familia}`];
   if (!f) {

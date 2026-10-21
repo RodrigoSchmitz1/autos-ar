@@ -2,6 +2,7 @@ import { cargar, objetos, pesos, millones, el, pie } from "./comun.js";
 import { cargarFotos, foto } from "./autos.js";
 import { interpretar, prepararCatalogo } from "./interprete.js";
 import { responder, explicar, nombreFamilia, POR_DEFECTO } from "./respuesta.js";
+import { navegacion } from "./nav.js";
 
 // Intermediario de Gemini (Cloudflare Worker, ver asistente/worker/). Vacio: sin
 // IA, el asistente funciona solo con reglas y el boton no aparece.
@@ -171,4 +172,5 @@ async function iniciar() {
 }
 
 iniciar().catch((e) => { $("estado").textContent = `No se pudieron cargar los datos: ${e.message}`; });
+navegacion();
 pie();
