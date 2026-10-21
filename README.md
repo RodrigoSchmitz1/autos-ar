@@ -30,7 +30,7 @@ Decisiones que importan:
 
 - **Privacidad por lista blanca.** De DNRPA se guarda solo lo del trámite y el auto, y del titular únicamente si es persona física o jurídica. Una columna nueva que publique DNRPA queda afuera sola.
 - **DNRPA revisa años cerrados** (el ZIP de 2025 cambió en agosto de 2026). La ingesta guarda la fecha de modificación de cada archivo y reprocesa el año entero si cambia. Rehacer un mes pisa su archivo: correr dos veces da lo mismo.
-- **Combustible: Res. 1104, no Res. 314.** La 314 dejó de ser obligatoria en junio de 2025. En la 1104 el grano incluye si la venta es exenta de impuestos; sin eso aparecían 958 falsos duplicados.
+- **Combustible: Res. 1104, no Res. 314.** La 314 dejó de ser obligatoria en junio de 2025. En la 1104 el grano incluye si la venta es exenta de impuestos; sin eso aparecían 958 falsos duplicados. Desde el 16/10/2026 el sitio de la Secretaría de Energía no acepta conexiones desde los servidores de GitHub (cada pedido se cae por tiempo; desde Argentina responde normal). No se esquiva: la ingesta prueba primero si el sitio responde y, si no, deja un aviso en la corrida y sigue con lo ya publicado. Si el atraso pasa de 3 meses, lo marca el test `combustible_no_esta_atrasado`; mientras tanto la ingesta se puede correr desde una computadora en Argentina.
 - **Los datos viven en GitHub Releases** (`datos-2018` … `datos-2026` y `datos-general`), no en el repo ni en una PC. Cada corrida de Actions baja lo publicado, ingiere lo nuevo y sube solo los archivos cuya huella (SHA-256) cambió. Son públicos y se pueden bajar sin cuenta.
 - **Tests de frescura contra la fecha de hoy**, no contra otra tabla: un pipeline que se mide contra sí mismo no ve su propio atraso.
 

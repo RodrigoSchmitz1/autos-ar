@@ -28,6 +28,9 @@ import argparse
 import json
 import os
 import re
+import socket
+import time
+import urllib.error
 
 import duckdb
 
@@ -157,14 +160,42 @@ def ingerir_estaciones(estado):
     print(f"estaciones: {n:,} con coordenadas validas")
 
 
+def responde(host, puerto=80, intentos=2, espera=20):
+    """True si el servidor acepta una conexion TCP en `espera` segundos."""
+    for _ in range(intentos):
+        try:
+            socket.create_connection((host, puerto), timeout=espera).close()
+            return True
+        except OSError:
+            time.sleep(5)
+    return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--desde", type=int, default=2018)
     args = ap.parse_args()
     os.makedirs(RAIZ, exist_ok=True)
+    # Desde el 16/10/2026 datos.energia.gob.ar no acepta conexiones desde los
+    # servidores de GitHub Actions (cada pedido se cae por tiempo, ~7 minutos
+    # con los reintentos), aunque desde Argentina responde normal. Un bloqueo
+    # no se esquiva: si no responde, se sigue con lo ya publicado y queda un
+    # aviso en la corrida. Si el atraso se vuelve real, lo marca el test
+    # combustible_no_esta_atrasado (mas de 3 meses). La ingesta se puede correr
+    # desde una computadora en Argentina y publicar con ingesta.releases.
+    host = BASE.split("//")[1]
+    if not responde(host):
+        print(f"::warning title=Combustible sin actualizar::{host} no responde desde este servidor; "
+              "se usan los datos ya publicados")
+        return
     estado = leer_estado()
-    ingerir_1104(estado, args.desde)
-    ingerir_estaciones(estado)
+    try:
+        ingerir_1104(estado, args.desde)
+        ingerir_estaciones(estado)
+    except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        # Lo ya procesado quedo guardado (el estado se graba por recurso).
+        print(f"::warning title=Combustible sin actualizar::{host} dejo de responder a mitad de la ingesta "
+              f"({type(e).__name__}: {e}); se usan los datos ya publicados")
 
 
 if __name__ == "__main__":
