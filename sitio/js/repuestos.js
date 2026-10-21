@@ -64,8 +64,62 @@ function elegir(f, { desplazar = false } = {}) {
         Array.from({ length: ESTE_ANIO - 1994 }, (_, i) => ESTE_ANIO - i)
           .map((y) => el("option", { value: y, text: y, selected: y === anio ? "" : null })))));
 
-  const piezas = Object.entries(f.piezas).sort((a, b) => orden(a[0]) - orden(b[0]));
   const ofertas = cargar(`repuestos/${f.slug}.json`).catch(() => ({}));
+  dibujarPiezas(f, f.piezas, ofertas, anio);
+  dibujarResumen(f, f.por_km, f.por_km_original);
+  abrirPieza(desplazar);
+  // Con anio elegido: precios y gasto recalculados sin los productos que el
+  // titulo dice que son de otros anios (los que no dicen anio quedan).
+  if (anio) ofertas.then((o) => {
+    if (new URLSearchParams(location.search).get("m") !== f.slug) return;
+    const ajuste = preciosDelAnio(f.piezas, o, anio);
+    if (!ajuste.cambiadas.size) return;
+    dibujarPiezas(f, ajuste.piezas, ofertas, anio, ajuste.cambiadas);
+    if (f.por_km) dibujarResumen(f, ...gastoPorKm(ajuste.piezas), anio);
+    abrirPieza(false);
+  });
+}
+
+// Mediana como la de DuckDB (con cantidad par, el promedio de las dos del medio).
+function mediana(xs) {
+  const v = [...xs].sort((a, b) => a - b), m = v.length >> 1;
+  return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+}
+
+// Precio de cada pieza solo con los productos que sirven para el anio (o que no
+// dicen anio). Una calidad que se quedaria sin productos conserva los de todos.
+function preciosDelAnio(piezas, ofertas, anio) {
+  const salida = {}, cambiadas = new Set();
+  for (const [tipo, base] of Object.entries(piezas)) {
+    const lista = ofertas[tipo] || [];
+    const quedan = lista.filter((x) => sirve(x[6], x[7], anio) !== false);
+    if (!lista.length || quedan.length === lista.length) { salida[tipo] = base; continue; }
+    const precios = (xs, orig) => xs.filter((x) => (x[2] === "Original") === orig).map((x) => x[3]);
+    const calidad = (orig) => {
+      const xs = precios(quedan, orig).length ? precios(quedan, orig) : precios(lista, orig);
+      return xs.length ? [mediana(xs), Math.min(...xs), Math.max(...xs)] : [null, null, null];
+    };
+    const [o, omin, omax] = calidad(true), [a, amin, amax] = calidad(false);
+    salida[tipo] = [o, a, quedan.length, amin, amax, omin, omax];
+    cambiadas.add(tipo);
+  }
+  return { piezas: salida, cambiadas };
+}
+
+// Gasto por km en repuestos de desgaste, igual que int_mantenimiento_familia:
+// cada pieza con intervalo, con el precio del modelo o la mediana de todos.
+function gastoPorKm(piezas) {
+  let alt = 0, orig = 0;
+  for (const [tipo, i] of Object.entries(datos.intervalos)) {
+    const [o, a] = piezas[tipo] || [];
+    alt += (a ?? o ?? i.mediana[1]) * i.unidades / i.km;
+    orig += (o ?? a ?? i.mediana[0]) * i.unidades / i.km;
+  }
+  return [alt, orig];
+}
+
+function dibujarPiezas(f, valores, ofertas, anio, cambiadas = new Set()) {
+  const piezas = Object.entries(valores).sort((a, b) => orden(a[0]) - orden(b[0]));
   poner($("lista-piezas"), piezas.map(([tipo, [orig, alt, n, amin, amax, omin, omax]]) => {
     // Rango de precios de cada calidad (del mas barato al mas caro) y la mediana
     // marcada: un alternativo caro no queda escondido detras de un solo numero.
@@ -77,30 +131,39 @@ function elegir(f, { desplazar = false } = {}) {
         x ? el("i", { style: `left:${x / max * 100}%`, title: `Mediana: ${redondo(x)}` }) : null));
     const veces = orig && alt && orig > alt ? orig / alt : null;
     return el("div", { class: "pieza" },
-      el("h3", {}, PIEZAS[tipo] || tipo, el("small", { text: cadaCuanto(tipo) })),
+      el("h3", {}, PIEZAS[tipo] || tipo, el("small", { text: cadaCuanto(tipo) }),
+        cambiadas.has(tipo) ? el("span", { class: "para-anio", text: `para ${anio}` }) : null),
       el("span", { class: "veces", text: veces ? `original ×${veces.toFixed(1).replace(".", ",")}` : "" }),
       el("div", { class: "par" }, fila("alt", "Alternativo", alt, amin ?? alt, amax ?? alt), fila("orig", "Original", orig, omin ?? orig, omax ?? orig)),
-      detalleOfertas(tipo, n, ofertas, anio));
+      detalleOfertas(tipo, f.piezas[tipo][2], ofertas, anio));
   }));
   $("nota-modelo").textContent = `Del más barato al más caro de cada calidad, en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${fecha(datos.capturado)}; `
     + "la marca en la barra es la mediana, la que se usa para calcular el gasto. "
-    + "Discos, campanas, amortiguadores y bujías, por unidad (los que se venden de a par se dividen); pastillas y kits, por juego.";
+    + "Discos, campanas, amortiguadores y bujías, por unidad (los que se venden de a par se dividen); pastillas y kits, por juego."
+    + (cambiadas.size ? ` "Para ${anio}": sin los productos que, según el título, son para otros años.` : "");
+}
 
+function dibujarResumen(f, porKm, porKmOriginal, anio = null) {
   const r = $("resumen-modelo");
-  if (f.por_km) {
-    poner(r, el("h2", {}, "En repuestos de desgaste gastás"),
-      el("div", { class: "cifra" }, el("sup", { text: "$" }), numero(Math.round(f.por_km * KM_MES / 100) * 100), el("small", { text: " / mes" })),
-      el("p", { class: "sub" }, "Con originales: ", el("b", { text: `${redondo(f.por_km_original * KM_MES)} por mes` })),
-      el("p", { class: "nota", text: `Frenos, amortiguadores, distribución y embrague para ${numero(KM_MES)} km por mes, con los intervalos de cambio habituales. `
-        + (f.propias < f.de ? `${f.de - f.propias} de las ${f.de} piezas no tienen precio de este modelo: van con el precio mediano de todos.` : "") }),
-      el("div", { class: "chips" },
-        el("a", { class: "boton", href: `mi-auto.html?m=${f.slug}` }, "Todo lo que cuesta mantenerlo"),
-        el("a", { class: "boton secundario", href: `ficha.html?m=${encodeURIComponent(`${f.marca}|${f.familia}`)}` }, "Ficha del modelo")));
-  } else {
+  if (!porKm) {
     poner(r, el("h2", {}, "Gasto en repuestos"), el("p", { class: "sub", text: "Sin piezas de desgaste relevadas para este modelo." }),
       el("div", { class: "chips" }, el("a", { class: "boton", href: `mi-auto.html?m=${f.slug}` }, "Todo lo que cuesta mantenerlo")));
+    return;
   }
-  // ?p=<tipo>: abre los productos de esa pieza (enlace directo a una pieza).
+  poner(r, el("h2", {}, anio ? `Con un ${anio}, en repuestos de desgaste gastás` : "En repuestos de desgaste gastás"),
+    el("div", { class: "cifra" }, el("sup", { text: "$" }), numero(Math.round(porKm * KM_MES / 100) * 100), el("small", { text: " / mes" })),
+    el("p", { class: "sub" }, "Con originales: ", el("b", { text: `${redondo(porKmOriginal * KM_MES)} por mes` })),
+    anio && Math.abs(porKm - f.por_km) * KM_MES >= 100
+      ? el("p", { class: "sub" }, "Con todos los años mezclados: ", el("b", { text: `${redondo(f.por_km * KM_MES)} por mes` })) : null,
+    el("p", { class: "nota", text: `Frenos, amortiguadores, distribución y embrague para ${numero(KM_MES)} km por mes, con los intervalos de cambio habituales. `
+      + (f.propias < f.de ? `${f.de - f.propias} de las ${f.de} piezas no tienen precio de este modelo: van con el precio mediano de todos.` : "") }),
+    el("div", { class: "chips" },
+      el("a", { class: "boton", href: `mi-auto.html?m=${f.slug}` }, "Todo lo que cuesta mantenerlo"),
+      el("a", { class: "boton secundario", href: `ficha.html?m=${encodeURIComponent(`${f.marca}|${f.familia}`)}` }, "Ficha del modelo")));
+}
+
+// ?p=<tipo>: abre los productos de esa pieza (enlace directo a una pieza).
+function abrirPieza(desplazar) {
   const abrir = new URLSearchParams(location.search).get("p");
   const pieza = abrir && $("lista-piezas").querySelector(`.detalle-ofertas[data-tipo="${CSS.escape(abrir)}"]`);
   if (pieza) {

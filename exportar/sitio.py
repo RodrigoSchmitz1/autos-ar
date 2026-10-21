@@ -99,8 +99,15 @@ def exportar_repuestos(con):
     piezas = [{"tipo": t, "modelos": int(n), "alternativo": limpio(a), "original": limpio(o)} for t, n, a, o in con.sql("""
         select tipo_pieza, count(distinct cca_marca || familia), median(precio_mediano_alternativo), median(precio_mediano_original)
         from mart_repuestos group by 1 order by 2 desc""").fetchall()]
-    intervalos = {t: {"unidades": u, "km": km, "solo_manual": sm} for t, u, km, sm in con.sql(
-        "select tipo_pieza, unidades, intervalo_km, solo_manual from costo_repuestos_intervalos").fetchall()}
+    # La mediana de cada pieza en todas las familias es la que usa
+    # int_mantenimiento_familia para las piezas sin precio propio: con ella el
+    # sitio recalcula el gasto por mes cuando se elige el anio del auto.
+    intervalos = {t: {"unidades": u, "km": km, "solo_manual": sm, "mediana": [limpio(o), limpio(a)]}
+                  for t, u, km, sm, o, a in con.sql("""
+        select i.tipo_pieza, i.unidades, i.intervalo_km, i.solo_manual,
+               median(coalesce(r.precio_mediano_original, r.precio_mediano_alternativo)),
+               median(coalesce(r.precio_mediano_alternativo, r.precio_mediano_original))
+        from costo_repuestos_intervalos i join mart_repuestos r using (tipo_pieza) group by all""").fetchall()}
     familias = {}
     # Por pieza: [mediana original, mediana alternativo, productos,
     #             min y max alternativo, min y max original]
