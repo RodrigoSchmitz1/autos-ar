@@ -116,6 +116,11 @@ function dibujarPiezas(f, valores, ofertas, auto, cambiadas = new Set(), sinProd
             : `para ${DEL_MOTOR.has(tipo) ? textoAuto(auto) : auto.anio}` }) : null),
       el("span", { class: "veces", text: veces ? `original ×${veces.toFixed(1).replace(".", ",")}` : "" }),
       el("div", { class: "par" }, fila("alt", "Alternativo", alt, amin ?? alt, amax ?? alt), fila("orig", "Original", orig, omin ?? orig, omax ?? orig)),
+      // El alternativo mas caro que el original casi siempre mezcla productos
+      // distintos (otro motor u otra version, kits con bomba de agua o liquido).
+      alt && orig && alt > orig * 1.05 ? el("p", { class: "aviso-pieza", text: (auto.anio && auto.motor
+        ? "El alternativo sale más caro que el original: los productos no son iguales (kits más completos, otras versiones). Mirá los productos."
+        : "El alternativo sale más caro que el original: se mezclan productos para distintos motores y versiones. Elegí el año y el motor de tu auto.") }) : null,
       detalleOfertas(tipo, f.piezas[tipo][2], ofertas, auto));
   }));
   $("nota-modelo").textContent = `Del más barato al más caro de cada calidad, en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${fecha(datos.capturado)}; `

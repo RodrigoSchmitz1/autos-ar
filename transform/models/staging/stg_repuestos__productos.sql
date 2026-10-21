@@ -26,8 +26,10 @@
   costo_repuestos_intervalos. El precio publicado queda en `precio_publicado`.
 
   Calidad: Repuestos Express la trae ('Original', 'Importado' o la marca). En
-  ARG sale del titulo: "Original"/"Orig"/"Mopar" es original; si nombra una
-  marca conocida, esa marca; si no, 'Alternativo'. La marca del auto, que ARG
+  ARG sale del titulo: si nombra una marca conocida de repuestos, esa marca
+  (aunque diga "Original": "Original Bosch" es un Bosch genuino, no el de
+  fabrica; la marca de la bomba de agua que trae un kit no cuenta); si no,
+  "Original"/"Orig"/"Mopar"/"Motorcraft" es original; si no, 'Alternativo'. La marca del auto, que ARG
   no publica aparte, es la primera marca nombrada en el titulo.
 
   `sku_base`: el SKU de Repuestos Express es codigo de la pieza + sufijo del
@@ -55,8 +57,10 @@ fuente as (
 
 nombrados as (
     select *,
-        nullif(regexp_extract(t,
-            '\b(bosch|skf|ina|litton|monroe|corven|mahle|fram|wega|valeo|luk|sachs|gates|dayco|ferodo|cofran|jurid|mann|lpr|cobreq|acdelco|wix|motrio|kyb|cofap|nakata|sadar|dolz|vmg|hutchinson|ngk|champion|beru|denso|trw|fremax|phc|kinetic|contitech|motorcraft|marelli|ans|wapsa|sigma)\b', 1), '') as marca_titulo,
+        -- La marca de la bomba de agua que trae un kit ("Kit Distribucion Original
+        -- + Bomba Skf") no es la del kit: no cuenta para la calidad.
+        nullif(regexp_extract(regexp_replace(t, '\b(bomba|bba)\b( de)?( agua)? (skf|dolz|vmg|ina|bosch|dayco|gates|hutchinson|kinetic)\b', '', 'g'),
+            '\b(bosch|skf|ina|litton|monroe|corven|mahle|fram|wega|valeo|luk|sachs|gates|dayco|ferodo|cofran|jurid|mann|lpr|cobreq|acdelco|wix|motrio|kyb|cofap|nakata|sadar|dolz|vmg|hutchinson|ngk|champion|beru|denso|trw|fremax|phc|kinetic|contitech|motorcraft|marelli|ans|wapsa)\b', 1), '') as marca_titulo,
         nullif(regexp_extract(t,
             '\b(volkswagen|volskwagen|vw|chevrolet|chev|gm|ford|fiat|renault|peugeot|citroen|toyota|nissan|honda|jeep|dodge|ram|hyundai|kia|suzuki|mitsubishi|audi|seat|mercedes|bmw)\b', 1), '') as auto_titulo
     from fuente
@@ -66,13 +70,18 @@ marcas as (
     select *,
         case when tienda = 'arg' then
             case
-                when regexp_matches(t, '\b(original(es)?|orig|oem|mopar)\b') then 'Original'
+                -- Mopar (Fiat y Jeep) y Motorcraft (Ford) son las marcas de repuestos de
+                -- fabrica: original siempre.
+                when regexp_matches(t, '\b(mopar|motorcraft)\b') then 'Original'
+                -- "Original" con una marca de repuestos ("Original Bosch", "Monroe Orig")
+                -- es el producto genuino de esa marca, no el de fabrica: manda la marca.
                 when regexp_matches(t, '\bfric ?rot\b') then 'Fric-Rot'
                 when regexp_matches(t, '\bhipper\b') then 'Hipper Freios'
                 -- Escritas como en Repuestos Express, para que la misma marca sume junta.
                 when marca_titulo = 'acdelco' then 'ACDelco'
                 when marca_titulo in ('skf', 'ina', 'lpr', 'vmg', 'phc', 'trw', 'ngk', 'kyb', 'ans', 'wix', 'luk') then upper(marca_titulo)
                 when marca_titulo is not null then upper(marca_titulo[1]) || marca_titulo[2:]
+                when regexp_matches(t, '\b(original(es)?|orig|oem)\b') then 'Original'
                 else 'Alternativo'
             end
         else calidad end as calidad_final,
