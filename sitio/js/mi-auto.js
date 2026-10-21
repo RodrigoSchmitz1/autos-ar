@@ -7,6 +7,7 @@
 //   combustible = consumo (l/100 km) / 100 x km x precio del litro en la provincia
 //   service     = costo por km del plan oficial x km
 //   repuestos   = costo por km de las piezas de desgaste x km (alternativo u original)
+//                 (con el precio de cada pieza para el anio elegido: repuestos-anio.js)
 //   patente     = la de esa version y anio en esa provincia / 12
 // La perdida de valor va aparte: no es un gasto del mes.
 
@@ -15,6 +16,7 @@ import { cargarFotos, foto, recorte, datosFoto, fotoAnio } from "./autos.js";
 import { nombreFamilia } from "./respuesta.js";
 import { navegacion } from "./nav.js";
 import { barraApilada, rubros } from "./graficos.js";
+import { preciosDelAnio, gastoPorKm } from "./repuestos-anio.js";
 
 const $ = (id) => document.getElementById(id);
 // replaceChildren escribe "null" si le llega un null: aca los vacios se descartan.
@@ -37,6 +39,7 @@ const ICONO_PIEZA = { pastillas_freno: "freno", disco_freno: "freno", campana_fr
   amortiguador_delantero: "resorte", amortiguador_trasero: "resorte", amortiguador: "resorte" };
 
 let indice, familia, versiones, estado;
+let ofertas = {}; // productos de cada repuesto del modelo (datos/repuestos/<slug>.json)
 
 // ---------- Estado: URL (para compartir) y, si no, lo ultimo que se eligio ----------
 function leerEstado() {
@@ -88,7 +91,9 @@ function odometro(anio) {
 function calcular(v) {
   const precio = v.combustible === "electrico" ? null
     : indice.precio_litro[estado.p]?.[v.combustible === "diesel" ? "diesel" : "nafta"] ?? null;
-  const rep = estado.o && v.repuestos_por_km_original !== null ? v.repuestos_por_km_original : v.repuestos_por_km;
+  const aj = repuestosDelAnio(v);
+  const rep = aj ? (estado.o ? aj.orig : aj.alt)
+    : estado.o && v.repuestos_por_km_original !== null ? v.repuestos_por_km_original : v.repuestos_por_km;
   const patente = patenteDe(v, estado.a, estado.p);
   const partes = {
     combustible: v.consumo_l100km !== null && precio !== null ? v.consumo_l100km / 100 * estado.km * precio : null,
@@ -98,7 +103,20 @@ function calcular(v) {
     seguro: estado.seg || null,
   };
   const total = Object.values(partes).reduce((s, x) => s + (x || 0), 0);
-  return { partes, total, precio, patente };
+  return { partes, total, precio, patente, aj };
+}
+
+// Repuestos para el anio elegido: el precio de cada pieza sin los productos que,
+// segun el titulo, son para otros anios (un Gol Trend 2010 no lleva las piezas
+// del 2018), y el costo por km con la misma cuenta que dbt. null si no cambia
+// nada (o el modelo no tiene precios propios).
+function repuestosDelAnio(v) {
+  if (v.repuestos_fuente === "mediana_general" || !familia.repuestos.length) return null;
+  const base = Object.fromEntries(familia.repuestos.map(([tipo, orig, alt, n]) => [tipo, [orig, alt, n]]));
+  const { piezas, cambiadas } = preciosDelAnio(base, ofertas, Number(estado.a) || new Date().getFullYear());
+  if (![...cambiadas].some((t) => indice.intervalos[t])) return null;
+  const [alt, orig] = gastoPorKm(piezas, indice.intervalos, { embrague: !v.automatica });
+  return { alt, orig, piezas, cambiadas };
 }
 
 // ---------- Pantalla 1: elegir modelo ----------
@@ -135,7 +153,7 @@ async function elegirModelo(slug) {
 }
 
 async function cargarFamilia(slug) {
-  familia = await cargar(`miauto/${slug}.json`);
+  [familia, ofertas] = await Promise.all([cargar(`miauto/${slug}.json`), cargar(`repuestos/${slug}.json`).catch(() => ({}))]);
   versiones = objetos(familia.columnas, familia.versiones);
 }
 
@@ -236,7 +254,7 @@ function dibujarTablero() {
     combustible: v.consumo_l100km ? `${numero(v.consumo_l100km / 100 * estado.km)} litros por mes` : "",
     patente: k.patente !== null ? `$${numero(k.patente / 1000)} mil al año` : "",
     service: v.service_fuente === "familia" ? "plan oficial" : "estimado",
-    repuestos: estado.o ? "originales" : "alternativos",
+    repuestos: (estado.o ? "originales" : "alternativos") + (k.aj ? `, para un ${estado.a}` : ""),
     seguro: "el que cargaste",
   };
   const partes = PARTES.filter(([id]) => id !== "seguro" || k.partes.seguro).map(([id, nombre, color]) => ({
@@ -340,7 +358,8 @@ function dibujarValor(v) {
 
 function dibujarRepuestos(v, odo) {
   const conIntervalo = [], otros = [];
-  const propios = Object.fromEntries(familia.repuestos.map(([tipo, orig, alt]) => [tipo, [orig, alt]]));
+  const aj = repuestosDelAnio(v);
+  const propios = aj ? aj.piezas : Object.fromEntries(familia.repuestos.map(([tipo, orig, alt]) => [tipo, [orig, alt]]));
   // Las piezas de desgaste que el costo cuenta: con el precio del modelo o, si no lo
   // relevamos, con el mediano de esa pieza en todos los modelos (como el total del mes).
   for (const [tipo, i] of Object.entries(indice.intervalos)) {
@@ -350,7 +369,7 @@ function dibujarRepuestos(v, odo) {
     const proximo = (Math.floor(odo / i.km) + 1) * i.km;
     conIntervalo.push({ tipo, i, precio, orig, alt, proximo, meses: (proximo - odo) / estado.km, promedio: !propios[tipo] });
   }
-  for (const [tipo, orig, alt] of familia.repuestos) {
+  for (const [tipo, [orig, alt]] of Object.entries(propios)) {
     const precio = estado.o ? orig ?? alt : alt ?? orig;
     if (!indice.intervalos[tipo] && precio) otros.push([tipo, precio]);
   }
@@ -375,6 +394,7 @@ function dibujarRepuestos(v, odo) {
     .map(([t, p]) => el("span", {}, PIEZAS[t] || t, el("b", { text: pesos(p) }))));
   $("nota-repuestos").textContent = `Precio mediano en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${estado.o ? "original" : "alternativo (si no hay, el original)"}. `
     + "Intervalos de cambio habituales; dependen del uso. Tocá un repuesto para ver los productos y dónde comprarlo."
+    + (aj ? ` Para un ${estado.a}: sin los productos que, según el título, son para otros años.` : "")
     + (conIntervalo.some((r) => r.promedio) ? " \"Precio promedio\": no relevamos esa pieza para este modelo y usamos el precio mediano de todos." : "") + (otros.length ? " Abajo, otros repuestos de este modelo (filtros y bujías van en el service)." : "");
 }
 

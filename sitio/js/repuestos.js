@@ -7,6 +7,7 @@ import { cargar, pesos, numero, el, coincide, pie, PIEZAS, fecha } from "./comun
 import { cargarFotos, foto, fotoAnio, generacion, datosFoto } from "./autos.js";
 import { nombreFamilia } from "./respuesta.js";
 import { navegacion } from "./nav.js";
+import { textoAnios, sirve, preciosDelAnio, gastoPorKm } from "./repuestos-anio.js";
 
 const $ = (id) => document.getElementById(id);
 const poner = (nodo, ...hijos) => nodo.replaceChildren(...hijos.flat().filter((h) => h !== null && h !== undefined && h !== false));
@@ -75,47 +76,9 @@ function elegir(f, { desplazar = false } = {}) {
     const ajuste = preciosDelAnio(f.piezas, o, anio);
     if (!ajuste.cambiadas.size) return;
     dibujarPiezas(f, ajuste.piezas, ofertas, anio, ajuste.cambiadas);
-    if (f.por_km) dibujarResumen(f, ...gastoPorKm(ajuste.piezas), anio);
+    if (f.por_km) dibujarResumen(f, ...gastoPorKm(ajuste.piezas, datos.intervalos), anio);
     abrirPieza(false);
   });
-}
-
-// Mediana como la de DuckDB (con cantidad par, el promedio de las dos del medio).
-function mediana(xs) {
-  const v = [...xs].sort((a, b) => a - b), m = v.length >> 1;
-  return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
-}
-
-// Precio de cada pieza solo con los productos que sirven para el anio (o que no
-// dicen anio). Una calidad que se quedaria sin productos conserva los de todos.
-function preciosDelAnio(piezas, ofertas, anio) {
-  const salida = {}, cambiadas = new Set();
-  for (const [tipo, base] of Object.entries(piezas)) {
-    const lista = ofertas[tipo] || [];
-    const quedan = lista.filter((x) => sirve(x[6], x[7], anio) !== false);
-    if (!lista.length || quedan.length === lista.length) { salida[tipo] = base; continue; }
-    const precios = (xs, orig) => xs.filter((x) => (x[2] === "Original") === orig).map((x) => x[3]);
-    const calidad = (orig) => {
-      const xs = precios(quedan, orig).length ? precios(quedan, orig) : precios(lista, orig);
-      return xs.length ? [mediana(xs), Math.min(...xs), Math.max(...xs)] : [null, null, null];
-    };
-    const [o, omin, omax] = calidad(true), [a, amin, amax] = calidad(false);
-    salida[tipo] = [o, a, quedan.length, amin, amax, omin, omax];
-    cambiadas.add(tipo);
-  }
-  return { piezas: salida, cambiadas };
-}
-
-// Gasto por km en repuestos de desgaste, igual que int_mantenimiento_familia:
-// cada pieza con intervalo, con el precio del modelo o la mediana de todos.
-function gastoPorKm(piezas) {
-  let alt = 0, orig = 0;
-  for (const [tipo, i] of Object.entries(datos.intervalos)) {
-    const [o, a] = piezas[tipo] || [];
-    alt += (a ?? o ?? i.mediana[1]) * i.unidades / i.km;
-    orig += (o ?? a ?? i.mediana[0]) * i.unidades / i.km;
-  }
-  return [alt, orig];
 }
 
 function dibujarPiezas(f, valores, ofertas, anio, cambiadas = new Set()) {
@@ -176,11 +139,6 @@ function abrirPieza(desplazar) {
 const TIENDAS = { rex: "Repuestos Express", arg: "ARG Autopartes" };
 const PARES = { 2: "el par", 4: "el juego de 4" };
 const PRIMEROS = 10;
-
-// Anios del auto que dice el titulo (exportar/sitio.py, anios_titulo).
-const textoAnios = (d, h) => d && h ? (d === h ? `${d}` : `${d}–${h}`) : d ? `desde ${d}` : h ? `hasta ${h}` : "";
-// true: el titulo incluye ese anio; false: lo excluye; null: el titulo no dice.
-const sirve = (d, h, anio) => (!anio || (!d && !h) ? null : (!d || d <= anio) && (!h || h >= anio));
 
 function detalleOfertas(tipo, n, ofertas, anio) {
   const lista = el("div", { class: "ofertas" });
