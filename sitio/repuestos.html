@@ -45,6 +45,7 @@
     .pieza h3 small { font-weight: 400; color: var(--tenue); font-size: 12px; margin-left: 6px; }
     .pieza .veces { font-size: 12px; color: var(--repuestos); text-align: right; white-space: nowrap; align-self: center; }
     .pieza h3 .para-anio { font-size: 11px; font-weight: 500; color: var(--service); background: rgba(46, 211, 183, .12); padding: 1px 7px; border-radius: 99px; margin-left: 6px; }
+    .pieza h3 .para-anio.sin { color: var(--suave); background: var(--superficie-2); }
     .par { grid-column: 1 / -1; display: grid; gap: 5px; }
     .par { gap: 10px; }
     .par-fila { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: baseline; font-size: 12px; color: var(--suave); }
@@ -74,7 +75,10 @@
     .sello.anio { margin-left: 4px; }
     .sello.anio.si { background: rgba(46, 211, 183, .14); color: var(--service); }
     .mas-ofertas { justify-self: start; font-size: 13px; }
-    .anio-auto { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    .tu-auto { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .tu-auto .oculto { display: none; }
+    .tu-auto:has(.oculto) { grid-template-columns: 1fr; }
+    .anio-auto { display: flex; align-items: center; justify-content: space-between; gap: 12px;
       font-size: 13px; color: var(--suave); padding: 10px 12px; border-radius: 12px; background: var(--superficie-2); }
     .anio-auto select { background: transparent; color: var(--texto); border: 0; font: inherit; font-weight: 500; cursor: pointer; }
     .anio-auto select option { background: var(--solido); }

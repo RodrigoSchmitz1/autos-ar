@@ -186,10 +186,29 @@ def anios_titulo(titulo):
     return (min(sueltos), max(sueltos)) if sueltos else (None, None)
 
 
+CILINDRADA = r"(?<![\d.])([1-6])[.,]([0-9])(?![\d])"
+DIESEL = (r"\b(diesel|gasoil|td|tdi|tdci|hdi|bluehdi|dci|jtd|jtdm|multijet|mjet|crdi|cdi|d-?4d|di-?d|ddis|"
+          r"duramax|cummins|turbo diesel|[1-6][.,][0-9] ?d)\b")
+NAFTA = (r"\b(nafta|naftero|gnc|flex|8v|16v|vti|thp|tsi|msi|fire|e-?torq|puretech|tce|mpi|vvt-?i?|sigma|"
+         r"rocam|zetec|duratec|ecoboost|firefly|[1-6][.,][0-9] ?n)\b")
+
+
+def motor_titulo(titulo):
+    """Motor que nombra el titulo de un repuesto: (cilindradas, diesel).
+    cilindradas: "1.6" o "1.6/2.0" (todas las que nombra) o None; diesel: 1 si
+    nombra un diesel ("Hdi", "Dci", "2.8d"), 0 si nombra un nafta ("16v",
+    "Msi", "Puretech"), None si no dice o dice las dos cosas."""
+    import re
+    t = titulo.lower()
+    cils = sorted({f"{a}.{b}" for a, b in re.findall(CILINDRADA, t)})
+    d, n = re.search(DIESEL, t), re.search(NAFTA, t)
+    return ("/".join(cils) or None), (1 if d and not n else 0 if n and not d else None)
+
+
 def exportar_ofertas(con, por_slug):
     """repuestos/<slug>.json: todos los productos de cada pieza de una familia,
     del mas barato al mas caro (precio por unidad), con la tienda, el enlace al
-    producto y los anios del auto que dice el titulo, para ver de donde sale el
+    producto, los anios y el motor del auto que dice el titulo, para ver de donde sale el
     precio, cuales sirven para cada anio y donde comprarlo. Se baja solo el del
     modelo elegido."""
     import urllib.parse
@@ -206,7 +225,8 @@ def exportar_ofertas(con, por_slug):
             # Repuestos Express no publica el enlace aparte: es /producto/<sku>.
             url = "https://repuestos-express.com/producto/" + urllib.parse.quote(sku, safe="")
         piezas = ofertas.setdefault(slug(marca, familia), {})
-        piezas.setdefault(tipo, []).append([tienda, titulo, calidad, limpio(precio), int(unidades), url, *anios_titulo(titulo)])
+        piezas.setdefault(tipo, []).append([tienda, titulo, calidad, limpio(precio), int(unidades), url,
+                                            *anios_titulo(titulo), *motor_titulo(titulo)])
     for s, piezas in ofertas.items():
         if s in por_slug:
             escribir(os.path.join("repuestos", f"{s}.json"), piezas)
@@ -254,7 +274,7 @@ def exportar_mi_auto(con, provincias, precio_litro, carro):
                  med as (select combustible, median(consumo_l100km) c from mart_mantenimiento_version
                          where {clave} and consumo_l100km is not null group by all)
             select v.id, v.modelo, v.anio_modelo_min as anio_min, v.anio_modelo_max as anio_max, v.tramites_12m as tramites,
-                   v.combustible, v.automatica,
+                   v.combustible, v.automatica, v.cilindrada,
                    coalesce(v.consumo_l100km, med.c) as consumo_l100km,
                    case when v.consumo_l100km is null and med.c is not null then 'familia' else v.consumo_estimacion end as consumo_estimacion,
                    v.service_por_km, v.service_fuente, v.repuestos_por_km, v.repuestos_por_km_original, v.repuestos_fuente

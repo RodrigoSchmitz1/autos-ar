@@ -16,7 +16,7 @@ import { cargarFotos, foto, recorte, datosFoto, fotoAnio } from "./autos.js";
 import { nombreFamilia } from "./respuesta.js";
 import { navegacion } from "./nav.js";
 import { barraApilada, rubros } from "./graficos.js";
-import { preciosDelAnio, gastoPorKm } from "./repuestos-anio.js";
+import { preciosDelAuto, gastoPorKm, textoMotor, claveMotor } from "./repuestos-anio.js";
 
 const $ = (id) => document.getElementById(id);
 // replaceChildren escribe "null" si le llega un null: aca los vacios se descartan.
@@ -91,7 +91,7 @@ function odometro(anio) {
 function calcular(v) {
   const precio = v.combustible === "electrico" ? null
     : indice.precio_litro[estado.p]?.[v.combustible === "diesel" ? "diesel" : "nafta"] ?? null;
-  const aj = repuestosDelAnio(v);
+  const aj = repuestosDelAuto(v);
   const rep = aj ? (estado.o ? aj.orig : aj.alt)
     : estado.o && v.repuestos_por_km_original !== null ? v.repuestos_por_km_original : v.repuestos_por_km;
   const patente = patenteDe(v, estado.a, estado.p);
@@ -106,14 +106,23 @@ function calcular(v) {
   return { partes, total, precio, patente, aj };
 }
 
-// Repuestos para el anio elegido: el precio de cada pieza sin los productos que,
-// segun el titulo, son para otros anios (un Gol Trend 2010 no lleva las piezas
-// del 2018), y el costo por km con la misma cuenta que dbt. null si no cambia
-// nada (o el modelo no tiene precios propios).
-function repuestosDelAnio(v) {
+// El auto elegido para los repuestos: anio y motor de la version (cilindrada y
+// combustible; los hibridos y electricos, sin combustible para filtrar).
+const autoDe = (v) => ({
+  anio: Number(estado.a) || new Date().getFullYear(),
+  motor: v.cilindrada ? { cil: v.cilindrada, diesel: v.combustible === "diesel" ? true : v.combustible === "nafta" ? false : null } : null,
+});
+const textoAuto = (v) => { const a = autoDe(v); return [a.anio, textoMotor(a.motor)].filter(Boolean).join(" "); };
+
+// Repuestos para el auto elegido: el precio de cada pieza sin los productos que,
+// segun el titulo, son para otros anios u otro motor (un Gol Trend 2010 no lleva
+// las piezas del 2018; un 1.6 nafta, el kit de distribucion del diesel), y el
+// costo por km con la misma cuenta que dbt. null si no cambia nada (o el modelo
+// no tiene precios propios).
+function repuestosDelAuto(v) {
   if (v.repuestos_fuente === "mediana_general" || !familia.repuestos.length) return null;
   const base = Object.fromEntries(familia.repuestos.map(([tipo, orig, alt, n]) => [tipo, [orig, alt, n]]));
-  const { piezas, cambiadas } = preciosDelAnio(base, ofertas, Number(estado.a) || new Date().getFullYear());
+  const { piezas, cambiadas } = preciosDelAuto(base, ofertas, autoDe(v));
   if (![...cambiadas].some((t) => indice.intervalos[t])) return null;
   const [alt, orig] = gastoPorKm(piezas, indice.intervalos, { embrague: !v.automatica });
   return { alt, orig, piezas, cambiadas };
@@ -254,7 +263,7 @@ function dibujarTablero() {
     combustible: v.consumo_l100km ? `${numero(v.consumo_l100km / 100 * estado.km)} litros por mes` : "",
     patente: k.patente !== null ? `$${numero(k.patente / 1000)} mil al año` : "",
     service: v.service_fuente === "familia" ? "plan oficial" : "estimado",
-    repuestos: (estado.o ? "originales" : "alternativos") + (k.aj ? `, para un ${estado.a}` : ""),
+    repuestos: (estado.o ? "originales" : "alternativos") + (k.aj ? `, para un ${textoAuto(v)}` : ""),
     seguro: "el que cargaste",
   };
   const partes = PARTES.filter(([id]) => id !== "seguro" || k.partes.seguro).map(([id, nombre, color]) => ({
@@ -358,16 +367,18 @@ function dibujarValor(v) {
 
 function dibujarRepuestos(v, odo) {
   const conIntervalo = [], otros = [];
-  const aj = repuestosDelAnio(v);
+  const aj = repuestosDelAuto(v);
   const propios = aj ? aj.piezas : Object.fromEntries(familia.repuestos.map(([tipo, orig, alt]) => [tipo, [orig, alt]]));
   // Las piezas de desgaste que el costo cuenta: con el precio del modelo o, si no lo
   // relevamos, con el mediano de esa pieza en todos los modelos (como el total del mes).
   for (const [tipo, i] of Object.entries(indice.intervalos)) {
     if (i.solo_manual && v.automatica) continue;
-    const [orig, alt] = propios[tipo] || i.mediana;
+    // Sin precio propio (o sin productos para este motor): el mediano de todos.
+    const tiene = propios[tipo] && (propios[tipo][0] ?? propios[tipo][1]) !== null;
+    const [orig, alt] = tiene ? propios[tipo] : i.mediana;
     const precio = estado.o ? orig ?? alt : alt ?? orig;
     const proximo = (Math.floor(odo / i.km) + 1) * i.km;
-    conIntervalo.push({ tipo, i, precio, orig, alt, proximo, meses: (proximo - odo) / estado.km, promedio: !propios[tipo] });
+    conIntervalo.push({ tipo, i, precio, orig, alt, proximo, meses: (proximo - odo) / estado.km, promedio: !tiene });
   }
   for (const [tipo, [orig, alt]] of Object.entries(propios)) {
     const precio = estado.o ? orig ?? alt : alt ?? orig;
@@ -384,7 +395,7 @@ function dibujarRepuestos(v, odo) {
       : (r.orig && r.alt ? `original ${pesos(r.orig * r.i.unidades)}` : null);
     // Con precio propio, la fila lleva a los productos de esa pieza en Repuestos.
     const atributos = r.promedio ? { class: "fila" }
-      : { class: "fila enlace", href: `repuestos.html?m=${estado.m}&p=${r.tipo}&a=${Number(estado.a) || new Date().getFullYear()}`, title: "Ver los productos y dónde comprarlo" };
+      : { class: "fila enlace", href: `repuestos.html?m=${estado.m}&p=${r.tipo}&a=${autoDe(v).anio}${autoDe(v).motor ? `&mo=${claveMotor(autoDe(v).motor)}` : ""}`, title: "Ver los productos y dónde comprarlo" };
     return el(r.promedio ? "div" : "a", atributos, icono,
       el("div", {}, el("h3", {}, PIEZAS[r.tipo] || r.tipo, el("span", { class: `pildora ${clase}`, text: cuando })),
         el("p", { text: `Cada ${numero(r.i.km)} km${r.i.unidades > 1 ? ` · ${r.i.unidades} unidades` : ""} · a los ${numero(r.proximo)} km` })),
@@ -394,7 +405,7 @@ function dibujarRepuestos(v, odo) {
     .map(([t, p]) => el("span", {}, PIEZAS[t] || t, el("b", { text: pesos(p) }))));
   $("nota-repuestos").textContent = `Precio mediano en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${estado.o ? "original" : "alternativo (si no hay, el original)"}. `
     + "Intervalos de cambio habituales; dependen del uso. Tocá un repuesto para ver los productos y dónde comprarlo."
-    + (aj ? ` Para un ${estado.a}: sin los productos que, según el título, son para otros años.` : "")
+    + (aj ? ` Para un ${textoAuto(v)}: sin los productos que, según el título, son para otro año u otro motor.` : "")
     + (conIntervalo.some((r) => r.promedio) ? " \"Precio promedio\": no relevamos esa pieza para este modelo y usamos el precio mediano de todos." : "") + (otros.length ? " Abajo, otros repuestos de este modelo (filtros y bujías van en el service)." : "");
 }
 
