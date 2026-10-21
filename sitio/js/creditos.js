@@ -24,6 +24,11 @@ async function iniciar() {
         filas.push(fila(marca, familia, g.vista, g,
           el("img", { class: "foto-auto mini", src: `img/autos/${g.imagen}`, alt: "", loading: "lazy" })));
       }
+      // Una foto por generacion (Mi auto y Repuestos muestran la del anio elegido).
+      for (const g of f.generaciones || []) {
+        filas.push(fila(marca, familia, `modelo ${g.desde}–${g.hasta || "hoy"}`, g,
+          el("img", { class: "foto-auto mini", src: `img/autos/${g.imagen}`, alt: "", loading: "lazy" })));
+      }
       if (f.interior) {
         filas.push(fila(marca, familia, "interior", f.interior,
           el("img", { class: "foto-auto mini", src: `img/autos/${f.interior.imagen}`, alt: "", loading: "lazy" })));

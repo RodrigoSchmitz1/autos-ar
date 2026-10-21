@@ -60,6 +60,25 @@ export function fotoGaleria(marca, familia, i = 0, clase = "") {
   });
 }
 
+// La generacion del modelo que corresponde a un anio (exportar/fotos_generaciones.csv),
+// o null si el modelo no tiene fotos por generacion o el anio no cae en ninguna.
+export function generacion(marca, familia, anio) {
+  const g = fotos[`${marca}|${familia}`]?.generaciones;
+  if (!g || !anio) return null;
+  return g.find((x) => x.desde <= anio && (!x.hasta || anio <= x.hasta)) || null;
+}
+
+// Foto del modelo como era en ese anio (un Gol Trend 2010 no es igual a uno
+// 2018). Sin anio o sin fotos por generacion, la foto de la galeria.
+export function fotoAnio(marca, familia, anio, clase = "") {
+  const x = generacion(marca, familia, anio);
+  if (!x) return fotoGaleria(marca, familia, 0, clase);
+  return el("img", {
+    class: `foto-auto ${clase}`, src: `img/autos/${x.imagen}`, loading: "lazy", width: x.ancho, height: x.alto,
+    alt: `${marca} ${familia} ${anio}`.toLowerCase(), title: `Foto: ${x.autor} · ${x.licencia} · Wikimedia Commons`,
+  });
+}
+
 export function foto(marca, familia, clase = "") {
   const f = fotos[`${marca}|${familia}`];
   if (!f) {

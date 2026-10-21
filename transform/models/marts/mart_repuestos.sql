@@ -26,6 +26,12 @@ select
     count(*) filter (where not es_original) as alternativos,
     round(median(precio) filter (where es_original)) as precio_mediano_original,
     round(median(precio) filter (where not es_original)) as precio_mediano_alternativo,
+    -- Rango de cada calidad: un alternativo muy caro (otra version, otro motor)
+    -- puede dejar la mediana arriba de la original; el rango lo deja a la vista.
+    min(precio) filter (where not es_original) as precio_min_alternativo,
+    max(precio) filter (where not es_original) as precio_max_alternativo,
+    min(precio) filter (where es_original) as precio_min_original,
+    max(precio) filter (where es_original) as precio_max_original,
     min(precio) as precio_min,
     max(precio) as precio_max,
     max(capturado) as capturado

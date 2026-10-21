@@ -102,11 +102,14 @@ def exportar_repuestos(con):
     intervalos = {t: {"unidades": u, "km": km, "solo_manual": sm} for t, u, km, sm in con.sql(
         "select tipo_pieza, unidades, intervalo_km, solo_manual from costo_repuestos_intervalos").fetchall()}
     familias = {}
-    for marca, familia, tipo, orig, alt, n in con.sql("""
-            select upper(cca_marca), familia, tipo_pieza, precio_mediano_original, precio_mediano_alternativo, productos
+    # Por pieza: [mediana original, mediana alternativo, productos,
+    #             min y max alternativo, min y max original]
+    for marca, familia, tipo, orig, alt, n, amin, amax, omin, omax in con.sql("""
+            select upper(cca_marca), familia, tipo_pieza, precio_mediano_original, precio_mediano_alternativo, productos,
+                   precio_min_alternativo, precio_max_alternativo, precio_min_original, precio_max_original
             from mart_repuestos order by 1, 2, 3""").fetchall():
         f = familias.setdefault((marca, familia), {"marca": marca, "familia": familia, "slug": slug(marca, familia), "piezas": {}})
-        f["piezas"][tipo] = [limpio(orig), limpio(alt), int(n)]
+        f["piezas"][tipo] = [limpio(orig), limpio(alt), int(n), limpio(amin), limpio(amax), limpio(omin), limpio(omax)]
     # Gasto por km en repuestos de desgaste (caja manual: con embrague) y cuantas piezas
     # tienen precio propio; y cuantos tramites tiene la familia (para no rankear rarezas).
     for marca, familia, alt, orig, propias, total, tramites in con.sql("""
@@ -140,35 +143,63 @@ def exportar_repuestos(con):
         "capturado": con.sql("select max(capturado) from mart_repuestos").fetchone()[0].isoformat()})
 
 
-OFERTAS_ALTERNATIVAS = 8
-OFERTAS_ORIGINALES = 4
+def _anio(texto):
+    n = int(texto)
+    return n if n > 1900 else (2000 + n if n <= 30 else 1900 + n)
+
+
+AN = r"(19[89]\d|20[0-3]\d)"
+
+
+def anios_titulo(titulo):
+    """Anios del auto que nombra el titulo de un repuesto: (desde, hasta), cada uno
+    o None. "2005-2015", "(2009 / 2013)", "13/19" -> rango; "Desde 2013",
+    "2016+", "2012/...", "16/" -> desde; "Hasta 2005" -> hasta; anios sueltos
+    ("Focus 3 2013 2014 2015") -> del primero al ultimo. Solo un tercio de los
+    titulos de ARG y un quinto de los de Repuestos Express dicen el anio."""
+    import re
+    t = titulo.lower()
+    if "peugeot" in t:
+        t = re.sub(r"\b2008\b", " ", t)  # el modelo, no el anio
+    t = re.sub(r"\b\d\.\d\b", " ", t)  # cilindradas ("1.6")
+    desde = re.search(rf"\bdesde (?:el )?{AN}\b", t)
+    hasta = re.search(rf"\bhasta (?:el )?{AN}\b", t)
+    if desde or hasta:
+        return (_anio(desde[1]) if desde else None), (_anio(hasta[1]) if hasta else None)
+    m = re.search(rf"\b{AN} ?(?:-|/|al|a) ?{AN}\b", t)
+    if m:
+        return _anio(m[1]), _anio(m[2])
+    m = re.search(r"\b(\d{2}) ?/ ?(\d{2})\b", t)
+    if m:
+        return _anio(m[1]), _anio(m[2])
+    m = re.search(rf"\b{AN} ?(\+|/|en adelan)", t) or re.search(r"(?<![\d.])(\d{2}) ?(\+|/ ?\.\.\.|/\s|/$)", t)
+    if m:
+        return _anio(m[1]), None
+    sueltos = [int(x) for x in re.findall(rf"\b{AN}\b", t)]
+    return (min(sueltos), max(sueltos)) if sueltos else (None, None)
 
 
 def exportar_ofertas(con, por_slug):
-    """repuestos/<slug>.json: los productos de cada pieza de una familia, para
-    ver de donde sale el precio mediano y donde comprarlo. Por pieza, los
-    alternativos y los originales mas baratos (precio por unidad), con la
-    tienda y el enlace al producto. Se baja solo el del modelo elegido."""
+    """repuestos/<slug>.json: todos los productos de cada pieza de una familia,
+    del mas barato al mas caro (precio por unidad), con la tienda, el enlace al
+    producto y los anios del auto que dice el titulo, para ver de donde sale el
+    precio, cuales sirven para cada anio y donde comprarlo. Se baja solo el del
+    modelo elegido."""
     import urllib.parse
     carpeta = os.path.join(DESTINO, "repuestos")
     os.makedirs(carpeta, exist_ok=True)
     ofertas = {}
-    for marca, familia, tipo, tienda, sku, titulo, calidad, precio, unidades, url in con.sql(f"""
-            with p as (
-                select upper(m.cca_marca) marca, m.familia, r.tipo_pieza, r.tienda, r.sku, r.titulo, r.calidad,
-                       r.precio, r.unidades, r.url, r.es_original,
-                       row_number() over (partition by m.cca_marca, m.familia, r.tipo_pieza, r.es_original
-                                          order by r.precio, r.sku) n
-                from stg_repuestos__productos r join int_repuesto_modelos m using (sku)
-                where r.es_vigente and r.tipo_pieza <> 'otro')
-            select marca, familia, tipo_pieza, tienda, sku, titulo, calidad, precio, unidades, url from p
-            where n <= case when es_original then {OFERTAS_ORIGINALES} else {OFERTAS_ALTERNATIVAS} end
-            order by marca, familia, tipo_pieza, precio""").fetchall():
+    for marca, familia, tipo, tienda, sku, titulo, calidad, precio, unidades, url in con.sql("""
+            select distinct upper(m.cca_marca), m.familia, r.tipo_pieza, r.tienda, r.sku, r.titulo, r.calidad,
+                   r.precio, r.unidades, r.url
+            from stg_repuestos__productos r join int_repuesto_modelos m using (sku)
+            where r.es_vigente and r.tipo_pieza <> 'otro'
+            order by 1, 2, 3, r.precio, r.sku""").fetchall():
         if tienda == "rex":
             # Repuestos Express no publica el enlace aparte: es /producto/<sku>.
             url = "https://repuestos-express.com/producto/" + urllib.parse.quote(sku, safe="")
         piezas = ofertas.setdefault(slug(marca, familia), {})
-        piezas.setdefault(tipo, []).append([tienda, titulo, calidad, limpio(precio), int(unidades), url])
+        piezas.setdefault(tipo, []).append([tienda, titulo, calidad, limpio(precio), int(unidades), url, *anios_titulo(titulo)])
     for s, piezas in ofertas.items():
         if s in por_slug:
             escribir(os.path.join("repuestos", f"{s}.json"), piezas)

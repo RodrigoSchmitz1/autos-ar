@@ -4,13 +4,14 @@
 // exportar/sitio.py -> datos/repuestos.json (de mart_repuestos y compania).
 
 import { cargar, pesos, numero, el, coincide, pie, PIEZAS, fecha } from "./comun.js";
-import { cargarFotos, foto, fotoGaleria, datosFoto } from "./autos.js";
+import { cargarFotos, foto, fotoAnio, generacion, datosFoto } from "./autos.js";
 import { nombreFamilia } from "./respuesta.js";
 import { navegacion } from "./nav.js";
 
 const $ = (id) => document.getElementById(id);
 const poner = (nodo, ...hijos) => nodo.replaceChildren(...hijos.flat().filter((h) => h !== null && h !== undefined && h !== false));
 const KM_MES = 1250;
+const ESTE_ANIO = new Date().getFullYear();
 const MIN_TRAMITES = 1000;
 // Orden en que se muestran las piezas: las de desgaste (con intervalo) primero.
 const ORDEN = ["pastillas_freno", "disco_freno", "campana_freno", "amortiguador_delantero", "amortiguador_trasero", "amortiguador",
@@ -32,33 +33,57 @@ function cadaCuanto(tipo) {
 // ---------- Modelo elegido ----------
 function elegir(f, { desplazar = false } = {}) {
   const p = new URLSearchParams(location.search);
+  if (p.get("m") !== f.slug) { p.delete("a"); p.delete("p"); }
   p.set("m", f.slug);
+  // Anio del auto: el de la URL o, si es el mismo modelo, el de "Mi auto" (0 = 0 km).
+  if (!p.has("a")) {
+    let r = null;
+    try { r = JSON.parse(localStorage.getItem("autosar-mi-auto-resumen")); } catch { /* sin almacenamiento */ }
+    if (r && r.marca === f.marca && r.familia === f.familia && r.anio !== undefined) p.set("a", Number(r.anio) || ESTE_ANIO);
+  }
   history.replaceState(null, "", `?${p}`);
+  const anio = Number(p.get("a")) || null;
   $("buscar").value = "";
   $("sugerencias").classList.add("oculto");
   $("modelo").classList.remove("oculto");
 
   const conFoto = datosFoto(f.marca, f.familia);
+  const gen = generacion(f.marca, f.familia, anio);
   poner($("modelo-cabeza"),
-    el("div", { class: "foto" }, conFoto ? fotoGaleria(f.marca, f.familia, 0) : foto(f.marca, f.familia)),
+    el("div", { class: "foto" }, conFoto ? fotoAnio(f.marca, f.familia, anio) : foto(f.marca, f.familia)),
     el("div", {}, el("h2", { text: nombreFamilia(f.marca, f.familia) }),
-      el("p", { text: `${Object.keys(f.piezas).length} repuestos con precio relevado` })));
+      el("p", { text: `${Object.keys(f.piezas).length} repuestos con precio relevado` }),
+      gen ? el("p", { class: "gen", text: `Foto: modelo ${gen.desde}–${gen.hasta || "hoy"}` }) : null),
+    el("label", { class: "anio-auto" }, "Año de tu auto",
+      el("select", { onchange: (e) => {
+        const q = new URLSearchParams(location.search);
+        if (e.target.value) q.set("a", e.target.value); else q.set("a", "");
+        history.replaceState(null, "", `?${q}`);
+        elegir(f);
+      } }, el("option", { value: "", text: "Todos los años" }),
+        Array.from({ length: ESTE_ANIO - 1994 }, (_, i) => ESTE_ANIO - i)
+          .map((y) => el("option", { value: y, text: y, selected: y === anio ? "" : null })))));
 
   const piezas = Object.entries(f.piezas).sort((a, b) => orden(a[0]) - orden(b[0]));
   const ofertas = cargar(`repuestos/${f.slug}.json`).catch(() => ({}));
-  poner($("lista-piezas"), piezas.map(([tipo, [orig, alt, n]]) => {
-    const max = Math.max(orig || 0, alt || 0);
-    const fila = (clase, nombre, x) => el("div", { class: `par-fila ${clase}${x ? "" : " sd"}` },
-      el("span", { text: nombre }), el("div", { class: "par-pista" }, el("span", { style: `width:${x ? x / max * 100 : 0}%` })),
-      el("b", { text: x ? redondo(x) : "no relevado" }));
+  poner($("lista-piezas"), piezas.map(([tipo, [orig, alt, n, amin, amax, omin, omax]]) => {
+    // Rango de precios de cada calidad (del mas barato al mas caro) y la mediana
+    // marcada: un alternativo caro no queda escondido detras de un solo numero.
+    const max = Math.max(amax || alt || 0, omax || orig || 0);
+    const fila = (clase, nombre, x, desde = x, hasta = x) => el("div", { class: `par-fila ${clase}${x ? "" : " sd"}` },
+      el("span", { text: nombre }),
+      el("b", { text: !x ? "no relevado" : redondo(desde) === redondo(hasta) ? redondo(x) : `${redondo(desde)} a ${redondo(hasta)}` }),
+      el("div", { class: "par-pista" }, x ? el("span", { style: `left:${desde / max * 100}%;width:${Math.max((hasta - desde) / max * 100, 1.5)}%` }) : null,
+        x ? el("i", { style: `left:${x / max * 100}%`, title: `Mediana: ${redondo(x)}` }) : null));
     const veces = orig && alt && orig > alt ? orig / alt : null;
     return el("div", { class: "pieza" },
       el("h3", {}, PIEZAS[tipo] || tipo, el("small", { text: cadaCuanto(tipo) })),
       el("span", { class: "veces", text: veces ? `original ×${veces.toFixed(1).replace(".", ",")}` : "" }),
-      el("div", { class: "par" }, fila("alt", "Alternativo", alt), fila("orig", "Original", orig)),
-      detalleOfertas(tipo, n, ofertas));
+      el("div", { class: "par" }, fila("alt", "Alternativo", alt, amin ?? alt, amax ?? alt), fila("orig", "Original", orig, omin ?? orig, omax ?? orig)),
+      detalleOfertas(tipo, n, ofertas, anio));
   }));
-  $("nota-modelo").textContent = `Precio mediano por pieza en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${fecha(datos.capturado)}. `
+  $("nota-modelo").textContent = `Del más barato al más caro de cada calidad, en las tiendas relevadas (Repuestos Express y ARG Autopartes), ${fecha(datos.capturado)}; `
+    + "la marca en la barra es la mediana, la que se usa para calcular el gasto. "
     + "Discos, campanas, amortiguadores y bujías, por unidad (los que se venden de a par se dividen); pastillas y kits, por juego.";
 
   const r = $("resumen-modelo");
@@ -87,22 +112,46 @@ function elegir(f, { desplazar = false } = {}) {
 // Los productos de una pieza (datos/repuestos/<slug>.json): se dibujan al abrir.
 const TIENDAS = { rex: "Repuestos Express", arg: "ARG Autopartes" };
 const PARES = { 2: "el par", 4: "el juego de 4" };
+const PRIMEROS = 10;
 
-function detalleOfertas(tipo, n, ofertas) {
+// Anios del auto que dice el titulo (exportar/sitio.py, anios_titulo).
+const textoAnios = (d, h) => d && h ? (d === h ? `${d}` : `${d}–${h}`) : d ? `desde ${d}` : h ? `hasta ${h}` : "";
+// true: el titulo incluye ese anio; false: lo excluye; null: el titulo no dice.
+const sirve = (d, h, anio) => (!anio || (!d && !h) ? null : (!d || d <= anio) && (!h || h >= anio));
+
+function detalleOfertas(tipo, n, ofertas, anio) {
   const lista = el("div", { class: "ofertas" });
-  const detalle = el("details", { class: "detalle-ofertas", "data-tipo": tipo },
-    el("summary", { text: n > 1 ? `Ver los ${n} productos` : "Ver el producto" }), lista);
+  const resumen = el("summary", { text: n > 1 ? `Ver los ${n} productos` : "Ver el producto" });
+  const detalle = el("details", { class: "detalle-ofertas", "data-tipo": tipo }, resumen, lista);
+  const oferta = ([tienda, titulo, calidad, precio, unidades, url, desde, hasta]) => {
+    const s = sirve(desde, hasta, anio);
+    return el("a", { class: `oferta${s === false ? " otro-anio" : ""}`, href: url, target: "_blank", rel: "noopener" },
+      el("span", { class: "titulo", text: titulo }),
+      el("b", { text: pesos(precio) }),
+      el("small", {}, el("span", { class: calidad === "Original" ? "sello orig" : "sello", text: calidad }),
+        desde || hasta ? el("span", { class: `sello anio${s === true ? " si" : s === false ? " no" : ""}`, text: textoAnios(desde, hasta) }) : null,
+        ` ${TIENDAS[tienda] || tienda}`, unidades > 1 ? ` · ${pesos(precio * unidades)} ${PARES[unidades] || `x${unidades}`}` : ""),
+      el("span", { class: "flecha", "aria-hidden": "true", text: "↗" }));
+  };
+  // Con anio elegido: primero los que dicen ese anio, despues los que no dicen
+  // anio y al final (apagados) los de otros anios; cada grupo, del mas barato.
+  ofertas.then((o) => {
+    const productos = o[tipo] || [];
+    if (!anio || !productos.length) return;
+    const k = productos.filter((x) => sirve(x[6], x[7], anio)).length;
+    if (k) resumen.textContent += ` · ${k} ${k === 1 ? "dice" : "dicen"} ${anio}`;
+  });
   detalle.addEventListener("toggle", async () => {
     if (!detalle.open || lista.childElementCount) return;
-    const productos = (await ofertas)[tipo] || [];
-    poner(lista, productos.map(([tienda, titulo, calidad, precio, unidades, url]) =>
-      el("a", { class: "oferta", href: url, target: "_blank", rel: "noopener" },
-        el("span", { class: "titulo", text: titulo }),
-        el("b", { text: pesos(precio) }),
-        el("small", {}, el("span", { class: calidad === "Original" ? "sello orig" : "sello", text: calidad }),
-          ` ${TIENDAS[tienda] || tienda}`, unidades > 1 ? ` · ${pesos(precio * unidades)} ${PARES[unidades] || `x${unidades}`}` : ""),
-        el("span", { class: "flecha", "aria-hidden": "true", text: "↗" }))),
-      productos.length < n ? el("p", { class: "nota", text: `Los ${productos.length} más baratos de cada calidad, precio por unidad.` }) : null);
+    const rango = (x) => ({ true: 0, null: 1, false: 2 })[sirve(x[6], x[7], anio)];
+    const productos = [...((await ofertas)[tipo] || [])].sort((a, b) => rango(a) - rango(b));
+    const resto = productos.slice(PRIMEROS);
+    const mas = resto.length ? el("button", { type: "button", class: "chip mas-ofertas", text: `Ver ${resto.length} más`,
+      onclick: () => mas.replaceWith(...resto.map(oferta)) }) : null;
+    poner(lista, productos.slice(0, PRIMEROS).map(oferta), mas,
+      el("p", { class: "nota", text: "Precio por unidad. " + (anio
+        ? `Primero los que dicen ${anio} en el título, después los que no dicen año; los de otros años, al final y apagados.`
+        : "Elegí el año de tu auto arriba para ver primero los que le sirven.") }));
   });
   return detalle;
 }

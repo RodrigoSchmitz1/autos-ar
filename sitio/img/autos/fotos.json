@@ -1,4 +1,48 @@
 {
+ "AUDI|A1": {
+  "archivo": "2014 Audi A1 Sport TDi.jpg",
+  "autor": "Calreyn88",
+  "generaciones": [
+   {
+    "alto": 456,
+    "ancho": 960,
+    "archivo": "2014 Audi A1 Sport TDi.jpg",
+    "autor": "Calreyn88",
+    "desde": 2011,
+    "hasta": 2018,
+    "imagen": "audi-a1-a2011.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Audi_A1_Sport_TDi.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "audi-a1.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2014_Audi_A1_Sport_TDi.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "AUDI|A3": {
+  "archivo": "2018 Audi A3 Sport TDi Saloon 1.5 Front.jpg",
+  "autor": "Vauxford",
+  "generaciones": [
+   {
+    "alto": 490,
+    "ancho": 960,
+    "archivo": "2018 Audi A3 Sport TDi Saloon 1.5 Front.jpg",
+    "autor": "Vauxford",
+    "desde": 2013,
+    "hasta": 2020,
+    "imagen": "audi-a3-a2013.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2018_Audi_A3_Sport_TDi_Saloon_1.5_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "audi-a3.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2018_Audi_A3_Sport_TDi_Saloon_1.5_Front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "BAIC|BJ30": {
   "archivo": "Beijing BJ30, front 1.jpg",
   "autor": "Nortoncc1",
@@ -475,6 +519,218 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:Chery_Tiggo_7_Pro_Hybrid_2025.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "CHEVROLET|AGILE": {
+  "archivo": "2015 Chevrolet Agile 1.4 Effect.jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 452,
+    "ancho": 960,
+    "archivo": "ChevroletAgileMDP.jpg",
+    "autor": "Ezarate",
+    "desde": 2009,
+    "hasta": 2013,
+    "imagen": "chevrolet-agile-a2009.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ChevroletAgileMDP.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "alto": 610,
+    "ancho": 960,
+    "archivo": "2015 Chevrolet Agile 1.4 Effect.jpg",
+    "autor": "Just a Man",
+    "desde": 2014,
+    "hasta": 2017,
+    "imagen": "chevrolet-agile-a2014.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2015_Chevrolet_Agile_1.4_Effect.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "chevrolet-agile.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2015_Chevrolet_Agile_1.4_Effect.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "CHEVROLET|AVEO": {
+  "archivo": "2012 Chevrolet Aveo 1.6 LT facelift.jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 697,
+    "ancho": 960,
+    "archivo": "2012 Chevrolet Aveo 1.6 LT facelift.jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2008,
+    "hasta": 2017,
+    "imagen": "chevrolet-aveo-a2008.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2012_Chevrolet_Aveo_1.6_LT_facelift.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "chevrolet-aveo.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2012_Chevrolet_Aveo_1.6_LT_facelift.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "CHEVROLET|CAPTIVA": {
+  "archivo": "Chevrolet Captiva 2.4 LS 2013.jpg",
+  "autor": "RL GNZLZ",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Chevrolet Captiva 2.4 LS 2010 (16239422891).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2007,
+    "hasta": 2011,
+    "imagen": "chevrolet-captiva-a2007.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Captiva_2.4_LS_2010_(16239422891).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 563,
+    "ancho": 960,
+    "archivo": "Chevrolet Captiva 2.4 LS 2013.jpg",
+    "autor": "RL GNZLZ",
+    "desde": 2012,
+    "hasta": 2018,
+    "imagen": "chevrolet-captiva-a2012.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Captiva_2.4_LS_2013.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "chevrolet-captiva.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Captiva_2.4_LS_2013.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "CHEVROLET|CELTA": {
+  "archivo": "Chevrolet Celta 1.4 LS 2013.jpg",
+  "autor": "RL GNZLZ",
+  "generaciones": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Chevrolet Celta 1.4 LS 2013.jpg",
+    "autor": "RL GNZLZ",
+    "desde": 2011,
+    "hasta": 2016,
+    "imagen": "chevrolet-celta-a2011.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Celta_1.4_LS_2013.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "chevrolet-celta.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Celta_1.4_LS_2013.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "CHEVROLET|CLASSIC": {
+  "archivo": "Chevrolet Classic LS 2016 frente.jpg",
+  "autor": "Maxi-carp-99",
+  "generaciones": [
+   {
+    "alto": 609,
+    "ancho": 960,
+    "archivo": "Chevrolet Classic LS 2016 frente.jpg",
+    "autor": "Maxi-carp-99",
+    "desde": 2010,
+    "hasta": 2018,
+    "imagen": "chevrolet-classic-a2010.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Classic_LS_2016_frente.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "chevrolet-classic.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Classic_LS_2016_frente.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "CHEVROLET|COBALT": {
+  "archivo": "Chevrolet Cobalt 1.8 LT 2017.jpg",
+  "autor": "RL GNZLZ",
+  "generaciones": [
+   {
+    "alto": 541,
+    "ancho": 960,
+    "archivo": "Chevrolet Cobalt 1.8 LT 2017.jpg",
+    "autor": "RL GNZLZ",
+    "desde": 2012,
+    "hasta": 2020,
+    "imagen": "chevrolet-cobalt-a2012.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cobalt_1.8_LT_2017.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "chevrolet-cobalt.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cobalt_1.8_LT_2017.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "CHEVROLET|CRUZE": {
+  "archivo": "Chevrolet Cruze 1.4T LTZ 2017.jpg",
+  "autor": "RL GNZLZ",
+  "generaciones": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2010 Chevrolet Cruze Sedan 1.8 LT (Front).jpg",
+    "autor": "MoCars",
+    "desde": 2010,
+    "hasta": 2016,
+    "imagen": "chevrolet-cruze-a2010.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2010_Chevrolet_Cruze_Sedan_1.8_LT_(Front).jpg",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "alto": 495,
+    "ancho": 960,
+    "archivo": "Chevrolet Cruze 1.4T LTZ 2017.jpg",
+    "autor": "RL GNZLZ",
+    "desde": 2017,
+    "hasta": 2024,
+    "imagen": "chevrolet-cruze-a2017.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cruze_1.4T_LTZ_2017.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "chevrolet-cruze.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cruze_1.4T_LTZ_2017.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "CHEVROLET|MERIVA": {
+  "archivo": "2005 Chevrolet Meriva 1.8 GL, front.jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 680,
+    "ancho": 960,
+    "archivo": "2005 Chevrolet Meriva 1.8 GL, front.jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2003,
+    "hasta": 2013,
+    "imagen": "chevrolet-meriva-a2003.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2005_Chevrolet_Meriva_1.8_GL,_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "chevrolet-meriva.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2005_Chevrolet_Meriva_1.8_GL,_front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
  "CHEVROLET|MONTANA PICK - UP": {
   "archivo": "2023 Chevrolet Montana Premier (Brazil) front view 01.jpg",
   "autor": "Autosdeprimera",
@@ -613,6 +869,28 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_Mk2_RS_2020_in_Maldonado_-_front.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "CHEVROLET|PRISMA": {
+  "archivo": "Chevrolet Prisma 1.4 LT 2018 (31667382197).jpg",
+  "autor": "RL GNZLZ from Chile",
+  "generaciones": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Chevrolet Prisma 1.4 LT 2018 (31667382197).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "desde": 2013,
+    "hasta": 2020,
+    "imagen": "chevrolet-prisma-a2013.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Prisma_1.4_LT_2018_(31667382197).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "chevrolet-prisma.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Prisma_1.4_LT_2018_(31667382197).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
  "CHEVROLET|S-10 PICK - UP": {
   "archivo": "2025 Chevrolet S-10 2.8 Duramax LTZ 4x4.jpg",
   "autor": "Just a Man",
@@ -628,6 +906,28 @@
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_S-10_2.8_Duramax_LTZ_4x4.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "CHEVROLET|SONIC": {
+  "archivo": "2015 Chevrolet Sonic Sedan 1.4 LT (1).jpg",
+  "autor": "Captainmorlypogi1959",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2015 Chevrolet Sonic Sedan 1.4 LT (1).jpg",
+    "autor": "Captainmorlypogi1959",
+    "desde": 2012,
+    "hasta": 2017,
+    "imagen": "chevrolet-sonic-a2012.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2015_Chevrolet_Sonic_Sedan_1.4_LT_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "chevrolet-sonic.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2015_Chevrolet_Sonic_Sedan_1.4_LT_(1).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
  "CHEVROLET|SPIN": {
   "archivo": "2025 Chevrolet Spin 1.8 LT (front).jpg",
@@ -758,6 +1058,50 @@
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2026_Chevrolet_Tracker_1.2_LT_(facelift).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "CHEVROLET|TRAILBLAZER": {
+  "archivo": "2017 Chevrolet Trailblazer 4x4 LTZ Z71 (1).jpg",
+  "autor": "Captainmorlypogi1959",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2017 Chevrolet Trailblazer 4x4 LTZ Z71 (1).jpg",
+    "autor": "Captainmorlypogi1959",
+    "desde": 2012,
+    "hasta": 2026,
+    "imagen": "chevrolet-trailblazer-a2012.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2017_Chevrolet_Trailblazer_4x4_LTZ_Z71_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "chevrolet-trailblazer.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2017_Chevrolet_Trailblazer_4x4_LTZ_Z71_(1).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "CHEVROLET|VECTRA": {
+  "archivo": "Chevrolet Vectra 2.4 CD 2010 (14439978435).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Chevrolet Vectra 2.4 CD 2010 (14439978435).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2006,
+    "hasta": 2012,
+    "imagen": "chevrolet-vectra-a2006.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Vectra_2.4_CD_2010_(14439978435).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "chevrolet-vectra.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Vectra_2.4_CD_2010_(14439978435).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
  },
  "CITROEN|BASALT": {
   "archivo": "Citroen Basalt Turbo 200 Shine 2025.jpg",
@@ -930,6 +1274,138 @@
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Aircross_2024_Shine_1.0_Turbo_200_in_Montevideo_(front).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "CITROEN|C 3 PICASSO": {
+  "archivo": "Citroen C3 Picasso 1.6 HDi Seduction 2013 (10392869213).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Citroen C3 Picasso 1.6 HDi Seduction 2013 (10392869213).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2011,
+    "hasta": 2016,
+    "imagen": "citroen-c-3-picasso-a2011.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citroen_C3_Picasso_1.6_HDi_Seduction_2013_(10392869213).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "citroen-c-3-picasso.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Citroen_C3_Picasso_1.6_HDi_Seduction_2013_(10392869213).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "CITROEN|C 4 CACTUS": {
+  "archivo": "2020 Citröen C4 Cactus 1.6 VTi Feel Pack (facelift, Brazil).jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 619,
+    "ancho": 960,
+    "archivo": "2020 Citröen C4 Cactus 1.6 VTi Feel Pack (facelift, Brazil).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2017,
+    "hasta": 2025,
+    "imagen": "citroen-c-4-cactus-a2017.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2020_Citr%C3%B6en_C4_Cactus_1.6_VTi_Feel_Pack_(facelift,_Brazil).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "citroen-c-4-cactus.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2020_Citr%C3%B6en_C4_Cactus_1.6_VTi_Feel_Pack_(facelift,_Brazil).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "CITROEN|C 4 LOUNGE": {
+  "archivo": "C4 Lounge 2018 Argentina (cropped).jpg",
+  "autor": "JasonVogel",
+  "generaciones": [
+   {
+    "alto": 548,
+    "ancho": 960,
+    "archivo": "C4 Lounge 2018 Argentina (cropped).jpg",
+    "autor": "JasonVogel",
+    "desde": 2013,
+    "hasta": 2022,
+    "imagen": "citroen-c-4-lounge-a2013.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:C4_Lounge_2018_Argentina_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "citroen-c-4-lounge.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:C4_Lounge_2018_Argentina_(cropped).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "CITROEN|XSARA PICASSO": {
+  "archivo": "Citroën Xsara Picasso facelift in Punta del Este 2015.JPG",
+  "autor": "NaBUru38",
+  "generaciones": [
+   {
+    "alto": 672,
+    "ancho": 960,
+    "archivo": "Citroën Xsara Picasso facelift in Punta del Este 2015.JPG",
+    "autor": "NaBUru38",
+    "desde": 2002,
+    "hasta": 2013,
+    "imagen": "citroen-xsara-picasso-a2002.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Xsara_Picasso_facelift_in_Punta_del_Este_2015.JPG",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "citroen-xsara-picasso.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Xsara_Picasso_facelift_in_Punta_del_Este_2015.JPG",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "DODGE|JOURNEY": {
+  "archivo": "2010 Dodge Journey RT CRD 2.0 Front.jpg",
+  "autor": "Vauxford",
+  "generaciones": [
+   {
+    "alto": 522,
+    "ancho": 960,
+    "archivo": "2010 Dodge Journey RT CRD 2.0 Front.jpg",
+    "autor": "Vauxford",
+    "desde": 2008,
+    "hasta": 2019,
+    "imagen": "dodge-journey-a2008.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2010_Dodge_Journey_RT_CRD_2.0_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "dodge-journey.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2010_Dodge_Journey_RT_CRD_2.0_Front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "FIAT|500": {
+  "archivo": "2019 FIAT 500 Rockstar - 1242cc 1.2 (69PS) Petrol - White - 06-2024, Front.jpg",
+  "autor": "Harvey Bold",
+  "generaciones": [
+   {
+    "alto": 620,
+    "ancho": 960,
+    "archivo": "2019 FIAT 500 Rockstar - 1242cc 1.2 (69PS) Petrol - White - 06-2024, Front.jpg",
+    "autor": "Harvey Bold",
+    "desde": 2008,
+    "hasta": 2021,
+    "imagen": "fiat-500-a2008.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2019_FIAT_500_Rockstar_-_1242cc_1.2_(69PS)_Petrol_-_White_-_06-2024,_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "fiat-500.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2019_FIAT_500_Rockstar_-_1242cc_1.2_(69PS)_Petrol_-_White_-_06-2024,_Front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
  "FIAT|600": {
   "archivo": "Fiat 600 (2023) Hybrid.jpg",
@@ -1197,6 +1673,28 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Cronos_1.3_GSE_Precision.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
+ "FIAT|DUCATO": {
+  "archivo": "Fiat Ducato 120 MultiJet Cargo 2010 (14175582228).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Ducato 120 MultiJet Cargo 2010 (14175582228).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2006,
+    "hasta": 2022,
+    "imagen": "fiat-ducato-a2006.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Ducato_120_MultiJet_Cargo_2010_(14175582228).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "fiat-ducato.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Ducato_120_MultiJet_Cargo_2010_(14175582228).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
  "FIAT|FASTBACK": {
   "archivo": "2023 Fiat Fastback (Colombia) front view.png",
   "autor": "Autosdeprimera",
@@ -1324,6 +1822,62 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fiorino_Endurance_1.4_Fire_Evo_(facelift).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
+ "FIAT|GRAND SIENA": {
+  "archivo": "Fiat Grand Siena in Maldonado - front.jpg",
+  "autor": "NaBUru38",
+  "generaciones": [
+   {
+    "alto": 503,
+    "ancho": 960,
+    "archivo": "Fiat Grand Siena in Maldonado - front.jpg",
+    "autor": "NaBUru38",
+    "desde": 2012,
+    "hasta": 2018,
+    "imagen": "fiat-grand-siena-a2012.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Grand_Siena_in_Maldonado_-_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "fiat-grand-siena.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Grand_Siena_in_Maldonado_-_front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "FIAT|IDEA": {
+  "archivo": "2011 Fiat Idea 1.6 E.torQ Essence (Brazilian built facelift).jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Idea 1.8 HLX 2006 (15498086786).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2005,
+    "hasta": 2010,
+    "imagen": "fiat-idea-a2005.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Idea_1.8_HLX_2006_(15498086786).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 683,
+    "ancho": 960,
+    "archivo": "2011 Fiat Idea 1.6 E.torQ Essence (Brazilian built facelift).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2011,
+    "hasta": 2017,
+    "imagen": "fiat-idea-a2011.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2011_Fiat_Idea_1.6_E.torQ_Essence_(Brazilian_built_facelift).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "fiat-idea.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2011_Fiat_Idea_1.6_E.torQ_Essence_(Brazilian_built_facelift).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
  "FIAT|MOBI": {
   "archivo": "Fiat Mobi Trekking 1.0 2021 in Montevideo (front) (cropped).jpg",
   "autor": "NaBUru38",
@@ -1396,6 +1950,40 @@
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_Trekking_1.0_2021_in_Montevideo_(front)_(cropped).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "FIAT|PALIO": {
+  "archivo": "2013 2nd gen. Fiat Palio 1.4 Attractive, spotted in Buenos Aires, Argentina (front view).jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Palio ELX 1.3 Fire 2005 (12295480546).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2002,
+    "hasta": 2011,
+    "imagen": "fiat-palio-a2002.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Palio_ELX_1.3_Fire_2005_(12295480546).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 712,
+    "ancho": 960,
+    "archivo": "2013 2nd gen. Fiat Palio 1.4 Attractive, spotted in Buenos Aires, Argentina (front view).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2012,
+    "hasta": 2018,
+    "imagen": "fiat-palio-a2012.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2013_2nd_gen._Fiat_Palio_1.4_Attractive,_spotted_in_Buenos_Aires,_Argentina_(front_view).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "fiat-palio.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2013_2nd_gen._Fiat_Palio_1.4_Attractive,_spotted_in_Buenos_Aires,_Argentina_(front_view).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
  "FIAT|PULSE": {
   "archivo": "2023 Fiat Pulse Impetus (Colombia) front view 01.jpg",
@@ -1491,6 +2079,28 @@
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Pulse_Impetus_(Colombia)_front_view_01.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "FIAT|SIENA": {
+  "archivo": "FiatSiena-Tandil.jpg",
+  "autor": "Ezarate",
+  "generaciones": [
+   {
+    "alto": 532,
+    "ancho": 960,
+    "archivo": "FiatSiena-Tandil.jpg",
+    "autor": "Ezarate",
+    "desde": 2008,
+    "hasta": 2018,
+    "imagen": "fiat-siena-a2008.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:FiatSiena-Tandil.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "fiat-siena.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:FiatSiena-Tandil.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
  "FIAT|STRADA PICK - UP": {
   "archivo": "Fiat Strada 2020 Volcano in Montevideo (front).jpg",
@@ -1654,6 +2264,28 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_2022_1.8_Freedom_in_Punta_del_Este_(front).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "FIAT|UNO": {
+  "archivo": "Fiat Uno 1.4 Attractive 2011 (9061080995).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Fiat Uno 1.4 Attractive 2011 (9061080995).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2011,
+    "hasta": 2021,
+    "imagen": "fiat-uno-a2011.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Uno_1.4_Attractive_2011_(9061080995).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "fiat-uno.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Uno_1.4_Attractive_2011_(9061080995).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
  "FORD|BRONCO SPORT": {
   "archivo": "Ford Bronco Sport Badlands 1X7A0384.jpg",
   "autor": "Alexander Migl",
@@ -1730,6 +2362,52 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_Sport_Badlands_1X7A0384.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "FORD|ECOSPORT": {
+  "archivo": "2018 Ford Ecosport facelift Front.jpg",
+  "autor": "Vauxford",
+  "generaciones": [
+   {
+    "alto": 702,
+    "ancho": 960,
+    "archivo": "2008 Ford Ecosport 2.0 XLT Plus 4x2, facelift (1-2).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2003,
+    "hasta": 2012,
+    "imagen": "ford-ecosport-a2003.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2008_Ford_Ecosport_2.0_XLT_Plus_4x2,_facelift_(1-2).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "2014 Ford Ecosport Trend (15442398730).jpg",
+    "autor": "TuRbO_J from Adelaide, Australia",
+    "desde": 2013,
+    "hasta": 2017,
+    "imagen": "ford-ecosport-a2013.webp",
+    "licencia": "CC BY 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Ford_Ecosport_Trend_(15442398730).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/2.0"
+   },
+   {
+    "alto": 613,
+    "ancho": 960,
+    "archivo": "2018 Ford Ecosport facelift Front.jpg",
+    "autor": "Vauxford",
+    "desde": 2018,
+    "hasta": 2023,
+    "imagen": "ford-ecosport-a2018.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2018_Ford_Ecosport_facelift_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "ford-ecosport.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2018_Ford_Ecosport_facelift_Front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "FORD|EVEREST": {
   "archivo": "Ford Everest Limited 2023 Aluminum Metallic.jpg",
   "autor": "Josh Zafra",
@@ -1794,6 +2472,28 @@
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Everest_Limited_2023_Aluminum_Metallic.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "FORD|F-100 PICK - UP": {
+  "archivo": "2006 Ford F-100 3.9 XL 4x2 (front).jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 591,
+    "ancho": 960,
+    "archivo": "2006 Ford F-100 3.9 XL 4x2 (front).jpg",
+    "autor": "Just a Man",
+    "desde": 2002,
+    "hasta": 2013,
+    "imagen": "ford-f-100-pick-up-a2002.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2006_Ford_F-100_3.9_XL_4x2_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "ford-f-100-pick-up.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2006_Ford_F-100_3.9_XL_4x2_(front).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
  "FORD|F-150 PICK - UP": {
   "archivo": "2021 Ford F-150 (fourteenth generation) front view 01.png",
@@ -1871,6 +2571,154 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_(fourteenth_generation)_front_view_01.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
  },
+ "FORD|FIESTA": {
+  "archivo": "Ford Fiesta 1.6 Titanium 2014 (12469541554).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 621,
+    "ancho": 960,
+    "archivo": "2008 Ford Fiesta 1.6 Ambiente Plus (facelift).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2002,
+    "hasta": 2010,
+    "imagen": "ford-fiesta-a2002.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2008_Ford_Fiesta_1.6_Ambiente_Plus_(facelift).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ford Fiesta 1.6 Titanium 2014 (12469541554).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2011,
+    "hasta": 2020,
+    "imagen": "ford-fiesta-a2011.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_1.6_Titanium_2014_(12469541554).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "ford-fiesta.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_1.6_Titanium_2014_(12469541554).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "FORD|FOCUS": {
+  "archivo": "2014 Ford Focus 1.6 Sigma S.jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "2001 (Y) Ford Focus 5dr.jpg",
+    "autor": "Aboutdamnavantime.wiki",
+    "desde": 2002,
+    "hasta": 2008,
+    "imagen": "ford-focus-a2002.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2001_(Y)_Ford_Focus_5dr.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2008 Ford Focus (LT) Ghia 5-door hatchback (2008-10-10) 01.jpg",
+    "autor": "OSX",
+    "desde": 2009,
+    "hasta": 2013,
+    "imagen": "ford-focus-a2009.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2008_Ford_Focus_(LT)_Ghia_5-door_hatchback_(2008-10-10)_01.jpg",
+    "url_licencia": ""
+   },
+   {
+    "alto": 433,
+    "ancho": 960,
+    "archivo": "2014 Ford Focus 1.6 Sigma S.jpg",
+    "autor": "Just a Man",
+    "desde": 2014,
+    "hasta": 2020,
+    "imagen": "ford-focus-a2014.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Ford_Focus_1.6_Sigma_S.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "ford-focus.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2014_Ford_Focus_1.6_Sigma_S.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "FORD|KA": {
+  "archivo": "Ford Ka 1.5 SE 2018.jpg",
+  "autor": "Pdamico2009",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Ford Ka 1.6 XR 2004 (13976111338).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2002,
+    "hasta": 2007,
+    "imagen": "ford-ka-a2002.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Ka_1.6_XR_2004_(13976111338).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 666,
+    "ancho": 960,
+    "archivo": "2013 Ford Ka 1.0 Fly Viral (facelift, front view).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2008,
+    "hasta": 2013,
+    "imagen": "ford-ka-a2008.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2013_Ford_Ka_1.0_Fly_Viral_(facelift,_front_view).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 718,
+    "ancho": 960,
+    "archivo": "Ford Ka 1.5 SE 2018.jpg",
+    "autor": "Pdamico2009",
+    "desde": 2014,
+    "hasta": 2021,
+    "imagen": "ford-ka-a2014.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Ka_1.5_SE_2018.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "ford-ka.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Ka_1.5_SE_2018.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "FORD|KUGA": {
+  "archivo": "2014 Ford Kuga Special Edition front.jpg",
+  "autor": "LuvsMG481",
+  "generaciones": [
+   {
+    "alto": 513,
+    "ancho": 960,
+    "archivo": "2014 Ford Kuga Special Edition front.jpg",
+    "autor": "LuvsMG481",
+    "desde": 2013,
+    "hasta": 2019,
+    "imagen": "ford-kuga-a2013.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Ford_Kuga_Special_Edition_front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "ford-kuga.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2014_Ford_Kuga_Special_Edition_front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "FORD|MAVERICK PICK - UP": {
   "archivo": "2022 Ford Maverick XLT AWD, Front Right, 10-10-2021.jpg",
   "autor": "Elise240SX",
@@ -1943,6 +2791,28 @@
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_AWD,_Front_Right,_10-10-2021.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "FORD|MONDEO": {
+  "archivo": "Ford Mondeo front 20080303.jpg",
+  "autor": "Rudolf Stricker",
+  "generaciones": [
+   {
+    "alto": 525,
+    "ancho": 960,
+    "archivo": "Ford Mondeo front 20080303.jpg",
+    "autor": "Rudolf Stricker",
+    "desde": 2008,
+    "hasta": 2014,
+    "imagen": "ford-mondeo-a2008.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Mondeo_front_20080303.jpg",
+    "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/"
+   }
+  ],
+  "imagen": "ford-mondeo.webp",
+  "licencia": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Mondeo_front_20080303.jpg",
+  "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/"
  },
  "FORD|RANGER PICK - UP": {
   "archivo": "Ford Ranger (T6, P703) Wildtrak IMG 7320.jpg",
@@ -2209,6 +3079,86 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Haval_Jolion_white_front.jpg",
   "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
  },
+ "HONDA|CIVIC": {
+  "archivo": "Brazilian Honda Civic touring 2017 (cropped).jpg",
+  "autor": "JasonVogel",
+  "generaciones": [
+   {
+    "alto": 600,
+    "ancho": 800,
+    "archivo": "2007 Honda Civic LXS Sedan.jpg",
+    "autor": "Simoloko",
+    "desde": 2006,
+    "hasta": 2011,
+    "imagen": "honda-civic-a2006.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2007_Honda_Civic_LXS_Sedan.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "alto": 576,
+    "ancho": 960,
+    "archivo": "Honda Civic 1.8 EXL 2014 (13135991144) (cropped).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2012,
+    "hasta": 2016,
+    "imagen": "honda-civic-a2012.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Honda_Civic_1.8_EXL_2014_(13135991144)_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 512,
+    "ancho": 960,
+    "archivo": "Brazilian Honda Civic touring 2017 (cropped).jpg",
+    "autor": "JasonVogel",
+    "desde": 2017,
+    "hasta": 2021,
+    "imagen": "honda-civic-a2017.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brazilian_Honda_Civic_touring_2017_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "honda-civic.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Brazilian_Honda_Civic_touring_2017_(cropped).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "HONDA|CR-V": {
+  "archivo": "2012 Honda CR-V (RM MY13) VTi 2WD wagon (2015-08-07) 01 (cropped).jpg",
+  "autor": "OSX",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2007 Honda CR-V (front), Candikuning.jpg",
+    "autor": "Alex Neman",
+    "desde": 2007,
+    "hasta": 2011,
+    "imagen": "honda-cr-v-a2007.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2007_Honda_CR-V_(front),_Candikuning.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "alto": 532,
+    "ancho": 960,
+    "archivo": "2012 Honda CR-V (RM MY13) VTi 2WD wagon (2015-08-07) 01 (cropped).jpg",
+    "autor": "OSX",
+    "desde": 2012,
+    "hasta": 2016,
+    "imagen": "honda-cr-v-a2012.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2012_Honda_CR-V_(RM_MY13)_VTi_2WD_wagon_(2015-08-07)_01_(cropped).jpg",
+    "url_licencia": ""
+   }
+  ],
+  "imagen": "honda-cr-v.webp",
+  "licencia": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2012_Honda_CR-V_(RM_MY13)_VTi_2WD_wagon_(2015-08-07)_01_(cropped).jpg",
+  "url_licencia": ""
+ },
  "HONDA|HR-V": {
   "archivo": "Honda HR-V Hybrid 1X7A0388.jpg",
   "autor": "Alexander Migl",
@@ -2454,6 +3404,52 @@
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_front_view.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "HYUNDAI|TUCSON": {
+  "archivo": "2015 Hyundai Tucson SE NAV CRDi 2.0 Front.jpg",
+  "autor": "Vauxford",
+  "generaciones": [
+   {
+    "alto": 558,
+    "ancho": 960,
+    "archivo": "2005 Hyundai Tucson GLS, front left, 03-08-2024.jpg",
+    "autor": "MercurySable99",
+    "desde": 2005,
+    "hasta": 2009,
+    "imagen": "hyundai-tucson-a2005.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2005_Hyundai_Tucson_GLS,_front_left,_03-08-2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "alto": 444,
+    "ancho": 960,
+    "archivo": "2010 Hyundai Tucson GL in Diamond Silver, Front Left.jpg",
+    "autor": "Elise240SX",
+    "desde": 2010,
+    "hasta": 2015,
+    "imagen": "hyundai-tucson-a2010.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2010_Hyundai_Tucson_GL_in_Diamond_Silver,_Front_Left.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "alto": 574,
+    "ancho": 960,
+    "archivo": "2015 Hyundai Tucson SE NAV CRDi 2.0 Front.jpg",
+    "autor": "Vauxford",
+    "desde": 2016,
+    "hasta": 2021,
+    "imagen": "hyundai-tucson-a2016.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2015_Hyundai_Tucson_SE_NAV_CRDi_2.0_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "hyundai-tucson.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2015_Hyundai_Tucson_SE_NAV_CRDi_2.0_Front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
  "JEEP|COMMANDER": {
   "archivo": "2023 Jeep Commander Overland T270 (Colombia) front view.jpg",
@@ -3031,6 +4027,84 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_Play_au_SIAM_2025.jpg",
   "url_licencia": ""
  },
+ "NISSAN|MARCH": {
+  "archivo": "Nissan March 1.6 Advance 2014 (16554606815).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Nissan March 1.6 Advance 2014 (16554606815).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2012,
+    "hasta": 2021,
+    "imagen": "nissan-march-a2012.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_March_1.6_Advance_2014_(16554606815).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "nissan-march.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_March_1.6_Advance_2014_(16554606815).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "NISSAN|NOTE": {
+  "archivo": "Nissan Note 1.6 Advance 2014 (10282268824).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Nissan Note 1.6 Advance 2014 (10282268824).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2015,
+    "hasta": 2020,
+    "imagen": "nissan-note-a2015.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Note_1.6_Advance_2014_(10282268824).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "nissan-note.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Note_1.6_Advance_2014_(10282268824).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "NISSAN|SENTRA": {
+  "archivo": "2017 Nissan Sentra SV front 4.18.19.jpg",
+  "autor": "Kevauto",
+  "generaciones": [
+   {
+    "alto": 523,
+    "ancho": 960,
+    "archivo": "2014 Nissan Sentra SR 1.8.jpg",
+    "autor": "Just a Man",
+    "desde": 2013,
+    "hasta": 2016,
+    "imagen": "nissan-sentra-a2013.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Nissan_Sentra_SR_1.8.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 477,
+    "ancho": 960,
+    "archivo": "2017 Nissan Sentra SV front 4.18.19.jpg",
+    "autor": "Kevauto",
+    "desde": 2017,
+    "hasta": 2019,
+    "imagen": "nissan-sentra-a2017.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2017_Nissan_Sentra_SV_front_4.18.19.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "nissan-sentra.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2017_Nissan_Sentra_SV_front_4.18.19.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "NISSAN|VERSA": {
   "archivo": "Nissan Versa 1.6 Advance 2021.jpg",
   "autor": "RL GNZLZ from Chile",
@@ -3248,6 +4322,50 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Peugeot_2008_Active_1.0_T200_(Argentina).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
+ "PEUGEOT|206": {
+  "archivo": "2004 Peugeot 206 (T1 MY04) XT 5-door hatchback (2015-05-29) 01.jpg",
+  "autor": "OSX",
+  "generaciones": [
+   {
+    "alto": 721,
+    "ancho": 960,
+    "archivo": "2004 Peugeot 206 (T1 MY04) XT 5-door hatchback (2015-05-29) 01.jpg",
+    "autor": "OSX",
+    "desde": 2002,
+    "hasta": 2013,
+    "imagen": "peugeot-206-a2002.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2004_Peugeot_206_(T1_MY04)_XT_5-door_hatchback_(2015-05-29)_01.jpg",
+    "url_licencia": ""
+   }
+  ],
+  "imagen": "peugeot-206.webp",
+  "licencia": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2004_Peugeot_206_(T1_MY04)_XT_5-door_hatchback_(2015-05-29)_01.jpg",
+  "url_licencia": ""
+ },
+ "PEUGEOT|207": {
+  "archivo": "2013 Peugeot 207 Compact 1.4 Active.jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 500,
+    "ancho": 960,
+    "archivo": "2013 Peugeot 207 Compact 1.4 Active.jpg",
+    "autor": "Just a Man",
+    "desde": 2008,
+    "hasta": 2017,
+    "imagen": "peugeot-207-a2008.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2013_Peugeot_207_Compact_1.4_Active.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "peugeot-207.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2013_Peugeot_207_Compact_1.4_Active.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
  "PEUGEOT|208": {
   "archivo": "Peugeot 208 PureTech 130 EAT8 Allure GT-Line (II) – f 17102021.jpg",
   "autor": "© M 93",
@@ -3397,6 +4515,118 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "PEUGEOT|307": {
+  "archivo": "Peugeot 307 1.6 X-Line Sedan 2008 (13956100983).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Peugeot 307 1.6 X-Line Sedan 2008 (13956100983).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2002,
+    "hasta": 2012,
+    "imagen": "peugeot-307-a2002.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_307_1.6_X-Line_Sedan_2008_(13956100983).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "peugeot-307.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_307_1.6_X-Line_Sedan_2008_(13956100983).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "PEUGEOT|308": {
+  "archivo": "2017 Peugeot 308 1.6 THP Feline.jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Peugeot 308 - Parte Frontal Izquierda.jpg",
+    "autor": "Biology9",
+    "desde": 2012,
+    "hasta": 2015,
+    "imagen": "peugeot-308-a2012.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_308_-_Parte_Frontal_Izquierda.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "alto": 483,
+    "ancho": 960,
+    "archivo": "2017 Peugeot 308 1.6 THP Feline.jpg",
+    "autor": "Just a Man",
+    "desde": 2016,
+    "hasta": 2022,
+    "imagen": "peugeot-308-a2016.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2017_Peugeot_308_1.6_THP_Feline.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "peugeot-308.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2017_Peugeot_308_1.6_THP_Feline.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "PEUGEOT|408": {
+  "archivo": "2016 Peugeot 408 1.6 Active.jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 600,
+    "ancho": 960,
+    "archivo": "Peugeot 408 Allure 2011 (35620391563).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "desde": 2010,
+    "hasta": 2015,
+    "imagen": "peugeot-408-a2010.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_408_Allure_2011_(35620391563).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 499,
+    "ancho": 960,
+    "archivo": "2016 Peugeot 408 1.6 Active.jpg",
+    "autor": "Just a Man",
+    "desde": 2016,
+    "hasta": 2021,
+    "imagen": "peugeot-408-a2016.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2016_Peugeot_408_1.6_Active.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "peugeot-408.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2016_Peugeot_408_1.6_Active.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "PEUGEOT|EXPERT": {
+  "archivo": "2012 Peugeot Expert facelift.JPG",
+  "autor": "Corvettec6r",
+  "generaciones": [
+   {
+    "alto": 656,
+    "ancho": 960,
+    "archivo": "2012 Peugeot Expert facelift.JPG",
+    "autor": "Corvettec6r",
+    "desde": 2008,
+    "hasta": 2016,
+    "imagen": "peugeot-expert-a2008.webp",
+    "licencia": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2012_Peugeot_Expert_facelift.JPG",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  ],
+  "imagen": "peugeot-expert.webp",
+  "licencia": "CC0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2012_Peugeot_Expert_facelift.JPG",
+  "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
  "PEUGEOT|PARTNER": {
   "archivo": "Peugeot Partner Quicksilver HDI (2005) (52181857243).jpg",
   "autor": "Charles from Port Chester, New York",
@@ -3404,6 +4634,28 @@
   "licencia": "CC BY 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_Partner_Quicksilver_HDI_(2005)_(52181857243).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "RAM|1500 PICK - UP": {
+  "archivo": "'14 Ram 1500 Crew Cab (MIAS '14).jpg",
+  "autor": "Bull-Doser",
+  "generaciones": [
+   {
+    "alto": 792,
+    "ancho": 960,
+    "archivo": "'14 Ram 1500 Crew Cab (MIAS '14).jpg",
+    "autor": "Bull-Doser",
+    "desde": 2013,
+    "hasta": 2019,
+    "imagen": "ram-1500-pick-up-a2013.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:%2714_Ram_1500_Crew_Cab_(MIAS_%2714).jpg",
+    "url_licencia": ""
+   }
+  ],
+  "imagen": "ram-1500-pick-up.webp",
+  "licencia": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:%2714_Ram_1500_Crew_Cab_(MIAS_%2714).jpg",
+  "url_licencia": ""
  },
  "RAM|DAKOTA PICK - UP": {
   "archivo": "Ram Dakota South America front left 1 - Autosdeprimera.jpg",
@@ -3502,6 +4754,28 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Ram_Rampage_Rebel_(Brazil)_front_view.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
  },
+ "RENAULT|ALASKAN PICK - UP": {
+  "archivo": "Renault Alaskan 2.3 dCi 190 Intens in Punta del Este in 2024.jpg",
+  "autor": "NaBUru38",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault Alaskan 2.3 dCi 190 Intens in Punta del Este in 2024.jpg",
+    "autor": "NaBUru38",
+    "desde": 2020,
+    "hasta": 2026,
+    "imagen": "renault-alaskan-pick-up-a2020.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Alaskan_2.3_dCi_190_Intens_in_Punta_del_Este_in_2024.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "renault-alaskan-pick-up.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Alaskan_2.3_dCi_190_Intens_in_Punta_del_Este_in_2024.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "RENAULT|ARKANA E-TECH": {
   "archivo": "Renault ARKANA E-TECH Engineered (7AA-LJLH4MH).jpg",
   "autor": "Tokumeigakarinoaoshima",
@@ -3577,6 +4851,84 @@
   "licencia": "CC0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Renault_ARKANA_E-TECH_Engineered_(7AA-LJLH4MH).jpg",
   "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "RENAULT|CAPTUR": {
+  "archivo": "Renault Kaptur 9900 (cropped).jpg",
+  "autor": "putnik",
+  "generaciones": [
+   {
+    "alto": 546,
+    "ancho": 960,
+    "archivo": "Renault Kaptur 9900 (cropped).jpg",
+    "autor": "putnik",
+    "desde": 2016,
+    "hasta": 2022,
+    "imagen": "renault-captur-a2016.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kaptur_9900_(cropped).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "renault-captur.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kaptur_9900_(cropped).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "RENAULT|CLIO": {
+  "archivo": "Renault Clio 1.6 Expression 2005 (8366545232).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault Clio 1.6 Expression 2005 (8366545232).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2002,
+    "hasta": 2014,
+    "imagen": "renault-clio-a2002.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Clio_1.6_Expression_2005_(8366545232).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "renault-clio.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Clio_1.6_Expression_2005_(8366545232).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "RENAULT|CLIO MIO": {
+  "archivo": "Renault Clio Mio 1.2 Dynamique 2016, frente.jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 629,
+    "ancho": 960,
+    "archivo": "2014 Renault Clio Mio 1.2 Confort 5-door.jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2012,
+    "hasta": 2015,
+    "imagen": "renault-clio-mio-a2012.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2014_Renault_Clio_Mio_1.2_Confort_5-door.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 663,
+    "ancho": 960,
+    "archivo": "Renault Clio Mio 1.2 Dynamique 2016, frente.jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2016,
+    "hasta": 2017,
+    "imagen": "renault-clio-mio-a2016.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Clio_Mio_1.2_Dynamique_2016,_frente.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "renault-clio-mio.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Clio_Mio_1.2_Dynamique_2016,_frente.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
  "RENAULT|DUSTER": {
   "archivo": "2024 Renault Duster 1.3 TCe Turbo Iconic.jpg",
@@ -3707,6 +5059,40 @@
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Oroch_Outsider_1.3_TCe_4wd.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "RENAULT|FLUENCE": {
+  "archivo": "Renault Fluence 1.6 Dynamique 2015 (15961460843).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault Fluence 2.0 Privilege 2012 (10414422965).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2010,
+    "hasta": 2014,
+    "imagen": "renault-fluence-a2010.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Fluence_2.0_Privilege_2012_(10414422965).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault Fluence 1.6 Dynamique 2015 (15961460843).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2015,
+    "hasta": 2019,
+    "imagen": "renault-fluence-a2015.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Fluence_1.6_Dynamique_2015_(15961460843).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "renault-fluence.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Fluence_1.6_Dynamique_2015_(15961460843).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
  },
  "RENAULT|KANGOO": {
   "archivo": "2021 Renault Kangoo 1.6 Express Confort.jpg",
@@ -3859,6 +5245,28 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_(front)_01.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "RENAULT|KOLEOS": {
+  "archivo": "2012 Renault Koleos (H45 Phase 2) Expression 2WD wagon (2017-07-15) 01.jpg",
+  "autor": "EurovisionNim",
+  "generaciones": [
+   {
+    "alto": 476,
+    "ancho": 960,
+    "archivo": "2012 Renault Koleos (H45 Phase 2) Expression 2WD wagon (2017-07-15) 01.jpg",
+    "autor": "EurovisionNim",
+    "desde": 2009,
+    "hasta": 2016,
+    "imagen": "renault-koleos-a2009.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2012_Renault_Koleos_(H45_Phase_2)_Expression_2WD_wagon_(2017-07-15)_01.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "renault-koleos.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2012_Renault_Koleos_(H45_Phase_2)_Expression_2WD_wagon_(2017-07-15)_01.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "RENAULT|KWID": {
   "archivo": "2023 Renault Kwid Iconic (Colombia) front view 02.png",
   "autor": "Autosdeprimera",
@@ -3912,6 +5320,62 @@
   "licencia": "CC BY 3.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Kwid_Iconic_(Colombia)_front_view_02.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "RENAULT|LOGAN": {
+  "archivo": "Renault Logan .jpg",
+  "autor": "Bull-Doser",
+  "generaciones": [
+   {
+    "alto": 727,
+    "ancho": 960,
+    "archivo": "Renault Logan 2007 Curitiba.jpg",
+    "autor": "Morio",
+    "desde": 2007,
+    "hasta": 2013,
+    "imagen": "renault-logan-a2007.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Logan_2007_Curitiba.jpg",
+    "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/"
+   },
+   {
+    "alto": 728,
+    "ancho": 960,
+    "archivo": "Renault Logan .jpg",
+    "autor": "Bull-Doser",
+    "desde": 2014,
+    "hasta": 2026,
+    "imagen": "renault-logan-a2014.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Logan_.jpg",
+    "url_licencia": ""
+   }
+  ],
+  "imagen": "renault-logan.webp",
+  "licencia": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Logan_.jpg",
+  "url_licencia": ""
+ },
+ "RENAULT|MASTER": {
+  "archivo": "Renault-Master.jpg",
+  "autor": "ГП",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Renault-Master.jpg",
+    "autor": "ГП",
+    "desde": 2013,
+    "hasta": 2026,
+    "imagen": "renault-master-a2013.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault-Master.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "renault-master.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault-Master.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
  },
  "RENAULT|SANDERO": {
   "archivo": "Renault Sandero em Moab.jpg",
@@ -4010,6 +5474,28 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Renault_Stepway_1.6_Zen.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
+ "RENAULT|SYMBOL": {
+  "archivo": "Renault Symbol 1.6 Privilege 2012 (48369214291).jpg",
+  "autor": "RL GNZLZ from Chile",
+  "generaciones": [
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Renault Symbol 1.6 Privilege 2012 (48369214291).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "desde": 2008,
+    "hasta": 2015,
+    "imagen": "renault-symbol-a2008.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Symbol_1.6_Privilege_2012_(48369214291).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "renault-symbol.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Symbol_1.6_Privilege_2012_(48369214291).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
  "TOYOTA|COROLLA": {
   "archivo": "Toyota Corolla Hybrid Sedan, GIMS 2019, Le Grand-Saconnex (GIMS1338).jpg",
   "autor": "Matti Blume",
@@ -4057,6 +5543,44 @@
     "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Prestige_Hybrid_IMG_1230.jpg",
     "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
     "vista": "cola"
+   }
+  ],
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Toyota Corolla 1.6 XLi 2006 (15122959674).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2003,
+    "hasta": 2008,
+    "imagen": "toyota-corolla-a2003.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_1.6_XLi_2006_(15122959674).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Toyota Corolla 1.6 XLi 2012 (14046234503).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2009,
+    "hasta": 2014,
+    "imagen": "toyota-corolla-a2009.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_1.6_XLi_2012_(14046234503).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 560,
+    "ancho": 960,
+    "archivo": "Toyota Corolla 1.8 XEi 2016 (36532940995).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "desde": 2015,
+    "hasta": 2019,
+    "imagen": "toyota-corolla-a2015.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_1.8_XEi_2016_(36532940995).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
    }
   ],
   "imagen": "toyota-corolla.webp",
@@ -4147,6 +5671,28 @@
   "licencia": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Corolla_Cross_L_FWD,_Front_Left,_11-21-2021.jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "TOYOTA|ETIOS": {
+  "archivo": "2018 Toyota Etios 1.5 XLS 5-door.jpg",
+  "autor": "Maxi-Napo-99",
+  "generaciones": [
+   {
+    "alto": 653,
+    "ancho": 960,
+    "archivo": "2018 Toyota Etios 1.5 XLS 5-door.jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2013,
+    "hasta": 2024,
+    "imagen": "toyota-etios-a2013.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Etios_1.5_XLS_5-door.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "toyota-etios.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Etios_1.5_XLS_5-door.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
  "TOYOTA|HIACE": {
   "archivo": "Toyota Hiace GL Grandia 2019.jpg",
@@ -4271,6 +5817,32 @@
     "pagina": "https://commons.wikimedia.org/wiki/File:2022_Toyota_HiLux_2.4_V_rear.jpg",
     "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
     "vista": "cola"
+   }
+  ],
+  "generaciones": [
+   {
+    "alto": 445,
+    "ancho": 960,
+    "archivo": "2005 Toyota Hilux Vigo D-4D 3.0 Front.jpg",
+    "autor": "Vauxford",
+    "desde": 2005,
+    "hasta": 2011,
+    "imagen": "toyota-hilux-pick-up-a2005.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2005_Toyota_Hilux_Vigo_D-4D_3.0_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "2013 Toyota Hilux 4x4 G.jpg",
+    "autor": "Jajadeleradesign",
+    "desde": 2012,
+    "hasta": 2015,
+    "imagen": "toyota-hilux-pick-up-a2012.webp",
+    "licencia": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Hilux_4x4_G.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0"
    }
   ],
   "imagen": "toyota-hilux-pick-up.webp",
@@ -4543,6 +6115,220 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Amarok_Highline_3.0_V6_(facelift,_Argentina)_(1-3).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
  },
+ "VOLKSWAGEN|BORA": {
+  "archivo": "Volkswagen Bora 2.0 Trendline 2007 (14357781688).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Volkswagen Bora 2.0 Trendline 2007 (14357781688).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2002,
+    "hasta": 2014,
+    "imagen": "volkswagen-bora-a2002.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Bora_2.0_Trendline_2007_(14357781688).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "volkswagen-bora.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Bora_2.0_Trendline_2007_(14357781688).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "VOLKSWAGEN|CROSSFOX": {
+  "archivo": "Volkswagen CrossFox 1.6 Trendline 2012 (15252427603).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Volkswagen CrossFox 1.6 2007 (12844660484).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2005,
+    "hasta": 2009,
+    "imagen": "volkswagen-crossfox-a2005.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_CrossFox_1.6_2007_(12844660484).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Volkswagen CrossFox 1.6 Trendline 2012 (15252427603).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2010,
+    "hasta": 2018,
+    "imagen": "volkswagen-crossfox-a2010.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_CrossFox_1.6_Trendline_2012_(15252427603).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "volkswagen-crossfox.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_CrossFox_1.6_Trendline_2012_(15252427603).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "VOLKSWAGEN|FOX": {
+  "archivo": "2012 Volkswagen Fox 1.6 Trendline.jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Volkswagen Fox 1.6 2005 (15026328593).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2004,
+    "hasta": 2009,
+    "imagen": "volkswagen-fox-a2004.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Fox_1.6_2005_(15026328593).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 612,
+    "ancho": 960,
+    "archivo": "2012 Volkswagen Fox 1.6 Trendline.jpg",
+    "autor": "Just a Man",
+    "desde": 2010,
+    "hasta": 2019,
+    "imagen": "volkswagen-fox-a2010.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2012_Volkswagen_Fox_1.6_Trendline.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "volkswagen-fox.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2012_Volkswagen_Fox_1.6_Trendline.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "VOLKSWAGEN|GOL": {
+  "archivo": "Volkswagen Gol (5039442666).jpg",
+  "autor": "Spanish Coches",
+  "generaciones": [
+   {
+    "alto": 640,
+    "ancho": 960,
+    "archivo": "Volkswagen Gol 1.6 Sport 2004 (28836853767).jpg",
+    "autor": "RL GNZLZ from Chile",
+    "desde": 2002,
+    "hasta": 2005,
+    "imagen": "volkswagen-gol-a2002.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_1.6_Sport_2004_(28836853767).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 647,
+    "ancho": 960,
+    "archivo": "Volkswagen Gol (5039442666).jpg",
+    "autor": "Spanish Coches",
+    "desde": 2006,
+    "hasta": 2015,
+    "imagen": "volkswagen-gol-a2006.webp",
+    "licencia": "CC BY 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_(5039442666).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/2.0"
+   }
+  ],
+  "imagen": "volkswagen-gol.webp",
+  "licencia": "CC BY 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_(5039442666).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "VOLKSWAGEN|GOL COUNTRY": {
+  "archivo": "VW Parati-Tandil-mar2016.jpg",
+  "autor": "Ezarate",
+  "generaciones": [
+   {
+    "alto": 437,
+    "ancho": 960,
+    "archivo": "VW Parati-Tandil-mar2016.jpg",
+    "autor": "Ezarate",
+    "desde": 2002,
+    "hasta": 2013,
+    "imagen": "volkswagen-gol-country-a2002.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:VW_Parati-Tandil-mar2016.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "volkswagen-gol-country.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:VW_Parati-Tandil-mar2016.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "VOLKSWAGEN|GOL TREND": {
+  "archivo": "Volkswagen Gol Comfortline 2017.jpg",
+  "autor": "RL GNZLZ",
+  "generaciones": [
+   {
+    "alto": 670,
+    "ancho": 960,
+    "archivo": "Volkswagen Gol Trend 1.6 Pack I 2011.jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2008,
+    "hasta": 2012,
+    "imagen": "volkswagen-gol-trend-a2008.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_Trend_1.6_Pack_I_2011.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 630,
+    "ancho": 960,
+    "archivo": "2015 Volkswagen Gol Trend 1.6 Pack III, I-Motion (front).jpg",
+    "autor": "Maxi-Napo-99",
+    "desde": 2013,
+    "hasta": 2016,
+    "imagen": "volkswagen-gol-trend-a2013.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2015_Volkswagen_Gol_Trend_1.6_Pack_III,_I-Motion_(front).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 540,
+    "ancho": 960,
+    "archivo": "Volkswagen Gol Comfortline 2017.jpg",
+    "autor": "RL GNZLZ",
+    "desde": 2017,
+    "hasta": 2023,
+    "imagen": "volkswagen-gol-trend-a2017.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_Comfortline_2017.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "volkswagen-gol-trend.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_Comfortline_2017.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "VOLKSWAGEN|GOLF": {
+  "archivo": "2002 Volkswagen Golf S 1.6 Front.jpg",
+  "autor": "Vauxford",
+  "generaciones": [
+   {
+    "alto": 559,
+    "ancho": 960,
+    "archivo": "2002 Volkswagen Golf S 1.6 Front.jpg",
+    "autor": "Vauxford",
+    "desde": 2002,
+    "hasta": 2010,
+    "imagen": "volkswagen-golf-a2002.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2002_Volkswagen_Golf_S_1.6_Front.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "volkswagen-golf.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2002_Volkswagen_Golf_S_1.6_Front.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "VOLKSWAGEN|NIVUS": {
   "archivo": "2021 Volkswagen Nivus 200 TSi Comfortline.jpg",
   "autor": "RL GNZLZ",
@@ -4625,6 +6411,28 @@
   },
   "licencia": "CC BY-SA 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2021_Volkswagen_Nivus_200_TSi_Comfortline.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "VOLKSWAGEN|PASSAT": {
+  "archivo": "Volkswagen Passat 1.8 TSi Highline 2012 (14282637437).jpg",
+  "autor": "order_242 from Chile",
+  "generaciones": [
+   {
+    "alto": 720,
+    "ancho": 960,
+    "archivo": "Volkswagen Passat 1.8 TSi Highline 2012 (14282637437).jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2011,
+    "hasta": 2015,
+    "imagen": "volkswagen-passat-a2011.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Passat_1.8_TSi_Highline_2012_(14282637437).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "volkswagen-passat.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Passat_1.8_TSi_Highline_2012_(14282637437).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
  },
  "VOLKSWAGEN|POLO": {
@@ -4734,6 +6542,40 @@
   "licencia": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Saveiro_1.6_MSi_Trendline_(front).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "VOLKSWAGEN|SURAN": {
+  "archivo": "Volkswagen Suran 1.6 Highline 2016.jpg",
+  "autor": "RL GNZLZ from Chile",
+  "generaciones": [
+   {
+    "alto": 522,
+    "ancho": 960,
+    "archivo": "Volkswagen Suran 1.6 Highline 2011.jpg",
+    "autor": "order_242 from Chile",
+    "desde": 2006,
+    "hasta": 2014,
+    "imagen": "volkswagen-suran-a2006.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Suran_1.6_Highline_2011.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "alto": 518,
+    "ancho": 960,
+    "archivo": "Volkswagen Suran 1.6 Highline 2016.jpg",
+    "autor": "RL GNZLZ from Chile",
+    "desde": 2015,
+    "hasta": 2019,
+    "imagen": "volkswagen-suran-a2015.webp",
+    "licencia": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Suran_1.6_Highline_2016.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  ],
+  "imagen": "volkswagen-suran.webp",
+  "licencia": "CC BY-SA 2.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Suran_1.6_Highline_2016.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
  },
  "VOLKSWAGEN|T-CROSS": {
   "archivo": "Volkswagen T-Cross (2023) 1X7A2499.jpg",
@@ -4905,6 +6747,96 @@
   "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Tera_1.0_High_(Colombia)_front_view.png",
   "url_licencia": "https://creativecommons.org/licenses/by/3.0"
  },
+ "VOLKSWAGEN|TIGUAN": {
+  "archivo": "11 Volkswagen Tiguan (2011) 1.jpg",
+  "autor": "Benespit",
+  "generaciones": [
+   {
+    "alto": 646,
+    "ancho": 960,
+    "archivo": "11 Volkswagen Tiguan (2011) 1.jpg",
+    "autor": "Benespit",
+    "desde": 2008,
+    "hasta": 2016,
+    "imagen": "volkswagen-tiguan-a2008.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:11_Volkswagen_Tiguan_(2011)_1.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "volkswagen-tiguan.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:11_Volkswagen_Tiguan_(2011)_1.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "VOLKSWAGEN|UP!": {
+  "archivo": "Volkswagen High Up! 1.0 2017 - (1).jpg",
+  "autor": "Just a Man",
+  "generaciones": [
+   {
+    "alto": 608,
+    "ancho": 960,
+    "archivo": "Volkswagen Move Up! 1.0 2015 (frente).jpg",
+    "autor": "Just a Man",
+    "desde": 2014,
+    "hasta": 2016,
+    "imagen": "volkswagen-up-a2014.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Move_Up!_1.0_2015_(frente).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "alto": 654,
+    "ancho": 960,
+    "archivo": "Volkswagen High Up! 1.0 2017 - (1).jpg",
+    "autor": "Just a Man",
+    "desde": 2017,
+    "hasta": 2022,
+    "imagen": "volkswagen-up-a2017.webp",
+    "licencia": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_High_Up!_1.0_2017_-_(1).jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "imagen": "volkswagen-up.webp",
+  "licencia": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_High_Up!_1.0_2017_-_(1).jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "VOLKSWAGEN|VENTO": {
+  "archivo": "Jetta Séptima Generación .jpg",
+  "autor": "Katumother",
+  "generaciones": [
+   {
+    "alto": 689,
+    "ancho": 960,
+    "archivo": "2008 Volkswagen Jetta (1KM) Turbo sedan 01.jpg",
+    "autor": "OSX",
+    "desde": 2006,
+    "hasta": 2010,
+    "imagen": "volkswagen-vento-a2006.webp",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2008_Volkswagen_Jetta_(1KM)_Turbo_sedan_01.jpg",
+    "url_licencia": ""
+   },
+   {
+    "alto": 960,
+    "ancho": 960,
+    "archivo": "Jetta Séptima Generación .jpg",
+    "autor": "Katumother",
+    "desde": 2019,
+    "hasta": 2026,
+    "imagen": "volkswagen-vento-a2019.webp",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jetta_S%C3%A9ptima_Generaci%C3%B3n_.jpg",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "imagen": "volkswagen-vento.webp",
+  "licencia": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Jetta_S%C3%A9ptima_Generaci%C3%B3n_.jpg",
+  "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
  "VOLKSWAGEN|VIRTUS": {
   "archivo": "Volkswagen Virtus Trendline 2023 (54196184648).jpg",
   "autor": "RL GNZLZ from Chile",
@@ -4958,5 +6890,27 @@
   "licencia": "CC BY-SA 2.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Virtus_Trendline_2023_(54196184648).jpg",
   "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "VOLKSWAGEN|VOYAGE": {
+  "archivo": "Volkswagen Voyage.JPG",
+  "autor": "Diego HC",
+  "generaciones": [
+   {
+    "alto": 600,
+    "ancho": 800,
+    "archivo": "Volkswagen Voyage.JPG",
+    "autor": "Diego HC",
+    "desde": 2009,
+    "hasta": 2021,
+    "imagen": "volkswagen-voyage-a2009.webp",
+    "licencia": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Voyage.JPG",
+    "url_licencia": "https://creativecommons.org/licenses/by/3.0"
+   }
+  ],
+  "imagen": "volkswagen-voyage.webp",
+  "licencia": "CC BY 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Voyage.JPG",
+  "url_licencia": "https://creativecommons.org/licenses/by/3.0"
  }
 }

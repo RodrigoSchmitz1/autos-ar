@@ -11,7 +11,7 @@
 // La perdida de valor va aparte: no es un gasto del mes.
 
 import { cargar, objetos, pesos, numero, millones, el, coincide, pie, PIEZAS } from "./comun.js";
-import { cargarFotos, foto, recorte, datosFoto, fotoGaleria } from "./autos.js";
+import { cargarFotos, foto, recorte, datosFoto, fotoAnio } from "./autos.js";
 import { nombreFamilia } from "./respuesta.js";
 import { navegacion } from "./nav.js";
 import { barraApilada, rubros } from "./graficos.js";
@@ -205,7 +205,7 @@ function mostrarTablero() {
   // La foto real del modelo (el auto recortado se ve pegado); sin foto, la marca en grande.
   const conFoto = Boolean(datosFoto(marca, fam));
   $("hero-foto").classList.toggle("con-foto", conFoto);
-  poner($("hero-foto"), conFoto ? fotoGaleria(marca, fam, 0) : el("div", { class: "hero-marca", text: marca }));
+  if (!conFoto) poner($("hero-foto"), el("div", { class: "hero-marca", text: marca }));
   $("nombre").textContent = nombreFamilia(marca, fam);
   dibujarTablero();
 }
@@ -214,6 +214,10 @@ function dibujarTablero() {
   const v = versiones.find((x) => x.id === estado.v) || versiones[0];
   estado.v = v.id;
   guardarEstado();
+  // La foto, de la generacion del anio elegido (el 0 km es este anio).
+  if (datosFoto(familia.marca, familia.familia)) {
+    poner($("hero-foto"), fotoAnio(familia.marca, familia.familia, Number(estado.a) || new Date().getFullYear()));
+  }
   const k = calcular(v);
   const odo = odometro(estado.a);
   const nombreProv = indice.provincias[estado.p] === "Ciudad Autónoma de Buenos Aires" ? "CABA" : indice.provincias[estado.p];
@@ -361,7 +365,7 @@ function dibujarRepuestos(v, odo) {
       : (r.orig && r.alt ? `original ${pesos(r.orig * r.i.unidades)}` : null);
     // Con precio propio, la fila lleva a los productos de esa pieza en Repuestos.
     const atributos = r.promedio ? { class: "fila" }
-      : { class: "fila enlace", href: `repuestos.html?m=${estado.m}&p=${r.tipo}`, title: "Ver los productos y dónde comprarlo" };
+      : { class: "fila enlace", href: `repuestos.html?m=${estado.m}&p=${r.tipo}&a=${Number(estado.a) || new Date().getFullYear()}`, title: "Ver los productos y dónde comprarlo" };
     return el(r.promedio ? "div" : "a", atributos, icono,
       el("div", {}, el("h3", {}, PIEZAS[r.tipo] || r.tipo, el("span", { class: `pildora ${clase}`, text: cuando })),
         el("p", { text: `Cada ${numero(r.i.km)} km${r.i.unidades > 1 ? ` · ${r.i.unidades} unidades` : ""} · a los ${numero(r.proximo)} km` })),

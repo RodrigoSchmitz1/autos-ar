@@ -17,6 +17,13 @@ el repo (sitio/img/autos/) y el sitio no depende de Commons para mostrarlas.
                                            cola, perfil, tablero...) para la
                                            galeria de la ficha, sin recortar,
                                            960 de ancho (exportar/fotos_galeria.csv)
+  sitio/img/autos/<marca>-<familia>-a<desde>.webp   una foto por generacion
+                                           (exportar/fotos_generaciones.csv), sin
+                                           recortar: los usados que circulan hace
+                                           muchos anios (Gol, Corolla, Hilux) se
+                                           muestran como eran en el anio elegido.
+                                           Un modelo sin foto principal toma de
+                                           principal la de su ultima generacion.
   sitio/img/autos/fotos.json               "MARCA|FAMILIA" -> archivo, autor,
                                            licencia y pagina de la foto
 
@@ -40,6 +47,7 @@ from ingesta.comun import pedir as _pedir
 LISTA = os.path.join("exportar", "fotos_modelos.csv")
 LISTA_INTERIOR = os.path.join("exportar", "fotos_interior.csv")
 LISTA_GALERIA = os.path.join("exportar", "fotos_galeria.csv")
+LISTA_GENERACIONES = os.path.join("exportar", "fotos_generaciones.csv")
 DESTINO = os.path.join("sitio", "img", "autos")
 API = "https://commons.wikimedia.org/w/api.php"
 ANCHO, ALTO = 480, 320
@@ -163,6 +171,29 @@ def procesar_galeria(lista, meta):
     return galeria
 
 
+def procesar_generaciones(lista, meta):
+    """Una foto por generacion: "MARCA|FAMILIA" -> [{desde, hasta, foto...}], de la mas vieja a la mas nueva."""
+    generaciones = {}
+    for fila in sorted(lista, key=lambda f: (f["marca"], f["familia"], int(f["desde"]))):
+        m = meta[fila["archivo_commons"]]
+        if not m["licencia"]:
+            raise ValueError(f"foto sin licencia en Commons: {fila['archivo_commons']}")
+        nombre = f"{slug(fila['marca'])}-{slug(fila['familia'])}-a{fila['desde']}.webp"
+        ruta = os.path.join(DESTINO, nombre)
+        if not os.path.exists(ruta):
+            with open(ruta, "wb") as f:
+                f.write(achicar(pedir(m["miniatura"])))
+            print(f"  {nombre}")
+        with Image.open(ruta) as im:
+            ancho, alto = im.size
+        generaciones.setdefault(f"{fila['marca']}|{fila['familia']}", []).append({
+            "desde": int(fila["desde"]), "hasta": int(fila["hasta"]) if fila["hasta"] else None,
+            "imagen": nombre, "ancho": ancho, "alto": alto,
+            "archivo": fila["archivo_commons"], "pagina": m["pagina"], "autor": m["autor"],
+            "licencia": m["licencia"], "url_licencia": m["url_licencia"]})
+    return generaciones
+
+
 def procesar(lista, meta, sufijo=""):
     """Baja (si falta) y recorta cada foto; devuelve "MARCA|FAMILIA" -> datos y credito."""
     fotos = {}
@@ -186,7 +217,8 @@ def procesar(lista, meta, sufijo=""):
 
 def main():
     listas = {}
-    for nombre, ruta in (("exterior", LISTA), ("interior", LISTA_INTERIOR), ("galeria", LISTA_GALERIA)):
+    for nombre, ruta in (("exterior", LISTA), ("interior", LISTA_INTERIOR), ("galeria", LISTA_GALERIA),
+                         ("generaciones", LISTA_GENERACIONES)):
         with open(ruta, encoding="utf-8") as f:
             listas[nombre] = list(csv.DictReader(f))
     os.makedirs(DESTINO, exist_ok=True)
@@ -200,10 +232,18 @@ def main():
     for clave, galeria in procesar_galeria(listas["galeria"], meta).items():
         if clave in fotos:
             fotos[clave]["galeria"] = galeria
+    for clave, generaciones in procesar_generaciones(listas["generaciones"], meta).items():
+        if clave not in fotos:
+            # Sin foto principal: la de la ultima generacion, recortada como las demas.
+            marca, familia = clave.split("|")
+            g = generaciones[-1]
+            fotos[clave] = procesar([{"marca": marca, "familia": familia, "archivo_commons": g["archivo"]}], meta)[clave]
+        fotos[clave]["generaciones"] = generaciones
     with open(os.path.join(DESTINO, "fotos.json"), "w", encoding="utf-8") as f:
         json.dump(fotos, f, ensure_ascii=False, indent=1, sort_keys=True)
     imagenes = ([v["imagen"] for v in fotos.values()] + [v["interior"]["imagen"] for v in fotos.values() if "interior" in v]
-                + [g["imagen"] for v in fotos.values() for g in v.get("galeria", [])])
+                + [g["imagen"] for v in fotos.values() for g in v.get("galeria", [])]
+                + [g["imagen"] for v in fotos.values() for g in v.get("generaciones", [])])
     peso = sum(os.path.getsize(os.path.join(DESTINO, n)) for n in imagenes)
     print(f"{len(fotos)} modelos, {len(imagenes)} fotos, {peso / 1024:.0f} KiB en {DESTINO}")
 
